@@ -55,5 +55,6 @@ plugins:
 collections:
   ingredients:
     output: true
+    sort_by: name
   recipes:
     output: true
