@@ -56,5 +56,6 @@ collections:
   ingredients:
     output: true
     sort_by: name
+    permalink: :collection/:name
   recipes:
     output: true
