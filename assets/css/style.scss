@@ -1,4 +1,5 @@
 ---
 ---
 
-@import 'jekyll-theme-hacker';
+$conifer: #53a0e8;
+@import "{{ site.theme }}";
