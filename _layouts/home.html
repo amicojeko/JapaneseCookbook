@@ -2,6 +2,7 @@
 layout: default
 ---
 
+{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
 <div class="home">
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
@@ -17,9 +18,19 @@ layout: default
   {% endfor %}
 
   <h2>Recipes</h2>
-  {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
   {% for recipe in site.recipes %}
     <span class="post-meta">{{ recipe.date | date: date_format }}</span>
+    <h3>
+      <a href="{{ recipe.url }}">
+        {{ recipe.name }}
+      </a>
+    </h3>
+  {% endfor %}
+
+ ## Sides
+  {% assign sides = site.recipes | where: 'pippo', 'side' %}
+
+  {% for recipe in sides %}
     <h3>
       <a href="{{ recipe.url }}">
         {{ recipe.name }}
@@ -40,7 +51,6 @@ layout: default
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
     {%- endif -%}
     <ul class="post-list">
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts -%}
       <li>
         <span class="post-meta">{{ post.date | date: date_format }}</span>
