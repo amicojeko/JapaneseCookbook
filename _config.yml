@@ -51,3 +51,9 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+collections:
+  ingredients:
+    output: true
+  recipes:
+    output: true
