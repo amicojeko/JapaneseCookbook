@@ -1,0 +1,7 @@
+{% for recipe in include.recipes %}
+  <h3>
+    <a href="{{ recipe.url }}">
+      {{ recipe.name }}
+    </a>
+  </h3>
+{% endfor %}

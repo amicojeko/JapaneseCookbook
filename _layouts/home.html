@@ -8,6 +8,8 @@ layout: default
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
+  {{ content }}
+
   <h2>Ingredients</h2>
   <div id="ingredients">
 
@@ -22,74 +24,29 @@ layout: default
 
   </div>
 
+
+  <h2>Base preparations</h2>
+  <h3>Stocks</h3>
+  {% assign recipes = site.posts | where_exp:"item", "item.categories contains 'base_preparations'" | where_exp:"item", "item.categories contains 'stocks'" | sort: "name" %}
+  {% include recipes.html recipes = recipes %}
+  <h3>Sauces</h3>
+  {% assign recipes = site.posts | where_exp:"item", "item.categories contains 'base_preparations'" | where_exp:"item", "item.categories contains 'sauces'" | sort: "name" %}
+  {% include recipes.html recipes = recipes %}
+  <h3>Condiments</h3>
+  {% assign recipes = site.posts | where_exp:"item", "item.categories contains 'base_preparations'" | where_exp:"item", "item.categories contains 'condiments'" | sort: "name" %}
+  {% include recipes.html recipes = recipes %}
+
   <h2>Recipes</h2>
-  {% for recipe in site.recipes %}
-    <span class="post-meta">{{ recipe.date | date: date_format }}</span>
+  <h3>Sides</h3>
+
+  {% assign sides = site.posts | where_exp:"item", "item.categories contains 'recipes'" | where_exp:"item", "item.categories contains 'sides'" | sort: "name" %}
+  {% for side in sides %}
     <h3>
-      <a href="{{ recipe.url }}">
-        {{ recipe.name }}
+      <a href="{{ side.url }}">
+        {{ side.name }}
       </a>
     </h3>
   {% endfor %}
 
- ## Sides
-  {% assign sides = site.recipes | where: 'pippo', 'side' %}
-
-  {% for recipe in sides %}
-    <h3>
-      <a href="{{ recipe.url }}">
-        {{ recipe.name }}
-      </a>
-    </h3>
-  {% endfor %}
-
-  {{ content }}
-
-  {% if site.paginate %}
-    {% assign posts = paginator.posts %}
-  {% else %}
-    {% assign posts = site.posts %}
-  {% endif %}
-
-  {%- if posts.size > 0 -%}
-    {%- if page.list_title -%}
-      <h2 class="post-list-heading">{{ page.list_title }}</h2>
-    {%- endif -%}
-    <ul class="post-list">
-      {%- for post in posts -%}
-      <li>
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <span class="post-meta">{{ post.categories }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
-
-    {% if site.paginate %}
-      <div class="pager">
-        <ul class="pagination">
-        {%- if paginator.previous_page %}
-          <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
-        {%- else %}
-          <li><div class="pager-edge">•</div></li>
-        {%- endif %}
-          <li><div class="current-page">{{ paginator.page }}</div></li>
-        {%- if paginator.next_page %}
-          <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
-        {%- else %}
-          <li><div class="pager-edge">•</div></li>
-        {%- endif %}
-        </ul>
-      </div>
-    {%- endif %}
-
-  {%- endif -%}
 
 </div>
