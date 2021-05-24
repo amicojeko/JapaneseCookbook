@@ -31,6 +31,7 @@ github_username:  amicojeko
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -56,6 +57,6 @@ collections:
   ingredients:
     output: true
     sort_by: name
-    permalink: :collection/:name
+    permalink: ":collection/:name"
   recipes:
     output: true

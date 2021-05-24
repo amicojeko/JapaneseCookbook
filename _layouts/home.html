@@ -9,13 +9,18 @@ layout: default
   {%- endif -%}
 
   <h2>Ingredients</h2>
-  {% for ingredient in site.ingredients %}
-    <h3>
-      <a href="{{ ingredient.url }}">
-        {{ ingredient.name }}
-      </a>
-    </h3>
-  {% endfor %}
+  <div id="ingredients">
+
+    {% assign ingredients = site.posts | where_exp:"item", "item.categories contains 'ingredients'" | sort: "name" %}
+    {% for ingredient in ingredients %}
+      <h3>
+        <a href="{{ ingredient.url }}">
+          {{ ingredient.name }}
+        </a>
+      </h3>
+    {% endfor %}
+
+  </div>
 
   <h2>Recipes</h2>
   {% for recipe in site.recipes %}
@@ -54,6 +59,7 @@ layout: default
       {%- for post in posts -%}
       <li>
         <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <span class="post-meta">{{ post.categories }}</span>
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
