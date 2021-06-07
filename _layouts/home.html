@@ -11,8 +11,7 @@ layout: default
   {{ content }}
 
   <h2>Ingredients</h2>
-  <div id="ingredients">
-
+  <div class="columns">
     {% assign ingredients = site.posts | where_exp:"item", "item.categories contains 'ingredients'" | sort: "name" %}
     {% for ingredient in ingredients %}
       <h3>
@@ -21,32 +20,48 @@ layout: default
         </a>
       </h3>
     {% endfor %}
-
   </div>
 
-
   <h2>Base preparations</h2>
-  <h3>Stocks</h3>
-  {% assign recipes = site.posts | where_exp:"item", "item.categories contains 'base_preparations'" | where_exp:"item", "item.categories contains 'stocks'" | sort: "name" %}
-  {% include recipes.html recipes = recipes %}
-  <h3>Sauces</h3>
-  {% assign recipes = site.posts | where_exp:"item", "item.categories contains 'base_preparations'" | where_exp:"item", "item.categories contains 'sauces'" | sort: "name" %}
-  {% include recipes.html recipes = recipes %}
-  <h3>Condiments</h3>
-  {% assign recipes = site.posts | where_exp:"item", "item.categories contains 'base_preparations'" | where_exp:"item", "item.categories contains 'condiments'" | sort: "name" %}
-  {% include recipes.html recipes = recipes %}
+
+  <div class="columns">
+    <h3>Stocks</h3>
+    {% assign recipes = site.posts | where_exp:"item", "item.categories contains 'base_preparations'" | where_exp:"item", "item.categories contains 'stocks'" | sort: "name" %}
+    {% include recipes.html recipes = recipes %}
+    <h3>Sauces</h3>
+    {% assign recipes = site.posts | where_exp:"item", "item.categories contains 'base_preparations'" | where_exp:"item", "item.categories contains 'sauces'" | sort: "name" %}
+    {% include recipes.html recipes = recipes %}
+    <h3>Condiments</h3>
+    {% assign recipes = site.posts | where_exp:"item", "item.categories contains 'base_preparations'" | where_exp:"item", "item.categories contains 'condiments'" | sort: "name" %}
+    {% include recipes.html recipes = recipes %}
+  </div>
 
   <h2>Recipes</h2>
-  <h3>Sides</h3>
-
-  {% assign sides = site.posts | where_exp:"item", "item.categories contains 'recipes'" | where_exp:"item", "item.categories contains 'sides'" | sort: "name" %}
-  {% for side in sides %}
-    <h3>
-      <a href="{{ side.url }}">
-        {{ side.name }}
-      </a>
-    </h3>
-  {% endfor %}
-
+  <div class="columns">
+    <h3>Sides</h3>
+    {% assign recipes = site.posts | where_exp:"item", "item.categories contains 'recipes'" | where_exp:"item", "item.categories contains 'sides'" | sort: "name" %}
+    {% include recipes.html recipes = recipes %}
+    <h3>Soups</h3>
+    {% assign recipes = site.posts | where_exp:"item", "item.categories contains 'recipes'" | where_exp:"item", "item.categories contains 'soups'" | sort: "name" %}
+    {% include recipes.html recipes = recipes %}
+    <h3>Agemono (Deep fried)</h3>
+    {% assign recipes = site.posts | where_exp:"item", "item.categories contains 'recipes'" | where_exp:"item", "item.categories contains 'agemono'" | sort: "name" %}
+    {% include recipes.html recipes = recipes %}
+    <h3>Rice</h3>
+    {% assign recipes = site.posts | where_exp:"item", "item.categories contains 'recipes'" | where_exp:"item", "item.categories contains 'rice'" | sort: "name" %}
+    {% include recipes.html recipes = recipes %}
+    <h3>Men-rui (noodles)</h3>
+    {% assign recipes = site.posts | where_exp:"item", "item.categories contains 'recipes'" | where_exp:"item", "item.categories contains 'menrui'" | sort: "name" %}
+    {% include recipes.html recipes = recipes %}
+    <h3>Fish</h3>
+    {% assign recipes = site.posts | where_exp:"item", "item.categories contains 'recipes'" | where_exp:"item", "item.categories contains 'fish'" | sort: "name" %}
+    {% include recipes.html recipes = recipes %}
+    <h3>Yakimono (grilled)</h3>
+    {% assign recipes = site.posts | where_exp:"item", "item.categories contains 'recipes'" | where_exp:"item", "item.categories contains 'fish'" | sort: "name" %}
+    {% include recipes.html recipes = recipes %}
+    <h3>Other</h3>
+    {% assign recipes = site.posts | where_exp:"item", "item.categories contains 'recipes'" | where_exp:"item", "item.categories contains 'other'" | sort: "name" %}
+    {% include recipes.html recipes = recipes %}
+  </div>
 
 </div>

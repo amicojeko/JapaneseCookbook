@@ -1,9 +1,7 @@
-// comment line
-
-#ingredients {
+.columns {
   display: flex;
   flex-flow: column wrap;
-  height: 320px;
+  max-height: 320px;
   h3 {
     width: 25%;
   }
