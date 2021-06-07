@@ -57,7 +57,7 @@ layout: default
     {% assign recipes = site.posts | where_exp:"item", "item.categories contains 'recipes'" | where_exp:"item", "item.categories contains 'fish'" | sort: "name" %}
     {% include recipes.html recipes = recipes %}
     <h3>Yakimono (grilled)</h3>
-    {% assign recipes = site.posts | where_exp:"item", "item.categories contains 'recipes'" | where_exp:"item", "item.categories contains 'fish'" | sort: "name" %}
+    {% assign recipes = site.posts | where_exp:"item", "item.categories contains 'recipes'" | where_exp:"item", "item.categories contains 'yakimono'" | sort: "name" %}
     {% include recipes.html recipes = recipes %}
     <h3>Other</h3>
     {% assign recipes = site.posts | where_exp:"item", "item.categories contains 'recipes'" | where_exp:"item", "item.categories contains 'other'" | sort: "name" %}
