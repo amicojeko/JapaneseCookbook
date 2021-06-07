@@ -53,4 +53,4 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-permalink: :path
+baseurl: /JapaneseCookbook

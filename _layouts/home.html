@@ -15,7 +15,7 @@ layout: default
     {% assign ingredients = site.posts | where_exp:"item", "item.categories contains 'ingredients'" | sort: "name" %}
     {% for ingredient in ingredients %}
       <h3>
-        <a href="{{ ingredient.url }}">
+        <a href="{{ ingredient.url | relative_url }}">
           {{ ingredient.name }}
         </a>
       </h3>
