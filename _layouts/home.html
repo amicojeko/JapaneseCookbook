@@ -22,6 +22,18 @@ layout: default
     {% endfor %}
   </div>
 
+  <h2>Tools</h2>
+  <div class="columns">
+    {% assign tools = site.posts | where_exp:"item", "item.categories contains 'tools'" | sort: "name" %}
+    {% for tool in tools %}
+      <h3>
+        <a href="{{ tool.url | relative_url }}">
+          {{ tool.name }}
+        </a>
+      </h3>
+    {% endfor %}
+  </div>
+
   <h2>Base preparations</h2>
 
   <div class="columns">
