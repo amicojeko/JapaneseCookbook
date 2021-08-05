@@ -1,8 +1,11 @@
 ---
 layout: recipe
 name: Potetosarada (ポテトサラダ)
+description: Insalata di patate
 date: 2021-08-04 12:25:00 +0200
 ---
+
+![Potetosarada](/JapaneseCookbook/assets/images/potetosarada.jpg)
 
 ## Ingredienti
 

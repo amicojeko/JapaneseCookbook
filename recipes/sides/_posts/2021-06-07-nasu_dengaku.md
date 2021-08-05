@@ -5,9 +5,15 @@ description: Melanzane al miso
 date: 2021-06-07 17:12:43 +0200
 ---
 
+![Potetosarada](/JapaneseCookbook/assets/images/nasudengaku.jpg)
+
+## Ingredienti
+
 Per la glassatura di miso, miso bianco o rosso (o mix) 2 cucchiai grandi, 2 cucchiai rasi di Mirin e 2 di sake. Mescolare bene ed ottenere una crema fluida uniforme
 
 Meglio usare le melanzane lunghe e strette piuttosto che quelle tonde
+
+## Preprarazione
 
 Metti subito a scaldare il grill del forno
 
