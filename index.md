@@ -1,7 +1,6 @@
 ---
 layout: home
-title: Welcome to my japanese cookbook
+title: Benvenuti sul mio libro di ricette giapponesi
 ---
 
-These are the results of my japanese kitchen experiments, and they are in constant evolution.
-Any suggestion is more than welcome.
+Questi sono i risultati delle mie sperimentazioni nella cucina giapponese, e sono in costante cambiamento ed evoluzione. Ogni suggerimento è più che ben accetto.

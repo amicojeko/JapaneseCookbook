@@ -6,3 +6,12 @@
     width: 25%;
   }
 }
+
+.columns-2 {
+  display: flex;
+  flex-flow: column wrap;
+  max-height: 520px;
+  h3 {
+    width: 50%;
+  }
+}

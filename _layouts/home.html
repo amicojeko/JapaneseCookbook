@@ -10,7 +10,7 @@ layout: default
 
   {{ content }}
 
-  <h2>Ingredients</h2>
+  <h2>Ingredienti</h2>
   <div class="columns">
     {% assign ingredients = site.posts | where_exp:"item", "item.categories contains 'ingredients'" | sort: "name" %}
     {% for ingredient in ingredients %}
@@ -34,44 +34,44 @@ layout: default
     {% endfor %}
   </div>
 
-  <h2>Base preparations</h2>
+  <h2>Preparazioni di base</h2>
 
   <div class="columns">
-    <h3>Stocks</h3>
+    <h3>Brodi</h3>
     {% assign recipes = site.posts | where_exp:"item", "item.categories contains 'base_preparations'" | where_exp:"item", "item.categories contains 'stocks'" | sort: "name" %}
     {% include recipes.html recipes = recipes %}
-    <h3>Sauces</h3>
+    <h3>Salse</h3>
     {% assign recipes = site.posts | where_exp:"item", "item.categories contains 'base_preparations'" | where_exp:"item", "item.categories contains 'sauces'" | sort: "name" %}
     {% include recipes.html recipes = recipes %}
-    <h3>Condiments</h3>
+    <h3>Condimenti</h3>
     {% assign recipes = site.posts | where_exp:"item", "item.categories contains 'base_preparations'" | where_exp:"item", "item.categories contains 'condiments'" | sort: "name" %}
     {% include recipes.html recipes = recipes %}
   </div>
 
-  <h2>Recipes</h2>
-  <div class="columns">
-    <h3>Sides</h3>
+  <h2>Ricette</h2>
+  <div class="columns-2">
+    <h3>Contorni - 惣菜</h3>
     {% assign recipes = site.posts | where_exp:"item", "item.categories contains 'recipes'" | where_exp:"item", "item.categories contains 'sides'" | sort: "name" %}
     {% include recipes.html recipes = recipes %}
-    <h3>Soups</h3>
+    <h3>Zuppe</h3>
     {% assign recipes = site.posts | where_exp:"item", "item.categories contains 'recipes'" | where_exp:"item", "item.categories contains 'soups'" | sort: "name" %}
     {% include recipes.html recipes = recipes %}
-    <h3>Agemono (Deep fried)</h3>
+    <h3>Agemono (fritti) - 揚げ物</h3>
     {% assign recipes = site.posts | where_exp:"item", "item.categories contains 'recipes'" | where_exp:"item", "item.categories contains 'agemono'" | sort: "name" %}
     {% include recipes.html recipes = recipes %}
-    <h3>Rice</h3>
+    <h3>Riso - ご飯物</h3>
     {% assign recipes = site.posts | where_exp:"item", "item.categories contains 'recipes'" | where_exp:"item", "item.categories contains 'rice'" | sort: "name" %}
     {% include recipes.html recipes = recipes %}
     <h3>Men-rui (noodles)</h3>
     {% assign recipes = site.posts | where_exp:"item", "item.categories contains 'recipes'" | where_exp:"item", "item.categories contains 'menrui'" | sort: "name" %}
     {% include recipes.html recipes = recipes %}
-    <h3>Fish</h3>
+    <h3>Pesce</h3>
     {% assign recipes = site.posts | where_exp:"item", "item.categories contains 'recipes'" | where_exp:"item", "item.categories contains 'fish'" | sort: "name" %}
     {% include recipes.html recipes = recipes %}
-    <h3>Yakimono (grilled)</h3>
+    <h3>Yakimono (alla griglia)</h3>
     {% assign recipes = site.posts | where_exp:"item", "item.categories contains 'recipes'" | where_exp:"item", "item.categories contains 'yakimono'" | sort: "name" %}
     {% include recipes.html recipes = recipes %}
-    <h3>Other</h3>
+    <h3>Altre</h3>
     {% assign recipes = site.posts | where_exp:"item", "item.categories contains 'recipes'" | where_exp:"item", "item.categories contains 'other'" | sort: "name" %}
     {% include recipes.html recipes = recipes %}
   </div>
