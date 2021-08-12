@@ -1,6 +1,8 @@
 ---
 layout: ingredient
-name: Sesame oil
+name: Olio di Sesamo
 ---
 
-Sesame oil description
+Olio di Sesamo
+
+![Olio di Sesamo](/JapaneseCookbook/assets/images/ingredients/sesame-oil-1.jpg)
