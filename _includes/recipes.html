@@ -1,7 +1,9 @@
-{% for recipe in include.recipes %}
-  <h3>
-    <a href="{{ recipe.url | relative_url }}">
-      {{ recipe.name }}
-    </a>
-  </h3>
-{% endfor %}
+<div class="panel">
+  {% for recipe in include.recipes %}
+    <h4>
+      <a href="{{ recipe.url | relative_url }}">
+        {{ recipe.name }}
+      </a>
+    </h4>
+  {% endfor %}
+</div>

@@ -11,26 +11,26 @@ layout: default
   {{ content }}
 
   <h2>Ingredienti</h2>
-  <div class="columns">
+  <div class="panel columns">
     {% assign ingredients = site.posts | where_exp:"item", "item.categories contains 'ingredients'" | sort: "name" %}
     {% for ingredient in ingredients %}
-      <h3>
+      <h4>
         <a href="{{ ingredient.url | relative_url }}">
           {{ ingredient.name }}
         </a>
-      </h3>
+      </h4>
     {% endfor %}
   </div>
 
   <h2>Materiale necessario</h2>
-  <div>
+  <div class="panel">
     {% assign tools = site.posts | where_exp:"item", "item.categories contains 'tools'" | sort: "name" %}
     {% for tool in tools %}
-      <h3>
+      <h4>
         <a href="{{ tool.url | relative_url }}">
           {{ tool.name }}
         </a>
-      </h3>
+      </h4>
     {% endfor %}
   </div>
 

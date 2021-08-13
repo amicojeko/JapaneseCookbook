@@ -15,3 +15,23 @@
     width: 50%;
   }
 }
+
+h2 {
+  border-bottom: 1px solid black !important;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 1.17em;
+  margin: 7px 0 7px 0;
+}
+
+.panel {
+  // border: 1px solid gray;
+  padding: 5px 25px;
+  background-color: #f0f0f0;
+  border-radius: 25px;
+}
