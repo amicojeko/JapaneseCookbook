@@ -22,7 +22,7 @@ layout: default
     {% endfor %}
   </div>
 
-  <h2>Tools</h2>
+  <h2>Attrezzatura</h2>
   <div class="columns">
     {% assign tools = site.posts | where_exp:"item", "item.categories contains 'tools'" | sort: "name" %}
     {% for tool in tools %}
@@ -70,6 +70,9 @@ layout: default
     {% include recipes.html recipes = recipes %}
     <h3>Yakimono (alla griglia)</h3>
     {% assign recipes = site.posts | where_exp:"item", "item.categories contains 'recipes'" | where_exp:"item", "item.categories contains 'yakimono'" | sort: "name" %}
+    {% include recipes.html recipes = recipes %}
+    <h3>Tsukemono (marinati)</h3>
+    {% assign recipes = site.posts | where_exp:"item", "item.categories contains 'recipes'" | where_exp:"item", "item.categories contains 'tsukemono'" | sort: "name" %}
     {% include recipes.html recipes = recipes %}
     <h3>Altre</h3>
     {% assign recipes = site.posts | where_exp:"item", "item.categories contains 'recipes'" | where_exp:"item", "item.categories contains 'other'" | sort: "name" %}
