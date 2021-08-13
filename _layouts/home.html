@@ -22,8 +22,8 @@ layout: default
     {% endfor %}
   </div>
 
-  <h2>Attrezzatura</h2>
-  <div class="columns">
+  <h2>Materiale necessario</h2>
+  <div>
     {% assign tools = site.posts | where_exp:"item", "item.categories contains 'tools'" | sort: "name" %}
     {% for tool in tools %}
       <h3>
@@ -36,7 +36,7 @@ layout: default
 
   <h2>Preparazioni di base</h2>
 
-  <div class="columns">
+  <div>
     <h3>Brodi</h3>
     {% assign recipes = site.posts | where_exp:"item", "item.categories contains 'base_preparations'" | where_exp:"item", "item.categories contains 'stocks'" | sort: "name" %}
     {% include recipes.html recipes = recipes %}
@@ -49,7 +49,7 @@ layout: default
   </div>
 
   <h2>Ricette</h2>
-  <div class="columns-2">
+  <div>
     <h3>Contorni - 惣菜</h3>
     {% assign recipes = site.posts | where_exp:"item", "item.categories contains 'recipes'" | where_exp:"item", "item.categories contains 'sides'" | sort: "name" %}
     {% include recipes.html recipes = recipes %}
