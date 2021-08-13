@@ -1,18 +1,8 @@
 .columns {
   display: flex;
   flex-flow: column wrap;
-  max-height: 320px;
-  h3 {
-    width: 25%;
-  }
-}
-
-.columns-2 {
-  display: flex;
-  flex-flow: column wrap;
-  max-height: 520px;
-  h3 {
-    width: 50%;
+  @media only screen and (min-width: 992px) {
+    max-height: 320px;
   }
 }
 
@@ -34,4 +24,5 @@ h4 {
   padding: 5px 25px;
   background-color: #f0f0f0;
   border-radius: 25px;
+  margin-bottom: 10px;
 }
