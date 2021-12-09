@@ -1,7 +1,7 @@
 ---
 layout: recipe
 name: Takikomi Gohan (Riso misto) 炊き込みご飯
-date: 2021-10-12 11:57:00 +0200
+date: 2021-12-09 13:57:00 +0200
 ---
 
 Il Takikomi gohan e' il riso misto con quello che vuoi dentro, cotto direttamente nella risiera.
