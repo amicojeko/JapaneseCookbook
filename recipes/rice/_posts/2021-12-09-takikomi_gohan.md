@@ -24,11 +24,11 @@ Piatto superveloce per tutti i giorni, metti nella risiera e dimentica.
 
 ## Preparazione
 
-Quando lavi il riso poi lascialo a bagno una mezz’ora e poi un quarto d’ora ad asciutgare: assorbira’ meglio il condimento
+Quando lavi il riso poi lascialo a bagno una mezz’ora e poi un quarto d’ora ad asciugare: assorbira’ meglio il condimento
 
 Metti gli shiitake a mollo nel dashi tiepido, dopo mezz’ora filtra il tutto, otterrai lo shiitake dashi.
 
-Nella risiera metti il riso, il sale (non te lo scordare, molto poco ma ci vuole) la soia e il mirin, lo shiitake dashi (deve essere della stessa quantita’ in volume del riso) e mischia bene, fai depositare il riso sotto e metti sopra, a strati, gli ingredienti, dal più duro al piu’ morbido.
+Nella risiera metti il riso, il sale (non te lo scordare, molto poco ma ci vuole) la soia e il mirin, lo shiitake dashi (deve essere della stessa quantita’ in volume del riso) e mischia bene, fai depositare il riso e poi sopra metti, a strati, gli ingredienti, dal più duro al piu’ morbido.
 
 Accendi la risiera e non toccare, gira solo quando ha finito, e vedrai che ti mangi.
 
