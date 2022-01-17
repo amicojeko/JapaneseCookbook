@@ -5,7 +5,7 @@ description: Melanzane al miso
 date: 2021-06-07 17:12:43 +0200
 ---
 
-![Potetosarada](/JapaneseCookbook/assets/images/nasudengaku.jpg)
+![Potetosarada](/assets/images/nasudengaku.jpg)
 
 ## Ingredienti
 

@@ -1,6 +1,6 @@
 # Welcome to my Japanese cookbook
 
-The cookbook is available at https://amicojeko.github.io/JapaneseCookbook/
+The cookbook is available at http://ricettegiapponesi.jeko.net/
 
 To run locally
 

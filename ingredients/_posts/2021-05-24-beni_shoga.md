@@ -18,5 +18,5 @@ Consiglio di farne 2 barattolini, uno con abbastanza Umezu da bagnare tutto lo z
 Mettere in frigorifero, è pronto dopo 2-3 giorni e dura anche un anno.
 
 
-![Beni Shoga](/JapaneseCookbook/assets/images/ingredients/benishoga-1.jpg)
-![Beni Shoga](/JapaneseCookbook/assets/images/ingredients/benishoga-3.jpg)
+![Beni Shoga](/assets/images/ingredients/benishoga-1.jpg)
+![Beni Shoga](/assets/images/ingredients/benishoga-3.jpg)

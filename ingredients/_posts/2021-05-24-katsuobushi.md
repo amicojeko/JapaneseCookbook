@@ -5,4 +5,4 @@ name: Katsuobushi
 
 Katsuobushi - fiocchi di bonito (palamita) essiccato.
 
-![Katsuobushi](/JapaneseCookbook/assets/images/ingredients/katsuobushi-1.jpg)
+![Katsuobushi](/assets/images/ingredients/katsuobushi-1.jpg)
