@@ -1,6 +1,7 @@
 ---
 layout: recipe
 name: Ninniku Shoyuzuke (ニンニク醤油漬け)
+description: Aglio conservato in salsa di soia
 date: 2022-01-17 18:00:00 +0200
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: ingredient
 name: Shichimi togarashi
+description: Condimento piccante molto pololare in Giappone
 ---
 
 Shichimi togarashi

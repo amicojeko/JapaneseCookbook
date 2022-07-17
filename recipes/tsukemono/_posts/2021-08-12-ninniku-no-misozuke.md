@@ -1,6 +1,7 @@
 ---
 layout: recipe
 name: Ninniku no Misozuke
+description: Aglio conservato sotto miso
 date: 2022-01-17 18:00:00 +0200
 ---
 

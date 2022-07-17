@@ -1,6 +1,6 @@
 ---
 layout: recipe
-name: Teriyaki Chicken
+name: Pollo Teriyaki
 date: 2021-06-07
 ---
 

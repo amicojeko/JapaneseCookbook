@@ -1,6 +1,7 @@
 ---
 layout: recipe
 name: Chawanmushi
+description: Budino di uova cotto al vapore
 date: 2021-05-24 11:12:43 +0200
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: ingredient
 name: Katsuobushi
+description: Scaglie di palamita fermentata ed essiccata
 ---
 
 Katsuobushi - fiocchi di bonito (palamita) essiccato.

@@ -1,6 +1,7 @@
 ---
 layout: recipe
 name: Takikomi Gohan (Riso misto) 炊き込みご飯
+description: Riso svuotafrigo cotto direttamente nella risiera
 date: 2021-12-09 13:57:00 +0200
 ---
 
