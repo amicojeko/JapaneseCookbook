@@ -10,30 +10,6 @@ layout: default
 
   {{ content }}
 
-  <h2>Ingredienti</h2>
-  <div class="panel columns">
-    {% assign ingredients = site.posts | where_exp:"item", "item.categories contains 'ingredients'" | sort: "name" %}
-    {% for ingredient in ingredients %}
-      <h4>
-        <a href="{{ ingredient.url | relative_url }}">
-          {{ ingredient.name }}
-        </a>
-      </h4>
-    {% endfor %}
-  </div>
-
-  <h2>Materiale necessario</h2>
-  <div class="panel">
-    {% assign tools = site.posts | where_exp:"item", "item.categories contains 'tools'" | sort: "name" %}
-    {% for tool in tools %}
-      <h4>
-        <a href="{{ tool.url | relative_url }}">
-          {{ tool.name }}
-        </a>
-      </h4>
-    {% endfor %}
-  </div>
-
   <h2>Preparazioni di base</h2>
 
   <div>
@@ -45,6 +21,9 @@ layout: default
     {% include recipes.html recipes = recipes %}
     <h3>Condimenti</h3>
     {% assign recipes = site.posts | where_exp:"item", "item.categories contains 'base_preparations'" | where_exp:"item", "item.categories contains 'condiments'" | sort: "name" %}
+    {% include recipes.html recipes = recipes %}
+    <h3>Sushi e sashimi</h3>
+    {% assign recipes = site.posts | where_exp:"item", "item.categories contains 'base_preparations'" | where_exp:"item", "item.categories contains 'sushi_and_sashimi'" | sort: "name" %}
     {% include recipes.html recipes = recipes %}
   </div>
 
@@ -77,6 +56,30 @@ layout: default
     <h3>Altre</h3>
     {% assign recipes = site.posts | where_exp:"item", "item.categories contains 'recipes'" | where_exp:"item", "item.categories contains 'other'" | sort: "name" %}
     {% include recipes.html recipes = recipes %}
+  </div>
+
+  <h2>Ingredienti</h2>
+  <div class="panel columns">
+    {% assign ingredients = site.posts | where_exp:"item", "item.categories contains 'ingredients'" | sort: "name" %}
+    {% for ingredient in ingredients %}
+      <h4>
+        <a href="{{ ingredient.url | relative_url }}">
+          {{ ingredient.name }}
+        </a>
+      </h4>
+    {% endfor %}
+  </div>
+
+  <h2>Materiale necessario</h2>
+  <div class="panel">
+    {% assign tools = site.posts | where_exp:"item", "item.categories contains 'tools'" | sort: "name" %}
+    {% for tool in tools %}
+      <h4>
+        <a href="{{ tool.url | relative_url }}">
+          {{ tool.name }}
+        </a>
+      </h4>
+    {% endfor %}
   </div>
 
 </div>
