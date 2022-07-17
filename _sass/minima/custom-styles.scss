@@ -7,11 +7,16 @@
 }
 
 h2 {
-  border-bottom: 1px solid black !important;
+  color: white;
+  font-weight: 700;
+  background-color: deeppink;
+  padding-left: 10px;
+  border-radius: 5px;
 }
 
 h3 {
-  font-weight: 400;
+  font-size: 1.5em;
+  font-weight: 800;
 }
 
 h4 {
@@ -22,7 +27,7 @@ h4 {
 .panel {
   // border: 1px solid gray;
   padding: 5px 25px;
-  background-color: #f0f0f0;
+  background-color: #FFF311;
   border-radius: 5px;
   margin-bottom: 10px;
 }
@@ -49,4 +54,15 @@ h4 {
   background-size: contain;
   width: 100px;
   height: 100px;
+}
+
+.logos {
+  display: block;
+  background-image: url('/assets/images/JEKO-CUCINA-02.png');
+  background-size: contain;
+  height: 50px;
+}
+
+a, a:visited {
+  color: #8b38f9;
 }
