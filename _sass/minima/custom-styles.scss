@@ -43,7 +43,8 @@ h4 {
 }
 
 .logo {
-  display: inline-block;
+  float: left;
+  display: block;
   background-image: url('/assets/images/JEKO-CUCINA-02.png');
   background-size: contain;
   width: 100px;
