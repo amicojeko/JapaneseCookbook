@@ -1,6 +1,7 @@
 ---
 layout: recipe
-name: Aceto per sushi (寿司酢)
+name: Sushisu (寿司酢)
+description: Il condimento per il riso per il sushi
 date: 2022-07-21 12:00:00 +0200
 ---
 
