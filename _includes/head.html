@@ -3,7 +3,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="manifest" href="manifest.json">
+  <link rel="manifest" href="{{ site.baseurl }}/manifest.json">
   <link rel="apple-touch-icon" sizes="128x128" href="{{ "/assets/images/icon_128.png" | relative_url }}">
   <link rel="icon" sizes="192x192" href="{{ "/assets/images/icon_192.png" | relative_url }}">
   <link rel="icon" type="image/png" href="{{ "/assets/images/icon_32.png" | relative_url }}">
@@ -13,6 +13,24 @@
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
   {%- endif -%}
+
+  <script>
+    if ("serviceWorker" in navigator) {
+      if (navigator.serviceWorker.controller) {
+        console.log("An active service worker found, no need to register");
+      } else {
+        // Register the service worker
+        navigator.serviceWorker
+          .register("{{ site.baseurl }}/serviceworker.js", {
+            scope: "./"
+          })
+          .then(function (reg) {
+            console.log("Service worker has been registered for scope: " + reg.scope);
+          });
+      }
+    }
+  </script>
+
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-YZDG2VN7ZG"></script>
   <script>
