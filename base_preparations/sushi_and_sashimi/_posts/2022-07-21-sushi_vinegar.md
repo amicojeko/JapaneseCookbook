@@ -7,14 +7,21 @@ date: 2022-07-21 12:00:00 +0200
 
 ## Ingredienti
 
-per 200 ml
+### per 200 ml
 - Aceto di riso 145ml
 - Zucchero 80g
-- Sale 25g*
+- Sale 20g*
 - 1 pezzetto di kombu
 
-*Ho provato con 25g e mi sembrava molto salata, ho provato con 16g e direi che e' perfetta, da verificare comunque.
+*La ricetta originale dice 25g di sale, ma io ho trovato che 20g sono più che sufficienti.
 
+### per 500 ml
+- Aceto di riso 360ml
+- Zucchero 200g
+- Sale 50g**
+- 1 pezzetto di kombu
+
+**La ricetta originale dice 50g di sale, ma io ho trovato che 20g sono più che sufficienti.
 
 ## Preparazione
 
