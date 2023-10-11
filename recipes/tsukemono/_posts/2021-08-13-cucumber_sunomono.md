@@ -2,7 +2,7 @@
 layout: recipe
 name: Sunomono di cetriolo
 description: Cetrioli sott'aceto
-date: 2021-08-13 18:00:00 +0200
+date: 2023-10-11 16:12:43 +0200
 ---
 
 ## Ingredienti
