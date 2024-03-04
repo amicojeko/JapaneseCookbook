@@ -5,20 +5,20 @@ description: Budino di uova cotto al vapore
 date: 2023-10-11 16:12:43 +0200
 ---
 
-## Ingredienti per 3 persone
+## Ingredienti per 4 persone
 
-- 3 uova grandi
-- 300 ml dashi
-- 1 cucchiaio di salsa di soia (meglio se chiara)
-- 1 cucchiaio di mirin
+- 120 ml di uovo, io uso 3 rossi e bianchi q.b. per arrivare a 120 ml
+- 360 ml dashi (rapporto di 3:1 con le uova)
+- 30 ml di salsa di soia (meglio se chiara)
+- 20 ml  di mirin
+- 20 ml di sake (opzionale)
 - un pizzico di sale
-- opzionale: 20ml di sake
 
 (versione alternativa: 30ml di salsa di soia e 20ml di mirin)
 
 ### Per guarnire
 
-- 3-6 gamberi
+- 4-8 gamberi
 - ginnan
 - edamame
 - 3 shiitake
@@ -26,18 +26,21 @@ date: 2023-10-11 16:12:43 +0200
 
 ## Attrezzature per la preparazione e la cottura
 
-- 3 ciotoline di ceramica da 150ml
+- 4 bicchieri di ceramica o terracotta
 - 1 pentola per il vapore
 - 1 colino a maglie strette
 
 ## Preparazione
 
-Unire in una ciotola 2 uova intere e un rosso, con il dashi, il mirin, la salsa di soia (se si vuole, il sake) e il sale. Mescolare delicatamente con le bacchette, cercando di non incorporare aria.
+Unire in una ciotola le uova, con il dashi, il mirin, la salsa di soia (se si vuole, il sake) e il sale. Mescolare bene con luna frusta, cercando di non incorporare aria.
 Setacciare il composto con un colino a maglie strette in un'altra ciotola, e versare il composto nelle ciotoline di ceramica.
-Mettere nelle ciotoline uno o due gamberi, un paio di ginnan, un paio di edamame, e un fungo shiitake fatto a fettine.
-Versare il composto nelle ciotoline, e coprire con un foglio di alluminio. Mettere le ciotoline nella pentola per il vapore, e cuocere a circa 90 gradi per 8 minuti. A questo punto si possono aggiungere altre decorazioni, come un gambero o delle capesante fatte a fettine, e cuocere per altri 2 minuti. Altrimenti, si puo' cuocere per 10 minuti senza aggiungere nulla.
+Mettere nelle ciotoline uno o due gamberi, un paio di ginnan, e un fungo shiitake fatto a fettine.
+Versare il composto nelle ciotoline, e coprire con un foglio di alluminio. Mettere le ciotoline nella pentola per il vapore, e cuocere a circa 90 gradi per 10 minuti. 
+La cosa piu' semplice per mantenere la temperatura é  mettere una bacchetta tra il coperchio e la pentola, per tenere il coperchio socchiuso. Tenere la fiamma appena sufficiente a far sobbollire l'acqua.
 
-Spegnere il fuoco, e lasciare riposare per 7 minuti. A questo punto aggiungere un po' di prezzemolo o cipolline, e servire caldo.
+A questo punto si possono aggiungere altre decorazioni, come l'edamame, o un gambero o delle capesante fatte a fettine, e cuocere per altri 2 minuti. Altrimenti, si puo' cuocere per 12-13 minuti senza aggiungere nulla.
+
+Spegnere il fuoco, e lasciare riposare per 7-8 minuti. A questo punto aggiungere un po' di prezzemolo o cipolline, e servire caldo.
 
 Alternativamente, si puo' mettere in frigorifero e gustare freddo, con del buon vino bianco o del sake.
 
