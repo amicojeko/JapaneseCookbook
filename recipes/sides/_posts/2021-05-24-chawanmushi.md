@@ -8,9 +8,9 @@ date: 2023-10-11 16:12:43 +0200
 ## Ingredienti per 4 persone
 
 - 120 ml di uovo, io uso 3 rossi e bianchi q.b. per arrivare a 120 ml
-- 360 ml dashi (rapporto di 3:1 con le uova)
+- 360 ml [(dashi)]({% post_url base_preparations/stocks/2021-05-24-dashi %}) (rapporto di 3:1 con le uova)
 - 30 ml di salsa di soia (meglio se chiara)
-- 20 ml  di mirin
+- 20 ml di mirin
 - 20 ml di sake (opzionale)
 - un pizzico di sale
 
@@ -35,7 +35,7 @@ date: 2023-10-11 16:12:43 +0200
 Unire in una ciotola le uova, con il dashi, il mirin, la salsa di soia (se si vuole, il sake) e il sale. Mescolare bene con luna frusta, cercando di non incorporare aria.
 Setacciare il composto con un colino a maglie strette in un'altra ciotola, e versare il composto nelle ciotoline di ceramica.
 Mettere nelle ciotoline uno o due gamberi, un paio di ginnan, e un fungo shiitake fatto a fettine.
-Versare il composto nelle ciotoline, e coprire con un foglio di alluminio. Mettere le ciotoline nella pentola per il vapore, e cuocere a circa 90 gradi per 10 minuti. 
+Versare il composto nelle ciotoline, e coprire con un foglio di alluminio. Mettere le ciotoline nella pentola per il vapore, e cuocere a circa 90 gradi per 10 minuti.
 La cosa piu' semplice per mantenere la temperatura é  mettere una bacchetta tra il coperchio e la pentola, per tenere il coperchio socchiuso. Tenere la fiamma appena sufficiente a far sobbollire l'acqua.
 
 A questo punto si possono aggiungere altre decorazioni, come l'edamame, o un gambero o delle capesante fatte a fettine, e cuocere per altri 2 minuti. Altrimenti, si puo' cuocere per 12-13 minuti senza aggiungere nulla.
