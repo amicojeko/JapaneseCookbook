@@ -20,12 +20,14 @@
 
 title: Jeko's Japanese Cookbook
 email: jeko@jeko.net
+author: Jeko
 description: >- # this means to ignore newlines until "baseurl:"
-  Le mie ricette giapponesi.
+  Le mie ricette giapponesi
 # baseurl: "" # the subpath of your site, e.g. /blog
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jeko
 github_username:  amicojeko
+instagram_username: amicojeko
 
 # Build settings
 theme: minima
