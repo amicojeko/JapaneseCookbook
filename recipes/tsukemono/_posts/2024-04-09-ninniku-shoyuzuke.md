@@ -2,9 +2,10 @@
 layout: recipe
 name: Ninniku Shoyuzuke (ニンニク醤油漬け)
 description: Aglio conservato in salsa di soia
-date: 2022-01-17 18:00:00 +0200
+date: 2024-04-09 18:00:00 +0200
 ---
 
+Il Ninniku Shoyuzuke è una preparazione semplice per chi ama i sapori intensi. Si tratta di spicchi d'aglio immersi e conservati nella salsa di soia. Con il tempo, l'aglio assorbe il sapore salato e umami della salsa di soia, perdendo parte del suo morso pungente e diventando allo stesso tempo più morbido e gustoso. Questo metodo di conservazione non solo prolunga la durata dell'aglio ma lo trasforma in un condimento versatile che può essere usato per dare carattere a piatti, marinature o anche da solo, come contorno o antipasto.
 
 ## Ricetta 1
 
