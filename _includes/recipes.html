@@ -1,12 +1,10 @@
 <div class="panel">
   {% for recipe in include.recipes %}
     <h4>
-      {% if recipe.disabled %}
-        {{ recipe.name }}
-      {% else %}
+      {% unless recipe.disabled %}
         <a href="{{ recipe.url | relative_url }}">{{ recipe.name }}</a>
-      {% endif %}
-      <small>{{ recipe.description }}</small>
+        <small>{{ recipe.description }}</small>
+      {% endunless %}
     </h4>
   {% endfor %}
 </div>
