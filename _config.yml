@@ -32,7 +32,6 @@ instagram_username: amicojeko
 # Build settings
 theme: minima
 plugins:
-  - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
 
