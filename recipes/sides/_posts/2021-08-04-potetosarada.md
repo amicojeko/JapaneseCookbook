@@ -14,7 +14,7 @@ date: 2021-08-04 12:25:00 +0200
 - Cetriolo 1
 - Cipolla dorata 1/2
 - Carote 3
-- Mirin 1 cucchiaio
+- 1 cucchiaio di [mirin]({% post_url ingredients/2024-03-09-mirin %})
 - Aceto di riso 1 cucchiaio
 - Zucchero 2 cucchiaini circa
 - Sale qb
