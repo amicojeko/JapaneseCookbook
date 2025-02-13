@@ -13,7 +13,7 @@ Piatto superveloce per tutti i giorni, metti nella risiera e dimentica.
 - 1 tazza di riso
 - 1 cucchiaio di salsa di soia
 - 1 cucchiaio di mirin
-- 1 tazza di [(dashi)]({% post_url base_preparations/stocks/2021-05-24-dashi %})
+- 1 tazza di [dashi]({% post_url base_preparations/stocks/2021-05-24-dashi %})
 - 1 pizzico di sale (un cucchiaino piccolo? Da misurare)
 - 3-4 shiitake
 - Mezza carota a julienne
