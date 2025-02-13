@@ -11,7 +11,7 @@ date: 2023-10-11 16:12:43 +0200
 - 360 ml di [dashi]({% post_url base_preparations/stocks/2021-05-24-dashi %}) (rapporto di 3:1 con le uova)
 - 30 ml di salsa di soia (meglio se chiara)
 - 20 ml di mirin
-- 20 ml di [sake]({% post_url base_preparations/stocks/2024-03-09-sake %}) (opzionale)
+- 20 ml di [sake]({% post_url ingredients/2024-03-09-sake %}) (opzionale)
 - un pizzico di sale
 
 (versione alternativa: 30ml di salsa di soia e 20ml di mirin)
