@@ -11,6 +11,8 @@ date: 2021-06-07 17:12:43 +0200
 
 Per la glassatura di miso, miso bianco o rosso (o mix) 2 cucchiai grandi, 2 cucchiai rasi di [mirin]({% post_url ingredients/2024-03-09-mirin %}) e 2 di [sake]({% post_url ingredients/2024-03-09-sake %}). Mescolare bene ed ottenere una crema fluida uniforme
 
+1 [negi]({% post_url ingredients/2021-05-24-negi %}) (o cipollotto verde) per guarnire
+
 Meglio usare le melanzane lunghe e strette piuttosto che quelle tonde
 
 ## Preprarazione
@@ -25,6 +27,5 @@ Mettere le melanzane in una teglia e spennellarle con la glassatura di miso, fin
 
 Vacci piano col miso che senno’ ti vengono salate
 
-
-Guarnire con negi (o cipolline)
+Guarnire con [negi]({% post_url ingredients/2021-05-24-negi %}) (o cipolline)
 

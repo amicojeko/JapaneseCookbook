@@ -10,7 +10,7 @@ date: 2021-08-04 12:25:00 +0200
 ## Ingredienti
 
 - Patate a pasta gialla 1.5 kg
-- Maionese Kewpie 250 ml circa (regolabili a piacere)
+- [Maionese Kewpie]({% post_url ingredients/2021-05-24-mayo %}) 250 ml circa (regolabili a piacere)
 - Cetriolo 1
 - Cipolla dorata 1/2
 - Carote 3
