@@ -1,0 +1,12 @@
+input: .
+output: .retype
+url: https://ricettegiapponesi.jeko.net
+favicon: assets/images/icon_32.png
+meta:
+  title: " | Le ricette giapponesi di Jeko"
+branding:
+  title: Le ricette giapponesi di Jeko
+  label: Docs
+links:
+footer:
+  copyright: "&copy; Copyright Stefano Guglielmetti {{ year }}. All rights reserved."
