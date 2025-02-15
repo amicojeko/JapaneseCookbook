@@ -1,5 +1,4 @@
 ---
-layout: ingredient
 title: Sake
 description: Vino di riso giapponese
 ---

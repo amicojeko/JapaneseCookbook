@@ -1,5 +1,4 @@
 ---
-layout: ingredient
 title: Umeboshi
 description: Le prugne di suppaman
 ---

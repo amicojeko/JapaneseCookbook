@@ -1,8 +1,6 @@
 ---
-
 title: Mentsuyu
 description: Il brodo per immergere soba e udon
-date: 2021-07-07 11:12:43 +0200
 ---
 
 Il **mentsuyu** è un brodo forte e salato, tradizionalmente usato nei piatti di noodles come **soba** e **udon**. È un ingrediente fondamentale della cucina giapponese, preparato con una miscela di **katsuobushi**, [salsa di soia](/ingredients/shoyu.md), **mirin** e **zucchero**. Questa combinazione di ingredienti crea un brodo ricco e saporito, perfetto per arricchire una vasta gamma di piatti.
@@ -32,6 +30,6 @@ Filtra tutto e metti in un barattolo, la salsa inizia a dare il meglio di se dop
 
 ### Kaketsuyu e Tsuketsuyu
 
-Diluisci con acqua o [dashi](/base_preparations/stocks/dashi.md) e scalda, la proporzione della diluizione dipende da quanto era concentrato il Mentsuyu e da che sapore si gradisce, io inizio con il 30% di acqua circa, poi in caso correggo.
+Diluisci con acqua o [dashi](/recipes/base_preparations/stocks/dashi.md) e scalda, la proporzione della diluizione dipende da quanto era concentrato il Mentsuyu e da che sapore si gradisce, io inizio con il 30% di acqua circa, poi in caso correggo.
 
 Il Kaketsuyu va scaldato e versato caldo sui noodles, mentre il tsuketsuyu va messo freddo in una ciotolina a parte, e ci si immergono i noodles (tipicamente zaru soba)

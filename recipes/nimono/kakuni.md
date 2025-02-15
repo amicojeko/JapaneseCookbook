@@ -1,7 +1,6 @@
 ---
 title: Buta Kaku-ni
 description: Pancia di maiale cotta lentamente in salsa di soia
-date: 2024-06-24 11:12:43 +0200
 ---
 
 ## Ingredienti
@@ -24,6 +23,8 @@ Per il contorno:
 ![Kakuni](/assets/images/kakuni.jpg)
 
 ## Preparazione (metodo veloce)
+
+Prima di tutto una premessa: questo è il metodo "veloce" per la preparazione del buta kaku-ni. Secondo il metodo tradizionale, spiegato ottimamente da Shizuo Tsuji nel suo libro "Japanese Cooking: A Simple Art" (praticamente la bibbia della cucina giapponese), ci vogliono due giorni per preparare il kakuni. Giuro che un giorno ci proverò, ma per ora mi accontento di questa versione.
 
 Tagliare la pancetta in pezzi di 5 cm di lato, e rosolare i cubi in una padella antiederente, 2 minuti per lato (12 minuti in totale). Asciugarli con un panno o dei fazzoletti di carta per eliminare il grasso in eccesso. Mettere i cubi di pancetta rosolata in una pentola a pressione, con il lato della pelle rivolto verso il basso. Aggiungere acqua tiepida ed un bicchiere di sake, fino a coprire la pancetta. Aggiungere la parte verde della cipolla e lo zenzero tagliato a fette. Chiudere la pentola a pressione e cuocere per mezz'ora. Scolare la pancetta e metterla da parte.
 

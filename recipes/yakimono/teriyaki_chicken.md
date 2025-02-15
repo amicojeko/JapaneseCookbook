@@ -1,7 +1,5 @@
 ---
-
 title: Pollo Teriyaki
-date: 2021-06-07
 ---
 
 ## Ingredienti

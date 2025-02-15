@@ -1,5 +1,4 @@
 ---
-layout: ingredient
 title: Funghi Enoki
 description: I funghi bianchi lunghi e sottoli
 ---

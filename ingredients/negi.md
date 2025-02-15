@@ -1,5 +1,4 @@
 ---
-layout: ingredient
 title: Negi
 description: Il porro giapponese
 ---

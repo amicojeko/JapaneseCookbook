@@ -1,8 +1,6 @@
 ---
-
 title: Salsa Okonomiyaki
 description: Salsa per gli okonomiyaki
-date: 2021-08-13 17:28:00 +0200
 ---
 
 ## Ingredienti

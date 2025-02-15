@@ -1,7 +1,5 @@
 ---
-
 title: Salmone Teriyaki
-date: 2021-06-07
 ---
 
 ## Ingredienti
@@ -12,7 +10,7 @@ date: 2021-06-07
 - Farina bianca
 - Olio da cucina o burro
 - 1 cucchiaio di sake
-- [Salsa Teriyaki]({% post_url base_preparations/sauces/2021-05-24-teriyaki %})
+- [Salsa Teriyaki](/recipes/base_preparations/sauces/teriyaki.md)
 
 ## Preparazione
 

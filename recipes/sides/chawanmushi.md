@@ -1,14 +1,12 @@
 ---
-
 title: Chawanmushi
 description: Budino di uova cotto al vapore
-date: 2023-10-11 16:12:43 +0200
 ---
 
 ## Ingredienti per 4 persone
 
 - 120 ml di uovo, io uso 3 rossi e bianchi q.b. per arrivare a 120 ml
-- 360 ml di [dashi](/base_preparations/stocks/dashi.md) (rapporto di 3:1 con le uova)
+- 360 ml di [dashi](/recipes/base_preparations/stocks/dashi.md) (rapporto di 3:1 con le uova)
 - 30 ml di salsa di soia (meglio se chiara)
 - 20 ml di [mirin](/ingredients/mirin.md)
 - 20 ml di [sake](/ingredients/sake.md) (opzionale)

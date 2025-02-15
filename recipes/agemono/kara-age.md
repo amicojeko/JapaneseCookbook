@@ -1,8 +1,6 @@
 ---
-
 title: Kara-Age (から揚げ)
 description: Il pollo fritto piu' buono del mondo
-date: 2021-08-12 11:12:43 +0200
 ---
 
 ![Karaage](/assets/images/karaage.jpg)

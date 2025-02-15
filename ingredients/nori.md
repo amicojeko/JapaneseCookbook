@@ -1,5 +1,4 @@
 ---
-layout: ingredient
 title: Alga Nori
 description: Alghe essiccate ed arrostite per sushi e mille altri piatti
 ---

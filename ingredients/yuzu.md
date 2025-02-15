@@ -1,5 +1,4 @@
 ---
-layout: ingredient
 title: Yuzu
 description: Agrume giapponese
 ---

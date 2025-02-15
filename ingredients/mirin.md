@@ -1,5 +1,4 @@
 ---
-layout: ingredient
 title: Mirin
 description: Vino di riso dolce giapponese
 ---

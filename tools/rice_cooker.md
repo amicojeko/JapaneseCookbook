@@ -1,5 +1,4 @@
 ---
-layout: tool
 title: Rice cooker
 visibility: hidden
 ---

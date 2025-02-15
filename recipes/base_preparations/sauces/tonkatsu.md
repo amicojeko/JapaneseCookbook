@@ -1,8 +1,6 @@
 ---
-
 title: Salsa Tonkatsu
 description: Salsa per le cotolette di maiale
-date: 2021-08-13 17:26:00 +0200
 ---
 
 ## Ingredienti
@@ -20,5 +18,6 @@ Aggiungi lo zucchero (o il mirin) e mescola con una piccola frusta o un cucchiai
 Incorpora il cucchiaino di senape (karashi o dijon) e, se gradisci una punta di acidità in più, un cucchiaio di aceto di mele. Continua a mescolare finché il composto non risulta omogeneo.
 Prova la salsa e, se necessario, modifica il bilanciamento dolce-salato-agro, regolando con un pizzico di zucchero o qualche goccia in più di salsa di soia.
 
-### Suggerimenti
+!!! Suggerimenti
 Se possibile, lascia riposare la salsa qualche minuto per far amalgamare bene i sapori prima di servirla con il tuo tonkatsu, croccante e appena fritto.
+!!!

@@ -1,8 +1,6 @@
 ---
-
 title: Tonjiru
 description: Zuppa di maiale
-date: 2021-08-13 18:05:00 +0200
 visibility: hidden
 ---
 

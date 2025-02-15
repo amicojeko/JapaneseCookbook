@@ -1,8 +1,6 @@
 ---
-
 title: Gyoza
 description: Ravioli alla piastra
-date: 2024-05-06
 ---
 
 I gyoza sono dei ravioli alla piastra, tipici della cucina giapponese. Sono molto simili ai ravioli cinesi, ma la pasta è più sottile e il ripieno è leggermente diverso.

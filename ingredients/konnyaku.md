@@ -1,5 +1,4 @@
 ---
-layout: ingredient
 title: Konnyaku
 description: Konjac
 ---

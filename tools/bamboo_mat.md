@@ -1,5 +1,4 @@
 ---
-layout: tool
 title: Bamboo mat
 visibility: hidden
 ---

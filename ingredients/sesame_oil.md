@@ -1,5 +1,4 @@
 ---
-layout: ingredient
 title: Olio di Sesamo
 ---
 

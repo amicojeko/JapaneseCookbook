@@ -1,8 +1,6 @@
 ---
-
 title: Tonkotsu
 description: Il brodo di ossa di maiale per il ramen
-date: 2021-05-24 11:12:43 +0200
 visibility: hidden
 ---
 

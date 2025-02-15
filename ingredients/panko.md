@@ -1,5 +1,4 @@
 ---
-layout: ingredient
 title: Panko
 description: Pan grattato on steroids
 ---

@@ -1,8 +1,6 @@
 ---
-
 title: Dashi
 description: il brodo base per moltissime ricette
-date: 2021-05-24 11:12:43 +0200
 ---
 
 ![Dashi](/assets/images/dashi.jpg)
@@ -27,17 +25,19 @@ Appena prima che bolla spegnere la fiamma, togliere l’alga kombu, rialzare la 
 
 Spegnare la fiamma, e mettere un bel pugno di katsuobushi. Attendere che affondi completamente (anche 30-40 minuti).
 
-Togliere il katsuobushi e ~~strizzarlo bene per recuperare tutto il ben di dio che sprigiona~~ * , e filtrare il brodo ottenuto con un panno fino. Complimenti avete appena fatto il dashi!
+Togliere il katsuobushi e, e filtrare il brodo ottenuto con un panno fino. Complimenti avete appena fatto il dashi!
 
-\* Non strizzate il katsuobushi, altrimenti il dashi diventa amaro.
+!!!warning Importante!
+Non strizzate il katsuobushi, altrimenti il dashi diventa amaro.
+!!!
 
-### Suggerimenti
+!!! Suggerimenti
+Volendo potete utilizzare di nuovo il katsuobushi e l’alga kombu per fare un secondo dashi più delicato (Niban dashi, letteralmente secondo dashi).
 
-Volendo potete utilizzare di nuovo il katsuobushi e l’alga kombu per fare un secondo dashi più delicato (Niban Dashi, letteralmente Secondo Dashi).
-
-In alternativa, si possono essiccare e sbriciolare kombu e katsuobushi per fare il [furikake]({% post_url base_preparations/condiments/2021-05-24-furikake %}).
+In alternativa, si possono essiccare e sbriciolare kombu e katsuobushi per fare il [furikake](/recipes/base_preparations/condiments/furikake.md).
 
 Ad ogni modo, cercate di non buttare subito kombu e katsuobushi.
+!!!
 
 ## Video
 

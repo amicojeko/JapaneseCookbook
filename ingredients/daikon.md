@@ -1,5 +1,4 @@
 ---
-layout: ingredient
 title: Daikon
 description: La rapa piu' famosa del Giappone!
 ---

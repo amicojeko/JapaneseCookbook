@@ -1,5 +1,4 @@
 ---
-layout: ingredient
 title: Ginnan
 description: Semi di Gingko
 ---

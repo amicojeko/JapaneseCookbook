@@ -1,8 +1,6 @@
 ---
-
 title: Nasu Dengaku
 description: Melanzane al miso
-date: 2021-06-07 17:12:43 +0200
 ---
 
 ![Potetosarada](/assets/images/nasudengaku.jpg)

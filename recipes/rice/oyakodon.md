@@ -1,8 +1,6 @@
 ---
-
 title: Oyakodon
 description: L'Oyakodon e' la carbonara giapponese
-date: 2023-10-04 11:57:00 +0200
 ---
 
 ![Oyakodon](/assets/images/oyakodon.jpg)
@@ -11,7 +9,7 @@ date: 2023-10-04 11:57:00 +0200
 
 - riso bianco
 - 2 uova grandi
-- 60 ml [dashi](/base_preparations/stocks/dashi.md)
+- 60 ml [dashi](/recipes/base_preparations/stocks/dashi.md)
 - 30 ml di [salsa di soia](/ingredients/shoyu.md)
 - 60 ml di [mirin](/ingredients/mirin.md)
 - mezza cipolla bianca

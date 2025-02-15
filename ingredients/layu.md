@@ -1,5 +1,4 @@
 ---
-layout: ingredient
 title: La-Yu
 description: Olio di sesamo piccante giapponese
 ---

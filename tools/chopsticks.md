@@ -1,5 +1,4 @@
 ---
-layout: tool
 title: Chopsticks
 visibility: hidden
 ---

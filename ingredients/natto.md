@@ -1,5 +1,4 @@
 ---
-layout: ingredient
 title: Natto
 description: Semi di soia bolliti e fermentati
 ---

@@ -1,8 +1,6 @@
 ---
-
 title: Gyudon
 description: La ciotola di riso con carne di manzo e cipolla
-date: 2024-05-01 09:00:00 +0200
 ---
 
 Il gyudon e' un piatto molto popolare in Giappone, e' una ciotola di riso con carne di manzo e cipolla. E' molto semplice da preparare e molto gustoso, ed ha fatto la fortuna di una delle catene di ristoranti piu' famose in Giappone, il Yoshinoya.
@@ -16,7 +14,7 @@ Il gyudon e' un piatto molto popolare in Giappone, e' una ciotola di riso con ca
 - 1/2 cipolla gialla
 - 1 cipollina verde
 - [Beni shoga]({% post_url ingredients/2021-05-24-beni_shoga %}) per guarnire
-- 150 ml di [dashi](/base_preparations/stocks/dashi.md)
+- 150 ml di [dashi](/recipes/base_preparations/stocks/dashi.md)
 - 3-4 cucchiai di [salsa di soia](/ingredients/shoyu.md)
 - 2 cucchiai di [mirin](/ingredients/mirin.md)
 - 2 cucchiai di [sake](/ingredients/sake.md)

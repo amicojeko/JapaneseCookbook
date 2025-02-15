@@ -1,7 +1,5 @@
 ---
-
 title: Yakitori Tare
-date: 2021-08-13 17:26:00 +0200
 ---
 
 ## Ingredienti
@@ -18,7 +16,6 @@ date: 2021-08-13 17:26:00 +0200
 
 Bollire al minimo fino a ridurre della metà il volume.
 
-### Suggerimenti
-
+!!! Suggerimenti
 Si conserva in frigo anche 2-3 mesi.
-
+!!!

@@ -1,5 +1,4 @@
 ---
-layout: ingredient
 title: Katsuobushi
 description: Scaglie di palamita fermentata ed essiccata
 ---

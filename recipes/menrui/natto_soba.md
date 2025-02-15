@@ -1,22 +1,19 @@
 ---
-
 title: Natto Soba
 description: Spaghetti di grano saraceno freddi con natto, cipolline, alga nori e altre delizie
-date: 2024-07-15 11:00:00 +0200
-disabled: false
 ---
 
 ## Ingredienti per 2 persone
-- 200g di [soba]({% post_url ingredients/2024-07-15-soba %})
+- 200g di [soba](/ingredients/soba.md)
 - Cipolline verdi o [negi](/ingredients/negi.md)
-- 1 confezione di [natto]({% post_url ingredients/2021-05-24-natto %})
+- 1 confezione di [natto](/ingredients/natto.md)
 - [katsuobushi](/ingredients/katsuobushi.md)
-- [Kizami nori]({% post_url ingredients/2024-07-15-kizami_nori %})
+- [Kizami nori](/ingredients/kizami_nori.md)
 - 1 uovo fresco che si posa mangiare crudo (opzionale)
 
 ### Per il condimento
-- mezza tazza di [mentsuyu]({% post_url base_preparations/stocks/2021-07-07-mentsuyu %})
-- mezza tazza di [dashi](/base_preparations/stocks/dashi.md)
+- mezza tazza di [mentsuyu](/recipes/base_preparations/stocks/mentsuyu.md)
+- mezza tazza di [dashi](/recipes/base_preparations/stocks/dashi.md)
 
 ## Preparazione
 Bolli i soba in abbondante acqua (io non metto sale), sciacquali sotto l'acqua fredda, trasferiscili in una ciotola con acqua e ghiaccio per raffreddarli, scolali e asciugali bene, e mettili in una ciotola facendo una fossetta al centro, dove metterai il rosso dell'uovo.

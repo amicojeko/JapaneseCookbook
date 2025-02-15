@@ -1,5 +1,4 @@
 ---
-layout: ingredient
 title: Shoyu (Salsa di soia)
 description: La salsa più famosa del mondo
 ---

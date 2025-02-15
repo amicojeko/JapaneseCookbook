@@ -1,7 +1,5 @@
 ---
-
 title: Salsa Takoyaki
-date: 2021-08-13 17:26:00 +0200
 ---
 
 ## Ingredienti

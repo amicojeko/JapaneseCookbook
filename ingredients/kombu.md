@@ -1,5 +1,4 @@
 ---
-layout: ingredient
 title: Alga Kombu
 tags: alga seaweed
 description: L'alga base per il dashi

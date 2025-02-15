@@ -1,8 +1,6 @@
 ---
-
 title: Sunomono di cetriolo
 description: Cetrioli sott'aceto
-date: 2024-04-09 18:00:00 +0200
 ---
 
 Il Sunomono di cetriolo è un piatto giapponese fresco e croccante, perfetto per iniziare un pasto o come contorno leggero. Si tratta di sottilissime fettine di cetriolo marinato in aceto di riso, zucchero e sale. La sua semplicità ne fa la forza, offrendo un piacevole contrasto di sapori e una freschezza inconfondibile. Questa ricetta è un emblema della cucina giapponese: pochi ingredienti, ma ben equilibrati, che danno vita a un piatto ricco di sapore e tradizione. Perfetto per chi cerca un tocco di leggerezza e freschezza nel proprio pasto.

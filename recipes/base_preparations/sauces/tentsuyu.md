@@ -1,22 +1,20 @@
 ---
-
 title: Salsa Tentsuyu
 description: La salsa per la tempura
-date: 2021-07-07 11:12:43 +0200
 ---
 
 Il **tentsuyu** è una variante del mentsuyu, specificamente usata per accompagnare il **tempura**. È preparato con gli stessi ingredienti di base del mentsuyu, ma viene raffreddato prima di essere servito. Il tentsuyu è spesso accompagnato da **daikon grattugiato**, che aggiunge una nota di freschezza e leggera pungenza, bilanciando il sapore ricco del brodo e il croccante del tempura appena fritto.
 
-E' a base di [dashi](/base_preparations/stocks/dashi.md), mirin e [salsa di soia](/ingredients/shoyu.md), anche se gli ingredienti possono variare a seconda della stagione o a seconda di cosa ci vogliamo accompagnare. Ad esempio, per cose con un sapore forte, il mirin puo' essere sostituito, o "corretto" con sake e zucchero
+E' a base di [dashi](/recipes/base_preparations/stocks/dashi.md), mirin e [salsa di soia](/ingredients/shoyu.md), anche se gli ingredienti possono variare a seconda della stagione o a seconda di cosa ci vogliamo accompagnare. Ad esempio, per cose con un sapore forte, il mirin puo' essere sostituito, o "corretto" con sake e zucchero
 
 ## Ingredienti
-- 3 parti [dashi](/base_preparations/stocks/dashi.md)
+- 3 parti [dashi](/recipes/base_preparations/stocks/dashi.md)
 - 1 parte [mirin](/ingredients/mirin.md)
 - 1 parte [salsa di soia](/ingredients/shoyu.md)
 - Daikon grattugiato
 
 ## Versione alternativa
-- ¾ tazza di [dashi](/base_preparations/stocks/dashi.md)
+- ¾ tazza di [dashi](/recipes/base_preparations/stocks/dashi.md)
 - 3 Cucchiai di [salsa di soia](/ingredients/shoyu.md)
 - 2 Cucchiai di [mirin](/ingredients/mirin.md)
 - 2 Cucchiai di zucchero
