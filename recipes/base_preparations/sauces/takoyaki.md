@@ -12,4 +12,3 @@ title: Salsa Takoyaki
 ## Preparazione
 
 Mescolare a freddo - e regolare lo zucchero in base alla dolcezza del ketchup
-
