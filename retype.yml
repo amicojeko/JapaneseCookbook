@@ -1,6 +1,7 @@
 input: .
 output: .retype
-url: ricettegiapponesi.jeko.net
+# url: ricettegiapponesi.jeko.net
+url: amicojeko.github.io/JapaneseCookbook/
 favicon: assets/images/icon_32.png
 meta:
   title: " | Le ricette giapponesi di Jeko"
