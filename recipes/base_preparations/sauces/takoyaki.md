@@ -1,5 +1,10 @@
 ---
 title: Salsa Takoyaki
+ingredients:
+- ketchup
+- mentsuyu
+- salsa worcestershire
+- zucchero
 ---
 
 ## Ingredienti

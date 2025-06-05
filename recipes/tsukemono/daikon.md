@@ -1,6 +1,13 @@
 ---
 title: Daikon-dzuke (大根の漬物)
 description: Daikon piccante sott'aceto
+ingredients:
+- aceto di riso
+- daikon
+- peperoncino rosso secco
+- sake
+- sale marino in fiocchi o mezzo cuucchiaio di sale in polvere
+- sugar
 ---
 
 Il Daikon-dzuke è un piatto tradizionale giapponese che trasforma il comune daikon, in un contorno vivace e pieno di gusto. Tagliato a bastoncini o fette, il daikon viene marinato in una miscela di sake, aceto di riso, sale e zucchero, che lo arricchisce di sapori dolci e umami, mantenendo al contempo la sua croccantezza distintiva. C'e' solo un piccolo problema: puzza da morire. Ma non lasciarti scoraggiare, il Daikon-dzuke è un contorno delizioso che vale la pena di provare.

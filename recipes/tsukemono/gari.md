@@ -1,6 +1,9 @@
 ---
 title: Gari
 description: Zenzero marinato
+ingredients:
+- sale fino
+- zenzero fresco
 ---
 
 Il Gari è lo zenzero sottaceto che trovi sempre accanto al tuo sushi. È quel tocco agrodolce e leggermente piccante che ti aiuta a resettare il gusto in bocca tra un pezzo di sushi e l'altro, mantenendoti pronto per il prossimo boccone. Fatto con fettine sottili di zenzero marinato in aceto di riso, zucchero e un pizzico di sale, il Gari è l'esempio perfetto di come anche le cose semplici possono essere super efficaci.

@@ -1,6 +1,8 @@
 ---
 title: Shogayaki
 description: Scaloppine di maiale allo zenzero
+ingredients:
+- lonza di maiale molto sottili
 ---
 
 Gli Shogayaki sono delle scaloppine di maiale allo zenzero, una ricetta giapponese molto semplice e veloce da preparare.

@@ -1,6 +1,11 @@
 ---
 title: Salsa Tentsuyu
 description: La salsa per la tempura
+ingredients:
+- Daikon grattugiato
+- dashi
+- mirin
+- salsa di soia
 ---
 
 Il **tentsuyu** è una variante del mentsuyu, specificamente usata per accompagnare il **tempura**. È preparato con gli stessi ingredienti di base del mentsuyu, ma viene raffreddato prima di essere servito. Il tentsuyu è spesso accompagnato da **daikon grattugiato**, che aggiunge una nota di freschezza e leggera pungenza, bilanciando il sapore ricco del brodo e il croccante del tempura appena fritto.

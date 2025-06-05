@@ -1,6 +1,12 @@
 ---
 title: Salsa Ponzu
 description: Salsa fresca ed agrumata
+ingredients:
+- aceto di riso
+- dashi
+- mirin
+- salsa di soia
+- succo di yuzu
 ---
 
 La mia preferita. Perfetta per le ostriche, per i frutti di mare, o per condire il tofu

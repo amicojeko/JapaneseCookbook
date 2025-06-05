@@ -1,6 +1,10 @@
 ---
 title: Dashi
 description: il brodo base per moltissime ricette
+ingredients:
+- acqua fredda
+- alga kombu
+- katsuobushi
 ---
 
 ![Dashi](/assets/images/dashi.jpg)

@@ -1,5 +1,13 @@
 ---
 title: Salmone Teriyaki
+ingredients:
+- Farina bianca
+- Olio da cucina o burro
+- Pepe nero appena macinato
+- Sale
+- Salmone
+- Salsa Teriyaki
+- sake
 ---
 
 ## Ingredienti

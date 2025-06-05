@@ -1,6 +1,11 @@
 ---
 title: Ninniku no Misozuke
 description: Aglio conservato sotto miso
+ingredients:
+- mirin
+- miso chiaro
+- sake
+- teste d'aglio
 ---
 
 Il Ninniku no Misozuke è una di quelle chicche della cucina giapponese che trasforma l'aglio, un ingrediente comune, in qualcosa di completamente diverso e irresistibile. Si tratta di spicchi d'aglio lasciati a fermentare nel miso per alcune settimane o mesi. Questo processo non solo addolcisce notevolmente l'aglio, riducendo il suo caratteristico aroma pungente, ma lo arricchisce anche con i sapori profondi e ricchi del miso. Il risultato è un condimento o un antipasto morbido, dolce-umami, che puoi spalmare su pane tostato o utilizzare per aggiungere una nota di sapore a vari piatti. Facile da preparare, il Ninniku no Misozuke è una dimostrazione di come la pazienza in cucina possa trasformare gli ingredienti più semplici in qualcosa di sorprendentemente delizioso.

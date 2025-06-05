@@ -1,6 +1,13 @@
 ---
 title: Salsa Okonomiyaki
 description: Salsa per gli okonomiyaki
+ingredients:
+- aceto di mele o aceto di riso
+- ketchup
+- salsa Worcestershire
+- salsa di ostriche
+- salsa di soia
+- zucchero
 ---
 
 ## Ingredienti

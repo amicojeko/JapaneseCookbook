@@ -1,6 +1,18 @@
 ---
 title: Gyoza
 description: Ravioli alla piastra
+ingredients:
+- aglio
+- carne di maiale macinata
+- cavolo cappuccio
+- cipolline verdi/negi
+- funghi shiitake
+- olio di sesamo
+- pepe nero macinato a piacere
+- sake
+- sale
+- salsa di soia
+- zenzero fresco grattugiato
 ---
 
 I gyoza sono dei ravioli alla piastra, tipici della cucina giapponese. Sono molto simili ai ravioli cinesi, ma la pasta è più sottile e il ripieno è leggermente diverso.

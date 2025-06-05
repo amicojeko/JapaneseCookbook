@@ -1,6 +1,11 @@
 ---
 title: Furikake
 description: Condimento secco per riso
+ingredients:
+- Alga Kombu
+- Alga nori
+- Katsuobushi
+- Semi di Sesamo
 ---
 
 Il furikake e' un condimento per il riso, ed e' estremamente popolare.

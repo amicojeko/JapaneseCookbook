@@ -1,5 +1,8 @@
 ---
 title: Pollo Teriyaki
+ingredients:
+- Pollo
+- Salsa teriyaki
 ---
 
 ## Ingredienti

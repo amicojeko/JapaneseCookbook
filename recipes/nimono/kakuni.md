@@ -1,6 +1,18 @@
 ---
 title: Buta Kaku-ni
 description: Pancia di maiale cotta lentamente in salsa di soia
+ingredients:
+- Cipolla verde o un negi
+- alga kombu
+- bok choy o equivalente in peso di spinaci
+- daikon
+- mirin
+- pancetta di maiale
+- sake
+- salsa di soia
+- uova
+- zenzero
+- zucchero
 ---
 
 ## Ingredienti
