@@ -2,7 +2,7 @@
 title: Mentsuyu
 description: Il brodo per immergere soba e udon
 ingredients:
-- abbondante di mirin
+- mirin
 - katsuobushi
 - kombu
 - sake

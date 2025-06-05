@@ -5,10 +5,10 @@ description: Spaghetti di grano saraceno freddi con natto, cipolline, alga nori 
 ingredients:
 - Cipolline verdi o negi
 - Kizami nori
-- confezione di natto
+- natto
 - katsuobushi
 - soba
-- uovo fresco che si posa mangiare crudo
+- uovo
 ---
 
 ## Ingredienti per 2 persone
@@ -17,7 +17,7 @@ ingredients:
 - 1 confezione di [natto](/ingredients/natto.md)
 - [katsuobushi](/ingredients/katsuobushi.md)
 - [Kizami nori](/ingredients/kizami_nori.md)
-- 1 uovo fresco che si posa mangiare crudo (opzionale)
+- 1 uovo fresco che si possa mangiare crudo (opzionale)
 
 ### Per il condimento
 - mezza tazza di [mentsuyu](/recipes/base_preparations/stocks/mentsuyu.md)

@@ -8,11 +8,11 @@ ingredients:
 - Aceto di riso
 - Carote
 - Cetriolo
-- Cipolla dorata /
-- Maionese Kewpie circa
-- Patate a pasta gialla .
-- Pepe qb
-- Sale qb
+- Cipolla dorata
+- Maionese Kewpie
+- Patate a pasta gialla
+- Pepe
+- Sale
 - Zucchero circa
 - mirin
 ---

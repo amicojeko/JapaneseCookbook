@@ -2,8 +2,8 @@
 title: Gyudon
 description: La ciotola di riso con carne di manzo e cipolla
 ingredients:
-- Beni shoga per guarnire
-- cipolla gialla
+- Beni shoga
+- cipolla
 - cipollina verde
 - dashi
 - manzo

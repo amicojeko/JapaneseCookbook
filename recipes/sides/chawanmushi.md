@@ -8,6 +8,12 @@ ingredients:
 - sale
 - salsa di soia
 - uovo
+- ginnan
+- edamame
+- shiitake
+- gamberi
+- prezzemolo
+- cipolline
 ---
 
 ## Ingredienti per 4 persone
