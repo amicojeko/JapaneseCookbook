@@ -9,15 +9,15 @@
         "https://ricettegiapponesi.jeko.net/assets/images/karaage.jpg"
       ],
       "ingredients": [
-        "Coscia e sottocoscia di pollo disossata, con la pelle",
-        "1 cucchiaio di [salsa di soia](https://ricettegiapponesi.jeko.net/ingredients/shoyu)",
-        "1 cucchiaio di [mirin](https://ricettegiapponesi.jeko.net/ingredients/mirin)",
-        "1 cucchiaio di [sake](https://ricettegiapponesi.jeko.net/ingredients/sake)",
-        "1 spicchio d'aglio",
-        "1 pezzetto di zenzero, grande piu' o meno come l'aglio",
+        "Coscia e sottocoscia di pollo disossata",
         "Farina di grano",
-        "Fecola (amido) di patate",
-        "Olio per friggere (arachide o girasole o canola)"
+        "Fecola di patate",
+        "Olio per friggere",
+        "aglio",
+        "mirin",
+        "sake",
+        "salsa di soia",
+        "zenzero"
       ],
       "preparation": null
     },
@@ -30,11 +30,11 @@
         "https://ricettegiapponesi.jeko.net/assets/images/hiyayakko.jpg"
       ],
       "ingredients": [
-        "1 panetto di tofu morbido (meglio se silken tofu)",
-        "2-3 cucchiai di [salsa ponzu](https://ricettegiapponesi.jeko.net/recipes/base_preparations/sauces/ponzu)",
-        "[Katsuobushi](https://ricettegiapponesi.jeko.net/ingredients/katsuobushi), una manciatina",
-        "Zenzero, grattugiato fresco",
-        "Cipollina verde o [negi](https://ricettegiapponesi.jeko.net/ingredients/negi) affettata sottilmente"
+        "Cipollina verde o negi",
+        "Katsuobushi",
+        "Zenzero",
+        "panetto di tofu morbido",
+        "salsa ponzu"
       ],
       "preparation": "Togli il tofu dalla confezione e scolalo delicatamente. Se ha molta acqua, lascialo riposare qualche minuto su carta da cucina per farlo asciugare leggermente, senza romperlo.\n\nTaglialo in 2 o 4 pezzi, oppure lascialo intero se lo servi in una sola porzione, e mettilo in una ciotolina o piattino fondo. Versa sopra la salsa ponzu, quanto basta per condirlo ma senza affogarlo.\n\nGuarnisci con una grattugiata di zenzero fresco, katsuobushi a piacere, e cipollina verde affettata.\n\n!!!\nIl tofu va servito ben freddo. Puoi tenerlo in frigo fino al momento del servizio.\n\nPer una variante vegan, puoi omettere il katsuobushi.\n!!!"
     },
@@ -47,10 +47,10 @@
         "https://ricettegiapponesi.jeko.net/assets/images/furikake.jpg"
       ],
       "ingredients": [
+        "Alga Kombu",
+        "Alga nori",
         "Katsuobushi",
-        "Alga Kombu (anche recuperati dal [dashi](https://ricettegiapponesi.jeko.net/recipes/base_preparations/stocks/dashi))",
-        "Semi di Sesamo",
-        "Alga nori"
+        "Semi di Sesamo"
       ],
       "preparation": "Se il Katsuobushi e' nuovo, prendetene una bella manciata e tostatelo in padella, come si fa col sesamo (ovvero a fuoco medio, senza coperchio, muovendolo spesso e togliendolo quando inizia a imbrunire)\n\nSe invece e' usato, strizzatelo benissimo, e cercate di sfilacciarlo il piu' possibile prima di metterlo in padella. Poi mettetelo in una padella bella ampia, in modo che non tenda ad appallottolarsi, e fare come sopra, ma con molto piu' tempo ed attenzione.\n\nQuando il Katsuobushi e' bello tostato, sbriciolatelo senza pieta' (si ma fate pezzetti, non sabbia...)\n\nL'alga kombu, se e' nuova ed essiccata, mettetela a bagno un po' per ammorbidirla, senno' finisce che ci rompete il coltello. E poi, nuova o usata che sia, fatela a quadratini di mezzo centimetro di lato.\n\nTostate i semi di sesamo (come se fosse Katsuobushi), senza distrarvi e a fuoco medio-basso, perche' come vi distraete si carbonizzano immediatamente.\n\nSbriciolate l'alga nori con le mani, da molta soddisfazione. Anche qui attenti a non fare l'Aonori per sbaglio.\n\nComunque, siccome la kombu, cosi come e', e' dura da morire, mettetela in una padella, e metteteci tutto il condimento.\nFate andare a fuoco basso, finche' il liquido non si sara' ritirato, e l'alga kombu ammorbidita. Se l'alga kombu e' ancora dura, aggiungete un po' di acqua e fate andare ancora.\n\nQuando il liquido avra' raggiunto la densita' della salsa Teriyaki quando e' pronta (ho imparato da mia madre a dare sempre istruzioni utilissime), spegnete il fuoco e aggiungete il katsuobushi, i semi di sesamo e l'alga nori, e mescolate bene.\n\nAlla fine vengono tutte palline ammappazzate ma non vi preccupate. Mettete tutto in forno su un bel foglio di carta da forno, a bassa temperatura (70-75 gradi), e ogni tanto aprite il forno, mescolate, sfragnate, e richiudete, finche' non sara' tutto bello secco e croccante. A questo punto dategli un'ultima sfragnata e mettete in un barattolo, e ciaone dal Giappone."
     },
@@ -63,10 +63,10 @@
 
       ],
       "ingredients": [
-        "1 tazza e 1/2 di [salsa di soia](https://ricettegiapponesi.jeko.net/ingredients/shoyu)",
-        "1 tazza di [mirin](https://ricettegiapponesi.jeko.net/ingredients/mirin)",
-        "1/2 tazza di [sake](https://ricettegiapponesi.jeko.net/ingredients/sake)",
-        "1/2 tazza di [dashi](https://ricettegiapponesi.jeko.net/recipes/base_preparations/stocks/dashi) (rapporto di 3:1 con le uova)"
+        "salsa di soia",
+        "dashi",
+        "mirin",
+        "sake"
       ],
       "preparation": "Metti il mirin e il sake in un pentolino a scaldare, e fai evaporare tutto l'alcol. Aggiungi la salsa di soia e il dashi, e fai sobbollire a fuoco basso fino a ridurre della metà il volume. Fai raffreddare e metti in frigo.\n\n!!! Suggerimenti\nQuesta e'solo una variante base della nikiri, che puoi personalizzare a tuo piacimento.\n!!!"
     },
@@ -79,12 +79,12 @@
 
       ],
       "ingredients": [
-        "3 cucchiai di ketchup",
-        "2 cucchiai di salsa Worcestershire",
-        "2 cucchiai di salsa di ostriche (oyster sauce)",
-        "1 cucchiaio di zucchero (oppure miele, per un gusto più morbido)",
-        "1 cucchiaio di [salsa di soia](https://ricettegiapponesi.jeko.net/ingredients/shoyu) (shoyu), meglio se koikuchi (scura e saporita)",
-        "1 cucchiaino di aceto di mele o aceto di riso (opzionale, se preferisci un tocco acidulo)"
+        "aceto di mele o aceto di riso",
+        "ketchup",
+        "salsa Worcestershire",
+        "salsa di ostriche",
+        "salsa di soia",
+        "zucchero"
       ],
       "preparation": "In una ciotolina, unisci ketchup, salsa Worcestershire e salsa di ostriche. Aiutati con una piccola frusta per amalgamare bene il composto.\nAggiungi lo zucchero (o il miele) e gira finché si scioglie del tutto, dando alla salsa la dolcezza tipica per l’okonomiyaki.\nVersa la salsa di soia e, se desideri una punta di acidità in più, un cucchiaino di aceto (di mele o di riso). Continua a mescolare finché il tutto non risulta ben omogeneo.\nProva la salsa e, se occorre, aggiungi un pizzico di zucchero o qualche goccia di soia in più, per bilanciare dolce, salato e acidulo secondo il tuo gusto."
     },
@@ -97,11 +97,11 @@
 
       ],
       "ingredients": [
-        "2 cucchiai di [salsa di soia](https://ricettegiapponesi.jeko.net/ingredients/shoyu)",
-        "1 cucchiaio e ½ di [dashi](https://ricettegiapponesi.jeko.net/recipes/base_preparations/stocks/dashi)",
-        "1 cucchiaio di succo di yuzu (si può sostituire con il limone o il lime, secondo i gusti)",
-        "½ cucchiaio di aceto di riso",
-        "1 cucchiaio di [mirin](https://ricettegiapponesi.jeko.net/ingredients/mirin)"
+        "aceto di riso",
+        "dashi",
+        "mirin",
+        "salsa di soia",
+        "succo di yuzu"
       ],
       "preparation": "Mescolare a freddo in una ciotolina, e lasciare riposare in frigo per almeno 30 minuti prima di servire.\nSi conserva per un sacco di tempo, non sono mai riuscito a farla andare a male!"
     },
@@ -114,10 +114,10 @@
 
       ],
       "ingredients": [
-        "3 cucchiai di salsa worcestershire",
-        "1 cucchiaio di mentsuyu",
-        "¾ cucchiaio di zucchero",
-        "½ cucchiaio di ketchup"
+        "ketchup",
+        "mentsuyu",
+        "salsa worcestershire",
+        "zucchero"
       ],
       "preparation": "Mescolare a freddo - e regolare lo zucchero in base alla dolcezza del ketchup"
     },
@@ -130,10 +130,10 @@
 
       ],
       "ingredients": [
-        "3 parti [dashi](https://ricettegiapponesi.jeko.net/recipes/base_preparations/stocks/dashi)",
-        "1 parte [mirin](https://ricettegiapponesi.jeko.net/ingredients/mirin)",
-        "1 parte [salsa di soia](https://ricettegiapponesi.jeko.net/ingredients/shoyu)",
-        "Daikon grattugiato"
+        "Daikon grattugiato",
+        "dashi",
+        "mirin",
+        "salsa di soia"
       ],
       "preparation": "Versare tutti gli ingredienti in un pentolino, e scaldare fino a sobbollire (se c'e' lo zucchero, controllare che sia completamente dissolto), far freddare e conservare in un barattolo in frigorifero (2-3 settimane max)\n\nQuando si serve, mischiare con daikon grattugiato"
     },
@@ -146,11 +146,11 @@
 
       ],
       "ingredients": [
-        "1 tazza di [sake](https://ricettegiapponesi.jeko.net/ingredients/sake)",
-        "1 tazza di [mirin](https://ricettegiapponesi.jeko.net/ingredients/mirin)",
-        "1 tazza di [salsa di soia](https://ricettegiapponesi.jeko.net/ingredients/shoyu)",
-        "½ tazza di zucchero (opzionale, o anche meno)",
-        "un cucchiaio di fecola di patate o amido di mais (maizena)"
+        "fecola di patate o amido di mais",
+        "mirin",
+        "sake",
+        "salsa di soia",
+        "zucchero"
       ],
       "preparation": "In un piccolo tegame, riscaldare il sake e il mirin fino al lieve bollore. Utilizzando un accendino con punta lunga, incendiare l'alcool in eccesso. Successivamente, incorporare la salsa di soia e lo zucchero, mescolando a fuoco bassissimo fino a ottenere un leggero sobbollimento. Questo processo conferisce alla salsa di soia una nota più profonda e favorisce una leggera caramellizzazione. È possibile arricchire il sapore aggiungendo la parte verde dei porri, fettine di zenzero o aglio tritato, a seconda delle preferenze o del piatto a cui è destinata. Io continuo la cottura fino a che non si riduce di circa la metà del suo volume, ma potete proseguire fino a raggiungere l'intensità di sapore desiderata. A parte, diluire la fecola di patate in un po' d'acqua fredda, poi versarla nel tegame, mescolando accuratamente, e lasciar sobbollire per altri 5 minuti. La salsa si addensa e diventa liscia e lucida.\n\n!!! Suggerimenti\n- Si puo’ arricchire con Parte verde della cipollina o porro, zenzero o aglio macinato\n- Si possono anche aggiungere semi di sesamo (tanti!)\n- Si conserva in frigo per 2-3 settimane\n!!!"
     },
@@ -163,12 +163,12 @@
 
       ],
       "ingredients": [
-        "4 cucchiai di ketchup (preferibilmente uno dal sapore poco zuccherino)",
-        "4 cucchiai di salsa Worcestershire (in Giappone si usa una salsa simile, più fruttata, ma la Worcestershire classica è un’ottima alternativa)",
-        "1 cucchiaio di salsa di soia (shoyu), meglio se koikuchi (scura e saporita)",
-        "1 cucchiaio di zucchero (o 1 cucchiaio di mirin per un tocco più giapponese)",
-        "1 cucchiaino di senape giapponese (karashi) o, in mancanza, di senape delicata/dijon",
-        "1 cucchiaio di aceto di mele (opzionale, se desideri una nota più acidula)"
+        "aceto di mele",
+        "ketchup",
+        "salsa Worcestershire",
+        "salsa di soia",
+        "senape giapponese o",
+        "zucchero"
       ],
       "preparation": "In una ciotolina, unisci ketchup, salsa Worcestershire e salsa di soia.\nAggiungi lo zucchero (o il mirin) e mescola con una piccola frusta o un cucchiaio fino a farlo sciogliere completamente. Se preferisci un tocco più delicato, usa il mirin al posto dello zucchero.\nIncorpora il cucchiaino di senape (karashi o dijon) e, se gradisci una punta di acidità in più, un cucchiaio di aceto di mele. Continua a mescolare finché il composto non risulta omogeneo.\nProva la salsa e, se necessario, modifica il bilanciamento dolce-salato-agro, regolando con un pizzico di zucchero o qualche goccia in più di salsa di soia.\n\n!!! Suggerimenti\nSe possibile, lascia riposare la salsa qualche minuto per far amalgamare bene i sapori prima di servirla con il tuo tonkatsu, croccante e appena fritto.\n!!!"
     },
@@ -181,13 +181,13 @@
 
       ],
       "ingredients": [
-        "1 tazza di [salsa di soia](https://ricettegiapponesi.jeko.net/ingredients/shoyu)",
-        "1  tazza di [mirin](https://ricettegiapponesi.jeko.net/ingredients/mirin)",
-        "½ tazza di [sake](https://ricettegiapponesi.jeko.net/ingredients/sake)",
-        "½ tazza di acqua",
-        "2 cucchiai di zucchero di canna (dice 4 o addirittura ½ tazza)",
-        "Parte verde delle cipolline o porro",
-        "Opzionale - zenzero e aglio grattugiati"
+        "Opzionale - zenzero e aglio grattugiati",
+        "acqua",
+        "mirin",
+        "sake",
+        "salsa di soia",
+        "verde delle cipolline o porro",
+        "zucchero di canna"
       ],
       "preparation": "Bollire al minimo fino a ridurre della metà il volume.\n\n!!! Suggerimenti\nSi conserva in frigo anche 2-3 mesi.\n!!!"
     },
@@ -200,9 +200,9 @@
         "https://ricettegiapponesi.jeko.net/assets/images/dashi.jpg"
       ],
       "ingredients": [
-        "1.5 litri di acqua fredda",
-        "5 pezzi di [alga kombu](https://ricettegiapponesi.jeko.net/ingredients/kombu)",
-        "1 pugno di [katsuobushi](https://ricettegiapponesi.jeko.net/ingredients/katsuobushi)"
+        "acqua fredda",
+        "alga kombu",
+        "katsuobushi"
       ],
       "preparation": "Non togliere la polvere bianca dall'alga Kombu: quello è il glutammato naturalmente presente nell'alga, fonte di umami, ed è esattamente il motivo per cui usiamo la kombu.\n\nVersare l'acqua in una pentola, mettere l'alga kombu a bagno e lasciar riposare per almeno 2 ore (l'alga kombu deve reidratarsi completamente)\n\nCoprire con un coperchio e portare quasi ad ebollizione a fiamma bassa (più ci mette, meglio è). Conviene usare un termometro per spegnere la fiamma quando l’acqua raggiunge gli 80-90 gradi.\n\nNon deve bollire assolutamente, perché’ se l’alga kombu bolle, caccia tutta una gelatina puzzolente che poi dovete scappare di casa.\n\nAppena prima che bolla spegnere la fiamma, togliere l’alga kombu, rialzare la fiamma e portare ad ebollizione, ed eliminare la schiuma con una schiumarola a setaccio fino.\n\nSpegnare la fiamma, e mettere un bel pugno di katsuobushi. Attendere che affondi completamente (anche 30-40 minuti).\n\nTogliere il katsuobushi e, e filtrare il brodo ottenuto con un panno fino. Complimenti avete appena fatto il dashi!\n\n!!!warning Importante!\nNon strizzate il katsuobushi, altrimenti il dashi diventa amaro.\n!!!\n\n!!! Suggerimenti\nVolendo potete utilizzare di nuovo il katsuobushi e l’alga kombu per fare un secondo dashi più delicato (Niban dashi, letteralmente secondo dashi).\n\nIn alternativa, si possono essiccare e sbriciolare kombu e katsuobushi per fare il [furikake](https://ricettegiapponesi.jeko.net/recipes/base_preparations/condiments/furikake).\n\nAd ogni modo, cercate di non buttare subito kombu e katsuobushi.\n!!!"
     },
@@ -215,11 +215,11 @@
         "https://ricettegiapponesi.jeko.net/assets/images/mentsuyu.jpg"
       ],
       "ingredients": [
-        "½ tazza di [sake](https://ricettegiapponesi.jeko.net/ingredients/sake)",
-        "1 tazza abbondante di [mirin](https://ricettegiapponesi.jeko.net/ingredients/mirin) (dice 1 ⅛ che dovrebbe essere 1 + 2 cucchiai)",
-        "1 tazza di [salsa di soia](https://ricettegiapponesi.jeko.net/ingredients/shoyu)",
-        "1 pezzo di [kombu](https://ricettegiapponesi.jeko.net/ingredients/kombu) (5 grammi? pesare)",
-        "1 tazza di katsuobushi (pesare)"
+        "mirin",
+        "katsuobushi",
+        "kombu",
+        "sake",
+        "salsa di soia"
       ],
       "preparation": "Metti tutto in un pentolino e porta molto dolcemente a ebollizione, poi spegni il fuoco e lascia freddare\n\nFiltra tutto e metti in un barattolo, la salsa inizia a dare il meglio di se dopo 2-3 giorni in frigorifero. Non so ancora quanto si conservi a lungo, ne ho una di 2 mesi, sembra buona e non sono ancora morto."
     },
@@ -258,13 +258,13 @@
         "https://ricettegiapponesi.jeko.net/assets/images/teriyaki_salmon.webp"
       ],
       "ingredients": [
-        "Salmone",
-        "Sale",
-        "Pepe nero appena macinato",
         "Farina bianca",
         "Olio da cucina o burro",
-        "1 cucchiaio di sake",
-        "[Salsa Teriyaki](https://ricettegiapponesi.jeko.net/recipes/base_preparations/sauces/teriyaki)"
+        "Pepe nero appena macinato",
+        "Sale",
+        "Salmone",
+        "Salsa Teriyaki",
+        "sake"
       ],
       "preparation": "Condire il salmone con sale e pepe nero appena macinato, poi passarlo leggermente nella farina bianca. Scaldare l'olio da cucina o il burro in una padella e cuocere il salmone per 3 minuti da un lato fino a doratura. Girare il salmone, aggiungere 1 cucchiaio di sake e coprire la padella per cuocere per altri 3 minuti. Rimuovere il coperchio, versare la salsa Teriyaki e cospargere il salmone con la salsa per ricoprirlo uniformemente.\n\n![Salmone Teriyaki](/assets/images/teriyaki_salmon.webp)"
     },
@@ -277,7 +277,12 @@
         "https://ricettegiapponesi.jeko.net/assets/images/natto_soba.jpg"
       ],
       "ingredients": [
-
+        "Cipolline verdi o negi",
+        "Kizami nori",
+        "natto",
+        "katsuobushi",
+        "soba",
+        "uovo"
       ],
       "preparation": "Bolli i soba in abbondante acqua (io non metto sale), sciacquali sotto l'acqua fredda, trasferiscili in una ciotola con acqua e ghiaccio per raffreddarli, scolali e asciugali bene, e mettili in una ciotola facendo una fossetta al centro, dove metterai il rosso dell'uovo.\n\nAggiungi ai lati il natto, le cipolline tagliate sottili, il katsuobushi, il kizami nori, e il rosso dell'uovo al centro. Opzionale, come in foto, puoi aggiungere un paio di foglie di shiso fresco per guarnire.\n\nMischia il mentsuyu e il dashi, per ottenere lo tsuyu, che verserai al lato della ciotola, per fare un fondo di circa 1 cm di altezza.\n\nE ora non ti resta che mangiare! Itadakimasu!\n\n![Natto Soba](/assets/images/natto_soba.jpg)"
     },
@@ -290,7 +295,13 @@
 
       ],
       "ingredients": [
-
+        "spaghetti di grano saraceno",
+        "mentsuyu",
+        "kizami nori",
+        "cipolline verdi",
+        "wasabi",
+        "daikon",
+        "zenzero"
       ],
       "preparation": "Bollire gli spaghetti in abbondante acqua **senza sale** per la durata suggerita sulla confezione. Scolarli conservando una tazza dell'acqua di cottura (_sobayu_). Usare un colino e sciacquarli sotto acqua corrente fredda con le mani per eliminare l'amido in eccesso. Trasferirli in una ciotola con acqua e ghiaccio per raffreddarli per circa 30 secondi, poi scolarli bene e metterli da parte."
     },
@@ -303,17 +314,17 @@
         "https://ricettegiapponesi.jeko.net/assets/images/kakuni.jpg"
       ],
       "ingredients": [
-        "1 kg di pancetta di maiale",
-        "1 Cipolla verde o un [negi](https://ricettegiapponesi.jeko.net/ingredients/negi)",
-        "1 pezzo di zenzero",
-        "1/2 tazza di [salsa di soia](https://ricettegiapponesi.jeko.net/ingredients/shoyu)",
-        "1/2 tazza di [mirin](https://ricettegiapponesi.jeko.net/ingredients/mirin)",
-        "1/4 tazza di zucchero",
-        "1/4 tazza di [sake](https://ricettegiapponesi.jeko.net/ingredients/sake)",
-        "1 pezzo di [alga kombu](https://ricettegiapponesi.jeko.net/ingredients/kombu)",
-        "4 uova",
-        "4 fette di daikon",
-        "4 bok choy o equivalente in peso di spinaci"
+        "Cipolla verde o un negi",
+        "alga kombu",
+        "bok choy o equivalente in peso di spinaci",
+        "daikon",
+        "mirin",
+        "pancetta di maiale",
+        "sake",
+        "salsa di soia",
+        "uova",
+        "zenzero",
+        "zucchero"
       ],
       "preparation": null
     },
@@ -326,7 +337,15 @@
         "https://ricettegiapponesi.jeko.net/assets/images/gyudon.jpg"
       ],
       "ingredients": [
-
+        "Beni shoga",
+        "cipolla",
+        "cipollina verde",
+        "dashi",
+        "manzo",
+        "mirin",
+        "riso bianco",
+        "sake",
+        "salsa di soia"
       ],
       "preparation": "Taglia la cipolla a fettine sottili per il lungo, e la cipollina verde a rondelle sottili.\nIn una padella mmetti il dashi, la [salsa di soia](https://ricettegiapponesi.jeko.net/ingredients/shoyu), il mirin e il sake e le cipolle, fai cuocere a fuoco medio fino a che le cipolle non si ammorbidiscono.\nUsa un coperchio per non far evaporare il brodo. Dopo 2-3 minuti aggiungi la carne e fai cuocere finche' la carne non e' piu' rosa.\nQuando la carne e' cotta, spegni il fuoco e aggiungi la cipollina verde. Versa il tutto sopra il riso caldo e guarnisci con beni shoga."
     },
@@ -339,7 +358,16 @@
         "https://ricettegiapponesi.jeko.net/assets/images/oyakodon.jpg"
       ],
       "ingredients": [
-
+        "cipolla bianca",
+        "cipolline o negi o prezzemolo",
+        "cosce di pollo",
+        "dashi",
+        "mirin",
+        "olio di semi di arachide",
+        "riso bianco",
+        "sake",
+        "salsa di soia",
+        "uova grandi"
       ],
       "preparation": "L'Oyakodon va fatto su una padellina monoporzione, perche' poi lo fai scivolare tutto direttamente sulla ciotola di riso (caldo)\n\nTaglia la cipolla a fettine secondo la lunghezza della cipolla, il pollo a cubetti, e le cipolline a rondelle o losanghe.\n\nRompi le uova in una ciotolina, e mescolale delicatamente (senza sbatterle) con le bacchette.\n\nMarina il pollo nel sake per 20 minuti.\n\nAsciuga bene il pollo e fallo rosolare a fuoco basso girandolo una sola volta quando si e' dorato. Quando e' dorato da entrambi i lati, toglierlo dalla padellina e metterlo da parte.\n\nVersa il dashi, il mirin e la salsa di soia nel pentolino, accendi il fuoco, aggiungi le cipolle e fai sobollire a fuoco medio-basso per 4 minuti.\n\nA questo punto abbassa la fiamma, e aggiungi il pollo. Fai sobollire per altri 2 minuti, fin quando il pollo non e' completamente cotto e il brodo non si e' ristretto un po'.\n\nAlza il fuoco a medio, versa delicatamente 2/3 dell'uovo cercando di coprire tutto. Mischia il resto dell'uovo alle cipolline e mettilo da parte. Fai andare 30-40 secondi a fuoco medio, poi abbassa la fiamma e cuoci un altro minuto, il brodo non si deve essere asciugato. Mischia molto delicatamente, e versa il restante uovo con le cipolline. A questo punto, spegni pure la fiamma e fai cuocere con il calore residuo per un altro minuto. La ricetta originale (come piace a me) prevede che l'uovo resti mezzo crudo e bello bavoso.\n\nTrasferisci il contenuto del pentolino direttamente sul riso facendocelo scivolare sopra. Servire caldo."
     },
@@ -352,7 +380,15 @@
 
       ],
       "ingredients": [
-
+        "carota",
+        "dashi",
+        "mirin",
+        "pollo",
+        "tonno in scatola",
+        "riso",
+        "sale",
+        "salsa di soia",
+        "shiitake"
       ],
       "preparation": "Quando lavi il riso poi lascialo a bagno una mezz’ora e poi un quarto d’ora ad asciugare: assorbira’ meglio il condimento\n\nMetti gli shiitake a mollo nel dashi tiepido, dopo mezz’ora filtra il tutto, otterrai lo shiitake dashi.\n\nNella risiera metti il riso, il sale (non te lo scordare, molto poco ma ci vuole) la soia e il mirin, lo shiitake dashi (deve essere della stessa quantita’ in volume del riso) e mischia bene, fai depositare il riso e poi sopra metti, a strati, gli ingredienti, dal più duro al piu’ morbido.\n\nAccendi la risiera e non toccare, gira solo quando ha finito, e vedrai che ti mangi."
     },
@@ -365,7 +401,18 @@
 
       ],
       "ingredients": [
-
+        "dashi",
+        "mirin",
+        "sake",
+        "sale",
+        "salsa di soia",
+        "uovo",
+        "ginnan",
+        "edamame",
+        "shiitake",
+        "gamberi",
+        "prezzemolo",
+        "cipolline"
       ],
       "preparation": "Unire in una ciotola le uova, con il dashi, il mirin, la salsa di soia (se si vuole, il sake) e il sale. Mescolare bene con luna frusta, cercando di non incorporare aria.\nSetacciare il composto con un colino a maglie strette in un'altra ciotola, e versare il composto nelle ciotoline di ceramica.\nMettere nelle ciotoline uno o due gamberi, un paio di ginnan, e un fungo shiitake fatto a fettine.\nVersare il composto nelle ciotoline, e coprire con un foglio di alluminio. Mettere le ciotoline nella pentola per il vapore, e cuocere a circa 90 gradi per 10 minuti.\nLa cosa piu' semplice per mantenere la temperatura é  mettere una bacchetta tra il coperchio e la pentola, per tenere il coperchio socchiuso. Tenere la fiamma appena sufficiente a far sobbollire l'acqua.\n\nA questo punto si possono aggiungere altre decorazioni, come l'edamame, o un gambero o delle capesante fatte a fettine, e cuocere per altri 2 minuti. Altrimenti, si puo' cuocere per 12-13 minuti senza aggiungere nulla.\n\nSpegnere il fuoco, e lasciare riposare per 7-8 minuti. A questo punto aggiungere un po' di prezzemolo o cipolline, e servire caldo.\n\nAlternativamente, si puo' mettere in frigorifero e gustare freddo, con del buon vino bianco o del sake."
     },
@@ -391,16 +438,16 @@
         "https://ricettegiapponesi.jeko.net/assets/images/potetosarada.jpg"
       ],
       "ingredients": [
-        "Patate a pasta gialla 1.5 kg",
-        "[Maionese Kewpie](https://ricettegiapponesi.jeko.net/ingredients/mayo) 250 ml circa (regolabili a piacere)",
-        "Cetriolo 1",
-        "Cipolla dorata 1/2",
-        "Carote 3",
-        "1 cucchiaio di [mirin](https://ricettegiapponesi.jeko.net/ingredients/mirin)",
-        "Aceto di riso 1 cucchiaio",
-        "Zucchero 2 cucchiaini circa",
-        "Sale qb",
-        "Pepe qb"
+        "Aceto di riso",
+        "Carote",
+        "Cetriolo",
+        "Cipolla dorata",
+        "Maionese Kewpie",
+        "Patate a pasta gialla",
+        "Pepe",
+        "Sale",
+        "Zucchero circa",
+        "mirin"
       ],
       "preparation": "Mettere a bollire le patate.\n\nTagliare il cetriolo e la cipolla sottilissimi, metterli in uno scolapasta con un po' di sale e metterci sopra un canovaccio con un peso. Far drenare per 15-20 minuti. Dopo, eliminare il sale in eccesso (anche con una sciaquata veloce) e strizzare bene con un canovaccio (mi raccomando bene)\n\nSbollentare le carota sbucciate per qualche minuto, poi tagliarle a fettine o cubetti (come prederite)\n\nUna volta che le patate sono pronte, sbucciarle senza scottarsi, metterle in una terrina e schiacciarle con una forchetta come per fare il pure', lasciando dei pezzetti per avere una consistenza piu' varia (aho poi a me piacciono cosi poi voi fate come vi pare)\n\nAggiungere cetriolo, cipolla, carota, la maionese, il mirin e l'aceto di riso, lo zucchero, il sale e il pepe e mescolare. I condimenti finali vanno un po' a piacere, soprattutto per quanto riguarda lo zucchero."
     },
@@ -413,7 +460,12 @@
 
       ],
       "ingredients": [
-
+        "Negi o porro",
+        "Quello che ti pare",
+        "Tofu",
+        "da the di wakame",
+        "dashi",
+        "miso"
       ],
       "preparation": "Portare il dashi ad ebollizione, se stai facendo una zuppa di miso con quello che ti pare, aggiungilo adesso e portalo a cottura, perché' quando aggiungeremo il miso, non potremo più farla bollire (sennò il miso muore male).\n\nQuando il dashi bolle (o quando il quello che ti pare che ci hai aggiunto prima se volevi è cotto), spegnere il fuoco, e sciogliere il miso nel dashi aiutandosi con un setaccio (si può fare senza setaccio, ma setacciandolo viene più liscia e meno torbida).\n\nSe vi piacciono, aggiungete le alghe wakame essiccate, il tofu e il porro come guarnizione e servire bollente."
     },
@@ -439,11 +491,11 @@
 
       ],
       "ingredients": [
-        "1 cetriolo giapponese o siriano (sono quelli stretti e lunghi con pochi semi)",
-        "1 cucchiaio di aceto di riso",
-        "2 cucchiaini di zucchero",
-        "1 cucchiaino di sale",
-        "1 cucchiano da caffe' di senape karashi"
+        "aceto di riso",
+        "cetriolo giapponese o siriano",
+        "cucchiano da caffe' di senape karashi",
+        "sale",
+        "zucchero"
       ],
       "preparation": "Cospargere di sale un tagliere e rotolarci sopra il cetriolo come se fosse un mattarello. In questo modo la pelle del cetriolo si rompe e si ammorbidisce, e il condimento penetra meglio.\nSciacquare bene il cetriolo e asciugarlo. Tagliarlo a fette a losanghe di circa 4mm di spessore. (Questa operazione si puo' fare anche con una mandolina).\nIn un sacchetto di plastica, mettere il cetriolo, l'aceto, lo zucchero, il sale e la senape. Chiudere il sacchetto facendo uscire tutta l'aria e mescolare bene. Lasciare marinare per almeno 30 minuti in frigorifero, e servire freddo."
     },
@@ -456,12 +508,12 @@
 
       ],
       "ingredients": [
-        "450g daikon",
-        "1 peperoncino rosso secco",
-        "2 cucchiai aceto di riso",
-        "1 cucchiaino di [sake](https://ricettegiapponesi.jeko.net/ingredients/sake) (opzionale)",
-        "1 cucchiaio di sale marino in fiocchi o mezzo cuucchiaio di sale in polvere",
-        "⅓ cup sugar (provato con 2 cucchiai grandi)"
+        "aceto di riso",
+        "daikon",
+        "peperoncino rosso secco",
+        "sake",
+        "sale marino in fiocchi o mezzo cuucchiaio di sale in polvere",
+        "sugar"
       ],
       "preparation": "Taglia il daikon a meta', e poi a fettine di 5mm circa di spessore, ottenendo delle mezze lune.\n\nMischia tutto molto bene e metti in un sacchetto di plastica a chiusura ermetica, cercando di far uscire tutta l'aria. All'inizio il liquido di marinatura sembrera' un po' poco, ma con il tempo il daikon, grazie al sale, espellera' un sacco di acqua.\n\nMetti in frigorifero, e' buono dopo 2-3 ore, ma suggerisco di aspettare almeno una settimana.\n\nNon ho idea di quanto si conservi, ma ne ho trovato uno dimenticato in frigo da mesi, ed era il migliore che avessi provato (e sono ancora vivo mesi dopo). Suppongo che se vada a male, sia anche facile accorgersene."
     },
@@ -474,8 +526,8 @@
 
       ],
       "ingredients": [
-        "250g zenzero fresco",
-        "1 cucchiaino di sale fino"
+        "sale fino",
+        "zenzero fresco"
       ],
       "preparation": "Sbuccia lo zenzero raschiandolo con un cucchiaio, e lavalo con acqua fredda. Taglialo a fettine sottili, usando un pelapatate o una mandolina, e mettile in una ciotola. Aggiungi un cucchiaio di sale e lascia riposare per 10 minuti, viene meglio ancora se lo metti sotto un peso per far rilasciare il liquido. Intanto metti una pentola con l'acqua sul fuoco, e porta a bollore.\n\nStrizza bene lo zenzero, e mettilo a bollire per 1-2 minuti. Se lo zenzero e' molto piccante, puoi bollirlo per 2-3 minuti. Scolalo bene e distribuiscilo su un panno pulito, e lascialo asciugare finche' non si fredda completamente. Strizzalo bene e mettilo in un barattolo di vetro sterilizzato.\n\nMentre lo zenzero asciuga, prepara l'amazu. Metti l'aceto, lo zucchero e il sale in una pentola, e porta a bollore. Lascia bollire per 1-2 minuti, finche' lo zucchero non si e' sciolto completamente. Lascia raffreddare completamente.\n\nVersa l'amazu sullo zenzero, e lascia riposare per 1-2 giorni prima di consumarlo. Si conserva per mesi in frigo."
     },
@@ -488,10 +540,10 @@
 
       ],
       "ingredients": [
-        "150g miso chiaro",
-        "25ml di [sake](https://ricettegiapponesi.jeko.net/ingredients/sake)",
-        "45ml di [mirin](https://ricettegiapponesi.jeko.net/ingredients/mirin)",
-        "3 teste d'aglio"
+        "mirin",
+        "miso chiaro",
+        "sake",
+        "aglio"
       ],
       "preparation": null
     },
@@ -504,7 +556,10 @@
 
       ],
       "ingredients": [
-
+        "aglio",
+        "zucchero",
+        "salsa di soia",
+        "aceto di riso"
       ],
       "preparation": null
     },
@@ -519,17 +574,17 @@
         "https://ricettegiapponesi.jeko.net/assets/images/gyoza2.jpg"
       ],
       "ingredients": [
-        "250g di carne di maiale macinata, preferite un taglio grasso come il collo.",
-        "500g di cavolo cinese",
-        "2 spicchi d'aglio",
-        "1 cucchiaio di zenzero fresco grattugiato",
-        "1 pizzico di sale",
-        "pepe nero macinato a piacere",
-        "2 cipolline verdi/negi",
-        "2 funghi shiitake (opzionali)",
-        "2 cucchiai di olio di sesamo",
-        "2 cucchiai di [salsa di soia](https://ricettegiapponesi.jeko.net/ingredients/shoyu)",
-        "2 cucchiai di [sake](https://ricettegiapponesi.jeko.net/ingredients/sake)"
+        "aglio",
+        "carne di maiale",
+        "cavolo cinese",
+        "cipolline verdi/negi",
+        "funghi shiitake",
+        "olio di sesamo",
+        "pepe nero",
+        "sake",
+        "sale",
+        "salsa di soia",
+        "zenzero"
       ],
       "preparation": "Tritare finemente il cavolo e metterlo in una ciotola con un cucchiaio di sale. Lasciar riposare per 10 minuti, poi sciacquate e strizzare bene il cavolo per eliminare l'acqua in eccesso.\nMentre il cavolo sta li per conto suo a perdere acqua, tritare finemente l'aglio, lo zenzero e le cipolline verdi. Mettere tutto in una ciotola con la carne di maiale e gli altri ingredienti e mescolare\nfinché non si rompono le proteine della carne e il composto diventa omogeneo e quasi colloso.\n\nCon un cucchiaino, prendere un po' di ripieno e metterlo al centro di una sfoglia di pasta per gyoza. Bagnare i bordi con un po' d'acqua e chiudere a mezzaluna, facendo delle pieghe a ventaglio.\n\nSiccome faccio pena a chiudere i gyoza, vi linko un video di come si chiudono i gyoza: [link](https://www.youtube.com/watch?v=P3tBvO0YFfQ)\n\nMettete i gyoza chiusi su un foglio di carta da forno, cosparso leggermente con della fecola di patate, o amido di mais.\nQuesto non solo evita che i gyoza si attacchino al foglio, ma l'amido, sciogliendosi nell'acqua in cottura, fara' una splendida crosticina dorata.\n\nPiu' o meno il risultato e' questo (notare quello in basso a sinistra, detto anche Gyozimodo):\n\n![Gyoza](/assets/images/gyoza3.jpg)"
     },
@@ -542,7 +597,14 @@
         "https://ricettegiapponesi.jeko.net/assets/images/shogayaki.jpg"
       ],
       "ingredients": [
-        "fettine di lonza di maiale molto sottili, meno di 5 mm"
+        "lonza di maiale",
+        "salsa di soia",
+        "mirin",
+        "sake",
+        "zucchero",
+        "zenzero",
+        "aglio",
+        "farina"
       ],
       "preparation": null
     },
@@ -568,7 +630,7 @@
 
       ],
       "ingredients": [
-        "Pollo (meglio cosce e sottocosce, il petto buuu)",
+        "Pollo",
         "Salsa teriyaki"
       ],
       "preparation": null

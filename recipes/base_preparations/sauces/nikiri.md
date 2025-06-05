@@ -2,7 +2,7 @@
 title: Nikiri Sauce
 description: Salsa densa da spennellare sui nigiri
 ingredients:
-- / di salsa di soia
+- salsa di soia
 - dashi
 - mirin
 - sake
