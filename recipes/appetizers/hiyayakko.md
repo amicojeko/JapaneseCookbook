@@ -5,7 +5,7 @@ ingredients:
 - Cipollina verde o negi
 - Katsuobushi
 - Zenzero
-- panetto di tofu morbido
+- silken tofu
 - salsa ponzu
 ---
 
