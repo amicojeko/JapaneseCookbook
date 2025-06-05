@@ -64,10 +64,16 @@ def parse_markdown(file_path, base_dir:, extract_sections: false)
     }
 
     if extract_sections
-      ingredient_text = extract_section(body, 'Ingredienti')
+      ingredients = frontmatter['ingredients']
+
+      if ingredients.nil? || ingredients.empty?
+        ingredient_text = extract_section(body, 'Ingredienti')
+        ingredients = extract_bullets(ingredient_text)
+      end
+
       preparation_text = extract_section(body, 'Preparazione')
 
-      data[:ingredients] = extract_bullets(ingredient_text)
+      data[:ingredients] = ingredients if ingredients
       data[:preparation] = preparation_text
     end
 
