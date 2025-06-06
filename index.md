@@ -5,4 +5,5 @@ title: Ricette Giapponesi
 Benvenuti sul mio sito di ricette giapponesi!
 Questi sono i risultati dei miei studi e delle mie sperimentazioni nella cucina giapponese, e sono in costante cambiamento ed evoluzione. Ogni suggerimento è più che ben accetto.
 
-Questo sito e'anche disponibile in versione [ChatGPT Assistant](https://chatgpt.com/g/g-6820cb0fed508191adafb39249db35f0-jeko-s-japanese-recipes-assistant/).
+Questo ricettario e' gratuito, accessibile a tutti, e senza pubblicita'. Tutte le ricette contenute in questo sito sono di mia
+creazione e proprieta' e non possono essere ripubblicate in alcuna forma senza la mia autorizzazione.
