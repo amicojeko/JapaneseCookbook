@@ -2,8 +2,8 @@
 title: Hiyashi Nasu
 description: Melanzane fredde con condimento
 ingredients:
-- Melanzane piccole
-- Cipollina verde o negi
+- Melanzane
+- Cipolline verdi o negi
 - Katsuobushi
 - Salsa di soia
 ---
