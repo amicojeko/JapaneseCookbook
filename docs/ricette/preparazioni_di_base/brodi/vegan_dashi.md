@@ -1,7 +1,7 @@
 ---
-title: Dashi Vegano
+title: Dashi Vegan
 description: La base per tantissime ricette giapponesi, in versione 100% vegetale.
-slug: /ricette/vegan_dashi
+slug: /ricette/dashi_vegan
 ingredients:
 - Acqua
 - Alga Kombu

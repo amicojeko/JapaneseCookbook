@@ -1,6 +1,7 @@
 ---
 title: Somen Freddi in Brodo di Pollo (Hiyashi Tori Dashi Somen)
 description: Un piatto di noodles freddi rinfrescante e saporito, con un tocco di aceto che lo rende perfetto per l'estate.
+slug: /ricette/hiyashi_tori_dashi_somen
 ingredients:
 - Sovraccoscia di pollo
 - Alga Kombu

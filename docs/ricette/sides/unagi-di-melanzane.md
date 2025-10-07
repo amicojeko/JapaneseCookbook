@@ -1,6 +1,7 @@
 ---
 title: Unagi di melanzane
 description: La Melanzana che voleva essere un'Anguilla! Una ricetta vegana così buona che la sceglierebbe anche un onnivoro.
+slug: /ricette/unagi_di_melanzane
 ingredients:
 - Melanzana
 - Fecola di patate

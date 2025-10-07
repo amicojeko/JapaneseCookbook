@@ -1,6 +1,7 @@
 ---
 title: Sunomono di Cetrioli e Wakame (con variante al Polpo)
 description: Insalatine giapponesi con condimento a base di aceto, perfette per l'estate.
+slug: /ricette/sunomono
 ingredients:
 - Cetriolo Giapponese
 - Alghe Wakame essiccate

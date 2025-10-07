@@ -1,6 +1,7 @@
 ---
 title: Sushisu (寿司酢)
 description: Il condimento per il riso per il sushi
+slug: /ricette/sushisu
 ---
 
 ## Ingredienti

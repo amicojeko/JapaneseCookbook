@@ -1,6 +1,7 @@
 ---
 title: Salsa Tentsuyu
 description: La salsa per la tempura
+slug: /ricette/tentsuyu
 ingredients:
 - Daikon grattugiato
 - dashi

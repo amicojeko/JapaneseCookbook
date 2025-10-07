@@ -1,6 +1,7 @@
 ---
 title: Nikiri Sauce
 description: Salsa densa da spennellare sui nigiri
+slug: /ricette/salsa_nikiri
 ingredients:
 - / di salsa di soia
 - dashi

@@ -1,4 +1,5 @@
 ---
 title: Yakisoba
-redirect: ../yakimono/yakisoba.md
 ---
+
+Vedi gli [yakisoba](/ricette/yakisoba) nella sezione yakimono.

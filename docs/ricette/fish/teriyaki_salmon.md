@@ -1,5 +1,7 @@
 ---
 title: Salmone Teriyaki
+description: Salmone in padella con salsa Teriyaki
+slug: /ricette/salmone_teriyaki
 ingredients:
 - Farina bianca
 - Olio da cucina o burro

@@ -1,6 +1,7 @@
 ---
 title: Zaru Soba
 description: Spaghetti di grano saraceno freddi
+slug: /ricette/zaru_soba
 ingredients:
 - spaghetti di grano saraceno
 - mentsuyu

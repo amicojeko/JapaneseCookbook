@@ -1,5 +1,7 @@
 ---
 title: Pollo Teriyaki
+description: Il classico pollo teriyaki giapponese
+slug: /ricette/pollo_teriyaki
 ingredients:
 - Pollo
 - Salsa teriyaki

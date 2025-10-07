@@ -1,6 +1,7 @@
 ---
 title: Furikake
 description: Condimento secco per riso
+slug: /ricette/furikake
 ingredients:
 - Alga Kombu
 - Alga nori

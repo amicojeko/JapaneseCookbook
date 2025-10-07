@@ -1,5 +1,7 @@
 ---
 title: Salsa Takoyaki
+description: Salsa per i takoyaki
+slug: /ricette/salsa_takoyaki
 ingredients:
 - ketchup
 - mentsuyu

@@ -1,6 +1,7 @@
 ---
 title: Ninniku no Misozuke
 description: Aglio conservato sotto miso
+slug: /ricette/ninniku_no_misozuke
 ingredients:
 - mirin
 - miso chiaro

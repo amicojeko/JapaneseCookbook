@@ -1,6 +1,7 @@
 ---
 title: Hiyashi Nasu (Melanzane Fredde)
 description: Un piatto tipico degli Izakaya giapponesi, semplicissimo e incredibilmente buono.
+slug: "/ricette/hiyashi_nasu"
 ingredients:
 - Melanzane
 - Cipolline verdi

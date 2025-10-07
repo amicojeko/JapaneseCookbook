@@ -1,6 +1,7 @@
 ---
 title: Daikon-dzuke (大根の漬物)
 description: Daikon piccante sott'aceto
+slug: /ricette/daikon_dzuke
 ingredients:
 - aceto di riso
 - daikon

@@ -1,5 +1,7 @@
 ---
 title: Yakisoba
+description: La pasta saltata alla giapponese
+slug: /ricette/yakisoba
 ingredients:
 - Ramen noodles
 - Pasta

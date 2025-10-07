@@ -1,6 +1,7 @@
 ---
 title: Ninniku Shoyuzuke (ニンニク醤油漬け)
 description: Aglio conservato in salsa di soia
+slug: /ricette/ninniku_shoyuzuke
 ingredients:
 - aglio
 - zucchero

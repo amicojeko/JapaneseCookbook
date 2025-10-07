@@ -1,6 +1,7 @@
 ---
 title: Bukkake Udon
 description: Udon freddi con condimento versato sopra.
+slug: /ricette/bukkake_udon
 ingredients:
 - Udon
 - Daikon

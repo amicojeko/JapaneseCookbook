@@ -1,6 +1,7 @@
 ---
 title: Salsa Okonomiyaki
 description: Salsa per gli okonomiyaki
+slug: /ricette/salsa_okonomiyaki
 ingredients:
 - aceto di mele o aceto di riso
 - ketchup

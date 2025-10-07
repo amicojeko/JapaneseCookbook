@@ -1,6 +1,7 @@
 ---
 title: Gyoza
 description: Ravioli alla piastra
+slug: /ricette/gyoza
 ingredients:
 - aglio
 - carne di maiale

@@ -1,6 +1,7 @@
 ---
 title: Salsa Ponzu
 description: Salsa fresca ed agrumata
+slug: /ricette/salsa_ponzu
 ingredients:
 - aceto di riso
 - dashi

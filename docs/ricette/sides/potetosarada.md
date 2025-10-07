@@ -1,6 +1,7 @@
 ---
 title: Potetosarada (ポテトサラダ)
 description: Insalata di patate
+slug: /ricette/potetosarada
 tags:
 - sides
 - vegetarian

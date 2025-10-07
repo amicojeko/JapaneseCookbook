@@ -1,6 +1,7 @@
 ---
 title: Yakitori Tare
 description: Salsa per yakitori
+slug: /ricette/salsa_yakitori
 ingredients:
 - Opzionale - zenzero e aglio grattugiati
 - acqua

@@ -1,6 +1,7 @@
 ---
 title: Gari
 description: Zenzero marinato
+slug: /ricette/gari
 ingredients:
 - sale fino
 - zenzero fresco

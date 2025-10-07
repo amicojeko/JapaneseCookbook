@@ -1,6 +1,7 @@
 ---
 title: Salsa Tonkatsu
 description: Salsa per le cotolette di maiale
+slug: /ricette/salsa_tonkatsu
 ingredients:
 - aceto di mele
 - ketchup

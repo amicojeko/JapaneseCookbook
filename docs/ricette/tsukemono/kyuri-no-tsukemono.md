@@ -1,6 +1,7 @@
 ---
 title: Kyuri no Tsukemono
 description: Cetrioli sottaceto veloci
+slug: /ricette/kyuri_no_tsukemono
 ingredients:
 - Cetrioli
 - Sale

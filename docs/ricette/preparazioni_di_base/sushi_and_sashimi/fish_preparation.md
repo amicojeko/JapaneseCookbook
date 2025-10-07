@@ -1,5 +1,7 @@
 ---
 title: Prepare il pesce per sushi e sashimi
+description: Come preparare il pesce per sushi e sashimi
+slug: /ricette/preparazione_pesce_sushi_sashimi
 ---
 
 ## Salmone

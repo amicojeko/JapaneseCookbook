@@ -1,7 +1,7 @@
 ---
 title: Kara-Age (から揚げ)
 description: Il pollo fritto piu' buono del mondo
-slug: /ricette/karaage
+slug: /ricette/kara-age
 ingredients:
 - Coscia e sottocoscia di pollo disossata
 - Farina di grano

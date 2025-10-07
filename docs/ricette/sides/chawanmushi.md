@@ -1,6 +1,7 @@
 ---
 title: Chawanmushi
 description: Budino di uova cotto al vapore
+slug: /ricette/chawanmushi
 ingredients:
 - dashi
 - mirin

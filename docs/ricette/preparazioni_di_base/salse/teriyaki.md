@@ -1,6 +1,7 @@
 ---
 title: Salsa Teriyaki
 description: La salsa barbecue giapponese
+slug: /ricette/salsa_teriyaki
 ingredients:
 - fecola di patate o amido di mais
 - mirin

@@ -1,6 +1,7 @@
 ---
 title: Shogayaki
 description: Scaloppine di maiale allo zenzero
+slug: /ricette/shogayaki
 ingredients:
 - lonza di maiale
 - salsa di soia

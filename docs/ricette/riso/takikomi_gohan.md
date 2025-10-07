@@ -1,6 +1,7 @@
 ---
 title: Takikomi Gohan (Riso misto) 炊き込みご飯
 description: Riso svuotafrigo cotto direttamente nella risiera
+slug: /ricette/takikomi_gohan
 ingredients:
 - carota
 - dashi

@@ -1,6 +1,7 @@
 ---
 title: Udon con Burro e Salsa di Soia (バター醤油うどん)
 description: Il comfort food perfetto, l'equivalente giapponese del nostro "burro e parmigiano".
+slug: /ricette/udon_burro_e_shoyu
 ingredients:
 - Udon
 - Burro

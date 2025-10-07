@@ -1,7 +1,7 @@
 ---
 title: Natto Soba
-description: Spaghetti di grano saraceno freddi con natto, cipolline, alga nori e
-  altre delizie
+description: Spaghetti di grano saraceno freddi con natto, cipolline, alga nori e altre delizie
+slug: /ricette/natto_soba
 ingredients:
 - Cipolline verdi o negi
 - Kizami nori

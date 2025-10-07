@@ -1,6 +1,7 @@
 ---
 title: Hiyayakko
 description: Tofu freddo con condimento
+slug: /ricette/hiyayakko
 ingredients:
 - Cipollina verde o negi
 - Katsuobushi
