@@ -26,6 +26,6 @@ ingredients:
 
 Bollire al minimo fino a ridurre della metà il volume.
 
-!!! Suggerimenti
+:::tip
 Si conserva in frigo anche 2-3 mesi.
-!!!
+:::

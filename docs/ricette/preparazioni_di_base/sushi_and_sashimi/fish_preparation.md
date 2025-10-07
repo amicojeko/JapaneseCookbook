@@ -26,7 +26,7 @@ slug: /ricette/preparazione_pesce_sushi_sashimi
 - Se gia' abbattuto, far riposare in frigorifero per 24 ore e consumare il giorno successivo
 - Altrimenti, farlo riposare un paio d'ore in frigorifero e poi spostare nel congelatore, dove deve rimanere almeno una settimana per uccidere eventuali parassiti.
 
-!!! Suggerimenti
+:::tip
 Con lo sgombro o il maccarello, bisogna essere molto delicati perche' la carne e' molto delicata e tende a rovinarsi molto velocemente.
-!!!
+:::
 

@@ -28,8 +28,7 @@ Taglialo in 2 o 4 pezzi, oppure lascialo intero se lo servi in una sola porzione
 
 Guarnisci con una grattugiata di zenzero fresco, katsuobushi a piacere, e cipollina verde affettata.
 
-!!!
-Il tofu va servito ben freddo. Puoi tenerlo in frigo fino al momento del servizio.
-
-Per una variante vegan, puoi omettere il katsuobushi.
-!!!
+:::tip
+- Lo hiyayakko va servito ben freddo. Puoi tenerlo in frigo fino al momento del servizio.
+- Per una variante vegan, puoi omettere il katsuobushi.
+:::

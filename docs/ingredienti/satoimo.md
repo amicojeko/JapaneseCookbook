@@ -16,6 +16,6 @@ Il Satoimo (taro) è un tubero tropicale commestibile, molto utilizzato nella cu
 - È una varietà di taro, ma non viene mai chiamata "taro" in Giappone nel linguaggio comune.
 - Il termine "taro" è di origine occidentale (usato in inglese e in contesti scientifici o internazionali).
 
-!!!
-**Importante:** Va sempre cotto prima del consumo, perché crudo è tossico a causa dei cristalli di ossalato di calcio, che possono irritare la bocca e la gola.
-!!!
+:::warning
+Va sempre cotto prima del consumo, perché crudo è tossico a causa dei cristalli di ossalato di calcio, che possono irritare la bocca e la gola.
+:::

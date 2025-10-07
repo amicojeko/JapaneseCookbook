@@ -24,9 +24,9 @@ L'ichiban dashi e' il dashi piu' comune, e si usa in tutte le preparazioni dove 
 
 ### Preparazione
 
-!!! Nota
+:::note
 L'acqua e' un ingrediente crucale per fare un buon dashi. Cercate di usare acqua di buona qualita', possibilmente povera di calcare, come l'acqua minerale naturale. Se usate l'acqua del rubinetto, fatela bollire e raffreddare prima di usarla, in modo da farle perdere il cloro e altre sostanze volatili che potrebbero rovinare il sapore del dashi. Meglio ancora se avete un filtro a carbone attivo.
-!!!
+:::
 
 Non togliere la polvere bianca dall'alga Kombu: quello è il glutammato naturalmente presente nell'alga, fonte di umami, ed è esattamente il motivo per cui usiamo la kombu.
 
@@ -34,9 +34,9 @@ Versare l'acqua in una pentola, mettere l'alga kombu a bagno e lasciar riposare 
 
 Coprire con un coperchio e portare a 70 gradi a fiamma bassa (più ci mette, meglio è). Conviene usare un termometro, quando l’acqua raggiunge la temperatura spegnere la fiamma, e lasciare in infusione per altri 20 minuti.
 
-!!!warning Importante!
+:::warning
 Non deve bollire assolutamente, perché’ se l’alga kombu bolle, caccia tutta una gelatina puzzolente che poi dovete scappare di casa. Cerca di usare un pezzo unico di alga kombu, se lo spezzetti in pezzi piu' piccoli, hai piu' probabilità che rilasci questa gelatina.
-!!!
+:::
 
 Togliere l’alga kombu, rialzare la fiamma e portare a 90 gradi, ed eliminare la schiuma con una schiumarola a setaccio fino.
 
@@ -44,11 +44,11 @@ Spegnare la fiamma, e mettere il katsuobushi. Tenere il katsuobushi da 10-15 sec
 
 Togliere il katsuobushi e, e filtrare il brodo ottenuto con un panno fino. Complimenti avete appena fatto il dashi!
 
-!!!warning Importante!
+:::warning
 Non strizzate il katsuobushi, altrimenti il dashi diventa amaro.
-!!!
+:::
 
-!!! Suggerimenti
+:::tip
 Volendo potete utilizzare di nuovo il katsuobushi e l’alga kombu per fare un secondo dashi più delicato (Niban dashi, letteralmente secondo dashi).
 
 In alternativa, si possono essiccare e sbriciolare kombu e katsuobushi per fare il [furikake](/recipes/base_preparations/condiments/furikake).
@@ -56,7 +56,7 @@ In alternativa, si possono essiccare e sbriciolare kombu e katsuobushi per fare 
 Ad ogni modo, cercate di non buttare subito kombu e katsuobushi.
 
 Se volete, esiste la versione vegana del dashi, che utilizza l’alga kombu e i funghi shiitake essiccati, che trovate [qui](/ricette/vegan_dashi).
-!!!
+:::
 
 ## Niban Dashi
 

@@ -28,6 +28,6 @@ Togliere l'alga kombu, e lasciare che il brodo raggiunga la temperatura ambiente
 
 Trascorso il tempo di infusione, il dashi è pronto. Filtrare il brodo per rimuovere eventuali impurità.
 
-!!! Suggerimenti
+:::tip
   L'alga e i funghi utilizzati possono essere tagliati a striscioline e usati in altre preparazioni, come il Takikomi Gohan o il Nimono.
-!!!
+:::
