@@ -21,15 +21,15 @@ E infatti oggi vi racconterò questa: la favola della melanzana che voleva esser
 
 ## Ingredienti
 - 1 Melanzana
-- [Fecola di patate](/ingredients/potato_starch.md)
-- 1 cucchiaio di [Sakè](/ingredients/sake.md) da cucina
-- 1 cucchiaio di [Mirin](/ingredients/mirin.md)
-- 2 cucchiai di [Salsa di Soia](/ingredients/shoyu.md)
+- [Fecola di patate](/ingredienti/potato_starch.md)
+- 1 cucchiaio di [Sakè](/ingredienti/sake.md) da cucina
+- 1 cucchiaio di [Mirin](/ingredienti/mirin.md)
+- 2 cucchiai di [Salsa di Soia](/ingredienti/shoyu.md)
 - 1 cucchiaino di Zucchero
-- [Olio di semi di sesamo](/ingredients/sesame_oil.md) per la cottura
-- [Riso](/ingredients/rice.md) bianco cotto per servire
-- [Semi di sesamo](/ingredients/sesame.md) tostati per guarnire
-- [Cipolline verdi](/ingredients/negi.md) per guarnire
+- [Olio di semi di sesamo](/ingredienti/sesame_oil.md) per la cottura
+- [Riso](/ingredienti/rice.md) bianco cotto per servire
+- [Semi di sesamo](/ingredienti/sesame.md) tostati per guarnire
+- [Cipolline verdi](/ingredienti/negi.md) per guarnire
 
 ## Preparazione
 Sbucciare una striscia sì e una striscia no (come la divisa della Juve). Poi incartarla in un foglio di carta da cucina bagnato e strizzato, e poi nella pellicola per alimenti.

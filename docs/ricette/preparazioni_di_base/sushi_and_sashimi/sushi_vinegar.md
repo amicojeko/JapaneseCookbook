@@ -9,7 +9,7 @@ description: Il condimento per il riso per il sushi
 - Aceto di riso 360ml
 - Zucchero 200g
 - Sale 50g
-- 1 pezzetto di [alga kombu](/ingredients/kombu.md)
+- 1 pezzetto di [alga kombu](/ingredienti/kombu.md)
 
 ## Preparazione
 

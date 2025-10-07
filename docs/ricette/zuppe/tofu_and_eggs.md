@@ -21,14 +21,14 @@ Ecco una ricetta che ha tutte le caratteristiche che si possono desiderare: è b
 ## Ingredienti
 - Mezzo panetto di Tofu
 - 1 Uovo
-- 2-3 [Funghi Shiitake](/ingredients/shiitake.md) freschi o reidratati
+- 2-3 [Funghi Shiitake](/ingredienti/shiitake.md) freschi o reidratati
 - Mezza Carota
-- 2 [Cipolline](/ingredients/negi.md)
+- 2 [Cipolline](/ingredienti/negi.md)
 - 1 tazza di [Dashi](/recipes/base_preparations/stocks/dashi.md) (o brodo vegetale)
-- 1 cucchiaio di [Salsa di soia](/ingredients/shoyu.md)
-- 1 cucchiaio di [Mirin](/ingredients/mirin.md)
+- 1 cucchiaio di [Salsa di soia](/ingredienti/shoyu.md)
+- 1 cucchiaio di [Mirin](/ingredienti/mirin.md)
 - 1 cucchiaino di Zucchero
-- 1 cucchiaino di [Fecola di patate](/ingredients/potato_starch.md)
+- 1 cucchiaino di [Fecola di patate](/ingredienti/potato_starch.md)
 
 ## Preparazione
 Preparare il brodo di cottura mescolando in una ciotola il dashi, la salsa di soia, il mirin e lo zucchero.

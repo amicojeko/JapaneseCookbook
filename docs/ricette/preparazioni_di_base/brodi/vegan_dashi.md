@@ -1,6 +1,7 @@
 ---
 title: Dashi Vegano
 description: La base per tantissime ricette giapponesi, in versione 100% vegetale.
+slug: /ricette/vegan_dashi
 ingredients:
 - Acqua
 - Alga Kombu
@@ -11,8 +12,8 @@ Il Dashi è il brodo fondamentale della cucina giapponese, l'ingrediente che don
 
 ## Ingredienti
 - 1 litro di Acqua
-- 1 pezzo di [Alga Kombu](/ingredients/kombu.md) (circa 10-15 cm)
-- 3-4 [Funghi Shiitake](/ingredients/shiitake.md) essiccati
+- 1 pezzo di [Alga Kombu](/ingredienti/kombu.md) (circa 10-15 cm)
+- 3-4 [Funghi Shiitake](/ingredienti/shiitake.md) essiccati
 
 ## Preparazione
 Non togliere la polvere bianca dall'alga Kombu: quello è il glutammato naturalmente presente nell'alga, fonte di umami, ed è esattamente il motivo per cui usiamo la kombu.

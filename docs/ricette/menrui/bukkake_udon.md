@@ -17,12 +17,12 @@ La parola **Bukkake** in giapponese deriva dal verbo *bukkakeru*, che vuol dire 
 
 ## Ingredienti
 - Udon confezionati (quelli freschi vanno benissimo, ma anche quelli secchi andranno bene)
-- Un pezzo di 5cm di [Daikon](/ingredients/daikon.md)
-- [Cipolline fresche](/ingredients/negi.md)
+- Un pezzo di 5cm di [Daikon](/ingredienti/daikon.md)
+- [Cipolline fresche](/ingredienti/negi.md)
 - Un pezzetto di zenzero fresco
 - 1 tazza di [Dashi](/recipes/base_preparations/stocks/dashi.md) freddo
 - 1 cucchiaio di [Mentsuyu](/recipes/base_preparations/stocks/mentsuyu.md)
-- Un paio di cucchiaini di [Salsa di Soia](/ingredients/shoyu.md)
+- Un paio di cucchiaini di [Salsa di Soia](/ingredienti/shoyu.md)
 - Acqua e ghiaccio
 
 ## Preparazione

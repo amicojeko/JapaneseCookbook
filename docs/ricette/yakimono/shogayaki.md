@@ -23,9 +23,9 @@ Gli Shogayaki sono delle scaloppine di maiale allo zenzero, una ricetta giappone
 ### Per la Salsa
 
 La salsa e’ come una light teriyaki fatta al momento:
-- 1 parte di [salsa di soia](/ingredients/shoyu.md)
-- 1 parte di [mirin](/ingredients/mirin.md)
-- 1 parte di [sake](/ingredients/sake.md)
+- 1 parte di [salsa di soia](/ingredienti/shoyu.md)
+- 1 parte di [mirin](/ingredienti/mirin.md)
+- 1 parte di [sake](/ingredienti/sake.md)
 - ½ parte di zucchero (opzionale)
 - ½ parte di zenzero grattugiato
 - ½ parte di aglio grattugiato

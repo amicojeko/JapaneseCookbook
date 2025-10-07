@@ -27,8 +27,8 @@ Invece le proporzioni della parte liquida sono molto importanti, e vanno rispett
 ### Per il condimento
 - 1 parte di zucchero
 - 2 parti di aceto di riso (devo provare a sostituirlo con il sake)
-- 2 parti di [mirin](/ingredients/mirin.md)
-- 2.5 parti di [salsa di soia](/ingredients/shoyu.md)
+- 2 parti di [mirin](/ingredienti/mirin.md)
+- 2.5 parti di [salsa di soia](/ingredienti/shoyu.md)
 - 1 parte di acqua
 
 (I piu' attenti avranno notato che praticamente e' salsa Teriyaki)

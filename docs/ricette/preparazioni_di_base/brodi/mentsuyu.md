@@ -1,6 +1,7 @@
 ---
 title: Mentsuyu
 description: Il brodo per immergere soba e udon
+slug: /ricette/mentsuyu
 ingredients:
 - mirin
 - katsuobushi
@@ -9,7 +10,7 @@ ingredients:
 - salsa di soia
 ---
 
-Il **mentsuyu** è un brodo forte e salato, tradizionalmente usato nei piatti di noodles come **soba** e **udon**. È un ingrediente fondamentale della cucina giapponese, preparato con una miscela di **katsuobushi**, [salsa di soia](/ingredients/shoyu.md), **mirin** e **zucchero**. Questa combinazione di ingredienti crea una bomba di umami, perfetta per arricchire una vasta gamma di piatti.
+Il **mentsuyu** è un brodo forte e salato, tradizionalmente usato nei piatti di noodles come **soba** e **udon**. È un ingrediente fondamentale della cucina giapponese, preparato con una miscela di **katsuobushi**, [salsa di soia](/ingredienti/shoyu.md), **mirin** e **zucchero**. Questa combinazione di ingredienti crea una bomba di umami, perfetta per arricchire una vasta gamma di piatti.
 
 ### Tipi di Mentsuyu
 
@@ -22,10 +23,10 @@ Esistono due tipi principali di mentsuyu:
 
 ## Ingredienti
 
-- ½ tazza di [sake](/ingredients/sake.md)
-- 1 tazza abbondante di [mirin](/ingredients/mirin.md) (dice 1 ⅛ che dovrebbe essere 1 + 2 cucchiai)
-- 1 tazza di [salsa di soia](/ingredients/shoyu.md)
-- 1 pezzo di [kombu](/ingredients/kombu.md) (5 grammi? pesare)
+- ½ tazza di [sake](/ingredienti/sake.md)
+- 1 tazza abbondante di [mirin](/ingredienti/mirin.md) (dice 1 ⅛ che dovrebbe essere 1 + 2 cucchiai)
+- 1 tazza di [salsa di soia](/ingredienti/shoyu.md)
+- 1 pezzo di [kombu](/ingredienti/kombu.md) (5 grammi? pesare)
 - 1 tazza di katsuobushi (pesare)
 
 ## Preparazione

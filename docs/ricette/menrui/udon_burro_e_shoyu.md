@@ -16,9 +16,9 @@ Questo è il comfort food perfetto, velocissimo e incredibilmente saporito. Poss
 ## Ingredienti
 - 1 confezione di Udon precotti
 - Una noce di Burro
-- 1 cucchiaio di [Salsa di Soia](/ingredients/shoyu.md)
-- [Katsuobushi](/ingredients/katsuobushi.md) in abbondanza
-- [Kizami Nori (alga nori a striscioline)](/ingredients/kizami_nori.md) per guarnire
+- 1 cucchiaio di [Salsa di Soia](/ingredienti/shoyu.md)
+- [Katsuobushi](/ingredienti/katsuobushi.md) in abbondanza
+- [Kizami Nori (alga nori a striscioline)](/ingredienti/kizami_nori.md) per guarnire
 
 ## Preparazione
 Cuocere gli udon in abbondante acqua bollente per circa due minuti, o seguendo le istruzioni riportate sulla confezione.

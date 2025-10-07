@@ -22,11 +22,11 @@ ingredients:
 ## Ingredienti
 
 - Patate a pasta gialla 1.5 kg
-- [Maionese Kewpie](/ingredients/mayo.md) 250 ml circa (regolabili a piacere)
+- [Maionese Kewpie](/ingredienti/mayo.md) 250 ml circa (regolabili a piacere)
 - Cetriolo 1
 - Cipolla dorata 1/2
 - Carote 3
-- 1 cucchiaio di [mirin](/ingredients/mirin.md)
+- 1 cucchiaio di [mirin](/ingredienti/mirin.md)
 - Aceto di riso 1 cucchiaio
 - Zucchero 2 cucchiaini circa
 - Sale qb

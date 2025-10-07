@@ -23,16 +23,16 @@ Questa ricetta vi farà dimenticare per sempre le melanzane fritte. "Yaki-bitash
 
 ### Per il brodo di marinatura (Tsuke-ji)
 - 200 ml di Acqua
-- 2 cucchiai di [Salsa di soia](/ingredients/shoyu.md)
-- 2 cucchiai di [Mirin](/ingredients/mirin.md)
+- 2 cucchiai di [Salsa di soia](/ingredienti/shoyu.md)
+- 2 cucchiai di [Mirin](/ingredienti/mirin.md)
 - 1 cucchiaio di Zucchero
 - ½ cucchiaino di [Dashi in polvere](/recipes/base_preparations/stocks/dashi.md)
 - 1 cucchiaino di Zenzero grattugiato (anche quello in tubetto va bene)
 
 ### Per guarnire (opzionale)
-- Foglie di [Shiso](/ingredients/shiso.md)
-- [Katsuobushi](/ingredients/katsuobushi.md)
-- [Daikon](/ingredients/daikon.md) grattugiato
+- Foglie di [Shiso](/ingredienti/shiso.md)
+- [Katsuobushi](/ingredienti/katsuobushi.md)
+- [Daikon](/ingredienti/daikon.md) grattugiato
 
 ## Preparazione
 Preparare il brodo di marinatura mescolando in una caraffa l'acqua, la salsa di soia, il mirin, lo zucchero, il dashi in polvere e lo zenzero grattugiato.

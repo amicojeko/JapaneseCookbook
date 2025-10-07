@@ -14,11 +14,11 @@ La zuppa di miso è un vero classico della cucina giapponese. Ne esistono tantis
 ![Zuppa di miso vegana](/img/ricette/vegan_misoshiru.jpg)
 
 ## Ingredienti
-- [Dashi vegano](/recipes/base_preparations/stocks/vegan_dashi.md) (brodo di alga kombu e funghi shiitake)
-- 1 cucchiaio abbondante di [Miso](/ingredients/miso.md) (nel video si usa il miso rosso o *akamiso*)
-- [Alghe Wakame](/ingredients/wakame.md) essiccate
+- [Dashi vegano](/ricette/vegan_dashi.md) (brodo di alga kombu e funghi shiitake)
+- 1 cucchiaio abbondante di [Miso](/ingredienti/miso.md) (nel video si usa il miso rosso o *akamiso*)
+- [Alghe Wakame](/ingredienti/wakame.md) essiccate
 - Tofu (meglio se tofu morbido o *silken tofu*)
-- [Cipolline verdi](/ingredients/negi.md)
+- [Cipolline verdi](/ingredienti/negi.md)
 
 ## Preparazione
 Mettere in ammollo una manciata di alghe wakame in acqua fredda per farle rinvenire.

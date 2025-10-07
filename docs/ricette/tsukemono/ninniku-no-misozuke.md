@@ -13,8 +13,8 @@ Il Ninniku no Misozuke è una di quelle chicche della cucina giapponese che tras
 ## Ingredienti
 
 - 150g miso chiaro
-- 25ml di [sake](/ingredients/sake.md)
-- 45ml di [mirin](/ingredients/mirin.md)
+- 25ml di [sake](/ingredienti/sake.md)
+- 45ml di [mirin](/ingredienti/mirin.md)
 - 3 teste d'aglio
 
 ## Preprarazione
@@ -23,7 +23,7 @@ Pulire gli spicchi d'aglio e privarli del picciolo. Sterilizzare un barattolo di
 Tagliare gli spicchi per il lungo e togliere l'anima. Mettere gli spicchi d'aglio su una griglia, e lasciare asciugare tutta la notte.
 Questo aiuta a concentrare il sapore dell'aglio e a ridurre la quantita' di umidita' al suo interno.
 
-Mescolare il miso, il [sake](/ingredients/sake.md) e il [mirin](/ingredients/mirin.md) in un piccolo pentolino, e scaldare mischiando per 2-3 minuti, fiche' non avra' assunto una consistenza liscia, cremosa e uniforme.
+Mescolare il miso, il [sake](/ingredienti/sake.md) e il [mirin](/ingredienti/mirin.md) in un piccolo pentolino, e scaldare mischiando per 2-3 minuti, fiche' non avra' assunto una consistenza liscia, cremosa e uniforme.
 
 Mettere il composto alternandolo a strati con l'aglio in un un barattolo.
 

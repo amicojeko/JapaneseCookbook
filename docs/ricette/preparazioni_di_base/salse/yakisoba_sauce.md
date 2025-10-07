@@ -15,7 +15,7 @@ La salsa Yakisoba è il cuore dell'[omonimo piatto di noodles saltati](/recipes/
 - 2 cucchiai di Zucchero
 - 2 cucchiai di Ketchup
 - 3 cucchiai di Salsa di ostriche
-- 1 cucchiaio e mezzo di [Salsa di soia](/ingredients/shoyu.md)
+- 1 cucchiaio e mezzo di [Salsa di soia](/ingredienti/shoyu.md)
 - 4 cucchiai di Salsa worcestershire
 
 ## Preparazione

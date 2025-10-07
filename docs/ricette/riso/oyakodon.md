@@ -21,12 +21,12 @@ ingredients:
 - riso bianco
 - 2 uova grandi
 - 60 ml [dashi](/recipes/base_preparations/stocks/dashi.md)
-- 30 ml di [salsa di soia](/ingredients/shoyu.md)
-- 60 ml di [mirin](/ingredients/mirin.md)
+- 30 ml di [salsa di soia](/ingredienti/shoyu.md)
+- 60 ml di [mirin](/ingredienti/mirin.md)
 - mezza cipolla bianca
 - 2 cosce di pollo o quantita' equivalente del taglio che preferite
-- cipolline o [negi](/ingredients/negi.md) o prezzemolo (meglio quello giapponese) per decorare
-- 2 cucchiai di [sake](/ingredients/sake.md)
+- cipolline o [negi](/ingredienti/negi.md) o prezzemolo (meglio quello giapponese) per decorare
+- 2 cucchiai di [sake](/ingredienti/sake.md)
 - olio di semi di arachide
 
 ## Attrezzature per la cottura

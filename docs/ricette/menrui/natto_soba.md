@@ -12,11 +12,11 @@ ingredients:
 ---
 
 ## Ingredienti per 2 persone
-- 200g di [soba](/ingredients/soba.md)
-- Cipolline verdi o [negi](/ingredients/negi.md)
-- 1 confezione di [natto](/ingredients/natto.md)
-- [katsuobushi](/ingredients/katsuobushi.md)
-- [Kizami nori](/ingredients/kizami_nori.md)
+- 200g di [soba](/ingredienti/soba.md)
+- Cipolline verdi o [negi](/ingredienti/negi.md)
+- 1 confezione di [natto](/ingredienti/natto.md)
+- [katsuobushi](/ingredienti/katsuobushi.md)
+- [Kizami nori](/ingredienti/kizami_nori.md)
 - 1 uovo fresco che si possa mangiare crudo (opzionale)
 
 ### Per il condimento

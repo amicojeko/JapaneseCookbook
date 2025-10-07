@@ -18,17 +18,17 @@ Un piatto talmente buono che crea dipendenza! Bastano pochi minuti per cuocere l
 
 ## Ingredienti
 - 2 Melanzane grandi (circa 300g)
-- 5 foglie di [Shiso](/ingredients/shiso.md)
+- 5 foglie di [Shiso](/ingredienti/shiso.md)
 - 1 cucchiaio di Olio vegetale
 
 ### Per la salsa
-- 1 cucchiaio di [Salsa di soia](/ingredients/shoyu.md)
+- 1 cucchiaio di [Salsa di soia](/ingredienti/shoyu.md)
 - ½ cucchiaio di Aceto (preferibilmente di riso)
 - ½ cucchiaio di Zucchero
 - ½ cucchiaino di Brodo di pollo granulare
 - 1 cucchiaino di Aglio grattugiato
 - 1 cucchiaino di Zenzero grattugiato
-- 1 cucchiaino di [Semi di sesamo](/ingredients/sesame.md) tostati
+- 1 cucchiaino di [Semi di sesamo](/ingredienti/sesame.md) tostati
 
 ## Preparazione
 In una ciotola capiente, unire tutti gli ingredienti per la salsa: salsa di soia, aceto, zucchero, brodo granulare, aglio, zenzero e semi di sesamo. Mescolare bene e mettere da parte.

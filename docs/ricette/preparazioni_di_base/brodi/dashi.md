@@ -1,6 +1,7 @@
 ---
 title: Dashi
 description: il brodo base per moltissime ricette
+slug: /ricette/dashi
 ingredients:
 - acqua fredda
 - alga kombu
@@ -18,8 +19,8 @@ L'ichiban dashi e' il dashi piu' comune, e si usa in tutte le preparazioni dove 
 ### Ingredienti
 
 - 1.8 litri di acqua fredda
-- 30 grammi di [alga kombu](/ingredients/kombu.md)
-- 35 grammi di [katsuobushi](/ingredients/katsuobushi.md)
+- 30 grammi di [alga kombu](/ingredienti/kombu.md)
+- 35 grammi di [katsuobushi](/ingredienti/katsuobushi.md)
 
 ### Preparazione
 
