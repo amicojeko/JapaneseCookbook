@@ -1,7 +1,7 @@
 ---
 title: Tonkatsu
 description: La cotoletta alla giapponese!
-visibility: hidden
+draft: true
 ---
 
 Tonkatsu recipe bla bla bla...

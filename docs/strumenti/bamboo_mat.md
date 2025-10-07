@@ -1,6 +1,6 @@
 ---
 title: Bamboo mat
-visibility: hidden
+draft: true
 ---
 
 Bamboo mat description

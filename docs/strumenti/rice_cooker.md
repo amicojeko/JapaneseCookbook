@@ -1,6 +1,6 @@
 ---
 title: Rice cooker
-visibility: hidden
+draft: true
 ---
 
 Rice cooker description

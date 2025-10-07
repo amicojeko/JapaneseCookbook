@@ -80,7 +80,7 @@ const config: Config = {
           label: 'Ricette',
         },
         {to: '/ingredienti', label: 'Ingredienti', position: 'left'},
-        {to: '/blog', label: 'Blog', position: 'left'},
+        // {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',

@@ -1,6 +1,6 @@
 ---
 title: Takoyaki pan
-visibility: hidden
+draft: true
 ---
 
 Takoyaki pan description

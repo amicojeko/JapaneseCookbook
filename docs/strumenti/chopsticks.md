@@ -1,6 +1,6 @@
 ---
 title: Chopsticks
-visibility: hidden
+draft: true
 ---
 
 Chopsticks description
