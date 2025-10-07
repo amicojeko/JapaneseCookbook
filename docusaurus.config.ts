@@ -98,46 +98,58 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Le Ricette Giapponesi di Jeko',
           items: [
             {
               label: 'Ingredienti',
               to: '/ingredienti',
             },
+            {
+              label: 'Ricette',
+              to: '/ricette',
+            },
           ],
         },
         {
-          title: 'Community',
+          title: 'Social media',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Instagram',
+              href: 'https://www.instagram.com/amicojeko',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'TikTok',
+              href: 'https://www.tiktok.com/@amicojeko',
+            },
+            {
+              label: 'Youtube',
+              href: 'https://youtube.com/amicojeko',
             },
             {
               label: 'X',
-              href: 'https://x.com/docusaurus',
+              href: 'https://www.x.com/jeko',
+            },
+            {
+              label: 'Linkedin',
+              href: 'https://www.linkedin.com/in/stefanog',
             },
           ],
         },
         {
           title: 'More',
           items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
+            // {
+            //   label: 'Blog',
+            //   to: '/blog',
+            // },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/amicojeko/japanesecookbook',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Stefano Guglielmetti. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
