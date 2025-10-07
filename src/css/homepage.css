@@ -1,0 +1,22 @@
+/* homepage.css */
+
+.social-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.social-icon {
+  filter: none;
+  transition: filter 0.3s ease;
+}
+
+/* Docusaurus dark mode support */
+html[data-theme='dark'] .social-icon {
+  filter: invert(1) brightness(1.2);
+}

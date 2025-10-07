@@ -1,0 +1,4 @@
+---
+  title: 🍚 Riso
+  icon: ":rice:"
+---
