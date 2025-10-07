@@ -1,5 +1,6 @@
 ---
 title: Funghi Shiitake
+category: ingredienti
 ---
 
 I funghi Shiitake sono tra i funghi più popolari nella cucina asiatica, noti per il loro sapore ricco e la loro consistenza carnosa. Originari dell'Est Asia, questi funghi sono coltivati principalmente su tronchi di legno in ambienti umidi, una pratica che contribuisce al loro sapore distintivo e profondo.

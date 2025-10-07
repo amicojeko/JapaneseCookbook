@@ -1,6 +1,7 @@
 ---
 title: Daikon
 description: La rapa piu' famosa del Giappone!
+category: ingredienti
 ---
 
 Il daikon, o ravanello giapponese, è un grande tubero bianco appartenente alla famiglia delle Brassicaceae, simile al ravanello comune ma di dimensioni notevolmente maggiori e con un sapore più dolce e meno piccante. Questa radice è molto popolare nella cucina asiatica, soprattutto in Giappone, dove viene utilizzato in una varietà di modi, sia crudo che cotto.

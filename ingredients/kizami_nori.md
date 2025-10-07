@@ -1,5 +1,6 @@
 ---
 title: Kizami Nori
+category: ingredienti
 ---
 
 Le kizami nori (刻み海苔 in giapponese) sono sottili striscioline di alga nori tagliate a julienne.

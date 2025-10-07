@@ -1,6 +1,7 @@
 ---
 title: Gobo
 description: Bardana
+category: ingredienti
 ---
 
 Il gobo, noto anche come radice di bardana, è un ingrediente tradizionale nella cucina giapponese, apprezzato per la sua croccantezza e il sapore terroso e dolce. Questa lunga radice marrone ha un aspetto rustico, con una pelle ruvida che viene generalmente pelata prima dell'uso. Ricco di fibre e nutrienti, il gobo è spesso utilizzato in piatti salutari e sostanziosi.

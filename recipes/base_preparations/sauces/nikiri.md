@@ -14,8 +14,7 @@ La **nikiri** è una salsa che si usa per condire il pesce crudo, in particolare
 - 1 tazza e 1/2 di [salsa di soia](/ingredients/shoyu.md)
 - 1 tazza di [mirin](/ingredients/mirin.md)
 - 1/2 tazza di [sake](/ingredients/sake.md)
-- 1/2 tazza di [dashi](/recipes/base_preparations/stocks/dashi.md) (rapporto di 3:1 con le uova)
-
+- 1/2 tazza di [dashi](/recipes/base_preparations/stocks/dashi.md)
 ## Preparazione
 
 Metti il mirin e il sake in un pentolino a scaldare, e fai evaporare tutto l'alcol. Aggiungi la salsa di soia e il dashi, e fai sobbollire a fuoco basso fino a ridurre della metà il volume. Fai raffreddare e metti in frigo.

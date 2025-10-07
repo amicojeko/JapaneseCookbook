@@ -1,6 +1,7 @@
 ---
 title: Katsuobushi
 description: Scaglie di palamita fermentata ed essiccata
+category: ingredienti
 ---
 
 Il Katsuobushi è uno degli ingredienti più iconici della cucina giapponese, noto per il suo ruolo fondamentale nella preparazione del dashi, il brodo di base che costituisce l'essenza di molte ricette tradizionali giapponesi. È fatto di bonito (o palamita, un tipo di tonno) essiccato, fermentato e affumicato, che viene poi rasato in sottili scaglie. Queste scaglie hanno un sapore intenso di umami, il gusto profondo e saporito che è fondamentale nella cucina giapponese, e aggiungono una complessità di sapori ineguagliabile a brodi, zuppe, salse e piatti conditi.
