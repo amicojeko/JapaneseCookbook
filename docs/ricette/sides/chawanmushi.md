@@ -24,10 +24,10 @@ Il Chawanmushi (茶碗蒸し) è un budino di uova salato cotto al vapore, tipic
 ## Ingredienti per 4 persone
 
 - 120 ml di uovo, io uso 3 rossi e bianchi q.b. per arrivare a 120 ml
-- 360 ml di [dashi](/recipes/base_preparations/stocks/dashi.md) (rapporto di 3:1 con le uova)
+- 360 ml di [dashi](/ricette/dashi) (rapporto di 3:1 con le uova)
 - 30 ml di salsa di soia (meglio se chiara)
-- 20 ml di [mirin](/ingredienti/mirin.md)
-- 20 ml di [sake](/ingredienti/sake.md) (opzionale)
+- 20 ml di [mirin](/ingredienti/mirin)
+- 20 ml di [sake](/ingredienti/sake) (opzionale)
 - un pizzico di sale
 
 (versione alternativa: 30ml di salsa di soia e 20ml di mirin)

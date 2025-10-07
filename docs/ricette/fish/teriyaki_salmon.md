@@ -20,7 +20,7 @@ ingredients:
 - Farina bianca
 - Olio da cucina o burro
 - 1 cucchiaio di sake
-- [Salsa Teriyaki](/recipes/base_preparations/sauces/teriyaki.md)
+- [Salsa Teriyaki](/ricette/salsa_teriyaki)
 
 ## Preparazione
 

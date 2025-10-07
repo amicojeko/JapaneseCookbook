@@ -33,11 +33,11 @@ Potete fare la pasta in casa, ma è molto più semplice usare la pasta per gyoza
 - 2 cipolline verdi/negi
 - 2 funghi shiitake (opzionali)
 - 2 cucchiai di olio di sesamo
-- 2 cucchiai di [salsa di soia](/ingredienti/shoyu.md)
-- 2 cucchiai di [sake](/ingredienti/sake.md)
+- 2 cucchiai di [salsa di soia](/ingredienti/shoyu)
+- 2 cucchiai di [sake](/ingredienti/sake)
 
 ### Per la Salsa
-- 1 parte di [salsa di soia](/ingredienti/shoyu.md)
+- 1 parte di [salsa di soia](/ingredienti/shoyu)
 - 1/2 parte di aceto di riso
 - olio di sesamo piccante a piacere (la-yu)
 

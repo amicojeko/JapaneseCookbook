@@ -1,6 +1,7 @@
 ---
 title: Osuimono Vegano
 description: Zuppa trasparente e delicatissima, una versione vegana facile facile.
+slug: /ricette/osuimono
 ingredients:
 - Daikon
 - Carota
@@ -13,10 +14,10 @@ ingredients:
 In Giappone c'è un'intera famiglia di zuppe, le **Osuimono**, che sono zuppe trasparenti, delicatissime, e si possono fare con un sacco di cose. Oggi ne facciamo una vegana, facile facile.
 
 ## Ingredienti
-- Un pezzo di [Daikon](/ingredienti/daikon.md)
+- Un pezzo di [Daikon](/ingredienti/daikon)
 - 1 Carota piccola
-- 1 [Cipollina](/ingredienti/negi.md)
-- 4 tazze di [Dashi vegano](/recipes/base_preparations/stocks/dashi.md)
+- 1 [Cipollina](/ingredienti/negi)
+- 4 tazze di [Dashi vegano](/ricette/dashi)
 - Sale q.b.
 
 ## Preparazione

@@ -14,8 +14,8 @@ Kyuri no Tsukemono, ovvero cetrioli sottaceto, sono uno degli innumerevoli cibi 
 ## Ingredienti
 - 1 Cetriolo
 - Sale q.b.
-- 2 cucchiaini di [Sushisu (aceto per sushi)](/recipes/base_preparations/sushi_and_sashimi/sushi_vinegar.md)
-- 1 cucchiaino di [senape Karashi](/ingredienti/karashi.md) (in alternativa, va bene anche la senape comune)
+- 2 cucchiaini di [Sushisu (aceto per sushi)](/ricette/sushisu)
+- 1 cucchiaino di [senape Karashi](/ingredienti/senape_karashi) (in alternativa, va bene anche la senape comune)
 
 ## Preparazione
 Per prima cosa, preparare il cetriolo. Con la lama di un coltello, raschiare via le asperità dalla buccia. Spargere un po' di sale su un tagliere e massaggiare vigorosamente il cetriolo sul sale per qualche istante. Eliminare il sale in eccesso e inserire il cetriolo (tagliato a metà se necessario) in un sacchetto di plastica per alimenti.

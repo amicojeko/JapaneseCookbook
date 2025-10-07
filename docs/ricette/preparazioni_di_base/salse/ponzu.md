@@ -14,11 +14,11 @@ La mia preferita. Perfetta per le ostriche, per i frutti di mare, o per condire 
 
 ## Ingredienti
 
-- 2 cucchiai di [salsa di soia](/ingredienti/shoyu.md)
-- 1 cucchiaio e ½ di [dashi](/recipes/base_preparations/stocks/dashi.md)
+- 2 cucchiai di [salsa di soia](/ingredienti/shoyu)
+- 1 cucchiaio e ½ di [dashi](/ricette/dashi)
 - 1 cucchiaio di succo di yuzu (si può sostituire con il limone o il lime, secondo i gusti)
 - ½ cucchiaio di aceto di riso
-- 1 cucchiaio di [mirin](/ingredienti/mirin.md)
+- 1 cucchiaio di [mirin](/ingredienti/mirin)
 
 ## Preparazione
 

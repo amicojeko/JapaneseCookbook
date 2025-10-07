@@ -20,9 +20,9 @@ Piatto superveloce per tutti i giorni, metti nella risiera e dimentica.
 ## Ingredienti per 1 persona
 
 - 1 tazza di riso
-- 1 cucchiaio di [salsa di soia](/ingredienti/shoyu.md)
-- 1 cucchiaio di [mirin](/ingredienti/mirin.md)
-- 1 tazza di [dashi](/recipes/base_preparations/stocks/dashi.md)
+- 1 cucchiaio di [salsa di soia](/ingredienti/shoyu)
+- 1 cucchiaio di [mirin](/ingredienti/mirin)
+- 1 tazza di [dashi](/ricette/dashi)
 - 1 pizzico di sale (un cucchiaino piccolo? Da misurare)
 - 3-4 shiitake
 - Mezza carota a julienne

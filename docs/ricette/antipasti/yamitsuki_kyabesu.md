@@ -16,8 +16,8 @@ Questa è una ricetta giapponese semplicissima, vegana e perfetta per quando fa 
 
 ## Ingredienti
 - Un quarto abbondante di Cavolo cappuccio
-- 1 cucchiaio di [Olio di sesamo](/ingredienti/sesame_oil.md)
-- Una manciata di [Semi di sesamo](/ingredienti/sesame.md) tostati
+- 1 cucchiaio di [Olio di sesamo](/ingredienti/sesame_oil)
+- Una manciata di [Semi di sesamo](/ingredienti/sesame) tostati
 - 1 cucchiaino di Sale
 - 1 cucchiaino di Brodo vegetale in polvere (in sostituzione del Kombucha in polvere)
 

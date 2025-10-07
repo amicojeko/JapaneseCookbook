@@ -10,7 +10,7 @@ slug: /ricette/sushisu
 - Aceto di riso 360ml
 - Zucchero 200g
 - Sale 50g
-- 1 pezzetto di [alga kombu](/ingredienti/kombu.md)
+- 1 pezzetto di [alga kombu](/ingredienti/kombu)
 
 ## Preparazione
 

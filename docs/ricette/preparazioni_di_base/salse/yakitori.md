@@ -14,9 +14,9 @@ ingredients:
 
 ## Ingredienti
 
-- 1 tazza di [salsa di soia](/ingredienti/shoyu.md)
-- 1  tazza di [mirin](/ingredienti/mirin.md)
-- ½ tazza di [sake](/ingredienti/sake.md)
+- 1 tazza di [salsa di soia](/ingredienti/shoyu)
+- 1  tazza di [mirin](/ingredienti/mirin)
+- ½ tazza di [sake](/ingredienti/sake)
 - ½ tazza di acqua
 - 2 cucchiai di zucchero di canna (dice 4 o addirittura ½ tazza)
 - Parte verde delle cipolline o porro

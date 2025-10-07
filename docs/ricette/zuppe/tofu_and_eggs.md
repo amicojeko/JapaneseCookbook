@@ -1,6 +1,7 @@
 ---
 title: Tofu in "stracciatella" con verdure
 description: Una ricetta buona, economica, sana, proteica e facile da fare.
+slug: /ricette/zuppa_di_tofu_e_uova
 ingredients:
 - Tofu
 - Uovo
@@ -21,14 +22,14 @@ Ecco una ricetta che ha tutte le caratteristiche che si possono desiderare: è b
 ## Ingredienti
 - Mezzo panetto di Tofu
 - 1 Uovo
-- 2-3 [Funghi Shiitake](/ingredienti/shiitake.md) freschi o reidratati
+- 2-3 [Funghi Shiitake](/ingredienti/shiitake) freschi o reidratati
 - Mezza Carota
-- 2 [Cipolline](/ingredienti/negi.md)
-- 1 tazza di [Dashi](/recipes/base_preparations/stocks/dashi.md) (o brodo vegetale)
-- 1 cucchiaio di [Salsa di soia](/ingredienti/shoyu.md)
-- 1 cucchiaio di [Mirin](/ingredienti/mirin.md)
+- 2 [Cipolline](/ingredienti/negi)
+- 1 tazza di [Dashi](/ricette/dashi) (o brodo vegetale)
+- 1 cucchiaio di [Salsa di soia](/ingredienti/shoyu)
+- 1 cucchiaio di [Mirin](/ingredienti/mirin)
 - 1 cucchiaino di Zucchero
-- 1 cucchiaino di [Fecola di patate](/ingredienti/potato_starch.md)
+- 1 cucchiaino di [Fecola di patate](/ingredienti/potato_starch)
 
 ## Preparazione
 Preparare il brodo di cottura mescolando in una ciotola il dashi, la salsa di soia, il mirin e lo zucchero.

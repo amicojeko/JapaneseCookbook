@@ -20,13 +20,13 @@ ingredients:
 Per 4 persone:
 
 - 1 kg di pancetta di maiale
-- 1 Cipolla verde o un [negi](/ingredienti/negi.md)
+- 1 Cipolla verde o un [negi](/ingredienti/negi)
 - 1 pezzo di zenzero
-- 1/2 tazza di [salsa di soia](/ingredienti/shoyu.md)
-- 1/2 tazza di [mirin](/ingredienti/mirin.md)
+- 1/2 tazza di [salsa di soia](/ingredienti/shoyu)
+- 1/2 tazza di [mirin](/ingredienti/mirin)
 - 1/4 tazza di zucchero
-- 1/4 tazza di [sake](/ingredienti/sake.md)
-- 1 pezzo di [alga kombu](/ingredienti/kombu.md)
+- 1/4 tazza di [sake](/ingredienti/sake)
+- 1 pezzo di [alga kombu](/ingredienti/kombu)
 - 4 uova
 
 Per il contorno:
@@ -47,7 +47,7 @@ Cuocere le uova in acqua bollente per 6 minuti e 30 secondi (prendendole dal fri
 
 Sbollentare il bok choi in acqua bollente per 1 minuto, o saltarlo in padella con aglio e zenzero, e metterlo da parte.
 
-In una casseruola, mettere il brodo, la [salsa di soia](/ingredienti/shoyu.md), il mirin, lo zucchero e il sake. Aggiungere la pancetta e il daikon tagliato a fette, e cuocere a fuoco basso facendo sobbollire per per 30 minuti. Negli ultimi 10 minuti aggiungere le uova e togliere il coperchio in modo che si ritiri un po' la salsa.
+In una casseruola, mettere il brodo, la [salsa di soia](/ingredienti/shoyu), il mirin, lo zucchero e il sake. Aggiungere la pancetta e il daikon tagliato a fette, e cuocere a fuoco basso facendo sobbollire per per 30 minuti. Negli ultimi 10 minuti aggiungere le uova e togliere il coperchio in modo che si ritiri un po' la salsa.
 
 Servire il kakuni con il bok choy e il daikon, e un po' di salsa.
 

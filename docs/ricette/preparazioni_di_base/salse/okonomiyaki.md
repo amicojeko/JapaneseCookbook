@@ -16,7 +16,7 @@ ingredients:
 - 2 cucchiai di salsa Worcestershire
 - 2 cucchiai di salsa di ostriche (oyster sauce)
 - 1 cucchiaio di zucchero (oppure miele, per un gusto più morbido)
-- 1 cucchiaio di [salsa di soia](/ingredienti/shoyu.md) (shoyu), meglio se koikuchi (scura e saporita)
+- 1 cucchiaio di [salsa di soia](/ingredienti/shoyu) (shoyu), meglio se koikuchi (scura e saporita)
 - 1 cucchiaino di aceto di mele o aceto di riso (opzionale, se preferisci un tocco acidulo)
 
 ## Preparazione

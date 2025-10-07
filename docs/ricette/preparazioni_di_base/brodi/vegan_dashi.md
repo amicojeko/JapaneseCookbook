@@ -6,14 +6,16 @@ ingredients:
 - Acqua
 - Alga Kombu
 - Funghi Shiitake essiccati
+tags:
+  - vegan
 ---
 
 Il Dashi è il brodo fondamentale della cucina giapponese, l'ingrediente che dona quel sapore ricco e profondo chiamato *umami*. Questa è la versione vegana, semplicissima da preparare, che utilizza l'alga kombu e i funghi shiitake essiccati. È la base perfetta per zuppe, salse e tantissimi altri piatti.
 
 ## Ingredienti
 - 1 litro di Acqua
-- 1 pezzo di [Alga Kombu](/ingredienti/kombu.md) (circa 10-15 cm)
-- 3-4 [Funghi Shiitake](/ingredienti/shiitake.md) essiccati
+- 1 pezzo di [Alga Kombu](/ingredienti/kombu) (circa 10-15 cm)
+- 3-4 [Funghi Shiitake](/ingredienti/shiitake) essiccati
 
 ## Preparazione
 Non togliere la polvere bianca dall'alga Kombu: quello è il glutammato naturalmente presente nell'alga, fonte di umami, ed è esattamente il motivo per cui usiamo la kombu.

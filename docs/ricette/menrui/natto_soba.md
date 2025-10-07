@@ -12,16 +12,16 @@ ingredients:
 ---
 
 ## Ingredienti per 2 persone
-- 200g di [soba](/ingredienti/soba.md)
-- Cipolline verdi o [negi](/ingredienti/negi.md)
-- 1 confezione di [natto](/ingredienti/natto.md)
-- [katsuobushi](/ingredienti/katsuobushi.md)
-- [Kizami nori](/ingredienti/kizami_nori.md)
+- 200g di [soba](/ingredienti/soba)
+- Cipolline verdi o [negi](/ingredienti/negi)
+- 1 confezione di [natto](/ingredienti/natto)
+- [katsuobushi](/ingredienti/katsuobushi)
+- [Kizami nori](/ingredienti/kizami_nori)
 - 1 uovo fresco che si possa mangiare crudo (opzionale)
 
 ### Per il condimento
-- mezza tazza di [mentsuyu](/recipes/base_preparations/stocks/mentsuyu.md)
-- mezza tazza di [dashi](/recipes/base_preparations/stocks/dashi.md)
+- mezza tazza di [mentsuyu](/ricette/mentsuyu)
+- mezza tazza di [dashi](/ricette/dashi)
 
 ## Preparazione
 Bolli i soba in abbondante acqua (io non metto sale), sciacquali sotto l'acqua fredda, trasferiscili in una ciotola con acqua e ghiaccio per raffreddarli, scolali e asciugali bene, e mettili in una ciotola facendo una fossetta al centro, dove metterai il rosso dell'uovo.

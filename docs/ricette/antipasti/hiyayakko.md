@@ -16,10 +16,10 @@ Lo *hiyayakko* (冷や奴), una ricetta cosi buona che rende buono addirittura i
 
 ## Ingredienti
 - 1 panetto di tofu morbido (meglio se silken tofu)
-- 2-3 cucchiai di [salsa ponzu](/recipes/base_preparations/sauces/ponzu.md)
-- [Katsuobushi](/ingredienti/katsuobushi.md), una manciatina
+- 2-3 cucchiai di [salsa ponzu](/ricette/salsa_ponzu)
+- [Katsuobushi](/ingredienti/katsuobushi), una manciatina
 - Zenzero, grattugiato fresco
-- Cipollina verde o [negi](/ingredienti/negi.md) affettata sottilmente
+- Cipollina verde o [negi](/ingredienti/negi) affettata sottilmente
 
 ## Preparazione
 Togli il tofu dalla confezione e scolalo delicatamente. Se ha molta acqua, lascialo riposare qualche minuto su carta da cucina per farlo asciugare leggermente, senza romperlo.

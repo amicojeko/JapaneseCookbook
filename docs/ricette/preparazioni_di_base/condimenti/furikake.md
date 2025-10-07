@@ -10,7 +10,7 @@ ingredients:
 ---
 
 Il furikake e' un condimento per il riso, ed e' estremamente popolare.
-Io lo uso per recuperare il katsuobushi e l'alga kombu che uso per il [dashi](/recipes/base_preparations/stocks/dashi.md).
+Io lo uso per recuperare il katsuobushi e l'alga kombu che uso per il [dashi](/ricette/dashi).
 Siccome e' secco si conserva per un sacco, e' supercomodo, e ci potete condire il riso bianco o gli onigiri quando andate di fretta o non avete niente da mangiare.
 
 ![Furikake](/img/ricette/furikake.jpg)
@@ -21,15 +21,15 @@ Le proporzioni tra gli ingredienti secchi sono abbastanza libere, e si puo' anda
 Invece le proporzioni della parte liquida sono molto importanti, e vanno rispettate piu' strettamente.
 
 - Katsuobushi
-- Alga Kombu (anche recuperati dal [dashi](/recipes/base_preparations/stocks/dashi.md))
+- Alga Kombu (anche recuperati dal [dashi](/ricette/dashi))
 - Semi di Sesamo
 - Alga nori
 
 ### Per il condimento
 - 1 parte di zucchero
 - 2 parti di aceto di riso (devo provare a sostituirlo con il sake)
-- 2 parti di [mirin](/ingredienti/mirin.md)
-- 2.5 parti di [salsa di soia](/ingredienti/shoyu.md)
+- 2 parti di [mirin](/ingredienti/mirin)
+- 2.5 parti di [salsa di soia](/ingredienti/shoyu)
 - 1 parte di acqua
 
 (I piu' attenti avranno notato che praticamente e' salsa Teriyaki)

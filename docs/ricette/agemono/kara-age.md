@@ -19,9 +19,9 @@ ingredients:
 ## Ingredienti
 
 - Coscia e sottocoscia di pollo disossata, con la pelle
-- 1 cucchiaio di [salsa di soia](/ingredienti/shoyu.md)
-- 1 cucchiaio di [mirin](/ingredienti/mirin.md)
-- 1 cucchiaio di [sake](/ingredienti/sake.md)
+- 1 cucchiaio di [salsa di soia](/ingredienti/shoyu)
+- 1 cucchiaio di [mirin](/ingredienti/mirin)
+- 1 cucchiaio di [sake](/ingredienti/sake)
 - 1 spicchio d'aglio
 - 1 pezzetto di zenzero, grande piu' o meno come l'aglio
 - Farina di grano
@@ -30,14 +30,14 @@ ingredients:
 
 ### Per l'accompagnamento
 
-- [Maionese Kewpie](/ingredienti/mayo.md)
+- [Maionese Kewpie](/ingredienti/kewpie)
 - Shichimi togarashi
 
 ## Preprarazione
 
 Tagliare il pollo in cubetti di circa 3-4 centimetri di lato, l'importante è che siano tutti più o meno delle stesse dimensioni, così che si cuociano uniformemente.
 
-Preparare la marinatura, unendo mirin, sake, [salsa di soia](/ingredienti/shoyu.md), e zenzero e aglio grattugiati (o spremuti brutalmente con uno schiaccia aglio).
+Preparare la marinatura, unendo mirin, sake, [salsa di soia](/ingredienti/shoyu), e zenzero e aglio grattugiati (o spremuti brutalmente con uno schiaccia aglio).
 
 Mettere tutto in una ciotola, coprire con la pellicola e lasciar marinare in frigo per 30 minuti.
 
@@ -47,7 +47,7 @@ Scaldare l’olio a 160 gradi e friggere una volta (4-5 pezzetti di pollo alla v
 
 Lasciare scolare e riposare il pollo per qualche minuto, poi friggere nuovamente, questa volta a 180 gradi per circa 45 secondi.
 
-Di nuovo far asciugare su una griglia, e gustare con la salsa (io uso [Maionese Kewpie](/ingredienti/mayo.md) 250 ml circa (regolabili a piacere) condita con lo shichimi togarashi). C’e’ chi ci mette qualche goccia di succo di limone, come facciamo anche noi con i fritti. Se ve piace…
+Di nuovo far asciugare su una griglia, e gustare con la salsa (io uso [Maionese Kewpie](/ingredienti/kewpie) 250 ml circa (regolabili a piacere) condita con lo shichimi togarashi). C’e’ chi ci mette qualche goccia di succo di limone, come facciamo anche noi con i fritti. Se ve piace…
 
 
 ## Provare

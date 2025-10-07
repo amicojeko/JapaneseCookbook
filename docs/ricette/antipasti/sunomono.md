@@ -19,12 +19,12 @@ Perfette per rinfrescare la torrida estate, dei bellissimi piatti freddi giappon
 
 ## Ingredienti
 - 1 **Cetriolo** (se lo trovate, è molto meglio quello giapponese: stretto, lungo e sbruzzoloso)
-- **[Alghe Wakame](/ingredienti/wakame.md)** essiccate
+- **[Alghe Wakame](/ingredienti/wakame)** essiccate
 - **Polpo** già lessato (per la versione "super lusso")
-- **[Sushisu](/recipes/base_preparations/sushi_and_sashimi/sushi_vinegar.md)** (l'aceto per sushi)
-- **[Salsa di soia](/ingredienti/shoyu.md)** (Shoyu)
-- **[Olio di sesamo](/ingredienti/sesame_oil.md)** (qualche goccia, volendo)
-- **[Semi di sesamo](/ingredienti/sesame.md)** tostati
+- **[Sushisu](/ricette/sushisu)** (l'aceto per sushi)
+- **[Salsa di soia](/ingredienti/shoyu)** (Shoyu)
+- **[Olio di sesamo](/ingredienti/sesame_oil)** (qualche goccia, volendo)
+- **[Semi di sesamo](/ingredienti/sesame)** tostati
 - Sale fino
 
 ## Preparazione

@@ -25,7 +25,7 @@ def extract_images(text)
   text.scan(/!\[.*?\]\((\/.*?)\)/).map { |match| BASE_URL + match[0] }
 end
 
-# Rewrite markdown links [text](/path/file.md) to [text](https://...)
+# Rewrite markdown links [text](/path/file) to [text](https://...)
 def rewrite_links(text)
   text.gsub(/\[(.*?)\]\((\/.*?).md\)/) do
     label = Regexp.last_match(1)

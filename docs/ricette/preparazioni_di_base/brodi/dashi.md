@@ -19,8 +19,8 @@ L'ichiban dashi e' il dashi piu' comune, e si usa in tutte le preparazioni dove 
 ### Ingredienti
 
 - 1.8 litri di acqua fredda
-- 30 grammi di [alga kombu](/ingredienti/kombu.md)
-- 35 grammi di [katsuobushi](/ingredienti/katsuobushi.md)
+- 30 grammi di [alga kombu](/ingredienti/kombu)
+- 35 grammi di [katsuobushi](/ingredienti/katsuobushi)
 
 ### Preparazione
 
@@ -51,11 +51,11 @@ Non strizzate il katsuobushi, altrimenti il dashi diventa amaro.
 !!! Suggerimenti
 Volendo potete utilizzare di nuovo il katsuobushi e l’alga kombu per fare un secondo dashi più delicato (Niban dashi, letteralmente secondo dashi).
 
-In alternativa, si possono essiccare e sbriciolare kombu e katsuobushi per fare il [furikake](/recipes/base_preparations/condiments/furikake.md).
+In alternativa, si possono essiccare e sbriciolare kombu e katsuobushi per fare il [furikake](/recipes/base_preparations/condiments/furikake).
 
 Ad ogni modo, cercate di non buttare subito kombu e katsuobushi.
 
-Se volete, esiste la versione vegana del dashi, che utilizza l’alga kombu e i funghi shiitake essiccati, che trovate [qui](/recipes/base_preparations/stocks/vegan_dashi.md).
+Se volete, esiste la versione vegana del dashi, che utilizza l’alga kombu e i funghi shiitake essiccati, che trovate [qui](/ricette/vegan_dashi).
 !!!
 
 ## Niban Dashi

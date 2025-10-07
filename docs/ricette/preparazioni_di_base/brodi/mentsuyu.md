@@ -10,7 +10,7 @@ ingredients:
 - salsa di soia
 ---
 
-Il **mentsuyu** è un brodo forte e salato, tradizionalmente usato nei piatti di noodles come **soba** e **udon**. È un ingrediente fondamentale della cucina giapponese, preparato con una miscela di **katsuobushi**, [salsa di soia](/ingredienti/shoyu.md), **mirin** e **zucchero**. Questa combinazione di ingredienti crea una bomba di umami, perfetta per arricchire una vasta gamma di piatti.
+Il **mentsuyu** è un brodo forte e salato, tradizionalmente usato nei piatti di noodles come **soba** e **udon**. È un ingrediente fondamentale della cucina giapponese, preparato con una miscela di **katsuobushi**, [salsa di soia](/ingredienti/shoyu), **mirin** e **zucchero**. Questa combinazione di ingredienti crea una bomba di umami, perfetta per arricchire una vasta gamma di piatti.
 
 ### Tipi di Mentsuyu
 
@@ -23,10 +23,10 @@ Esistono due tipi principali di mentsuyu:
 
 ## Ingredienti
 
-- ½ tazza di [sake](/ingredienti/sake.md)
-- 1 tazza abbondante di [mirin](/ingredienti/mirin.md) (dice 1 ⅛ che dovrebbe essere 1 + 2 cucchiai)
-- 1 tazza di [salsa di soia](/ingredienti/shoyu.md)
-- 1 pezzo di [kombu](/ingredienti/kombu.md) (5 grammi? pesare)
+- ½ tazza di [sake](/ingredienti/sake)
+- 1 tazza abbondante di [mirin](/ingredienti/mirin) (dice 1 ⅛ che dovrebbe essere 1 + 2 cucchiai)
+- 1 tazza di [salsa di soia](/ingredienti/shoyu)
+- 1 pezzo di [kombu](/ingredienti/kombu) (5 grammi? pesare)
 - 1 tazza di katsuobushi (pesare)
 
 ## Preparazione
@@ -37,6 +37,6 @@ Filtra tutto e metti in un barattolo, la salsa inizia a dare il meglio di se dop
 
 ### Kaketsuyu e Tsuketsuyu
 
-Diluisci con acqua o [dashi](/recipes/base_preparations/stocks/dashi.md) e scalda, la proporzione della diluizione dipende da quanto era concentrato il Mentsuyu e da che sapore si gradisce, io inizio con il 30% di acqua circa, poi in caso correggo.
+Diluisci con acqua o [dashi](/ricette/dashi) e scalda, la proporzione della diluizione dipende da quanto era concentrato il Mentsuyu e da che sapore si gradisce, io inizio con il 30% di acqua circa, poi in caso correggo.
 
 Il Kaketsuyu va scaldato e versato caldo sui noodles, mentre il tsuketsuyu va messo freddo in una ciotolina a parte, e ci si immergono i noodles (tipicamente zaru soba)

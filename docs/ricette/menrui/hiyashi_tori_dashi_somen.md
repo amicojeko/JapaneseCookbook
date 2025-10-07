@@ -21,11 +21,11 @@ Questo piatto estivo è tanto saporito quanto rinfrescante. Il pollo viene cotto
 ## Ingredienti
 ### Per il Brodo e il Pollo
 - 1 Sovraccoscia di pollo
-- 10g di [Alga Kombu](/ingredienti/kombu.md)
+- 10g di [Alga Kombu](/ingredienti/kombu)
 - 600ml di Acqua
-- 100ml di [Sakè da cucina](/ingredienti/sake.md)
-- 2 cucchiai di [Salsa di soia](/ingredienti/shoyu.md)
-- 1 cucchiaio di [Mirin](/ingredienti/mirin.md)
+- 100ml di [Sakè da cucina](/ingredienti/sake)
+- 2 cucchiai di [Salsa di soia](/ingredienti/shoyu)
+- 1 cucchiaio di [Mirin](/ingredienti/mirin)
 - 2 cucchiai di Zucchero
 
 ### Per completare
@@ -35,7 +35,7 @@ Questo piatto estivo è tanto saporito quanto rinfrescante. Il pollo viene cotto
 
 ### Per guarnire (topping)
 - Myoga (zenzero giapponese)
-- Foglie di [Shiso](/ingredienti/shiso.md)
+- Foglie di [Shiso](/ingredienti/shiso)
 - Germogli di ravanello (Kaiware daikon)
 
 ## Preparazione
