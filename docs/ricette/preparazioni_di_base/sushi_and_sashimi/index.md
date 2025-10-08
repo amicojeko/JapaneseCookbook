@@ -1,3 +1,0 @@
----
-  title: 🍣 Sushi e sashimi
----

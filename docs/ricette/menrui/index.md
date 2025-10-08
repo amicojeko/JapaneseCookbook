@@ -1,3 +1,0 @@
----
-  title: 🍜 Menrui (noodles)
----
