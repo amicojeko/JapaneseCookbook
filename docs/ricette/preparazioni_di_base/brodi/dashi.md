@@ -51,11 +51,11 @@ Non strizzate il katsuobushi, altrimenti il dashi diventa amaro.
 :::tip
 Volendo potete utilizzare di nuovo il katsuobushi e l’alga kombu per fare un secondo dashi più delicato (Niban dashi, letteralmente secondo dashi).
 
-In alternativa, si possono essiccare e sbriciolare kombu e katsuobushi per fare il [furikake](/recipes/base_preparations/condiments/furikake).
+In alternativa, si possono essiccare e sbriciolare kombu e katsuobushi per fare il [furikake](/ricette/furikake).
 
 Ad ogni modo, cercate di non buttare subito kombu e katsuobushi.
 
-Se volete, esiste la versione vegana del dashi, che utilizza l’alga kombu e i funghi shiitake essiccati, che trovate [qui](/ricette/vegan_dashi).
+Se volete, esiste la versione vegana del dashi, che utilizza l’alga kombu e i funghi shiitake essiccati, che trovate [qui](/ricette/dashi_vegan).
 :::
 
 ## Niban Dashi

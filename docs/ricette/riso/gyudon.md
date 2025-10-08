@@ -24,7 +24,7 @@ Il gyudon e' un piatto molto popolare in Giappone, e' una ciotola di riso con ca
 - 300 g di manzo, io uso il cappello del prete tagliato a macchina, e' meglio usare un taglio molto grasso
 - 1/2 cipolla gialla
 - 1 cipollina verde
-- [Beni shoga](/ingredienti/beni_shsoga) per guarnire
+- [Beni shoga](/ingredienti/beni_shoga) per guarnire
 - 150 ml di [dashi](/ricette/dashi)
 - 3-4 cucchiai di [salsa di soia](/ingredienti/shoyu)
 - 2 cucchiai di [mirin](/ingredienti/mirin)
