@@ -28,8 +28,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'amicojeko', // Usually your GitHub org/user name.
+  projectName: 'japanesecookbook', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
@@ -85,10 +85,10 @@ const config: Config = {
           position: 'left',
           label: 'Ricette',
         },
-        {to: '/ingredienti', label: 'Ingredienti', position: 'left'},
+        // {to: '/ingredienti', label: 'Ingredienti', position: 'left'},
         // {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/amicojeko/japanesecookbook',
           label: 'GitHub',
           position: 'right',
         },
