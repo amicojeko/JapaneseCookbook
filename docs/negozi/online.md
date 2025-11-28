@@ -11,6 +11,5 @@ sidebar_position: 0
 codice di sconto MOODJEKO2025
 - https://sushi-sushi.it
 - https://sushitalia.com
-- https://www.japanworld.it
 - https://www.orientalitalia.com
 - https://www.kissashop.it
