@@ -55,3 +55,15 @@ Largo Preneste, 3, 00177 Roma RM \
 - **Panda Market** \
 Via della Meloria, 9/13, 00136 Roma RM \
 [Link alla mappa](https://maps.app.goo.gl/hG7nEMR5qVNmy8w4A)
+
+- **味旺超市 （Wei Market）** \
+Via della Marranella, 14/16, 00176 Roma RM \
+[Link alla mappa](https://maps.app.goo.gl/yU3eDp9PbVh3YGyi7)
+
+- **Market Asian Fu** \
+Via di Tor Pignattara, 128, 00176 Roma RM \
+[Link alla mappa](https://maps.app.goo.gl/d6WRpssKZcLwQu467)
+
+- **Qiaoxiang - supermercato Cinese** \
+Via Muraccio di Rischiaro, 49, 00155 Roma RM \
+[Link alla mappa](https://maps.app.goo.gl/nPo5ShPE6PwKDaA89)

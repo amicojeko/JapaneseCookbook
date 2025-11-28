@@ -24,9 +24,17 @@ https://moodmarketmilano.com \
 Codice di sconto online MOODJEKO2025 \
 [Link alla mappa](https://maps.app.goo.gl/XsRRvHhJDujRPGy8A)
 
+- **Supermercato Meijiale 美佳乐** \
+Via Paolo Sarpi, 7, 20154 Milano MI \
+[Link alla mappa](https://maps.app.goo.gl/FNgXKT4mQHy2fVwb6)
+
 - **Zenmarket Japanese & Korean Foods** \
 Via Lorenteggio, 25, 20146 Milano MI \
 [Link alla mappa](https://maps.app.goo.gl/oHHmkRaLhYx43ThW7)
+
+- **KATHAY** \
+Via Luigi Canonica, 54, 20154 Milano MI \
+[Link alla mappa](https://maps.app.goo.gl/dcBv8xoEEapXHZT2A)
 
 ## Pavia
 

@@ -29,3 +29,11 @@ Piazza Pietro Francesco Guala, 135 BIS, 10135 Torino TO \
 - **Per Voi - Ethnicbay - 谷香谷舍** \
 Via Monginevro, 56, 10141 Torino TO \
 [Link alla mappa](https://maps.app.goo.gl/XTzGFGtehXu5s1nLA)
+
+- **Market Yang Guang** \
+Corso Regina Margherita, 129, 10122 Torino TO \
+[Link alla mappa](https://maps.app.goo.gl/iAFr3QvwYQpzVjiXA)
+
+- **Kokoroya** \
+Via Piave, 9/A, 10122 Torino TO \
+[Link alla mappa](https://maps.app.goo.gl/h1G9WeVJSPytLrkY7)
