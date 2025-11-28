@@ -28,6 +28,16 @@ Codice di sconto online MOODJEKO2025 \
 Via Lorenteggio, 25, 20146 Milano MI \
 [Link alla mappa](https://maps.app.goo.gl/oHHmkRaLhYx43ThW7)
 
+## Pavia
+
+- **Asia Market di Wang Junyi** \
+Viale Cremona, 31, 27100 Pavia PV \
+[Link alla mappa](https://maps.app.goo.gl/RxJbNcq3UAx9XrA69)
+
+- **YANGYANG FOOD EXPRESS** \
+Viale Trieste, 5, 27100 Pavia PV \
+[Link alla mappa](https://maps.app.goo.gl/1JMoZyG1DD2nMWneA)
+
 ## Saronno
 
 - **Market Hu di Hu Huixian** \
