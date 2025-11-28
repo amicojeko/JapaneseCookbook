@@ -7,8 +7,7 @@ tags:
   - ingredienti
 ---
 
+![Aonori](/img/ingredienti/aonori.jpg)
 
-Aonori or Ao-Nori è la polvere di alga Nori. Viene usata come condimento in ricette come l’Ononomiyaki, Takoyaki, Yakisoba o Yakiudon.
+Aonori o Ao-Nori è la polvere di alga Nori. Viene usata come condimento in ricette come l’Ononomiyaki, Takoyaki, Yakisoba o Yakiudon.
 
-![Aonori](/img/ingredienti/aonori-2.jpg)
-![Aonori](/img/ingredienti/aonori-3.jpg)

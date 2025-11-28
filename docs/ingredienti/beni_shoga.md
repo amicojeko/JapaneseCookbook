@@ -9,6 +9,7 @@ tags:
   - zenzero
 ---
 
+![Beni Shoga](/img/ingredienti/benishoga.jpg)
 
 Il Beni Shoga è zenzero tagliato a julienne e marinato nell’[umesu](/ingredienti/umesu) (梅酢), che è la soluzione a base di aceto utilizzata per marinare le prugne umeboshi.
 
@@ -24,6 +25,3 @@ Consiglio di farne 2 barattolini, uno con abbastanza Umezu da bagnare tutto lo z
 
 Mettere in frigorifero, è pronto dopo 2-3 giorni e dura anche un anno.
 
-
-![Beni Shoga](/img/ingredienti/benishoga-1.jpg)
-![Beni Shoga](/img/ingredienti/benishoga-3.jpg)
