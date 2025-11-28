@@ -4,7 +4,7 @@ description: Negozi orientali in Toscana.
 slug: "/negozi_orientali/toscana"
 ---
 
-# Negozi orientali in Lombardia
+# Negozi orientali in Toscana
 
 ## Firenze
 
