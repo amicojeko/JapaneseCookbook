@@ -6,6 +6,16 @@ slug: "/negozi_orientali/sicilia"
 
 # Negozi orientali in Sicilia
 
+## Catania
+
+- **Cristaldi International Food Store** \
+C.so Sicilia, 81, 95131 Catania CT \
+[Link alla mappa](https://maps.app.goo.gl/ubmtUMobnKVa1nrW8)
+
+- **La Via Della Seta** \
+Via Giacomo Puccini, 95100 Catania, CT \
+[Link alla mappa](https://maps.app.goo.gl/7KsphjkzYgDsdovz5)
+
 ## Modica
 
 - **Cantina Frasca** \

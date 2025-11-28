@@ -18,10 +18,14 @@ Via Marengo, 2, 15121 Alessandria AL \
 
 ## Torino
 
-* **Kawaii.Torino** \
+- **Kawaii.Torino** \
 Via Madama Cristina, 11b, 10125 Torino TO \
 [Link alla mappa](https://maps.app.goo.gl/3s7bTxP7Tm42tp7NA)
 
-* **Kawaii.Torino** \
+- **Kawaii.Torino** \
 Piazza Pietro Francesco Guala, 135 BIS, 10135 Torino TO \
 [Link alla mappa](https://maps.app.goo.gl/pHb6QrEKvPFhAjoZ7)
+
+- **Per Voi - Ethnicbay - 谷香谷舍** \
+Via Monginevro, 56, 10141 Torino TO \
+[Link alla mappa](https://maps.app.goo.gl/XTzGFGtehXu5s1nLA)

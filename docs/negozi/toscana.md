@@ -10,7 +10,7 @@ slug: "/negozi_orientali/toscana"
 
 - **Ethnic Food di Stella Tonini** \
 Piazza Ponchielli, 5, 58100 Grosseto GR \
-[Link alla mappa](https://maps.app.goo.gl/pHb6QrEKvPFhAjoZ7)
+[Link alla mappa](https://maps.app.goo.gl/rTCsPE3E5PgYKE3V9)
 
 ## Marina di Carrara
 
