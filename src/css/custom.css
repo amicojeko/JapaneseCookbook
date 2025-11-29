@@ -88,3 +88,11 @@
   }
 }
 
+@import 'leaflet/dist/leaflet.css';
+
+.negozio-marker {
+  font-size: 24px;
+  line-height: 1;
+  /* text-align: center; */
+  transform: translate(-50%, -50%);
+}
