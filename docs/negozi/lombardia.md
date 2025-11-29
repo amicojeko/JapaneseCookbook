@@ -12,6 +12,10 @@ slug: "/negozi_orientali/lombardia"
 Via Corsica, 201, 25125 Brescia BS \
 [Link alla mappa](https://maps.app.goo.gl/tQtWUcTPXc7NFNGn7)
 
+- **ANGKOR SUPERSTORE SRL** \
+Via Dalmazia, 137, 25125 Brescia BS \
+[Link alla mappa](https://maps.app.goo.gl/ZJBUF9pSUsVTaxJn9)
+
 ## Milano
 
 - **Gaghe** \

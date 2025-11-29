@@ -67,3 +67,11 @@ Via di Tor Pignattara, 128, 00176 Roma RM \
 - **Qiaoxiang - supermercato Cinese** \
 Via Muraccio di Rischiaro, 49, 00155 Roma RM \
 [Link alla mappa](https://maps.app.goo.gl/nPo5ShPE6PwKDaA89)
+
+- **mico** \
+Via Telegono, 26, 00175 Roma RM \
+[Link alla mappa](https://maps.app.goo.gl/hXD1WTjpAs9dfBDd8)
+
+- **Kombinini** \
+Via Gaspare Gozzi, 51, 00145 Roma RM \
+[Link alla mappa](https://maps.app.goo.gl/5zJ8jZPt18zsMgm26)
