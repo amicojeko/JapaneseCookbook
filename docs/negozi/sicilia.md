@@ -25,7 +25,7 @@ C.da Calvario San Filippo 54, 97015 Modica RG \
 ## Palermo
 
 - **MARKET CINESE 中超 [食全食美]FOOD SHOP** \
-Angolo di, Via Antonio di Rudinì, Via Ernesto Paci, 63, 90123 Palermo PA
+Angolo di, Via Antonio di Rudinì, Via Ernesto Paci, 63, 90123 Palermo PA \
 [Link alla mappa](https://maps.app.goo.gl/3xoLWJZtYeo6NCLEA)
 
 - **99STOP Asian Market** \
