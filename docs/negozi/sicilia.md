@@ -22,6 +22,16 @@ Via Giacomo Puccini, 95100 Catania, CT \
 C.da Calvario San Filippo 54, 97015 Modica RG \
 [Link alla mappa](https://maps.app.goo.gl/Re56pbg59h8hPQTBA)
 
+## Palermo
+
+- **MARKET CINESE 中超 [食全食美]FOOD SHOP** \
+Angolo di, Via Antonio di Rudinì, Via Ernesto Paci, 63, 90123 Palermo PA
+[Link alla mappa](https://maps.app.goo.gl/3xoLWJZtYeo6NCLEA)
+
+- **99STOP Asian Market** \
+Via Marchese di Villabianca, 43, 90143 Palermo PA \
+[Link alla mappa](https://maps.app.goo.gl/ur8g1wkzYRW5vomN6)
+
 ## Trapani
 
 - **Sicina Market - Supermercato Asiatico** \
