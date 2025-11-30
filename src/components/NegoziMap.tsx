@@ -18,13 +18,13 @@ const NegoziMap: React.FC = () => {
           popupAnchor: [0, -30],
         });
 
-        const center: [number, number] = [42.5, 12.5];
+        const center: [number, number] = [42.0, 12.5];
 
         return (
           <MapContainer
             center={center}
             zoom={5.5}
-            style={{ height: '500px', width: '100%', borderRadius: '8px' }}
+            style={{ height: '700px', width: '100%', borderRadius: '8px' }}
             scrollWheelZoom={true}
           >
             <TileLayer
@@ -60,6 +60,14 @@ const NegoziMap: React.FC = () => {
                       <>
                         <br />
                         <em>{shop.note}</em>
+                      </>
+                    )}
+                    {shop.map_url && (
+                      <>
+                        <br />
+                        <a href={shop.map_url} target="_blank" rel="noopener noreferrer">
+                          Vedi su Google Maps
+                        </a>
                       </>
                     )}
                   </div>
