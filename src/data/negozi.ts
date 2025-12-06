@@ -318,11 +318,11 @@ export const NEGOZI: Negozio[] = [
       name: "Mood Market",
       region: "Lombardia",
       city: "Milano",
-      address: null,
+      address: "Via Paolo Sarpi, 41, 20154 Milano MI",
       lat: 45.4811283,
       lng: 9.1712643,
       url: "https://moodmarketmilano.com",
-      note: "Via Paolo Sarpi, 41, 20154 Milano MI  Codice di sconto online MOODJEKO2025",
+      note: "Codice di sconto online MOODJEKO2025",
       map_url: "https://maps.app.goo.gl/XsRRvHhJDujRPGy8A",
   },
   {

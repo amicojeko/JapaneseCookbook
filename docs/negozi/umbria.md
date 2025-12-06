@@ -6,8 +6,7 @@ slug: "/negozi_orientali/umbria"
 
 # Negozi orientali in Umbria
 
-## Perugia
+import { NEGOZI } from '@site/src/data/negozi';
+import RegionShopList from '@site/src/components/RegionShopList';
 
-- **ASIA MARKET Oriente market 东方亚洲超市** \
-Via Campo di Marte, 10h, 06124 Perugia PG \
-[Link alla mappa](https://maps.app.goo.gl/rRoQm6myzHex9ebB7)
+<RegionShopList region="Umbria" shops={NEGOZI} />
