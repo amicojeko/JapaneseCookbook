@@ -32,13 +32,32 @@ const RegionShopList: React.FC<Props> = ({ region, shops }) => {
     <div>
       {sortedCities.map((city) => (
         <section key={city} style={{ marginBottom: '1.5rem' }}>
-          <h3 style={{ marginBottom: '0.5rem' }}>{city}</h3>
+          <h2
+            id={city.toLowerCase().replace(/\s+/g, '-')}
+            className="anchor anchorTargetStickyNavbar_Vzrq"
+          >
+            {city}
+            <a
+              href={`#${city.toLowerCase().replace(/\s+/g, '-')}`}
+              className="hash-link"
+              aria-label={`Link diretto a ${city}`}
+              title={`Link diretto a ${city}`}
+              translate="no"
+              >
+              ​
+            </a>
+          </h2>
           <ul>
             {groupedByCity[city].map((shop) => (
               <li key={shop.id} style={{ marginBottom: '0.5rem' }}>
                 <strong>{shop.name}</strong><br />
                 {shop.address}
-                {shop.city ? `, ${shop.city}` : ''}
+                <br />
+                {shop.map_url && (
+                  <a href={shop.map_url} target="_blank" rel="noopener noreferrer">
+                    Vedi su Google Maps
+                  </a>
+                )}
                 <br />
                 {shop.url && (
                   <a href={shop.url} target="_blank" rel="noopener noreferrer">
