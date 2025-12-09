@@ -65,3 +65,25 @@
   white-space: nowrap !important;
   border: 0 !important;
 }
+
+/* Video responsivo - orizzontale su desktop, verticale su mobile */
+.video-container-responsive {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.video-container-responsive > div {
+  width: 100%;
+  max-width: 900px;
+  aspect-ratio: 16 / 9;
+}
+
+/* Mobile - layout verticale 9:16 */
+@media (max-width: 768px) {
+  .video-container-responsive > div {
+    max-width: 100%;
+    aspect-ratio: 9 / 16;
+  }
+}
