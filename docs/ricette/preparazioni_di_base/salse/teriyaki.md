@@ -10,6 +10,7 @@ ingredients:
 - zucchero
 ---
 
+
 ## Ingredienti
 
 - 1 tazza di [sake](/ingredienti/sake)
@@ -27,3 +28,12 @@ In un piccolo tegame, riscaldare il sake e il mirin fino al lieve bollore. Utili
 - Si possono anche aggiungere semi di sesamo (tanti!)
 - Si conserva in frigo per 2-3 settimane
 :::
+
+## Video
+
+<iframe width="315" height="560"
+src="https://www.youtube.com/embed/zQowDw_-cOo?hd=1"
+title="YouTube video player"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowfullscreen></iframe>
