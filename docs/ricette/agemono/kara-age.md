@@ -54,3 +54,9 @@ Di nuovo far asciugare su una griglia, e gustare con la salsa (io uso [Maionese 
 
 Provare la variante cooking with the dog, con l'olio di sesamo nella marinatura e l'uovo.
 https://www.youtube.com/watch?v=CEX_rCVTPKE
+
+## Video
+
+import YouTubeVideo from '@site/src/components/YouTubeVideo';
+
+<YouTubeVideo videoId="7VbEkKBAs-g" />

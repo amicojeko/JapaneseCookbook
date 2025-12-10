@@ -10,3 +10,9 @@ La fermentazione del natto avviene grazie al Bacillus subtilis natto, che trasfo
 Tipicamente servito su riso caldo con aggiunta di [salsa di soia](/ingredienti/shoyu) e senape per migliorarne il sapore, il natto può essere anche ingrediente di sushi, insalate e altri piatti.
 
 ![Natto](/img/ingredienti/natto-1.jpg)
+
+## Video
+
+import YouTubeVideo from '@site/src/components/YouTubeVideo';
+
+<YouTubeVideo videoId="93c1-x2abp8" />

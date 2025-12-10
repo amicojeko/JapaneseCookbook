@@ -33,3 +33,9 @@ Portare il dashi ad ebollizione, se stai facendo una zuppa di miso con quello ch
 Quando il dashi bolle (o quando il quello che ti pare che ci hai aggiunto prima se volevi è cotto), spegnere il fuoco, e sciogliere il miso nel dashi aiutandosi con un setaccio (si può fare senza setaccio, ma setacciandolo viene più liscia e meno torbida).
 
 Se vi piacciono, aggiungete le alghe wakame essiccate, il tofu e il porro come guarnizione e servire bollente.
+
+## Video
+
+import YouTubeVideo from '@site/src/components/YouTubeVideo';
+
+<YouTubeVideo videoId="ESa_qRjoKsI" />

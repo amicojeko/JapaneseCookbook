@@ -39,3 +39,9 @@ Prendi le fettine di maiale a mazzate con un batticarne, lo so che non si fa, ma
 Infarina leggerissimamente le fettine di maiale. Cosi' leggermente che puoi usare un pennello, come fosse cipria. Anzi meglio dire "incipriare" le fettine con la farina piuttosto che infarinarle.
 
 Scalda una padella antiaderente con un filo di olio di arachidi, mettici le fettine, e cuocile pochi secondi per lato, come i saltimbocca, poi toglile, metti la salsina nella stessa padella, falla addensare e rimetti le fettine per insaporirle da entrambi i lati per qualche secondo. Togli dal fuoco e servi, guarnendo con la salsa rimasta.
+
+## Video
+
+import YouTubeVideo from '@site/src/components/YouTubeVideo';
+
+<YouTubeVideo videoId="kq9OBEQw4E4" />

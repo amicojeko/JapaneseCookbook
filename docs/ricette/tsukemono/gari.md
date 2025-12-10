@@ -49,3 +49,9 @@ Se riesci a trovare lo zenzero giovane, e' ancora meglio. Lo zenzero giovane e' 
 - Portare a bollore e lasciar bollire per 1-2 minuti
 - Versare l'amazu sullo zenzero
 - Lasciar riposare per 1-2 giorni
+
+## Video
+
+import YouTubeVideo from '@site/src/components/YouTubeVideo';
+
+<YouTubeVideo videoId="eRxAtgrW2CE" />

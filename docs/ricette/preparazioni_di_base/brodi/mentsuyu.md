@@ -40,3 +40,9 @@ Filtra tutto e metti in un barattolo, la salsa inizia a dare il meglio di se dop
 Diluisci con acqua o [dashi](/ricette/dashi) e scalda, la proporzione della diluizione dipende da quanto era concentrato il Mentsuyu e da che sapore si gradisce, io inizio con il 30% di acqua circa, poi in caso correggo.
 
 Il Kaketsuyu va scaldato e versato caldo sui noodles, mentre il tsuketsuyu va messo freddo in una ciotolina a parte, e ci si immergono i noodles (tipicamente zaru soba)
+
+## Video
+
+import YouTubeVideo from '@site/src/components/YouTubeVideo';
+
+<YouTubeVideo videoId="gXeX1rC_YTs" />

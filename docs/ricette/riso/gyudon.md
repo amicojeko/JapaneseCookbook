@@ -36,3 +36,9 @@ Taglia la cipolla a fettine sottili per il lungo, e la cipollina verde a rondell
 In una padella mmetti il dashi, la [salsa di soia](/ingredienti/shoyu), il mirin e il sake e le cipolle, fai cuocere a fuoco medio fino a che le cipolle non si ammorbidiscono.
 Usa un coperchio per non far evaporare il brodo. Dopo 2-3 minuti aggiungi la carne e fai cuocere finche' la carne non e' piu' rosa.
 Quando la carne e' cotta, spegni il fuoco e aggiungi la cipollina verde. Versa il tutto sopra il riso caldo e guarnisci con beni shoga.
+
+## Video
+
+import YouTubeVideo from '@site/src/components/YouTubeVideo';
+
+<YouTubeVideo videoId="KYZHouOLnr4" />

@@ -59,3 +59,9 @@ A questo punto si possono aggiungere altre decorazioni, come l'edamame, o un gam
 Spegnere il fuoco, e lasciare riposare per 7-8 minuti. A questo punto aggiungere un po' di prezzemolo o cipolline, e servire caldo.
 
 Alternativamente, si puo' mettere in frigorifero e gustare freddo, con del buon vino bianco o del sake.
+
+## Video
+
+import YouTubeVideo from '@site/src/components/YouTubeVideo';
+
+<YouTubeVideo videoId="koIokEwbbMQ" />

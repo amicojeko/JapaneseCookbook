@@ -11,3 +11,8 @@ La maionese Kewpie e'unica e irriproducibile, come la Nutella.
 
 ![Kewpie](/img/ingredienti/kewpie-1.jpg)
 
+## Video
+
+import YouTubeVideo from '@site/src/components/YouTubeVideo';
+
+<YouTubeVideo videoId="aVBxLm8QQMY" />
