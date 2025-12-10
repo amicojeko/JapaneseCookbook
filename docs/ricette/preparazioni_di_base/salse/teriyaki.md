@@ -31,17 +31,6 @@ In un piccolo tegame, riscaldare il sake e il mirin fino al lieve bollore. Utili
 
 ## Video
 
-<div className="video-container-responsive">
-  <div>
-    <iframe
-      width="100%"
-      height="100%"
-      src="https://www.youtube.com/embed/zQowDw_-cOo?hd=1&vq=hd720&modestbranding=1"
-      title="YouTube video player"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen
-      style={{display: 'block'}}
-    ></iframe>
-  </div>
-</div>
+import YouTubeVideo from '@site/src/components/YouTubeVideo';
+
+<YouTubeVideo videoId="zQowDw_-cOo" />
