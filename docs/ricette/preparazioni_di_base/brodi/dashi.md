@@ -70,7 +70,7 @@ Il niban dashi ha un sapore più delicato del primo dashi, ma un umami altrettan
 
 Mettere a bagno l’alga kombu e il katsuobushi nell'acqua fredda, portare rapidamente a ebollizione, abbassare la fiamma al minimo e lasciare appena sobbollire per 20-30 minuti. Schiumare e filtrare con un panno fino.
 
-### Video
+## Video
 
 ### Ichiban Dashi
 
