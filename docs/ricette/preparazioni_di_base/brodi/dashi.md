@@ -25,7 +25,7 @@ L'ichiban dashi e' il dashi piu' comune, e si usa in tutte le preparazioni dove 
 ### Preparazione
 
 :::note
-L'acqua e' un ingrediente crucale per fare un buon dashi. Cercate di usare acqua di buona qualita', possibilmente povera di calcare, come l'acqua minerale naturale. Se usate l'acqua del rubinetto, fatela bollire e raffreddare prima di usarla, in modo da farle perdere il cloro e altre sostanze volatili che potrebbero rovinare il sapore del dashi. Meglio ancora se avete un filtro a carbone attivo.
+L'acqua e' un ingrediente cruciale per fare un buon dashi. Cercate di usare acqua di buona qualita', possibilmente povera di calcare, come l'acqua minerale naturale. Se usate l'acqua del rubinetto, fatela bollire e raffreddare prima di usarla, in modo da farle perdere il cloro e altre sostanze volatili che potrebbero rovinare il sapore del dashi. Meglio ancora se avete un filtro a carbone attivo.
 :::
 
 Non togliere la polvere bianca dall'alga Kombu: quello è il glutammato naturalmente presente nell'alga, fonte di umami, ed è esattamente il motivo per cui usiamo la kombu.
