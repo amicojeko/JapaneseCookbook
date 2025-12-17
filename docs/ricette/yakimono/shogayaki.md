@@ -52,7 +52,7 @@ A questo punto aggiungi la salsa direttamente in padella e lascia cuocere ancora
 
 Togli le fettine dalla padella e fai finire di addensare la salsa. Servi gli shogayaki guarnendo con la salsa rimasta.
 
-:::tip
+:::info Curiosità
 - La cipolla contiene degli enzimi che aiutano a intenerire la carne durante la cottura, rendendola più morbida e succosa. La mela aggiunge una dolcezza naturale che bilancia il sapore deciso della salsa di soia e dello zenzero, e contiene pectina che aiuta ad addensare la salsa.
 
 - In Giappone si usa molto più spesso la fecola di patate della farina. È più leggera, ha un sapore più neutro, altera meno gli altri ingredienti, crea una leggera crosticina dorata e soprattutto aiuta ad addensare meglio la salsa.
