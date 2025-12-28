@@ -47,4 +47,8 @@ Si conserva per qualche giorno, ma è così buono che finirà subito!
 
 Itadakimasu!
 
+### Video
 
+import YouTubeVideo from '@site/src/components/YouTubeVideo';
+
+<YouTubeVideo videoId="OoqRYJGzWmA" />

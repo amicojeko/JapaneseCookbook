@@ -1,5 +1,5 @@
 ---
-title: Potetosarada (ポテトサラダ)
+title: Potetosarada
 description: Insalata di patate
 slug: /ricette/potetosarada
 tags:

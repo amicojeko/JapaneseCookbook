@@ -1,6 +1,6 @@
 ---
-title: Nasu no Yaki-bitashi (Melanzane grigliate in brodo)
-description: Un'alternativa più leggera e salutare alle classiche melanzane fritte (Agebitashi), che richiede solo due cucchiai d'olio per un risultato tenero, succoso e pieno di sapore.
+title: Nasu no Yaki-bitashi
+description: Nasu no Yaki-bitashi, ovvero melanzane grigliate in brodo - Un'alternativa più leggera e salutare alle classiche melanzane fritte (Agebitashi), che richiede solo due cucchiai d'olio per un risultato tenero, succoso e pieno di sapore.
 slug: /ricette/nasu_no_yaki-bitashi
 ingredients:
 - Melanzane
