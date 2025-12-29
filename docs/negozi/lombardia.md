@@ -61,3 +61,9 @@ Via Giuseppe Garibaldi, 9, 21047 Saronno VA \
 - **Quel Paese** \
 Via Piave, 15, 21100 Varese VA \
 [Link alla mappa](https://maps.app.goo.gl/9HkE8AKK4LKiDYNr6)
+
+## Vigevano
+
+- **Gastronomia Ye** \
+Corso Milano, 101, 27029 Vigevano PV \
+[Link alla mappa](https://maps.app.goo.gl/egRYz26YvyUsiCUy6)
