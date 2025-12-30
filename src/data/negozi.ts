@@ -756,4 +756,14 @@ export const NEGOZI: Negozio[] = [
       lng: 12.2427639,
       map_url: "https://maps.app.goo.gl/rD8v8RLq4UE1dSUy8",
   },
+  {
+      id: "lombardia-vigevano-gastronomia-ye",
+      name: "Gastronomia Ye",
+      region: "Lombardia",
+      city: "Vigevano",
+      address: "Corso Milano, 101, 27029 Vigevano PV",
+      lat: 45.3324062,
+      lng: 8.8802334,
+      map_url: "https://maps.app.goo.gl/Y1mh23nTkzwyzdf8A",
+  },
 ];
