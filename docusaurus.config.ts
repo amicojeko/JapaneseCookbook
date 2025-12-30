@@ -163,6 +163,10 @@ const config: Config = {
               label: 'GitHub',
               href: 'https://github.com/amicojeko/japanesecookbook',
             },
+            {
+              label: 'Supportami con PayPal',
+              href: 'https://paypal.me/jeko23',
+            }
           ],
         },
       ],
