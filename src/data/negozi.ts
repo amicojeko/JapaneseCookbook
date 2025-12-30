@@ -766,4 +766,14 @@ export const NEGOZI: Negozio[] = [
       lng: 8.8802334,
       map_url: "https://maps.app.goo.gl/Y1mh23nTkzwyzdf8A",
   },
+  {
+      id: "emilia-romagna-bologna-shun-feng-supermarket",
+      name: "顺风超市 Shun Feng Supermarket",
+      region: "Emilia-Romagna",
+      city: "Bologna",
+      address: "Via Ferrarese, 124, 40128 Bologna BO",
+      lat: 44.5233702,
+      lng: 11.3595213,
+      map_url: "https://maps.app.goo.gl/mZQnpQ6vgrhVMK3m7",
+  }
 ];
