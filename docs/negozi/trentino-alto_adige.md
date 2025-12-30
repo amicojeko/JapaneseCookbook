@@ -6,12 +6,7 @@ slug: "/negozi_orientali/trentino-alto_adige"
 
 # Negozi orientali in Trentino-Alto Adige
 
-## Bolzano
+import { NEGOZI } from '@site/src/data/negozi';
+import RegionShopList from '@site/src/components/RegionShopList';
 
-- **Panda Market** \
-Via Orazio, 19 A, 39100 Bolzano BZ \
-[Link alla mappa](https://maps.app.goo.gl/4ekjicfrhc6Y2ABP8)
-
-- **Panda Market** \
-Galleria Sernesi, 29, 39100 Bolzano BZ \
-[Link alla mappa](https://maps.app.goo.gl/H1tXjwks18AkbNzB8)
+<RegionShopList region="Trentino-Alto Adige" shops={NEGOZI} />

@@ -6,8 +6,7 @@ slug: "/negozi_orientali/abruzzo"
 
 # Negozi orientali in Abruzzo
 
-## Pescara
+import { NEGOZI } from '@site/src/data/negozi';
+import RegionShopList from '@site/src/components/RegionShopList';
 
-- **China Market Haiyen Di Ye Aifang** \
-Corso Vittorio Emanuele II, 416, 65122 Pescara PE \
-[Link alla mappa](https://maps.app.goo.gl/f7vAccBe2te9ayVB6)
+<RegionShopList region="Abruzzo" shops={NEGOZI} />
