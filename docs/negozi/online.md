@@ -1,5 +1,5 @@
 ---
-title: Online
+title: 🌐 Negozi orientali online
 description: Negozi orientali online.
 slug: "/negozi_orientali/online"
 sidebar_position: 1
