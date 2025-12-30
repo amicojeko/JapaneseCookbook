@@ -12,6 +12,28 @@ import '../src/css/homepage.css';
 Benvenuti sul mio sito di ricette giapponesi!
 Questi sono i risultati dei miei studi e delle mie sperimentazioni nella cucina giapponese, e sono in costante cambiamento ed evoluzione. Ogni suggerimento è più che ben accetto.
 
+<div className="paypal-container">
+  <div style={{ marginTop: "2rem" }}>
+    <p>Se questo sito ti è stato utile e ti va di supportarmi, puoi offrirmi un caffè ☕</p>
+
+    <a
+      href="https://paypal.me/jeko23"
+      target="_blank"
+      rel="noopener noreferrer"
+      style={{
+        display: "inline-block",
+        marginTop: "0.5rem",
+        padding: "10px 18px",
+        backgroundColor: "#0070BA",
+        color: "white",
+        borderRadius: "6px",
+        textDecoration: "none",
+        fontWeight: "600"
+      }}
+    >Supporta con PayPal</a>
+  </div>
+</div>
+
 <div className="social-container">
   <span>@amicojeko</span>
 
@@ -27,3 +49,4 @@ Questi sono i risultati dei miei studi e delle mie sperimentazioni nella cucina 
     <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/openai.svg" alt="ChatGPT" width={36} className="social-icon" />
   </a>
 </div>
+
