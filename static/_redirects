@@ -2,6 +2,10 @@
 # /ricette/:slug.html     /ricette/:slug     301!
 # /ingredienti/:slug.html /ingredienti/:slug 301!
 
+https://www.paginegiappe.it/* https://paginegiappe.it/:splat 301
+https://ricettegiapponesi.jeko.net/* https://paginegiappe.it/:splat 301
+https://ricette.jeko.net/* https://paginegiappe.it/:splat 301
+
 # Old -> New mappings (recipes, ingredients, tags)
 /ingredients/agedama/ /ingredienti/agedama 301!
 /ingredients/aonori/ /ingredienti/aonori 301!
