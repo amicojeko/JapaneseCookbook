@@ -1,10 +1,6 @@
-# Generic safety rules
-# /ricette/:slug.html     /ricette/:slug     301!
-# /ingredienti/:slug.html /ingredienti/:slug 301!
-
-https://www.paginegiappe.it/* https://paginegiappe.it/:splat 301
-https://ricettegiapponesi.jeko.net/* https://paginegiappe.it/:splat 301
-https://ricette.jeko.net/* https://paginegiappe.it/:splat 301
+https://www.paginegiappe.it/* https://paginegiappe.it/:splat 301!
+https://ricettegiapponesi.jeko.net/* https://paginegiappe.it/:splat 301!
+https://ricette.jeko.net/* https://paginegiappe.it/:splat 301!
 
 # Old -> New mappings (recipes, ingredients, tags)
 /ingredients/agedama/ /ingredienti/agedama 301!
@@ -32,7 +28,6 @@ https://ricette.jeko.net/* https://paginegiappe.it/:splat 301
 /ingredients/rice/ /ingredienti/rice 301!
 /ingredients/sake/ /ingredienti/sake 301!
 /ingredients/satoimo/ /ingredienti/satoimo 301!
-/ingredients/sesame/ /ingredienti/sesamo 301!
 /ingredienti/sesame/ /ingredienti/sesamo 301!
 /ingredients/2021/05/24/sesame.html /ingredienti/sesamo 301!
 /ingredients/sesame_oil/ /ingredienti/sesame_oil 301!
@@ -41,7 +36,7 @@ https://ricette.jeko.net/* https://paginegiappe.it/:splat 301
 /ingredients/shiso/ /ingredienti/shiso 301!
 /ingredients/shoyu/ /ingredienti/shoyu 301!
 /ingredients/2024/03/09/shoyu.html /ingredienti/shoyu 301!
-/ingredients/2024/03/09/shoyu /ingredienti/soy_sauce 301!
+/ingredients/2024/03/09/shoyu/ /ingredienti/shoyu 301!
 /ingredients/soba/ /ingredienti/soba 301!
 /ingredients/umeboshi/ /ingredienti/umeboshi 301!
 /ingredients/umesu/ /ingredienti/umesu 301!
