@@ -2,7 +2,7 @@ require 'json'
 require 'yaml'
 require 'pathname'
 
-BASE_URL = 'https://ricettegiapponesi.jeko.net'
+BASE_URL = 'https://paginegiappe.it'
 RECIPES_DIR = Pathname.new('recipes')
 INGREDIENTS_DIR = Pathname.new('ingredients')
 
