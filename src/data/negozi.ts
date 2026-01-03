@@ -585,6 +585,16 @@ export const NEGOZI: Negozio[] = [
         map_url: "https://maps.app.goo.gl/Re56pbg59h8hPQTBA",
     },
     {
+        id: "sicilia-messina-naturasi",
+        name: "NaturaSì",
+        region: "Sicilia",
+        city: "Messina",
+        address: "Via Giordano Bruno, 18/Isol 287, 98122 Messina ME",
+        lat: 38.1871633,
+        lng: 15.5580385,
+        map_url: "https://maps.app.goo.gl/vm3EuYc8AfBZni4k9",
+    },
+    {
         id: "sicilia-palermo-market-cinese-food-shop",
         name: "MARKET CINESE 中超 [食全食美]FOOD SHOP",
         region: "Sicilia",
