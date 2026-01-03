@@ -143,6 +143,16 @@ export const NEGOZI: Negozio[] = [
         map_url: "https://maps.app.goo.gl/vjy6qYg3a75LX8V3A",
     },
     {
+        id: "emilia-romagna-rimini-zhongnanhai",
+        name: "Zhongnanhai",
+        region: "Emilia-Romagna",
+        city: "Rimini",
+        address: "Via Cesare Clementini, 2, 47921 Rimini RN",
+        lat: 44.0615839,
+        lng: 12.5725396,
+        map_url: "https://maps.app.goo.gl/Bh4xXmbbuP9Vvwhx5",
+    },
+    {
         id: "friuli-venezia-giulia-udine-asia-africa-market",
         name: "Asia & Africa Market",
         region: "Friuli-Venezia Giulia",
