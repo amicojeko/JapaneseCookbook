@@ -625,6 +625,16 @@ export const NEGOZI: Negozio[] = [
         map_url: "https://maps.app.goo.gl/Re56pbg59h8hPQTBA",
     },
     {
+        id: "sicilia-modica-un-leccio",
+        name: "Un Leccio",
+        region: "Sicilia",
+        city: "Modica",
+        address: "Via Nazionale, 224/3, 97015 Modica RG",
+        lat: 36.8460897,
+        lng: 14.7651593,
+        map_url: "https://maps.app.goo.gl/YoaDFVPR8WmaE5ug6",
+    },
+    {
         id: "sicilia-messina-naturasi",
         name: "NaturaSì",
         region: "Sicilia",
