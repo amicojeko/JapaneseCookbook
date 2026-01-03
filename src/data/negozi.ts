@@ -353,6 +353,16 @@ export const NEGOZI: Negozio[] = [
         map_url: "https://maps.app.goo.gl/ovFss4LdYrFuaJvC7",
     },
     {
+        id: "lombardia-legnano-huji-market",
+        name: "Huji Market",
+        region: "Lombardia",
+        city: "Legnano",
+        address: "Via XXIX Maggio, 84, 20025 Legnano MI",
+        lat: 45.5988803,
+        lng: 8.9098045,
+        map_url: "https://maps.app.goo.gl/iY1Z3fmoAswmU4x57",
+    },
+    {
         id: "lombardia-milano-gaghe",
         name: "Gaghe",
         region: "Lombardia",
