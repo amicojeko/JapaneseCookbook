@@ -153,6 +153,16 @@ export const NEGOZI: Negozio[] = [
         map_url: "https://maps.app.goo.gl/kXVQZdcFd3h8qizJ9",
     },
     {
+        id: "friuli-venezia-giulia-trieste-sapori-d-oriente-trieste",
+        name: "Sapori d'Oriente Trieste",
+        region: "Friuli-Venezia Giulia",
+        city: "Trieste",
+        address: "Via Cesare Battisti, 8, 34133 Trieste TS",
+        lat: 45.6519745,
+        lng: 13.7783394,
+        map_url: "https://maps.app.goo.gl/JZ4ZMAGRSbiGwiRLA",
+    },
+    {
         id: "lazio-roma-asia-supermarket",
         name: "Asia Supermarket",
         region: "Lazio",
