@@ -795,4 +795,14 @@ export const NEGOZI: Negozio[] = [
         lng: 11.1836834,
         map_url: "https://maps.app.goo.gl/3eKdZ68qpJqNaVNq8",
     },
+    {
+        id: "lombardia-milano-milan-store",
+        name: "米兰士多 MILAN STORE",
+        region: "Lombardia",
+        city: "Milano",
+        address: "Via Padova, 90, 20131 Milano MI",
+        lat: 45.4935824,
+        lng: 9.2267134,
+        map_url: "https://maps.app.goo.gl/cKG7x9KP9kFniHTD7",
+    },
 ];
