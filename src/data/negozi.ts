@@ -956,6 +956,16 @@ export const NEGOZI: Negozio[] = [
         map_url: "https://maps.app.goo.gl/i6V7bua9h4EnHyo3A",
     },
     {
+        id: "veneto-treviso-asia-and-africa-market",
+        name: "Asia & Africa Market",
+        region: "Veneto",
+        city: "Treviso",
+        address: "Viale Nino Bixio, 23, 31100 Treviso TV",
+        lat: 45.6693203,
+        lng: 12.2548262,
+        map_url: "https://maps.app.goo.gl/8ucK7sQBDFtrkeeZA",
+    },
+    {
         id: "veneto-treviso-oriente-market-snc",
         name: "Oriente Market Snc",
         region: "Veneto",
