@@ -625,6 +625,16 @@ export const NEGOZI: Negozio[] = [
         map_url: "https://maps.app.goo.gl/CwkLvrnsHNsaLPeXA",
     },
     {
+        id: "toscana-firenze-yami-mart",
+        name: "Yami Mart 야미마켓 亚米超市",
+        region: "Toscana",
+        city: "Firenze",
+        address: "Via degli Alfani, 151R, 50121 Firenze FI",
+        lat: 43.7764207,
+        lng: 11.2577898,
+        map_url: "https://maps.app.goo.gl/DtFddEfiQqNDNqVT8",
+    },
+    {
         id: "toscana-grosseto-ethnic-food-di-stella-tonini",
         name: "Ethnic Food di Stella Tonini",
         region: "Toscana",
