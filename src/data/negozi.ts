@@ -946,6 +946,16 @@ export const NEGOZI: Negozio[] = [
         map_url: "https://maps.app.goo.gl/S8eRMopdfrwQfW227",
     },
     {
+        id: "veneto-villorba-super-panda",
+        name: "Super Panda",
+        region: "Veneto",
+        city: "Villorba",
+        address: "Via Fratelli Rosselli, 22, 31020 Villorba TV",
+        lat: 45.7294022,
+        lng: 12.2423642,
+        map_url: "https://maps.app.goo.gl/i6V7bua9h4EnHyo3A",
+    },
+    {
         id: "veneto-treviso-oriente-market-snc",
         name: "Oriente Market Snc",
         region: "Veneto",
