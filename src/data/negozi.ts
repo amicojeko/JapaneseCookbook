@@ -73,6 +73,16 @@ export const NEGOZI: Negozio[] = [
         map_url: "https://maps.app.goo.gl/cwmpCG1YouDJKSuR7",
     },
     {
+        id: "calabria-cosenza-cinque-continenti",
+        name: "Cinque Continenti",
+        region: "Calabria",
+        city: "Cosenza",
+        address: "Piazza Autolinee, 11/12, 87100 Cosenza CS",
+        lat: 39.303181,
+        lng: 16.252706,
+        map_url: "https://maps.app.goo.gl/a7SATUof1pu8fYPc9",
+    },
+    {
         id: "emilia-romagna-bologna-asia-mach",
         name: "Asia Mach",
         region: "Emilia-Romagna",
