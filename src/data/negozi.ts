@@ -825,6 +825,16 @@ export const NEGOZI: Negozio[] = [
         map_url: "https://maps.app.goo.gl/VWz7gcPJE3Tqviwg9",
     },
     {
+        id: "toscana-fornacette-c-and-l-ingrofood-supermarket",
+        name: "C&L ingrofood supermarket",
+        region: "Toscana",
+        city: "Fornacette",
+        address: "Via Tosco Romagnola, 328, 56012 Fornacette PI",
+        lat: 43.6721816,
+        lng: 10.5696687,
+        map_url: "https://maps.app.goo.gl/mF5XUsgEFhRF5Kqy9",
+    },
+    {
         id: "toscana-siena-kao-s-bottega-giapponese-japanese-minimarket",
         name: "Kao's Bottega giapponese−Japanese minimarket",
         region: "Toscana",
