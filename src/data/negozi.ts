@@ -123,6 +123,16 @@ export const NEGOZI: Negozio[] = [
         map_url: "https://maps.app.goo.gl/SnPT7Xv5T52b7vG19",
     },
     {
+        id: "emilia-romagna-piacenza-domechan-shop",
+        name: "Domechan Shop",
+        region: "Emilia-Romagna",
+        city: "Piacenza",
+        address: "Viale Dante Alighieri, 39, 29122 Piacenza PC",
+        lat: 45.0422498,
+        lng: 9.6867469,
+        map_url: "https://maps.app.goo.gl/vjy6qYg3a75LX8V3A",
+    },
+    {
         id: "friuli-venezia-giulia-udine-asia-africa-market",
         name: "Asia & Africa Market",
         region: "Friuli-Venezia Giulia",
