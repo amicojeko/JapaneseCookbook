@@ -425,6 +425,16 @@ export const NEGOZI: Negozio[] = [
         map_url: "https://maps.app.goo.gl/1JMoZyG1DD2nMWneA",
     },
     {
+        id: "lombardia-porto-mantovano-eatasia",
+        name: "Eatasia",
+        region: "Lombardia",
+        city: "Porto Mantovano",
+        address: "Via dell' Artigianato, 50, 46047 Porto Mantovano MN",
+        lat: 45.2204852,
+        lng: 10.7965947,
+        map_url: "https://maps.app.goo.gl/utFbnvGFr3XhRaHs9",
+    },
+    {
         id: "lombardia-saronno-market-hu-di-hu-huixian",
         name: "Market Hu di Hu Huixian",
         region: "Lombardia",
