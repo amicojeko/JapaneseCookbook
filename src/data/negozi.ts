@@ -966,6 +966,16 @@ export const NEGOZI: Negozio[] = [
         map_url: "https://maps.app.goo.gl/8ucK7sQBDFtrkeeZA",
     },
     {
+        id: "veneto-treviso-ikiya",
+        name: "Ikiya",
+        region: "Veneto",
+        city: "Treviso",
+        address: "Via San Nicolò, 15, 31100 Treviso TV",
+        lat: 45.6635366,
+        lng: 12.2412655,
+        map_url: "https://maps.app.goo.gl/J7fZGtsz6eYytDXP8",
+    },
+    {
         id: "veneto-treviso-oriente-market-snc",
         name: "Oriente Market Snc",
         region: "Veneto",
