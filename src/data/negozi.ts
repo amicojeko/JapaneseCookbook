@@ -13,6 +13,16 @@ export type Negozio = {
 
 export const NEGOZI: Negozio[] = [
     {
+        id: "abruzzo-alba-adriatica-millenium-market",
+        name: "Millenium Market 千禧货杭",
+        region: "Abruzzo",
+        city: "Alba Adriatica",
+        address: "Via Vittorio Veneto, 63, 64011 Alba Adriatica TE",
+        lat: 42.8338844,
+        lng: 13.9146983,
+        map_url: "https://maps.app.goo.gl/EBEZNcfDowcBD6so6",
+    },
+    {
         id: "abruzzo-pescara-china-market-haiyen-di-ye-aifang",
         name: "China Market Haiyen Di Ye Aifang",
         region: "Abruzzo",
@@ -395,6 +405,16 @@ export const NEGOZI: Negozio[] = [
         map_url: "https://maps.app.goo.gl/9HkE8AKK4LKiDYNr6",
     },
     {
+        id: "lombardia-gallarate-raw-international-food",
+        name: "Raw International Food",
+        region: "Lombardia",
+        city: "Gallarate",
+        address: "Via Luigi Borghi, 2, 21013 Gallarate VA",
+        lat: 45.6586308,
+        lng: 8.797477,
+        map_url: "https://maps.app.goo.gl/EyBArCeGU2Gz5e1w7",
+    },
+    {
         id: "marche-ancona-chen-fu-mercato",
         name: "Chen Fu mercato",
         region: "Marche",
@@ -433,6 +453,16 @@ export const NEGOZI: Negozio[] = [
         lat: 44.9090908,
         lng: 8.634213,
         map_url: "https://maps.app.goo.gl/ZjQ4PPKAEwhWgvtAA",
+    },
+    {
+        id: "piemonte-casale-monferrato-maxi-shop",
+        name: "Maxi Shop",
+        region: "Piemonte",
+        city: "Casale Monferrato",
+        address: "Corso Valentino, 179, 15033 Casale Monferrato AL",
+        lat: 45.1233931,
+        lng: 8.4508628,
+        map_url: "https://maps.app.goo.gl/HcmwGeyZAt4Vkvgd6",
     },
     {
         id: "piemonte-torino-kawaii-torino",
@@ -573,6 +603,16 @@ export const NEGOZI: Negozio[] = [
         lat: 38.1355599,
         lng: 13.3517227,
         map_url: "https://maps.app.goo.gl/ur8g1wkzYRW5vomN6",
+    },
+    {
+        id: "sicilia-palermo-ajerthan-bazar",
+        name: "Ajerthan Bazar",
+        region: "Sicilia",
+        city: "Palermo",
+        address: "Via Francesco Ferrara, 5/A, 90141 Palermo PA",
+        lat: 38.1252375,
+        lng: 13.3502695,
+        map_url: "https://maps.app.goo.gl/rb9dPCX6DiKCAShk7",
     },
     {
         id: "sicilia-trapani-sicina-market-supermercato-asiatico",
@@ -754,6 +794,16 @@ export const NEGOZI: Negozio[] = [
         lat: 45.4154645,
         lng: 11.8784963,
         map_url: "https://maps.app.goo.gl/wWZHTYcRiUa3h9hF7",
+    },
+    {
+        id: "veneto-vicenza-yigomarket-alimentari-etnici",
+        name: "YIGOMARKET ALIMENTARI ETNICI",
+        region: "Veneto",
+        city: "Vicenza",
+        address: "Corso SS. Felice e Fortunato, 82, 36100 Vicenza VI",
+        lat: 45.5455695,
+        lng: 11.5357509,
+        map_url: "https://maps.app.goo.gl/mZtfFUTZQSQb5oau9",
     },
     {
         id: "veneto-treviso-oriente-market-snc",
