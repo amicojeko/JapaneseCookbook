@@ -10,7 +10,6 @@ sidebar_position: 1
 - https://moodmarketmilano.com \
 codice di sconto **MOODJEKO2025**
 - https://sushitalia.com \
-codice di sconto **NATALEJEKO25**
 - https://sushi-sushi.it
 - https://www.orientalitalia.com
 - https://www.kissashop.it
