@@ -8,10 +8,6 @@
   # Le pagine Giappe: Negozi orientali in Italia
 </div>
 
-<div style={{textAlign: 'center'}}>
-  <img src="/img/pagine_giappe.jpg" alt="Pagine Giappe" style={{maxWidth: '100%', height: 'auto'}} />
-</div>
-
 **In questa sezione trovate un elenco di negozi fisici e online in Italia dove acquistare ingredienti, utensili e prodotti giapponesi, coreani e cinesi. Se conoscete altri negozi che non sono elencati qui, segnalatemeli pure mandandomi un DM su [Instagram](http://instagram.com/amicojeko)!**
 
 - [Negozi orientali Online](/negozi_orientali/online)
