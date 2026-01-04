@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
 Sitemap: https://paginegiappe.it/sitemap.xml
+# Algolia-Crawler-Verif: F13DE14DB6B06763
