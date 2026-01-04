@@ -97,3 +97,8 @@
   /* text-align: center; */
   transform: translate(-50%, -50%);
 }
+
+/* Keep the map under overlays (e.g. mobile sidebar) */
+.leaflet-container {
+  z-index: 0;
+}
