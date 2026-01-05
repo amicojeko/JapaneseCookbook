@@ -575,6 +575,16 @@ export const NEGOZI: Negozio[] = [
         map_url: "https://maps.app.goo.gl/ZjQ4PPKAEwhWgvtAA",
     },
     {
+        id: "piemonte-asti-alimentari-asiatici",
+        name: "Alimentari Asiatici",
+        region: "Piemonte",
+        city: "Asti",
+        address: "Piazza Guglielmo Marconi, 26, 14100 Asti AT",
+        lat: 44.8957512,
+        lng: 8.2073546,
+        map_url: "https://maps.app.goo.gl/EPKyHr4AqjDA2BEn7",
+    },
+    {
         id: "piemonte-casale-monferrato-maxi-shop",
         name: "Maxi Shop",
         region: "Piemonte",
@@ -1044,6 +1054,16 @@ export const NEGOZI: Negozio[] = [
         lat: 45.660565,
         lng: 12.2427639,
         map_url: "https://maps.app.goo.gl/rD8v8RLq4UE1dSUy8",
+    },
+    {
+        id: "veneto-verona-sanhe-sano-asian-market",
+        name: "SANHE SANO ASIAN MARKET",
+        region: "Veneto",
+        city: "Verona",
+        address: "Via Lussemburgo, 21, 37135 Verona VR",
+        lat: 45.4115735,
+        lng: 10.968316,
+        map_url: "https://maps.app.goo.gl/YnTbFCJeuwnGB2dQ9",
     },
     {
         id: "lombardia-vigevano-gastronomia-ye",
