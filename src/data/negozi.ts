@@ -1126,6 +1126,16 @@ export const NEGOZI: Negozio[] = [
         map_url: "https://maps.app.goo.gl/yUFUVdRoeSepH4Mm9",
     },
     {
+        id: "puglia-taranto-pro-panda",
+        name: "Pro Panda",
+        region: "Puglia",
+        city: "Taranto",
+        address: "Viale Magna Grecia, 252, 74121 Taranto TA",
+        lat: 40.4566282,
+        lng: 17.265133,
+        map_url: "https://maps.app.goo.gl/UoiRRQ5nUsSKgBZFA",
+    },
+    {
         id: "toscana-firenze-one-mart",
         name: "One Mart",
         region: "Toscana",
