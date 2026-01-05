@@ -143,6 +143,16 @@ export const NEGOZI: Negozio[] = [
         map_url: "https://maps.app.goo.gl/vjy6qYg3a75LX8V3A",
     },
     {
+        id: "emilia-romagna-reggio-emilia-supermercato-xin-hua",
+        name: "Supermercato Xin Hua",
+        region: "Emilia-Romagna",
+        city: "Reggio Emilia",
+        address: "Via Giuseppe Turri, 3, 42121 Reggio Emilia RE",
+        lat: 44.6967628,
+        lng: 10.6438323,
+        map_url: "https://maps.app.goo.gl/JVGjt9Qcmz11HdMV8",
+    },
+    {
         id: "emilia-romagna-rimini-zhongnanhai",
         name: "Zhongnanhai",
         region: "Emilia-Romagna",
@@ -933,6 +943,16 @@ export const NEGOZI: Negozio[] = [
         lat: 46.0917725,
         lng: 11.1178499,
         map_url: "https://maps.app.goo.gl/7JeGxwJrEtEdghr6A",
+    },
+    {
+        id: "trentino-alto-adige-rovereto-how-young-minimarket",
+        name: "How Young minimarket",
+        region: "Trentino-Alto Adige",
+        city: "Rovereto",
+        address: "Via Baratieri, 39A, 38068 Rovereto TN",
+        lat: 45.896946,
+        lng: 11.0412296,
+        map_url: "https://maps.app.goo.gl/2KnTUYreWyUP1Zr78",
     },
     {
         id: "umbria-perugia-asia-market-oriente-market",
