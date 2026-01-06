@@ -2,6 +2,7 @@
 title: Bukkake Udon
 description: Udon freddi con condimento versato sopra.
 slug: /ricette/bukkake_udon
+sidebar_class_name: green
 ingredients:
 - Udon
 - Daikon
@@ -10,6 +11,8 @@ ingredients:
 - Dashi
 - Mentsuyu
 - Salsa di soia
+tags:
+  - udon
 ---
 
 La parola **Bukkake** in giapponese deriva dal verbo *bukkakeru*, che vuol dire versare sopra o rovesciare addosso con forza. Infatti, ridendo e scherzando, oggi prepariamo proprio i Bukkake Udon!
