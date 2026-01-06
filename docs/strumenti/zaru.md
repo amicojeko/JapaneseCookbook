@@ -1,7 +1,9 @@
 ---
-title: Zaru (Setaccio di bambù)
+title: Zaru
 description: Il tradizionale setaccio in bambù giapponese, fondamentale per scolare e servire udon e soba.
 slug: /strumenti/zaru
+sidebar_custom_props:
+  subtitle: Setaccio di bambù
 tags:
   - strumenti
   - bambù

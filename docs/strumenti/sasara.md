@@ -1,7 +1,9 @@
 ---
-title: Sasara (Spazzola di bambù per Wok)
+title: Sasara
 description: Il fascio di bambù indispensabile per pulire wok e padelle in ghisa roventi senza scottarsi.
 slug: /strumenti/sasara
+sidebar_custom_props:
+  subtitle: Spazzola di bambù per Wok
 tags:
   - strumenti
   - pulizia

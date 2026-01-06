@@ -1,7 +1,9 @@
 ---
-title: Samegawa Oroshi (Grattugia in pelle di squalo)
+title: Samegawa Oroshi
 description: Lo strumento nobile ed esclusivo per il vero Wasabi, capace di creare una crema aromatica unica.
 slug: /strumenti/samegawa-oroshi
+sidebar_custom_props:
+  subtitle: Grattugia in pelle di squalo
 tags:
   - strumenti
   - wasabi

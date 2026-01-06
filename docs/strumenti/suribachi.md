@@ -1,7 +1,9 @@
 ---
-title: Suribachi (Mortaio giapponese)
+title: Suribachi
 description: Il mortaio in ceramica con scanalature interne, ideale per macinare semi e preparare salse.
 slug: /strumenti/suribachi
+sidebar_custom_props:
+  subtitle: Mortaio giapponese
 tags:
   - strumenti
   - mortaio

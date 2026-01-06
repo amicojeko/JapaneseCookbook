@@ -1,7 +1,9 @@
 ---
-title: Otoshibuta (Coperchio interno)
+title: Otoshibuta
 description: Il coperchio "cadente" essenziale per i piatti stufati (Nimono), per cuocere uniformemente con poco liquido.
 slug: /strumenti/otoshibuta
+sidebar_custom_props:
+  subtitle: Coperchio interno
 tags:
   - strumenti
   - nimono

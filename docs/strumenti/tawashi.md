@@ -1,7 +1,9 @@
 ---
-title: Tawashi (Spazzola tradizionale)
+title: Tawashi
 description: La spazzola in fibra di palma naturale, ecologica e indistruttibile, per pulire verdure e pentole.
 slug: /strumenti/tawashi
+sidebar_custom_props:
+  subtitle: Spazzola tradizionale
 tags:
   - strumenti
   - pulizia

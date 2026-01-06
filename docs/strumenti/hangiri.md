@@ -1,7 +1,9 @@
 ---
-title: Hangiri (Recipiente in legno per riso)
+title: Hangiri
 description: Il tradizionale recipiente in legno di cipresso per condire e raffreddare il riso per il sushi.
 slug: /strumenti/hangiri
+sidebar_custom_props:
+  subtitle: Recipiente in legno per riso
 tags:
   - strumenti
   - sushi

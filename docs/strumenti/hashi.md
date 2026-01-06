@@ -1,7 +1,9 @@
 ---
-title: Hashi e Saibashi (Le Bacchette)
+title: Hashi e Saibashi
 description: Non tutte le bacchette sono uguali. Guida alle differenze tra bacchette da cucina (Saibashi), da tavola e da servizio.
 slug: /strumenti/hashi
+sidebar_custom_props:
+  subtitle: Le Bacchette
 tags:
   - strumenti
   - hashi

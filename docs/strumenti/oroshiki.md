@@ -1,7 +1,9 @@
 ---
-title: Oroshiki (Grattugia in ceramica)
+title: Oroshiki
 description: La grattugia in ceramica ideale per ingredienti morbidi e acquosi come Daikon e Yamaimo.
 slug: /strumenti/oroshiki
+sidebar_custom_props:
+  subtitle: Grattugia in ceramica
 tags:
   - strumenti
   - daikon

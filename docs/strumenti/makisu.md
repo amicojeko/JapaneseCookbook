@@ -1,7 +1,9 @@
 ---
-title: Makisu (Stuoia per Sushi)
+title: Makisu
 description: La stuoietta in bambù indispensabile per arrotolare i maki sushi e modellare le frittate.
 slug: /strumenti/makisu
+sidebar_custom_props:
+  subtitle: Stuoia per Sushi
 tags:
   - strumenti
   - sushi

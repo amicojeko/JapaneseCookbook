@@ -1,7 +1,9 @@
 ---
-title: Tamagoyaki ki (Padella per frittata)
+title: Tamagoyaki ki
 description: La speciale padella rettangolare indispensabile per preparare il perfetto Tamagoyaki giapponese.
 slug: /strumenti/tamagoyakiki
+sidebar_custom_props:
+  subtitle: Padella per frittata
 tags:
   - strumenti
   - uova

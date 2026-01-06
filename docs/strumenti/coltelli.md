@@ -1,7 +1,9 @@
 ---
-title: Hōchō (Coltelli giapponesi)
+title: Hōchō
 description: "Una panoramica rapida sul vasto mondo dei coltelli giapponesi: Santoku, Gyuto, Nakiri, Usuba e le differenze tra gli acciai."
 slug: /strumenti/hocho
+sidebar_custom_props:
+  subtitle: Coltelli giapponesi
 tags:
   - strumenti
   - coltelli

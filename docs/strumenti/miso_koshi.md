@@ -1,7 +1,9 @@
 ---
-title: Miso-koshi (Colino per Miso)
+title: Miso-koshi
 description: Il setaccio specifico per sciogliere il miso nella zuppa senza lasciare grumi, per un risultato vellutato.
 slug: /strumenti/miso-koshi
+sidebar_custom_props:
+  subtitle: Colino per Miso
 tags:
   - strumenti
   - miso

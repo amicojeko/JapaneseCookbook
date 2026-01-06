@@ -1,7 +1,9 @@
 ---
-title: Oroshigane (Grattugia in metallo)
+title: Oroshigane
 description: La grattugia in metallo con denti affilati, imbattibile per spezzare le fibre di zenzero e aglio.
 slug: /strumenti/oroshigane
+sidebar_custom_props:
+  subtitle: Grattugia in metallo
 tags:
   - strumenti
   - zenzero

@@ -1,7 +1,9 @@
 ---
-title: Kushi (Spiedini di bambù)
+title: Kushi
 description: Non semplici stecchini. Guida ai diversi tipi di spiedini giapponesi per Yakitori, Dengaku e per testare la cottura.
 slug: /strumenti/kushi
+sidebar_custom_props:
+  subtitle: Spiedini di bambù
 tags:
   - strumenti
   - bambù
