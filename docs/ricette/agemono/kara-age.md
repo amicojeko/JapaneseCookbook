@@ -1,5 +1,7 @@
 ---
-title: Kara-Age (から揚げ)
+title: Kara-Age
+sidebar_custom_props:
+  subtitle: Il pollo fritto giapponese
 description: Il pollo fritto piu' buono del mondo
 slug: /ricette/kara-age
 ingredients:

@@ -1,6 +1,8 @@
 ---
 title: Yamitsuki Kyabesu
 description: Il cavolo che te da la rota!
+sidebar_custom_props:
+  subtitle: Il cavolo che ti crea dipendenza
 slug: /ricette/yamitsuki_kyabesu
 ingredients:
 - Cavolo cappuccio

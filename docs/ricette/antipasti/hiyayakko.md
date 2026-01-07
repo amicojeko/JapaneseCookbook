@@ -1,5 +1,7 @@
 ---
 title: Hiyayakko
+sidebar_custom_props:
+  subtitle: Tofu freddo con condimento
 description: Tofu freddo con condimento
 slug: /ricette/hiyayakko
 ingredients:

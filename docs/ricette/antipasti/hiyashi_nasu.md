@@ -1,5 +1,7 @@
 ---
-title: Hiyashi Nasu (Melanzane Fredde)
+title: Hiyashi Nasu
+sidebar_custom_props:
+  subtitle: Melanzane fredde con salsa di soia
 description: Un piatto tipico degli Izakaya giapponesi, semplicissimo e incredibilmente buono.
 slug: "/ricette/hiyashi_nasu"
 ingredients:
