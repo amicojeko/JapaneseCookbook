@@ -163,6 +163,16 @@ export const NEGOZI: Negozio[] = [
         map_url: "https://maps.app.goo.gl/Bh4xXmbbuP9Vvwhx5",
     },
     {
+        id: "emilia-romagna-rimini-jiale-sapori-d-asia",
+        name: "Jiale Sapori D'Asia",
+        region: "Emilia-Romagna",
+        city: "Rimini",
+        address: "Via Emilia, 36, 47921 Rimini RN",
+        lat: 44.0685245,
+        lng: 12.542194,
+        map_url: "https://maps.app.goo.gl/GWiMTFrXDroyzQLj8",
+    },
+    {
         id: "friuli-venezia-giulia-udine-asia-africa-market",
         name: "Asia & Africa Market",
         region: "Friuli-Venezia Giulia",
