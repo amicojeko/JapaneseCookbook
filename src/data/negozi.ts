@@ -635,6 +635,16 @@ export const NEGOZI: Negozio[] = [
         map_url: "https://maps.app.goo.gl/HcmwGeyZAt4Vkvgd6",
     },
     {
+        id: "piemonte-rivalta-di-torino-max-factory-fashion-home",
+        name: "Max Factory Fashion & Home",
+        region: "Piemonte",
+        city: "Rivalta di Torino",
+        address: "Via Gozzano, 6B, 10040 Rivalta di Torino TO",
+        lat: 45.0075971,
+        lng: 7.5535848,
+        map_url: "https://maps.app.goo.gl/8STT3CjKXkiRVhJ36",
+    },
+    {
         id: "piemonte-torino-kawaii-torino",
         name: "Kawaii.Torino",
         region: "Piemonte",
