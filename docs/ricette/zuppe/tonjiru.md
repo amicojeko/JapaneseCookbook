@@ -27,7 +27,7 @@ E' un vero "reset dell'anima" e ne puoi fare un bel pentolone, cosi' lo puoi con
 ## Ingredienti per 4 persone
 
 * 250g di Pancetta di maiale (tagliata sottile)
-* 300g di [Daikon](/ingredienti/daikon)
+* 250g di [Daikon](/ingredienti/daikon)
 * 1 Carota
 * 300g di Patate
 * 3 pezzi di [Taro (Satoimo)](/ingredienti/satoimo) (circa 250g)
