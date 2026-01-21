@@ -27,12 +27,12 @@ E' un vero "reset dell'anima" e ne puoi fare un bel pentolone, cosi' lo puoi con
 ## Ingredienti per 4 persone
 
 * 250g di Pancetta di maiale (tagliata sottile)
-* 1/4 di [Daikon](/ingredienti/daikon)
+* 300g di [Daikon](/ingredienti/daikon)
 * 1 Carota
-* 1 Patata
-* 2-3 [Taro (Satoimo)](/ingredienti/satoimo)
-* 1/2 [Konnyaku](/ingredienti/konnyaku)
-* 1/2 Cipolla
+* 300g di Patate
+* 3 pezzi di [Taro (Satoimo)](/ingredienti/satoimo) (circa 250g)
+* 1/2 blocco di [Konnyaku](/ingredienti/konnyaku)
+* 1 Cipolla media
 * 1 [Cipollotto (Negi)](/ingredienti/negi)
 * 1/2 panetto di Tofu (Momen o sodo)
 * 800ml - 1 litro di [Dashi](/ricette/dashi)
