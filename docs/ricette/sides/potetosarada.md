@@ -9,7 +9,7 @@ ingredients:
 - Aceto di riso
 - Carote
 - Cetriolo
-- Cipolla dorata
+- Cipolla
 - Maionese Kewpie
 - Patate a pasta gialla
 - Pepe
@@ -22,11 +22,11 @@ ingredients:
 
 ## Ingredienti
 
-- Patate a pasta gialla 1.5 kg
+- Patate a pasta gialla 1 kg
 - [Maionese Kewpie](/ingredienti/kewpie) 250 ml circa (regolabili a piacere)
-- Cetriolo 1
-- Cipolla dorata 1/2
-- Carote 3
+- Cetriolo 1 grande
+- 1 Cipolla media
+- 2 Carote medie
 - 1 cucchiaio di [mirin](/ingredienti/mirin)
 - Aceto di riso 1 cucchiaio
 - Zucchero 2 cucchiaini circa
