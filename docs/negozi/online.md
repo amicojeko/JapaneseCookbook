@@ -13,4 +13,5 @@ codice di sconto **MOODJEKO2025**
 - https://sushi-sushi.it
 - https://www.orientalitalia.com
 - https://www.kissashop.it
+- https://www.fusioneat.it/
 - https://domechan.com/it/
