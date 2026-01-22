@@ -735,6 +735,16 @@ export const NEGOZI: Negozio[] = [
         map_url: "https://maps.app.goo.gl/jYJm2Yf7TQUdB2vA8",
     },
     {
+        id: "sardegna-sassari-alimentari-cai-xiaoli",
+        name: "Alimentari Cai Xiaoli",
+        region: "Sardegna",
+        city: "Sassari",
+        address: "Str. 22, 07100 Sassari SS",
+        lat: 40.730132,
+        lng: 8.5382855,
+        map_url: "https://maps.app.goo.gl/DgPL3QgLw5Y77Dd47",
+    },
+    {
         id: "sicilia-catania-cristaldi-international-food-store",
         name: "Cristaldi International Food Store",
         region: "Sicilia",
