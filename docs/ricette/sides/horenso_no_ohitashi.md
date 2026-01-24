@@ -10,6 +10,8 @@ ingredients:
 - Shoyu
 - Mirin
 - Sale
+tags:
+- vegan
 ---
 
 ![Hōrensō no ohitashi](/img/ricette/horenso_no_ohitashi.jpg)
@@ -21,7 +23,7 @@ L'Ohitashi è la quintessenza del contorno giapponese: semplice, sano ed elegant
 - 1 cucchiaino colmo di Sale (per la bollitura)
 
 ### Per il brodo di marinatura
-- 200ml di [Dashi](/ricette/dashi)
+- 200ml di [Dashi](/ricette/dashi) o di [Dashi Vegano](/ricette/dashi_vegan)
 - 25ml di [Salsa di soia](/ingredienti/shoyu)
 - 25ml di [Mirin](/ingredienti/mirin)
 
