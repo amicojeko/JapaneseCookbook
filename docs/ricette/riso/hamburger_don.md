@@ -21,7 +21,7 @@ In giappone esiste un tipo di cucina ispirato alla cucina occidentale chiamato Y
 
 ## Ingredienti (Per 1 persona)
 
-- 3Una ciotola di [Riso](/ingredienti/rice) caldo
+- Una ciotola di [Riso](/ingredienti/rice) caldo
 - 150g di Carne macinata a piacere (manzo, maiale o mista)
 - 1 Uovo
 - 1/2 Cipolla
@@ -35,7 +35,7 @@ In giappone esiste un tipo di cucina ispirato alla cucina occidentale chiamato Y
 
 o, in alternativa
 
-- 2 cucchiai di Salsa Tonkatsu
+- 2 cucchiai di [Salsa Tonkatsu](/ricette/salsa_tonkatsu)
 
 ## Preparazione
 
@@ -56,3 +56,9 @@ Mettere il riso caldo nelle ciotole individuali e adagiarvi sopra il composto di
 * Cuocere le uova secondo la consistenza desiderata. Per un tuorlo più morbido, non coprire con il coperchio.
 * Servire con verdure a piacere.
 :::
+
+## Video
+
+import YouTubeVideo from '@site/src/components/YouTubeVideo';
+
+<YouTubeVideo videoId="SJweMEALMks" />
