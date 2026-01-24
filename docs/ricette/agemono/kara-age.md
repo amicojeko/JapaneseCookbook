@@ -4,6 +4,7 @@ sidebar_custom_props:
   subtitle: Il pollo fritto giapponese
 description: Il pollo fritto piu' buono del mondo
 slug: /ricette/kara-age
+image: /img/ricette/karaage.jpg
 ingredients:
 - Coscia e sottocoscia di pollo disossata
 - Farina di grano
@@ -16,7 +17,9 @@ ingredients:
 - zenzero
 ---
 
-![Karaage](/img/ricette/karaage.jpg)
+import ImageComponent from '@site/src/components/ImageComponent';
+
+<ImageComponent />
 
 ## Ingredienti
 

@@ -4,6 +4,7 @@ sidebar_custom_props:
   subtitle: La zuppa di miso
 description: Zuppa di miso
 slug: /ricette/zuppa_di_miso
+image: /img/ricette/misoshiru.jpg
 ingredients:
 - Negi o porro
 - Quello che ti pare
@@ -13,11 +14,13 @@ ingredients:
 - miso
 ---
 
+import ImageComponent from '@site/src/components/ImageComponent';
+
 La zuppa di miso (味噌汁, misoshiru) è una delle zuppe più iconiche della cucina giapponese. È un piatto semplice e nutriente, a base di [dashi](/ricette/dashi) e miso.
 
 Questa è la ricetta base, poi uno nella zuppa di miso ci può mettere quello che gli pare (cipolle, carote, funghi shiitake, pomodori, sedano, verze...)
 
-![Zuppa di miso](/img/ricette/misoshiru.jpg)
+<ImageComponent />
 
 ## Ingredienti (a porzione)
 

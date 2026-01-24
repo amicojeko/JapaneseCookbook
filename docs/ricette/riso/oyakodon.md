@@ -2,6 +2,7 @@
 title: Oyakodon
 description: L'Oyakodon e' la carbonara giapponese
 slug: /ricette/oyakodon
+image: /img/ricette/oyakodon.jpg
 ingredients:
 - cipolla bianca
 - cipolline o negi o prezzemolo
@@ -15,7 +16,9 @@ ingredients:
 - uova grandi
 ---
 
-![Oyakodon](/img/ricette/oyakodon.jpg)
+import ImageComponent from '@site/src/components/ImageComponent';
+
+<ImageComponent />
 
 ## Ingredienti per 1 persona
 

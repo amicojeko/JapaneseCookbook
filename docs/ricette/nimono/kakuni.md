@@ -2,6 +2,7 @@
 title: Buta Kaku-ni
 description: Pancia di maiale cotta lentamente in salsa di soia
 slug: /ricette/buta_kakuni
+image: /img/ricette/kakuni.jpg
 ingredients:
 - Cipolla verde o un negi
 - alga kombu
@@ -15,6 +16,8 @@ ingredients:
 - zenzero
 - zucchero
 ---
+
+import ImageComponent from '@site/src/components/ImageComponent';
 
 ## Ingredienti
 Per 4 persone:
@@ -33,7 +36,7 @@ Per il contorno:
 - 4 fette di daikon
 - 4 bok choy o equivalente in peso di spinaci
 
-![Kakuni](/img/ricette/kakuni.jpg)
+<ImageComponent />
 
 ## Preparazione (metodo veloce)
 

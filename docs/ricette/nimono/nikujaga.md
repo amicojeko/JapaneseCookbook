@@ -4,6 +4,7 @@ sidebar_custom_props:
   subtitle: Stufato di carne e patate
 description: Carne e patate, il comfort food per eccellenza della cucina casalinga giapponese
 slug: /ricette/nikujaga
+image: /img/ricette/nikujaga.jpg
 ingredients:
 - manzo
 - patate
@@ -14,9 +15,11 @@ ingredients:
 - salsa di soia
 ---
 
+import ImageComponent from '@site/src/components/ImageComponent';
+
 Spesso abbiamo un'idea limitata della cucina giapponese, associandola quasi esclusivamente a sushi o ramen. Il Nikujaga (letteralmente "carne e patate") è invece la quintessenza della cucina casalinga nipponica: un piatto estremamente comune, semplice ed economico. Si tratta di uno stufato dolce e salato che scalda il cuore, perfetto per una cena in famiglia, che piace a tutti, grandi e piccini.
 
-![Nikujaga](/img/ricette/nikujaga.jpg)
+<ImageComponent />
 
 ## Ingredienti per 4 persone
 

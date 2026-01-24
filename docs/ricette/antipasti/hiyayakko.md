@@ -4,6 +4,7 @@ sidebar_custom_props:
   subtitle: Tofu freddo con condimento
 description: Tofu freddo con condimento
 slug: /ricette/hiyayakko
+image: /img/ricette/hiyayakko.jpg
 ingredients:
 - Cipollina verde o negi
 - Katsuobushi
@@ -12,7 +13,9 @@ ingredients:
 - salsa ponzu
 ---
 
-![Hiyayakko](/img/ricette/hiyayakko.jpg)
+import ImageComponent from '@site/src/components/ImageComponent';
+
+<ImageComponent />
 
 Lo *hiyayakko* (冷や奴), una ricetta cosi buona che rende buono addirittura il tofu! È un antipasto giapponese semplice e rinfrescante, perfetto per l'estate. Si tratta di tofu morbido servito freddo, condito con salsa ponzu, katsuobushi, zenzero grattugiato e cipollina verde. È un piatto leggero e nutriente, ideale per accompagnare un pasto o come spuntino.
 

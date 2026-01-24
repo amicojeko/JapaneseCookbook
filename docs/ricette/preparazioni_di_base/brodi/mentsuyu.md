@@ -4,6 +4,7 @@ sidebar_custom_props:
   subtitle: Il brodo per immergere soba e udon
 description: Il brodo per immergere soba e udon
 slug: /ricette/mentsuyu
+image: /img/ricette/mentsuyu.jpg
 ingredients:
 - mirin
 - katsuobushi
@@ -11,6 +12,8 @@ ingredients:
 - sake
 - salsa di soia
 ---
+
+import ImageComponent from '@site/src/components/ImageComponent';
 
 Il **mentsuyu** è un brodo forte e salato, tradizionalmente usato nei piatti di noodles come **soba** e **udon**. È un ingrediente fondamentale della cucina giapponese, preparato con una miscela di **katsuobushi**, [salsa di soia](/ingredienti/shoyu), **mirin** e **zucchero**. Questa combinazione di ingredienti crea una bomba di umami, perfetta per arricchire una vasta gamma di piatti.
 
@@ -21,7 +24,7 @@ Esistono due tipi principali di mentsuyu:
 - **Kaketsuyu**: Questo brodo viene versato caldo sui noodles bolliti per creare una zuppa di noodles. È perfetto per piatti come il **hot soba** o il **hot udon**, dove il brodo caldo si sposa perfettamente con i noodles morbidi e saporiti.
 - **Tsuketsuyu**: Letteralmente "zuppa per immersione", questo brodo è usato come intingolo per noodles freddi. È ideale per piatti come il **zaru soba** o il **morisoba**, dove i noodles freddi vengono tuffati nel brodo prima di essere mangiati. Il tsuketsuyu è solitamente più concentrato e saporito, per bilanciare la freschezza dei noodles freddi.
 
-![Mentsuyu](/img/ricette/mentsuyu.jpg)
+<ImageComponent />
 
 ## Ingredienti
 

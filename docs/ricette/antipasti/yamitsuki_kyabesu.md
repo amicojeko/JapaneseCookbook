@@ -4,6 +4,7 @@ description: Il cavolo che te da la rota!
 sidebar_custom_props:
   subtitle: Il cavolo che ti crea dipendenza
 slug: /ricette/yamitsuki_kyabesu
+image: /img/ricette/yamitsuki_kyabesu.jpg
 ingredients:
 - Cavolo cappuccio
 - Olio di sesamo
@@ -14,9 +15,11 @@ tags:
 - vegan
 ---
 
+import ImageComponent from '@site/src/components/ImageComponent';
+
 Questa è una ricetta giapponese semplicissima, vegana e perfetta per quando fa caldo, perché si prepara senza usare fornelli. È ideale come antipasto, contorno o per un aperitivo, specialmente con una birra fresca. Tanto semplice quanto buona, crea dipendenza!
 
-![Yamitsuki Kyabesu](/img/ricette/yamitsuki_kyabesu.jpg)
+<ImageComponent />
 
 ## Ingredienti
 - Un quarto abbondante di Cavolo cappuccio

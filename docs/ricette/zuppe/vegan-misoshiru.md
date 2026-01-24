@@ -2,6 +2,7 @@
 title: Zuppa di Miso Vegana
 description: La versione vegana della zuppa di miso.
 slug: /ricette/zuppa_di_miso_vegana
+image: /img/ricette/vegan_misoshiru.jpg
 ingredients:
 - Miso
 - Dashi Vegano
@@ -12,9 +13,11 @@ tags:
 - vegan
 ---
 
+import ImageComponent from '@site/src/components/ImageComponent';
+
 La zuppa di miso è un vero classico della cucina giapponese. Ne esistono tantissime versioni, ma oggi prepariamo quella vegana, perche' la zuppa di miso tradizionale, non e' un piatto vegano, perche nel dashi troviamo il katsuobushi.
 
-![Zuppa di miso vegana](/img/ricette/vegan_misoshiru.jpg)
+<ImageComponent />
 
 ## Ingredienti
 - [Dashi vegano](/ricette/dashi_vegan) (brodo di alga kombu e funghi shiitake)

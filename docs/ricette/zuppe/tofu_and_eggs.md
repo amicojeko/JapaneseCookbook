@@ -2,6 +2,7 @@
 title: Tofu in "stracciatella" con verdure
 description: Una ricetta buona, economica, sana, proteica e facile da fare.
 slug: /ricette/zuppa_di_tofu_e_uova
+image: /img/ricette/tofu_and_eggs.jpg
 ingredients:
 - Tofu
 - Uovo
@@ -15,9 +16,11 @@ ingredients:
 - Fecola di patate
 ---
 
+import ImageComponent from '@site/src/components/ImageComponent';
+
 Ecco una ricetta che ha tutte le caratteristiche che si possono desiderare: è buona, economica, sana, ricca di proteine e vitamine, con pochi carboidrati e soprattutto facile da fare. Un piatto unico completo e saporito, perfetto per quando si ha voglia di qualcosa di gustoso senza complicarsi la vita.
 
-![Tofu e uova](/img/ricette/tofu_and_eggs.jpg)
+<ImageComponent />
 
 ## Ingredienti
 - Mezzo panetto di Tofu

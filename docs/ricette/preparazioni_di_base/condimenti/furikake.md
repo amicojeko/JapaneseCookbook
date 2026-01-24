@@ -2,6 +2,7 @@
 title: Furikake
 description: Condimento secco per riso
 slug: /ricette/furikake
+image: /img/ricette/furikake.jpg
 ingredients:
 - Alga Kombu
 - Alga nori
@@ -9,11 +10,13 @@ ingredients:
 - Semi di Sesamo
 ---
 
+import ImageComponent from '@site/src/components/ImageComponent';
+
 Il furikake e' un condimento per il riso, ed e' estremamente popolare.
 Io lo uso per recuperare il katsuobushi e l'alga kombu che uso per il [dashi](/ricette/dashi).
 Siccome e' secco si conserva per un sacco, e' supercomodo, e ci potete condire il riso bianco o gli onigiri quando andate di fretta o non avete niente da mangiare.
 
-![Furikake](/img/ricette/furikake.jpg)
+<ImageComponent />
 
 ## Ingredienti
 

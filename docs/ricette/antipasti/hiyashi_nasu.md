@@ -4,6 +4,7 @@ sidebar_custom_props:
   subtitle: Melanzane fredde con salsa di soia
 description: Un piatto tipico degli Izakaya giapponesi, semplicissimo e incredibilmente buono.
 slug: "/ricette/hiyashi_nasu"
+image: /img/ricette/hiyashi_nasu.jpg
 ingredients:
 - Melanzane
 - Cipolline verdi
@@ -11,11 +12,13 @@ ingredients:
 - Katsuobushi
 ---
 
+import ImageComponent from '@site/src/components/ImageComponent';
+
 In Giappone, sognare una melanzana nella prima notte dell'anno (Hatsuyume) è considerato di buon auspicio. Un antico proverbio dice: "Primo, il Monte Fuji; secondo, il falco; terzo, la melanzana". Questo perché la parola giapponese per melanzana, *nasu*, ha lo stesso suono del verbo "realizzare" o "portare a termine" (*nasu*), rendendola un simbolo di successo.
 
 Questa ricetta, Hiyashi Nasu (melanzane fredde), è un classico piatto da Izakaya, le osterie giapponesi dove si mangia e si beve in compagnia. È una di quelle preparazioni semplici che esaltano il sapore degli ingredienti e che aiutano a compensare l'astinenza da Giappone.
 
-![Hiyashi Nasu](/img/ricette/hiyashi_nasu.jpg)
+<ImageComponent />
 
 ## Ingredienti
 - 1 o 2 Melanzane piccole e sode

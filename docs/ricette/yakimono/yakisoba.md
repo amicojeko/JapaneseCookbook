@@ -2,6 +2,7 @@
 title: Yakisoba
 description: La pasta saltata alla giapponese
 slug: /ricette/yakisoba
+image: /img/ricette/yakisoba.jpg
 ingredients:
 - Ramen noodles
 - Pasta
@@ -14,6 +15,8 @@ ingredients:
 - Aonori
 - Katsuobushi
 ---
+
+import ImageComponent from '@site/src/components/ImageComponent';
 
 ## Ingredienti
 
@@ -29,7 +32,7 @@ ingredients:
 
 Gli Yakisoba sono una ricetta giapponese di pasta saltata in padella con verdure e salsa yakisoba, ci puoi mettere dentro piu' o meno quello che vuoi, anche carne o frutti di mare, ma la versioneche preferisco e' con cavolo cappuccio, cipolla, funghi shiitake e pancetta.
 
-![Yakisoba](/img/ricette/yakisoba.jpg)
+<ImageComponent />
 
 ## Preparazione
 

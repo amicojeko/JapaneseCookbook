@@ -4,6 +4,7 @@ sidebar_custom_props:
   subtitle: Insalata di patate giapponese
 description: Insalata di patate
 slug: /ricette/potetosarada
+image: /img/ricette/potetosarada.jpg
 tags:
 - sides
 - vegetarian
@@ -20,7 +21,9 @@ ingredients:
 - mirin
 ---
 
-![Potetosarada](/img/ricette/potetosarada.jpg)
+import ImageComponent from '@site/src/components/ImageComponent';
+
+<ImageComponent />
 
 ## Ingredienti
 

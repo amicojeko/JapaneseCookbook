@@ -2,6 +2,7 @@
 title: Furikake
 description: La "granella magica" giapponese che trasforma il riso bianco
 slug: /ingredienti/furikake
+image: /img/ingredienti/furikake.jpg
 ingredients:
 - sesamo
 - alga nori
@@ -10,11 +11,13 @@ ingredients:
 - zucchero
 ---
 
+import ImageComponent from '@site/src/components/ImageComponent';
+
 Il furikake è una granella secca usata per condire il riso. In pratica è uno di quei condimenti giapponesi che sembrano semplici, ma dietro hanno un mondo intero. Nasce come accompagnamento per il [riso bianco](/ingredienti/rice), quello “plain”, ma oggi è una presenza fissa ovunque: in casa, nei bento, nelle mense e nei konbini.
 
-Soprattutto sugli [onigiri](/ricette/onigiri), il furikake serve sia a dare una spinta di sapore immediata, sia a rendere il riso visivamente meno monotono. Se mangi riso spesso, prima o poi il furikake entra nella tua vita come una delle scorciatoie migliori per variare i pasti senza stravolgere la cucina.
+<ImageComponent />
 
-![Furikake](/img/ingredienti/furikake.jpg)
+Soprattutto sugli [onigiri](/ricette/onigiri), il furikake serve sia a dare una spinta di sapore immediata, sia a rendere il riso visivamente meno monotono. Se mangi riso spesso, prima o poi il furikake entra nella tua vita come una delle scorciatoie migliori per variare i pasti senza stravolgere la cucina.
 
 ## Le Varianti
 

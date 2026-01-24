@@ -4,6 +4,7 @@ sidebar_custom_props:
   subtitle: Zuppa di maiale e verdure di radice
 description: La zuppa giapponese più confortante, un "reset dell'anima" ricco di maiale e verdure di radice.
 slug: /ricette/tonjiru
+image: /img/ricette/tonjiru.jpg
 ingredients:
 - Pancetta di maiale
 - Daikon
@@ -20,11 +21,13 @@ ingredients:
 - Zenzero
 ---
 
+import ImageComponent from '@site/src/components/ImageComponent';
+
 Quando fa freddo e la vita non va come vorresti, questa è la zuppa che ti rimette al mondo. Il **Tonjiru** (o *Butajiru*) è la zuppa giapponese più buona e confortante che ci sia. È un piatto ricco e sostanzioso, quasi uno stufato, a base di maiale (il "Ton" o "Buta") e una montagna di verdure di radice, il tutto in un brodo saporito arricchito dal [miso](/ingredienti/miso).
 
 E' un vero "reset dell'anima" e ne puoi fare un bel pentolone, cosi' lo puoi condividere con tutta la famiglia o i tuoi amici, o conservarlo in frigorifero per i giorni successivi. Il sapore migliora ancora di più col passare del tempo!
 
-![Tonjiru](/img/ricette/tonjiru.jpg)
+<ImageComponent />
 
 ## Ingredienti per 4 persone
 

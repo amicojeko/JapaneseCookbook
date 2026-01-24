@@ -2,6 +2,7 @@
 
 title: Beni shoga
 description: Zenzero marinato nell'umezu
+image: /img/ingredienti/benishoga.jpg
 category: ingredienti
 tags:
   - ingredienti
@@ -9,9 +10,11 @@ tags:
   - zenzero
 ---
 
-![Beni Shoga](/img/ingredienti/benishoga.jpg)
+import ImageComponent from '@site/src/components/ImageComponent';
 
 Il Beni Shoga è zenzero tagliato a julienne e marinato nell’[umesu](/ingredienti/umesu) (梅酢), che è la soluzione a base di aceto utilizzata per marinare le prugne umeboshi.
+
+<ImageComponent />
 
 Può essere confuso con il Gari, ma presenta delle differenze importanti. Prima di tutto nel sapore: il Beni Shoga è marinato nell’umezu, ed ha un sapore molto più forte, aspro, salato e deciso del Gari, che viene marinato in Amazu (aceto di riso e zucchero).
 

@@ -1,9 +1,14 @@
 ---
 title: Miso
 description: Pasta di fagioli di soia fermentata
+image: /img/ingredienti/miso-1.jpg
 ---
 
+import ImageComponent from '@site/src/components/ImageComponent';
+
 Il miso è un fermentato di soia tradizionale giapponese, noto per il suo sapore ricco e salato. È un ingrediente fondamentale della cucina giapponese, usato in una vasta gamma di piatti per aggiungere profondità e sapore.
+
+<ImageComponent />
 
 ## Che cos'è il miso?
 
@@ -18,6 +23,3 @@ Esistono diversi tipi di miso, ciascuno con le sue caratteristiche uniche, ad es
 - Miso di soia (Hatchomiso): Un tipo di miso più scuro e denso, noto per il suo sapore ricco e complesso.
 - Miso di orzo (Mugimiso): Preparato con l’orzo, ha un profilo aromatico particolare, leggermente dolce e fruttato.
 
-![Miso](/img/ingredienti/miso-1.jpg)
-![Miso](/img/ingredienti/miso-3.jpg)
-![Miso](/img/ingredienti/miso-2.jpg)

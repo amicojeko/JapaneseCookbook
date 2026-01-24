@@ -1,7 +1,10 @@
 ---
 title: Negi
 description: Il porro giapponese
+image: /img/ingredienti/negi.jpg
 ---
+
+import ImageComponent from '@site/src/components/ImageComponent';
 
 Il Negi, conosciuto anche come cipollotto giapponese, è un ingrediente cruciale nella cucina giapponese, apprezzato per il suo gusto delicato ma ricco, che si colloca da qualche parte tra quello della cipolla verde e quello del porro. Più lungo e sottile rispetto alle varietà occidentali di cipollotti, il negi presenta una parte bianca che si estende gradualmente in un verde intenso. Questo ingrediente versatile può essere utilizzato sia crudo che cotto, aggiungendo profondità e sapore a una vasta gamma di piatti.
 
@@ -9,4 +12,4 @@ Il negi è spesso impiegato come guarnizione per zuppe, come il ramen e il miso,
 
 Io non lo trovo mai, e lo sosituisco sempre con le cipolline verdi o il porro, a seconda di quanto voglio che sia deciso il sapore.
 
-![Negi](/img/ingredienti/negi-1.png)
+<ImageComponent />

@@ -4,6 +4,7 @@ sidebar_custom_props:
   subtitle: con shiitake, enoki e miso rosso
 description: Una zuppa di miso vegana, perfetta per l'autunno, con shiitake, enoki e miso rosso.
 slug: /ricette/zuppa-miso-funghi-vegana
+image: /img/ricette/zuppa-miso-funghi.jpg
 ingredients:
 - Alga Kombu
 - Funghi Shiitake secchi
@@ -15,12 +16,14 @@ tags:
 - vegan
 ---
 
+import ImageComponent from '@site/src/components/ImageComponent';
+
 Bella regà, è arrivato l'autunno... e noi ci facciamo una bella zuppa di miso, funghi shiitake, enoki e miso rosso.
 Questa è la ricetta per una zuppa di miso completamente vegana, che ottiene il suo umami da un dashi preparato con alga kombu e funghi shiitake secchi.
 
 Il [miso](/ingredienti/miso) rosso (Aka Miso), con il suo sapore robusto e sapido, si sposa divinamente con il sapore terroso dei funghi.
 
-![Zuppa di Miso e Funghi](/img/ricette/zuppa-miso-funghi.jpg)
+<ImageComponent />
 
 ## Ingredienti
 - 1 litro di Acqua fredda

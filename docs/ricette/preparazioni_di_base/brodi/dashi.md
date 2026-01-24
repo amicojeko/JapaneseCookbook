@@ -4,15 +4,18 @@ sidebar_custom_props:
   subtitle: Il brodo base giapponese
 description: il brodo base per moltissime ricette
 slug: /ricette/dashi
+image: /img/ricette/dashi.jpg
 ingredients:
 - acqua fredda
 - alga kombu
 - katsuobushi
 ---
 
+import ImageComponent from '@site/src/components/ImageComponent';
+
 Il dashi e' il brodo base per moltissime ricette, come la zuppa di miso, gli udon in brodo, l'oden, e molti altri. E' un brodo molto leggero, ma ricco di umami, che esalta il sapore degli ingredienti senza coprirli. Si prepara con soli tre ingredienti: acqua, alga kombu e katsuobushi (fiocchi di tonnetto essiccato). E' molto semplice da fare, e si puo' preparare in anticipo e conservare in frigorifero per circa una settimana, o congelare in porzioni singole per averlo sempre pronto all'uso.
 
-![Dashi](/img/ricette/dashi.jpg)
+<ImageComponent />
 
 ## Ichiban Dashi (Primo Dashi)
 

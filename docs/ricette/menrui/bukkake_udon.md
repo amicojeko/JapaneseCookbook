@@ -2,6 +2,7 @@
 title: Bukkake Udon
 description: Udon freddi con condimento versato sopra.
 slug: /ricette/bukkake_udon
+image: /img/ricette/bukkake_udon.jpg
 sidebar_class_name: green
 sidebar_custom_props:
   subtitle: "Udon freddi con condimento versato sopra"
@@ -17,9 +18,11 @@ tags:
   - udon
 ---
 
+import ImageComponent from '@site/src/components/ImageComponent';
+
 La parola **Bukkake** in giapponese deriva dal verbo *bukkakeru*, che vuol dire versare sopra o rovesciare addosso con forza. Infatti, ridendo e scherzando, oggi prepariamo proprio i Bukkake Udon!
 
-![Bukkake Udon](/img/ricette/bukkake_udon.jpg)
+<ImageComponent />
 
 ## Ingredienti
 - Udon confezionati (quelli freschi vanno benissimo, ma anche quelli secchi andranno bene)

@@ -2,6 +2,7 @@
 title: Takenoko Gohan
 description: "Un classico primaverile: riso condito (Takikomi Gohan) cotto con germogli di bambù, aburaage e brodo dashi."
 slug: /ricette/takenoko_gohan
+image: /img/ricette/takenoko_gohan.jpg
 ingredients:
 - Riso
 - Germogli di bambù
@@ -12,7 +13,9 @@ ingredients:
 - Kinome
 ---
 
-![Takenoko Gohan](/img/ricette/takenoko_gohan.jpg)
+import ImageComponent from '@site/src/components/ImageComponent';
+
+<ImageComponent />
 
 ## Ingredienti (per 2 persone / 2 "go" di riso)
 - 2 misurini di [Riso](/ingredienti/rice) (circa 300g)

@@ -2,6 +2,7 @@
 title: Natto Soba
 description: Spaghetti di grano saraceno freddi con natto, cipolline, alga nori e altre delizie
 slug: /ricette/natto_soba
+image: /img/ricette/natto_soba.jpg
 ingredients:
 - Cipolline verdi o negi
 - Kizami nori
@@ -10,6 +11,8 @@ ingredients:
 - soba
 - uovo
 ---
+
+import ImageComponent from '@site/src/components/ImageComponent';
 
 ## Ingredienti per 2 persone
 - 200g di [soba](/ingredienti/soba)
@@ -32,5 +35,5 @@ Mischia il mentsuyu e il dashi, per ottenere lo tsuyu, che verserai al lato dell
 
 E ora non ti resta che mangiare! Itadakimasu!
 
-![Natto Soba](/img/ricette/natto_soba.jpg)
+<ImageComponent />
 

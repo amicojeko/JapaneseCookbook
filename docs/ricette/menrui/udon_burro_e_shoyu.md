@@ -2,6 +2,7 @@
 title: Udon con Burro e Salsa di Soia
 description: Il comfort food perfetto, l'equivalente giapponese del nostro "burro e parmigiano".
 slug: /ricette/udon_burro_e_shoyu
+image: /img/ricette/udon_burro_e_shoyu.jpg
 ingredients:
 - Udon
 - Burro
@@ -12,9 +13,11 @@ tags:
   - udon
 ---
 
+import ImageComponent from '@site/src/components/ImageComponent';
+
 Questo è il comfort food perfetto, velocissimo e incredibilmente saporito. Possiamo considerarlo l'equivalente giapponese di un classico italiano come la pasta burro e parmigiano o burro e salvia. È importante notare che non si tratta di una ricetta tradizionale antica, ma di un piatto moderno molto diffuso in Giappone, tanto che questa versione è ispirata a una ricetta trovata sul sito giapponese della Kikkoman.
 
-![Udon burro e shoyu](/img/ricette/udon_burro_e_shoyu.jpg)
+<ImageComponent />
 
 ## Ingredienti
 - 1 confezione di Udon precotti

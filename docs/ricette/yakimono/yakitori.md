@@ -2,7 +2,10 @@
 title: Yakitori
 description: Spiedini giapponesi
 slug: /ricette/yakitori
+image: /img/ricette/yakitori.webp
 ---
+
+import ImageComponent from '@site/src/components/ImageComponent';
 
 Lo yakitori (焼き鳥) è uno dei piatti simbolo dello stret food giapponese. Sono fondamentalmente di pollo grigliati sul carbone. Con “yaki” (焼き, grigliare) e “tori” (鳥, pollo), il termine indica sia la tecnica di cottura sia la materia prima più tradizionale. Oltre ai tagli classici (coscia, petto, ali), gli spiedini possono includere altre parti del pollo come fegato, pelle o cartilagine, così da offrire una varietà di sapori e consistenze. La prima volta che sono stato in Giappone, sono rimasto sconvolto dagli involtini di pelle di pollo, non avrei mai pensato che fossero buoni e non mi sono azzardato a provarli... poi con il tempo mi sono ricreduto e ora li adoro! (insieme alla coda di pollo, da noi "il boccone del prete").
 
@@ -27,4 +30,4 @@ Ecco una lista di ingredienti tipici per lo yakitori:
 - Cipollo (negi, ネギ)
 - Funghi shiitake (しいたけ)
 
-![Yakitori](/img/ricette/yakitori.webp)
+<ImageComponent />
