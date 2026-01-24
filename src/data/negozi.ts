@@ -1096,6 +1096,16 @@ export const NEGOZI: Negozio[] = [
         map_url: "https://maps.app.goo.gl/kkTGWtWTKKHymUum7",
     },
     {
+        id: "veneto-altavilla-vicentina-one-stop-srl-alimentari-dal-mondo",
+        name: "One Stop Srl - Alimentari dal Mondo",
+        region: "Veneto",
+        city: "Altavilla Vicentina",
+        address: "Via Olmo, 47, 36077 Altavilla Vicentina VI",
+        lat: 45.5208205,
+        lng: 11.4805565,
+        map_url: "https://maps.app.goo.gl/zUcn4VVqd9CQmjJF8",
+    },
+    {
         id: "veneto-vicenza-yigomarket-alimentari-etnici",
         name: "YIGOMARKET ALIMENTARI ETNICI",
         region: "Veneto",
