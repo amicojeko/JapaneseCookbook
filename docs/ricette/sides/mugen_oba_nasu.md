@@ -1,5 +1,7 @@
 ---
 title: Mugen Oba Nasu
+sidebar_custom_props:
+  subtitle: Melanzane infinite con shiso
 description: Un piatto velocissimo dove le melanzane tenere incontrano la freschezza dello shiso e una salsa agrodolce irresistibile.
 slug: /ricette/mugen_oba_nasu
 ingredients:

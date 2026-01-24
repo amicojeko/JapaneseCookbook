@@ -1,5 +1,7 @@
 ---
 title: Chawanmushi
+sidebar_custom_props:
+  subtitle: Budino di uova cotto al vapore
 description: Budino di uova cotto al vapore
 slug: /ricette/chawanmushi
 ingredients:

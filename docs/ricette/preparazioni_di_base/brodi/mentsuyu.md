@@ -1,5 +1,7 @@
 ---
 title: Mentsuyu
+sidebar_custom_props:
+  subtitle: Il brodo per immergere soba e udon
 description: Il brodo per immergere soba e udon
 slug: /ricette/mentsuyu
 ingredients:

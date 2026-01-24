@@ -1,5 +1,7 @@
 ---
 title: Dashi
+sidebar_custom_props:
+  subtitle: Il brodo base giapponese
 description: il brodo base per moltissime ricette
 slug: /ricette/dashi
 ingredients:

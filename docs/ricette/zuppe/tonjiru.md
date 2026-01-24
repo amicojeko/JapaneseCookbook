@@ -1,5 +1,7 @@
 ---
-title: Tonjiru (Zuppa di Miso e Maiale)
+title: Tonjiru
+sidebar_custom_props:
+  subtitle: Zuppa di maiale e verdure di radice
 description: La zuppa giapponese più confortante, un "reset dell'anima" ricco di maiale e verdure di radice.
 slug: /ricette/tonjiru
 ingredients:
@@ -77,3 +79,9 @@ Non far bollire la zuppa dopo aver aggiunto il miso, altrimenti perderà gran pa
 ### 4. Impiattamento
 
 Servire la zuppa caldissima in una ciotola capiente e guarnire con abbondante cipollotto verde tritato.
+
+# Video
+
+import YouTubeVideo from '@site/src/components/YouTubeVideo';
+
+<YouTubeVideo videoId="StmMRRErSLQ" />

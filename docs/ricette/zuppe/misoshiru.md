@@ -1,5 +1,7 @@
 ---
-title: Misoshiru (味噌汁) - La zuppa di miso
+title: Misoshiru
+sidebar_custom_props:
+  subtitle: La zuppa di miso
 description: Zuppa di miso
 slug: /ricette/zuppa_di_miso
 ingredients:

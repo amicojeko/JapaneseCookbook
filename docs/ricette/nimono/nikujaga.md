@@ -1,5 +1,7 @@
 ---
 title: Nikujaga
+sidebar_custom_props:
+  subtitle: Stufato di carne e patate
 description: Carne e patate, il comfort food per eccellenza della cucina casalinga giapponese
 slug: /ricette/nikujaga
 ingredients:

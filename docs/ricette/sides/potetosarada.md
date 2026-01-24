@@ -1,5 +1,7 @@
 ---
 title: Potetosarada
+sidebar_custom_props:
+  subtitle: Insalata di patate giapponese
 description: Insalata di patate
 slug: /ricette/potetosarada
 tags:

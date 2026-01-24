@@ -1,5 +1,7 @@
 ---
 title: Sushisu
+sidebar_custom_props:
+  subtitle: Il condimento per il riso per il sushi
 description: Il condimento per il riso per il sushi
 slug: /ricette/sushisu
 ---

@@ -1,5 +1,7 @@
 ---
 title: Nametake
+sidebar_custom_props:
+  subtitle: Funghi Enoki glassati in salsa di soia
 description: Una ricetta giapponese "casalinga" facilissima ed economica. Funghi Enoki cotti in salsa di soia e mirin, perfetti sul riso.
 slug: /ricette/nametake
 ingredients:

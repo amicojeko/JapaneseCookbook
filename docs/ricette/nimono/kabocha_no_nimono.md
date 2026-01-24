@@ -1,5 +1,7 @@
 ---
 title: Kabocha no Nimono
+sidebar_custom_props:
+  subtitle: Zucca giapponese stufata
 description: La zucca giapponese stufata, un classico contorno autunnale vegano
 slug: /ricette/kabocha-no-nimono
 ingredients:

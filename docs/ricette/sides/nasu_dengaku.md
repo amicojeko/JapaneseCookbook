@@ -1,5 +1,7 @@
 ---
 title: Nasu Dengaku
+sidebar_custom_props:
+  subtitle: Melanzane glassate al miso
 description: Melanzane al miso
 slug: /ricette/nasu_dengaku
 tags: [sides, vegetarian, vegan]

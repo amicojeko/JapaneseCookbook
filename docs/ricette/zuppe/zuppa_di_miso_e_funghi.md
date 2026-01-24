@@ -1,5 +1,7 @@
 ---
-title: Zuppa di Miso e Funghi Vegana (Shiitake e Enoki)
+title: Zuppa di Miso e Funghi Vegana
+sidebar_custom_props:
+  subtitle: con shiitake, enoki e miso rosso
 description: Una zuppa di miso vegana, perfetta per l'autunno, con shiitake, enoki e miso rosso.
 slug: /ricette/zuppa-miso-funghi-vegana
 ingredients:

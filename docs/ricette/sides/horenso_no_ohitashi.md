@@ -1,5 +1,7 @@
 ---
 title: Hōrensō no ohitashi
+sidebar_custom_props:
+  subtitle: Spinaci sbollentati e marinati
 description: "Un contorno fondamentale della cucina giapponese: spinaci sbollentati e marinati in un brodo dashi delicato."
 slug: /ricette/horenso_no_ohitashi
 ingredients:

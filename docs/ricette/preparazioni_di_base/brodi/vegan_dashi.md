@@ -6,6 +6,9 @@ ingredients:
 - Alga Kombu
 - Funghi Shiitake
 - Acqua
+tags:
+- dashi
+- vegan
 ---
 
 Il **Dashi Vegano** (o *Shojin Dashi*, dal nome della cucina devozionale buddhista) è una base fondamentale per chi vuole seguire una dieta vegetariana o vegana senza rinunciare ai sapori autentici del Giappone.
