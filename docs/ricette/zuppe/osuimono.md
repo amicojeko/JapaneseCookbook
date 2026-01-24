@@ -9,6 +9,8 @@ ingredients:
 - Dashi
 - Olio di sesamo
 - Sale
+tags:
+- vegan
 ---
 
 In Giappone c'è un'intera famiglia di zuppe, le **Osuimono**, che sono zuppe trasparenti, delicatissime, e si possono fare con un sacco di cose. Oggi ne facciamo una vegana, facile facile.

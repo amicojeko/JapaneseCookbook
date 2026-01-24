@@ -11,6 +11,8 @@ ingredients:
 - Miso Rosso (Aka Miso)
 - Cipollotto (Negi)
 - Acqua
+tags:
+- vegan
 ---
 
 Bella regà, è arrivato l'autunno... e noi ci facciamo una bella zuppa di miso, funghi shiitake, enoki e miso rosso.

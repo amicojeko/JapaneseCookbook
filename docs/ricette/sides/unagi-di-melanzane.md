@@ -13,6 +13,8 @@ ingredients:
 - Zucchero
 - Olio di semi di sesamo
 - Riso
+tags:
+- vegan
 - Semi di sesamo
 - Cipolline verdi
 ---
