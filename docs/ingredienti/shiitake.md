@@ -1,5 +1,6 @@
 ---
 title: Funghi Shiitake
+description: Funghi pregiati dal sapore umami ricco e carnoso, usati freschi o essiccati in brodi e stufati
 image: /img/ingredienti/shiitake-1.png
 category: ingredienti
 ---

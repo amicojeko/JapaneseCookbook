@@ -1,5 +1,6 @@
 ---
 title: Riso
+description: Il riso giapponese, ingrediente fondamentale della cucina nipponica
 image: /img/ingredienti/rice-1.jpg
 ---
 

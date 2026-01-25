@@ -1,5 +1,6 @@
 ---
 title: Semi di Sesamo
+description: Semi di sesamo bianco e nero, tostati per intensificarne il sapore e usati come condimento croccante
 image: /img/ingredienti/sesame-1.jpg
 ---
 

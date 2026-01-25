@@ -1,5 +1,6 @@
 ---
   title: 🏪 Negozi orientali
+  description: Elenco completo di negozi fisici e online in Italia per acquistare ingredienti e prodotti giapponesi
   draft: false
   slug: "/negozi_orientali"
   sidebar_position: 4
