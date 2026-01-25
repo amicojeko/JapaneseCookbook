@@ -1,0 +1,148 @@
+import React, {type ReactNode, useState, useEffect} from 'react';
+import clsx from 'clsx';
+import Link from '@docusaurus/Link';
+import {
+  PageMetadata,
+  HtmlClassNameProvider,
+  ThemeClassNames,
+  usePluralForm,
+} from '@docusaurus/theme-common';
+import Translate, {translate} from '@docusaurus/Translate';
+import SearchMetadata from '@theme/SearchMetadata';
+import type {Props} from '@theme/DocTagDocListPage';
+import Unlisted from '@theme/ContentVisibility/Unlisted';
+import Heading from '@theme/Heading';
+import styles from './styles.module.css';
+
+// Very simple pluralization: probably good enough for now
+function useNDocsTaggedPlural() {
+  const {selectMessage} = usePluralForm();
+  return (count: number) =>
+    selectMessage(
+      count,
+      translate(
+        {
+          id: 'theme.docs.tagDocListPageTitle.nDocsTagged',
+          description:
+            'Pluralized label for "{count} docs tagged". Use as much plural forms (separated by "|") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)',
+          message: 'One doc tagged|{count} docs tagged',
+        },
+        {count},
+      ),
+    );
+}
+
+function usePageTitle(props: Props): string {
+  const nDocsTaggedPlural = useNDocsTaggedPlural();
+  return translate(
+    {
+      id: 'theme.docs.tagDocListPageTitle',
+      description: 'The title of the page for a docs tag',
+      message: '{nDocsTagged} with "{tagName}"',
+    },
+    {nDocsTagged: nDocsTaggedPlural(props.tag.count), tagName: props.tag.label},
+  );
+}
+
+// Usa il file immagini metadata generato durante la build
+function useDocImage(docId: string) {
+  const [image, setImage] = useState<string | undefined>();
+
+  useEffect(() => {
+    fetch('/image-metadata.json')
+      .then(res => {
+        if (!res.ok) return null;
+        return res.json();
+      })
+      .then(data => {
+        if (!data) return;
+        const imagePath = data[docId];
+        setImage(imagePath);
+      })
+      .catch(() => {
+        // Silently fail if image metadata is not available
+      });
+  }, [docId]);
+
+  return image;
+}
+
+function DocItem({doc}: {doc: Props['tag']['items'][number]}): ReactNode {
+  const image = useDocImage(doc.id);
+
+  return (
+    <Link to={doc.permalink} className={styles.docItemLink}>
+      <article className={styles.docItem}>
+        {image && (
+          <div className={styles.imageWrapper}>
+            <img src={image} alt={doc.title} className={styles.image} />
+          </div>
+        )}
+        <div className={styles.content}>
+          <Heading as="h3" className={styles.title}>
+            {doc.title}
+          </Heading>
+          {doc.description && (
+            <p className={styles.description}>{doc.description}</p>
+          )}
+        </div>
+      </article>
+    </Link>
+  );
+}
+
+function DocTagDocListPageMetadata({
+  title,
+  tag,
+}: Props & {title: string}): ReactNode {
+  return (
+    <>
+      <PageMetadata title={title} description={tag.description} />
+      <SearchMetadata tag="doc_tag_doc_list" />
+    </>
+  );
+}
+
+function DocTagDocListPageContent({
+  tag,
+  title,
+}: Props & {title: string}): ReactNode {
+  return (
+    <HtmlClassNameProvider
+      className={clsx(ThemeClassNames.page.docsTagDocListPage)}>
+      <div className="container margin-vert--lg">
+        <div className="row">
+          <main className={clsx('col', 'col--12', styles.mainContent)}>
+            {tag.unlisted && <Unlisted />}
+            <header className="margin-bottom--xl">
+              <Heading as="h1">{title}</Heading>
+              {tag.description && <p>{tag.description}</p>}
+              <Link href={tag.allTagsPath}>
+                <Translate
+                  id="theme.tags.tagsPageLink"
+                  description="The label of the link targeting the tag list page">
+                  View all tags
+                </Translate>
+              </Link>
+            </header>
+            <section className={styles.docsGrid}>
+              {tag.items.map((doc) => (
+                <DocItem key={doc.id} doc={doc} />
+              ))}
+            </section>
+          </main>
+        </div>
+      </div>
+    </HtmlClassNameProvider>
+  );
+}
+
+export default function DocTagDocListPage(props: Props): ReactNode {
+  const title = usePageTitle(props);
+  return (
+    <>
+      <DocTagDocListPageMetadata {...props} title={title} />
+      <DocTagDocListPageContent {...props} title={title} />
+    </>
+  );
+}
