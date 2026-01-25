@@ -1,5 +1,7 @@
 ---
 title: Yakitori Tare
+sidebar_custom_props:
+  subtitle: Salsa glassante per yakitori
 description: Salsa per yakitori
 slug: /ricette/salsa_yakitori
 ingredients:

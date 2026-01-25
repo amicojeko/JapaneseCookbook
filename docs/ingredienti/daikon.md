@@ -1,5 +1,7 @@
 ---
 title: Daikon
+sidebar_custom_props:
+  subtitle: Rapa bianca giapponese
 description: La rapa piu' famosa del Giappone!
 image: /img/ingredienti/daikon.jpg
 category: ingredienti

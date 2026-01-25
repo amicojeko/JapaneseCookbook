@@ -1,5 +1,7 @@
 ---
 title: Shogayaki
+sidebar_custom_props:
+  subtitle: Scaloppine di maiale allo zenzero
 description: Scaloppine di maiale allo zenzero
 slug: /ricette/shogayaki
 image: /img/ricette/shogayaki.jpg

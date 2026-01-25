@@ -1,5 +1,7 @@
 ---
 title: Sake
+sidebar_custom_props:
+  subtitle: Vino di riso fermentato
 description: Vino di riso giapponese
 ---
 

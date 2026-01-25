@@ -1,5 +1,7 @@
 ---
 title: Salsa Okonomiyaki
+sidebar_custom_props:
+  subtitle: Salsa densa e agrodolce
 description: Salsa per gli okonomiyaki
 slug: /ricette/salsa_okonomiyaki
 ingredients:

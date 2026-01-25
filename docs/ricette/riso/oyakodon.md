@@ -1,5 +1,7 @@
 ---
 title: Oyakodon
+sidebar_custom_props:
+  subtitle: Riso con pollo e uova
 description: L'Oyakodon e' la carbonara giapponese
 slug: /ricette/oyakodon
 image: /img/ricette/oyakodon.jpg

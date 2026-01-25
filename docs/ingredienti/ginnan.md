@@ -1,6 +1,8 @@
 ---
 title: Ginnan
-description: Semi di Gingko
+sidebar_custom_props:
+  subtitle: Semi di ginkgo biloba
+description: Semi di Gingko Biloba
 image: /img/ingredienti/ginnan.jpg
 category: ingredienti
 ---

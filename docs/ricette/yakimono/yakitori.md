@@ -1,5 +1,7 @@
 ---
 title: Yakitori
+sidebar_custom_props:
+  subtitle: Spiedini giapponesi
 description: Spiedini giapponesi
 slug: /ricette/yakitori
 image: /img/ricette/yakitori.webp

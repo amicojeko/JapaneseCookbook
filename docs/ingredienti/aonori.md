@@ -1,6 +1,8 @@
 ---
 
 title: Aonori
+sidebar_custom_props:
+  subtitle: Polvere di alga nori
 description: Polvere di alga Nori
 image: /img/ingredienti/aonori.jpg
 category: ingredienti

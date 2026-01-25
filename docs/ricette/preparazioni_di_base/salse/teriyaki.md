@@ -1,5 +1,7 @@
 ---
 title: Salsa Teriyaki
+sidebar_custom_props:
+  subtitle: Salsa dolce e glassante
 description: La salsa barbecue giapponese
 slug: /ricette/salsa_teriyaki
 ingredients:

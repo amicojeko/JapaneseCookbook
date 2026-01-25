@@ -1,5 +1,7 @@
 ---
 title: Natto
+sidebar_custom_props:
+  subtitle: Soia fermentata filamentosa
 description: Semi di soia bolliti e fermentati
 image: /img/ingredienti/natto-1.jpg
 ---

@@ -1,5 +1,7 @@
 ---
 title: Udon con Burro e Salsa di Soia
+sidebar_custom_props:
+  subtitle: Comfort food semplice giapponese
 description: Il comfort food perfetto, l'equivalente giapponese del nostro "burro e parmigiano".
 slug: /ricette/udon_burro_e_shoyu
 image: /img/ricette/udon_burro_e_shoyu.jpg

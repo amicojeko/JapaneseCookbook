@@ -1,5 +1,7 @@
 ---
 title: Pollo Teriyaki
+sidebar_custom_props:
+  subtitle: Pollo glassato al teriyaki
 description: Il classico pollo teriyaki giapponese
 slug: /ricette/pollo_teriyaki
 ingredients:

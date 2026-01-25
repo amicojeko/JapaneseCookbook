@@ -1,5 +1,7 @@
 ---
 title: Alga Wakame
+sidebar_custom_props:
+  subtitle: Alga per zuppe e insalate
 description: Le alghe per la zuppa di miso e fresche insalate
 image: /img/ingredienti/wakame-1.jpg
 ---

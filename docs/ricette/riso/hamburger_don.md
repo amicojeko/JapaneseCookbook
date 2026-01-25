@@ -1,5 +1,7 @@
 ---
 title: Hamburger Don
+sidebar_custom_props:
+  subtitle: Riso con carne e uova
 description: Una ciotola di riso (donburi) facile e veloce con carne macinata e uova.
 slug: /ricette/hamburger-donburi
 image: /img/ricette/hamburger_don.jpg

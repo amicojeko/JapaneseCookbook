@@ -1,5 +1,7 @@
 ---
 title: Gyoza
+sidebar_custom_props:
+  subtitle: Ravioli giapponesi croccanti
 description: Ravioli alla piastra
 slug: /ricette/gyoza
 image: /img/ricette/gyoza1.jpg

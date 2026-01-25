@@ -1,5 +1,7 @@
 ---
 title: Gari
+sidebar_custom_props:
+  subtitle: Zenzero sottaceto per sushi
 description: Zenzero marinato
 slug: /ricette/gari
 ingredients:

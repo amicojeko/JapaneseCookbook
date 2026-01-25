@@ -1,5 +1,7 @@
 ---
 title: Osuimono Vegano
+sidebar_custom_props:
+  subtitle: Zuppa trasparente delicata
 description: Zuppa trasparente e delicatissima, una versione vegana facile facile.
 slug: /ricette/osuimono
 ingredients:

@@ -1,5 +1,7 @@
 ---
 title: Umezu (梅酢)
+sidebar_custom_props:
+  subtitle: Aceto di prugne umeboshi
 description: Il liquido di fermentazione delle Umeboshi
 image: /img/ingredienti/umezu.webp
 ---

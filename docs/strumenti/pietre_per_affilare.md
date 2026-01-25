@@ -1,5 +1,7 @@
 ---
 title: Toishi, pietre per affilare
+sidebar_custom_props:
+  subtitle: Pietre per affilare coltelli
 description: "Guida essenziale all'affilatura su pietra: quale pietra scegliere per la casa e perché l'acciaino non è ideale per i coltelli giapponesi."
 slug: /strumenti/pietre_per_affilare
 tags:

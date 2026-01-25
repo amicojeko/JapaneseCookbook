@@ -1,5 +1,7 @@
 ---
 title: Yuzu
+sidebar_custom_props:
+  subtitle: Agrume aromatico giapponese
 description: Agrume giapponese
 image: /img/ingredienti/yuzu-1.jpg
 ---

@@ -1,5 +1,7 @@
 ---
 title: Tofu in "stracciatella" con verdure
+sidebar_custom_props:
+  subtitle: Zuppa con tofu e uova
 description: Una ricetta buona, economica, sana, proteica e facile da fare.
 slug: /ricette/zuppa_di_tofu_e_uova
 image: /img/ricette/tofu_and_eggs.jpg

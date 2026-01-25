@@ -1,5 +1,7 @@
 ---
 title: Salmone Teriyaki
+sidebar_custom_props:
+  subtitle: Salmone glassato al teriyaki
 description: Salmone in padella con salsa Teriyaki
 slug: /ricette/salmone_teriyaki
 image: /img/ricette/teriyaki_salmon.webp

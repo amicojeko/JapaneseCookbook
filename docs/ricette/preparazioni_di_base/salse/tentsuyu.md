@@ -1,5 +1,7 @@
 ---
 title: Tentsuyu
+sidebar_custom_props:
+  subtitle: Salsa per tempura
 description: La salsa per la tempura
 slug: /ricette/tentsuyu
 ingredients:

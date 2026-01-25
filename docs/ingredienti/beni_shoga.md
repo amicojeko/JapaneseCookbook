@@ -1,6 +1,8 @@
 ---
 
 title: Beni shoga
+sidebar_custom_props:
+  subtitle: Zenzero marinato nell'umezu
 description: Zenzero marinato nell'umezu
 image: /img/ingredienti/benishoga.jpg
 category: ingredienti

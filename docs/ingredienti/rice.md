@@ -1,5 +1,7 @@
 ---
 title: Riso
+sidebar_custom_props:
+  subtitle: Riso giapponese a chicco corto
 description: Il riso giapponese, ingrediente fondamentale della cucina nipponica
 image: /img/ingredienti/rice-1.jpg
 ---

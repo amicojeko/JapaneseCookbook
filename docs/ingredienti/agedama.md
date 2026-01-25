@@ -1,5 +1,7 @@
 ---
 title: Agedama (Tenkatsu)
+sidebar_custom_props:
+  subtitle: Palline di tempura fritte
 description: Palline di pastella per tempura fritte
 image: /img/ingredienti/agedama.jpg
 category: ingredienti

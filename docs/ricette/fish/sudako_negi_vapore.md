@@ -1,5 +1,7 @@
 ---
 title: Sudako con Negi al Vapore
+sidebar_custom_props:
+  subtitle: Moscardini e cipollotti al vapore
 description: Moscardini bolliti e cipollotti al vapore conditi con una salsa agrodolce all'aceto e pepe nero
 slug: /ricette/sudako_negi_vapore
 ingredients:

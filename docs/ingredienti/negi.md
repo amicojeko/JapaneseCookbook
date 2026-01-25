@@ -1,6 +1,8 @@
 ---
 title: Negi
-description: Il porro giapponese
+sidebar_custom_props:
+  subtitle: Porro o cipollotto giapponese
+description: Il porro o cipollotto giapponese
 image: /img/ingredienti/negi.jpg
 ---
 

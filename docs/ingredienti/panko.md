@@ -1,6 +1,8 @@
 ---
 title: Panko
-description: Pan grattato on steroids
+sidebar_custom_props:
+  subtitle: Pan grattato croccante giapponese
+description: Pan grattato croccante giapponese
 image: /img/ingredienti/panko-1.jpg
 ---
 

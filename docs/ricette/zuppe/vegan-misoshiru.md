@@ -1,5 +1,7 @@
 ---
 title: Zuppa di Miso Vegana
+sidebar_custom_props:
+  subtitle: Miso vegano con wakame
 description: La versione vegana della zuppa di miso.
 slug: /ricette/zuppa_di_miso_vegana
 image: /img/ricette/vegan_misoshiru.jpg

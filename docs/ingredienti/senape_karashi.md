@@ -1,6 +1,8 @@
 ---
 title: Senape Karashi
-description: La senape giapponese
+sidebar_custom_props:
+  subtitle: La senape giapponese
+description: La senape giapponese dal sapore forte e piccante
 image: /img/ingredienti/karashi-1.jpg
 ---
 

@@ -1,5 +1,7 @@
 ---
 title: Funghi Enoki
+sidebar_custom_props:
+  subtitle: Funghi bianchi e sottili
 description: I funghi bianchi lunghi e sottoli
 image: /img/ingredienti/enoki-1.jpg
 category: ingredienti

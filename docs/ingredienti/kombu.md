@@ -1,5 +1,7 @@
 ---
 title: Alga Kombu
+sidebar_custom_props:
+  subtitle: Alga per brodo dashi
 description: L'alga base per il dashi
 image: /img/ingredienti/kombu-1.jpg
 tags:

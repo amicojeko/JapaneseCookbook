@@ -1,5 +1,7 @@
 ---
 title: Gyudon
+sidebar_custom_props:
+  subtitle: Riso con manzo e cipolla
 description: La ciotola di riso con carne di manzo e cipolla
 slug: /ricette/gyudon
 image: /img/ricette/gyudon.jpg

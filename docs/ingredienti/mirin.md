@@ -1,6 +1,8 @@
 ---
 title: Mirin
-description: Vino di riso dolce giapponese
+sidebar_custom_props:
+  subtitle: Alcolico dolce a base di riso
+description: Condimento alcolico dolce a base di riso fondamentale nella cucina giapponese
 image: /img/ingredienti/mirin.jpg
 ---
 

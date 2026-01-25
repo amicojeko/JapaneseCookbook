@@ -1,5 +1,7 @@
 ---
 title: Daikon-dzuke (大根の漬物)
+sidebar_custom_props:
+  subtitle: Daikon marinato piccante
 description: Daikon piccante sott'aceto
 slug: /ricette/daikon_dzuke
 ingredients:

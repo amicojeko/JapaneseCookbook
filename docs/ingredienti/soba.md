@@ -1,5 +1,7 @@
 ---
 title: Soba
+sidebar_custom_props:
+  subtitle: Noodles di grano saraceno
 description: Spaghetti giapponesi di grano saraceno, serviti caldi o freddi, in brodo o con salse
 ---
 

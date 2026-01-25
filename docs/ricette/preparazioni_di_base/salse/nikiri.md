@@ -1,5 +1,7 @@
 ---
 title: Nikiri Sauce
+sidebar_custom_props:
+  subtitle: Salsa glassante per sushi
 description: Salsa densa da spennellare sui nigiri
 slug: /ricette/salsa_nikiri
 ingredients:

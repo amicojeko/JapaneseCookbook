@@ -1,5 +1,7 @@
 ---
 title: Kyuri no Tsukemono
+sidebar_custom_props:
+  subtitle: Cetrioli sottaceto veloci
 description: Cetrioli sottaceto veloci
 slug: /ricette/kyuri_no_tsukemono
 ingredients:

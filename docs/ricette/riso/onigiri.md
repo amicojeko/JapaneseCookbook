@@ -1,5 +1,7 @@
 ---
 title: Onigiri al Tonno e Maionese
+sidebar_custom_props:
+  subtitle: Polpette di riso ripiene
 description: Il classico snack giapponese per una merenda veloce o un pranzo al sacco.
 slug: /ricette/onigiri
 ingredients:

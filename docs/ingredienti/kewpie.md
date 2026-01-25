@@ -1,5 +1,7 @@
 ---
 title: Japanese Mayo (Kewpie)
+sidebar_custom_props:
+  subtitle: La maionese giapponese
 description: La piu' famosa maionese giapponese
 image: /img/ingredienti/kewpie-1.jpg
 ---

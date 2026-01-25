@@ -1,5 +1,7 @@
 ---
 title: Ninniku no Misozuke
+sidebar_custom_props:
+  subtitle: Aglio fermentato nel miso
 description: Aglio conservato sotto miso
 slug: /ricette/ninniku_no_misozuke
 ingredients:

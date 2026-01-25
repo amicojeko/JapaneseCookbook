@@ -1,5 +1,7 @@
 ---
 title: Miso
+sidebar_custom_props:
+  subtitle: Pasta di soia fermentata
 description: Pasta di fagioli di soia fermentata
 image: /img/ingredienti/miso-1.jpg
 ---

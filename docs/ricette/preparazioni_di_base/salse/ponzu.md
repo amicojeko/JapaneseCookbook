@@ -1,5 +1,7 @@
 ---
 title: Salsa Ponzu
+sidebar_custom_props:
+  subtitle: Salsa agrumata fresca
 description: Salsa fresca ed agrumata
 slug: /ricette/salsa_ponzu
 ingredients:

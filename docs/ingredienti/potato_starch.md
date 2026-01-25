@@ -1,5 +1,7 @@
 ---
 title: Fecola (amido) di patate
+sidebar_custom_props:
+  subtitle: Amido per addensare e panare
 description: Amido di patate usato per addensare salse e per panare le fritture come il kara-age
 image: /img/ingredienti/fecola-1.jpg
 ---

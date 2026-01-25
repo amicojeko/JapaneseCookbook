@@ -1,5 +1,7 @@
 ---
 title: Alga Nori
+sidebar_custom_props:
+  subtitle: Alga essiccata per sushi
 description: Alghe essiccate ed arrostite per sushi e mille altri piatti
 image: /img/ingredienti/nori-1.jpg
 ---

@@ -1,5 +1,7 @@
 ---
 title: Ninniku Shoyuzuke (ニンニク醤油漬け)
+sidebar_custom_props:
+  subtitle: Aglio marinato in shoyu
 description: Aglio conservato in salsa di soia
 slug: /ricette/ninniku_shoyuzuke
 ingredients:

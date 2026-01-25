@@ -1,5 +1,7 @@
 ---
 title: Furikake
+sidebar_custom_props:
+  subtitle: Granella condimento per riso
 description: La "granella magica" giapponese che trasforma il riso bianco
 slug: /ingredienti/furikake
 image: /img/ingredienti/furikake.jpg

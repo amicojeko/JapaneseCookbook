@@ -1,5 +1,7 @@
 ---
 title: Cuociriso
+sidebar_custom_props:
+  subtitle: Risiera elettrica o donabe
 description: L'elettrodomestico sacro della cucina giapponese per un riso sempre perfetto, e la sua alternativa tradizionale Donabe.
 slug: /strumenti/cuociriso
 tags:

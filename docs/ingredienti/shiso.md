@@ -1,5 +1,7 @@
 ---
 title: Shiso
+sidebar_custom_props:
+  subtitle: Erba aromatica giapponese
 description: Erba aromatica dal profumo unico, usata fresca o conservata in salamoia nella cucina giapponese
 image: /img/ingredienti/shiso-1.jpg
 category: ingredienti

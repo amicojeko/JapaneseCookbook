@@ -1,5 +1,7 @@
 ---
 title: Isobeyaki
+sidebar_custom_props:
+  subtitle: Mochi grigliato con nori
 description: Mochi grigliato avvolto nell'alga nori, uno snack semplice e "pericolosamente" buono
 slug: /ricette/isobeyaki
 image: /img/ricette/isobeyaki.jpg

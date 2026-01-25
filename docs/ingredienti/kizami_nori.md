@@ -1,5 +1,7 @@
 ---
 title: Kizami Nori
+sidebar_custom_props:
+  subtitle: Alga nori a striscioline
 description: Sottili striscioline di alga nori tagliate a julienne, perfette come guarnizione per ramen e soba
 image: /img/ingredienti/kizami_nori.jpg
 category: ingredienti

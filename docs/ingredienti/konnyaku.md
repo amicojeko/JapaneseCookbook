@@ -1,6 +1,8 @@
 ---
 title: Konnyaku
-description: Konjac
+sidebar_custom_props:
+  subtitle: Gelatina di konjac
+description: Gelatina tradizionale giapponese fatta con la pianta di konjac
 image: /img/ingredienti/konnyaku-1.jpg
 ---
 

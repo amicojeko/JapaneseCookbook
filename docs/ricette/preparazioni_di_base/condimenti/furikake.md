@@ -1,5 +1,7 @@
 ---
 title: Furikake
+sidebar_custom_props:
+  subtitle: Granella magica per riso
 description: Condimento secco per riso
 slug: /ricette/furikake
 image: /img/ricette/furikake.jpg

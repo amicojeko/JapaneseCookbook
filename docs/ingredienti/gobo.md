@@ -1,6 +1,8 @@
 ---
 title: Gobo
-description: Bardana
+sidebar_custom_props:
+  subtitle: Radice di bardana
+description: Radice di bardana
 image: /img/ingredienti/gobo.jpg
 category: ingredienti
 ---

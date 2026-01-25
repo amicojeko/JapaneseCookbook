@@ -1,5 +1,7 @@
 ---
 title: Salsa Takoyaki
+sidebar_custom_props:
+  subtitle: Salsa densa per takoyaki
 description: Salsa per i takoyaki
 slug: /ricette/salsa_takoyaki
 ingredients:

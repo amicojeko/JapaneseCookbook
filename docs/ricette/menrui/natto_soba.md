@@ -1,5 +1,7 @@
 ---
 title: Natto Soba
+sidebar_custom_props:
+  subtitle: Soba freddi con natto
 description: Spaghetti di grano saraceno freddi con natto, cipolline, alga nori e altre delizie
 slug: /ricette/natto_soba
 image: /img/ricette/natto_soba.jpg

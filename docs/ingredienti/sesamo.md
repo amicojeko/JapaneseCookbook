@@ -1,5 +1,7 @@
 ---
 title: Semi di Sesamo
+sidebar_custom_props:
+  subtitle: Semi tostati bianchi e neri
 description: Semi di sesamo bianco e nero, tostati per intensificarne il sapore e usati come condimento croccante
 image: /img/ingredienti/sesame-1.jpg
 ---

@@ -1,5 +1,7 @@
 ---
 title: La-Yu
+sidebar_custom_props:
+  subtitle: Olio piccante di sesamo
 description: Olio di sesamo piccante giapponese
 image: /img/ingredienti/la-yu.jpg
 ---

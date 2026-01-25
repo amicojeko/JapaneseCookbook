@@ -1,6 +1,8 @@
 ---
 
 title: Satoimo (里芋) o Taro
+sidebar_custom_props:
+  subtitle: Tubero taro giapponese
 description: Taro giapponese
 tags:
   - tubero

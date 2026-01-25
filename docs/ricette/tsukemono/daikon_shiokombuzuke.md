@@ -1,5 +1,7 @@
 ---
 title: Daikon Shiokombuzuke
+sidebar_custom_props:
+  subtitle: Daikon marinato con kombu
 description: Daikon marinato con shio kombu, sesamo e shoyu. Una bomba di umami!
 slug: /ricette/daikon_shiokombuzuke
 image: /img/ricette/daikon_shiokombuzuke.jpg
