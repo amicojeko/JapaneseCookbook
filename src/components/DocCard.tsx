@@ -39,15 +39,14 @@ interface DocCardProps {
 
 export default function DocCard({doc}: DocCardProps): React.ReactElement {
   const image = useDocImage(doc.id);
+  const displayImage = image || '/img/placeholder.jpg';
 
   return (
     <Link to={doc.permalink} className={styles.docItemLink}>
       <article className={styles.docItem}>
-        {image && (
-          <div className={styles.imageWrapper}>
-            <img src={image} alt={doc.title} className={styles.image} />
-          </div>
-        )}
+        <div className={styles.imageWrapper}>
+          <img src={displayImage} alt={doc.title} className={styles.image} />
+        </div>
         <div className={styles.content}>
           <Heading as="h3" className={styles.title}>
             {doc.title}
