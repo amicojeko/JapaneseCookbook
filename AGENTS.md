@@ -38,5 +38,31 @@ Le ricette usano frontmatter con almeno:
 - Evita modifiche a file generati o di build.
 - Per aggiornare `ricettario.json`, usa lo script indicato nel README.
 
+## Template e componenti custom
+- Template tag pages: `src/theme/DocTagDocListPage/index.tsx` e `styles.module.css`
+  - Mostra le card dei documenti con immagini caricate da `/image-metadata.json`
+  - Usa un layout a griglia per visualizzare i documenti taggati
+  - Utilizza il componente condiviso `DocCard` per le card
+- Componente `DocCard`: `src/components/DocCard.tsx`
+  - Componente riusabile per mostrare una card documento (ricette, ingredienti, strumenti)
+  - Carica automaticamente l'immagine da `/image-metadata.json`
+  - Usato sia nelle pagine tag che nelle pagine index delle categorie
+- Componente `CategoryIndexPage`: `src/components/CategoryIndexPage.tsx`
+  - Componente per creare homepage di categoria che mostrano le ricette come card
+  - Da usare in file `index.md` nelle cartelle di categoria (es. `docs/ricette/agemono/index.md`)
+  - Usa automaticamente i metadati dei doc nella cartella corrente (esclude l'index)
+  - Esempio di utilizzo:
+    ```markdown
+    ---
+    title: "🍤 Agemono - fritti"
+    description: "Ricette di fritture giapponesi"
+    slug: "/ricette/agemono"
+    ---
+
+    import CategoryIndexPage from '@site/src/components/CategoryIndexPage';
+
+    <CategoryIndexPage />
+    ```
+
 ## Prompt suggerito (per agenti)
-Segui le istruzioni in `AGENTS.md`. Mantieni lo stile italiano e il sistema metrico. Modifica solo i contenuti in `docs/` o i file TypeScript necessari (es. `src/data/negozi.ts`) e non toccare i file generati in `build/`.
+Segui le istruzioni in `AGENTS.md`. Mantieni lo stile italiano e il sistema metrico. Modifica solo i contenuti in `docs/` o i file TypeScript necessari (es. `src/data/negozi.ts`) e non toccare i file generati in `build/`. Se non trovi un file o un template, chiedi invece di inventare.
