@@ -1,0 +1,67 @@
+/* Stili per la card delle ricette */
+.docItemLink {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  transition: transform 0.2s ease;
+}
+
+.docItemLink:hover {
+  text-decoration: none;
+  transform: translateY(-4px);
+}
+
+.docItem {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s ease;
+  background: var(--ifm-card-background-color);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.docItemLink:hover .docItem {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.imageWrapper {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background-color: var(--ifm-color-emphasis-200);
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.docItemLink:hover .image {
+  transform: scale(1.05);
+}
+
+.content {
+  padding: 1rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+  line-height: 1.3;
+  color: var(--ifm-heading-color);
+}
+
+.description {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--ifm-color-emphasis-700);
+  line-height: 1.4;
+  flex: 1;
+}

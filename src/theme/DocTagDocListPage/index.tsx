@@ -1,4 +1,4 @@
-import React, {type ReactNode, useState, useEffect} from 'react';
+import React, {type ReactNode} from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import {
@@ -12,6 +12,7 @@ import SearchMetadata from '@theme/SearchMetadata';
 import type {Props} from '@theme/DocTagDocListPage';
 import Unlisted from '@theme/ContentVisibility/Unlisted';
 import Heading from '@theme/Heading';
+import DocCard from '@site/src/components/DocCard';
 import styles from './styles.module.css';
 
 // Very simple pluralization: probably good enough for now
@@ -41,53 +42,6 @@ function usePageTitle(props: Props): string {
       message: '{nDocsTagged} with "{tagName}"',
     },
     {nDocsTagged: nDocsTaggedPlural(props.tag.count), tagName: props.tag.label},
-  );
-}
-
-// Usa il file immagini metadata generato durante la build
-function useDocImage(docId: string) {
-  const [image, setImage] = useState<string | undefined>();
-
-  useEffect(() => {
-    fetch('/image-metadata.json')
-      .then(res => {
-        if (!res.ok) return null;
-        return res.json();
-      })
-      .then(data => {
-        if (!data) return;
-        const imagePath = data[docId];
-        setImage(imagePath);
-      })
-      .catch(() => {
-        // Silently fail if image metadata is not available
-      });
-  }, [docId]);
-
-  return image;
-}
-
-function DocItem({doc}: {doc: Props['tag']['items'][number]}): ReactNode {
-  const image = useDocImage(doc.id);
-
-  return (
-    <Link to={doc.permalink} className={styles.docItemLink}>
-      <article className={styles.docItem}>
-        {image && (
-          <div className={styles.imageWrapper}>
-            <img src={image} alt={doc.title} className={styles.image} />
-          </div>
-        )}
-        <div className={styles.content}>
-          <Heading as="h3" className={styles.title}>
-            {doc.title}
-          </Heading>
-          {doc.description && (
-            <p className={styles.description}>{doc.description}</p>
-          )}
-        </div>
-      </article>
-    </Link>
   );
 }
 
@@ -127,7 +81,7 @@ function DocTagDocListPageContent({
             </header>
             <section className={styles.docsGrid}>
               {tag.items.map((doc) => (
-                <DocItem key={doc.id} doc={doc} />
+                <DocCard key={doc.id} doc={doc} />
               ))}
             </section>
           </main>
