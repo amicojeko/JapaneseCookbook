@@ -1,5 +1,5 @@
 ---
-title: Buta Kaku-ni
+title: Buta no Kaku-ni
 sidebar_custom_props:
   subtitle: Pancia di maiale stufata
 description: Pancia di maiale cotta lentamente in salsa di soia
