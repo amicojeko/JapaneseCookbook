@@ -373,6 +373,16 @@ export const NEGOZI: Negozio[] = [
         map_url: "https://maps.app.goo.gl/hXD1WTjpAs9dfBDd8",
     },
     {
+        id: "lazio-roma-snack-house",
+        name: "Snack House",
+        region: "Lazio",
+        city: "Roma",
+        address: "Via Tuscolana, 697 A/B, 00175 Roma RM",
+        lat: 41.8615933,
+        lng: 12.5541055,
+        map_url: "https://maps.app.goo.gl/UDtgkfJ4BiwKstUs5",
+    },
+    {
         id: "lazio-roma-kombinini",
         name: "Kombinini",
         region: "Lazio",
