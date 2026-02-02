@@ -8,7 +8,7 @@ sidebar_position: 1
 # Negozi orientali italiani Online
 
 - https://moodmarketmilano.com \
-codice di sconto **MOODJEKO2025**
+codice di sconto **MOODJEKO2026**
 - https://sushitalia.com
 - https://sushi-sushi.it
 - https://www.orientalitalia.com
