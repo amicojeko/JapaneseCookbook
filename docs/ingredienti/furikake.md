@@ -54,4 +54,11 @@ Il furikake ha una storia interessante e "funzionale". In origine nasceva per re
 :::tip Il Souvenir Perfetto
 Se visitate il Giappone, il furikake è il souvenir ideale. Costa poco, pesa pochissimo, non dà problemi in valigia e ne esistono centinaia di varianti regionali (spesso introvabili altrove), stagionali o legate a brand famosi. È uno di quei regali che, una volta tornati a casa, si usano davvero invece di lasciarli a prendere polvere su uno scaffale.
 :::
+
+## Video
+
+import YouTubeVideo from '@site/src/components/YouTubeVideo';
+
+<YouTubeVideo videoId="KjJZGZ25O_s" />
+
 <IngredientRecipeList ingredientTag="furikake" />
