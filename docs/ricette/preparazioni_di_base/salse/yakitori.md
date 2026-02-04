@@ -12,8 +12,10 @@ ingredients:
 - salsa di soia
 - verde delle cipolline o porro
 - zucchero di canna
+tags:
+- mirin
+- sake
 ---
-
 ## Ingredienti
 
 - 1 tazza di [salsa di soia](/ingredienti/shoyu)

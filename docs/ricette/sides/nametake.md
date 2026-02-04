@@ -12,8 +12,12 @@ ingredients:
 - Sake
 - Zucchero
 - Aceto di Riso
+tags:
+- enoki
+- mirin
+- rice
+- sake
 ---
-
 import ImageComponent from '@site/src/components/ImageComponent';
 
 Il **Nametake** è un classico esempio di cucina casalinga giapponese, quella che si mangia tutti i giorni e che spesso non si trova nei ristoranti.

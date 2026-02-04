@@ -12,8 +12,8 @@ ingredients:
 tags:
 - snack
 - vegan
+- nori
 ---
-
 import ImageComponent from '@site/src/components/ImageComponent';
 
 Potrà sembrare uno scherzo, ma in Giappone i Mochi sono considerati uno dei cibi più "pericolosi" in assoluto, causando ogni anno numerosi incidenti per soffocamento, specialmente durante il Capodanno. Eppure, nonostante il rischio (o forse proprio per quel brivido), nessuno rinuncia a questa delizia. L'Isobeyaki è il modo più classico e saporito di gustarli: il mochi viene grigliato finché non diventa croccante fuori e filante dentro, tuffato nella salsa di soia e avvolto nell'alga nori.

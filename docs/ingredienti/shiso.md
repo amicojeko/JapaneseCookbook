@@ -6,6 +6,8 @@ description: Erba aromatica dal profumo unico, usata fresca o conservata in sala
 image: /img/ingredienti/shiso-1.jpg
 category: ingredienti
 ---
+import IngredientRecipeList from '@site/src/components/IngredientRecipeList';
+
 
 import ImageComponent from '@site/src/components/ImageComponent';
 
@@ -14,6 +16,7 @@ Lo shiso, noto anche come perilla, è un'erba aromatica fondamentale nella cucin
 Lo shiso è versatile: le sue foglie vengono usate fresche come condimento o guarnizione per sushi, sashimi, insalate e noodle; macerate per creare bevande o salse; o mescolate in impasti per fritti, aggiungendo un tocco distintivo ai piatti sia nel gusto che nel colore. Puoo' anche essere conservato estremamente a lungo sotto sale. Oltre al suo utilizzo culinario, lo shiso è noto anche per le sue proprietà antinfiammatorie e antiossidanti, rendendolo un ingrediente non solo delizioso ma anche salutare. La sua presenza nei piatti non solo arricchisce il sapore ma aggiunge anche un elemento visivo accattivante, con le sue vivaci tonalità di verde e viola.
 
 <ImageComponent />
+<IngredientRecipeList ingredientTag="shiso" />
 
 ## Video
 

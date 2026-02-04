@@ -5,6 +5,8 @@ sidebar_custom_props:
 description: Pasta di fagioli di soia fermentata
 image: /img/ingredienti/miso-1.jpg
 ---
+import IngredientRecipeList from '@site/src/components/IngredientRecipeList';
+
 
 import ImageComponent from '@site/src/components/ImageComponent';
 
@@ -24,4 +26,4 @@ Esistono diversi tipi di miso, ciascuno con le sue caratteristiche uniche, ad es
 - Miso rosso (Akamiso): Più salato e intenso, perfetto per piatti che richiedono un sapore più marcato.
 - Miso di soia (Hatchomiso): Un tipo di miso più scuro e denso, noto per il suo sapore ricco e complesso.
 - Miso di orzo (Mugimiso): Preparato con l’orzo, ha un profilo aromatico particolare, leggermente dolce e fruttato.
-
+<IngredientRecipeList ingredientTag="miso" />

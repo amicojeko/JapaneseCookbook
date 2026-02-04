@@ -11,8 +11,9 @@ ingredients:
 tags:
 - dashi
 - vegan
+- kombu
+- shiitake
 ---
-
 Il **Dashi Vegano** (o *Shojin Dashi*, dal nome della cucina devozionale buddhista) è una base fondamentale per chi vuole seguire una dieta vegetariana o vegana senza rinunciare ai sapori autentici del Giappone.
 Il [Dashi](/ricette/dashi) è il brodo onnipresente nella cucina giapponese: lo troviamo nelle zuppe, nei minestroni, negli stufati e anche nelle salse.
 Il Giappone vanta una tradizione pluricentenaria di cucina vegana che proviene dai monasteri buddisti, e questo brodo ne è un pilastro essenziale.

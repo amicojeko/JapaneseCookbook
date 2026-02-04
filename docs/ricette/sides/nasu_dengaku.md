@@ -5,9 +5,11 @@ sidebar_custom_props:
 description: Melanzane al miso
 slug: /ricette/nasu_dengaku
 image: /img/ricette/nasudengaku.jpg
-tags: [sides, vegetarian, vegan]
+tags:
+- sides
+- vegetarian
+- vegan
 ---
-
 import ImageComponent from '@site/src/components/ImageComponent';
 
 <ImageComponent />

@@ -11,7 +11,6 @@ ingredients:
 - Salsa di soia
 - Salsa worcestershire
 ---
-
 La salsa Yakisoba è il cuore dell'[omonimo piatto di noodles saltati](/ricette/yakisoba). Il suo sapore è un mix complesso e delizioso di agrodolce, salato e umami che avvolge perfettamente la pasta e gli altri ingredienti. Questa è una versione semplice da preparare, completamente a freddo, che richiede solo un piccolo accorgimento nell'ordine degli ingredienti.
 
 ## Ingredienti

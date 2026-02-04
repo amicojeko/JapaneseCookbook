@@ -6,6 +6,8 @@ description: Funghi pregiati dal sapore umami ricco e carnoso, usati freschi o e
 image: /img/ingredienti/shiitake-1.png
 category: ingredienti
 ---
+import IngredientRecipeList from '@site/src/components/IngredientRecipeList';
+
 
 import ImageComponent from '@site/src/components/ImageComponent';
 
@@ -16,3 +18,4 @@ Gli Shiitake freschi presentano un cappello largo e liscio che varia dal marrone
 Nella cucina giapponese, i funghi Shiitake sono frequentemente utilizzati in piatti come il riso misto (takikomi gohan), vari tipi di noodle e stufati come il sukiyaki e l'oden. Possono essere saltati, stufati, grigliati o serviti come condimento in insalate. Oltre al loro impiego culinario, gli Shiitake sono anche apprezzati per i loro benefici per la salute, inclusi effetti positivi sul sistema immunitario e proprietà antiossidanti.
 
 <ImageComponent />
+<IngredientRecipeList ingredientTag="shiitake" />

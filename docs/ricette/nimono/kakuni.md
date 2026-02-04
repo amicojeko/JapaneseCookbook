@@ -17,8 +17,13 @@ ingredients:
 - uova
 - zenzero
 - zucchero
+tags:
+- daikon
+- kombu
+- mirin
+- negi
+- sake
 ---
-
 Il buta no kakuni è un classico della cucina giapponese: pancetta di maiale stufata lentamente in una salsa dolce‑salata a base di shoyu, mirin e sake. Il risultato è una carne morbidissima, lucida e saporita, che si accompagna perfettamente a riso bianco e verdure come daikon e bok choy. In questa versione uso un metodo “veloce” con pentola a pressione, senza rinunciare al gusto ricco e profondo della ricetta tradizionale.
 
 import ImageComponent from '@site/src/components/ImageComponent';

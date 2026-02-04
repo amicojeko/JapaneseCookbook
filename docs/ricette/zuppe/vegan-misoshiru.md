@@ -13,8 +13,9 @@ ingredients:
 - Cipolline verdi
 tags:
 - vegan
+- miso
+- wakame
 ---
-
 import ImageComponent from '@site/src/components/ImageComponent';
 
 La zuppa di miso è un vero classico della cucina giapponese. Ne esistono tantissime versioni, ma oggi prepariamo quella vegana, perche' la zuppa di miso tradizionale, non e' un piatto vegano, perche nel dashi troviamo il katsuobushi.

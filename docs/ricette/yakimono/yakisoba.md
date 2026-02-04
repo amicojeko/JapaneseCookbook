@@ -16,8 +16,11 @@ ingredients:
 - Funghi shiitake
 - Aonori
 - Katsuobushi
+tags:
+- aonori
+- katsuobushi
+- shiitake
 ---
-
 import ImageComponent from '@site/src/components/ImageComponent';
 
 ## Ingredienti

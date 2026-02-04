@@ -13,8 +13,11 @@ ingredients:
 - Shoyu
 - Mirin
 - Kinome
+tags:
+- mirin
+- rice
+- shoyu
 ---
-
 import ImageComponent from '@site/src/components/ImageComponent';
 
 <ImageComponent />

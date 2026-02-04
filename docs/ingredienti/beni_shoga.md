@@ -11,6 +11,8 @@ tags:
   - condimenti
   - zenzero
 ---
+import IngredientRecipeList from '@site/src/components/IngredientRecipeList';
+
 
 import ImageComponent from '@site/src/components/ImageComponent';
 
@@ -29,4 +31,4 @@ Si può facilmente preparare tagliando lo zenzero (se si riesce a trovare, megli
 Consiglio di farne 2 barattolini, uno con abbastanza Umezu da bagnare tutto lo zenzero, ma senza coprirlo, e uno fino a coprire interamente lo zenzero, in modo da capire la differenza tra i due e scegliere il preferito.
 
 Mettere in frigorifero, è pronto dopo 2-3 giorni e dura anche un anno.
-
+<IngredientRecipeList ingredientTag="beni_shoga" />

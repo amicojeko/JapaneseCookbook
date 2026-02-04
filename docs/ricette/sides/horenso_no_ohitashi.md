@@ -13,8 +13,9 @@ ingredients:
 - Sale
 tags:
 - vegan
+- mirin
+- shoyu
 ---
-
 import ImageComponent from '@site/src/components/ImageComponent';
 
 <ImageComponent />

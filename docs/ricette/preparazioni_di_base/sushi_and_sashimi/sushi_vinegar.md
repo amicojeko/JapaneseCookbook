@@ -5,7 +5,6 @@ sidebar_custom_props:
 description: Il condimento per il riso per il sushi
 slug: /ricette/sushisu
 ---
-
 ## Ingredienti
 
 ### per 500 ml

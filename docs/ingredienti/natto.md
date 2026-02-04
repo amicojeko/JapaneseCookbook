@@ -5,6 +5,8 @@ sidebar_custom_props:
 description: Semi di soia bolliti e fermentati
 image: /img/ingredienti/natto-1.jpg
 ---
+import IngredientRecipeList from '@site/src/components/IngredientRecipeList';
+
 
 import ImageComponent from '@site/src/components/ImageComponent';
 
@@ -16,6 +18,7 @@ La fermentazione del natto avviene grazie al Bacillus subtilis natto, che trasfo
 
 Tipicamente servito su riso caldo con aggiunta di [salsa di soia](/ingredienti/shoyu) e senape per migliorarne il sapore, il natto può essere anche ingrediente di sushi, insalate e altri piatti.
 
+<IngredientRecipeList ingredientTag="natto" />
 
 ## Video
 

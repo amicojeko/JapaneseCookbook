@@ -13,8 +13,9 @@ ingredients:
 - Brodo vegetale in polvere
 tags:
 - vegan
+- sesame_oil
+- sesamo
 ---
-
 import ImageComponent from '@site/src/components/ImageComponent';
 
 Questa è una ricetta giapponese semplicissima, vegana e perfetta per quando fa caldo, perché si prepara senza usare fornelli. È ideale come antipasto, contorno o per un aperitivo, specialmente con una birra fresca. Tanto semplice quanto buona, crea dipendenza!

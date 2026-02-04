@@ -14,8 +14,11 @@ ingredients:
 - sale
 - salsa di soia
 - shiitake
+tags:
+- mirin
+- rice
+- shiitake
 ---
-
 Il Takikomi gohan e' il riso misto con quello che vuoi dentro, cotto direttamente nella risiera.
 Piatto superveloce per tutti i giorni, metti nella risiera e dimentica.
 

@@ -10,8 +10,10 @@ ingredients:
 - maionese
 - alga nori
 - sale
+tags:
+- nori
+- rice
 ---
-
 Gli onigiri (おにぎり), o _omusubi_, sono uno degli snack giapponesi più iconici e amati. Sono delle "polpette" di [riso](/ingredienti/rice) bianco, generalmente a forma triangolare, a forma di polpetta o cilindrica, che spesso racchiudono un ripieno e sono avvolte in una striscia di [alga nori](/ingredienti/nori).
 
 Sono perfetti per i bento box e come cibo da viaggio. Il ripieno al tonno e maionese (chiamato _Tsunamayo_, ツナマヨ, in Giappone) è uno dei più diffusi e apprezzati, unendo il sapore sapido del tonno con la dolcezza e la cremosità della maionese.

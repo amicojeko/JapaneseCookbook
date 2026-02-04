@@ -9,6 +9,8 @@ tags:
   - taro
   - satoimo
 ---
+import IngredientRecipeList from '@site/src/components/IngredientRecipeList';
+
 
 
 Il Satoimo (taro) è un tubero tropicale commestibile, molto utilizzato nella cucina asiatica, africana e delle isole del Pacifico. È noto per la sua polpa amidacea e leggermente dolce, che diventa tenera e cremosa dopo la cottura.
@@ -21,3 +23,4 @@ Il Satoimo (taro) è un tubero tropicale commestibile, molto utilizzato nella cu
 :::warning
 Va sempre cotto prima del consumo, perché crudo è tossico a causa dei cristalli di ossalato di calcio, che possono irritare la bocca e la gola.
 :::
+<IngredientRecipeList ingredientTag="satoimo" />

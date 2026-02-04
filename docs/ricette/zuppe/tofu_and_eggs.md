@@ -16,8 +16,11 @@ ingredients:
 - Mirin
 - Zucchero
 - Fecola di patate
+tags:
+- mirin
+- potato_starch
+- shiitake
 ---
-
 import ImageComponent from '@site/src/components/ImageComponent';
 
 Ecco una ricetta che ha tutte le caratteristiche che si possono desiderare: è buona, economica, sana, ricca di proteine e vitamine, con pochi carboidrati e soprattutto facile da fare. Un piatto unico completo e saporito, perfetto per quando si ha voglia di qualcosa di gustoso senza complicarsi la vita.

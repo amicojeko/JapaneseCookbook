@@ -11,7 +11,6 @@ ingredients:
 - senape giapponese o
 - zucchero
 ---
-
 ## Ingredienti
 - 4 cucchiai di ketchup (preferibilmente uno dal sapore poco zuccherino)
 - 4 cucchiai di salsa Worcestershire (in Giappone si usa una salsa simile, più fruttata, ma la Worcestershire classica è un’ottima alternativa)

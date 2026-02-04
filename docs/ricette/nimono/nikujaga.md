@@ -13,8 +13,9 @@ ingredients:
 - dashi
 - mirin
 - salsa di soia
+tags:
+- mirin
 ---
-
 import ImageComponent from '@site/src/components/ImageComponent';
 
 Spesso abbiamo un'idea limitata della cucina giapponese, associandola quasi esclusivamente a sushi o ramen. Il Nikujaga (letteralmente "carne e patate") è invece la quintessenza della cucina casalinga nipponica: un piatto estremamente comune, semplice ed economico. Si tratta di uno stufato dolce e salato che scalda il cuore, perfetto per una cena in famiglia, che piace a tutti, grandi e piccini.

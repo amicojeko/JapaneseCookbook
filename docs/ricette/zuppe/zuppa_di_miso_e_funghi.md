@@ -14,8 +14,11 @@ ingredients:
 - Acqua
 tags:
 - vegan
+- enoki
+- kombu
+- miso
+- shiitake
 ---
-
 import ImageComponent from '@site/src/components/ImageComponent';
 
 Bella regà, è arrivato l'autunno... e noi ci facciamo una bella zuppa di miso, funghi shiitake, enoki e miso rosso.

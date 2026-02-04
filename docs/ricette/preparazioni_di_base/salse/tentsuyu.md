@@ -9,8 +9,10 @@ ingredients:
 - dashi
 - mirin
 - salsa di soia
+tags:
+- daikon
+- mirin
 ---
-
 Il **tentsuyu** è una variante del mentsuyu, specificamente usata per accompagnare il **tempura**. È preparato con gli stessi ingredienti di base del mentsuyu, ma viene raffreddato prima di essere servito. Il tentsuyu è spesso accompagnato da **daikon grattugiato**, che aggiunge una nota di freschezza e leggera pungenza, bilanciando il sapore ricco del brodo e il croccante del tempura appena fritto.
 
 E' a base di [dashi](/ricette/dashi), mirin e [salsa di soia](/ingredienti/shoyu), anche se gli ingredienti possono variare a seconda della stagione o a seconda di cosa ci vogliamo accompagnare. Ad esempio, per cose con un sapore forte, il mirin puo' essere sostituito, o "corretto" con sake e zucchero

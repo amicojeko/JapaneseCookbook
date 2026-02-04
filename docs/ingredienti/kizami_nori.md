@@ -6,6 +6,8 @@ description: Sottili striscioline di alga nori tagliate a julienne, perfette com
 image: /img/ingredienti/kizami_nori.jpg
 category: ingredienti
 ---
+import IngredientRecipeList from '@site/src/components/IngredientRecipeList';
+
 
 import ImageComponent from '@site/src/components/ImageComponent';
 
@@ -18,3 +20,4 @@ Kizami (刻み) significa "tagliato" o "sminuzzato".
 Nori (海苔) è il termine per l'alga marina usata comunemente nella cucina giapponese.
 
 Queste striscioline di nori vengono spesso utilizzate come guarnizione per piatti come ramen, soba, zuppe e vari tipi di sushi, aggiungendo un sapore salato e una texture croccante.
+<IngredientRecipeList ingredientTag="kizami_nori" />

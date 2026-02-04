@@ -10,7 +10,6 @@ ingredients:
 - salsa worcestershire
 - zucchero
 ---
-
 ## Ingredienti
 
 - 3 cucchiai di salsa worcestershire

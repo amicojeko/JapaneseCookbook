@@ -16,8 +16,12 @@ ingredients:
 - sake
 - salsa di soia
 - uova grandi
+tags:
+- mirin
+- negi
+- rice
+- sake
 ---
-
 import ImageComponent from '@site/src/components/ImageComponent';
 
 <ImageComponent />

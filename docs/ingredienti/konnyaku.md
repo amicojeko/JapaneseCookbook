@@ -5,6 +5,8 @@ sidebar_custom_props:
 description: Gelatina tradizionale giapponese fatta con la pianta di konjac
 image: /img/ingredienti/konnyaku-1.jpg
 ---
+import IngredientRecipeList from '@site/src/components/IngredientRecipeList';
+
 
 
 import ImageComponent from '@site/src/components/ImageComponent';
@@ -16,3 +18,4 @@ Il Konnyaku (o Konjac) è un alimento tradizionale giapponese ottenuto dalla lav
 Utilizzato in una varietà di piatti giapponesi, il konnyaku è spesso impiegato in stufati, come l'oden, in zuppe, e tagliato in strisce in insalate o piatti saltati. È anche disponibile nella forma di "shirataki", lunghi noodles di konnyaku, che sono una popolare alternativa a basso contenuto calorico ai noodles tradizionali.
 
 Nonostante il suo basso apporto calorico e la mancanza di sapore proprio, il konnyaku è molto apprezzato per le sue proprietà benefiche, tra cui la capacità di favorire la sazietà e il transito intestinale, grazie all'alto contenuto di fibre solubili. Prima di essere cucinato, il konnyaku solitamente viene bollito per alcuni minuti per eliminare eventuali impurità e per ammorbidirlo, preparandolo così ad assorbire meglio i sapori del piatto a cui verrà aggiunto.
+<IngredientRecipeList ingredientTag="konnyaku" />

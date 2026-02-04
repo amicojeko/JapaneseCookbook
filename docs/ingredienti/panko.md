@@ -5,6 +5,8 @@ sidebar_custom_props:
 description: Pan grattato croccante giapponese
 image: /img/ingredienti/panko-1.jpg
 ---
+import IngredientRecipeList from '@site/src/components/IngredientRecipeList';
+
 
 import ImageComponent from '@site/src/components/ImageComponent';
 
@@ -17,3 +19,4 @@ Il panko è un tipo di pangrattato giapponese, famoso per la sua struttura legge
 A differenza dei metodi tradizionali che prevedono la tostatura del pane, il panko viene di solito realizzato cuocendo il pane con uno specifico procedimento elettrico. Il risultato è un pane senza crosta, tritato in fiocchi di varie dimensioni, perfetti per fritture e gratinati super crispy. Come direbbero i food blogger che sarebbe meglio andassero a giocare sui tombini aperti: "ti da il crunch che non sapevi di volere".
 
 <ImageComponent />
+<IngredientRecipeList ingredientTag="panko" />

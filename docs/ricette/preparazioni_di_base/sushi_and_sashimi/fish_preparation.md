@@ -5,7 +5,6 @@ sidebar_custom_props:
 description: Come preparare il pesce per sushi e sashimi
 slug: /ricette/preparazione_pesce_sushi_sashimi
 ---
-
 ## Salmone
 
 - Asciugare bene il pesce con della carta da cucina

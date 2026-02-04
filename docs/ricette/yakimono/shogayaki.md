@@ -14,8 +14,11 @@ ingredients:
 - mela
 - cipolla
 - fecola di patate
+tags:
+- mirin
+- potato_starch
+- sake
 ---
-
 import ImageComponent from '@site/src/components/ImageComponent';
 
 Gli Shogayaki sono delle scaloppine di maiale allo zenzero, una ricetta giapponese molto semplice e veloce da preparare.

@@ -15,8 +15,12 @@ ingredients:
 - sake
 - salsa di soia
 - zenzero
+tags:
+- mirin
+- potato_starch
+- kewpie
+- sake
 ---
-
 import ImageComponent from '@site/src/components/ImageComponent';
 
 <ImageComponent />

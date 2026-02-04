@@ -6,6 +6,8 @@ description: La rapa piu' famosa del Giappone!
 image: /img/ingredienti/daikon.jpg
 category: ingredienti
 ---
+import IngredientRecipeList from '@site/src/components/IngredientRecipeList';
+
 
 import ImageComponent from '@site/src/components/ImageComponent';
 
@@ -16,4 +18,4 @@ Il daikon, o ravanello giapponese, è un grande tubero bianco appartenente alla 
 Crudo, il daikon è spesso grattugiato e usato come contorno per piatti di pesce, in insalate o come condimento per aggiungere freschezza e croccantezza. Cotto, il daikon è comunemente aggiunto a stufati e zuppe, come l'oden, dove assorbe i sapori del brodo arricchendoli con la sua dolcezza sottile. Inoltre, è frequente il suo utilizzo sotto forma di sottaceti, come nel tsukemono, dove il suo gusto si sposa con l'acidità della fermentazione.
 
 Oltre al suo uso culinario, il daikon è apprezzato per le sue proprietà digestive e depurative, rendendolo un ingrediente benefico tanto quanto saporito. La sua versatilità e il profilo di sapore delicato lo rendono un componente essenziale in molte ricette tradizionali giapponesi.
-
+<IngredientRecipeList ingredientTag="daikon" />

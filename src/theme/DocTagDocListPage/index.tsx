@@ -12,7 +12,7 @@ import SearchMetadata from '@theme/SearchMetadata';
 import type {Props} from '@theme/DocTagDocListPage';
 import Unlisted from '@theme/ContentVisibility/Unlisted';
 import Heading from '@theme/Heading';
-import DocCard from '@site/src/components/DocCard';
+import DocCardGrid from '@site/src/components/DocCardGrid';
 import styles from './styles.module.css';
 
 // Very simple pluralization: probably good enough for now
@@ -79,11 +79,7 @@ function DocTagDocListPageContent({
                 </Translate>
               </Link>
             </header>
-            <section className={styles.docsGrid}>
-              {tag.items.map((doc) => (
-                <DocCard key={doc.id} doc={doc} />
-              ))}
-            </section>
+            <DocCardGrid docs={tag.items as any} />
           </main>
         </div>
       </div>

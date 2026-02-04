@@ -10,8 +10,11 @@ ingredients:
 - mirin
 - salsa di soia
 - succo di yuzu
+tags:
+- mirin
+- rice
+- yuzu
 ---
-
 La mia preferita. Perfetta per le ostriche, per i frutti di mare, o per condire il tofu
 
 ## Ingredienti

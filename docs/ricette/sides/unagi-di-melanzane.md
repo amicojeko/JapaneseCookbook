@@ -18,8 +18,12 @@ tags:
 - vegan
 - Semi di sesamo
 - Cipolline verdi
+- mirin
+- potato_starch
+- rice
+- sake
+- sesamo
 ---
-
 import ImageComponent from '@site/src/components/ImageComponent';
 
 Io amo la cucina vegana, e le ricette vegane che preferisco sono quelle che anche un onnivoro come me sceglierebbe non perché sono vegane, ma perché sono buone, proprio buone. In questo la melanzana si presta perfettamente: è praticamente l'Arturo Brachetti degli ortaggi, quella che a seconda di come la cucini cambia aspetto, consistenza, sapore, tutto.

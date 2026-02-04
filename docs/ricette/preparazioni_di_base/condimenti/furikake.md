@@ -10,8 +10,12 @@ ingredients:
 - Alga nori
 - Katsuobushi
 - Semi di Sesamo
+tags:
+- katsuobushi
+- kombu
+- nori
+- sesamo
 ---
-
 import ImageComponent from '@site/src/components/ImageComponent';
 
 Il furikake e' un condimento per il riso, ed e' estremamente popolare.

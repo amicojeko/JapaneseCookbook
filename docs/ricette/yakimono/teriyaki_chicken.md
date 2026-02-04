@@ -8,7 +8,6 @@ ingredients:
 - Pollo
 - Salsa teriyaki
 ---
-
 ## Ingredienti
 
 - Pollo (meglio cosce e sottocosce, il petto buuu)

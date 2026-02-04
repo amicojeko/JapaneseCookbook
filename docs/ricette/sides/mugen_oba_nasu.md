@@ -15,8 +15,10 @@ ingredients:
 - Aglio
 - Zenzero
 - Semi di sesamo
+tags:
+- sesamo
+- shiso
 ---
-
 Un piatto talmente buono che crea dipendenza! Bastano pochi minuti per cuocere le melanzane in padella e mescolarle con una salsa saporita e rinfrescante, arricchita dal profumo inconfondibile delle foglie di shiso. È una ricetta facile e veloce, perfetta come contorno o antipasto.
 
 ## Ingredienti

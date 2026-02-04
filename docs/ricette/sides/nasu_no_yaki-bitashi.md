@@ -15,8 +15,12 @@ ingredients:
 - Shiso
 - Katsuobushi
 - Daikon
+tags:
+- daikon
+- katsuobushi
+- mirin
+- shiso
 ---
-
 Questa ricetta vi farà dimenticare per sempre le melanzane fritte. "Yaki-bitashi" significa "grigliato e immerso": le melanzane vengono prima cotte lentamente in padella con pochissimo olio fino a diventare tenerissime, e poi lasciate a insaporire in un delizioso brodo agrodolce. Il risultato è un piatto estivo fresco, leggero e incredibilmente gustoso.
 
 ## Ingredienti

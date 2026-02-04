@@ -12,6 +12,8 @@ ingredients:
 - sale
 - zucchero
 ---
+import IngredientRecipeList from '@site/src/components/IngredientRecipeList';
+
 
 import ImageComponent from '@site/src/components/ImageComponent';
 
@@ -52,3 +54,4 @@ Il furikake ha una storia interessante e "funzionale". In origine nasceva per re
 :::tip Il Souvenir Perfetto
 Se visitate il Giappone, il furikake è il souvenir ideale. Costa poco, pesa pochissimo, non dà problemi in valigia e ne esistono centinaia di varianti regionali (spesso introvabili altrove), stagionali o legate a brand famosi. È uno di quei regali che, una volta tornati a casa, si usano davvero invece di lasciarli a prendere polvere su uno scaffale.
 :::
+<IngredientRecipeList ingredientTag="furikake" />

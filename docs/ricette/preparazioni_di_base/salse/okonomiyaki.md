@@ -11,8 +11,9 @@ ingredients:
 - salsa di ostriche
 - salsa di soia
 - zucchero
+tags:
+- rice
 ---
-
 ## Ingredienti
 - 3 cucchiai di ketchup
 - 2 cucchiai di salsa Worcestershire

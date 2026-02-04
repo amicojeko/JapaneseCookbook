@@ -4,6 +4,8 @@ sidebar_custom_props:
   subtitle: Vino di riso fermentato
 description: Vino di riso giapponese
 ---
+import IngredientRecipeList from '@site/src/components/IngredientRecipeList';
+
 
 Il sake è un elemento fondamentale della cucina e della cultura giapponese. Non è solo un drink, ma una bevanda che racconta la storia e le tradizioni del Giappone.
 
@@ -35,3 +37,4 @@ Il sake può essere servito sia caldo che freddo, a seconda delle tue preferenze
 ### Ricette con sake
 
 Il sake non è solo una bevanda, ma può anche essere utilizzato in cucina per aggiungere un tocco di autenticità ai tuoi piatti giapponesi, esattamente come il vino nella cucina italiana.
+<IngredientRecipeList ingredientTag="sake" />

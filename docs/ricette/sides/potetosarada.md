@@ -5,9 +5,6 @@ sidebar_custom_props:
 description: Insalata di patate
 slug: /ricette/potetosarada
 image: /img/ricette/potetosarada.jpg
-tags:
-- sides
-- vegetarian
 ingredients:
 - Aceto di riso
 - Carote
@@ -19,8 +16,13 @@ ingredients:
 - Sale
 - Zucchero circa
 - mirin
+tags:
+- sides
+- vegetarian
+- kewpie
+- mirin
+- rice
 ---
-
 import ImageComponent from '@site/src/components/ImageComponent';
 
 <ImageComponent />

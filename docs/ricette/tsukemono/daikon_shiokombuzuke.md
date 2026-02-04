@@ -13,8 +13,13 @@ ingredients:
 - Olio di sesamo
 - Shoyu
 - Zucchero
+tags:
+- daikon
+- kombu
+- sesame_oil
+- sesamo
+- shoyu
 ---
-
 import ImageComponent from '@site/src/components/ImageComponent';
 
 <ImageComponent />

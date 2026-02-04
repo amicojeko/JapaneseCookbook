@@ -19,8 +19,13 @@ ingredients:
 - Miso
 - Olio di sesamo
 - Zenzero
+tags:
+- daikon
+- konnyaku
+- miso
+- sesame_oil
+- sesamo
 ---
-
 import ImageComponent from '@site/src/components/ImageComponent';
 
 Quando fa freddo e la vita non va come vorresti, questa è la zuppa che ti rimette al mondo. Il **Tonjiru** (o *Butajiru*) è la zuppa giapponese più buona e confortante che ci sia. È un piatto ricco e sostanzioso, quasi uno stufato, a base di maiale (il "Ton" o "Buta") e una montagna di verdure di radice, il tutto in un brodo saporito arricchito dal [miso](/ingredienti/miso).

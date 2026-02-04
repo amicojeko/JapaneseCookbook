@@ -11,8 +11,10 @@ ingredients:
 - Zenzero
 - panetto di tofu morbido
 - salsa ponzu
+tags:
+- katsuobushi
+- negi
 ---
-
 import ImageComponent from '@site/src/components/ImageComponent';
 
 <ImageComponent />

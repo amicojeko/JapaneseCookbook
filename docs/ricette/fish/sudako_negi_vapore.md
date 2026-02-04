@@ -12,8 +12,10 @@ ingredients:
 - Aceto
 - Shoyu
 - Pepe nero
+tags:
+- negi
+- shoyu
 ---
-
 ## Ingredienti
 - Moscardini (Iidako)
 - [Negi](/ingredienti/negi) (cipollotti lunghi o porri giapponesi)

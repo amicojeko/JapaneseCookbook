@@ -5,6 +5,8 @@ sidebar_custom_props:
 description: Il porro o cipollotto giapponese
 image: /img/ingredienti/negi.jpg
 ---
+import IngredientRecipeList from '@site/src/components/IngredientRecipeList';
+
 
 import ImageComponent from '@site/src/components/ImageComponent';
 
@@ -15,3 +17,4 @@ Il negi è spesso impiegato come guarnizione per zuppe, come il ramen e il miso,
 Io non lo trovo mai, e lo sosituisco sempre con le cipolline verdi o il porro, a seconda di quanto voglio che sia deciso il sapore.
 
 <ImageComponent />
+<IngredientRecipeList ingredientTag="negi" />

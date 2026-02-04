@@ -10,9 +10,11 @@ ingredients:
 - sake
 - salsa di soia
 - zucchero
+tags:
+- mirin
+- potato_starch
+- sake
 ---
-
-
 ## Ingredienti
 
 - 1 tazza di [sake](/ingredienti/sake)

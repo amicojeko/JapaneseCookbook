@@ -9,8 +9,9 @@ ingredients:
 - Sale
 - Sushisu (Aceto per sushi)
 - Senape Karashi (o senape normale)
+tags:
+- senape_karashi
 ---
-
 Kyuri no Tsukemono, ovvero cetrioli sottaceto, sono uno degli innumerevoli cibi conservati della cucina giapponese. Questa è una delle infinite ricette possibili, una versione "quick and dirty" per un risultato veloce e gustoso.
 
 ## Ingredienti
