@@ -471,7 +471,7 @@ export const NEGOZI: Negozio[] = [
         lat: 45.4811283,
         lng: 9.1712643,
         url: "https://moodmarketmilano.com",
-        note: "Codice di sconto online MOODJEKO2025",
+        note: "Codice di sconto online MOODJEKO2026",
         map_url: "https://maps.app.goo.gl/XsRRvHhJDujRPGy8A",
     },
     {
@@ -503,6 +503,16 @@ export const NEGOZI: Negozio[] = [
         lat: 45.4799703,
         lng: 9.1723477,
         map_url: "https://maps.app.goo.gl/dcBv8xoEEapXHZT2A",
+    },
+    {
+        id: "lombardia-milano-food-house",
+        name: "Food House",
+        region: "Lombardia",
+        city: "Milano",
+        address: "Via Rembrandt, 9, 20147 Milano MI",
+        lat: 45.46718,
+        lng: 9.1386204,
+        map_url: "https://maps.app.goo.gl/juiS4SzsnQHHyFdJ9",
     },
     {
         id: "lombardia-pavia-asia-market-di-wang-junyi",
