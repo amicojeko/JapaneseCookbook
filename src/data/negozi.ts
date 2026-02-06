@@ -423,6 +423,16 @@ export const NEGOZI: Negozio[] = [
         map_url: "https://maps.app.goo.gl/bTTVEdpHgZteuAQ67",
     },
     {
+        id: "liguria-sanremo-asia-market-sas-di-zhu-xiuqin-c",
+        name: "Asia Market Sas di Zhu Xiuqin & C.",
+        region: "Liguria",
+        city: "Sanremo",
+        address: "Via Nino Bixio, 39, 18038 Sanremo IM",
+        lat: 43.8148405,
+        lng: 7.7764992,
+        map_url: "https://maps.app.goo.gl/gYHVcExVgvnwW8eW9",
+    },
+    {
         id: "lombardia-brescia-supercity-food-market",
         name: "SuperCity Food Market",
         region: "Lombardia",
