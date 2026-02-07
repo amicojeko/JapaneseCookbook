@@ -1,4 +1,156 @@
 export const INGREDIENT_RECIPE_INDEX = {
+  "enoki": [
+    {
+      "id": "ricette/agemono/enoki_tatsuta-age",
+      "title": "Enoki Tatsuta-age",
+      "description": "Funghi enoki croccanti e saporiti, il contorno perfetto \"ladro di riso",
+      "permalink": "/ricette/enoki-tatsuta-age"
+    },
+    {
+      "id": "ricette/sides/nametake",
+      "title": "Nametake",
+      "description": "Una ricetta giapponese \"casalinga\" facilissima ed economica. Funghi Enoki cotti in salsa di soia e mirin, perfetti sul riso.",
+      "permalink": "/ricette/nametake"
+    },
+    {
+      "id": "ricette/zuppe/zuppa_di_miso_e_funghi",
+      "title": "Zuppa di Miso e Funghi Vegana",
+      "description": "Una zuppa di miso vegana, perfetta per l'autunno, con shiitake, enoki e miso rosso.",
+      "permalink": "/ricette/zuppa-miso-funghi-vegana"
+    }
+  ],
+  "shoyu": [
+    {
+      "id": "ricette/agemono/enoki_tatsuta-age",
+      "title": "Enoki Tatsuta-age",
+      "description": "Funghi enoki croccanti e saporiti, il contorno perfetto \"ladro di riso",
+      "permalink": "/ricette/enoki-tatsuta-age"
+    },
+    {
+      "id": "ricette/fish/sudako_negi_vapore",
+      "title": "Sudako con Negi al Vapore",
+      "description": "Moscardini bolliti e cipollotti al vapore conditi con una salsa agrodolce all'aceto e pepe nero",
+      "permalink": "/ricette/sudako_negi_vapore"
+    },
+    {
+      "id": "ricette/riso/takenoko_gohan",
+      "title": "Takenoko Gohan",
+      "description": "Un classico primaverile: riso condito (Takikomi Gohan) cotto con germogli di bambù, aburaage e brodo dashi.",
+      "permalink": "/ricette/takenoko_gohan"
+    },
+    {
+      "id": "ricette/sides/horenso_no_ohitashi",
+      "title": "Hōrensō no ohitashi",
+      "description": "Un contorno fondamentale della cucina giapponese: spinaci sbollentati e marinati in un brodo dashi delicato.",
+      "permalink": "/ricette/horenso_no_ohitashi"
+    },
+    {
+      "id": "ricette/tsukemono/daikon_shiokombuzuke",
+      "title": "Daikon Shiokombuzuke",
+      "description": "Daikon marinato con shio kombu, sesamo e shoyu. Una bomba di umami!",
+      "permalink": "/ricette/daikon_shiokombuzuke"
+    }
+  ],
+  "sesamo": [
+    {
+      "id": "ricette/agemono/enoki_tatsuta-age",
+      "title": "Enoki Tatsuta-age",
+      "description": "Funghi enoki croccanti e saporiti, il contorno perfetto \"ladro di riso",
+      "permalink": "/ricette/enoki-tatsuta-age"
+    },
+    {
+      "id": "ricette/antipasti/sunomono",
+      "title": "Sunomono di Cetrioli e Wakame (con variante al Polpo)",
+      "description": "Insalatine giapponesi con condimento a base di aceto, perfette per l'estate.",
+      "permalink": "/ricette/sunomono"
+    },
+    {
+      "id": "ricette/antipasti/yamitsuki_kyabesu",
+      "title": "Yamitsuki Kyabesu",
+      "description": "Il cavolo che te da la rota!",
+      "permalink": "/ricette/yamitsuki_kyabesu"
+    },
+    {
+      "id": "ricette/preparazioni_di_base/condimenti/furikake",
+      "title": "Furikake",
+      "description": "Condimento secco per riso",
+      "permalink": "/ricette/furikake"
+    },
+    {
+      "id": "ricette/sides/mugen_oba_nasu",
+      "title": "Mugen Oba Nasu",
+      "description": "Un piatto velocissimo dove le melanzane tenere incontrano la freschezza dello shiso e una salsa agrodolce irresistibile.",
+      "permalink": "/ricette/mugen_oba_nasu"
+    },
+    {
+      "id": "ricette/sides/unagi-di-melanzane",
+      "title": "Unagi di melanzane",
+      "description": "La Melanzana che voleva essere un'Anguilla! Una ricetta vegana così buona che la sceglierebbe anche un onnivoro.",
+      "permalink": "/ricette/unagi_di_melanzane"
+    },
+    {
+      "id": "ricette/tsukemono/daikon_shiokombuzuke",
+      "title": "Daikon Shiokombuzuke",
+      "description": "Daikon marinato con shio kombu, sesamo e shoyu. Una bomba di umami!",
+      "permalink": "/ricette/daikon_shiokombuzuke"
+    },
+    {
+      "id": "ricette/yakimono/gyoza",
+      "title": "Gyoza",
+      "description": "Ravioli alla piastra",
+      "permalink": "/ricette/gyoza"
+    },
+    {
+      "id": "ricette/zuppe/osuimono",
+      "title": "Osuimono Vegano",
+      "description": "Zuppa trasparente e delicatissima, una versione vegana facile facile.",
+      "permalink": "/ricette/osuimono"
+    },
+    {
+      "id": "ricette/zuppe/tonjiru",
+      "title": "Tonjiru",
+      "description": "La zuppa giapponese più confortante, un \"reset dell'anima\" ricco di maiale e verdure di radice.",
+      "permalink": "/ricette/tonjiru"
+    }
+  ],
+  "potato starch": [
+    {
+      "id": "ricette/agemono/enoki_tatsuta-age",
+      "title": "Enoki Tatsuta-age",
+      "description": "Funghi enoki croccanti e saporiti, il contorno perfetto \"ladro di riso",
+      "permalink": "/ricette/enoki-tatsuta-age"
+    },
+    {
+      "id": "ricette/agemono/kara-age",
+      "title": "Kara-Age",
+      "description": "Il pollo fritto piu' buono del mondo",
+      "permalink": "/ricette/kara-age"
+    },
+    {
+      "id": "ricette/preparazioni_di_base/salse/teriyaki",
+      "title": "Salsa Teriyaki",
+      "description": "La salsa barbecue giapponese",
+      "permalink": "/ricette/salsa_teriyaki"
+    },
+    {
+      "id": "ricette/sides/unagi-di-melanzane",
+      "title": "Unagi di melanzane",
+      "description": "La Melanzana che voleva essere un'Anguilla! Una ricetta vegana così buona che la sceglierebbe anche un onnivoro.",
+      "permalink": "/ricette/unagi_di_melanzane"
+    },
+    {
+      "id": "ricette/yakimono/shogayaki",
+      "title": "Shogayaki",
+      "description": "Scaloppine di maiale allo zenzero",
+      "permalink": "/ricette/shogayaki"
+    },
+    {
+      "id": "ricette/zuppe/tofu_and_eggs",
+      "title": "Tofu in \"stracciatella\" con verdure",
+      "description": "Una ricetta buona, economica, sana, proteica e facile da fare.",
+      "permalink": "/ricette/zuppa_di_tofu_e_uova"
+    }
+  ],
   "mirin": [
     {
       "id": "ricette/agemono/kara-age",
@@ -131,38 +283,6 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Ninniku no Misozuke",
       "description": "Aglio conservato sotto miso",
       "permalink": "/ricette/ninniku_no_misozuke"
-    },
-    {
-      "id": "ricette/yakimono/shogayaki",
-      "title": "Shogayaki",
-      "description": "Scaloppine di maiale allo zenzero",
-      "permalink": "/ricette/shogayaki"
-    },
-    {
-      "id": "ricette/zuppe/tofu_and_eggs",
-      "title": "Tofu in \"stracciatella\" con verdure",
-      "description": "Una ricetta buona, economica, sana, proteica e facile da fare.",
-      "permalink": "/ricette/zuppa_di_tofu_e_uova"
-    }
-  ],
-  "potato starch": [
-    {
-      "id": "ricette/agemono/kara-age",
-      "title": "Kara-Age",
-      "description": "Il pollo fritto piu' buono del mondo",
-      "permalink": "/ricette/kara-age"
-    },
-    {
-      "id": "ricette/preparazioni_di_base/salse/teriyaki",
-      "title": "Salsa Teriyaki",
-      "description": "La salsa barbecue giapponese",
-      "permalink": "/ricette/salsa_teriyaki"
-    },
-    {
-      "id": "ricette/sides/unagi-di-melanzane",
-      "title": "Unagi di melanzane",
-      "description": "La Melanzana che voleva essere un'Anguilla! Una ricetta vegana così buona che la sceglierebbe anche un onnivoro.",
-      "permalink": "/ricette/unagi_di_melanzane"
     },
     {
       "id": "ricette/yakimono/shogayaki",
@@ -491,62 +611,6 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/tonjiru"
     }
   ],
-  "sesamo": [
-    {
-      "id": "ricette/antipasti/sunomono",
-      "title": "Sunomono di Cetrioli e Wakame (con variante al Polpo)",
-      "description": "Insalatine giapponesi con condimento a base di aceto, perfette per l'estate.",
-      "permalink": "/ricette/sunomono"
-    },
-    {
-      "id": "ricette/antipasti/yamitsuki_kyabesu",
-      "title": "Yamitsuki Kyabesu",
-      "description": "Il cavolo che te da la rota!",
-      "permalink": "/ricette/yamitsuki_kyabesu"
-    },
-    {
-      "id": "ricette/preparazioni_di_base/condimenti/furikake",
-      "title": "Furikake",
-      "description": "Condimento secco per riso",
-      "permalink": "/ricette/furikake"
-    },
-    {
-      "id": "ricette/sides/mugen_oba_nasu",
-      "title": "Mugen Oba Nasu",
-      "description": "Un piatto velocissimo dove le melanzane tenere incontrano la freschezza dello shiso e una salsa agrodolce irresistibile.",
-      "permalink": "/ricette/mugen_oba_nasu"
-    },
-    {
-      "id": "ricette/sides/unagi-di-melanzane",
-      "title": "Unagi di melanzane",
-      "description": "La Melanzana che voleva essere un'Anguilla! Una ricetta vegana così buona che la sceglierebbe anche un onnivoro.",
-      "permalink": "/ricette/unagi_di_melanzane"
-    },
-    {
-      "id": "ricette/tsukemono/daikon_shiokombuzuke",
-      "title": "Daikon Shiokombuzuke",
-      "description": "Daikon marinato con shio kombu, sesamo e shoyu. Una bomba di umami!",
-      "permalink": "/ricette/daikon_shiokombuzuke"
-    },
-    {
-      "id": "ricette/yakimono/gyoza",
-      "title": "Gyoza",
-      "description": "Ravioli alla piastra",
-      "permalink": "/ricette/gyoza"
-    },
-    {
-      "id": "ricette/zuppe/osuimono",
-      "title": "Osuimono Vegano",
-      "description": "Zuppa trasparente e delicatissima, una versione vegana facile facile.",
-      "permalink": "/ricette/osuimono"
-    },
-    {
-      "id": "ricette/zuppe/tonjiru",
-      "title": "Tonjiru",
-      "description": "La zuppa giapponese più confortante, un \"reset dell'anima\" ricco di maiale e verdure di radice.",
-      "permalink": "/ricette/tonjiru"
-    }
-  ],
   "wakame": [
     {
       "id": "ricette/antipasti/sunomono",
@@ -627,32 +691,6 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Zuppa di Miso e Funghi Vegana",
       "description": "Una zuppa di miso vegana, perfetta per l'autunno, con shiitake, enoki e miso rosso.",
       "permalink": "/ricette/zuppa-miso-funghi-vegana"
-    }
-  ],
-  "shoyu": [
-    {
-      "id": "ricette/fish/sudako_negi_vapore",
-      "title": "Sudako con Negi al Vapore",
-      "description": "Moscardini bolliti e cipollotti al vapore conditi con una salsa agrodolce all'aceto e pepe nero",
-      "permalink": "/ricette/sudako_negi_vapore"
-    },
-    {
-      "id": "ricette/riso/takenoko_gohan",
-      "title": "Takenoko Gohan",
-      "description": "Un classico primaverile: riso condito (Takikomi Gohan) cotto con germogli di bambù, aburaage e brodo dashi.",
-      "permalink": "/ricette/takenoko_gohan"
-    },
-    {
-      "id": "ricette/sides/horenso_no_ohitashi",
-      "title": "Hōrensō no ohitashi",
-      "description": "Un contorno fondamentale della cucina giapponese: spinaci sbollentati e marinati in un brodo dashi delicato.",
-      "permalink": "/ricette/horenso_no_ohitashi"
-    },
-    {
-      "id": "ricette/tsukemono/daikon_shiokombuzuke",
-      "title": "Daikon Shiokombuzuke",
-      "description": "Daikon marinato con shio kombu, sesamo e shoyu. Una bomba di umami!",
-      "permalink": "/ricette/daikon_shiokombuzuke"
     }
   ],
   "udon": [
@@ -971,20 +1009,6 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Gyudon",
       "description": "La ciotola di riso con carne di manzo e cipolla",
       "permalink": "/ricette/gyudon"
-    }
-  ],
-  "enoki": [
-    {
-      "id": "ricette/sides/nametake",
-      "title": "Nametake",
-      "description": "Una ricetta giapponese \"casalinga\" facilissima ed economica. Funghi Enoki cotti in salsa di soia e mirin, perfetti sul riso.",
-      "permalink": "/ricette/nametake"
-    },
-    {
-      "id": "ricette/zuppe/zuppa_di_miso_e_funghi",
-      "title": "Zuppa di Miso e Funghi Vegana",
-      "description": "Una zuppa di miso vegana, perfetta per l'autunno, con shiitake, enoki e miso rosso.",
-      "permalink": "/ricette/zuppa-miso-funghi-vegana"
     }
   ],
   "sides": [
