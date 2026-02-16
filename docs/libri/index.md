@@ -27,6 +27,6 @@ Questa collana e' edita dalla Japanese Culinary Academy, un'istituzione di rifer
 
 ## Hai un titolo da consigliare?
 
-Se c'e' un libro che merita di stare qui, scrivimi pure su Instagram: [@amicojeko](https://www.instagram.com/amicojeko/) o a [jeko@jeko.net](mailto:jeko@jeko.net)
+Se c'e' un libro che merita di stare qui, scrivimi pure su Instagram: [@amicojeko](https://www.instagram.com/amicojeko/)
 
 
