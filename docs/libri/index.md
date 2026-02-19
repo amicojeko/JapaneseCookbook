@@ -1,5 +1,5 @@
 ---
-title: "📚 Libri consigliati"
+title: "📖 Libri consigliati"
 description: "Una selezione di libri utili per cucina e cultura gastronomica giapponese"
 slug: "/libri"
 sidebar_position: 5
