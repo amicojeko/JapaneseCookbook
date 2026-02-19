@@ -25,6 +25,32 @@ Questa collana e' edita dalla Japanese Culinary Academy, un'istituzione di rifer
 - [Flavoring and Seasoning: Dashi, Umami, and Fermented Foods](https://amzn.to/4qDlPVu)
 - [Yakiba Grilling Techniques: Shio-Yaki, Furishio-Yaki, Yuan-Yaki, Tare-Yaki, and Yakitori](https://amzn.to/4kH5bTu)
 
+## Altri libri
+
+Questi non sono libri di cucina, ma sono romanzi, fumetti o altri testi che parlano di cibo giapponese, e che secondo me sono molto interessanti per chi vuole approfondire la cultura gastronomica del Giappone.
+
+- [Le ricette perdute del ristorante Kamogawa](https://amzn.to/4qAKaen)
+- [Le piccole storie della locanda Kamogawa: Vol. 2](https://amzn.to/4qPHDNS)
+- [Gli ingredienti segreti del signor Nagare](https://amzn.to/4cwb6sk)
+
+### La taverna di mezzanotte
+
+Da questa [serie di manga](https://amzn.to/4rmrrog) e' stata tratta la serie TV di Netflix "Midnight Diner", che racconta le storie di una piccola taverna aperta solo di notte, e dei suoi clienti. E' un manga molto bello, con storie semplici ma profonde, e con ricette giapponesi tradizionali che vengono spiegate in modo chiaro e dettagliato. Consigliatissimo per chi vuole scoprire la cucina giapponese attraverso la cucina e le storie dei suoi protagonisti.
+
+- [La taverna di mezzanotte. Tokyo stories (Vol. 1)](https://amzn.to/4ajkBtE)
+- [La taverna di mezzanotte. Tokyo stories (Vol. 2)](https://amzn.to/4ajHOvL)
+- [La taverna di mezzanotte. Tokyo stories (Vol. 3)](https://amzn.to/4cxFHpv)
+- [La taverna di mezzanotte. Tokyo stories (Vol. 4)](https://amzn.to/4rYrir8)
+- [La taverna di mezzanotte. Tokyo stories (Vol. 5)](https://amzn.to/3Ou2V5T)
+- [La taverna di mezzanotte. Tokyo stories (Vol. 6)](https://amzn.to/4rRqVOP)
+- [La taverna di mezzanotte. Tokyo stories (Vol. 7)](https://amzn.to/4qCOjyw)
+- [La taverna di mezzanotte. Tokyo stories (Vol. 8)](https://amzn.to/4rwhyUQ)
+- [La taverna di mezzanotte. Tokyo stories (Vol. 9)](https://amzn.to/4re3jEa)
+- [La taverna di mezzanotte. Tokyo stories (Vol. 10)](https://amzn.to/3MyC20b)
+- [La taverna di mezzanotte. Tokyo stories (Vol. 11)](https://amzn.to/4rZ6S17)
+- [La taverna di mezzanotte. Tokyo stories (Vol. 12)](https://amzn.to/3MHWT14)
+
+
 ## Hai un titolo da consigliare?
 
 Se c'e' un libro che merita di stare qui, scrivimi pure su Instagram: [@amicojeko](https://www.instagram.com/amicojeko/)
