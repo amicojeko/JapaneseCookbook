@@ -1,5 +1,5 @@
 ---
-title: "📖 Libri consigliati"
+title: "📕 Libri consigliati"
 description: "Una selezione di libri utili per cucina e cultura gastronomica giapponese"
 slug: "/libri"
 sidebar_position: 5
@@ -17,6 +17,10 @@ In questa sezione raccolgo i libri che mi hanno aiutato davvero: ricettari affid
 
 ## Libri in inglese
 
+- [Japanese Cookiing: A Simple Art](https://amzn.to/4aGuNLL) (di Shizuo Tsuji) Un classico intramontabile, un testo fondamentale per chi vuole approfondire la cucina giapponese. E' un libro molto completo, che copre sia le basi che tecniche avanzate, con ricette dettagliate e fotografie esplicative. E' un libro che consiglio a chi vuole diventare un esperto di cucina giapponese, o a chi vuole semplicemente approfondire la sua conoscenza della cucina giapponese.
+
+### Japanese Culinary Academy series
+
 Questa collana e' edita dalla Japanese Culinary Academy, un'istituzione di riferimento per la formazione professionale in cucina giapponese. I volumi sono scritti da chef esperti e coprono sia le basi che tecniche avanzate, con ricette dettagliate e fotografie esplicative. Sono in assoluto i libri migliori che possiate trovare, anche se sono rivolti princialmente ad un pubblico di professionisti o appassionati molto motivati.
 
 - [Introduction to Japanese Cuisine: Nature, History and Culture](https://amzn.to/4az3we5)
@@ -27,28 +31,19 @@ Questa collana e' edita dalla Japanese Culinary Academy, un'istituzione di rifer
 
 ## Altri libri
 
-Questi non sono libri di cucina, ma sono romanzi, fumetti o altri testi che parlano di cibo giapponese, e che secondo me sono molto interessanti per chi vuole approfondire la cultura gastronomica del Giappone.
+Questi non sono libri di cucina, ma sono romanzi, fumetti o altri testi giapponesi, incentrati principalmente sul cibo e sulla cucina, e che secondo me sono molto interessanti per chi vuole approfondire la cultura gastronomica del Giappone e come i giapponesi vivono e percepiscono il cibo.
 
 - [Le ricette perdute del ristorante Kamogawa](https://amzn.to/4qAKaen)
 - [Le piccole storie della locanda Kamogawa: Vol. 2](https://amzn.to/4qPHDNS)
 - [Gli ingredienti segreti del signor Nagare](https://amzn.to/4cwb6sk)
 
-### La taverna di mezzanotte
+###  Manga
 
-Da questa [serie di manga](https://amzn.to/4rmrrog) e' stata tratta la serie TV di Netflix "Midnight Diner", che racconta le storie di una piccola taverna aperta solo di notte, e dei suoi clienti. E' un manga molto bello, con storie semplici ma profonde, e con ricette giapponesi tradizionali che vengono spiegate in modo chiaro e dettagliato. Consigliatissimo per chi vuole scoprire la cucina giapponese attraverso la cucina e le storie dei suoi protagonisti.
+- [La taverna di mezzanotte](https://amzn.to/4rmrrog) Da questa serie e' stata tratta la serie TV di Netflix "Midnight Diner", che racconta le storie di una piccola taverna aperta solo di notte, e dei suoi clienti. E' un manga molto bello, con storie semplici ma profonde, e con ricette giapponesi tradizionali che vengono spiegate in modo chiaro e dettagliato. Consigliatissimo per chi vuole scoprire la cucina giapponese attraverso la cucina e le storie dei suoi protagonisti.
 
-- [La taverna di mezzanotte. Tokyo stories (Vol. 1)](https://amzn.to/4ajkBtE)
-- [La taverna di mezzanotte. Tokyo stories (Vol. 2)](https://amzn.to/4ajHOvL)
-- [La taverna di mezzanotte. Tokyo stories (Vol. 3)](https://amzn.to/4cxFHpv)
-- [La taverna di mezzanotte. Tokyo stories (Vol. 4)](https://amzn.to/4rYrir8)
-- [La taverna di mezzanotte. Tokyo stories (Vol. 5)](https://amzn.to/3Ou2V5T)
-- [La taverna di mezzanotte. Tokyo stories (Vol. 6)](https://amzn.to/4rRqVOP)
-- [La taverna di mezzanotte. Tokyo stories (Vol. 7)](https://amzn.to/4qCOjyw)
-- [La taverna di mezzanotte. Tokyo stories (Vol. 8)](https://amzn.to/4rwhyUQ)
-- [La taverna di mezzanotte. Tokyo stories (Vol. 9)](https://amzn.to/4re3jEa)
-- [La taverna di mezzanotte. Tokyo stories (Vol. 10)](https://amzn.to/3MyC20b)
-- [La taverna di mezzanotte. Tokyo stories (Vol. 11)](https://amzn.to/4rZ6S17)
-- [La taverna di mezzanotte. Tokyo stories (Vol. 12)](https://amzn.to/3MHWT14)
+- [Food Wars (Shokugeki no Soma)](https://amzn.to/46gPJrl) Un manga molto popolare, da cui e' stato tratto un anime, che racconta le avventure di un giovane chef che frequenta una scuola di cucina molto prestigiosa, la versione estrema dei reality show di cucina, e quando un piatto piace particolarmente, esplodono i vestiti dei giudici... letteralmente!!😆
+
+- [Drops of God](https://amzn.to/46YtoyQ) Un manga dedicato al mondo del vino, con una trama avvincente e personaggi ben sviluppati. E' un manga assolutamente imperdibile per gli appassionati di vino, ma anche per chi vuole scoprire il mondo del vino attraverso una storia coinvolgente e ben scritta.
 
 
 ## Hai un titolo da consigliare?
