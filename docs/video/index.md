@@ -1,7 +1,7 @@
 ---
 title: "🎬 Film, Anime e Serie TV"
 description: "Una selezione di film, anime e serie TV giapponesi legati al cibo e alla cultura gastronomica giapponese"
-slug: "/film_e_anime"
+slug: "/film_anime_serie_tv"
 sidebar_position: 6
 ---
 
