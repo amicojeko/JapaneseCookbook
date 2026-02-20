@@ -13,17 +13,19 @@ Questo repository contiene un sito Docusaurus in italiano dedicato alla cucina g
 - Ingredienti: `docs/ingredienti/**`
 - Strumenti: `docs/strumenti/**`
 - Negozi: dati in `src/data/negozi.ts`, pagine in `docs/negozi/**`
+- Libri: `docs/libri/**`
 
 ## Componenti e integrazioni
 - `src/components/ImageComponent.tsx`: mostra immagini ricetta partendo dal frontmatter.
 - `src/components/YouTubeVideo.tsx`: mostra video nelle pagine.
+- `src/components/DocCard.tsx`: card riusabile per ricette/ingredienti/strumenti; carica automaticamente l'immagine da `/image-metadata.json`.
 - Negozi:
   - Lista dati: `src/data/negozi.ts`
   - Rendering: `src/components/RegionShopList.tsx` e `src/components/NegoziMap.tsx`
 
 ## Immagini e metadati
-- Lo script `scripts/generate-image-metadata.js` genera `build/image-metadata.json`.
-- `build/` e `build/image-metadata.json` sono artefatti generati: non modificarli a mano, rigenerarli quando serve.
+- Lo script `scripts/generate-image-metadata.js` genera `static/image-metadata.json` (non `build/`).
+- `build/`, `static/image-metadata.json` e `src/data/ingredient-recipes.ts` sono artefatti generati: non modificarli a mano, rigenerarli con `npm run build` o `npm run prebuild`.
 - Se aggiungi immagini, verifica che il frontmatter della pagina e il flusso di build le rendano disponibili.
 
 ## Frontmatter ricette
@@ -31,6 +33,7 @@ Le ricette usano frontmatter con almeno:
 - `title`, `description`, `slug`
 - `image` per l'immagine principale
 - `ingredients` come lista base usata dal sito
+- `tags` per categorizzare la ricetta
 
 ## Flusso di lavoro e vincoli
 - Mantieni la struttura dei file esistenti (titoli, sezioni, ordine).
@@ -65,4 +68,4 @@ Le ricette usano frontmatter con almeno:
     ```
 
 ## Prompt suggerito (per agenti)
-Segui le istruzioni in `AGENTS.md`. Mantieni lo stile italiano e il sistema metrico. Modifica solo i contenuti in `docs/` o i file TypeScript necessari (es. `src/data/negozi.ts`) e non toccare i file generati in `build/`. Se non trovi un file o un template, chiedi invece di inventare.
+Segui le istruzioni in `AGENTS.md`. Mantieni lo stile italiano e il sistema metrico. Modifica solo i contenuti in `docs/` o i file TypeScript necessari (es. `src/data/negozi.ts`) e non toccare i file generati (`build/`, `static/image-metadata.json`, `src/data/ingredient-recipes.ts`). Se non trovi un file o un template, chiedi invece di inventare.
