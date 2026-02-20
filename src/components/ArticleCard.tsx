@@ -2,22 +2,22 @@ import React, { ReactNode } from 'react';
 import styles from './ArticleCard.module.css';
 
 interface ArticleCardProps {
-  originalTitle: string;
+  subtitle: string;
   imageSrc: string;
   imageAlt: string;
   children: ReactNode;
 }
 
 export const ArticleCard: React.FC<ArticleCardProps> = ({
-  originalTitle,
+  subtitle,
   imageSrc,
   imageAlt,
   children,
 }) => {
   return (
     <div className={styles.articleCardWrapper}>
-      <small className={styles.articleTitle}>
-        {originalTitle}
+      <small className={styles.articleSubtitle}>
+        {subtitle}
       </small>
       <div className={styles.articleCard}>
         <img

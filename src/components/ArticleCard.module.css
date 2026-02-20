@@ -8,12 +8,13 @@
   border-bottom: none;
 }
 
-.articleTitle {
+.articleSubtitle {
   font-style: italic;
   font-size: 0.875em;
   color: #666;
   margin-bottom: 0.8em;
   display: block;
+  margin-top: -2.5em;
 }
 
 .articleCard {
