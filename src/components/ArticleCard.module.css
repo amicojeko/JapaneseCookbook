@@ -1,18 +1,50 @@
+.articleCardWrapper {
+  display: block;
+  padding: 20px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.articleCardWrapper:last-child {
+  border-bottom: none;
+}
+
+.articleTitle {
+  font-style: italic;
+  font-size: 0.875em;
+  color: #666;
+  margin-bottom: 0.8em;
+  display: block;
+}
+
+.articleCard {
+  display: flex;
+  gap: 20px;
+}
+
 .articleImage {
-  float: left;
-  /* height: 160px; */
-  width: 250px;
-  margin-right: 15px;
-  margin-bottom: 10px;
+  flex-shrink: 0;
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.articleContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 @media (max-width: 768px) {
+  .articleCard {
+    flex-direction: column;
+    gap: 15px;
+  }
+
   .articleImage {
-    float: none;
-    max-width: 100%;
+    width: 100%;
     height: auto;
-    margin-right: 0;
-    margin-bottom: 1em;
-    display: block;
+    max-width: 100%;
   }
 }

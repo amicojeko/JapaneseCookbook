@@ -15,18 +15,21 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({
   children,
 }) => {
   return (
-    <>
-      <small style={{ fontStyle: 'italic', display: 'block', marginTop: '-1.5em', marginBottom: '1em' }}>
+    <div className={styles.articleCardWrapper}>
+      <small className={styles.articleTitle}>
         {originalTitle}
       </small>
-      <img
-        src={imageSrc}
-        alt={imageAlt}
-        className={styles.articleImage}
-      />
-      <div className={styles.articleContent}>
-        {children}
+      <div className={styles.articleCard}>
+        <img
+          src={imageSrc}
+          alt={imageAlt}
+          className={styles.articleImage}
+        />
+        <div className={styles.articleContent}>
+          {children}
+        </div>
       </div>
-    </>
+    </div>
   );
 };
+
