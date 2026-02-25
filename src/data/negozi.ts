@@ -1236,6 +1236,16 @@ export const NEGOZI: Negozio[] = [
         map_url: "https://maps.app.goo.gl/YnTbFCJeuwnGB2dQ9",
     },
     {
+        id: "veneto-verona-euroasia-alimentari-orientali",
+        name: "EuroAsia alimentari orientali, africani e sud americani",
+        region: "Veneto",
+        city: "Verona",
+        address: "Via Francesco Berni, 2, 37122 Verona VR",
+        lat: 45.4341042,
+        lng: 10.9860083,
+        map_url: "https://maps.app.goo.gl/QjNe1Bn3adJPJd4s6",
+    },
+    {
         id: "lombardia-vigevano-gastronomia-ye",
         name: "Gastronomia Ye",
         region: "Lombardia",
