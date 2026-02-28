@@ -40,6 +40,8 @@ export default function DocCard({doc}: DocCardProps): React.ReactElement {
                 className={styles.image}
                 loading="lazy"
                 decoding="async"
+                width={srcsetData.width}
+                height={srcsetData.height}
               />
             </picture>
           ) : (

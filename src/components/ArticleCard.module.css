@@ -22,12 +22,18 @@
   gap: 20px;
 }
 
+picture {
+  display: block;
+  flex-shrink: 0;
+}
+
 .articleImage {
   flex-shrink: 0;
   width: 220px;
   height: 220px;
   object-fit: cover;
   border-radius: 4px;
+  display: block;
 }
 
 .articleContent {

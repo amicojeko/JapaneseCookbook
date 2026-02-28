@@ -95,6 +95,9 @@ const config: Config = {
         name: 'description',
         content: 'Tutte le ricette giapponesi spiegate passo passo, con foto e video. Scopri i segreti della cucina giapponese con Jeko!'
       },
+      // Performance optimizations
+      {name: 'referrer', content: 'strict-origin-when-cross-origin'},
+      {httpEquiv: 'x-ua-compatible', content: 'IE=edge'},
     ],
     colorMode: {
       respectPrefersColorScheme: true,

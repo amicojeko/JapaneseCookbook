@@ -34,6 +34,8 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({
               className={styles.articleImage}
               loading="lazy"
               decoding="async"
+              width={srcsetData.width}
+              height={srcsetData.height}
             />
           </picture>
         ) : (
