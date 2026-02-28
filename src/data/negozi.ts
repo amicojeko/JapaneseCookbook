@@ -423,6 +423,16 @@ export const NEGOZI: Negozio[] = [
         map_url: "https://maps.app.goo.gl/bTTVEdpHgZteuAQ67",
     },
     {
+        id: "liguria-genova-wasim-market",
+        name: "Wasim Market",
+        region: "Liguria",
+        city: "Genova",
+        address: "Corso Sardegna, 215r, 16142 Genova GE",
+        lat: 44.4105224,
+        lng: 8.9549278,
+        map_url: "https://maps.app.goo.gl/oZ2xiCwKGqv6nGBg8",
+    },
+    {
         id: "liguria-sanremo-asia-market-sas-di-zhu-xiuqin-c",
         name: "Asia Market Sas di Zhu Xiuqin & C.",
         region: "Liguria",
