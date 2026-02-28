@@ -1,4 +1,5 @@
 import React, { ReactNode } from 'react';
+import IdealImage from '@theme/IdealImage';
 import styles from './ArticleCard.module.css';
 
 interface ArticleCardProps {
@@ -20,8 +21,8 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({
         {subtitle}
       </small>
       <div className={styles.articleCard}>
-        <img
-          src={imageSrc}
+        <IdealImage
+          img={imageSrc}
           alt={imageAlt}
           className={styles.articleImage}
         />

@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import Link from '@docusaurus/Link';
 import Heading from '@theme/Heading';
+import IdealImage from '@theme/IdealImage';
 import styles from './DocCard.module.css';
 
 // Usa il file immagini metadata generato durante la build
@@ -45,7 +46,11 @@ export default function DocCard({doc}: DocCardProps): React.ReactElement {
     <Link to={doc.permalink} className={styles.docItemLink}>
       <article className={styles.docItem}>
         <div className={styles.imageWrapper}>
-          <img src={displayImage} alt={doc.title} className={styles.image} />
+          <IdealImage
+            img={displayImage}
+            alt={doc.title}
+            className={styles.image}
+          />
         </div>
         <div className={styles.content}>
           <Heading as="h3" className={styles.title}>
