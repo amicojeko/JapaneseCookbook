@@ -42,6 +42,5 @@ Per un risultato impeccabile, assicuratevi che il pollo sia a temperatura ambien
 
 ## Video
 
-import YouTubeVideo from '@site/src/components/YouTubeVideo';
 
 <YouTubeVideo videoId="4urhrkpiV5o" />

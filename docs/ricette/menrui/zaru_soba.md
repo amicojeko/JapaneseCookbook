@@ -18,7 +18,6 @@ tags:
 - kizami_nori
 - nori
 ---
-import ImageComponent from '@site/src/components/ImageComponent';
 
 Gli zaru soba sono spaghetti di grano saraceno freddi, serviti con una salsa a base di [(mentsuyu)](/ricette/mentsuyu). Sono un piatto estivo molto popolare, e si trovano in molti ristoranti giapponesi. Sono molto semplici da preparare, e sono un ottimo piatto per l'estate.
 

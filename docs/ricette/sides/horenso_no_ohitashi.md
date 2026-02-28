@@ -16,7 +16,6 @@ tags:
 - mirin
 - shoyu
 ---
-import ImageComponent from '@site/src/components/ImageComponent';
 
 <ImageComponent />
 

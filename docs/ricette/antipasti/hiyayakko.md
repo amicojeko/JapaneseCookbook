@@ -15,7 +15,6 @@ tags:
 - katsuobushi
 - negi
 ---
-import ImageComponent from '@site/src/components/ImageComponent';
 
 <ImageComponent />
 

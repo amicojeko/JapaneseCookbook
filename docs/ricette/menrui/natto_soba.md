@@ -20,7 +20,6 @@ tags:
 - nori
 - soba
 ---
-import ImageComponent from '@site/src/components/ImageComponent';
 
 ## Ingredienti per 2 persone
 - 200g di [soba](/ingredienti/soba)

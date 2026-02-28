@@ -20,7 +20,6 @@ tags:
 - sesamo
 - shoyu
 ---
-import ImageComponent from '@site/src/components/ImageComponent';
 
 <ImageComponent />
 
@@ -59,6 +58,5 @@ Itadakimasu!
 
 ### Video
 
-import YouTubeVideo from '@site/src/components/YouTubeVideo';
 
 <YouTubeVideo videoId="OoqRYJGzWmA" />

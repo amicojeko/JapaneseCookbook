@@ -20,7 +20,6 @@ tags:
 - kewpie
 - sake
 ---
-import ImageComponent from '@site/src/components/ImageComponent';
 
 <ImageComponent />
 
@@ -59,6 +58,5 @@ Di nuovo far asciugare su una griglia, e gustare con la salsa (io uso [Maionese 
 
 ## Video
 
-import YouTubeVideo from '@site/src/components/YouTubeVideo';
 
 <YouTubeVideo videoId="7VbEkKBAs-g" />

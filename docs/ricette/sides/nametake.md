@@ -18,7 +18,6 @@ tags:
 - rice
 - sake
 ---
-import ImageComponent from '@site/src/components/ImageComponent';
 
 Il **Nametake** è un classico esempio di cucina casalinga giapponese, quella che si mangia tutti i giorni e che spesso non si trova nei ristoranti.
 Dimenticate sushi e ramen complessi: questo piatto si prepara in 5 minuti ed è una vera "salvata" per un pasto veloce ed economico. Si tratta di funghi Enoki cotti in una salsa saporita, ideale per accompagnare una semplice ciotola di riso bianco.

@@ -23,7 +23,6 @@ tags:
 - mirin
 - rice
 ---
-import ImageComponent from '@site/src/components/ImageComponent';
 
 <ImageComponent />
 

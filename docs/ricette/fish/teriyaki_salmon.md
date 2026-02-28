@@ -16,7 +16,6 @@ ingredients:
 tags:
 - sake
 ---
-import ImageComponent from '@site/src/components/ImageComponent';
 
 ## Ingredienti
 

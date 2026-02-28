@@ -10,7 +10,6 @@ tags:
 - vegetarian
 - vegan
 ---
-import ImageComponent from '@site/src/components/ImageComponent';
 
 <ImageComponent />
 

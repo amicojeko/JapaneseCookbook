@@ -19,7 +19,6 @@ tags:
 - potato_starch
 - sake
 ---
-import ImageComponent from '@site/src/components/ImageComponent';
 
 Gli Shogayaki sono delle scaloppine di maiale allo zenzero, una ricetta giapponese molto semplice e veloce da preparare.
 
@@ -73,6 +72,5 @@ Se non hai il dashi, puoi sostituirlo tranquillamente con del brodo vegetale.
 
 ## Video
 
-import YouTubeVideo from '@site/src/components/YouTubeVideo';
 
 <YouTubeVideo videoId="kq9OBEQw4E4" />

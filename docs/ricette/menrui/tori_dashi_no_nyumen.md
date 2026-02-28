@@ -13,7 +13,6 @@ ingredients:
 - somen
 - cipollotto
 ---
-import ImageComponent from '@site/src/components/ImageComponent';
 
 In Giappone, i somen sono famosi soprattutto nella loro versione estiva, serviti freddi. Tuttavia, quando si cerca un pasto caldo e ristoratore, la scelta ricade sul **Nyūmen** (煮麺). Il termine si riferisce alla versione calda di questi sottili spaghetti di frumento e deriva originariamente da *nimeno*, che significa letteralmente "tagliolini bolliti". Questa ricetta del Tori dashi no nyūmen trasforma degli scarti di macelleria in un brodo umami profondo, creando un pasto completo che costa pochissimo ma regala una soddisfazione degna dei migliori ramen bar.
 
@@ -44,7 +43,5 @@ Questa tecnica di sbollentare e risciacquare le ossa è la stessa utilizzata per
 :::
 
 ## Video
-
-import YouTubeVideo from '@site/src/components/YouTubeVideo';
 
 <YouTubeVideo videoId="aQ8tXgcNsLM" />

@@ -19,7 +19,6 @@ ingredients:
 tags:
 - rice
 ---
-import ImageComponent from '@site/src/components/ImageComponent';
 
 In giappone esiste un tipo di cucina ispirato alla cucina occidentale chiamato Yoshoku (洋食), che letteralmente significa "cibo occidentale". Si tratta di piatti che sono stati adattati ai gusti giapponesi, spesso con ingredienti locali e tecniche di cottura giapponesi. Questo piatto, chiamato Hamburger Don (ハンバーグ丼), è un esempio perfetto di Yoshoku. Ed e' una mezza svolta per quando volete fare una cosa al volo, buona e sostanziosa.
 
@@ -65,6 +64,5 @@ Mettere il riso caldo nelle ciotole individuali e adagiarvi sopra il composto di
 
 ## Video
 
-import YouTubeVideo from '@site/src/components/YouTubeVideo';
 
 <YouTubeVideo videoId="SJweMEALMks" />

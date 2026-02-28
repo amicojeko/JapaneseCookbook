@@ -18,7 +18,6 @@ tags:
 - rice
 - shoyu
 ---
-import ImageComponent from '@site/src/components/ImageComponent';
 
 <ImageComponent />
 

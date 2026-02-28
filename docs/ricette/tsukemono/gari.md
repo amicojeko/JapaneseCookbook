@@ -53,6 +53,5 @@ Se riesci a trovare lo zenzero giovane, e' ancora meglio. Lo zenzero giovane e' 
 
 ## Video
 
-import YouTubeVideo from '@site/src/components/YouTubeVideo';
 
 <YouTubeVideo videoId="eRxAtgrW2CE" />

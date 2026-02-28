@@ -18,7 +18,6 @@ tags:
 - udon
 - daikon
 ---
-import ImageComponent from '@site/src/components/ImageComponent';
 
 La parola **Bukkake** in giapponese deriva dal verbo *bukkakeru*, che vuol dire versare sopra o rovesciare addosso con forza. Infatti, ridendo e scherzando, oggi prepariamo proprio i Bukkake Udon!
 

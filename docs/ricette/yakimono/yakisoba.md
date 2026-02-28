@@ -21,7 +21,6 @@ tags:
 - katsuobushi
 - shiitake
 ---
-import ImageComponent from '@site/src/components/ImageComponent';
 
 ## Ingredienti
 

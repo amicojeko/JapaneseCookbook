@@ -24,7 +24,6 @@ tags:
 - sesamo
 - shiitake
 ---
-import ImageComponent from '@site/src/components/ImageComponent';
 
 I gyoza sono dei ravioli alla piastra, tipici della cucina giapponese. Sono molto simili ai ravioli cinesi, ma la pasta è più sottile e il ripieno è leggermente diverso.
 
