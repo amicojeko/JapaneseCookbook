@@ -8,6 +8,12 @@
 .docusaurus
 .cache-loader
 /static/image-metadata.json
+/static/image-srcset.json
+# Immagini ottimizzate a build-time (non committare)
+static/img/**/*-320w.*
+static/img/**/*-640w.*
+static/img/**/*-1280w.*
+static/img/**/*-1600w.*
 
 # Misc
 .DS_Store
