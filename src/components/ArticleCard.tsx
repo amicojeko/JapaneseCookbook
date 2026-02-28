@@ -26,7 +26,7 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({
       </small>
       <div className={styles.articleCard}>
         {srcsetData?.srcset ? (
-          <picture>
+          <picture className={styles.picture}>
             <source srcSet={srcsetData.srcset} type="image/jpeg" />
             <img
               src={srcsetData.original || imageSrc}

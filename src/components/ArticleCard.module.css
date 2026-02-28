@@ -22,15 +22,16 @@
   gap: 20px;
 }
 
-picture {
+.picture {
   display: block;
-  flex-shrink: 0;
-}
-
-.articleImage {
   flex-shrink: 0;
   width: 220px;
   height: 220px;
+}
+
+.articleImage {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   border-radius: 4px;
   display: block;
@@ -47,6 +48,11 @@ picture {
   .articleCard {
     flex-direction: column;
     gap: 15px;
+  }
+
+  .picture {
+    width: 100%;
+    height: auto;
   }
 
   .articleImage {

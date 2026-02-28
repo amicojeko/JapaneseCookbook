@@ -27,6 +27,26 @@ function getFiles(dir) {
   return files;
 }
 
+function removeGeneratedVariants(dir) {
+  const items = fs.readdirSync(dir);
+  for (const item of items) {
+    const filePath = path.join(dir, item);
+    const stat = fs.statSync(filePath);
+    if (stat.isDirectory()) {
+      removeGeneratedVariants(filePath);
+      continue;
+    }
+    const ext = path.extname(filePath).toLowerCase();
+    if (!['.jpg', '.jpeg', '.png', '.webp'].includes(ext)) {
+      continue;
+    }
+    const nameWithoutExt = path.basename(filePath).replace(/\.[^.]+$/, '');
+    if (/-\d+w$/.test(nameWithoutExt)) {
+      fs.unlinkSync(filePath);
+    }
+  }
+}
+
 async function optimizeImage(inputPath) {
   try {
     const ext = path.extname(inputPath).toLowerCase();
@@ -37,6 +57,10 @@ async function optimizeImage(inputPath) {
     const dir = path.dirname(inputPath);
     const filename = path.basename(inputPath);
     const nameWithoutExt = filename.replace(/\.[^.]+$/, '');
+    // Evita di rielaborare i file gia' generati (es. nome-320w.jpg)
+    if (/-\d+w$/.test(nameWithoutExt)) {
+      return;
+    }
     const relPath = path.relative(imgDir, dir);
     const metaKey = relPath.replace(/\\/g, '/');
 
@@ -58,19 +82,19 @@ async function optimizeImage(inputPath) {
       const jpegName = `${nameWithoutExt}-${size}w.jpg`;
       const jpegPath = path.join(dir, jpegName);
       const resizeHeight = Math.round(size * metadata.height / metadata.width);
-      
+
       await sharp(inputPath)
         .resize(size, resizeHeight, { withoutEnlargement: true })
         .jpeg({ quality: 80, progressive: true })
         .toFile(jpegPath);
-      
+
       const srcPath = metaKey ? `${metaKey}/${jpegName}` : jpegName;
       srcset.push(`/img/${srcPath} ${size}w`);
 
-      // WebP  
+      // WebP
       const webpName = `${nameWithoutExt}-${size}w.webp`;
       const webpPath = path.join(dir, webpName);
-      
+
       await sharp(inputPath)
         .resize(size, resizeHeight, { withoutEnlargement: true })
         .webp({ quality: 80 })
@@ -97,8 +121,10 @@ async function optimizeImage(inputPath) {
 (async () => {
   try {
     console.log('🖼 Optimizing images with Sharp...');
+    // Pulisce le varianti generate in precedenza per evitare loop
+    removeGeneratedVariants(imgDir);
     const files = getFiles(imgDir);
-    
+
     for (const file of files) {
       await optimizeImage(file);
     }

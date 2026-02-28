@@ -18,7 +18,7 @@ interface DocCardProps {
 
 export default function DocCard({doc}: DocCardProps): React.ReactElement {
   const displayImage = (imageMetadata as Record<string, string>)[doc.id] || '/img/placeholder.jpg';
-  
+
   // Convertisci il path per trovare il srcset
   // Esempio: displayImage = '/img/ingredienti/agedama.jpg'
   // Key nel srcset = 'ingredienti/agedama.jpg'
@@ -30,7 +30,7 @@ export default function DocCard({doc}: DocCardProps): React.ReactElement {
       <article className={styles.docItem}>
         <div className={styles.imageWrapper}>
           {srcsetData?.srcset ? (
-            <picture>
+            <picture className={styles.picture}>
               {srcsetData.srcset && (
                 <source srcSet={srcsetData.srcset} type="image/jpeg" />
               )}

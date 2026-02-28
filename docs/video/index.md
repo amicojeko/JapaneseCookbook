@@ -115,7 +115,7 @@ Ogni episodio è breve e combina spiegazioni culinarie, dinamiche tra colleghi e
 
 ### Tonkatsu DJ Agetaro
 
-<ArticleCard subtitle="titolo originale: とんかつDJアゲ太郎" imageSrc="/img/video/tonkatsu_dj_agetarou.jpe" imageAlt="Tonkatsu DJ Agetaro">
+<ArticleCard subtitle="titolo originale: とんかつDJアゲ太郎" imageSrc="/img/video/tonkatsu_dj_agetarou.jpg" imageAlt="Tonkatsu DJ Agetaro">
 
 Anime del 2016 che unisce in modo esilarante il mondo del tonkatsu e quello del DJing. Il protagonista, figlio di una storica tonkatsu-ya di Tokyo, sogna di diventare DJ e scopre sorprendenti analogie tra friggere alla perfezione una cotoletta e far "alzare" il pubblico in pista.
 
