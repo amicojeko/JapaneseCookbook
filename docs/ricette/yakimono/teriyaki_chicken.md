@@ -9,7 +9,6 @@ ingredients:
 - salsa di soia
 - riso bianco
 ---
-
 Il Pollo Teriyaki è forse uno dei piatti giapponesi più conosciuti al mondo, ma spesso viene interpretato male con salse troppo dense o cotture aggressive. La parola "Teriyaki" descrive una tecnica di cottura specifica: *teri* significa "lucentezza" (data dallo zucchero del mirin) e *yaki* significa "grigliato". Prepararlo in casa è sorprendentemente semplice se si segue il metodo tradizionale, che punta tutto sulla pazienza e sull'equilibrio dei sapori. Il risultato è un pollo dalla pelle croccante e dorata, con una carne incredibilmente tenera e una glassa profumata che avvolge ogni morso.
 
 ![Pollo Teriyaki](/img/ricette/pollo_teriyaki.jpg)
@@ -41,6 +40,5 @@ Per un risultato impeccabile, assicuratevi che il pollo sia a temperatura ambien
 :::
 
 ## Video
-
 
 <YouTubeVideo videoId="4urhrkpiV5o" />

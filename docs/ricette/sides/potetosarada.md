@@ -23,7 +23,6 @@ tags:
 - mirin
 - rice
 ---
-
 <ImageComponent />
 
 ## Ingredienti
@@ -50,5 +49,3 @@ Sbollentare le carota sbucciate per qualche minuto, poi tagliarle a fettine o cu
 Una volta che le patate sono pronte, sbucciarle senza scottarsi, metterle in una terrina e schiacciarle con una forchetta come per fare il pure', lasciando dei pezzetti per avere una consistenza piu' varia (aho poi a me piacciono cosi poi voi fate come vi pare)
 
 Aggiungere cetriolo, cipolla, carota, la maionese, il mirin e l'aceto di riso, lo zucchero, il sale e il pepe e mescolare. I condimenti finali vanno un po' a piacere, soprattutto per quanto riguarda lo zucchero.
-
-

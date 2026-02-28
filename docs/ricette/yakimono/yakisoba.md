@@ -21,7 +21,6 @@ tags:
 - katsuobushi
 - shiitake
 ---
-
 ## Ingredienti
 
 - Pasta precotta a temperatura ambiente (ramen noodles o altra pasta)

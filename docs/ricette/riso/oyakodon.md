@@ -22,7 +22,6 @@ tags:
 - rice
 - sake
 ---
-
 <ImageComponent />
 
 ## Ingredienti per 1 persona

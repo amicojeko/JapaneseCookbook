@@ -10,7 +10,6 @@ tags:
   - saibashi
   - galateo
 ---
-
 In Occidente tendiamo a pensare alle "bacchette" come a un unico strumento universale. In Giappone, invece, esiste una distinzione netta e fondamentale basata sulla funzione. Usare le bacchette con cui mangiate per cucinare è spesso scomodo (e poco igienico), e usare quelle da cucina per mangiare è praticamente impossibile.
 
 Ecco la guida definitiva alle tre misure principali: lunghe, medie e corte.

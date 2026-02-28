@@ -10,7 +10,6 @@ tags:
   - elettrodomestici
   - donabe
 ---
-
 Se c'è un oggetto che non manca mai, assolutamente mai, in una casa giapponese, è la **Suihanki** (炊飯器), ovvero la cuociriso elettrica.
 
 In Italia siamo abituati a bollire il riso in abbondante acqua salata e poi scolarlo (come la pasta). In Giappone, questo è considerato un sacrilegio. Il [Riso](/ingredienti/rice) giapponese deve cuocere per assorbimento, trattenendo tutto l'amido per diventare colloso e compatto, fondamentale per fare gli [Onigiri](/ricette/onigiri) o il sushi.

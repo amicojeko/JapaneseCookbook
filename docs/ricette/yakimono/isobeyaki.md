@@ -14,7 +14,6 @@ tags:
 - vegan
 - nori
 ---
-
 Potrà sembrare uno scherzo, ma in Giappone i Mochi sono considerati uno dei cibi più "pericolosi" in assoluto, causando ogni anno numerosi incidenti per soffocamento, specialmente durante il Capodanno. Eppure, nonostante il rischio (o forse proprio per quel brivido), nessuno rinuncia a questa delizia. L'Isobeyaki è il modo più classico e saporito di gustarli: il mochi viene grigliato finché non diventa croccante fuori e filante dentro, tuffato nella salsa di soia e avvolto nell'alga nori.
 
 <ImageComponent />
@@ -40,6 +39,5 @@ Preparate una ciotolina con della [salsa di soia](/ingredienti/shoyu). Prendete 
 Infine, prendete una striscia di [alga nori](/ingredienti/nori) e avvolgetela intorno al mochi ancora caldo: l'alga si attaccherà grazie all'umidità della soia e al calore, permettendovi di afferrarlo con le mani (facendo attenzione a non scottarvi). Ecco a voi l'Isobeyaki, pronto per essere addentato.
 
 ## Video
-
 
 <YouTubeVideo videoId="4XRlLfW_Wf0" />

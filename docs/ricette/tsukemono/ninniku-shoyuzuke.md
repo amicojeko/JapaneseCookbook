@@ -61,5 +61,3 @@ Servire tagliando gli spicchi d'aglio orizzontalmente in 2 parti.
 ### Provare
 
 Provare a sobbollire l'aglio per 5 minuti, dovrebbe ridurre i tempi di marinatuda.
-
-

@@ -10,7 +10,6 @@ tags:
   - yakitori
   - spiedini
 ---
-
 I **Kushi** (串) sono gli spiedini di bambù. Potrebbe sembrare un oggetto banale, ma nella cucina giapponese, dove il cibo viene spesso servito in porzioni "da boccone" o grigliato su carbonella, la scelta dello spiedino giusto è tecnica pura.
 
 A differenza degli spiedini tondi da barbecue occidentali, in Giappone esistono forme diverse progettate per impedire che il cibo ruoti su se stesso mentre lo girate sulla griglia.

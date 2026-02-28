@@ -10,7 +10,6 @@ tags:
   - wok
   - bambù
 ---
-
 La **Sasara** (ささら) è uno strumento di pulizia tradizionale dall'aspetto molto particolare: sembra un pennello da barba sovradimensionato, ma è composto da un fascio di sottili stecche di bambù (o legno) legate strettamente insieme a un'estremità.
 
 Se avete intenzione di cucinare con un Wok o con pentole in ferro pesante per preparare piatti saltati come la [Yakisoba](/ricette/yakisoba), la sasara diventerà presto la vostra migliore amica.

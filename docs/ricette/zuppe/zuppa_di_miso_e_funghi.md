@@ -19,7 +19,6 @@ tags:
 - miso
 - shiitake
 ---
-
 Bella regà, è arrivato l'autunno... e noi ci facciamo una bella zuppa di miso, funghi shiitake, enoki e miso rosso.
 Questa è la ricetta per una zuppa di miso completamente vegana, che ottiene il suo umami da un dashi preparato con alga kombu e funghi shiitake secchi.
 

@@ -6,9 +6,6 @@ description: Gelatina tradizionale giapponese fatta con la pianta di konjac
 image: /img/ingredienti/konnyaku-1.jpg
 ---
 import IngredientRecipeList from '@site/src/components/IngredientRecipeList';
-
-
-
 import ImageComponent from '@site/src/components/ImageComponent';
 
 Il Konnyaku (o Konjac) è un alimento tradizionale giapponese ottenuto dalla lavorazione del cormo della pianta di Amorphophallus konjac. Si presenta come una gelatina solida, grigiastra o bianca, ed è famoso per la sua texture unica, elastica e leggermente gommosa. Questo alimento ha un sapore molto neutro, il che lo rende estremamente versatile in cucina, capace di assorbire gli aromi dei piatti a cui viene aggiunto.

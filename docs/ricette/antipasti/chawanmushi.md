@@ -24,7 +24,6 @@ tags:
 - sake
 - shiitake
 ---
-
 Il Chawanmushi (茶碗蒸し) è un budino di uova salato cotto al vapore, tipico della cucina giapponese. La parola "chawan" significa "ciotola" e "mushi" significa "cotto al vapore". È un piatto delicato e saporito, spesso servito come antipasto o contorno in un pasto giapponese.
 
 <ImageComponent />
@@ -69,6 +68,5 @@ Spegnere il fuoco, e lasciare riposare per 7-8 minuti. A questo punto aggiungere
 Alternativamente, si puo' mettere in frigorifero e gustare freddo, con del buon vino bianco o del sake.
 
 ## Video
-
 
 <YouTubeVideo videoId="koIokEwbbMQ" />

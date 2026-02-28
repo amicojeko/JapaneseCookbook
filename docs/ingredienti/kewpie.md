@@ -6,9 +6,8 @@ description: La piu' famosa maionese giapponese
 image: /img/ingredienti/kewpie-1.jpg
 ---
 import IngredientRecipeList from '@site/src/components/IngredientRecipeList';
-
-
 import ImageComponent from '@site/src/components/ImageComponent';
+import YouTubeVideo from '@site/src/components/YouTubeVideo';
 
 Si usa per preparare la Potetosarada o per accompagnare i fritti come il Kara-Age
 
@@ -20,7 +19,5 @@ La maionese Kewpie e'unica e irriproducibile, come la Nutella.
 <IngredientRecipeList ingredientTag="kewpie" />
 
 ## Video
-
-import YouTubeVideo from '@site/src/components/YouTubeVideo';
 
 <YouTubeVideo videoId="aVBxLm8QQMY" />

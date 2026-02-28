@@ -10,7 +10,6 @@ tags:
 - vegetarian
 - vegan
 ---
-
 <ImageComponent />
 
 ## Ingredienti
@@ -34,4 +33,3 @@ Mettere le melanzane in una teglia e spennellarle con la glassatura di miso, fin
 Vacci piano col miso che senno’ ti vengono salate
 
 Guarnire con [negi](/ingredienti/negi) (o cipolline)
-

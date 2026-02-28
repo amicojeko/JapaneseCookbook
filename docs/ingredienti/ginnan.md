@@ -7,8 +7,6 @@ image: /img/ingredienti/ginnan.jpg
 category: ingredienti
 ---
 import IngredientRecipeList from '@site/src/components/IngredientRecipeList';
-
-
 import ImageComponent from '@site/src/components/ImageComponent';
 
 Il Ginnan, noto anche come semi di Ginkgo, è il seme commestibile dell'albero di Ginkgo biloba. Questi semi sono molto apprezzati nella cucina asiatica, soprattutto in Giappone, Cina e Corea, dove sono consumati come snack o utilizzati come ingrediente in vari piatti.

@@ -6,6 +6,5 @@ description: Le prugne di suppaman
 ---
 import IngredientRecipeList from '@site/src/components/IngredientRecipeList';
 
-
 Le prugne di suppaman.
 <IngredientRecipeList ingredientTag="umeboshi" />

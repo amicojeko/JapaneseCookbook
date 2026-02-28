@@ -16,7 +16,6 @@ ingredients:
 tags:
 - sake
 ---
-
 ## Ingredienti
 
 - Salmone

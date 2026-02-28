@@ -13,9 +13,8 @@ ingredients:
 - zucchero
 ---
 import IngredientRecipeList from '@site/src/components/IngredientRecipeList';
-
-
 import ImageComponent from '@site/src/components/ImageComponent';
+import YouTubeVideo from '@site/src/components/YouTubeVideo';
 
 Il furikake è una granella secca usata per condire il riso. In pratica è uno di quei condimenti giapponesi che sembrano semplici, ma dietro hanno un mondo intero. Nasce come accompagnamento per il [riso bianco](/ingredienti/rice), quello “plain”, ma oggi è una presenza fissa ovunque: in casa, nei bento, nelle mense e nei konbini.
 
@@ -56,8 +55,6 @@ Se visitate il Giappone, il furikake è il souvenir ideale. Costa poco, pesa poc
 :::
 
 ## Video
-
-import YouTubeVideo from '@site/src/components/YouTubeVideo';
 
 <YouTubeVideo videoId="KjJZGZ25O_s" />
 

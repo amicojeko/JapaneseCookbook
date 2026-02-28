@@ -9,7 +9,6 @@ tags:
   - pulizia
   - verdure
 ---
-
 La **Tawashi** (banalmente "spazzola per lavare"), e più specificamente la **Kamenoko Tawashi** (spazzola "tartaruga", per la sua forma), è uno degli oggetti più iconici e onnipresenti nelle cucine giapponesi.
 
 Si tratta di una spazzola realizzata con fibre naturali di palma o di cocco intrecciate su un'anima di filo metallico. È dura, resistente all'acqua e incredibilmente versatile. Se pensate che sia solo una "vecchia spugna", vi sbagliate di grosso: una volta iniziata a usare, è difficile tornare indietro.

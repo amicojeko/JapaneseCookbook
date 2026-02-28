@@ -17,7 +17,6 @@ tags:
 - mirin
 - sake
 ---
-
 Il **mentsuyu** è un brodo forte e salato, tradizionalmente usato nei piatti di noodles come **soba** e **udon**. È un ingrediente fondamentale della cucina giapponese, preparato con una miscela di **katsuobushi**, [salsa di soia](/ingredienti/shoyu), **mirin** e **zucchero**. Questa combinazione di ingredienti crea una bomba di umami, perfetta per arricchire una vasta gamma di piatti.
 
 ### Tipi di Mentsuyu
@@ -50,6 +49,5 @@ Diluisci con acqua o [dashi](/ricette/dashi) e scalda, la proporzione della dilu
 Il Kaketsuyu va scaldato e versato caldo sui noodles, mentre il tsuketsuyu va messo freddo in una ciotolina a parte, e ci si immergono i noodles (tipicamente zaru soba)
 
 ## Video
-
 
 <YouTubeVideo videoId="gXeX1rC_YTs" />

@@ -7,8 +7,6 @@ image: /img/ingredienti/katsuobushi-1.jpg
 category: ingredienti
 ---
 import IngredientRecipeList from '@site/src/components/IngredientRecipeList';
-
-
 import ImageComponent from '@site/src/components/ImageComponent';
 
 Il Katsuobushi è uno degli ingredienti più iconici della cucina giapponese, noto per il suo ruolo fondamentale nella preparazione del dashi, il brodo di base che costituisce l'essenza di molte ricette tradizionali giapponesi. È fatto di tonnetto striato essiccato, fermentato e affumicato, che viene poi rasato in sottili scaglie. Queste scaglie hanno un sapore intenso di umami, il gusto profondo e saporito che è fondamentale nella cucina giapponese, e aggiungono una complessità di sapori ineguagliabile a brodi, zuppe, salse e piatti conditi.

@@ -57,5 +57,4 @@ Il riso non deve essere messo in frigorifero, altrimenti si indurisce e perde la
 
 # Video
 
-
 <YouTubeVideo videoId="okzY1FVMwDg" />

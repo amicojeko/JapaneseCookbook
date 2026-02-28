@@ -20,7 +20,6 @@ tags:
 - sesamo
 - shoyu
 ---
-
 <ImageComponent />
 
 ## Ingredienti
@@ -57,6 +56,5 @@ Si conserva per qualche giorno, ma è così buono che finirà subito!
 Itadakimasu!
 
 ### Video
-
 
 <YouTubeVideo videoId="OoqRYJGzWmA" />

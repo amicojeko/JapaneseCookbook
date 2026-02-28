@@ -9,7 +9,6 @@ tags:
   - zenzero
   - metallo
 ---
-
 L'**Oroshigane** (おろし金, "metallo che grattugia") è la versione più classica e professionale della grattugia giapponese. Si presenta come una lastra di metallo (rame stagnato o acciaio inox) su cui sono sollevati, spesso a mano, dei piccoli denti affilati come rasoi.
 
 È lo strumento di precisione per eccellenza quando si tratta di ingredienti fibrosi e aromatici che richiedono un taglio netto.

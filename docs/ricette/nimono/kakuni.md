@@ -26,7 +26,6 @@ tags:
 ---
 Il buta no kakuni è un classico della cucina giapponese: pancetta di maiale stufata lentamente in una salsa dolce‑salata a base di shoyu, mirin e sake. Il risultato è una carne morbidissima, lucida e saporita, che si accompagna perfettamente a riso bianco e verdure come daikon e bok choy. In questa versione uso un metodo “veloce” con pentola a pressione, senza rinunciare al gusto ricco e profondo della ricetta tradizionale.
 
-
 <ImageComponent />
 
 ## Ingredienti
@@ -63,4 +62,3 @@ In una casseruola, mettere il brodo, la [salsa di soia](/ingredienti/shoyu), il 
 Servire il kakuni con il bok choy e il daikon, e un po' di salsa.
 
 Guarnire a piacere con [senape karashi](/ingredienti/senape_karashi), [shichimi togarashi](/ingredienti/shichimi_togarashi), e la parte bianca della cipolla verde tagliata a julienne e immersa in acqua fredda per arricciarla.
-

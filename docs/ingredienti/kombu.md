@@ -8,9 +8,8 @@ tags:
   - alga
 ---
 import IngredientRecipeList from '@site/src/components/IngredientRecipeList';
-
-
 import ImageComponent from '@site/src/components/ImageComponent';
+import YouTubeVideo from '@site/src/components/YouTubeVideo';
 
 <ImageComponent />
 
@@ -19,7 +18,5 @@ L'alga Kombu è un tipo di alga marina essicata, appartenente alla famiglia dell
 <IngredientRecipeList ingredientTag="kombu" />
 
 ## Video
-
-import YouTubeVideo from '@site/src/components/YouTubeVideo';
 
 <YouTubeVideo videoId="CLTFxDN8pBE" />

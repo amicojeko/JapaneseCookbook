@@ -16,7 +16,6 @@ tags:
 - nori
 - sesamo
 ---
-
 Il furikake e' un condimento per il riso, ed e' estremamente popolare.
 Io lo uso per recuperare il katsuobushi e l'alga kombu che uso per il [dashi](/ricette/dashi).
 Siccome e' secco si conserva per un sacco, e' supercomodo, e ci potete condire il riso bianco o gli onigiri quando andate di fretta o non avete niente da mangiare.

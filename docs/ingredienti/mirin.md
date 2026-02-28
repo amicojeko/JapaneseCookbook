@@ -6,9 +6,8 @@ description: Condimento alcolico dolce a base di riso fondamentale nella cucina 
 image: /img/ingredienti/mirin.jpg
 ---
 import IngredientRecipeList from '@site/src/components/IngredientRecipeList';
-
-
 import ImageComponent from '@site/src/components/ImageComponent';
+import YouTubeVideo from '@site/src/components/YouTubeVideo';
 
 Il mirin è un ingrediente fondamentale della cucina giapponese, utilizzato per aggiungere dolcezza e profondità ai piatti. È un vino di riso simile al sake, ma con un contenuto alcolico più basso e una maggiore concentrazione di zuccheri.
 
@@ -24,7 +23,5 @@ Il mirin non serve solo per aggiungere il suo sapore dolce ai piatti, ma sopratt
 <IngredientRecipeList ingredientTag="mirin" />
 
 ## Video
-
-import YouTubeVideo from '@site/src/components/YouTubeVideo';
 
 <YouTubeVideo videoId="2dyA-jbU2CY" />

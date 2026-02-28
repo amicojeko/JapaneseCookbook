@@ -10,7 +10,6 @@ tags:
   - maki
   - bambù
 ---
-
 Il **Makisu** (巻き簾) è la classica stuoietta utilizzata nella cucina giapponese principalmente per arrotolare il sushi (*makizushi*). È composta da sottili stecche di bambù (o plastica) legate insieme da fili di cotone.
 
 Se avete intenzione di preparare dei maki, questo è l'unico strumento di cui non potete fare a meno: provare ad arrotolare il sushi con le mani o con la carta forno non darà mai la stessa compattezza e forma cilindrica (o quadrata) che garantisce il makisu.

@@ -9,7 +9,6 @@ tags:
   - wasabi
   - sushi
 ---
-
 La **Samegawa Oroshi** (鮫皮おろし) è uno strumento di alto artigianato, costituito da una tavoletta di legno su cui è stesa e incollata vera pelle di squalo (o di razza). Al tatto ricorda una carta vetrata molto ruvida ma naturale.
 
 È uno strumento di nicchia, che troverete solo nei migliori banchi sushi (*sushiya*) o nelle cucine degli appassionati più esigenti.

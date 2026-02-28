@@ -4,7 +4,6 @@ description: "Una selezione di libri utili per cucina e cultura gastronomica gia
 slug: "/libri"
 sidebar_position: 5
 ---
-
 # Libri consigliati
 
 In questa sezione raccolgo i libri che mi hanno aiutato davvero: ricettari affidabili, manuali tecnici e testi sulla cultura del cibo giapponese. L'obiettivo e' avere una lista corta ma solida, con note chiare su a chi e' utile ciascun volume.
@@ -45,9 +44,6 @@ Questi non sono libri di cucina, ma sono romanzi, fumetti o altri testi giappone
 
 - [Drops of God](https://amzn.to/46YtoyQ) Un manga dedicato al mondo del vino, con una trama avvincente e personaggi ben sviluppati. E' un manga assolutamente imperdibile per gli appassionati di vino, ma anche per chi vuole scoprire il mondo del vino attraverso una storia coinvolgente e ben scritta.
 
-
 ## Hai un titolo da consigliare?
 
 Se c'e' un libro che merita di stare qui, scrivimi pure su Instagram: [@amicojeko](https://www.instagram.com/amicojeko/)
-
-

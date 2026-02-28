@@ -17,7 +17,6 @@ tags:
 - kizami_nori
 - nori
 ---
-
 Questo è il comfort food perfetto, velocissimo e incredibilmente saporito. Possiamo considerarlo l'equivalente giapponese di un classico italiano come la pasta burro e parmigiano o burro e salvia. È importante notare che non si tratta di una ricetta tradizionale antica, ma di un piatto moderno molto diffuso in Giappone, tanto che questa versione è ispirata a una ricetta trovata sul sito giapponese della Kikkoman.
 
 <ImageComponent />

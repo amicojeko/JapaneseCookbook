@@ -16,7 +16,6 @@ ingredients:
 tags:
 - mirin
 ---
-
 Spesso abbiamo un'idea limitata della cucina giapponese, associandola quasi esclusivamente a sushi o ramen. Il Nikujaga (letteralmente "carne e patate") è invece la quintessenza della cucina casalinga nipponica: un piatto estremamente comune, semplice ed economico. Si tratta di uno stufato dolce e salato che scalda il cuore, perfetto per una cena in famiglia, che piace a tutti, grandi e piccini.
 
 <ImageComponent />
@@ -52,6 +51,5 @@ L'otoshibuta è un coperchio più piccolo del diametro della pentola che poggia 
 Lasciamo cuocere dolcemente per circa 15 minuti. Trascorso questo tempo, spegniamo il fuoco e lasciamo riposare: è in questa fase che i sapori si amalgamano e le verdure assorbono il condimento. Mentre il Nikujaga riposa, possiamo sbollentare brevemente delle taccole in acqua salata: useremo il loro verde brillante come guarnizione decorativa per dare un tocco di colore al piatto finito.
 
 ## Video
-
 
 <YouTubeVideo videoId="yNDVtIMAxtY" />

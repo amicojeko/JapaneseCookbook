@@ -20,7 +20,6 @@ tags:
 - nori
 - soba
 ---
-
 ## Ingredienti per 2 persone
 - 200g di [soba](/ingredienti/soba)
 - Cipolline verdi o [negi](/ingredienti/negi)
@@ -43,4 +42,3 @@ Mischia il mentsuyu e il dashi, per ottenere lo tsuyu, che verserai al lato dell
 E ora non ti resta che mangiare! Itadakimasu!
 
 <ImageComponent />
-

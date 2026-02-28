@@ -6,7 +6,7 @@ description: Tutto quello che c'è da sapere sulla salsa di soia giapponese, dal
 slug: /ingredienti/shoyu
 ---
 import IngredientRecipeList from '@site/src/components/IngredientRecipeList';
-
+import YouTubeVideo from '@site/src/components/YouTubeVideo';
 
 Lo **Shoyu** ([salsa di soia](/ingredienti/shoyu)) è senza dubbio l'ingrediente principe della cucina giapponese, il pilastro su cui si fonda il sapore del *Washoku*. Spesso, quando pensiamo alla salsa di soia, immaginiamo un unico liquido scuro e salato, ma la realtà è molto più variegata: ne esistono di diversi tipi, ognuno con una propria identità legata agli ingredienti, alla regione di provenienza e all'utilizzo in cucina.
 
@@ -28,7 +28,5 @@ Se faticate a trovare le varianti più specifiche come la Usukuchi o una buona T
 <IngredientRecipeList ingredientTag="shoyu" />
 
 ## Video
-
-import YouTubeVideo from '@site/src/components/YouTubeVideo';
 
 <YouTubeVideo videoId="yCYQFLTQVQg" />

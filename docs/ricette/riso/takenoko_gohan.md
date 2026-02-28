@@ -18,7 +18,6 @@ tags:
 - rice
 - shoyu
 ---
-
 <ImageComponent />
 
 ## Ingredienti (per 2 persone / 2 "go" di riso)
@@ -61,4 +60,3 @@ Servi in una ciotola e guarnisci con una fogliolina di Kinome fresca (o battuta 
 :::note
 Se preferisci un colore più chiaro del riso, puoi usare salsa di soia chiara (usukuchi), altrimenti quella scura (koikuchi) va benissimo.*
 :::
-

@@ -6,8 +6,6 @@ description: Pan grattato croccante giapponese
 image: /img/ingredienti/panko-1.jpg
 ---
 import IngredientRecipeList from '@site/src/components/IngredientRecipeList';
-
-
 import ImageComponent from '@site/src/components/ImageComponent';
 
 Panko (パン粉): il segreto della croccantezza giapponese!

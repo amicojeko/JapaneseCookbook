@@ -10,7 +10,6 @@ tags:
   - zuppa
   - setaccio
 ---
-
 Il **Miso-koshi** (味噌漉し) è uno strumento estremamente specifico, ma geniale nella sua semplicità. Si tratta di un colino profondo, solitamente di forma cilindrica o a coppa, dotato di un lungo manico e di un gancio laterale.
 
 Viene quasi sempre venduto in coppia con un piccolo pestello di legno o una mini-frusta. Se vi siete mai chiesti perché la vostra [Zuppa di Miso](/ricette/zuppa_di_miso) fatta in casa ha dei grumi salati sul fondo o una consistenza granulosa, la mancanza di questo strumento è la risposta.

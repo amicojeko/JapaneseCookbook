@@ -35,7 +35,6 @@ Versa l'amazu sullo zenzero, e lascia riposare per 1-2 giorni prima di consumarl
 
 Se riesci a trovare lo zenzero giovane, e' ancora meglio. Lo zenzero giovane e' piu' tenero e meno fibroso, e quindi piu' facile da tagliare sottile. Si riconosce perche' ha la buccia piu' chiara, e le estremita' sono rosa. In genere si trova alla fine della primavera, ma dipende dalla zona.
 
-
 ## Riassunto
 
 - Sbucciare lo zenzero
@@ -52,6 +51,5 @@ Se riesci a trovare lo zenzero giovane, e' ancora meglio. Lo zenzero giovane e' 
 - Lasciar riposare per 1-2 giorni
 
 ## Video
-
 
 <YouTubeVideo videoId="eRxAtgrW2CE" />

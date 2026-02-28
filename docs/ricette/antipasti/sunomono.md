@@ -19,7 +19,6 @@ tags:
 - sesamo
 - wakame
 ---
-
 Perfette per rinfrescare la torrida estate, dei bellissimi piatti freddi giapponesi! Si parla di **Sunomono**, ovvero insalatine con condimento a base di aceto. Vedremo la versione classica con cetriolo e alghe wakame, e quella super lusso con l'aggiunta del polpo. E adesso, vi faccio vedere come si fanno!
 
 <ImageComponent />

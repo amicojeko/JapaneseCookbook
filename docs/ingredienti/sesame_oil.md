@@ -6,8 +6,6 @@ description: Olio aromatico estratto dai semi di sesamo, essenziale per dare pro
 image: /img/ingredienti/sesame-oil-1.jpg
 ---
 import IngredientRecipeList from '@site/src/components/IngredientRecipeList';
-
-
 import ImageComponent from '@site/src/components/ImageComponent';
 
 Olio di Sesamo

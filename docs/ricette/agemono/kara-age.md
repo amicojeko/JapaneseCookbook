@@ -20,7 +20,6 @@ tags:
 - kewpie
 - sake
 ---
-
 <ImageComponent />
 
 ## Ingredienti
@@ -57,6 +56,5 @@ Lasciare scolare e riposare il pollo per qualche minuto, poi friggere nuovamente
 Di nuovo far asciugare su una griglia, e gustare con la salsa (io uso [Maionese Kewpie](/ingredienti/kewpie) condita con lo shichimi togarashi). In alternativa, come facciamo anche noi con i fritti, potete gustarlo con una fettina di limone spremuta.
 
 ## Video
-
 
 <YouTubeVideo videoId="7VbEkKBAs-g" />

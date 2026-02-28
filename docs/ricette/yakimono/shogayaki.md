@@ -19,7 +19,6 @@ tags:
 - potato_starch
 - sake
 ---
-
 Gli Shogayaki sono delle scaloppine di maiale allo zenzero, una ricetta giapponese molto semplice e veloce da preparare.
 
 Il nome corretto del piatto è **Buta no Shogayaki**, mentre *Shogayaki* è la forma abbreviata con cui viene comunemente chiamato. *Buta* vuol dire maiale, *shōga* vuol dire zenzero, e *yaki* indica una cottura alla piastra o in padella. In pratica sono delle scaloppine di maiale allo zenzero.
@@ -71,6 +70,5 @@ Se non hai il dashi, puoi sostituirlo tranquillamente con del brodo vegetale.
 :::
 
 ## Video
-
 
 <YouTubeVideo videoId="kq9OBEQw4E4" />

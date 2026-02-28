@@ -6,8 +6,6 @@ description: Pasta di fagioli di soia fermentata
 image: /img/ingredienti/miso-1.jpg
 ---
 import IngredientRecipeList from '@site/src/components/IngredientRecipeList';
-
-
 import ImageComponent from '@site/src/components/ImageComponent';
 
 Il miso è un fermentato di soia tradizionale giapponese, noto per il suo sapore ricco e salato. È un ingrediente fondamentale della cucina giapponese, usato in una vasta gamma di piatti per aggiungere profondità e sapore.

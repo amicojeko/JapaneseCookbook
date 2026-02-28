@@ -6,7 +6,6 @@ description: Vino di riso giapponese
 ---
 import IngredientRecipeList from '@site/src/components/IngredientRecipeList';
 
-
 Il sake è un elemento fondamentale della cucina e della cultura giapponese. Non è solo un drink, ma una bevanda che racconta la storia e le tradizioni del Giappone.
 
 ### Che cos'è il sake?

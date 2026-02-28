@@ -16,7 +16,6 @@ tags:
 - sesame_oil
 - sesamo
 ---
-
 Questa è una ricetta giapponese semplicissima, vegana e perfetta per quando fa caldo, perché si prepara senza usare fornelli. È ideale come antipasto, contorno o per un aperitivo, specialmente con una birra fresca. Tanto semplice quanto buona, crea dipendenza!
 
 <ImageComponent />

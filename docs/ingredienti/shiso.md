@@ -7,9 +7,8 @@ image: /img/ingredienti/shiso-1.jpg
 category: ingredienti
 ---
 import IngredientRecipeList from '@site/src/components/IngredientRecipeList';
-
-
 import ImageComponent from '@site/src/components/ImageComponent';
+import YouTubeVideo from '@site/src/components/YouTubeVideo';
 
 Lo shiso, noto anche come perilla, è un'erba aromatica fondamentale nella cucina giapponese, apprezzata per il suo aroma unico e il sapore che varia dal pungente al citrico, con note di menta, basilico e anice. Esistono principalmente due varietà di shiso utilizzate in cucina: il shiso verde, che ha un gusto più fresco e leggero, e il shiso rosso o viola, che è leggermente più amaro e spesso utilizzato per colorare e insaporire i piatti a base di riso e per la fermentazione dei sottaceti.
 
@@ -19,7 +18,5 @@ Lo shiso è versatile: le sue foglie vengono usate fresche come condimento o gua
 <IngredientRecipeList ingredientTag="shiso" />
 
 ## Video
-
-import YouTubeVideo from '@site/src/components/YouTubeVideo';
 
 <YouTubeVideo videoId="DuLROdR2oyQ" />

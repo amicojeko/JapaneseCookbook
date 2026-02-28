@@ -6,5 +6,4 @@ description: Le meravigliose pallette di polpo giapponesi
 slug: /ricette/takoyaki
 image: /img/ricette/takoyaki.webp
 ---
-
 <ImageComponent />

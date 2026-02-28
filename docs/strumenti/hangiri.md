@@ -10,7 +10,6 @@ tags:
   - riso
   - legno
 ---
-
 L'**Hangiri** (半切), conosciuto anche come *Sushi Oke*, è un grande recipiente circolare a fondo piatto, tradizionalmente realizzato in legno di cipresso (*sawara*) e tenuto insieme da due fasce di rame.
 
 A prima vista potrebbe sembrare solo una bacinella di legno, ma è lo strumento segreto per ottenere quel riso per sushi lucido, sgranato e dalla consistenza perfetta che trovate nei migliori ristoranti.

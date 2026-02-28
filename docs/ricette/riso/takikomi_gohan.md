@@ -46,4 +46,3 @@ Metti gli shiitake a mollo nel dashi tiepido, dopo mezz’ora filtra il tutto, o
 Nella risiera metti il riso, il sale (non te lo scordare, molto poco ma ci vuole) la soia e il mirin, lo shiitake dashi (deve essere della stessa quantita’ in volume del riso) e mischia bene, fai depositare il riso e poi sopra metti, a strati, gli ingredienti, dal più duro al piu’ morbido.
 
 Accendi la risiera e non toccare, gira solo quando ha finito, e vedrai che ti mangi.
-

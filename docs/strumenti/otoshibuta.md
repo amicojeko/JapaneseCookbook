@@ -10,7 +10,6 @@ tags:
   - stufati
   - legno
 ---
-
 L'**Otoshibuta** (落とし蓋, letteralmente "coperchio che cade") è un coperchio leggermente più piccolo del diametro della pentola, progettato per essere posizionato direttamente **sopra gli ingredienti** che stanno cuocendo, e non sul bordo della pentola come i coperchi occidentali.
 
 È il segreto dietro a tutti i *Nimono* (piatti stufati) giapponesi, permettendo di ottenere sapori intensi e verdure integre usando meno liquido di quanto siamo abituati.

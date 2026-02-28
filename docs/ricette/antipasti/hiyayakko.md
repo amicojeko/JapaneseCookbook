@@ -15,7 +15,6 @@ tags:
 - katsuobushi
 - negi
 ---
-
 <ImageComponent />
 
 Lo *hiyayakko* (冷や奴), una ricetta cosi buona che rende buono addirittura il tofu! È un antipasto giapponese semplice e rinfrescante, perfetto per l'estate. Si tratta di tofu morbido servito freddo, condito con salsa ponzu, katsuobushi, zenzero grattugiato e cipollina verde. È un piatto leggero e nutriente, ideale per accompagnare un pasto o come spuntino.

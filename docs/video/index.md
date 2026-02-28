@@ -4,10 +4,9 @@ description: "Una selezione di film, anime e serie TV giapponesi legati al cibo 
 slug: "/film_anime_serie_tv"
 sidebar_position: 6
 ---
+import { ArticleCard } from '@site/src/components/ArticleCard';
 
 # Film, Anime e Serie TV sul cibo giapponese
-
-import { ArticleCard } from '@site/src/components/ArticleCard';
 
 In questa sezione raccolgo i film, gli anime e le serie TV che mi hanno colpito di più, e che secondo me sono dei must see per chi ama la cultura gastronomica giapponese.
 

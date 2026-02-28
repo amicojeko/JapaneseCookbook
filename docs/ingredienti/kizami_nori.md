@@ -7,8 +7,6 @@ image: /img/ingredienti/kizami_nori.jpg
 category: ingredienti
 ---
 import IngredientRecipeList from '@site/src/components/IngredientRecipeList';
-
-
 import ImageComponent from '@site/src/components/ImageComponent';
 
 Le kizami nori (刻み海苔 in giapponese) sono sottili striscioline di alga nori tagliate a julienne.

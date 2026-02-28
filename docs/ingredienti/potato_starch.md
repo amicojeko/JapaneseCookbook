@@ -6,8 +6,6 @@ description: Amido di patate usato per addensare salse e per panare le fritture 
 image: /img/ingredienti/fecola-1.jpg
 ---
 import IngredientRecipeList from '@site/src/components/IngredientRecipeList';
-
-
 import ImageComponent from '@site/src/components/ImageComponent';
 
 Molto comune nella cucina giapponese, usato per addensare le salse (come la teriyaki) o per panare le fritture (vedi Kara-Age)

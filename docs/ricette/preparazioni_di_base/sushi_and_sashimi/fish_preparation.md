@@ -30,4 +30,3 @@ slug: /ricette/preparazione_pesce_sushi_sashimi
 :::tip
 Con lo sgombro o il maccarello, bisogna essere molto delicati perche' la carne e' molto delicata e tende a rovinarsi molto velocemente.
 :::
-

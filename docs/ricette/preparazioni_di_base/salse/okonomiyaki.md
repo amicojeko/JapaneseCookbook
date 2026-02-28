@@ -28,4 +28,3 @@ In una ciotolina, unisci ketchup, salsa Worcestershire e salsa di ostriche. Aiut
 Aggiungi lo zucchero (o il miele) e gira finché si scioglie del tutto, dando alla salsa la dolcezza tipica per l’okonomiyaki.
 Versa la salsa di soia e, se desideri una punta di acidità in più, un cucchiaino di aceto (di mele o di riso). Continua a mescolare finché il tutto non risulta ben omogeneo.
 Prova la salsa e, se occorre, aggiungi un pizzico di zucchero o qualche goccia di soia in più, per bilanciare dolce, salato e acidulo secondo il tuo gusto.
-

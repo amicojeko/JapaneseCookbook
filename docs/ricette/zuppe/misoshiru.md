@@ -17,7 +17,6 @@ tags:
 - negi
 - wakame
 ---
-
 La zuppa di miso (味噌汁, misoshiru) è una delle zuppe più iconiche della cucina giapponese. È un piatto semplice e nutriente, a base di [dashi](/ricette/dashi) e miso.
 
 Questa è la ricetta base, poi uno nella zuppa di miso ci può mettere quello che gli pare (cipolle, carote, funghi shiitake, pomodori, sedano, verze...)
@@ -42,6 +41,5 @@ Quando il dashi bolle (o quando il quello che ti pare che ci hai aggiunto prima 
 Se vi piacciono, aggiungete le alghe wakame essiccate, il tofu e il porro come guarnizione e servire bollente.
 
 ## Video
-
 
 <YouTubeVideo videoId="ESa_qRjoKsI" />

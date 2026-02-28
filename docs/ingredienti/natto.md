@@ -6,9 +6,8 @@ description: Semi di soia bolliti e fermentati
 image: /img/ingredienti/natto-1.jpg
 ---
 import IngredientRecipeList from '@site/src/components/IngredientRecipeList';
-
-
 import ImageComponent from '@site/src/components/ImageComponent';
+import YouTubeVideo from '@site/src/components/YouTubeVideo';
 
 Il natto è un ingrediente tradizionale giapponese costituito da soia fermentata, noto per il suo sapore forte e distintivo, la sua consistenza appiccicosa e filamentosa e il suo profumo pungente. Questo alimento è particolarmente apprezzato per i suoi benefici nutrizionali, essendo ricco di proteine, fibre, vitamine e probiotici, che contribuiscono alla salute dell'intestino.
 
@@ -21,7 +20,5 @@ Tipicamente servito su riso caldo con aggiunta di [salsa di soia](/ingredienti/s
 <IngredientRecipeList ingredientTag="natto" />
 
 ## Video
-
-import YouTubeVideo from '@site/src/components/YouTubeVideo';
 
 <YouTubeVideo videoId="93c1-x2abp8" />

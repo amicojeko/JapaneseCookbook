@@ -19,7 +19,6 @@ tags:
 - sesamo
 - potato_starch
 ---
-
 Se cercate un modo per rendere i funghi irresistibili, l'Enoki Tatsuta-age è la risposta definitiva. In Giappone viene definito un piatto "ladro di riso" (*gohan dorobo*), perché è così saporito che vi farà finire la vostra ciotola di riso in un batter d'occhio. Nonostante siano fritti, rimangono leggeri e croccanti, rappresentando un'alternativa sana ma estremamente soddisfacente ai classici snack. Sono perfetti come antipasto, per arricchire il vostro bento o come stuzzichino accompagnato da una birra ghiacciata.
 
 <ImageComponent />
@@ -54,6 +53,5 @@ Se preparate questo piatto come stuzzichino per un aperitivo, provate a spolvera
 :::
 
 ## Video
-
 
 <YouTubeVideo videoId="uK4SKPruJSI" />

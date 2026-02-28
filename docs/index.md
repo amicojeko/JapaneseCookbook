@@ -49,4 +49,3 @@ Questi sono i risultati dei miei studi e delle mie sperimentazioni nella cucina 
     <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/openai.svg" alt="ChatGPT" width={36} className="social-icon" />
   </a>
 </div>
-

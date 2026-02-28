@@ -10,7 +10,6 @@ tags:
   - ceramica
   - yamaimo
 ---
-
 L'**Oroshiki** (spesso chiamata semplicemente grattugia in ceramica) è la variante domestica più diffusa. Solitamente bianca, ha la forma di un piatto fondo con dei denti in rilievo stampati direttamente nella ceramica e, spesso, un beccuccio per versare i liquidi.
 
 È lo strumento specifico per lavorare grandi quantità di verdure acquose o morbide senza ridurle in poltiglia disordinata.

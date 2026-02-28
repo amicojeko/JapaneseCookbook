@@ -10,7 +10,6 @@ tags:
   - soba
   - udon
 ---
-
 Lo **Zaru** (ざる) è il tradizionale setaccio o scolapasta giapponese, solitamente realizzato in bambù intrecciato. A differenza dei nostri scolapasta in metallo o plastica, lo zaru non è solo un utensile funzionale per la preparazione, ma è spesso utilizzato anche come piatto da portata per servire pietanze fredde, grazie alla sua estetica naturale e raffinata.
 
 È uno strumento indispensabile se vuoi servire la soba o gli udon freddi come si fa in Giappone, ma è utilissimo anche per lavare verdure e preparare il riso.

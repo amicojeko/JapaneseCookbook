@@ -10,7 +10,6 @@ tags:
   - tamagoyaki
   - padella
 ---
-
 Il **Tamagoyaki ki** (卵焼き器), a volte chiamato anche *makiyakinabe*, è una padella di forma rettangolare o quadrata progettata specificamente per preparare il *Tamagoyaki* (la frittata arrotolata giapponese) e il *Dashimaki Tamago* (la versione con aggiunta di brodo).
 
 Se avete mai provato a fare un rotolo di frittata in una padella rotonda, sapete quanto sia frustrante dover ripiegare i bordi per ottenere una forma decente. Con questo strumento, il problema è risolto alla radice.

@@ -10,7 +10,6 @@ tags:
   - sesamo
   - ceramica
 ---
-
 Il **Suribachi** (すり鉢) è il mortaio tradizionale giapponese. A differenza dei pesanti mortai di marmo o pietra occidentali, il suribachi è realizzato in ceramica (spesso smaltata all'esterno) e presenta all'interno una caratteristica superficie non smaltata con sottili scanalature chiamate *kushi-no-me*.
 
 Viene utilizzato in coppia con il **Surikogi** (すりこ木), un pestello in legno (solitamente di *sansho* o cipresso) dalla forma tozza e arrotondata.

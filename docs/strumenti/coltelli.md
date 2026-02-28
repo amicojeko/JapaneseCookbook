@@ -10,7 +10,6 @@ tags:
   - acciaio
   - taglio
 ---
-
 Parlare di **Hōchō** (包丁), i coltelli giapponesi, in una sola pagina è un'impresa impossibile: ci sono biblioteche intere dedicate all'argomento, alle geometrie di taglio, alla forgiatura e alle scuole regionali (Sakai, Seki, ecc.).
 
 Questa è quindi solo una **panoramica veloce** per aiutarvi a capire cosa vi serve davvero per iniziare, senza perdervi in tecnicismi da fabbro.

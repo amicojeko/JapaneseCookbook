@@ -7,8 +7,6 @@ image: /img/ingredienti/agedama.jpg
 category: ingredienti
 ---
 import IngredientRecipeList from '@site/src/components/IngredientRecipeList';
-
-
 import ImageComponent from '@site/src/components/ImageComponent';
 
 <ImageComponent />

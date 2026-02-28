@@ -16,7 +16,6 @@ tags:
 - mirin
 - shoyu
 ---
-
 <ImageComponent />
 
 L'Ohitashi è la quintessenza del contorno giapponese: semplice, sano ed elegante. Il termine deriva dal verbo hitasu (inzuppare/mettere a bagno) e descrive proprio la tecnica segreta di questo piatto: le verdure vengono sbollentate brevemente e poi lasciate riposare in un delizioso brodo Dashi, assorbendo tutto l'umami e mantenendo un colore verde brillante. Questa è la versione più classica con gli spinaci (Hōrensō no ohitashi), ma la tecnica si può applicare a molte altre verdure, come ad esempio i fagiolini (Ingen no ohitashi) o le cime di rapa (Nanohana no ohitashi).

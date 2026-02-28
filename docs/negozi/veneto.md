@@ -3,10 +3,9 @@ title: Veneto
 description: Negozi orientali in Veneto.
 slug: "/negozi_orientali/veneto"
 ---
-
-# Negozi orientali in Veneto
-
 import { NEGOZI } from '@site/src/data/negozi';
 import RegionShopList from '@site/src/components/RegionShopList';
+
+# Negozi orientali in Veneto
 
 <RegionShopList region="Veneto" shops={NEGOZI} />
