@@ -517,6 +517,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/furikake"
     },
     {
+      "id": "ricette/sides/burokkori_no_okaka-ae",
+      "title": "Burokkori no okaka-ae",
+      "description": "Un contorno giapponese velocissimo, dal colore brillante e ricco di umami, perfetto per esaltare i broccoli.",
+      "permalink": "/ricette/burokkori-no-okaka-ae"
+    },
+    {
       "id": "ricette/sides/nasu_no_yaki-bitashi",
       "title": "Nasu no Yaki-bitashi",
       "description": "Nasu no Yaki-bitashi, ovvero melanzane grigliate in brodo - Un'alternativa più leggera e salutare alle classiche melanzane fritte (Agebitashi), che richiede solo due cucchiai d'olio per un risultato tenero, succoso e pieno di sapore.",
@@ -1011,7 +1017,21 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/gyudon"
     }
   ],
+  "verdure": [
+    {
+      "id": "ricette/sides/burokkori_no_okaka-ae",
+      "title": "Burokkori no okaka-ae",
+      "description": "Un contorno giapponese velocissimo, dal colore brillante e ricco di umami, perfetto per esaltare i broccoli.",
+      "permalink": "/ricette/burokkori-no-okaka-ae"
+    }
+  ],
   "sides": [
+    {
+      "id": "ricette/sides/burokkori_no_okaka-ae",
+      "title": "Burokkori no okaka-ae",
+      "description": "Un contorno giapponese velocissimo, dal colore brillante e ricco di umami, perfetto per esaltare i broccoli.",
+      "permalink": "/ricette/burokkori-no-okaka-ae"
+    },
     {
       "id": "ricette/sides/nasu_dengaku",
       "title": "Nasu Dengaku",
