@@ -15,3 +15,7 @@ Il Katsuobushi è uno degli ingredienti più iconici della cucina giapponese, no
 
 La produzione di Katsuobushi è un'arte in sé, con un processo che può durare diversi mesi per ottenere il prodotto finito. Questo processo contribuisce non solo alla sua caratteristica consistenza, simile al legno stagionato (tant'e' che viene tagliato letteralmente con una pialla), e al profondo sapore di umami, ma anche a una lunghissima conservabilità. Nel suo utilizzo culinario, il Katsuobushi è spesso combinato con alghe come il kombu per creare un dashi ricco e saporito, ma può anche essere usato come guarnizione, aggiungendo un tocco di sapore e una consistenza unica a piatti come l'okonomiyaki, il takoyaki e insalate. Le scaglie di Katsuobushi, leggere e ariose, si muovono quasi come se fossero vive quando esposte al calore, creando un effetto visivo affascinante che arricchisce l'esperienza culinaria.
 <IngredientRecipeList ingredientTag="katsuobushi" />
+
+## Link utili
+
+- [Come piallare il katsuobushi](https://int.japanesetaste.com/blogs/japanese-taste-blog/a-beginners-guide-to-katsuobushi-how-to-make-handmade-bonito-flakes-successfully?country=IT&redirectedFrom=us)
