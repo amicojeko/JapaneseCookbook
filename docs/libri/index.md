@@ -6,7 +6,7 @@ sidebar_position: 5
 ---
 # Libri consigliati
 
-In questa sezione raccolgo i libri che mi hanno aiutato davvero: ricettari affidabili, manuali tecnici e testi sulla cultura del cibo giapponese. L'obiettivo e' avere una lista corta ma solida, con note chiare su a chi e' utile ciascun volume.
+In questa sezione raccolgo i libri che mi hanno aiutato davvero: ricettari affidabili, manuali tecnici e testi sulla cultura del cibo giapponese. L'obiettivo e' avere una lista corta ma solida, con note chiare su a chi e' utile ciascun volume. I link ai libri contengono link di affiliazione Amazon, che non comportano costi aggiuntivi per chi acquista, ma aiutano a sostenere il progetto.
 
 ## Libri in italiano
 
