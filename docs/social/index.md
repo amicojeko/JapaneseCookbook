@@ -43,6 +43,7 @@ Una raccolta rapida di canali YouTube e account Instagram utili per ricette, tec
 - [@mitamo.kitchen](https://www.instagram.com/mitamo.kitchen/) — ricette belle per quando hai tempo.
 - [@_sasagohan](https://www.instagram.com/_sasagohan/) — cucina casalinga giapponese facile.
 - [@tomochu15](https://www.instagram.com/tomochu15/) — cose super kawaii.
+- [@chef_suu_tsumugi](https://www.instagram.com/chef_suu_tsumugi/) — ti fa vedere come si sfilettano tutti i tipi di pesce.
 - [@yaoya14](https://www.instagram.com/yaoya14/) — altro major food influencer giapponese.
 - [@yosshi_gohann](https://www.instagram.com/yosshi_gohann/) — cucina giapponese moderna e veloce.
 - [@miho._recipe](https://www.instagram.com/miho._recipe/) — ricette super gustose.
@@ -67,3 +68,6 @@ Una raccolta rapida di canali YouTube e account Instagram utili per ricette, tec
 - [@kanal_recipe](https://www.instagram.com/kanal_recipe/) — ricette con valori nutrizionali, cucina casalinga giapponese.
 - [@shoeee___life](https://www.instagram.com/shoeee___life/) — ricette giapponesi da congelare e mettere in freezer, super pratiche.
 - [@urara_recipe](https://www.instagram.com/urara_recipe/) — cucina casalinga giapponese moderna.
+- [@nigirikuni](https://www.instagram.com/nigirikuni/) — top sushi chef.
+- [@justonecookbook](https://www.instagram.com/justonecookbook/) — ricette giapponesi spiegate in inglese, molto dettagliate e con foto passo passo, account del famoso blog Just One Cookbook.
+- [@oiri.kitchen](https://www.instagram.com/oiri.kitchen/) — tecniche di taglio giapponese avanzate.
