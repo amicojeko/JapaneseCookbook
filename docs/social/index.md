@@ -19,6 +19,7 @@ Una raccolta rapida di canali YouTube e account Instagram utili per ricette, tec
 - [Itamaeyamachan](https://www.youtube.com/@Itamaeyamachan) — preparazioni da itamae con approccio professionale.
 - [Taijis Kitchen](https://www.youtube.com/@taijiskitchen) — ricette casalinghe e preparazioni quotidiane.
 - [Asakusa Tokyo Kitchen](https://www.youtube.com/@asakusa-tokyokitchen) — cucina giapponese con taglio pratico.
+- [Hitohira - Kaiseki Apprentice Jon](https://www.youtube.com/watch?v=f-p11osKto4&list=PLEmhoFVuJawYMXTUCOGeW6kfh4mVSFLOt) — serie molto interessante su tecniche di taglio per cucina kaiseki.
 
 ### Affilatura coltelli
 
