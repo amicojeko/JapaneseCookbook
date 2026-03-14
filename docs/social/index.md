@@ -44,6 +44,7 @@ Una raccolta rapida di canali YouTube e account Instagram utili per ricette, tec
 - [@mitamo.kitchen](https://www.instagram.com/mitamo.kitchen/) — ricette belle per quando hai tempo.
 - [@_sasagohan](https://www.instagram.com/_sasagohan/) — cucina casalinga giapponese facile.
 - [@tomochu15](https://www.instagram.com/tomochu15/) — cose super kawaii.
+- [@fuku_ringo5296](https://www.instagram.com/fuku_ringo5296/) — maestra della decorazione.
 - [@chef_suu_tsumugi](https://www.instagram.com/chef_suu_tsumugi/) — ti fa vedere come si sfilettano tutti i tipi di pesce.
 - [@yaoya14](https://www.instagram.com/yaoya14/) — altro major food influencer giapponese.
 - [@yosshi_gohann](https://www.instagram.com/yosshi_gohann/) — cucina giapponese moderna e veloce.
