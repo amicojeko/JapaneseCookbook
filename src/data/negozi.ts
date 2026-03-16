@@ -33,6 +33,16 @@ export const NEGOZI: Negozio[] = [
         map_url: "https://maps.app.goo.gl/f7vAccBe2te9ayVB6",
     },
     {
+        id: "abruzzo-laquila-le-delizie-minimarket",
+        name: "Le Delizie Minimarket",
+        region: "Abruzzo",
+        city: "L'Aquila",
+        address: "Via Enrico Fermi, 1, 67100 L'Aquila AQ",
+        lat: 42.374006,
+        lng: 13.3517447,
+        map_url: "https://maps.app.goo.gl/sY4GcJiNKBpieXgx8",
+    },
+    {
         id: "campania-napoli-supermercato-cinese",
         name: "Supermercato Cinese",
         region: "Campania",
