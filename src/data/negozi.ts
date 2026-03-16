@@ -43,6 +43,16 @@ export const NEGOZI: Negozio[] = [
         map_url: "https://maps.app.goo.gl/sY4GcJiNKBpieXgx8",
     },
     {
+        id: "valle-daosta-saint-christophe-duohaomai-asian-food",
+        name: "DuoHaoMai & Asian Food",
+        region: "Valle d'Aosta",
+        city: "Saint-Christophe",
+        address: "Località Grand Chemin, 136, 11020 Saint-Christophe AO",
+        lat: 45.7395402,
+        lng: 7.3526025,
+        map_url: "https://maps.app.goo.gl/XZ2YyT5uJPEf5CjUA",
+    },
+    {
         id: "campania-napoli-supermercato-cinese",
         name: "Supermercato Cinese",
         region: "Campania",
