@@ -51,7 +51,7 @@ Nella stessa padella (non serve lavarla), inseriamo la carne macinata di pollo c
 Questo passaggio è fondamentale: la carne deve cuocersi sminuzzandosi il più possibile, assorbendo tutti i liquidi della marinatura. Continuiamo la cottura fino a quando il sughetto sul fondo non si sarà quasi completamente asciugato, lasciando il macinato saporito e ben sgranato.
 
 :::tip
-Nella ricetta originale giapponese, la marinatura del pollo prevede anche l'aggiunta di zucchero per accentuare il contrasto dolce-salato. Se non avete particolari esigenze dietetiche, provate ad aggiungerne un cucchiaino insieme alla salsa di soia!
+Per un sapore più autentico, potete aggiungere un cucchiaio di zucchero sia alle uova sbattute sia al pollo macinato, così da ottenere il classico contrasto dolce-salato tipico del Soboro Don.
 :::
 
 Ora arriva il momento più divertente: l'assemblaggio. Prepariamo una ciotola capiente creando una base soffice di [riso](/ingredienti/rice) bianco. Disponiamo le uova strapazzate su una metà della ciotola e il macinato di pollo sull'altra metà. Per separare queste due "tifoserie", creiamo una coreografica linea di demarcazione centrale utilizzando i piselli sbollentati. Infine, per dare un tocco di acidità che pulisce il palato e un accento di colore rosso vivo, adagiamo al centro un ciuffetto di [beni shoga](/ingredienti/beni_shoga). Il vostro Soboro Don è pronto per essere ammirato e, soprattutto, divorato!
