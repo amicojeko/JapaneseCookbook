@@ -33,6 +33,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/sudako_negi_vapore"
     },
     {
+      "id": "ricette/riso/soborodon",
+      "title": "Soboro Don",
+      "description": "La colorata e sfiziosa ciotola di riso giapponese a base di pollo e uova strapazzate, perfetta per un pasto ricco di proteine",
+      "permalink": "/ricette/soboro-don"
+    },
+    {
       "id": "ricette/riso/takenoko_gohan",
       "title": "Takenoko Gohan",
       "description": "Un classico primaverile: riso condito (Takikomi Gohan) cotto con germogli di bambù, aburaage e brodo dashi.",
@@ -237,6 +243,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/oyakodon"
     },
     {
+      "id": "ricette/riso/soborodon",
+      "title": "Soboro Don",
+      "description": "La colorata e sfiziosa ciotola di riso giapponese a base di pollo e uova strapazzate, perfetta per un pasto ricco di proteine",
+      "permalink": "/ricette/soboro-don"
+    },
+    {
       "id": "ricette/riso/takenoko_gohan",
       "title": "Takenoko Gohan",
       "description": "Un classico primaverile: riso condito (Takikomi Gohan) cotto con germogli di bambù, aburaage e brodo dashi.",
@@ -383,6 +395,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Oyakodon",
       "description": "L'Oyakodon e' la carbonara giapponese",
       "permalink": "/ricette/oyakodon"
+    },
+    {
+      "id": "ricette/riso/soborodon",
+      "title": "Soboro Don",
+      "description": "La colorata e sfiziosa ciotola di riso giapponese a base di pollo e uova strapazzate, perfetta per un pasto ricco di proteine",
+      "permalink": "/ricette/soboro-don"
     },
     {
       "id": "ricette/sides/nametake",
@@ -959,6 +977,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/oyakodon"
     },
     {
+      "id": "ricette/riso/soborodon",
+      "title": "Soboro Don",
+      "description": "La colorata e sfiziosa ciotola di riso giapponese a base di pollo e uova strapazzate, perfetta per un pasto ricco di proteine",
+      "permalink": "/ricette/soboro-don"
+    },
+    {
       "id": "ricette/riso/takenoko_gohan",
       "title": "Takenoko Gohan",
       "description": "Un classico primaverile: riso condito (Takikomi Gohan) cotto con germogli di bambù, aburaage e brodo dashi.",
@@ -1015,6 +1039,28 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Gyudon",
       "description": "La ciotola di riso con carne di manzo e cipolla",
       "permalink": "/ricette/gyudon"
+    },
+    {
+      "id": "ricette/riso/soborodon",
+      "title": "Soboro Don",
+      "description": "La colorata e sfiziosa ciotola di riso giapponese a base di pollo e uova strapazzate, perfetta per un pasto ricco di proteine",
+      "permalink": "/ricette/soboro-don"
+    }
+  ],
+  "pollo": [
+    {
+      "id": "ricette/riso/soborodon",
+      "title": "Soboro Don",
+      "description": "La colorata e sfiziosa ciotola di riso giapponese a base di pollo e uova strapazzate, perfetta per un pasto ricco di proteine",
+      "permalink": "/ricette/soboro-don"
+    }
+  ],
+  "uova": [
+    {
+      "id": "ricette/riso/soborodon",
+      "title": "Soboro Don",
+      "description": "La colorata e sfiziosa ciotola di riso giapponese a base di pollo e uova strapazzate, perfetta per un pasto ricco di proteine",
+      "permalink": "/ricette/soboro-don"
     }
   ],
   "verdure": [
