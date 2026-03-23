@@ -20,6 +20,7 @@ Una raccolta rapida di canali YouTube e account Instagram utili per ricette, tec
 - [Taijis Kitchen](https://www.youtube.com/@taijiskitchen) — ricette casalinghe e preparazioni quotidiane.
 - [Asakusa Tokyo Kitchen](https://www.youtube.com/@asakusa-tokyokitchen) — cucina giapponese con taglio pratico.
 - [Hitohira - Kaiseki Apprentice Jon](https://www.youtube.com/watch?v=f-p11osKto4&list=PLEmhoFVuJawYMXTUCOGeW6kfh4mVSFLOt) — serie molto interessante su tecniche di taglio per cucina kaiseki.
+- [Samukichi - Japan food studio](https://www.youtube.com/@samukichiJFS) — un sacco di dritte pratiche.
 
 ### Affilatura coltelli
 
@@ -73,3 +74,8 @@ Una raccolta rapida di canali YouTube e account Instagram utili per ricette, tec
 - [@nigirikuni](https://www.instagram.com/nigirikuni/) — top sushi chef.
 - [@justonecookbook](https://www.instagram.com/justonecookbook/) — ricette giapponesi spiegate in inglese, molto dettagliate e con foto passo passo, account del famoso blog Just One Cookbook.
 - [@oiri.kitchen](https://www.instagram.com/oiri.kitchen/) — tecniche di taglio giapponese avanzate.
+
+### Lingua giapponese
+
+- [@online.kohitsu.lets_o](https://www.instagram.com/online.kohitsu.lets_o/) — lezioni di scrittura giapponese.
+- [@samurai_date_japanese](https://www.instagram.com/samurai_date_japanese/) — lezioni di giapponese come se fossero dei giochini
