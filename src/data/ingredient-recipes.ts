@@ -317,6 +317,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/kara-age"
     },
     {
+      "id": "ricette/antipasti/nama_harumaki",
+      "title": "Nama Harumaki",
+      "description": "Gli involtini primavera giapponesi in carta di riso, freschi e non fritti, ripieni di pollo teriyaki",
+      "permalink": "/ricette/nama-harumaki"
+    },
+    {
       "id": "ricette/sides/potetosarada",
       "title": "Potetosarada",
       "description": "Insalata di patate",
@@ -595,6 +601,14 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Misoshiru",
       "description": "Zuppa di miso",
       "permalink": "/ricette/zuppa_di_miso"
+    }
+  ],
+  "teriyaki": [
+    {
+      "id": "ricette/antipasti/nama_harumaki",
+      "title": "Nama Harumaki",
+      "description": "Gli involtini primavera giapponesi in carta di riso, freschi e non fritti, ripieni di pollo teriyaki",
+      "permalink": "/ricette/nama-harumaki"
     }
   ],
   "sesame oil": [
