@@ -1,0 +1,457 @@
+{
+  "meta": {
+    "title": "Topologia della cucina giapponese — per tipo di preparazione",
+    "version": "6.0",
+    "description": "Grafo navigabile della cucina giapponese organizzato per tecnica di preparazione. 16 categorie principali, ciascuna con sotto-nodi espandibili. Sushimono è un nodo ibrido con radici in tre categorie distinte.",
+    "topology": "radial-hub-and-spoke with drill-down subtrees",
+    "last_updated": "2025",
+    "node_count": 16,
+    "total_nodes_including_children": 120
+  },
+
+  "color_palette": {
+    "liquido": { "primary": "#7F77DD", "dark": "#3C3489", "light": "#CECBF6", "label": "Cottura in liquido" },
+    "calore":  { "primary": "#1D9E75", "dark": "#085041", "light": "#9FE1CB", "label": "Calore secco / frittura" },
+    "crudo":   { "primary": "#D85A30", "dark": "#712B13", "light": "#F5C4B3", "label": "Condimento / crudo" },
+    "noodle":  { "primary": "#378ADD", "dark": "#0C447C", "light": "#B5D4F4", "label": "Noodle" },
+    "riso":    { "primary": "#BA7517", "dark": "#633806", "light": "#FAC775", "label": "Riso" },
+    "fermento":{ "primary": "#D4537E", "dark": "#72243E", "light": "#F4C0D1", "label": "Fermentazione / conserve" },
+    "zuppe":   { "primary": "#5DCAA5", "dark": "#085041", "light": "#9FE1CB", "label": "Zuppe" },
+    "dolci":   { "primary": "#E24B4A", "dark": "#791F1F", "light": "#F7C1C1", "label": "Dolci" },
+    "bevande": { "primary": "#888780", "dark": "#444441", "light": "#D3D1C7", "label": "Bevande" },
+    "ibrido":  { "primary": "#1D9E75", "dark": "#085041", "light": "#9FE1CB", "label": "Categoria ibrida" }
+  },
+
+  "nodes": [
+    {
+      "id": "root",
+      "label": "Cucina giapponese",
+      "label_jp": "日本料理",
+      "type": "hub",
+      "color": "bevande",
+      "level": 0,
+      "has_drilldown": false,
+      "description": "16 categorie principali organizzate per tecnica di preparazione. Sushimono è l'unico nodo ibrido con radici in tre categorie diverse.",
+      "examples": []
+    },
+    {
+      "id": "nimono",
+      "label": "Nimono",
+      "label_jp": "煮物",
+      "subtitle": "brasato in liquido",
+      "type": "primary",
+      "color": "liquido",
+      "level": 1,
+      "has_drilldown": false,
+      "description": "Ingredienti brasati in dashi, shoyu, mirin e sake fino a riduzione. Il liquido glassa l'ingrediente. Il solido è protagonista — differenza chiave con shirumono. Tecnica fondamentale del kaiseki.",
+      "examples": ["Kakuni (pancia di maiale)", "Buri daikon (ricciola e ravanello)", "Chikuzen-ni (pollo e radici)", "Oden (stufato invernale)"],
+      "notes": "Differisce da shirumono perché il solido è protagonista, non il brodo."
+    },
+    {
+      "id": "shirumono",
+      "label": "Shirumono",
+      "label_jp": "汁物",
+      "subtitle": "zuppe e brodi",
+      "type": "primary",
+      "color": "zuppe",
+      "level": 1,
+      "has_drilldown": true,
+      "drilldown_tab": "shiru",
+      "description": "Categoria padre di tutte le preparazioni in cui il liquido è protagonista. Una delle 6 categorie canoniche del pasto kaiseki (一汁三菜). Suimono è la sua forma più alta e formale — non un sinonimo.",
+      "examples": ["Suimono (brodo chiaro, kaiseki)", "Miso shiru (quotidiano)", "Tonjiru (miso+maiale)", "Kenchinjiru (zen, vegano)", "Zoni (capodanno)"],
+      "notes": "Suimono NON è un sinonimo di shirumono — è una sottocategoria specifica della forma formale/kaiseki."
+    },
+    {
+      "id": "nabemono",
+      "label": "Nabemono",
+      "label_jp": "鍋物",
+      "subtitle": "pentola collettiva",
+      "type": "primary",
+      "color": "liquido",
+      "level": 1,
+      "has_drilldown": true,
+      "drilldown_tab": "nabe",
+      "description": "Cottura progressiva al tavolo in pentola (donabe). Il brodo evolve durante il pasto e si chiude con lo shime (締め): riso in zosui, ramen o udon. Cucina stagionale e conviviale.",
+      "examples": ["Shabu-shabu", "Sukiyaki", "Yudofu (tofu+kombu)", "Oden", "Chanko nabe (sumo)", "Motsu nabe", "Kimchi nabe"],
+      "notes": "Il brodo a fine pasto è la parte più preziosa — concentra tutto l'umami ceduto dagli ingredienti."
+    },
+    {
+      "id": "tsukemono",
+      "label": "Tsukemono",
+      "label_jp": "漬物",
+      "subtitle": "fermentati e conserve",
+      "type": "primary",
+      "color": "fermento",
+      "level": 1,
+      "has_drilldown": true,
+      "drilldown_tab": "tsuke",
+      "description": "Macro-categoria dei fermentati e conserve. 7 agenti principali: sale, aceto, crusca di riso (nuka), koji, miso, fecce di sake (kasu), batteri specifici. Include i fermentati di soia (daizu hakko) e di pesce (gyokai hakko). Elemento fisso del pasto tradizionale.",
+      "examples": ["Umeboshi (prugne salate)", "Nukazuke (crusca di riso)", "Miso-zuke", "Narazuke", "Natto (soia+Bacillus)", "Katsuobushi (tonno fermentato)"],
+      "notes": "Il narezushi (origine storica del sushi) è tecnicamente un tsukemono — fermentazione lattica del riso come conservante per il pesce."
+    },
+    {
+      "id": "menrui",
+      "label": "Menrui",
+      "label_jp": "麺類",
+      "subtitle": "noodle",
+      "type": "primary",
+      "color": "noodle",
+      "level": 1,
+      "has_drilldown": true,
+      "drilldown_tab": "men",
+      "description": "Classificazione per tipo di noodle (farina di grano, grano saraceno, ecc.) e per base del brodo. Il ramen è ulteriormente classificato per tipo di tare (shio, shoyu, miso, tonkotsu). Tecnicamente zuppe, ma la classificazione giapponese cataloga per il noodle, non per il brodo.",
+      "examples": ["Ramen (4 stili di tare)", "Udon (grano, spessi)", "Soba (grano saraceno)", "Somen (estivi, sottilissimi)", "Tsukemen (in immersione)", "Yakisoba (saltato)"],
+      "notes": "Il tonkotsu non è una tare ma un tipo di brodo — può essere combinato con shoyu o miso tare."
+    },
+    {
+      "id": "gohanmono",
+      "label": "Gohanmono",
+      "label_jp": "ご飯物",
+      "subtitle": "piatti di riso",
+      "type": "primary",
+      "color": "riso",
+      "level": 1,
+      "has_drilldown": true,
+      "drilldown_tab": "gohan",
+      "description": "Il riso japonica (a chicco corto, varietà come Koshihikari) come centro del pasto giapponese. Tre macro-gruppi: donburi (ciotola con topping), riso misto/cotto insieme, riso portatile o nel tè.",
+      "examples": ["Oyakodon (pollo+uovo)", "Gyūdon (manzo)", "Katsudon (tonkatsu)", "Chirashi sushi", "Takikomi gohan", "Onigiri", "Ochazuke"],
+      "notes": "Il chirashi sushi è la forma di sushi più vicina al gohanmono puro."
+    },
+    {
+      "id": "sushimono",
+      "label": "Sushimono",
+      "label_jp": "鮨・寿司",
+      "subtitle": "categoria ibrida",
+      "type": "primary",
+      "color": "ibrido",
+      "level": 1,
+      "has_drilldown": true,
+      "drilldown_tab": "sushi",
+      "is_hybrid": true,
+      "hybrid_roots": ["gohanmono", "namamono", "tsukemono"],
+      "hybrid_descriptions": {
+        "gohanmono": "Il shari (riso condito con aceto di riso) è gohanmono",
+        "namamono": "Il neta crudo (sashimi sopra il nigiri) è namamono",
+        "tsukemono": "L'origine storica (narezushi) è un fermentato — tsukemono"
+      },
+      "description": "Il sushi non appartiene a una sola categoria. È l'unico nodo ibrido della topologia con tre radici distinte. Il shari (riso sushi) è gohanmono, il neta crudo è namamono, l'origine storica nel narezushi fermentato è tsukemono.",
+      "examples": ["Nigiri (Edo-mae, XIX sec.)", "Makizushi (hosomaki, futomaki)", "Oshizushi (pressato, Osaka)", "Narezushi (fermentato, VIII sec.)", "Temaki", "Chirashi"],
+      "notes": "Il nigiri con salmone crudo è un'invenzione norvegese degli anni '80 — il nigiri Edo-mae originale usava molto meno il crudo."
+    },
+    {
+      "id": "okashi",
+      "label": "Okashi",
+      "label_jp": "お菓子",
+      "subtitle": "dolci",
+      "type": "primary",
+      "color": "dolci",
+      "level": 1,
+      "has_drilldown": true,
+      "drilldown_tab": "okashi",
+      "description": "Il wagashi tradizionale si classifica per contenuto d'acqua: namagashi (>30%, freschi), han-namagashi (10-30%), higashi (<10%, secchi per koicha). Lo yogashi porta la tecnica europea adattata al gusto giapponese dal periodo Meiji.",
+      "examples": ["Wagashi (tradizionale)", "Namagashi (nerikiri, daifuku)", "Higashi (rakugan)", "Yogashi (castella, shortcake)", "Mochi", "Dagashi", "Sembei"],
+      "notes": "La castella è la più antica contaminazione culinaria documentata — arrivò con i mercanti portoghesi a Nagasaki nel XVI secolo."
+    },
+    {
+      "id": "ocha",
+      "label": "Ocha",
+      "label_jp": "お茶",
+      "subtitle": "tè",
+      "type": "primary",
+      "color": "bevande",
+      "level": 1,
+      "has_drilldown": true,
+      "drilldown_tab": "ocha",
+      "description": "Il criterio principale è la lavorazione della foglia: ossidazione, tostatura, ombreggiatura. Il matcha si divide in usucha (leggero, cerimonie informali) e koicha (denso, cerimonie formali). Il chado (茶道) è il contesto culturale e filosofico del matcha.",
+      "examples": ["Gyokuro (ombreggiato, pregiato)", "Sencha (comune)", "Matcha (polvere)", "Hojicha (tostato)", "Bancha", "Mugicha (orzo, non tè)", "Genmaicha"],
+      "notes": "Il mugicha non è tecnicamente tè (nessuna foglia Camellia sinensis) — è un infuso di orzo tostato."
+    },
+    {
+      "id": "osake",
+      "label": "Osake",
+      "label_jp": "お酒",
+      "subtitle": "alcolici",
+      "type": "primary",
+      "color": "bevande",
+      "level": 1,
+      "has_drilldown": true,
+      "drilldown_tab": "osake",
+      "description": "Fermentati (nihonshu classificato per seimaibuai, doburoku, amazake), distillati (shochu per substrato: imo/mugi/kome, awamori di Okinawa), liquori/infusi (umeshu), uso culinario (mirin). Il koji è il denominatore comune dei fermentati.",
+      "examples": ["Nihonshu (junmai, ginjo, daiginjo)", "Shochu (imo, mugi, kome)", "Awamori (Okinawa)", "Umeshu", "Amazake", "Mirin (culinario)", "Nigorizake"],
+      "notes": "Il mirin è tecnicamente alcolico ma l'uso è quasi esclusivamente culinario."
+    },
+    {
+      "id": "aemono",
+      "label": "Aemono",
+      "label_jp": "和え物",
+      "subtitle": "condito a freddo",
+      "type": "primary",
+      "color": "crudo",
+      "level": 1,
+      "has_drilldown": false,
+      "description": "Ingredienti (verdure, pesce, tofu) conditi con salse a freddo: sesamo (goma-ae), miso, tofu (shira-ae) o aceto. Servito come zensai (antipasto) o contorno. La sottocategoria sunomono usa aceto come condimento principale.",
+      "examples": ["Horenso no goma-ae (spinaci al sesamo)", "Shira-ae (verdure e tofu)", "Nuta (cipollotti con miso)", "Karashi renkon (loto con senape)", "Sunomono (in aceto)"],
+      "notes": "Sunomono (酢の物) è una sottocategoria dell'aemono specializzata nell'uso dell'aceto — non una categoria separata."
+    },
+    {
+      "id": "mushimono",
+      "label": "Mushimono",
+      "label_jp": "蒸し物",
+      "subtitle": "cottura al vapore",
+      "type": "primary",
+      "color": "liquido",
+      "level": 1,
+      "has_drilldown": false,
+      "description": "Cottura delicata al vapore. Tecnica kaiseki per eccellenza — preserva texture e umami senza mascherare l'ingrediente. Il chawanmushi è la preparazione più rappresentativa: flan salato all'uovo cotto al vapore.",
+      "examples": ["Chawanmushi (flan salato all'uovo)", "Mushi-gyoza", "Sakamushi (pesce cotto col sake)", "Kabura mushi (Kyoto, con rapa)"],
+      "notes": ""
+    },
+    {
+      "id": "agemono",
+      "label": "Agemono",
+      "label_jp": "揚げ物",
+      "subtitle": "frittura",
+      "type": "primary",
+      "color": "calore",
+      "level": 1,
+      "has_drilldown": false,
+      "description": "Quattro tecniche principali: tempura (pastella leggerissima di farina+acqua fredda), karaage (marinatura con shoyu+sake poi amido di patate), katsu (pangrattato panko), kakiage (fritto misto senza forma). La temperatura dell'olio e la secchezza della pastella sono i parametri critici.",
+      "examples": ["Tempura (gamberetti, verdure)", "Tori karaage", "Tonkatsu (maiale panato)", "Kakiage", "Ebi furai"],
+      "notes": ""
+    },
+    {
+      "id": "yakimono",
+      "label": "Yakimono",
+      "label_jp": "焼き物",
+      "subtitle": "cottura al fuoco",
+      "type": "primary",
+      "color": "calore",
+      "level": 1,
+      "has_drilldown": false,
+      "description": "Cinque tecniche principali: shioyaki (solo sale), teriyaki (glassa shoyu+mirin+sake), misoyaki (marinatura nel miso), kabayaki (glassa densa per anguilla), robatayaki (griglia di carbone). Il calore diretto produce la reazione di Maillard valorizzata come 'yakime'.",
+      "examples": ["Yakitori (spiedini di pollo)", "Teriyaki di salmone", "Sanma shioyaki (sgombro)", "Unagi kabayaki (anguilla)", "Gyū-tan (lingua di bue)"],
+      "notes": ""
+    },
+    {
+      "id": "namamono",
+      "label": "Namamono",
+      "label_jp": "生物",
+      "subtitle": "crudo",
+      "type": "primary",
+      "color": "crudo",
+      "level": 1,
+      "has_drilldown": false,
+      "description": "Ingredienti crudi o quasi crudi. Include sashimi (pesce crudo), tataki (scottato esternamente), carpacci marini, yuke (tartare di manzo). La qualità assoluta dell'ingrediente è il requisito fondamentale — la tecnica serve a non interferire.",
+      "examples": ["Sashimi (maguro, sake, hamachi, tai)", "Tataki di katsuo (scottato)", "Yuke (tartare di manzo)", "Kobujime (pesce marinato nel kombu)"],
+      "notes": "La capacità di riconoscere la freschezza e il taglio (kireme) è una delle tecniche più valorizzate dello shokunin."
+    }
+  ],
+
+  "edges": [
+    { "source": "root", "target": "nimono",    "type": "primary", "color_hint": "liquido" },
+    { "source": "root", "target": "shirumono", "type": "primary", "color_hint": "zuppe" },
+    { "source": "root", "target": "nabemono",  "type": "primary", "color_hint": "liquido" },
+    { "source": "root", "target": "tsukemono", "type": "primary", "color_hint": "fermento" },
+    { "source": "root", "target": "menrui",    "type": "primary", "color_hint": "noodle" },
+    { "source": "root", "target": "gohanmono", "type": "primary", "color_hint": "riso" },
+    { "source": "root", "target": "sushimono", "type": "primary", "color_hint": "ibrido" },
+    { "source": "root", "target": "okashi",    "type": "primary", "color_hint": "dolci" },
+    { "source": "root", "target": "ocha",      "type": "primary", "color_hint": "bevande" },
+    { "source": "root", "target": "osake",     "type": "primary", "color_hint": "bevande" },
+    { "source": "root", "target": "aemono",    "type": "primary", "color_hint": "crudo" },
+    { "source": "root", "target": "mushimono", "type": "primary", "color_hint": "liquido" },
+    { "source": "root", "target": "agemono",   "type": "primary", "color_hint": "calore" },
+    { "source": "root", "target": "yakimono",  "type": "primary", "color_hint": "calore" },
+    { "source": "root", "target": "namamono",  "type": "primary", "color_hint": "crudo" },
+
+    { "source": "sushimono", "target": "gohanmono", "type": "hybrid", "dashed": true, "label": "shari = riso condito" },
+    { "source": "sushimono", "target": "namamono",  "type": "hybrid", "dashed": true, "label": "neta crudo" },
+    { "source": "sushimono", "target": "tsukemono", "type": "hybrid", "dashed": true, "label": "origine storica (narezushi)" },
+
+    { "source": "shirumono", "target": "nimono",   "type": "affinity", "dashed": true, "label": "stessa base dashi" },
+    { "source": "shirumono", "target": "nabemono", "type": "affinity", "dashed": true, "label": "stessa dimensione liquida" }
+  ],
+
+  "drilldowns": {
+
+    "shiru": {
+      "title": "Shirumono — zuppe e brodi",
+      "description": "Il criterio interno è il registro (formale→informale) e la base del brodo (dashi chiaro / miso / composito). Suimono è la forma più alta e formale — non un sinonimo di shirumono.",
+      "axis": { "label": "formale → informale", "direction": "horizontal" },
+      "nodes": [
+        { "id": "suimono",    "label": "Suimono",       "label_jp": "吸い物", "color": "#04342C", "border": "#085041", "register": "formale", "description": "Brodo dashi limpidissimo. La forma più raffinata. La più difficile da eseguire. Tecnica kaiseki.", "examples": ["Hamaguri (vongole, hinamatsuri)", "Matsutake (autunno)", "Ebi (gambero)", "Tai (orata)"], "notes": "Il dashi deve essere perfetto — ogni impurità è visibile in un brodo così chiaro." },
+        { "id": "kakitama",   "label": "Kakitamajiru",  "label_jp": "かき玉汁", "color": "#085041", "border": "#1D9E75", "register": "semi-formale", "description": "Brodo dashi con uovo sbattuto versato a filo. Registro intermedio.", "examples": [], "notes": "" },
+        { "id": "misoshiru",  "label": "Miso shiru",    "label_jp": "味噌汁", "color": "#633806", "border": "#BA7517", "register": "quotidiano", "description": "La zuppa più quotidiana del Giappone. La scelta del miso (bianco/rosso/misto) dipende dalla regione.", "examples": ["Tofu+wakame", "Asari (vongole)", "Nameko", "Daikon+abura-age"], "notes": "" },
+        { "id": "tonjiru",    "label": "Tonjiru",       "label_jp": "豚汁", "color": "#633806", "border": "#BA7517", "register": "informale", "description": "Miso shiru arricchita con maiale e radici. Sostanzioso, invernale.", "examples": [], "notes": "" },
+        { "id": "kenchinjiru","label": "Kenchinjiru",   "label_jp": "けんちん汁", "color": "#3C3489", "border": "#7F77DD", "register": "rituale", "description": "Brodo zen vegano. Kombu only — niente katsuobushi. Origine al tempio Kenchoji di Kamakura.", "examples": [], "notes": "Unico shirumono senza dashi di pesce." },
+        { "id": "zoni",       "label": "Zoni",          "label_jp": "雑煮", "color": "#3C3489", "border": "#7F77DD", "register": "rituale", "description": "Brodo con mochi a capodanno. Marcatore identitario regionale fortissimo.", "examples": ["Tokyo: dashi chiaro + mochi quadrato", "Kyoto: shiro miso + mochi rotondo", "Osaka: miso rosso"], "notes": "" },
+        { "id": "ushiojiru",  "label": "Ushiojiru",     "label_jp": "潮汁", "color": "#3C3489", "border": "#7F77DD", "register": "formale", "description": "Solo sale marino e pesce. Tecnica minimalista e difficile.", "examples": ["Tai ushiojiru", "Ise-ebi (aragosta)"], "notes": "" },
+        { "id": "tofumisoshiru", "label": "Tofu miso shiru", "label_jp": "豆腐味噌汁", "color": "#633806", "border": "#BA7517", "register": "quotidiano", "description": "La combinazione più classica: dashi + miso + tofu + wakame.", "examples": [], "notes": "" }
+      ],
+      "children": {
+        "suimono": [
+          { "id": "suimono-hamaguri",  "label": "Hamaguri",  "description": "Vongole in brodo chiaro. Rituale dell'Hinamatsuri (3 marzo). Le valve simboleggiano l'unione coniugale." },
+          { "id": "suimono-matsutake", "label": "Matsutake", "description": "Fungo matsutake autunnale. Il profumo è l'ingrediente principale." }
+        ],
+        "misoshiru": [
+          { "id": "misoshiru-shiro", "label": "Shiro miso", "description": "Miso bianco dolce. Tipico di Kyoto/Kansai." },
+          { "id": "misoshiru-aka",   "label": "Aka miso",   "description": "Miso rosso intenso. Tipico di Aichi e Sendai." }
+        ]
+      }
+    },
+
+    "nabe": {
+      "title": "Nabemono — pentola collettiva",
+      "description": "Il criterio è la base del brodo. Ogni nabe ha il suo shime finale (riso/noodle in zosui).",
+      "nodes": [
+        { "id": "shabu",    "label": "Shabu-shabu", "label_jp": "しゃぶしゃぶ", "brodo": "dashi chiaro", "color": "#3C3489", "border": "#7F77DD", "description": "Fettine sottilissime agitate nel dashi per pochi secondi. Brodo quasi neutro. Ponzu o sesamo.", "examples": ["Wagyu", "Maiale", "Tofu"], "notes": "" },
+        { "id": "yudofu",   "label": "Yudofu",      "label_jp": "湯豆腐",    "brodo": "kombu",      "color": "#3C3489", "border": "#7F77DD", "description": "Tofu in brodo di kombu — origine zen. Specialità invernale di Kyoto.", "examples": [], "notes": "" },
+        { "id": "sukiyaki", "label": "Sukiyaki",    "label_jp": "すき焼き",  "brodo": "warishita",  "color": "#712B13", "border": "#D85A30", "description": "Warishita (shoyu+mirin+zucchero+sake). Si intinge nell'uovo crudo. Stile Kanto vs Kansai.", "examples": ["Kanto: warishita diretto", "Kansai: rosolatura prima"], "notes": "" },
+        { "id": "milknabe", "label": "Tonyu nabe",  "label_jp": "豆乳鍋",    "brodo": "latte soia", "color": "#085041", "border": "#1D9E75", "description": "Brodo di latte di soia. Delicato e cremoso. Popolare dagli anni 2000.", "examples": [], "notes": "" },
+        { "id": "misonabe", "label": "Miso nabe",   "label_jp": "味噌鍋",    "brodo": "miso",       "color": "#633806", "border": "#BA7517", "description": "Brodo di miso come base. Spesso miso rosso o hatcho.", "examples": [], "notes": "" },
+        { "id": "oden",     "label": "Oden",        "label_jp": "おでん",    "brodo": "dashi leggero", "color": "#3C3489", "border": "#7F77DD", "description": "Ingredienti diversi in dashi leggero cotti a lungo. Street food invernale dei conbini.", "examples": ["Daikon", "Hanpen", "Konnyaku", "Uovo sodo"], "notes": "" },
+        { "id": "chanko",   "label": "Chanko nabe", "label_jp": "ちゃんこ鍋","brodo": "misto",      "color": "#712B13", "border": "#D85A30", "description": "Stufato dei lottatori di sumo. Alta densità calorica. Ricetta variabile per scuderia.", "examples": [], "notes": "Il pollo è preferito perché cammina su due piedi — simbolo di equilibrio." },
+        { "id": "motsu",    "label": "Motsu nabe",  "label_jp": "もつ鍋",    "brodo": "miso/shoyu", "color": "#633806", "border": "#BA7517", "description": "Frattaglie bovine in brodo miso o shoyu. Fukuoka.", "examples": [], "notes": "" },
+        { "id": "kimchi",   "label": "Kimchi nabe", "label_jp": "キムチ鍋",  "brodo": "kimchi",     "color": "#633806", "border": "#BA7517", "description": "Brodo piccante a base di kimchi. Influenza coreana integrata nella cucina giapponese moderna.", "examples": [], "notes": "" }
+      ]
+    },
+
+    "men": {
+      "title": "Menrui — noodle",
+      "description": "Classificazione per tipo di noodle e base del brodo. Il ramen ha 4 stili principali di tare.",
+      "nodes": [
+        { "id": "ramen",    "label": "Ramen",     "label_jp": "ラーメン", "noodle": "grano alcalino", "color": "#0C447C", "border": "#378ADD", "description": "Struttura: tare + brodo base + noodle + toppings. 4 stili di tare: shio, shoyu, miso, tonkotsu.", "examples": ["Shio (sale, Hakodate)", "Shoyu (soia, Tokyo)", "Miso (Sapporo)", "Tonkotsu (Hakata)"], "notes": "Tonkotsu è un tipo di brodo (osso maiale), non una tare." },
+        { "id": "udon",     "label": "Udon",      "label_jp": "うどん",  "noodle": "grano spesso",  "color": "#0C447C", "border": "#378ADD", "description": "Noodle spessi di farina di grano. Specialità di Kagawa (Sanuki udon). Caldo o freddo.", "examples": ["Kake (caldo in brodo)", "Zaru (freddo)", "Kitsune (abura-age)", "Niku (carne)"], "notes": "" },
+        { "id": "soba",     "label": "Soba",      "label_jp": "そば",    "noodle": "grano saraceno","color": "#085041", "border": "#1D9E75", "description": "Grano saraceno. Zaru (freddo+tsuyu) o kake (caldo in brodo). Juwari = 100% saraceno.", "examples": ["Zaru soba (freddo)", "Kake soba (caldo)", "Tempura soba", "Toshikoshi soba (capodanno)"], "notes": "Tradizione: si aspira rumorosamente per raffreddare il noodle e portare l'aroma al naso." },
+        { "id": "somen",    "label": "Somen",     "label_jp": "そうめん","noodle": "grano sottile", "color": "#0C447C", "border": "#378ADD", "description": "Noodle di grano sottilissimi (<1.3mm). Estivi, freddi in acqua ghiacciata.", "examples": ["Hiyashi somen", "Nyumen (caldi in brodo)"], "notes": "" },
+        { "id": "tsukemen", "label": "Tsukemen",  "label_jp": "つけ麺",  "noodle": "grano spesso", "color": "#0C447C", "border": "#378ADD", "description": "Noodle serviti separati dal brodo concentrato per l'immersione. Inventato a Tokyo negli anni '60.", "examples": [], "notes": "" },
+        { "id": "yakisoba", "label": "Yakisoba",  "label_jp": "焼きそば","noodle": "grano saltato","color": "#633806", "border": "#BA7517", "description": "Noodle saltati in padella con salsa worcestershire giapponese. Street food dei matsuri.", "examples": [], "notes": "Non è soba di grano saraceno — il nome indica solo la forma del noodle." }
+      ],
+      "children": {
+        "ramen": [
+          { "id": "ramen-shio",     "label": "Shio",     "description": "Tare di sale. Il più chiaro e delicato. Hakodate." },
+          { "id": "ramen-shoyu",    "label": "Shoyu",    "description": "Tare di salsa di soia. Stile Tokyo. Il più diffuso." },
+          { "id": "ramen-miso",     "label": "Miso",     "description": "Tare di miso. Corposo. Nato a Sapporo negli anni '60." },
+          { "id": "ramen-tonkotsu", "label": "Tonkotsu", "description": "Brodo di osso di maiale emulsionato. Non è una tare. Fukuoka/Hakata." }
+        ],
+        "soba": [
+          { "id": "soba-zaru", "label": "Zaru soba", "description": "Fredda su cestino di bambù, con tsuyu per l'immersione." },
+          { "id": "soba-kake", "label": "Kake soba", "description": "Calda in brodo dashi+shoyu." }
+        ]
+      }
+    },
+
+    "gohan": {
+      "title": "Gohanmono — piatti di riso",
+      "description": "Tre macro-gruppi: donburi (ciotola con topping), riso misto/cotto insieme, riso portatile o nel tè.",
+      "nodes": [
+        { "id": "oyakodon",  "label": "Oyakodon",       "label_jp": "親子丼",   "group": "donburi",  "color": "#633806", "border": "#BA7517", "description": "Pollo e uovo su riso. 'Genitore e figlio' (oya=genitore, ko=figlio). Uovo semicrudo.", "examples": [], "notes": "" },
+        { "id": "gyudon",    "label": "Gyūdon",          "label_jp": "牛丼",    "group": "donburi",  "color": "#633806", "border": "#BA7517", "description": "Manzo sottile in warishita su riso. Comfort food — Yoshinoya dal 1899.", "examples": [], "notes": "" },
+        { "id": "katsudon",  "label": "Katsudon",        "label_jp": "カツ丼",  "group": "donburi",  "color": "#633806", "border": "#BA7517", "description": "Tonkatsu con uovo in brodo su riso. 'Katsu' suona come 'vincere' — si mangia prima degli esami.", "examples": [], "notes": "" },
+        { "id": "chirashi",  "label": "Chirashi sushi",  "label_jp": "散らし寿司","group": "donburi", "color": "#412402", "border": "#633806", "description": "Riso da sushi con neta dispersi sopra. La forma di sushi più vicina al gohanmono.", "examples": [], "notes": "" },
+        { "id": "tendon",    "label": "Tendon",          "label_jp": "天丼",    "group": "donburi",  "color": "#412402", "border": "#633806", "description": "Tempura su riso con salsa tentsuyu dolce-salata.", "examples": [], "notes": "" },
+        { "id": "takikomi",  "label": "Takikomi gohan",  "label_jp": "炊き込みご飯","group": "misto", "color": "#412402", "border": "#633806", "description": "Riso cotto direttamente con dashi e ingredienti. Stagionale.", "examples": ["Kuri gohan (castagne, autunno)", "Takenoko (bambù, primavera)", "Matsutake"], "notes": "" },
+        { "id": "mazegohan", "label": "Maze gohan",      "label_jp": "混ぜご飯", "group": "misto",   "color": "#444441", "border": "#888780", "description": "Riso cotto separatamente poi mescolato a freddo con condimenti.", "examples": [], "notes": "" },
+        { "id": "ochazuke",  "label": "Ochazuke",        "label_jp": "お茶漬け", "group": "infuso",  "color": "#444441", "border": "#888780", "description": "Riso con tè verde caldo (o dashi). Leggero e digestivo. Fine pasto o notturno.", "examples": ["Sake ochazuke (salmone)", "Umeboshi ochazuke"], "notes": "" },
+        { "id": "onigiri",   "label": "Onigiri",         "label_jp": "おにぎり", "group": "portatile","color": "#444441", "border": "#888780", "description": "Triangolo di riso avvolto in nori. Il 'panino' giapponese.", "examples": ["Umeboshi", "Tuna mayo", "Shake (salmone)", "Okaka (katsuobushi)"], "notes": "" }
+      ]
+    },
+
+    "sushi": {
+      "title": "Sushimono — genealogia e forme",
+      "description": "Il sushi evolve da un fermentato di conservazione (VIII sec.) al nigiri Edo-mae (XIX sec.). Asse temporale: narezushi → oshizushi → makizushi → nigiri.",
+      "timeline": [
+        { "period": "~VIII sec.",   "id": "narezushi",  "label": "Narezushi",    "label_jp": "熟れ鮨",  "color": "#04342C", "border": "#085041", "category": "tsukemono", "description": "Pesce conservato sotto sale e riso fermentato per mesi/anni. Il riso era il mezzo di fermentazione, non si mangiava. Radice in tsukemono.", "examples": ["Funazushi (carpa, Lago Biwa)", "Izushi (salmone, Hokkaido)"], "notes": "Il riso originariamente veniva scartato — solo il pesce si mangiava." },
+        { "period": "~XIV sec.",    "id": "oshizushi",  "label": "Oshizushi",    "label_jp": "押し寿司",  "color": "#085041", "border": "#1D9E75", "category": "gohanmono+namamono", "description": "Riso e pesce pressati in uno stampo di legno (oshibako). L'aceto sostituisce la fermentazione lattica. Specialità di Osaka/Kansai.", "examples": ["Battera (sgombro, Osaka)", "Kakinoha sushi (foglia di kaki, Nara)", "Masu no sushi (trota, Toyama)"], "notes": "" },
+        { "period": "~XVIII sec.",  "id": "maki",       "label": "Makizushi",    "label_jp": "巻き寿司",  "color": "#085041", "border": "#1D9E75", "category": "gohanmono+namamono", "description": "Riso e ingredienti avvolti in nori con makisu. Si divide per diametro: hosomaki, futomaki, uramaki.", "examples": ["Hosomaki (kappa, tekka)", "Futomaki (Setsubun)", "Uramaki (inside-out, California roll)"], "notes": "" },
+        { "period": "XIX sec.",     "id": "nigiri",     "label": "Nigiri",       "label_jp": "握り",      "color": "#1D9E75", "border": "#5DCAA5", "category": "gohanmono+namamono", "description": "Riso pressato a mano con velo di wasabi e neta sopra. Inventato a Edo come street food veloce. Il riso è co-protagonista del neta.", "examples": ["Maguro", "Sake", "Hamachi", "Ika", "Ebi", "Anago (cotto)", "Kohada (marinato)"], "notes": "Il nigiri Edo-mae originale usava molti neta marinati o cotti — non solo crudo. Il salmone crudo è un'invenzione norvegese degli anni '80." },
+        { "period": "XIX–oggi",     "id": "temaki",     "label": "Temaki",       "label_jp": "手巻き",    "color": "#5DCAA5", "border": "#1D9E75", "category": "gohanmono+namamono", "description": "Cono di nori riempito a mano. Informale — si mangia subito.", "examples": [], "notes": "" },
+        { "period": "XX sec.",      "id": "uramaki",    "label": "Uramaki",      "label_jp": "裏巻き",    "color": "#5DCAA5", "border": "#1D9E75", "category": "diaspora", "description": "Riso all'esterno, nori all'interno. Inventato in California. Non è sushi tradizionale giapponese.", "examples": ["California roll", "Spicy tuna roll"], "notes": "Creazione della diaspora giapponese in America." }
+      ],
+      "special": [
+        { "id": "gunkanmaki", "label": "Gunkanmaki", "label_jp": "軍艦巻き", "description": "Riso ovale con nastro di nori che forma un bordo per ingredienti morbidi. Inventato da Kyubey nel 1941.", "examples": ["Ikura (uova salmone)", "Uni (riccio)", "Tobiko"] }
+      ]
+    },
+
+    "tsuke": {
+      "title": "Tsukemono — fermentati e conserve",
+      "description": "7 agenti di fermentazione/conservazione. Include i fermentati di soia (daizu hakko) e di pesce (gyokai hakko). La linea verso narezushi mostra l'origine storica del sushi.",
+      "nodes": [
+        { "id": "shiozuke",  "label": "Shio-zuke",   "label_jp": "塩漬け", "agent": "sale",          "color": "#72243E", "border": "#993556", "description": "La tecnica più antica. Il sale disidrata e crea un ambiente osmotico. Spesso primo step per nuka-zuke.", "examples": ["Umeboshi", "Shiso-zuke", "Hakusai shio-zuke"], "notes": "" },
+        { "id": "suzuke",    "label": "Su-zuke",     "label_jp": "酢漬け", "agent": "aceto",         "color": "#72243E", "border": "#993556", "description": "Aceto di riso. Abbassamento del pH — non fermentazione batterica vera.", "examples": ["Rakkyo", "Beni shoga", "Gari (sushi)"], "notes": "" },
+        { "id": "shiokoji",  "label": "Shio koji",   "label_jp": "塩麹",   "agent": "koji+sale",     "color": "#27500A", "border": "#639922", "description": "Koji+sale+acqua. Enzimi (proteasi, amilasi) producono aminoacidi liberi — umami puro.", "examples": ["Marinatura pollo", "Pesce", "Verdure"], "notes": "Il koji (Aspergillus oryzae) è il fungo fondante della cucina giapponese — anche per miso, shoyu, sake, mirin." },
+        { "id": "kojizuke",  "label": "Koji-zuke",   "label_jp": "麹漬け", "agent": "koji puro",     "color": "#27500A", "border": "#639922", "description": "Koji di riso o orzo puro, senza sale aggiunto. Risultati più dolci e morbidi.", "examples": ["Kyuri koji-zuke", "Kabu koji-zuke"], "notes": "" },
+        { "id": "nukazuke",  "label": "Nuka-zuke",   "label_jp": "糠漬け", "agent": "crusca+batteri","color": "#633806", "border": "#BA7517", "description": "Fermentazione lattica nel nukadoko vivo. Da mescolare ogni giorno. Tramandato per anni.", "examples": ["Cetriolo", "Daikon", "Melanzana", "Carota"], "notes": "Il nukadoko è un ecosistema batterico vivo — ogni nukadoko ha il suo profilo microbico unico." },
+        { "id": "misozuke",  "label": "Miso-zuke",   "label_jp": "味噌漬け","agent": "miso",         "color": "#633806", "border": "#BA7517", "description": "Il miso cede sale, enzimi e umami. Per verdure, pesce e carne.", "examples": ["Daikon", "Merluzzo (misoyaki)", "Uovo sodo"], "notes": "" },
+        { "id": "kasuzuke",  "label": "Kasu-zuke",   "label_jp": "粕漬け", "agent": "fecce sake",    "color": "#633806", "border": "#BA7517", "description": "Sake kasu cede alcol residuo, enzimi e zuccheri. Dolce, morbido, leggermente alcolico.", "examples": ["Narazuke (melone)", "Wasabi-zuke"], "notes": "Narazuke prodotta a Nara da oltre 1300 anni." },
+        { "id": "gyokai",    "label": "Gyokai hakko","label_jp": "魚介発酵","agent": "batteri/enzimi","color": "#712B13", "border": "#993C1D", "description": "Pesce e frutti di mare fermentati. Katsuobushi = tonno fermentato con Aspergillus glaucus — la base del dashi.", "examples": ["Shiokara (viscere calamaro)", "Kusaya (Izu)", "Katsuobushi", "Ikura shio-zuke"], "notes": "Il katsuobushi chiude il cerchio: la base di shirumono e nimono viene da un fermentato di pesce." },
+        { "id": "daizu",     "label": "Daizu hakko", "label_jp": "大豆発酵","agent": "koji/batteri",  "color": "#0C447C", "border": "#185FA5", "description": "Il cluster più importante per umami: miso, shoyu, natto, tofu yo, hamanatto.", "examples": ["Miso (bianco, rosso, hatcho, mugi)", "Shoyu (5 tipi)", "Natto (Bacillus subtilis)", "Tofu yo (Okinawa)"], "notes": "Natto è l'unico fermentato importante che NON usa il koji." }
+      ]
+    },
+
+    "okashi": {
+      "title": "Okashi — dolci",
+      "description": "Il wagashi si classifica per contenuto d'acqua. Lo yogashi porta la tecnica europea adattata. Mochi, sembei e dagashi sono categorie trasversali.",
+      "nodes": [
+        { "id": "wagashi",    "label": "Wagashi",         "label_jp": "和菓子",   "origin": "tradizionale", "color": "#791F1F", "border": "#A32D2D", "description": "Dolci nati in relazione alla cerimonia del tè. Ingredienti vegetali: anko, mochi, kanten.", "examples": ["Dorayaki", "Yokan", "Manju", "Daifuku", "Nerikiri"], "notes": "" },
+        { "id": "namagashi",  "label": "Namagashi",       "label_jp": "生菓子",   "water": ">30%",          "color": "#791F1F", "border": "#A32D2D", "description": "Umidità >30%. Vita breve (1-2 giorni). Forme artigianali stagionali.", "examples": ["Nerikiri", "Daifuku", "Manju al vapore"], "notes": "" },
+        { "id": "higashi",    "label": "Higashi",         "label_jp": "干菓子",   "water": "<10%",          "color": "#791F1F", "border": "#A32D2D", "description": "Umidità <10%. Lunga conservazione. Per koicha formale.", "examples": ["Rakugan", "Konpei-to"], "notes": "" },
+        { "id": "hannam",     "label": "Han-namagashi",   "label_jp": "半生菓子", "water": "10-30%",        "color": "#791F1F", "border": "#A32D2D", "description": "10-30% di acqua. Zona intermedia.", "examples": ["Monaka", "Kingyoku"], "notes": "" },
+        { "id": "yogashi",    "label": "Yogashi",         "label_jp": "洋菓子",   "origin": "western",      "color": "#501313", "border": "#E24B4A", "description": "Tecnica europea dal periodo Meiji. Meno dolce, matcha e azuki integrati.", "examples": ["Castella (XVI sec., Nagasaki)", "Shortcake fragola", "Melon pan", "Roll cake matcha"], "notes": "" },
+        { "id": "moderna",    "label": "Confetteria moderna","label_jp": "現代菓子","origin": "industriale", "color": "#501313", "border": "#E24B4A", "description": "Dal dopoguerra. Industria dolciaria tra le più creative al mondo.", "examples": ["Pocky/Pretz", "Kit Kat (200+ gusti regionali)", "Koala no March"], "notes": "" },
+        { "id": "mochi",      "label": "Mochi",           "label_jp": "餅",       "origin": "trasversale",  "color": "#444441", "border": "#888780", "description": "Riso glutinoso pestato. Compare in wagashi, nabemono, come cibo rituale.", "examples": ["Daifuku", "Sakuramochi", "Yakimochi", "Zoni"], "notes": "" },
+        { "id": "dagashi",    "label": "Dagashi",         "label_jp": "駄菓子",   "origin": "popolare",     "color": "#444441", "border": "#888780", "description": "Dolciumi economici dei negozietti (dagashiya). Cultura dell'infanzia.", "examples": ["Umaibo", "Ramune candy", "Neri ame"], "notes": "" },
+        { "id": "sembei",     "label": "Sembei",          "label_jp": "煎餅",     "origin": "snack",        "color": "#444441", "border": "#888780", "description": "Gallette di riso non glutinoso grigliate o fritte. Spesso glassate con shoyu.", "examples": ["Shoyu sembei", "Nori sembei", "Age sembei"], "notes": "" }
+      ]
+    },
+
+    "ocha": {
+      "title": "Ocha — tè",
+      "description": "Il criterio principale è la lavorazione della foglia: ossidazione, tostatura, ombreggiatura. Il matcha si divide in usucha e koicha.",
+      "nodes": [
+        { "id": "gyokuro",   "label": "Gyokuro",   "label_jp": "玉露",    "process": "ombreggiatura", "color": "#27500A", "border": "#639922", "description": "Coltivato all'ombra 3-4 settimane. Alta L-teanina (umami e dolcezza). Il più pregiato.", "examples": [], "notes": "Raccolto a mano una volta l'anno." },
+        { "id": "sencha",    "label": "Sencha",    "label_jp": "煎茶",    "process": "cottura vapore","color": "#27500A", "border": "#639922", "description": "Il più diffuso. Coltivato al sole. Bilanciato tra dolcezza e amaro.", "examples": ["Ichibancha (prima raccolta)", "Fukamushi sencha"], "notes": "" },
+        { "id": "matcha",    "label": "Matcha",    "label_jp": "抹茶",    "process": "macinatura",   "color": "#27500A", "border": "#639922", "description": "Gyokuro macinato a pietra in polvere. Si sbatte con chasen. Usucha (leggero) e koicha (denso).", "examples": [], "notes": "Il matcha da cerimonia e quello da cucina sono qualità diverse." },
+        { "id": "hojicha",   "label": "Hojicha",   "label_jp": "ほうじ茶","process": "tostatura",    "color": "#633806", "border": "#BA7517", "description": "Sencha o bancha tostato a fuoco vivo. Poca caffeina. Aroma nocciolato.", "examples": [], "notes": "" },
+        { "id": "bancha",    "label": "Bancha",    "label_jp": "番茶",    "process": "foglie tardive","color": "#633806", "border": "#BA7517", "description": "Foglie tardive o steli. Rustico. Base per hojicha e genmaicha.", "examples": [], "notes": "" },
+        { "id": "mugicha",   "label": "Mugicha",   "label_jp": "麦茶",    "process": "orzo tostato", "color": "#444441", "border": "#888780", "description": "Infuso di orzo tostato. Non è tè. Estate, freddo. Nessuna caffeina.", "examples": [], "notes": "Non contiene foglie di Camellia sinensis — non è tecnicamente tè." },
+        { "id": "genmaicha", "label": "Genmaicha", "label_jp": "玄米茶",  "process": "misto",        "color": "#444441", "border": "#888780", "description": "Sencha + riso integrale tostato. Aroma nocciolato.", "examples": [], "notes": "" },
+        { "id": "kukicha",   "label": "Kukicha",   "label_jp": "茎茶",    "process": "steli",        "color": "#27500A", "border": "#639922", "description": "Steli e rametti del gyokuro. Sorprendentemente dolce. Poca caffeina.", "examples": [], "notes": "" },
+        { "id": "chado",     "label": "Chado",     "label_jp": "茶道",    "process": "cerimonia",    "color": "#3C3489", "border": "#7F77DD", "description": "La via del tè. Sen no Rikyu, XVI sec. Principi: wa·kei·sei·jaku. Il wagashi è servito prima del matcha.", "examples": ["Chaji (cerimonia completa)", "Chakai (informale)"], "notes": "" }
+      ],
+      "children": {
+        "matcha": [
+          { "id": "matcha-usucha", "label": "Usucha", "description": "Matcha leggero. Cerimonie informali. Servito con higashi o namagashi." },
+          { "id": "matcha-koicha", "label": "Koicha", "description": "Matcha denso. Cerimonie formali. Ciotola condivisa tra i partecipanti." }
+        ]
+      }
+    },
+
+    "osake": {
+      "title": "Osake — alcolici",
+      "description": "Il koji accomuna i fermentati. I distillati sono classificati per substrato.",
+      "nodes": [
+        { "id": "nihonshu", "label": "Nihonshu",  "label_jp": "日本酒",  "type": "fermentato",  "color": "#27500A", "border": "#639922", "description": "Riso + koji + lievito + acqua. Fermentazione parallela multipla. Classificato per seimaibuai (grado di levigatura).", "examples": ["Junmai (solo riso)", "Ginjo (lev. ≥60%)", "Daiginjo (≥50%)", "Nigori (torbido)", "Nama (non pastorizzato)"], "notes": "" },
+        { "id": "doburoku", "label": "Doburoku",  "label_jp": "どぶろく","type": "fermentato",  "color": "#27500A", "border": "#639922", "description": "Sake non filtrato. Artigianale o da santuario. Precursore storico del nihonshu.", "examples": [], "notes": "" },
+        { "id": "amazake",  "label": "Amazake",   "label_jp": "甘酒",    "type": "fermentato",  "color": "#27500A", "border": "#639922", "description": "Da koji (non alcolico) o sake kasu (bassa gradazione). Ricca di glucosio e aminoacidi.", "examples": ["Amazake da koji (non alcolico)", "Amazake da sake kasu"], "notes": "" },
+        { "id": "shochu",   "label": "Shochu",    "label_jp": "焼酎",    "type": "distillato",  "color": "#633806", "border": "#BA7517", "description": "Distillato da vari substrati. Grado 25-45%.", "examples": ["Imo (patata dolce, Kagoshima)", "Mugi (orzo, Oita)", "Kome (riso, Kumamoto)"], "notes": "" },
+        { "id": "awamori",  "label": "Awamori",   "label_jp": "泡盛",    "type": "distillato",  "color": "#633806", "border": "#BA7517", "description": "Okinawa. Riso thai + koji nero (Aspergillus awamori). Può invecchiare decenni (kusu).", "examples": ["Kusu (3+ anni)", "Habushu (con serpente)"], "notes": "Tecnica arrivata dalla Thailandia via commercio Ryukyu nel XIV-XV sec." },
+        { "id": "umeshu",   "label": "Umeshu",    "label_jp": "梅酒",    "type": "liquore",     "color": "#72243E", "border": "#D4537E", "description": "Prugne ume in shochu + zucchero. Macerazione 1-3 anni.", "examples": [], "notes": "" },
+        { "id": "mirin",    "label": "Mirin",     "label_jp": "みりん",  "type": "culinario",   "color": "#444441", "border": "#888780", "description": "Riso mochigome + koji + shochu. Grado 14%. Dona glassa, dolcezza e umami.", "examples": ["Hon mirin (autentico)", "Mirin-fu (sostituto)"], "notes": "Tecnicamente alcolico — uso quasi esclusivamente culinario." },
+        { "id": "nigorizake","label": "Nigorizake","label_jp": "濁り酒", "type": "fermentato",  "color": "#27500A", "border": "#639922", "description": "Nihonshu parzialmente filtrato. Torbido, dolce, effervescente.", "examples": [], "notes": "" }
+      ],
+      "children": {
+        "nihonshu": [
+          { "id": "junmai",   "label": "Junmai",   "description": "Solo riso, niente alcol aggiunto. Aroma pieno." },
+          { "id": "ginjo",    "label": "Ginjo",    "description": "Levigatura ≥60%. Aromi fruttati e floreali." },
+          { "id": "daiginjo", "label": "Daiginjo", "description": "Levigatura ≥50%. Il grado più alto." }
+        ],
+        "shochu": [
+          { "id": "shochu-imo",  "label": "Imo shochu",  "description": "Patata dolce. Il più aromatico. Kagoshima." },
+          { "id": "shochu-mugi", "label": "Mugi shochu", "description": "Orzo. Delicato e accessibile. Oita." },
+          { "id": "shochu-kome", "label": "Kome shochu", "description": "Riso. Neutro e pulito. Kumamoto." }
+        ]
+      }
+    }
+  }
+}

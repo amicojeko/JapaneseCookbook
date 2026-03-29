@@ -116,6 +116,11 @@ const config: Config = {
           position: 'left'
         },
         {
+          to: '/topologia',
+          label: 'Topologia',
+          position: 'left'
+        },
+        {
           href: 'https://github.com/amicojeko/japanesecookbook',
           label: 'GitHub',
           position: 'right',
