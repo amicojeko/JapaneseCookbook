@@ -18,18 +18,14 @@ Questa guida e' curata da **Erick**, meglio conosciuto come [**il Fujitivo**](ht
 
 :::
 
-- [Quanto prima prenotare](/viaggi/quanto_prima_prenotare)
-- [Dove andare](/viaggi/dove_andare)
-- [Standard o fuori rotta?](/viaggi/standard_o_fuori_rotta)
-- [Quante mete?](/viaggi/quante_mete)
-- [Soli o gruppo?](/viaggi/soli_o_gruppo)
-- [Soli o agenzia?](/viaggi/soli_o_agenzia)
-- [Che clima trovo?](/viaggi/che_clima_trovo)
-- [Sicurezza](/viaggi/sicurezza)
-- [Terremoti](/viaggi/terremoti)
-- [Quanto costa la permanenza?](/viaggi/quanto_costa_la_permanenza)
-- [Connessione](/viaggi/connessione)
-- [Cash o carta?](/viaggi/cash_o_carta)
-- [IC card e contactless](/viaggi/ic_card_e_contactless)
-- [Cambio yen](/viaggi/cambio_yen)
-- [Tasse e tax free](/viaggi/tasse_e_tax_free)
+### [Pianificazione del viaggio](/viaggi/pianificazione)
+Tutto quello che serve sapere prima di partire: quanto anticipo prenotare, come scegliere le destinazioni, se andare da soli o in gruppo, affidarsi a un'agenzia e quale stagione scegliere per il vostro viaggio.
+
+### [Sicurezza e terremoti](/viaggi/sicurezza)
+Il Giappone e' uno dei Paesi piu' sicuri al mondo. Qui trovate informazioni sulla criminalita', sulla Yakuza, sull'assicurazione medica (indispensabile!) e su come comportarsi in caso di terremoto.
+
+### [Soldi e pagamenti](/viaggi/soldi_e_pagamenti)
+Quanto costa vivere in Giappone, come pagare, quali carte funzionano, come usare le IC card, dove cambiare gli yen e come sfruttare il Tax Free.
+
+### [Connessione](/viaggi/connessione)
+Come restare connessi durante il viaggio: eSIM e Pocket Wi-Fi a confronto.
