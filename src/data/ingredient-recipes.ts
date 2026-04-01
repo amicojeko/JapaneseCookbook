@@ -931,6 +931,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/onigiri"
     },
     {
+      "id": "ricette/riso/onigiri_kimchi_asiago",
+      "title": "Onigiri Kimchi e Asiago",
+      "description": "Una golosa contaminazione nippo-coreana-italiana per un onigiri croccante e saporitissimo.",
+      "permalink": "/ricette/onigiri-kimchi-asiago"
+    },
+    {
       "id": "ricette/yakimono/isobeyaki",
       "title": "Isobeyaki",
       "description": "Mochi grigliato avvolto nell'alga nori, uno snack semplice e \"pericolosamente\" buono",
@@ -983,6 +989,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Onigiri al Tonno e Maionese",
       "description": "Il classico snack giapponese per una merenda veloce o un pranzo al sacco.",
       "permalink": "/ricette/onigiri"
+    },
+    {
+      "id": "ricette/riso/onigiri_kimchi_asiago",
+      "title": "Onigiri Kimchi e Asiago",
+      "description": "Una golosa contaminazione nippo-coreana-italiana per un onigiri croccante e saporitissimo.",
+      "permalink": "/ricette/onigiri-kimchi-asiago"
     },
     {
       "id": "ricette/riso/oyakodon",
