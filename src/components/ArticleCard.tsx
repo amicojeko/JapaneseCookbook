@@ -1,5 +1,5 @@
 import React, { ReactNode } from 'react';
-import imageSrcset from '../../static/image-srcset.json';
+import OptimizedImage from './OptimizedImage';
 import styles from './ArticleCard.module.css';
 
 interface ArticleCardProps {
@@ -15,38 +15,18 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({
   imageAlt,
   children,
 }) => {
-  // Convertisci il path per trovare il srcset
-  const srcsetKey = imageSrc.replace(/^\/img\//, '');
-  const srcsetData = (imageSrcset as Record<string, any>)[srcsetKey];
-
   return (
     <div className={styles.articleCardWrapper}>
       <small className={styles.articleSubtitle}>
         {subtitle}
       </small>
       <div className={styles.articleCard}>
-        {srcsetData?.srcset ? (
-          <picture className={styles.picture}>
-            <source srcSet={srcsetData.srcset} type="image/jpeg" />
-            <img
-              src={srcsetData.original || imageSrc}
-              alt={imageAlt}
-              className={styles.articleImage}
-              loading="lazy"
-              decoding="async"
-              width={srcsetData.width}
-              height={srcsetData.height}
-            />
-          </picture>
-        ) : (
-          <img
-            src={imageSrc}
-            alt={imageAlt}
-            className={styles.articleImage}
-            loading="lazy"
-            decoding="async"
-          />
-        )}
+        <OptimizedImage
+          src={imageSrc}
+          alt={imageAlt}
+          className={styles.articleImage}
+          pictureClassName={styles.picture}
+        />
         <div className={styles.articleContent}>
           {children}
         </div>
@@ -54,4 +34,3 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({
     </div>
   );
 };
-

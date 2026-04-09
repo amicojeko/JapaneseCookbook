@@ -16,9 +16,11 @@ Questo repository contiene un sito Docusaurus in italiano dedicato alla cucina g
 - Libri: `docs/libri/**`
 
 ## Componenti e integrazioni
+- `src/components/OptimizedImage.tsx`: componente condiviso per immagini responsive; gestisce il lookup srcset da `/image-srcset.json` e renderizza `<picture>` con breakpoint multipli o fallback `<img>`. Usato da `DocCard` e `ArticleCard`.
+- `src/components/ArticleCard.tsx`: card stile articolo con sottotitolo, immagine e contenuto; usa `OptimizedImage`.
 - `src/components/ImageComponent.tsx`: mostra immagini ricetta partendo dal frontmatter.
 - `src/components/YouTubeVideo.tsx`: mostra video nelle pagine.
-- `src/components/DocCard.tsx`: card riusabile per ricette/ingredienti/strumenti; carica automaticamente l'immagine da `/image-metadata.json`.
+- `src/components/DocCard.tsx`: card riusabile per ricette/ingredienti/strumenti; carica automaticamente l'immagine da `/image-metadata.json`, usa `OptimizedImage`.
 - Negozi:
   - Lista dati: `src/data/negozi.ts`
   - Rendering: `src/components/RegionShopList.tsx` e `src/components/NegoziMap.tsx`
@@ -54,9 +56,16 @@ Le ricette usano frontmatter con almeno:
 - `src/theme/MDXComponents.tsx` — Mappatura componenti MDX custom
 
 ## Componenti custom
+- Componente `OptimizedImage`: `src/components/OptimizedImage.tsx`
+  - Componente condiviso per rendering immagini responsive con srcset
+  - Cerca i dati srcset in `/image-srcset.json` a partire dal path dell'immagine
+  - Renderizza `<picture>` con `<source srcSet>` se disponibile, altrimenti `<img>` di fallback
+  - Props: `src`, `alt`, `className`, `pictureClassName`
+  - Usato da `DocCard` e `ArticleCard`
 - Componente `DocCard`: `src/components/DocCard.tsx`
   - Componente riusabile per mostrare una card documento (ricette, ingredienti, strumenti)
   - Carica automaticamente l'immagine da `/image-metadata.json`
+  - Usa `OptimizedImage` per il rendering responsive
   - Usato sia nelle pagine tag che nelle pagine index delle categorie
 - Componente `CategoryIndexPage`: `src/components/CategoryIndexPage.tsx`
   - Componente per creare homepage di categoria che mostrano le ricette come card

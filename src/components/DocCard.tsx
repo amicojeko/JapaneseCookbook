@@ -2,7 +2,7 @@ import React from 'react';
 import Link from '@docusaurus/Link';
 import Heading from '@theme/Heading';
 import imageMetadata from '../../static/image-metadata.json';
-import imageSrcset from '../../static/image-srcset.json';
+import OptimizedImage from './OptimizedImage';
 import styles from './DocCard.module.css';
 
 export interface DocCardDoc {
@@ -19,40 +19,16 @@ interface DocCardProps {
 export default function DocCard({doc}: DocCardProps): React.ReactElement {
   const displayImage = (imageMetadata as Record<string, string>)[doc.id] || '/img/placeholder.jpg';
 
-  // Convertisci il path per trovare il srcset
-  // Esempio: displayImage = '/img/ingredienti/agedama.jpg'
-  // Key nel srcset = 'ingredienti/agedama.jpg'
-  const srcsetKey = displayImage.replace(/^\/img\//, '');
-  const srcsetData = (imageSrcset as Record<string, any>)[srcsetKey];
-
   return (
     <Link to={doc.permalink} className={styles.docItemLink}>
       <article className={styles.docItem}>
         <div className={styles.imageWrapper}>
-          {srcsetData?.srcset ? (
-            <picture className={styles.picture}>
-              {srcsetData.srcset && (
-                <source srcSet={srcsetData.srcset} type="image/jpeg" />
-              )}
-              <img
-                src={srcsetData.original || displayImage}
-                alt={doc.title}
-                className={styles.image}
-                loading="lazy"
-                decoding="async"
-                width={srcsetData.width}
-                height={srcsetData.height}
-              />
-            </picture>
-          ) : (
-            <img
-              src={displayImage}
-              alt={doc.title}
-              className={styles.image}
-              loading="lazy"
-              decoding="async"
-            />
-          )}
+          <OptimizedImage
+            src={displayImage}
+            alt={doc.title}
+            className={styles.image}
+            pictureClassName={styles.picture}
+          />
         </div>
         <div className={styles.content}>
           <Heading as="h3" className={styles.title}>

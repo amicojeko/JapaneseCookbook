@@ -34,8 +34,10 @@ This is a Docusaurus static site. Content lives in `docs/` as Markdown/MDX. Cust
 - `docs/libri/` — Book recommendations
 
 **Key custom components:**
+- `OptimizedImage` — Shared responsive image component; handles srcset lookup from `/image-srcset.json` and renders `<picture>` with multiple breakpoints or plain `<img>` fallback. Used by `DocCard` and `ArticleCard`.
 - `CategoryIndexPage` — Used in `index.md` files inside category folders to auto-render a card grid of all docs in that folder
-- `DocCard` — Reusable document card; auto-loads images from `/image-metadata.json`
+- `DocCard` — Reusable document card; auto-loads images from `/image-metadata.json`, uses `OptimizedImage` for responsive rendering
+- `ArticleCard` — Article-style card with subtitle, image, and content; uses `OptimizedImage` for responsive rendering
 - `ImageComponent` — Displays a recipe's main image from frontmatter
 - `YouTubeVideo` — Embeds YouTube videos
 - `NegoziMap` + `RegionShopList` — Interactive Leaflet map and regional shop lists, backed by `src/data/negozi.ts`
