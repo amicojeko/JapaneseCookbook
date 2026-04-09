@@ -8,11 +8,11 @@ interface Props {
 /**
  * Custom Root component to add performance optimizations to head
  */
-export default function Root({children}: Props): JSX.Element {
+export default function Root({children}: Props): ReactNode {
   React.useEffect(() => {
     // Aggiungi prefetch per CDN e servizi third-party
     const head = document.head;
-    
+
     const links = [
       // Prefetch domains we know will be used
       { rel: 'dns-prefetch', href: '//www.googletagmanager.com' },
