@@ -1,5 +1,6 @@
 import React, {useMemo} from 'react';
 import {useCurrentSidebarCategory} from '@docusaurus/plugin-content-docs/client';
+import type {PropSidebarItem, PropSidebarItemLink, PropSidebarItemCategory} from '@docusaurus/plugin-content-docs';
 import DocCard, {type DocCardDoc} from './DocCard';
 import styles from './CategoryIndexPage.module.css';
 
@@ -8,12 +9,12 @@ export default function CategoryIndexPage(): React.ReactElement {
   const category = useCurrentSidebarCategory();
 
   const docs = useMemo<DocCardDoc[]>(() => {
-    const items = (category?.items ?? []) as any[];
+    const items = category?.items ?? [];
 
-    const flatten = (list: any[]): any[] =>
+    const flatten = (list: PropSidebarItem[]): PropSidebarItemLink[] =>
       list.flatMap((item) => {
-        if (item.type === 'category') return flatten(item.items ?? []);
-        return item.type === 'link' ? [item] : [];
+        if (item.type === 'category') return flatten((item as PropSidebarItemCategory).items ?? []);
+        return item.type === 'link' ? [item as PropSidebarItemLink] : [];
       });
 
     return flatten(items)
@@ -21,7 +22,7 @@ export default function CategoryIndexPage(): React.ReactElement {
       .map((item) => ({
         id: item.docId ?? item.href,
         title: item.label ?? item.docId ?? item.href,
-        description: item.customProps?.subtitle,
+        description: item.customProps?.subtitle as string | undefined,
         permalink: item.href,
       }));
   }, [category]);

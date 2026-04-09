@@ -1,6 +1,13 @@
 import React from 'react';
 import imageSrcset from '../../static/image-srcset.json';
 
+interface ImageSrcsetData {
+  original: string;
+  srcset: string;
+  width: number;
+  height: number;
+}
+
 interface OptimizedImageProps {
   src: string;
   alt: string;
@@ -15,7 +22,7 @@ export default function OptimizedImage({
   pictureClassName,
 }: OptimizedImageProps): React.ReactElement {
   const srcsetKey = src.replace(/^\/img\//, '');
-  const srcsetData = (imageSrcset as Record<string, any>)[srcsetKey];
+  const srcsetData = (imageSrcset as Record<string, ImageSrcsetData>)[srcsetKey] as ImageSrcsetData | undefined;
 
   if (srcsetData?.srcset) {
     return (

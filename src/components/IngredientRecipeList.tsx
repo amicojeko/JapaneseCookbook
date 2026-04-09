@@ -29,10 +29,10 @@ export default function IngredientRecipeList({
   }
   const doc = useDoc();
 
-  const metadata = (doc as any)?.metadata ?? (doc as any);
+  const metadata = doc.metadata;
   const ingredientTitle =
-    metadata?.title ??
-    (metadata?.unversionedId ?? metadata?.id ?? metadata?.slug ?? '')
+    metadata.title ??
+    (metadata.id ?? metadata.slug ?? '')
       .split('/')
       .pop()
       ?.replace(/[_-]+/g, ' ') ??
