@@ -41,11 +41,19 @@ Le ricette usano frontmatter con almeno:
 - Evita modifiche a file generati o di build.
 - Per aggiornare `ricettario.json`, usa lo script indicato nel README.
 
-## Template e componenti custom
-- Template tag pages: `src/theme/DocTagDocListPage/index.tsx` e `styles.module.css`
+## Theme overrides (swizzle)
+- `src/theme/DocTagDocListPage/` — Pagine tag personalizzate con card e immagini
   - Mostra le card dei documenti con immagini caricate da `/image-metadata.json`
   - Usa un layout a griglia per visualizzare i documenti taggati
   - Utilizza il componente condiviso `DocCard` per le card
+- `src/theme/DocBreadcrumbs/StructuredData/` — Fix trailing slash nel JSON-LD breadcrumb
+  - Docusaurus non rispetta `trailingSlash: true` nello structured data dei breadcrumb
+  - Questo override inlinea la logica di `useBreadcrumbsStructuredData` aggiungendo lo slash finale agli URL
+- `src/theme/DocSidebarItem/Link/` — Rendering personalizzato dei link nella sidebar
+- `src/theme/Root.tsx` — DNS prefetch/preconnect per domini terze parti (Google Analytics, Fonts)
+- `src/theme/MDXComponents.tsx` — Mappatura componenti MDX custom
+
+## Componenti custom
 - Componente `DocCard`: `src/components/DocCard.tsx`
   - Componente riusabile per mostrare una card documento (ricette, ingredienti, strumenti)
   - Carica automaticamente l'immagine da `/image-metadata.json`

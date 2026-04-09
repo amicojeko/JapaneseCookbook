@@ -40,7 +40,12 @@ This is a Docusaurus static site. Content lives in `docs/` as Markdown/MDX. Cust
 - `YouTubeVideo` — Embeds YouTube videos
 - `NegoziMap` + `RegionShopList` — Interactive Leaflet map and regional shop lists, backed by `src/data/negozi.ts`
 
-**Theme overrides:** `src/theme/DocTagDocListPage/` customizes the tag listing pages to show `DocCard` grids.
+**Theme overrides:**
+- `src/theme/DocTagDocListPage/` — Customizes tag listing pages to show `DocCard` grids
+- `src/theme/DocBreadcrumbs/StructuredData/` — Fixes trailing slash in JSON-LD breadcrumb structured data (Docusaurus bug: `useBreadcrumbsStructuredData` ignores `trailingSlash: true`)
+- `src/theme/DocSidebarItem/Link/` — Custom sidebar link rendering with image support
+- `src/theme/Root.tsx` — Adds DNS prefetch/preconnect for third-party domains (Google Analytics, Fonts)
+- `src/theme/MDXComponents.tsx` — Custom MDX component mappings
 
 ## Content conventions
 
