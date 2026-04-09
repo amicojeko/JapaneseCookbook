@@ -35,7 +35,8 @@ This is a Docusaurus static site. Content lives in `docs/` as Markdown/MDX. Cust
 
 **Key custom components:**
 - `OptimizedImage` — Shared responsive image component; handles srcset lookup from `/image-srcset.json` and renders `<picture>` with multiple breakpoints or plain `<img>` fallback. Used by `DocCard` and `ArticleCard`.
-- `CategoryIndexPage` — Used in `index.md` files inside category folders to auto-render a card grid of all docs in that folder
+- `CategoryIndexPage` — Used in `index.md` files inside category folders to auto-render a card grid of all docs in that folder; delegates rendering to `DocCardGrid`
+- `DocCardGrid` — Renders a grid of `DocCard` components; shared by `CategoryIndexPage`, `IngredientRecipeList`, and tag pages
 - `DocCard` — Reusable document card; auto-loads images from `/image-metadata.json`, uses `OptimizedImage` for responsive rendering
 - `ArticleCard` — Article-style card with subtitle, image, and content; uses `OptimizedImage` for responsive rendering
 - `ImageComponent` — Displays a recipe's main image from frontmatter

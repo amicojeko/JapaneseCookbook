@@ -1,8 +1,8 @@
 import React, {useMemo} from 'react';
 import {useCurrentSidebarCategory} from '@docusaurus/plugin-content-docs/client';
 import type {PropSidebarItem, PropSidebarItemLink, PropSidebarItemCategory} from '@docusaurus/plugin-content-docs';
-import DocCard, {type DocCardDoc} from './DocCard';
-import styles from './CategoryIndexPage.module.css';
+import type {DocCardDoc} from './DocCard';
+import DocCardGrid from './DocCardGrid';
 
 // Questa pagina non ha bisogno di titolo/descrizione perché il template del doc li renderizza già.
 export default function CategoryIndexPage(): React.ReactElement {
@@ -27,11 +27,5 @@ export default function CategoryIndexPage(): React.ReactElement {
       }));
   }, [category]);
 
-  return (
-    <section className={styles.docsGrid}>
-      {docs.map((doc) => (
-        <DocCard key={doc.id} doc={doc} />
-      ))}
-    </section>
-  );
+  return <DocCardGrid docs={docs} />;
 }

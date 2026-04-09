@@ -62,15 +62,18 @@ Le ricette usano frontmatter con almeno:
   - Renderizza `<picture>` con `<source srcSet>` se disponibile, altrimenti `<img>` di fallback
   - Props: `src`, `alt`, `className`, `pictureClassName`
   - Usato da `DocCard` e `ArticleCard`
+- Componente `DocCardGrid`: `src/components/DocCardGrid.tsx`
+  - Renderizza una griglia di `DocCard`; unico punto per lo stile della grid (CSS in `DocCardGrid.module.css`)
+  - Usato da `CategoryIndexPage`, `IngredientRecipeList` e pagine tag
 - Componente `DocCard`: `src/components/DocCard.tsx`
   - Componente riusabile per mostrare una card documento (ricette, ingredienti, strumenti)
   - Carica automaticamente l'immagine da `/image-metadata.json`
   - Usa `OptimizedImage` per il rendering responsive
-  - Usato sia nelle pagine tag che nelle pagine index delle categorie
 - Componente `CategoryIndexPage`: `src/components/CategoryIndexPage.tsx`
   - Componente per creare homepage di categoria che mostrano le ricette come card
   - Da usare in file `index.md` nelle cartelle di categoria (es. `docs/ricette/agemono/index.md`)
   - Usa automaticamente i metadati dei doc nella cartella corrente (esclude l'index)
+  - Delega il rendering della griglia a `DocCardGrid`
   - Esempio di utilizzo:
     ```markdown
     ---
