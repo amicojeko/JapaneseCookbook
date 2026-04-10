@@ -17,11 +17,11 @@ tags:
 ---
 ## Ingredienti
 
-- 1 tazza di [sake](/ingredienti/sake)
-- 1 tazza di [mirin](/ingredienti/mirin)
-- 1 tazza di [salsa di soia](/ingredienti/shoyu)
-- ½ tazza di zucchero (opzionale, o anche meno)
-- un cucchiaio di fecola di patate o amido di mais (maizena)
+- 1 parte di [sake](/ingredienti/sake)
+- 1 parte di [mirin](/ingredienti/mirin)
+- 1 parte di [salsa di soia](/ingredienti/shoyu)
+- ½ parte di zucchero (opzionale, o anche meno)
+- fecola di patate o amido di mais (maizena) q.b.
 
 ## Preparazione
 
