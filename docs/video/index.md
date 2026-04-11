@@ -83,6 +83,16 @@ Ogni episodio ruota attorno a una preparazione tradizionale giapponese, spesso s
 
 </ArticleCard>
 
+### Campfire Cooking in Another World with My Absurd Skill
+
+<ArticleCard subtitle="titolo originale: とんでもスキルで異世界放浪メシ, Tondemo Sukiru de Isekai Hōrō Meshi" imageSrc="/img/video/campfire_cooking_in_another_world_with_my_absurd_skill.jpg" imageAlt="Campfire Cooking in Another World with My Absurd Skill">
+
+Anime isekai del 2023 tratto dalla light novel di Ren Eguchi. Segue Tsuyoshi Mukōda, un impiegato giapponese evocato per errore in un mondo fantasy, che sopravvive grazie a un'abilità apparentemente poco utile: un "supermercato online" con cui può acquistare ingredienti e prodotti del Giappone moderno. Le sue ricette attirano subito il famelico fenrir Fel, e da lì il viaggio diventa un susseguirsi di pasti memorabili.
+
+Più che sulle battaglie, la serie punta sul piacere della cucina: carne alla griglia, curry, stufati e comfort food preparati con grande cura, spesso usando condimenti e sapori molto familiari a chi ama la cucina giapponese. Ha un'atmosfera rilassata e golosa, perfetta se ti piacciono gli anime in cui il cibo è parte centrale dell'avventura.
+
+</ArticleCard>
+
 ### Oishinbo
 
 <ArticleCard subtitle="titolo originale: 美味しんぼ" imageSrc="/img/video/oishinbo.webp" imageAlt="Oishinbo">
