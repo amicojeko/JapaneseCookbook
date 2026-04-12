@@ -4,6 +4,7 @@ description: Non semplici stecchini. Guida ai diversi tipi di spiedini giappones
 slug: /strumenti/kushi
 sidebar_custom_props:
   subtitle: Spiedini di bambù
+image: /img/strumenti/kushi.jpg
 tags:
   - strumenti
   - bambù
@@ -14,7 +15,7 @@ I **Kushi** (串) sono gli spiedini di bambù. Potrebbe sembrare un oggetto bana
 
 A differenza degli spiedini tondi da barbecue occidentali, in Giappone esistono forme diverse progettate per impedire che il cibo ruoti su se stesso mentre lo girate sulla griglia.
 
-<!-- ![Kushi](/img/strumenti/kushi.jpg) -->
+<ImageComponent />
 
 ## Le Forme Principali
 
@@ -27,12 +28,11 @@ Sono i classici stecchini a sezione circolare.
 
 ### 2. Teppō-gushi (A forma di pistola)
 Hanno un manico piatto e largo che ricorda il calcio di un fucile (da qui il nome *Teppō*, fucile/pistola).
-* **Uso:** Il manico largo offre una presa eccellente per lo chef, permettendo di girare lo spiedino con rapidità. Sono molto estetici e spesso usati per servire polpette di carne (*Tsukune*) o preparazioni più raffinate.
+* **Uso:** Il manico largo offre una presa eccellente, permettendo di girare lo spiedino con rapidità. Sono molto estetici e spesso usati per servire polpette di carne (*Tsukune*) o preparazioni più raffinate.
 
 ### 3. Hiragushi (Piatti)
 Sono completamente piatti e larghi.
 * **Uso:** Fondamentali per ingredienti morbidi che tendono a ruotare, come la carne macinata o pezzi di pesce. Essendo piatti, si "incastrano" nella carne e costringono il cibo a girare insieme allo spiedino.
-* **Ideali per:** [Nasu Dengaku](/ricette/nasu_dengaku) (melanzane glassate) o spiedini di carne macinata.
 
 ## Il Segreto: L'ammollo
 
