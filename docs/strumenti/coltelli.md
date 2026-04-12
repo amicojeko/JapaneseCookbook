@@ -2,6 +2,7 @@
 title: Hōchō
 description: "Una panoramica rapida sul vasto mondo dei coltelli giapponesi: Santoku, Gyuto, Nakiri, Usuba e le differenze tra gli acciai."
 slug: /strumenti/hocho
+image: /img/strumenti/coltelli_giapponesi.jpg
 sidebar_custom_props:
   subtitle: Coltelli giapponesi
 tags:
@@ -14,7 +15,7 @@ Parlare di **Hōchō** (包丁), i coltelli giapponesi, in una sola pagina è un
 
 Questa è quindi solo una **panoramica veloce** per aiutarvi a capire cosa vi serve davvero per iniziare, senza perdervi in tecnicismi da fabbro.
 
-<!-- ![Hocho](/img/strumenti/hocho.jpg) -->
+<ImageComponent />
 
 ## Il dilemma dell'Acciaio: Inox vs Carbonio
 

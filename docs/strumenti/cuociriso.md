@@ -4,6 +4,7 @@ sidebar_custom_props:
   subtitle: Risiera elettrica o donabe
 description: L'elettrodomestico sacro della cucina giapponese per un riso sempre perfetto, e la sua alternativa tradizionale Donabe.
 slug: /strumenti/cuociriso
+image: /img/strumenti/cuociriso.jpg
 tags:
   - strumenti
   - riso
@@ -11,6 +12,8 @@ tags:
   - donabe
 ---
 Se c'è un oggetto che non manca mai, assolutamente mai, in una casa giapponese, è la **Suihanki** (炊飯器), ovvero la cuociriso elettrica.
+
+<ImageComponent />
 
 In Italia siamo abituati a bollire il riso in abbondante acqua salata e poi scolarlo (come la pasta). In Giappone, questo è considerato un sacrilegio. Il [Riso](/ingredienti/rice) giapponese deve cuocere per assorbimento, trattenendo tutto l'amido per diventare colloso e compatto, fondamentale per fare gli [Onigiri](/ricette/onigiri) o il sushi.
 

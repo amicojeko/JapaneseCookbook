@@ -4,6 +4,7 @@ sidebar_custom_props:
   subtitle: Pietre per affilare coltelli
 description: "Guida essenziale all'affilatura su pietra: quale pietra scegliere per la casa e perché l'acciaino non è ideale per i coltelli giapponesi."
 slug: /strumenti/pietre_per_affilare
+image: /img/strumenti/pietre_per_affilatura.jpg
 tags:
   - strumenti
   - affilatura
@@ -13,6 +14,8 @@ tags:
 Se avete comprato un buon coltello giapponese ([Hōchō](/strumenti/hocho)), dovete imparare a prendervene cura. In Giappone, l'affilatura è considerata una competenza di base per chi cucina, oltre che un gesto di attenzione verso lo strumento.
 
 Lo strumento fondamentale è la **toishi** (砥石), cioè la pietra abrasiva. Nel contesto dei coltelli giapponesi si intende quasi sempre una **pietra ad acqua**, usata con sola acqua e senza oli.
+
+<ImageComponent />
 
 ## Pietre naturali e sintetiche
 
