@@ -19,8 +19,6 @@ In Italia siamo abituati a bollire il riso in abbondante acqua salata e poi scol
 
 Sebbene si possa cuocere il riso in una pentola normale (come vedremo), la *Suihanki* garantisce un risultato perfetto e identico ogni singolo giorno, premendo un solo bottone.
 
-<!-- ![Suihanki](/img/strumenti/suihanki.jpg) -->
-
 ## Come funziona (e perché è geniale)
 
 La magia della suihanki non sta solo nel cuocere, ma nel "capire" quando il riso è pronto. La macchina porta l'acqua a ebollizione e la mantiene finché non viene completamente assorbita dal riso. Quando l'acqua finisce, la temperatura della pentola interna sale rapidamente oltre i 100°C; il sensore lo rileva e spegne la cottura, passando alla modalità di mantenimento in caldo.
