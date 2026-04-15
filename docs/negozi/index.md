@@ -27,4 +27,5 @@
 - [Negozi orientali in **Toscana**](/negozi_orientali/toscana)
 - [Negozi orientali in **Trentino-Alto Adige**](/negozi_orientali/trentino-alto_adige)
 - [Negozi orientali in **Umbria**](/negozi_orientali/umbria)
+- [Negozi orientali in **Valle d'Aosta**](/negozi_orientali/valle_d_aosta)
 - [Negozi orientali in **Veneto**](/negozi_orientali/veneto)
