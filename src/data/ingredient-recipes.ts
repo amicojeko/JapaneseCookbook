@@ -33,6 +33,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/sudako_negi_vapore"
     },
     {
+      "id": "ricette/menrui/yaki_udon",
+      "title": "Yaki Udon",
+      "description": "Un piatto giapponese completo, economico e velocissimo da preparare, nato per caso nel dopoguerra.",
+      "permalink": "/ricette/yaki-udon"
+    },
+    {
       "id": "ricette/riso/soborodon",
       "title": "Soboro Don",
       "description": "La colorata e sfiziosa ciotola di riso giapponese a base di pollo e uova strapazzate, perfetta per un pasto ricco di proteine",
@@ -43,6 +49,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Takenoko Gohan",
       "description": "Un classico primaverile: riso condito (Takikomi Gohan) cotto con germogli di bambù, aburaage e brodo dashi.",
       "permalink": "/ricette/takenoko_gohan"
+    },
+    {
+      "id": "ricette/riso/takenoko_to_aburaage_takikomi_gohan",
+      "title": "Takenoko to Aburaage no Takikomi Gohan",
+      "description": "Un classico piatto casalingo giapponese, il Takikomi Gohan è un riso magico cotto comodamente nel cuociriso insieme ai suoi condimenti.",
+      "permalink": "/ricette/takenoko_to_aburaage_no_takikomi_gohan"
     },
     {
       "id": "ricette/sides/horenso_no_ohitashi",
@@ -177,6 +189,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/hiyashi_tori_dashi_somen"
     },
     {
+      "id": "ricette/menrui/yaki_udon",
+      "title": "Yaki Udon",
+      "description": "Un piatto giapponese completo, economico e velocissimo da preparare, nato per caso nel dopoguerra.",
+      "permalink": "/ricette/yaki-udon"
+    },
+    {
       "id": "ricette/nimono/kabocha_no_nimono",
       "title": "Kabocha no Nimono",
       "description": "La zucca giapponese stufata, un classico contorno autunnale vegano",
@@ -253,6 +271,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Takenoko Gohan",
       "description": "Un classico primaverile: riso condito (Takikomi Gohan) cotto con germogli di bambù, aburaage e brodo dashi.",
       "permalink": "/ricette/takenoko_gohan"
+    },
+    {
+      "id": "ricette/riso/takenoko_to_aburaage_takikomi_gohan",
+      "title": "Takenoko to Aburaage no Takikomi Gohan",
+      "description": "Un classico piatto casalingo giapponese, il Takikomi Gohan è un riso magico cotto comodamente nel cuociriso insieme ai suoi condimenti.",
+      "permalink": "/ricette/takenoko_to_aburaage_no_takikomi_gohan"
     },
     {
       "id": "ricette/riso/takikomi_gohan",
@@ -409,6 +433,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/soboro-don"
     },
     {
+      "id": "ricette/riso/takenoko_to_aburaage_takikomi_gohan",
+      "title": "Takenoko to Aburaage no Takikomi Gohan",
+      "description": "Un classico piatto casalingo giapponese, il Takikomi Gohan è un riso magico cotto comodamente nel cuociriso insieme ai suoi condimenti.",
+      "permalink": "/ricette/takenoko_to_aburaage_no_takikomi_gohan"
+    },
+    {
       "id": "ricette/sides/nametake",
       "title": "Nametake",
       "description": "Una ricetta giapponese \"casalinga\" facilissima ed economica. Funghi Enoki cotti in salsa di soia e mirin, perfetti sul riso.",
@@ -523,6 +553,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/udon_burro_e_shoyu"
     },
     {
+      "id": "ricette/menrui/yaki_udon",
+      "title": "Yaki Udon",
+      "description": "Un piatto giapponese completo, economico e velocissimo da preparare, nato per caso nel dopoguerra.",
+      "permalink": "/ricette/yaki-udon"
+    },
+    {
       "id": "ricette/preparazioni_di_base/brodi/dashi",
       "title": "Dashi",
       "description": "il brodo base per moltissime ricette",
@@ -589,6 +625,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Oyakodon",
       "description": "L'Oyakodon e' la carbonara giapponese",
       "permalink": "/ricette/oyakodon"
+    },
+    {
+      "id": "ricette/riso/takenoko_to_aburaage_takikomi_gohan",
+      "title": "Takenoko to Aburaage no Takikomi Gohan",
+      "description": "Un classico piatto casalingo giapponese, il Takikomi Gohan è un riso magico cotto comodamente nel cuociriso insieme ai suoi condimenti.",
+      "permalink": "/ricette/takenoko_to_aburaage_no_takikomi_gohan"
     },
     {
       "id": "ricette/yakimono/gyoza",
@@ -951,6 +993,40 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/natto_soba"
     }
   ],
+  "beni shoga": [
+    {
+      "id": "ricette/menrui/yaki_udon",
+      "title": "Yaki Udon",
+      "description": "Un piatto giapponese completo, economico e velocissimo da preparare, nato per caso nel dopoguerra.",
+      "permalink": "/ricette/yaki-udon"
+    },
+    {
+      "id": "ricette/riso/gyudon",
+      "title": "Gyudon",
+      "description": "La ciotola di riso con carne di manzo e cipolla",
+      "permalink": "/ricette/gyudon"
+    },
+    {
+      "id": "ricette/riso/soborodon",
+      "title": "Soboro Don",
+      "description": "La colorata e sfiziosa ciotola di riso giapponese a base di pollo e uova strapazzate, perfetta per un pasto ricco di proteine",
+      "permalink": "/ricette/soboro-don"
+    }
+  ],
+  "salsa yakisoba": [
+    {
+      "id": "ricette/menrui/yaki_udon",
+      "title": "Yaki Udon",
+      "description": "Un piatto giapponese completo, economico e velocissimo da preparare, nato per caso nel dopoguerra.",
+      "permalink": "/ricette/yaki-udon"
+    },
+    {
+      "id": "ricette/yakimono/yakisoba",
+      "title": "Yakisoba",
+      "description": "La pasta saltata alla giapponese",
+      "permalink": "/ricette/yakisoba"
+    }
+  ],
   "dashi": [
     {
       "id": "ricette/preparazioni_di_base/brodi/vegan_dashi",
@@ -1015,6 +1091,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/takenoko_gohan"
     },
     {
+      "id": "ricette/riso/takenoko_to_aburaage_takikomi_gohan",
+      "title": "Takenoko to Aburaage no Takikomi Gohan",
+      "description": "Un classico piatto casalingo giapponese, il Takikomi Gohan è un riso magico cotto comodamente nel cuociriso insieme ai suoi condimenti.",
+      "permalink": "/ricette/takenoko_to_aburaage_no_takikomi_gohan"
+    },
+    {
       "id": "ricette/riso/takikomi_gohan",
       "title": "Takikomi Gohan",
       "description": "Takikomi Gohan (Riso misto) 炊き込みご飯 - Riso svuotafrigo cotto direttamente nella risiera",
@@ -1057,20 +1139,6 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Salsa Ponzu",
       "description": "Salsa fresca ed agrumata",
       "permalink": "/ricette/salsa_ponzu"
-    }
-  ],
-  "beni shoga": [
-    {
-      "id": "ricette/riso/gyudon",
-      "title": "Gyudon",
-      "description": "La ciotola di riso con carne di manzo e cipolla",
-      "permalink": "/ricette/gyudon"
-    },
-    {
-      "id": "ricette/riso/soborodon",
-      "title": "Soboro Don",
-      "description": "La colorata e sfiziosa ciotola di riso giapponese a base di pollo e uova strapazzate, perfetta per un pasto ricco di proteine",
-      "permalink": "/ricette/soboro-don"
     }
   ],
   "pollo": [

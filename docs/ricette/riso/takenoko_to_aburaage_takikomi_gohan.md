@@ -41,7 +41,7 @@ Il Takikomi Gohan è l'esempio perfetto della cucina casalinga originale giappon
 - [Cipollotto verde (Negi)](/ingredienti/negi)
 
 :::note
-L'[aburaage](/ingredienti/tofu-fritto) va sempre lavato con acqua bollente, poi strizzato e asciugato bene, per eliminare l'olio in eccesso prima di usarlo nella ricetta.
+L'aburaage va sempre lavato con acqua bollente, poi strizzato e asciugato bene, per eliminare l'olio in eccesso prima di usarlo nella ricetta.
 :::
 
 ## Preparazione
