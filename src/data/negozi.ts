@@ -463,6 +463,16 @@ export const NEGOZI: Negozio[] = [
         map_url: "https://maps.app.goo.gl/gYHVcExVgvnwW8eW9",
     },
     {
+        id: "liguria-sarzana-max-factory",
+        name: "Max Factory",
+        region: "Liguria",
+        city: "Sarzana",
+        address: "Viale 25 Aprile, 7, 19038 Sarzana SP",
+        lat: 44.1034794,
+        lng: 9.9695424,
+        map_url: "https://maps.app.goo.gl/L6Z6MrrMF2zi5Zau5",
+    },
+    {
         id: "lombardia-brescia-supercity-food-market",
         name: "SuperCity Food Market",
         region: "Lombardia",
