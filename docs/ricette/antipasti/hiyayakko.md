@@ -37,3 +37,7 @@ Guarnisci con una grattugiata di zenzero fresco, katsuobushi a piacere, e cipoll
 - Lo hiyayakko va servito ben freddo. Puoi tenerlo in frigo fino al momento del servizio.
 - Per una variante vegan, puoi omettere il katsuobushi.
 :::
+
+## Video
+
+<YouTubeVideo videoId="LkaGIe4oocQ" />
