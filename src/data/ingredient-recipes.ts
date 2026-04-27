@@ -95,6 +95,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/furikake"
     },
     {
+      "id": "ricette/riso/nira_shio_kombu_onigiri",
+      "title": "Nira shio kombu no maze onigiri",
+      "description": "Un onigiri ricco di umami, preparato mescolando il riso caldo con erba aglina, shio kombu, katsuobushi e olio di sesamo.",
+      "permalink": "/ricette/nira-shio-kombu-maze-onigiri"
+    },
+    {
       "id": "ricette/sides/mugen_oba_nasu",
       "title": "Mugen Oba Nasu",
       "description": "Un piatto velocissimo dove le melanzane tenere incontrano la freschezza dello shiso e una salsa agrodolce irresistibile.",
@@ -577,6 +583,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/furikake"
     },
     {
+      "id": "ricette/riso/nira_shio_kombu_onigiri",
+      "title": "Nira shio kombu no maze onigiri",
+      "description": "Un onigiri ricco di umami, preparato mescolando il riso caldo con erba aglina, shio kombu, katsuobushi e olio di sesamo.",
+      "permalink": "/ricette/nira-shio-kombu-maze-onigiri"
+    },
+    {
       "id": "ricette/sides/burokkori_no_okaka-ae",
       "title": "Burokkori no okaka-ae",
       "description": "Un contorno giapponese velocissimo, dal colore brillante e ricco di umami, perfetto per esaltare i broccoli.",
@@ -665,6 +677,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Yamitsuki Kyabesu",
       "description": "Il cavolo che te da la rota!",
       "permalink": "/ricette/yamitsuki_kyabesu"
+    },
+    {
+      "id": "ricette/riso/nira_shio_kombu_onigiri",
+      "title": "Nira shio kombu no maze onigiri",
+      "description": "Un onigiri ricco di umami, preparato mescolando il riso caldo con erba aglina, shio kombu, katsuobushi e olio di sesamo.",
+      "permalink": "/ricette/nira-shio-kombu-maze-onigiri"
     },
     {
       "id": "ricette/tsukemono/daikon_shiokombuzuke",
@@ -881,6 +899,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/furikake"
     },
     {
+      "id": "ricette/riso/nira_shio_kombu_onigiri",
+      "title": "Nira shio kombu no maze onigiri",
+      "description": "Un onigiri ricco di umami, preparato mescolando il riso caldo con erba aglina, shio kombu, katsuobushi e olio di sesamo.",
+      "permalink": "/ricette/nira-shio-kombu-maze-onigiri"
+    },
+    {
       "id": "ricette/tsukemono/daikon_shiokombuzuke",
       "title": "Daikon Shiokombuzuke",
       "description": "Daikon marinato con shio kombu, sesamo e shoyu. Una bomba di umami!",
@@ -967,6 +991,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/furikake"
     },
     {
+      "id": "ricette/riso/nira_shio_kombu_onigiri",
+      "title": "Nira shio kombu no maze onigiri",
+      "description": "Un onigiri ricco di umami, preparato mescolando il riso caldo con erba aglina, shio kombu, katsuobushi e olio di sesamo.",
+      "permalink": "/ricette/nira-shio-kombu-maze-onigiri"
+    },
+    {
       "id": "ricette/riso/onigiri",
       "title": "Onigiri al Tonno e Maionese",
       "description": "Il classico snack giapponese per una merenda veloce o un pranzo al sacco.",
@@ -1013,20 +1043,6 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/soboro-don"
     }
   ],
-  "salsa yakisoba": [
-    {
-      "id": "ricette/menrui/yaki_udon",
-      "title": "Yaki Udon",
-      "description": "Un piatto giapponese completo, economico e velocissimo da preparare, nato per caso nel dopoguerra.",
-      "permalink": "/ricette/yaki-udon"
-    },
-    {
-      "id": "ricette/yakimono/yakisoba",
-      "title": "Yakisoba",
-      "description": "La pasta saltata alla giapponese",
-      "permalink": "/ricette/yakisoba"
-    }
-  ],
   "dashi": [
     {
       "id": "ricette/preparazioni_di_base/brodi/vegan_dashi",
@@ -1059,6 +1075,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Hamburger Don",
       "description": "Una ciotola di riso (donburi) facile e veloce con carne macinata e uova.",
       "permalink": "/ricette/hamburger-donburi"
+    },
+    {
+      "id": "ricette/riso/nira_shio_kombu_onigiri",
+      "title": "Nira shio kombu no maze onigiri",
+      "description": "Un onigiri ricco di umami, preparato mescolando il riso caldo con erba aglina, shio kombu, katsuobushi e olio di sesamo.",
+      "permalink": "/ricette/nira-shio-kombu-maze-onigiri"
     },
     {
       "id": "ricette/riso/onigiri",
