@@ -404,6 +404,7 @@ h1, h2, h3, h4, h5, h6,
 /* ---------- ADMONITIONS ---------- */
 .theme-admonition,
 .alert {
+  border: 1px solid;
   border-left-width: 5px;
   border-radius: 3px;
   font-family: var(--pg-font-sans);
