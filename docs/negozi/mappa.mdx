@@ -4,9 +4,17 @@ title: Mappa dei negozi orientali in Italia
 sidebar_label: 🗺️ Mappa dei negozi
 sidebar_position: 0
 slug: "/negozi_orientali/mappa"
+hide_title: true
 ---
 import NegoziMap from '@site/src/components/NegoziMap';
+import NegoziStats from '@site/src/components/NegoziStats';
 
-Qui trovi sulla mappa tutti i negozi in cui puoi trovare ingredienti giapponesi in Italia.
+<header className="map-header">
+  <div>
+    <span className="pg-kicker">Negozi orientali in Italia</span>
+    <h1>Trova il tuo<br/>negozio.</h1>
+  </div>
+  <NegoziStats />
+</header>
 
 <NegoziMap />

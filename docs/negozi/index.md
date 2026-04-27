@@ -1,31 +1,33 @@
 ---
-  title: 🏪 Negozi orientali
-  description: Elenco completo di negozi fisici e online in Italia per acquistare ingredienti e prodotti giapponesi
-  draft: false
-  slug: "/negozi_orientali"
-  sidebar_position: 4
+title: 🏪 Negozi orientali
+description: Elenco completo di negozi fisici e online in Italia per acquistare ingredienti e prodotti giapponesi
+draft: false
+slug: "/negozi_orientali"
+sidebar_position: 4
+hide_title: true
 ---
-# Negozi orientali in Italia
+import RegionsList from '@site/src/components/RegionsList';
 
-**In questa sezione trovate un elenco di negozi fisici e online in Italia dove acquistare ingredienti, utensili e prodotti giapponesi, coreani e cinesi. Se conoscete altri negozi che non sono elencati qui, segnalatemeli pure mandandomi un DM su [Instagram](http://instagram.com/amicojeko)!**
+<header className="regions-hero">
+  <span className="pg-kicker">Sezione · Negozi orientali</span>
+  <h1>Negozi orientali in Italia.</h1>
+  <p className="lead">
+    Una guida regione per regione dei negozi fisici dove trovare ingredienti, utensili e prodotti giapponesi, coreani e cinesi. Più gli e-commerce italiani che ho provato e che consiglio.
+  </p>
+  <div className="quick-cta">
+    <a className="btn red" href="/negozi_orientali/mappa">🗺️ Apri la mappa</a>
+    <a className="btn primary" href="/negozi_orientali/online">🌐 Negozi online</a>
+    <a className="btn" href="https://instagram.com/amicojeko" target="_blank" rel="noopener noreferrer">✉️ Segnalane uno</a>
+  </div>
+</header>
 
-- [**Mappa dei negozi orientali in Italia**](/negozi_orientali/mappa)
-- [Negozi orientali **Online**](/negozi_orientali/online)
-- [Negozi orientali in **Abruzzo**](/negozi_orientali/abruzzo)
-- [Negozi orientali in **Calabria**](/negozi_orientali/calabria)
-- [Negozi orientali in **Campania**](/negozi_orientali/campania)
-- [Negozi orientali in **Emilia-Romagna**](/negozi_orientali/emilia_romagna)
-- [Negozi orientali in **Friuli-Venezia Giulia**](/negozi_orientali/friuli-venezia_giulia)
-- [Negozi orientali nel **Lazio**](/negozi_orientali/lazio)
-- [Negozi orientali in **Liguria**](/negozi_orientali/liguria)
-- [Negozi orientali in **Lombardia**](/negozi_orientali/lombardia)
-- [Negozi orientali nelle **Marche**](/negozi_orientali/marche)
-- [Negozi orientali in **Piemonte**](/negozi_orientali/piemonte)
-- [Negozi orientali in **Puglia**](/negozi_orientali/puglia)
-- [Negozi orientali in **Sardegna**](/negozi_orientali/sardegna)
-- [Negozi orientali in **Sicilia**](/negozi_orientali/sicilia)
-- [Negozi orientali in **Toscana**](/negozi_orientali/toscana)
-- [Negozi orientali in **Trentino-Alto Adige**](/negozi_orientali/trentino-alto_adige)
-- [Negozi orientali in **Umbria**](/negozi_orientali/umbria)
-- [Negozi orientali in **Valle d'Aosta**](/negozi_orientali/valle_d_aosta)
-- [Negozi orientali in **Veneto**](/negozi_orientali/veneto)
+<RegionsList />
+
+<aside className="submit-cta">
+  <div className="ico">🏪</div>
+  <div className="copy">
+    <h3>Conosci un negozio non in lista?</h3>
+    <p>Scrivimi su Instagram <strong>@amicojeko</strong> con nome, indirizzo e link Google Maps. Lo aggiungo io. Grazie!</p>
+  </div>
+  <a className="btn" href="https://instagram.com/amicojeko" target="_blank" rel="noopener noreferrer">Segnala un negozio →</a>
+</aside>

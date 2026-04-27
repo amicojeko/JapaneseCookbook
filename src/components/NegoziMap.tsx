@@ -33,31 +33,50 @@ const NegoziMap: React.FC = () => {
               map.addLayer(markerClusterGroup.current);
             }
 
-            // Crea i marker e aggiungili al cluster
-            const shopIcon = L.divIcon({
-              html: '🏪',
-              className: 'negozio-marker',
-              iconSize: [30, 30],
-              iconAnchor: [15, 30],
-              popupAnchor: [0, -30],
-            });
-
             // Pulisci i marker precedenti
             markerClusterGroup.current.clearLayers();
 
-            // Aggiungi tutti i marker al cluster
+            const escapeHtml = (s: string) =>
+              String(s).replace(/[&<>"']/g, (c) =>
+                ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c] as string)
+              );
+
+            // Aggiungi tutti i marker al cluster — Bentō × Izakaya pin (店)
             NEGOZI.forEach((shop) => {
+              const isOnline = !!shop.url;
+              const cls = ['neg-marker'];
+              if (isOnline) cls.push('is-online');
+              const shopIcon = L.divIcon({
+                html: `<div class="${cls.join(' ')}"><span>店</span></div>`,
+                className: '',
+                iconSize: [32, 32],
+                iconAnchor: [16, 28],
+                popupAnchor: [0, -28],
+              });
+
               const marker = L.marker([shop.lat, shop.lng], { icon: shopIcon });
 
-              // Crea il popup
+              const cat = `${shop.url ? 'E-commerce · ' : ''}Alimentari · Asia`;
               const popupContent = `
-                <div>
-                  <strong>${shop.name}</strong><br />
-                  ${shop.address}${shop.city ? `, ${shop.city}` : ''}<br />
-                  ${shop.region}<br />
-                  ${shop.url ? `<a href="${shop.url}" target="_blank" rel="noopener noreferrer">Sito web</a><br />` : ''}
-                  ${shop.note ? `<em>${shop.note}</em><br />` : ''}
-                  ${shop.map_url ? `<a href="${shop.map_url}" target="_blank" rel="noopener noreferrer">Vedi su Google Maps</a>` : ''}
+                <div class="pop-card">
+                  <div class="pop-cat">${cat}</div>
+                  <p class="pop-name">${escapeHtml(shop.name)}</p>
+                  <p class="pop-addr">${escapeHtml(shop.address)}${
+                    shop.city ? `<br/><strong>${escapeHtml(shop.city)}</strong>` : ''
+                  }${shop.region ? ` · ${escapeHtml(shop.region)}` : ''}</p>
+                  ${shop.note ? `<div class="pop-note">«${escapeHtml(shop.note)}»</div>` : ''}
+                  <div class="pop-actions">
+                    ${
+                      shop.map_url
+                        ? `<a href="${shop.map_url}" target="_blank" rel="noopener noreferrer">🗺 Apri in Maps</a>`
+                        : ''
+                    }
+                    ${
+                      shop.url
+                        ? `<a class="gh" href="${shop.url}" target="_blank" rel="noopener noreferrer">🌐 Sito web</a>`
+                        : ''
+                    }
+                  </div>
                 </div>
               `;
 
