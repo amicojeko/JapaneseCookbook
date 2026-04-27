@@ -1,10 +1,14 @@
 import React from 'react';
 import BrowserOnly from '@docusaurus/BrowserOnly';
+import { useColorMode } from '@docusaurus/theme-common';
 import { NEGOZI } from '@site/src/data/negozi';
 import 'leaflet.markercluster/dist/MarkerCluster.css';
 import 'leaflet.markercluster/dist/MarkerCluster.Default.css';
 
 const NegoziMap: React.FC = () => {
+  const { colorMode } = useColorMode();
+  const isDark = colorMode === 'dark';
+
   return (
     <BrowserOnly fallback={<div>Carico la mappa dei negozi...</div>}>
       {() => {
@@ -77,13 +81,27 @@ const NegoziMap: React.FC = () => {
           <MapContainer
             center={center}
             zoom={5.5}
-            style={{ height: '700px', width: '100%', borderRadius: '8px' }}
+            style={{ height: '700px', width: '100%' }}
             scrollWheelZoom={true}
           >
-            <TileLayer
-              attribution='&copy; <a href="https://carto.com/">CartoDB</a>'
-              url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
-            />
+            {isDark ? (
+              <>
+                <TileLayer
+                  attribution='&copy; <a href="https://carto.com/">CartoDB</a>'
+                  url="https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png"
+                  className="map-base-dark"
+                />
+                <TileLayer
+                  url="https://{s}.basemaps.cartocdn.com/dark_only_labels/{z}/{x}/{y}{r}.png"
+                  className="map-labels-dark"
+                />
+              </>
+            ) : (
+              <TileLayer
+                attribution='&copy; <a href="https://carto.com/">CartoDB</a>'
+                url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
+              />
+            )}
 
             <ClusteredMarkers />
           </MapContainer>

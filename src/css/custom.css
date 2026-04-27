@@ -707,4 +707,18 @@ article > .theme-doc-markdown.markdown > p:first-of-type::first-letter {
 
 .leaflet-container {
   z-index: 0;
+  border: 2px solid var(--pg-ink);
+  background: var(--pg-paper-2);
+}
+[data-theme='dark'] .leaflet-container {
+  border-color: var(--pg-ink-faint);
+  background: #2a2823;
+}
+/* Lighten the dark base map (sea + landmasses) a touch */
+[data-theme='dark'] .leaflet-layer.map-base-dark .leaflet-tile {
+  filter: brightness(1.55) saturate(1.05);
+}
+/* Crank labels much brighter so they stay readable */
+[data-theme='dark'] .leaflet-layer.map-labels-dark .leaflet-tile {
+  filter: brightness(2.6) contrast(1.15);
 }
