@@ -13,25 +13,17 @@ Benvenuti sul mio sito di ricette giapponesi!
 Questi sono i risultati dei miei studi e delle mie sperimentazioni nella cucina giapponese, e sono in costante cambiamento ed evoluzione. Ogni suggerimento è più che ben accetto.
 
 <div className="paypal-container">
-  <div style={{ marginTop: "2rem" }}>
-    <p>Se questo sito ti è stato utile e ti va di supportarmi, puoi offrirmi un caffè ☕</p>
-
-    <a
-      href="https://paypal.me/jeko23"
-      target="_blank"
-      rel="noopener noreferrer"
-      style={{
-        display: "inline-block",
-        marginTop: "0.5rem",
-        padding: "10px 18px",
-        backgroundColor: "#0070BA",
-        color: "white",
-        borderRadius: "6px",
-        textDecoration: "none",
-        fontWeight: "600"
-      }}
-    >Supporta con PayPal</a>
+  <div className="paypal-icon">☕</div>
+  <div className="paypal-content">
+    <h3>Offrimi un caffè</h3>
+    <p>Se il sito ti è stato utile e ti va di supportarmi, puoi offrirmi un caffè — grazie! Il sito è e resterà gratuito e senza pubblicità. <strong>@amicojeko</strong></p>
   </div>
+  <a
+    className="paypal-cta"
+    href="https://paypal.me/jeko23"
+    target="_blank"
+    rel="noopener noreferrer"
+  >Supporta con PayPal →</a>
 </div>
 
 <div className="social-container">
