@@ -100,14 +100,15 @@ const config: Config = {
       {httpEquiv: 'x-ua-compatible', content: 'IE=edge'},
     ],
     colorMode: {
-      respectPrefersColorScheme: true,
+      defaultMode: 'light',
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
     },
     navbar: {
       title: 'Le Ricette Giapponesi di Jeko',
       logo: {
         alt: 'Jeko',
         src: 'img/logo_katakana.png',
-        srcDark: 'img/logo_katakana_dark.png',
       },
       items: [
         {

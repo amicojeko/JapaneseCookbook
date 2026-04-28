@@ -20,20 +20,9 @@
   display: flex;
   flex-direction: column;
 }
-
-[data-theme='dark'] .docItem {
-  background: var(--pg-paper-2);
-  border-color: var(--pg-ink-faint);
-}
-
 .docItemLink:hover .docItem {
   box-shadow: 5px 5px 0 var(--pg-ink);
 }
-
-[data-theme='dark'] .docItemLink:hover .docItem {
-  box-shadow: 5px 5px 0 var(--pg-ink-faint);
-}
-
 .imageWrapper {
   width: 100%;
   aspect-ratio: 4 / 3;
@@ -41,11 +30,6 @@
   background-color: var(--pg-paper-2);
   border-bottom: 2px solid var(--pg-ink);
 }
-
-[data-theme='dark'] .imageWrapper {
-  border-bottom-color: var(--pg-ink-faint);
-}
-
 .picture {
   display: block;
   width: 100%;
