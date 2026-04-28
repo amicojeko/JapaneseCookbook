@@ -89,8 +89,6 @@ const RegionShopList: React.FC<Props> = ({ region, shops }) => {
 
   const onlineCount = regionShops.filter((s) => s.url).length;
 
-  let counter = 0;
-
   return (
     <>
       <header className="region-hero">
@@ -144,54 +142,47 @@ const RegionShopList: React.FC<Props> = ({ region, shops }) => {
               </div>
             </header>
             <ol className="shop-list">
-              {cityShops.map((shop) => {
-                counter += 1;
-                return (
-                  <li key={shop.id} className="shop-row-ed">
-                    <span className="num">
-                      №{String(counter).padStart(2, '0')}
-                    </span>
-                    <div className="body">
-                      <h3 className="name">{shop.name}</h3>
-                      <p className="addr">{shop.address}</p>
-                      {(shop.url || shop.note) && (
-                        <div className="badges">
-                          {shop.url && (
-                            <span className="badge b-online">Online</span>
-                          )}
-                          {shop.note && (
-                            <span className="badge b-promo">Sconto Jeko</span>
-                          )}
-                        </div>
+              {cityShops.map((shop) => (
+                <li key={shop.id} className="shop-row-ed">
+                  <h3 className="name">{shop.name}</h3>
+                  <p className="addr">{shop.address}</p>
+                  {(shop.url || shop.note) && (
+                    <div className="badges">
+                      {shop.url && (
+                        <span className="badge b-online">Online</span>
                       )}
-                      {shop.note && <div className="note">«{shop.note}»</div>}
-                      {(shop.map_url || shop.url) && (
-                        <div className="actions">
-                          {shop.map_url && (
-                            <a
-                              href={shop.map_url}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              🗺 Google Maps
-                            </a>
-                          )}
-                          {shop.url && (
-                            <a
-                              className="web"
-                              href={shop.url}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              🌐 Sito
-                            </a>
-                          )}
-                        </div>
+                      {shop.note && (
+                        <span className="badge b-promo">Sconto Jeko</span>
                       )}
                     </div>
-                  </li>
-                );
-              })}
+                  )}
+                  {shop.note && <div className="note">«{shop.note}»</div>}
+                  {(shop.map_url || shop.url) && (
+                    <div className="actions">
+                      {shop.map_url && (
+                        <a
+                          className="ext-link"
+                          href={shop.map_url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          GOOGLE MAPS <span aria-hidden="true">↗</span>
+                        </a>
+                      )}
+                      {shop.url && (
+                        <a
+                          className="ext-link"
+                          href={shop.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          SITO <span aria-hidden="true">↗</span>
+                        </a>
+                      )}
+                    </div>
+                  )}
+                </li>
+              ))}
             </ol>
           </section>
         );

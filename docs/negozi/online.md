@@ -1,16 +1,10 @@
 ---
 title: 🌐 Negozi orientali online
-description: Negozi orientali online.
+description: Negozi orientali online in Italia — e-commerce italiani per ingredienti, utensili e prodotti giapponesi.
 slug: "/negozi_orientali/online"
 sidebar_position: 1
+hide_title: true
 ---
-# Negozi orientali italiani Online
+import OnlineShopList from '@site/src/components/OnlineShopList';
 
-- https://moodmarketmilano.com codice di sconto **MOODJEKO2026**
-- https://sushitalia.com
-- https://sushi-sushi.it
-- https://www.orientalitalia.com
-- https://www.kissashop.it
-- https://www.fusioneat.it/
-- https://domechan.com/it/
-- https://www.zanzino.it/gb/ - Coltelli e accessori
+<OnlineShopList />

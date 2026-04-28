@@ -1266,28 +1266,11 @@ article > .theme-doc-markdown.markdown > p:first-of-type::first-letter {
   list-style: none;
   padding: 0;
   margin: 0;
-  border-top: 2px solid var(--pg-ink);
 }
 .shop-row-ed {
-  display: grid;
-  grid-template-columns: 56px 1fr;
-  gap: 18px;
-  padding: 18px 4px;
-  border-bottom: 2px solid var(--pg-ink);
+  display: block;
+  padding: 18px 0 22px;
   transition: background 0.12s;
-}
-.shop-row-ed:hover {
-  background: var(--pg-paper-2);
-}
-.shop-row-ed .num {
-  font-family: var(--pg-font-mono);
-  font-size: 11px;
-  color: var(--pg-ink-faint);
-  letter-spacing: 0.12em;
-  padding-top: 6px;
-}
-.shop-row-ed .body {
-  min-width: 0;
 }
 .shop-row-ed .name {
   font-family: var(--pg-font-serif);
@@ -1341,46 +1324,38 @@ article > .theme-doc-markdown.markdown > p:first-of-type::first-letter {
 }
 .shop-row-ed .actions {
   display: flex;
-  gap: 6px;
+  gap: 18px;
   flex-wrap: wrap;
   margin-top: 10px;
 }
-.shop-row-ed .actions a {
-  display: inline-block;
-  padding: 6px 12px;
+.shop-row-ed .actions a.ext-link,
+.markdown .shop-row-ed .actions a.ext-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
   font-family: var(--pg-font-mono);
   font-weight: 600;
   font-size: 12px;
-  border: 1.5px solid var(--pg-ink);
-  background: #fff;
-  text-decoration: none;
-  color: var(--pg-ink);
-  border-radius: 999px;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
-}
-.shop-row-ed .actions a:hover {
-  background: var(--pg-yellow);
-  color: var(--pg-ink);
+  color: var(--pg-red);
   text-decoration: none;
 }
-.shop-row-ed .actions a.web {
-  background: var(--pg-ink);
-  color: var(--pg-yellow);
+.shop-row-ed .actions a.ext-link:hover,
+.markdown .shop-row-ed .actions a.ext-link:hover {
+  color: var(--pg-red-ink);
+  text-decoration: underline;
+  border-bottom: 0;
 }
-.shop-row-ed .actions a.web:hover {
-  background: #2a2925;
-  color: var(--pg-yellow);
-}
-[data-theme='dark'] .shop-row-ed .actions a {
-  background: var(--pg-paper-2);
-  border-color: var(--pg-ink-faint);
+[data-theme='dark'] .shop-row-ed .actions a.ext-link,
+[data-theme='dark'] .markdown .shop-row-ed .actions a.ext-link {
+  color: #ec7561;
 }
 @media (max-width: 640px) {
-  .shop-row-ed {
-    grid-template-columns: 44px 1fr;
-    gap: 12px;
-  }
   .shop-row-ed .name {
     font-size: 22px;
   }
