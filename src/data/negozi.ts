@@ -805,6 +805,16 @@ export const NEGOZI: Negozio[] = [
         map_url: "https://maps.app.goo.gl/jYJm2Yf7TQUdB2vA8",
     },
     {
+        id: "sardegna-lunamatrona-laura-dellumami",
+        name: "L'aura dell'umami",
+        region: "Sardegna",
+        city: "Lunamatrona",
+        address: "Piazza Martiri, 6, 09022 Lunamatrona VS",
+        lat: 39.6485155,
+        lng: 8.9010741,
+        map_url: "https://maps.app.goo.gl/CPeZURZLe6FFvo5C6",
+    },
+    {
         id: "sardegna-sassari-alimentari-cai-xiaoli",
         name: "Alimentari Cai Xiaoli",
         region: "Sardegna",
