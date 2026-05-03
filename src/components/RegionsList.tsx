@@ -1,6 +1,7 @@
 import React, { useMemo } from 'react';
 import Link from '@docusaurus/Link';
 import { NEGOZI } from '@site/src/data/negozi';
+import { getAllOnlineShops } from '@site/src/data/negozi-online';
 
 // Map region display name → URL slug used by docs/negozi/<slug>.md
 const REGION_SLUG: Record<string, string> = {
@@ -37,7 +38,7 @@ const RegionsList: React.FC = () => {
     return c;
   }, []);
 
-  const onlineCount = useMemo(() => NEGOZI.filter((s) => s.url).length, []);
+  const onlineCount = useMemo(() => getAllOnlineShops().length, []);
 
   const sortedRegions = useMemo(
     () =>

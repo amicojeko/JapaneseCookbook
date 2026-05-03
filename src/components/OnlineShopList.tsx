@@ -1,34 +1,7 @@
 import React, { useMemo } from 'react';
 import Link from '@docusaurus/Link';
 import { NEGOZI } from '@site/src/data/negozi';
-
-/**
- * Online-only shops (not in NEGOZI because they have no physical address).
- * Physical shops that also have an `url` are pulled in from NEGOZI automatically.
- */
-type OnlineShop = {
-  id: string;
-  name: string;
-  url: string;
-  note?: string;
-  category?: string; // e.g. "Coltelli & accessori"
-  city?: string;
-  region?: string;
-};
-
-const ONLINE_ONLY: OnlineShop[] = [
-  { id: 'sushitalia', name: 'Sushitalia', url: 'https://sushitalia.com' },
-  { id: 'sushi-sushi', name: 'Sushi Sushi', url: 'https://sushi-sushi.it' },
-  { id: 'orientalitalia', name: 'Oriental Italia', url: 'https://www.orientalitalia.com' },
-  { id: 'fusioneat', name: 'FusionEat', url: 'https://www.fusioneat.it' },
-  { id: 'domechan', name: 'Domechan', url: 'https://domechan.com/it' },
-  {
-    id: 'zanzino',
-    name: 'Zanzino',
-    url: 'https://www.zanzino.it/gb/',
-    category: 'Coltelli & accessori',
-  },
-];
+import { getAllOnlineShops } from '@site/src/data/negozi-online';
 
 // Region display name → URL slug (mirror of RegionShopList's table).
 const REGION_SLUG: Record<string, string> = {
@@ -53,19 +26,7 @@ const REGION_SLUG: Record<string, string> = {
 };
 
 const OnlineShopList: React.FC = () => {
-  const allOnline: OnlineShop[] = useMemo(() => {
-    const fromNegozi: OnlineShop[] = NEGOZI.filter((s) => !!s.url).map((s) => ({
-      id: s.id,
-      name: s.name,
-      url: s.url as string,
-      note: s.note,
-      city: s.city,
-      region: s.region,
-    }));
-    return [...ONLINE_ONLY, ...fromNegozi].sort((a, b) =>
-      a.name.localeCompare(b.name, 'it', { sensitivity: 'base' })
-    );
-  }, []);
+  const allOnline = useMemo(() => getAllOnlineShops(), []);
 
   const total = allOnline.length;
   const withDiscount = allOnline.filter((s) => !!s.note).length;
@@ -89,7 +50,7 @@ const OnlineShopList: React.FC = () => {
           <span className="pg-kicker">
             Sezione · {total} negoz{total === 1 ? 'io' : 'i'} online
           </span>
-          <h1>Online.</h1>
+          <h1>Negozi online.</h1>
           <div className="pg-meta-strip">
             <div>
               <div className="l">Negozi</div>
