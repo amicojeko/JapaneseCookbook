@@ -16,7 +16,7 @@ Questi sono i risultati dei miei studi e delle mie sperimentazioni nella cucina 
   <div className="paypal-icon">☕</div>
   <div className="paypal-content">
     <h3>Offrimi un caffè</h3>
-    <p>Se il sito ti è stato utile e ti va di supportarmi, puoi offrirmi un caffè — grazie! Il sito è e resterà gratuito e senza pubblicità. <strong>@amicojeko</strong></p>
+    <p>Se il sito ti è stato utile e ti va di supportarmi, puoi offrirmi un caffè — grazie! Il sito è e resterà gratuito. <strong>@amicojeko</strong></p>
   </div>
   <a
     className="paypal-cta"
