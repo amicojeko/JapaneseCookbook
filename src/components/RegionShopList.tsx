@@ -1,6 +1,49 @@
-import React, { useMemo } from 'react';
+import React, { useEffect, useMemo, useRef } from 'react';
 import type { Negozio } from '@site/src/data/negozi';
 import { NEGOZI } from '@site/src/data/negozi';
+
+const NAVBAR_HEIGHT = 60;
+const TOC_BOTTOM_BUFFER = 20;
+
+/**
+ * Smooth-scroll a TOC click to the city section, leaving room for the sticky
+ * navbar AND the sticky region-toc. Computing the offset from the toc's
+ * *current* height is more reliable than a static `scroll-margin-top` because
+ * it always scrolls past the sticky-engagement threshold — even on short
+ * pages (e.g. Abruzzo with 2 cities) where the static target wasn't quite
+ * far enough to push the toc into its top:60 position.
+ */
+function useTocScroll(tocRef: React.RefObject<HTMLElement>) {
+  useEffect(() => {
+    const toc = tocRef.current;
+    if (!toc) return;
+    const links = Array.from(
+      toc.querySelectorAll<HTMLAnchorElement>('a[href^="#"]')
+    );
+
+    const onClick = (e: MouseEvent) => {
+      const a = e.currentTarget as HTMLAnchorElement;
+      const id = a.getAttribute('href')?.slice(1);
+      if (!id) return;
+      const target = document.getElementById(id);
+      if (!target) return;
+      e.preventDefault();
+      const targetTop =
+        target.getBoundingClientRect().top + window.scrollY;
+      const top = Math.max(
+        0,
+        targetTop - (NAVBAR_HEIGHT + toc.offsetHeight + TOC_BOTTOM_BUFFER)
+      );
+      window.scrollTo({ top, behavior: 'smooth' });
+      window.history.pushState(null, '', `#${id}`);
+    };
+
+    links.forEach((l) => l.addEventListener('click', onClick));
+    return () => {
+      links.forEach((l) => l.removeEventListener('click', onClick));
+    };
+  }, [tocRef]);
+}
 
 type Props = {
   region: string;
@@ -50,6 +93,8 @@ const RegionShopList: React.FC<Props> = ({ region, shops }) => {
   );
 
   const onlineCount = regionShops.filter((s) => s.url).length;
+  const tocRef = useRef<HTMLElement>(null);
+  useTocScroll(tocRef);
 
   return (
     <>
@@ -69,7 +114,11 @@ const RegionShopList: React.FC<Props> = ({ region, shops }) => {
       </div>
 
       {sortedCities.length > 1 && (
-        <nav className="region-toc" aria-label="Città in questa regione">
+        <nav
+          ref={tocRef}
+          className="region-toc"
+          aria-label="Città in questa regione"
+        >
           <span className="lab">Città:</span>
           {sortedCities.map((city) => (
             <a key={city} href={`#city-${slugify(city)}`}>

@@ -1045,7 +1045,10 @@ article > .theme-doc-markdown.markdown > p:first-of-type::first-letter {
 /* City sections — used in region pages */
 .city-section {
   margin: 38px 0 0;
-  /* Clear the sticky navbar + sticky region-toc when jumping to a city anchor */
+  /* Fallback offset for direct hash navigation (e.g. landing on
+     /negozi_orientali/lombardia/#city-milano from an external link). For
+     in-page TOC clicks the offset is computed in JS in RegionShopList.tsx so
+     we can use the *current* toc height rather than this static guess. */
   scroll-margin-top: 180px;
 }
 .city-section .city-h {
