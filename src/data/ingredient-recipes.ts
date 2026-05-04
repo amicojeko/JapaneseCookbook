@@ -737,6 +737,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/yamitsuki_kyabesu"
     },
     {
+      "id": "ricette/nimono/daikon_no_nimono",
+      "title": "Daikon no Nimono",
+      "description": "Una ricetta gourmet per preparare il daikon stufato, rendendolo tenero, dolce e ricco di umami.",
+      "permalink": "/ricette/daikon-no-nimono"
+    },
+    {
       "id": "ricette/nimono/kabocha_no_nimono",
       "title": "Kabocha no Nimono",
       "description": "La zucca giapponese stufata, un classico contorno autunnale vegano",
@@ -817,6 +823,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Zaru Soba",
       "description": "Spaghetti di grano saraceno freddi",
       "permalink": "/ricette/zaru_soba"
+    },
+    {
+      "id": "ricette/nimono/daikon_no_nimono",
+      "title": "Daikon no Nimono",
+      "description": "Una ricetta gourmet per preparare il daikon stufato, rendendolo tenero, dolce e ricco di umami.",
+      "permalink": "/ricette/daikon-no-nimono"
     },
     {
       "id": "ricette/nimono/kakuni",
@@ -1043,6 +1055,56 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/soboro-don"
     }
   ],
+  "nimono": [
+    {
+      "id": "ricette/nimono/daikon_no_nimono",
+      "title": "Daikon no Nimono",
+      "description": "Una ricetta gourmet per preparare il daikon stufato, rendendolo tenero, dolce e ricco di umami.",
+      "permalink": "/ricette/daikon-no-nimono"
+    }
+  ],
+  "verdure": [
+    {
+      "id": "ricette/nimono/daikon_no_nimono",
+      "title": "Daikon no Nimono",
+      "description": "Una ricetta gourmet per preparare il daikon stufato, rendendolo tenero, dolce e ricco di umami.",
+      "permalink": "/ricette/daikon-no-nimono"
+    },
+    {
+      "id": "ricette/sides/burokkori_no_okaka-ae",
+      "title": "Burokkori no okaka-ae",
+      "description": "Un contorno giapponese velocissimo, dal colore brillante e ricco di umami, perfetto per esaltare i broccoli.",
+      "permalink": "/ricette/burokkori-no-okaka-ae"
+    }
+  ],
+  "stufati": [
+    {
+      "id": "ricette/nimono/daikon_no_nimono",
+      "title": "Daikon no Nimono",
+      "description": "Una ricetta gourmet per preparare il daikon stufato, rendendolo tenero, dolce e ricco di umami.",
+      "permalink": "/ricette/daikon-no-nimono"
+    }
+  ],
+  "vegetarian": [
+    {
+      "id": "ricette/nimono/daikon_no_nimono",
+      "title": "Daikon no Nimono",
+      "description": "Una ricetta gourmet per preparare il daikon stufato, rendendolo tenero, dolce e ricco di umami.",
+      "permalink": "/ricette/daikon-no-nimono"
+    },
+    {
+      "id": "ricette/sides/nasu_dengaku",
+      "title": "Nasu Dengaku",
+      "description": "Melanzane al miso",
+      "permalink": "/ricette/nasu_dengaku"
+    },
+    {
+      "id": "ricette/sides/potetosarada",
+      "title": "Potetosarada",
+      "description": "Insalata di patate",
+      "permalink": "/ricette/potetosarada"
+    }
+  ],
   "dashi": [
     {
       "id": "ricette/preparazioni_di_base/brodi/vegan_dashi",
@@ -1179,14 +1241,6 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/soboro-don"
     }
   ],
-  "verdure": [
-    {
-      "id": "ricette/sides/burokkori_no_okaka-ae",
-      "title": "Burokkori no okaka-ae",
-      "description": "Un contorno giapponese velocissimo, dal colore brillante e ricco di umami, perfetto per esaltare i broccoli.",
-      "permalink": "/ricette/burokkori-no-okaka-ae"
-    }
-  ],
   "sides": [
     {
       "id": "ricette/sides/burokkori_no_okaka-ae",
@@ -1194,20 +1248,6 @@ export const INGREDIENT_RECIPE_INDEX = {
       "description": "Un contorno giapponese velocissimo, dal colore brillante e ricco di umami, perfetto per esaltare i broccoli.",
       "permalink": "/ricette/burokkori-no-okaka-ae"
     },
-    {
-      "id": "ricette/sides/nasu_dengaku",
-      "title": "Nasu Dengaku",
-      "description": "Melanzane al miso",
-      "permalink": "/ricette/nasu_dengaku"
-    },
-    {
-      "id": "ricette/sides/potetosarada",
-      "title": "Potetosarada",
-      "description": "Insalata di patate",
-      "permalink": "/ricette/potetosarada"
-    }
-  ],
-  "vegetarian": [
     {
       "id": "ricette/sides/nasu_dengaku",
       "title": "Nasu Dengaku",

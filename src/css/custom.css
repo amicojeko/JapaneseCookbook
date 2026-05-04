@@ -1,86 +1,588 @@
 /**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
+ * Theme: Bentō × Izakaya
+ * Editorial bento layout with sophisticated izakaya palette.
+ *
+ * Google Fonts (Fraunces / Inter / Shippori Mincho / JetBrains Mono) are linked
+ * from the document <head> via `stylesheets` in docusaurus.config.ts — see
+ * notes there. Do NOT @import them here: that creates a sequential dependency
+ * chain (HTML → custom.css → fonts CSS → woff2) and hurts first paint.
  */
 
-/* You can override the default Infima variables here. */
+/* ---------- DESIGN TOKENS ---------- */
 :root {
-  --ifm-color-primary: #f60000;
-  --ifm-color-primary-dark: #dd0000;
-  --ifm-color-primary-darker: #d10000;
-  --ifm-color-primary-darkest: #ac0000;
-  --ifm-color-primary-light: #ff1010;
-  --ifm-color-primary-lighter: #ff1c1c;
-  --ifm-color-primary-lightest: #ff4141;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-  --ifm-navbar-background-color: #FFDC06;
-  /* --ifm-navbar-link-color: #000000; */
+  /* Brand */
+  --pg-ink: #1b1a17;
+  --pg-ink-soft: #3b3a36;
+  --pg-ink-faint: #6b6960;
+  --pg-paper: #fbf7ec;
+  --pg-paper-2: #f4edd8;
+  --pg-rule-soft: #e3dbbf;
+  --pg-red: #c8321c;
+  --pg-red-ink: #8a1d0c;
+  --pg-red-soft: #fbe3dc;
+  --pg-yellow: #ffdc06;
+  --pg-yellow-soft: #fff6c4;
+  --pg-mustard: #d4a82a;
 
-  /* Secondary color palette (used for notes) */
-  --ifm-color-secondary-dark: rgb(76, 179, 212);
-  --ifm-color-secondary-darker: rgb(71, 169, 201);
-  --ifm-color-secondary-darkest: rgb(59, 139, 165);
-  --ifm-color-secondary-light: rgb(110, 207, 239);
-  --ifm-color-secondary-lighter: rgb(135, 216, 242);
-  --ifm-color-secondary-lightest: rgb(170, 227, 246);
-  --ifm-color-secondary-contrast-background: rgb(238, 249, 253);
-  --ifm-color-secondary-contrast-foreground: rgb(25, 60, 71);
+  --pg-tip-bg: #e7f2f7;       --pg-tip-border: #4a9ec0;  --pg-tip-ink: #1c4a5c;
+  --pg-warn-bg: #fff3dc;      --pg-warn-border: #d99a2c; --pg-warn-ink: #6e4410;
+  --pg-note-bg: #ebf4ec;      --pg-note-border: #6ba073; --pg-note-ink: #2d5434;
+  --pg-info-bg: #f1ebe0;      --pg-info-border: #9a8868; --pg-info-ink: #4a3e2a;
+
+  /* Typography */
+  --pg-font-serif: 'Fraunces', 'Iowan Old Style', 'Georgia', serif;
+  --pg-font-jp: 'Shippori Mincho', 'Yu Mincho', serif;
+  --pg-font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --pg-font-mono: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+
+  /* Infima overrides */
+  --ifm-color-primary: var(--pg-red);
+  --ifm-color-primary-dark: #b32e1a;
+  --ifm-color-primary-darker: var(--pg-red-ink);
+  --ifm-color-primary-darkest: #6e1708;
+  --ifm-color-primary-light: #d44a35;
+  --ifm-color-primary-lighter: #dd5d49;
+  --ifm-color-primary-lightest: #e58775;
+
+  --ifm-background-color: var(--pg-paper);
+  --ifm-background-surface-color: var(--pg-paper);
+  --ifm-color-content: var(--pg-ink);
+  --ifm-color-emphasis-100: #f1ead2;
+  --ifm-color-emphasis-200: var(--pg-paper-2);
+  --ifm-color-emphasis-300: var(--pg-rule-soft);
+  --ifm-color-emphasis-700: var(--pg-ink-soft);
+  --ifm-color-emphasis-800: var(--pg-ink-soft);
+  --ifm-color-emphasis-900: var(--pg-ink);
+
+  --ifm-font-family-base: var(--pg-font-serif);
+  --ifm-font-family-monospace: var(--pg-font-mono);
+  --ifm-heading-font-family: var(--pg-font-serif);
+  --ifm-heading-font-weight: 900;
+  --ifm-heading-color: var(--pg-ink);
+  --ifm-heading-line-height: 1.1;
+
+  --ifm-link-color: var(--pg-red);
+  --ifm-link-hover-color: var(--pg-red-ink);
+
+  --ifm-navbar-background-color: var(--pg-yellow);
+  --ifm-navbar-link-color: var(--pg-ink);
+  --ifm-navbar-link-hover-color: var(--pg-red-ink);
+  --ifm-navbar-search-input-background-color: #fff;
+  --ifm-navbar-shadow: 0 2px 0 var(--pg-ink);
+  --ifm-navbar-height: 60px;
+
+  --ifm-footer-background-color: #14130f;
+  --ifm-footer-color: #e7dfc6;
+  --ifm-footer-link-color: #e7dfc6;
+  --ifm-footer-link-hover-color: var(--pg-yellow);
+  --ifm-footer-title-color: var(--pg-yellow);
+
+  --ifm-code-font-size: 92%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.06);
+
+  /* Admonitions (Docusaurus) */
+  --ifm-color-info: var(--pg-tip-border);
+  --ifm-color-info-contrast-background: var(--pg-tip-bg);
+  --ifm-color-info-contrast-foreground: var(--pg-tip-ink);
+  --ifm-color-warning: var(--pg-warn-border);
+  --ifm-color-warning-contrast-background: var(--pg-warn-bg);
+  --ifm-color-warning-contrast-foreground: var(--pg-warn-ink);
+  --ifm-color-success: var(--pg-note-border);
+  --ifm-color-success-contrast-background: var(--pg-note-bg);
+  --ifm-color-success-contrast-foreground: var(--pg-note-ink);
+  --ifm-color-secondary: var(--pg-info-border);
+  --ifm-color-secondary-contrast-background: var(--pg-info-bg);
+  --ifm-color-secondary-contrast-foreground: var(--pg-info-ink);
+}
+/* ---------- BASE ---------- */
+html, body {
+  background: var(--pg-paper);
+  color: var(--pg-ink);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: #ffdc06;
-  --ifm-color-primary-dark: #ebca00;
-  --ifm-color-primary-darker: #debf00;
-  --ifm-color-primary-darkest: #b79d00;
-  --ifm-color-primary-light: #ffe020;
-  --ifm-color-primary-lighter: #ffe22d;
-  --ifm-color-primary-lightest: #ffe754;
-  /* --ifm-navbar-link-color: #ffffff; */
-
-  /* Secondary color palette (used for notes) */
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-  --ifm-color-secondary-contrast-background: rgb(25, 60, 71);
-  --ifm-color-secondary-contrast-foreground: rgb(238, 249, 253);
-
-  --ifm-navbar-background-color: #F60000;
-
+body {
+  font-family: var(--pg-font-serif);
+  font-size: 16.5px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/* custom theme */
+main {
+  background: var(--pg-paper);
+}
 
-/* Utility: visually hide an element but keep it available to
-   screen readers and search engines. Useful when you want an
-   H1 present in the DOM for SEO but not visible on the page. */
-.sr-only {
-  position: absolute !important;
-  width: 1px !important;
-  height: 1px !important;
-  padding: 0 !important;
-  margin: -1px !important;
-  overflow: hidden !important;
-  clip: rect(0 0 0 0) !important;
-  white-space: nowrap !important;
+/* Headings: Fraunces editorial */
+h1, h2, h3, h4, h5, h6,
+.markdown h1, .markdown h2, .markdown h3, .markdown h4, .markdown h5, .markdown h6 {
+  font-family: var(--pg-font-serif);
+  font-weight: 900;
+  letter-spacing: -0.015em;
+  color: var(--pg-ink);
+}
+
+.markdown h1:first-child {
+  font-size: clamp(36px, 5.5vw, 64px);
+  line-height: 0.98;
+  margin-bottom: 0.4em;
+}
+.markdown h2 {
+  font-size: clamp(26px, 3vw, 34px);
+  border-bottom: 2px solid var(--pg-ink);
+  padding-bottom: 6px;
+  margin-top: 2em;
+}.markdown h3 {
+  font-size: clamp(20px, 2.4vw, 24px);
+  font-weight: 800;
+}
+
+.markdown p, .markdown li {
+  font-family: var(--pg-font-serif);
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.65;
+}
+
+.markdown a {
+  color: var(--pg-red);
+  text-decoration: none;
+  border-bottom: 1px dotted currentColor;
+}
+.markdown a:hover {
+  color: var(--pg-red-ink);
+  border-bottom-style: solid;
+}
+/* Icon-only links (image children, or anything inside .social-container)
+   should not get the text-link dotted underline. */
+.markdown a:has(> img),
+.markdown a:has(> svg),
+.markdown a:has(> picture),
+.markdown .social-container a {
+  border-bottom: 0;
+}
+.markdown a:has(> img):hover,
+.markdown a:has(> svg):hover,
+.markdown a:has(> picture):hover,
+.markdown .social-container a:hover {
+  border-bottom: 0;
+}
+/* Strong */
+.markdown strong { color: var(--pg-ink); }
+/* Inline code */
+.markdown code {
+  font-family: var(--pg-font-mono);
+  background: var(--pg-paper-2);
+  border: 1px solid var(--pg-rule-soft);
+  border-radius: 3px;
+  padding: 1px 6px;
+  font-size: 0.88em;
+}
+
+/* ---------- NAVBAR ---------- */
+.navbar {
+  border-bottom: 2px solid var(--pg-ink);
+  background: var(--ifm-navbar-background-color);
+}
+.navbar__title,
+.navbar__brand {
+  font-family: var(--pg-font-serif);
+  font-weight: 900;
+  letter-spacing: -0.01em;
+  color: var(--pg-ink);
+}
+.navbar__link {
+  font-family: var(--pg-font-serif);
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 6px;
+  padding: 6px 12px;
+}
+.navbar__link:hover {
+  background: rgba(0, 0, 0, 0.08);
+  color: var(--pg-ink);
+}
+.navbar__link--active {
+  color: var(--pg-red-ink);
+}
+
+/* Algolia search button → bordered pill (light-tone always; doesn't invert in dark mode) */
+.navbar .DocSearch-Button {
+  background: #fff;
+  border: 1.5px solid #1b1a17;
+  border-radius: 999px;
+  height: 36px;
+  padding: 0 14px;
+  margin: 0;
+  font-family: var(--pg-font-sans);
+  font-size: 13px;
+  font-weight: 500;
+  color: #6b6960;
+  box-shadow: none;
+  min-width: 240px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.navbar .DocSearch-Button:hover {
+  background: #fff;
+  box-shadow: 2px 2px 0 #1b1a17;
+}
+.navbar .DocSearch-Button-Container {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.navbar .DocSearch-Button-Placeholder {
+  font-family: var(--pg-font-sans);
+  font-size: 13px;
+  font-weight: 500;
+  padding: 0;
+  color: #6b6960;
+}
+.navbar .DocSearch-Search-Icon {
+  width: 14px;
+  height: 14px;
+  stroke-width: 2.4;
+  color: #1b1a17;
+}
+.navbar .DocSearch-Button-Keys {
+  background: #f4edd8;
+  border: 1px solid #e3dbbf;
+  border-radius: 3px;
+  font-family: var(--pg-font-mono);
+  min-width: 0;
+  padding: 1px 5px;
+  height: 18px;
+  margin-left: auto;
+}
+.navbar .DocSearch-Button-Key {
+  background: transparent;
+  box-shadow: none;
+  padding: 0;
+  margin: 0;
+  width: auto;
+  height: auto;
+  font-family: var(--pg-font-mono);
+  font-size: 11px;
+  color: #6b6960;
+  top: 0;
+}
+
+
+/* ---------- BREADCRUMB ---------- */
+.breadcrumbs__item .breadcrumbs__link,
+.breadcrumbs__item--active .breadcrumbs__link {
+  font-family: var(--pg-font-mono);
+  font-size: 12px;
+  color: var(--pg-ink-faint);
+  background: transparent;
+  padding: 4px 6px;
+}
+.breadcrumbs__item--active .breadcrumbs__link {
+  color: var(--pg-red);
+  font-weight: 700;
+}
+.breadcrumbs__item:not(:last-child)::after {
+  content: '›';
+  color: var(--pg-ink-faint);
+  opacity: 0.5;
+  margin: 0 4px;
+  background: none;
+}
+
+/* ---------- SIDEBAR ---------- */
+.theme-doc-sidebar-container {
+  border-right: 1px solid var(--pg-rule-soft);
+  background: var(--pg-paper);
+}
+
+.menu {
+  font-family: var(--pg-font-sans);
+  background: var(--pg-paper);
+  padding: 12px 8px;
+}
+
+.menu__list-item-collapsible .menu__link,
+.menu__link {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--pg-ink);
+  padding: 7px 10px;
+  border-radius: 6px;
+}
+
+.menu__link:hover,
+.menu__list-item-collapsible:hover {
+  background: var(--pg-paper-2);
+  color: var(--pg-ink);
+}
+
+.menu__link--active:not(.menu__link--sublist),
+.menu__list-item-collapsible--active > .menu__link {
+  background: var(--pg-red);
+  color: #fff;
+  font-weight: 600;
+}
+
+.menu__list-item-collapsible--active > .menu__link:hover {
+  background: var(--pg-red-ink);
+  color: #fff;
+}
+
+.menu__caret::before,
+.menu__link--sublist-caret::after {
+  filter: brightness(0.4);
+}
+.menu__list-item-collapsible--active .menu__caret::before,
+.menu__link--active .menu__link--sublist-caret::after {
+  filter: brightness(0) invert(1);
+}
+
+/* ---------- TOC ---------- */
+.table-of-contents {
+  font-family: var(--pg-font-sans);
+  font-size: 13px;
+  border-left: 1px solid var(--pg-rule-soft);
+}
+.table-of-contents__link {
+  color: var(--pg-ink-faint);
+}
+.table-of-contents__link--active,
+.table-of-contents__link:hover {
+  color: var(--pg-red);
+}
+
+/* ---------- ADMONITIONS ---------- */
+.theme-admonition,
+.alert {
+  border: 1px solid;
+  border-left-width: 5px;
+  border-radius: 3px;
+  font-family: var(--pg-font-sans);
+  font-size: 15px;
+  line-height: 1.55;
+  padding: 14px 16px;
+}
+.theme-admonition h5,
+.theme-admonition .admonition-heading {
+  font-family: var(--pg-font-serif);
+  font-weight: 800;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  margin-bottom: 4px;
+}
+
+/* tip = info-blue */
+.theme-admonition-tip,
+.alert--success {
+  background: var(--pg-tip-bg);
+  border-color: var(--pg-tip-border);
+  color: var(--pg-tip-ink);
+}
+/* note = green */
+.theme-admonition-note,
+.alert--secondary {
+  background: var(--pg-note-bg);
+  border-color: var(--pg-note-border);
+  color: var(--pg-note-ink);
+}
+/* warning = amber */
+.theme-admonition-warning,
+.theme-admonition-caution,
+.alert--warning {
+  background: var(--pg-warn-bg);
+  border-color: var(--pg-warn-border);
+  color: var(--pg-warn-ink);
+}
+/* info / danger = warm sand */
+.theme-admonition-info,
+.alert--info {
+  background: var(--pg-info-bg);
+  border-color: var(--pg-info-border);
+  color: var(--pg-info-ink);
+}
+.theme-admonition-danger,
+.alert--danger {
+  background: var(--pg-red-soft);
+  border-color: var(--pg-red);
+  color: var(--pg-red-ink);
+}
+/* ---------- TAGS ---------- */
+.tag,
+.theme-doc-tag-list a,
+a.tag {
+  font-family: var(--pg-font-sans);
+  font-weight: 500;
+  font-size: 13px;
+  padding: 4px 10px;
+  border: 1.5px solid var(--pg-ink);
+  border-radius: 999px;
+  color: var(--pg-ink);
+  background: #fff;
+  text-decoration: none;
+  margin-right: 6px;
+}
+.tag:hover,
+a.tag:hover {
+  background: var(--pg-yellow-soft);
+  color: var(--pg-ink);
+  border-bottom-style: solid;
+}
+/* ---------- PREV / NEXT PAGINATION ---------- */
+.pagination-nav__link {
+  border: 2px solid var(--pg-ink);
+  background: #fff;
+  padding: 14px 16px;
+  border-radius: 0;
+  transition: transform 0.12s ease, background 0.12s ease;
+}
+.pagination-nav__link:hover {
+  background: var(--pg-yellow-soft);
+  transform: translateY(-2px);
+  border-color: var(--pg-ink);
+}.pagination-nav__sublabel {
+  font-family: var(--pg-font-mono);
+  font-size: 11px;
+  color: var(--pg-ink-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+}
+.pagination-nav__label {
+  font-family: var(--pg-font-serif);
+  font-weight: 800;
+  font-size: 18px;
+  color: var(--pg-ink);
+}
+
+/* ---------- BUTTONS ---------- */
+.button {
+  font-family: var(--pg-font-sans);
+  font-weight: 600;
+  border-radius: 999px;
+  border: 1.5px solid var(--pg-ink);
+  transition: transform 0.12s ease, background 0.12s ease;
+}
+.button:hover { transform: translateY(-1px); }
+.button--primary {
+  background: var(--pg-red);
+  border-color: var(--pg-red-ink);
+  color: #fff;
+}
+.button--primary:hover {
+  background: var(--pg-red-ink);
+  color: #fff;
+}
+.button--secondary {
+  background: var(--pg-yellow);
+  border-color: var(--pg-ink);
+  color: var(--pg-ink);
+}
+
+/* ---------- TABLES ---------- */
+.markdown table {
+  font-family: var(--pg-font-sans);
+  border: 2px solid var(--pg-ink);
+  border-collapse: collapse;
+}
+.markdown table thead {
+  background: var(--pg-paper-2);
+}
+.markdown table th {
+  font-family: var(--pg-font-serif);
+  font-weight: 800;
+  border-bottom: 2px solid var(--pg-ink);
+}
+.markdown table th, .markdown table td {
+  border: 1px solid var(--pg-rule-soft);
+  padding: 10px 14px;
+}
+
+/* ---------- FOOTER ---------- */
+.footer {
+  background: #14130f;
+  color: #e7dfc6;
+  border-top: 2px solid var(--pg-ink);
+  padding: 42px 24px 28px;
+}
+.footer__title {
+  font-family: var(--pg-font-mono);
+  font-size: 11px;
+  color: var(--pg-yellow);
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  margin-bottom: 10px;
+}
+.footer__link-item {
+  color: #e7dfc6;
+  font-size: 14px;
+}
+.footer__link-item:hover { color: var(--pg-yellow); }
+.footer__copyright {
+  font-family: var(--pg-font-mono);
+  font-size: 11px;
+  color: #8a8880;
+  border-top: 1px solid #2a2925;
+  padding-top: 18px;
+  margin-top: 22px;
+}
+
+/* ---------- LAST UPDATED ---------- */
+.theme-last-updated,
+.theme-edit-this-page {
+  font-family: var(--pg-font-mono);
+  font-size: 11px;
+  color: var(--pg-ink-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* ---------- RECIPE-PAGE ENHANCEMENTS ---------- */
+/* Bento-frame border on content images (recipe heros, in-step photos, etc.).
+   Opt out small inline icons from this rule:
+     - .social-icon  — homepage brand-icon SVGs (Instagram, TikTok, …)
+     - .no-border    — generic opt-out; add to any inline <img> that isn't a
+                       content image (favicons, badges, decorative icons, …)
+   Component-rendered images (DocCard, ArticleCard, etc.) opt out via their
+   own CSS modules with `border: none !important`. */
+.markdown img:not(.social-icon):not(.no-border),
+article img:not(.navbar__logo):not(.footer__logo):not(.social-icon):not(.no-border) {
+  border: 2px solid var(--pg-ink);
+  background: var(--pg-paper-2);
+}
+/* Don't border Leaflet map tiles, markers, or attribution images */
+.leaflet-container img,
+.leaflet-container .leaflet-tile,
+.leaflet-container .leaflet-marker-icon,
+.leaflet-container .leaflet-marker-shadow {
   border: 0 !important;
+  background: transparent !important;
 }
 
-/* Video responsivo - orizzontale su desktop, verticale su mobile */
+/* Drop-cap on the first paragraph of an article body */
+article > .theme-doc-markdown.markdown > p:first-of-type::first-letter {
+  font-family: var(--pg-font-serif);
+  font-weight: 900;
+  font-size: 4em;
+  line-height: 0.85;
+  color: var(--pg-red);
+  float: left;
+  margin: 4px 10px 0 0;
+}
+
+
+/* Video responsivo — orizzontale su desktop, verticale su mobile */
 .video-container-responsive {
   width: 100%;
   display: flex;
   justify-content: center;
   margin-bottom: 2rem;
 }
-
 .video-container-responsive > div {
   width: 100%;
   max-width: 900px;
   aspect-ratio: 16 / 9;
 }
-
-/* Mobile - layout verticale 9:16 */
 @media (max-width: 768px) {
   .video-container-responsive > div {
     max-width: 100%;
@@ -91,14 +593,592 @@
 /* Leaflet customizations */
 @import 'leaflet/dist/leaflet.css';
 
-.negozio-marker {
-  font-size: 24px;
-  line-height: 1;
-  /* text-align: center; */
-  transform: translate(-50%, -50%);
-}
-
-/* Keep the map under overlays (e.g. mobile sidebar) */
 .leaflet-container {
   z-index: 0;
+  border: 2px solid var(--pg-ink);
+  background: var(--pg-paper-2);
+  font-family: var(--pg-font-sans) !important;
 }
+/* ============================================
+   NEGOZI — Bentō × Izakaya
+   ============================================ */
+
+/* Custom Leaflet pin — tapered teardrop SVG, no character */
+.neg-marker {
+  display: block;
+  filter: drop-shadow(1.5px 1.5px 0 var(--pg-ink));
+  overflow: visible;
+}
+.neg-marker path {
+  fill: var(--pg-red);
+  stroke: var(--pg-ink);
+  stroke-width: 2;
+  stroke-linejoin: round;
+}
+/* Cluster: black pill with yellow border + red shadow */
+.marker-cluster {
+  background: transparent !important;
+}
+.marker-cluster div {
+  background: var(--pg-ink) !important;
+  border: 2px solid var(--pg-yellow) !important;
+  color: var(--pg-yellow) !important;
+  font-family: var(--pg-font-serif) !important;
+  font-weight: 900 !important;
+  font-size: 14px !important;
+  box-shadow: 2px 2px 0 var(--pg-red);
+}
+.marker-cluster span {
+  line-height: 28px !important;
+}
+
+/* Styled popup (balloon) */
+.leaflet-popup-content-wrapper {
+  border-radius: 4px !important;
+  border: 2px solid var(--pg-ink);
+  box-shadow: 4px 4px 0 var(--pg-ink) !important;
+  padding: 0 !important;
+  background: #fff !important;
+  color: var(--pg-ink) !important;
+}.leaflet-popup-content {
+  margin: 0 !important;
+  min-width: 240px;
+}
+.leaflet-popup-tip {
+  border: 2px solid var(--pg-ink);
+  background: #fff !important;
+  box-shadow: 2px 2px 0 var(--pg-ink);
+}
+.pop-card {
+  /* almost no padding above the name; halved below the name area */
+  padding: 2px 14px 12px;
+}
+/* Selectors qualified with .pop-card so they beat `.markdown p` (specificity
+   0,1,1) — the popup lives inside the article's .markdown wrapper. */
+.pop-card .pop-name {
+  font-family: var(--pg-font-serif);
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 1.2;
+  margin: 0 0 2px;
+  color: #1b1a17;
+}
+.pop-card .pop-addr {
+  font-size: 12px;
+  color: #3b3a36;
+  margin: 0 0 8px;
+  font-family: var(--pg-font-sans);
+}
+.pop-note {
+  margin: 0 0 8px;
+  padding: 8px 10px;
+  background: #f4edd8;
+  border-left: 3px solid var(--pg-red);
+  font: italic 13px var(--pg-font-serif);
+  color: #1b1a17;
+  border-radius: 0 2px 2px 0;
+}
+.pop-actions {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-top: 6px;
+}
+.pop-actions a {
+  display: inline-block;
+  font-family: var(--pg-font-mono);
+  font-weight: 600;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 3px 8px;
+  border: 1.5px solid var(--pg-ink);
+  background: var(--pg-yellow);
+  color: var(--pg-ink);
+  text-decoration: none;
+  border-radius: 999px;
+}
+.pop-actions a.gh {
+  background: var(--pg-ink);
+  color: var(--pg-yellow);
+}
+
+/* Generic kicker (mono red label) */
+.pg-kicker {
+  font-family: var(--pg-font-mono);
+  font-size: 12px;
+  color: var(--pg-red);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  display: block;
+}
+
+/* Editorial meta-strip (Negozi / Regioni / Città — and friends) */
+.pg-meta-strip {
+  display: grid;
+  /* Flexible 1fr columns (no hard minimum) — keeps the strip from forcing
+     horizontal page scroll on 320px–360px viewports. The `minmax(0, 1fr)`
+     form is required: a bare `1fr` has an implicit `min-content` minimum,
+     which would re-introduce the same overflow when a value/label is wide. */
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  border-top: 2px solid var(--pg-ink);
+  border-bottom: 2px solid var(--pg-ink);
+  background: #fff;
+  margin: 8px 0 28px;
+}
+.pg-meta-strip > div {
+  min-width: 0; /* allow grid items to shrink below their content size */
+  padding: 12px 22px;
+  text-align: center;
+  border-right: 1px solid var(--pg-rule-soft);
+}
+.pg-meta-strip > div:last-child {
+  border-right: 0;
+}
+.pg-meta-strip .l {
+  font-family: var(--pg-font-mono);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--pg-ink-faint);
+}
+.pg-meta-strip .v {
+  font-family: var(--pg-font-serif);
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 1;
+  margin-top: 4px;
+  color: var(--pg-ink);
+}
+/* Narrow phones: tighten horizontal padding and shrink the value font so
+   labels like "ANCHE FISICI" don't truncate at 320px viewports. */
+@media (max-width: 480px) {
+  .pg-meta-strip > div {
+    padding: 10px 6px;
+  }
+  .pg-meta-strip .v {
+    font-size: 26px;
+  }
+  .pg-meta-strip .l {
+    font-size: 9px;
+    letter-spacing: 0.1em;
+  }
+}
+
+/* Map-page header */
+/* Map page header — kicker + title stacked, meta-strip flows below in
+   document order (matches the layout of a region page like /lombardia/). */
+.map-header {
+  display: block;
+  margin-bottom: 18px;
+}
+
+/* Lista Regioni (index page) — editorial hero */
+.regions-hero {
+  margin-bottom: 28px;
+  border-bottom: 2px solid var(--pg-ink);
+  padding-bottom: 24px;
+}
+/* Match the default site H1 size (.markdown h1:first-child) so titles inside
+   custom hero blocks read at the same scale as other pages (strumenti,
+   ingredienti, regioni, etc.). Only the margins/family/weight differ. */
+.regions-hero h1,
+.map-header h1 {
+  font-family: var(--pg-font-serif);
+  font-weight: 900;
+  font-size: clamp(36px, 5.5vw, 64px);
+  line-height: 0.98;
+  letter-spacing: -0.015em;
+  margin: 6px 0 0.4em;
+}
+.regions-hero .lead {
+  font-family: var(--pg-font-serif);
+  font-size: 19px;
+  color: var(--pg-ink-soft);
+  line-height: 1.5;
+  margin-top: 14px;
+  max-width: 720px;
+  text-wrap: pretty;
+}
+.regions-hero .quick-cta {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 18px;
+}
+.regions-hero .btn,
+.submit-cta .btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 14px;
+  border-radius: 999px;
+  border: 1.5px solid var(--pg-ink);
+  background: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--pg-ink);
+  text-decoration: none;
+  font-family: var(--pg-font-sans);
+}
+.regions-hero .btn:hover {
+  background: var(--pg-yellow-soft);
+}
+.regions-hero .btn.primary {
+  background: var(--pg-ink);
+  color: #fff;
+}
+.regions-hero .btn.primary:hover {
+  background: #2a2925;
+  color: #fff;
+}
+.regions-hero .btn.red,
+.submit-cta .btn {
+  background: var(--pg-red);
+  color: #fff;
+  border-color: var(--pg-red-ink);
+}
+.regions-hero .btn.red:hover,
+.submit-cta .btn:hover {
+  background: var(--pg-red-ink);
+  color: #fff;
+}
+/* Region list — single-column editorial */
+.region-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-top: 2px solid var(--pg-ink);
+}
+.region-row {
+  border-bottom: 2px solid var(--pg-ink);
+}
+.region-list a.region-row__link,
+.markdown .region-list a.region-row__link {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  align-items: baseline;
+  gap: 18px;
+  padding: 14px 4px 12px;
+  text-decoration: none;
+  color: var(--pg-ink);
+  border-bottom: 0;
+  transition: background 0.12s, padding 0.12s;
+}
+.region-list a.region-row__link:hover,
+.markdown .region-list a.region-row__link:hover {
+  background: var(--pg-yellow-soft);
+  padding-left: 14px;
+  padding-right: 14px;
+  text-decoration: none;
+  color: var(--pg-ink);
+  border-bottom: 0;
+}
+.region-row__name {
+  font-family: var(--pg-font-serif);
+  font-weight: 900;
+  font-size: 32px;
+  letter-spacing: -0.015em;
+  line-height: 1;
+}
+.region-row__cnt {
+  font-family: var(--pg-font-mono);
+  font-size: 11px;
+  color: var(--pg-ink-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+}
+.region-row__cnt strong {
+  color: var(--pg-red);
+  font-family: var(--pg-font-serif);
+  font-size: 18px;
+  font-weight: 900;
+  margin-right: 2px;
+}
+.region-row__cnt em {
+  font-family: var(--pg-font-serif);
+  font-style: italic;
+  color: var(--pg-ink-faint);
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 14px;
+}
+.region-row__arrow {
+  font-family: var(--pg-font-mono);
+  font-size: 16px;
+  color: var(--pg-ink);
+  width: 24px;
+  text-align: right;
+}
+.region-row.is-empty .region-row__name {
+  color: var(--pg-ink-faint);
+}
+/* Empty-row wrapper is a <div> (not an <a>) so it's not focusable / activatable.
+   It needs the same grid layout as the anchor variant above. */
+.region-list .region-row.is-empty .region-row__link {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  align-items: baseline;
+  gap: 18px;
+  padding: 14px 4px 12px;
+  color: var(--pg-ink);
+  cursor: default;
+}
+.region-row.is-online {
+  background: var(--pg-ink);
+}
+.region-list .region-row.is-online a.region-row__link,
+.markdown .region-list .region-row.is-online a.region-row__link {
+  color: var(--pg-yellow);
+}
+.region-list .region-row.is-online a.region-row__link:hover,
+.markdown .region-list .region-row.is-online a.region-row__link:hover {
+  background: #2a2925;
+  color: var(--pg-yellow);
+}
+.region-row.is-online .region-row__name {
+  color: var(--pg-yellow);
+}
+.region-row.is-online .region-row__cnt {
+  color: var(--pg-yellow-soft);
+}
+.region-row.is-online .region-row__cnt strong {
+  color: var(--pg-yellow);
+}
+.region-row.is-online .region-row__arrow {
+  color: var(--pg-yellow);
+}
+@media (max-width: 640px) {
+  .region-row__link {
+    grid-template-columns: 1fr auto;
+    grid-template-areas:
+      'name arrow'
+      'cnt  cnt';
+    gap: 4px 12px;
+  }
+  .region-row__name {
+    grid-area: name;
+    font-size: 26px;
+  }
+  .region-row__cnt {
+    grid-area: cnt;
+  }
+  .region-row__arrow {
+    grid-area: arrow;
+  }
+}
+
+/* Submit-a-shop CTA */
+.submit-cta {
+  margin-top: 36px;
+  border: 2px solid var(--pg-ink);
+  background: var(--pg-paper-2);
+  padding: 22px 24px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+.submit-cta .ico {
+  font-size: 38px;
+  line-height: 1;
+}
+.submit-cta .copy h3 {
+  font-family: var(--pg-font-serif);
+  font-weight: 900;
+  font-size: 22px;
+  margin: 0;
+}
+.submit-cta .copy p {
+  font-size: 14px;
+  color: var(--pg-ink-soft);
+  margin: 4px 0 0;
+  max-width: 540px;
+  font-family: var(--pg-font-sans);
+}
+.submit-cta .btn {
+  margin-left: auto;
+}
+
+/* Sticky TOC for region cities */
+.region-toc {
+  position: sticky;
+  top: 60px;
+  z-index: 5;
+  background: var(--pg-paper);
+  padding: 14px 0;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}.region-toc .lab {
+  font-family: var(--pg-font-mono);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--pg-ink-faint);
+}
+.region-toc a {
+  text-decoration: none;
+  font-family: var(--pg-font-sans);
+  font-weight: 600;
+  font-size: 13px;
+  color: var(--pg-ink);
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1.5px solid var(--pg-ink);
+  background: #fff;
+}
+.region-toc a:hover {
+  background: var(--pg-yellow);
+  color: var(--pg-ink);
+  text-decoration: none;
+}
+.region-toc a .n {
+  font-family: var(--pg-font-mono);
+  font-size: 10px;
+  color: var(--pg-ink-faint);
+  margin-left: 4px;
+}
+/* City sections — used in region pages */
+.city-section {
+  margin: 38px 0 0;
+  /* Fallback offset for direct hash navigation (e.g. landing on
+     /negozi_orientali/lombardia/#city-milano from an external link). For
+     in-page TOC clicks the offset is computed in JS in RegionShopList.tsx so
+     we can use the *current* toc height rather than this static guess. */
+  scroll-margin-top: 180px;
+}
+.city-section .city-h {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  border-bottom: 2px solid var(--pg-ink);
+  padding-bottom: 6px;
+  margin-bottom: 16px;
+}
+/* The element is a real <h2> for accessibility (screen-reader heading
+   navigation), so explicitly neutralise the global `.markdown h2` cascade —
+   the .city-h header already supplies the border / padding / spacing. */
+.city-section .city-name {
+  font-family: var(--pg-font-serif);
+  font-weight: 900;
+  font-size: 36px;
+  letter-spacing: -0.015em;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.city-section .city-cnt {
+  font-family: var(--pg-font-mono);
+  font-size: 11px;
+  color: var(--pg-ink-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  margin-left: auto;
+}
+.city-section .city-cnt strong {
+  color: var(--pg-red);
+  font-family: var(--pg-font-serif);
+  font-size: 18px;
+  font-weight: 900;
+}
+
+/* Editorial shop list (single column, used in region page) */
+.shop-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.shop-row-ed {
+  display: block;
+  padding: 18px 0 22px;
+  transition: background 0.12s;
+}
+.shop-row-ed .name {
+  font-family: var(--pg-font-serif);
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+  margin: 0 0 4px;
+  color: var(--pg-ink);
+}
+.shop-row-ed .addr {
+  font-size: 14px;
+  color: var(--pg-ink-soft);
+  margin: 0;
+  font-family: var(--pg-font-sans);
+}
+.shop-row-ed .badges {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+.shop-row-ed .badge {
+  font-family: var(--pg-font-mono);
+  font-weight: 600;
+  font-size: 10px;
+  padding: 2px 7px;
+  border: 1px solid var(--pg-ink);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border-radius: 3px;
+  background: #fff;
+  color: var(--pg-ink);
+}
+.shop-row-ed .badge.b-promo {
+  background: var(--pg-yellow);
+}
+.shop-row-ed .badge.b-online {
+  background: #2d5434;
+  color: #fff;
+  border-color: #2d5434;
+}
+.shop-row-ed .note {
+  margin-top: 8px;
+  border-left: 3px solid var(--pg-red);
+  padding: 4px 0 4px 12px;
+  font-family: var(--pg-font-serif);
+  font-style: italic;
+  font-size: 15px;
+  color: var(--pg-ink);
+}
+.shop-row-ed .actions {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+.shop-row-ed .actions a.ext-link,
+.markdown .shop-row-ed .actions a.ext-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  font-family: var(--pg-font-mono);
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--pg-red);
+  text-decoration: none;
+}
+.shop-row-ed .actions a.ext-link:hover,
+.markdown .shop-row-ed .actions a.ext-link:hover {
+  color: var(--pg-red-ink);
+  text-decoration: underline;
+  border-bottom: 0;
+}@media (max-width: 640px) {
+  .shop-row-ed .name {
+    font-size: 22px;
+  }
+}
+

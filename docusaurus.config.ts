@@ -36,6 +36,30 @@ const config: Config = {
     locales: ['it'],
   },
 
+  // Google Fonts: linked from <head> (not @import'd in CSS) so font discovery
+  // doesn't wait for custom.css to download/parse. Preconnect to gstatic warms
+  // the TLS handshake before woff2 requests fire — saves a round-trip on first paint.
+  stylesheets: [
+    {
+      href: 'https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=Inter:wght@400;500;600;700&family=Shippori+Mincho:wght@500;700;800&family=JetBrains+Mono:wght@400;500&display=swap',
+      rel: 'stylesheet',
+    },
+  ],
+  headTags: [
+    {
+      tagName: 'link',
+      attributes: { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+    },
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'preconnect',
+        href: 'https://fonts.gstatic.com',
+        crossorigin: 'anonymous',
+      },
+    },
+  ],
+
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -59,10 +83,17 @@ const config: Config = {
         theme: {
           customCss: './src/css/custom.css',
         },
-        gtag: {
-          trackingID: 'G-YZDG2VN7ZG',
-          anonymizeIP: true,
-        },
+        // gtag plugin only in production builds. In dev its route-update
+        // callback can fire before window.gtag is bound (HMR / build-while-dev
+        // races), throwing "window.gtag is not a function". Disabling in dev
+        // also keeps local pageviews out of GA.
+        gtag:
+          process.env.NODE_ENV === 'production'
+            ? {
+                trackingID: 'G-YZDG2VN7ZG',
+                anonymizeIP: true,
+              }
+            : undefined,
       } satisfies Preset.Options,
     ],
   ],
@@ -100,14 +131,15 @@ const config: Config = {
       {httpEquiv: 'x-ua-compatible', content: 'IE=edge'},
     ],
     colorMode: {
-      respectPrefersColorScheme: true,
+      defaultMode: 'light',
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
     },
     navbar: {
       title: 'Le Ricette Giapponesi di Jeko',
       logo: {
         alt: 'Jeko',
         src: 'img/logo_katakana.png',
-        srcDark: 'img/logo_katakana_dark.png',
       },
       items: [
         {
@@ -127,59 +159,11 @@ const config: Config = {
         },
       ],
     },
-    footer: {
-      style: 'dark',
-      links: [
-        {
-          title: 'Le Ricette Giapponesi di Jeko',
-          items: [
-            {
-              label: 'Pagine giappe - Negozi orientali in Italia',
-              to: '/negozi_orientali',
-            },
-          ],
-        },
-        {
-          title: 'Social media',
-          items: [
-            {
-              label: 'Instagram',
-              href: 'https://www.instagram.com/amicojeko',
-            },
-            {
-              label: 'TikTok',
-              href: 'https://www.tiktok.com/@amicojeko',
-            },
-            {
-              label: 'Youtube',
-              href: 'https://youtube.com/amicojeko',
-            },
-            {
-              label: 'X',
-              href: 'https://www.x.com/jeko',
-            },
-            {
-              label: 'Linkedin',
-              href: 'https://www.linkedin.com/in/stefanog',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'GitHub',
-              href: 'https://github.com/amicojeko/japanesecookbook',
-            },
-            {
-              label: 'Supportami con PayPal',
-              href: 'https://paypal.me/jeko23',
-            }
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} Stefano Guglielmetti. Built with Docusaurus.`,
-    },
+    // No `footer:` block here on purpose. The footer is fully swizzled in
+    // src/theme/Footer/index.tsx (custom 4-column layout with PayPal CTA, kanji
+    // brand mark, etc.) and never reads from themeConfig.footer. Keeping a
+    // config-side footer here would silently drift from what's actually
+    // rendered — edit src/theme/Footer/index.tsx to change footer content.
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,

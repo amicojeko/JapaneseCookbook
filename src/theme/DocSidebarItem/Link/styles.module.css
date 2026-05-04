@@ -34,3 +34,8 @@
   color: var(--ifm-color-emphasis-700);
   line-height: 0.8;
 }
+
+/* Active sidebar link has a red background — bump subtitle to white for contrast */
+:global(.menu__link--active) .subtitle {
+  color: #fff;
+}

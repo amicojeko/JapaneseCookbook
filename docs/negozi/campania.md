@@ -6,6 +6,5 @@ slug: "/negozi_orientali/campania"
 import { NEGOZI } from '@site/src/data/negozi';
 import RegionShopList from '@site/src/components/RegionShopList';
 
-# Negozi orientali in Campania
 
 <RegionShopList region="Campania" shops={NEGOZI} />

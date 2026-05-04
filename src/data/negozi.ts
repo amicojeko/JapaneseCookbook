@@ -155,6 +155,7 @@ export const NEGOZI: Negozio[] = [
     {
         id: "emilia-romagna-piacenza-domechan-shop",
         name: "Domechan Shop",
+        url: "https://domechan.com/it",
         region: "Emilia-Romagna",
         city: "Piacenza",
         address: "Viale Dante Alighieri, 39, 29122 Piacenza PC",
@@ -275,6 +276,7 @@ export const NEGOZI: Negozio[] = [
     {
         id: "lazio-roma-sushi-sushi-store",
         name: "Sushi Sushi Store",
+        url: "https://sushi-sushi.it",
         region: "Lazio",
         city: "Roma",
         address: "Via Domenico Millelire, 49, 00136 Roma RM",

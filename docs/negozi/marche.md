@@ -6,6 +6,5 @@ slug: "/negozi_orientali/marche"
 import { NEGOZI } from '@site/src/data/negozi';
 import RegionShopList from '@site/src/components/RegionShopList';
 
-# Negozi orientali nelle Marche
 
 <RegionShopList region="Marche" shops={NEGOZI} />

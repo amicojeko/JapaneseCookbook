@@ -6,6 +6,5 @@ slug: "/negozi_orientali/veneto"
 import { NEGOZI } from '@site/src/data/negozi';
 import RegionShopList from '@site/src/components/RegionShopList';
 
-# Negozi orientali in Veneto
 
 <RegionShopList region="Veneto" shops={NEGOZI} />
