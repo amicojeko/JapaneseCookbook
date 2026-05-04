@@ -61,9 +61,6 @@
     aspect-ratio: 4 / 3;
   }
 
-  .articleImage {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-  }
+  /* Image keeps the desktop "fill + cover" behaviour so it never leaves
+     a gap between the natural-aspect image and the framed 4:3 box. */
 }
