@@ -2,28 +2,7 @@ import React, { useMemo } from 'react';
 import Link from '@docusaurus/Link';
 import { NEGOZI } from '@site/src/data/negozi';
 import { getAllOnlineShops } from '@site/src/data/negozi-online';
-
-// Region display name → URL slug (mirror of RegionShopList's table).
-const REGION_SLUG: Record<string, string> = {
-  Abruzzo: 'abruzzo',
-  Calabria: 'calabria',
-  Campania: 'campania',
-  'Emilia-Romagna': 'emilia_romagna',
-  'Friuli-Venezia Giulia': 'friuli-venezia_giulia',
-  Lazio: 'lazio',
-  Liguria: 'liguria',
-  Lombardia: 'lombardia',
-  Marche: 'marche',
-  Piemonte: 'piemonte',
-  Puglia: 'puglia',
-  Sardegna: 'sardegna',
-  Sicilia: 'sicilia',
-  Toscana: 'toscana',
-  'Trentino-Alto Adige': 'trentino-alto_adige',
-  Umbria: 'umbria',
-  "Valle d'Aosta": 'valle_d_aosta',
-  Veneto: 'veneto',
-};
+import { regionSlug } from '@site/src/data/regioni';
 
 const OnlineShopList: React.FC = () => {
   const allOnline = useMemo(() => getAllOnlineShops(), []);
@@ -33,10 +12,14 @@ const OnlineShopList: React.FC = () => {
   const withPhysical = allOnline.filter((s) => !!s.region).length;
 
   // Top regions strip — mirrors region page's "Continua a esplorare".
+  // We only show regions that actually have a published page (slug present),
+  // otherwise we'd build broken /negozi_orientali/<undefined>/ links.
   const otherRegions = useMemo(() => {
     const counts: Record<string, number> = {};
     NEGOZI.forEach((s) => {
-      if (s.region) counts[s.region] = (counts[s.region] || 0) + 1;
+      if (s.region && regionSlug(s.region)) {
+        counts[s.region] = (counts[s.region] || 0) + 1;
+      }
     });
     return Object.entries(counts)
       .sort((a, b) => b[1] - a[1])
@@ -101,7 +84,7 @@ const OnlineShopList: React.FC = () => {
           <h4>Continua a esplorare</h4>
           <div className="strip">
             {otherRegions.map(([name, count]) => {
-              const slug = REGION_SLUG[name];
+              const slug = regionSlug(name);
               if (!slug) return null;
               return (
                 <Link key={name} to={`/negozi_orientali/${slug}`}>

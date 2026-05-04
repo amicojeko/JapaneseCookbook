@@ -2,32 +2,7 @@ import React, { useMemo } from 'react';
 import Link from '@docusaurus/Link';
 import { NEGOZI } from '@site/src/data/negozi';
 import { getAllOnlineShops } from '@site/src/data/negozi-online';
-
-// Map region display name → URL slug used by docs/negozi/<slug>.md
-const REGION_SLUG: Record<string, string> = {
-  Abruzzo: 'abruzzo',
-  Basilicata: 'basilicata',
-  Calabria: 'calabria',
-  Campania: 'campania',
-  'Emilia-Romagna': 'emilia_romagna',
-  'Friuli-Venezia Giulia': 'friuli-venezia_giulia',
-  Lazio: 'lazio',
-  Liguria: 'liguria',
-  Lombardia: 'lombardia',
-  Marche: 'marche',
-  Molise: 'molise',
-  Piemonte: 'piemonte',
-  Puglia: 'puglia',
-  Sardegna: 'sardegna',
-  Sicilia: 'sicilia',
-  Toscana: 'toscana',
-  'Trentino-Alto Adige': 'trentino-alto_adige',
-  Umbria: 'umbria',
-  "Valle d'Aosta": 'valle_d_aosta',
-  Veneto: 'veneto',
-};
-
-const ALL_REGIONS = Object.keys(REGION_SLUG);
+import { REGIONI } from '@site/src/data/regioni';
 
 const RegionsList: React.FC = () => {
   const counts = useMemo(() => {
@@ -42,8 +17,8 @@ const RegionsList: React.FC = () => {
 
   const sortedRegions = useMemo(
     () =>
-      ALL_REGIONS.slice().sort((a, b) =>
-        a.localeCompare(b, 'it', { sensitivity: 'base' })
+      REGIONI.slice().sort((a, b) =>
+        a.name.localeCompare(b.name, 'it', { sensitivity: 'base' })
       ),
     []
   );
@@ -61,10 +36,11 @@ const RegionsList: React.FC = () => {
           </span>
         </Link>
       </li>
-      {sortedRegions.map((region) => {
+      {sortedRegions.map(({ name: region, slug }) => {
         const count = counts[region] || 0;
-        const isEmpty = count === 0;
-        const slug = REGION_SLUG[region];
+        // A row is a placeholder if the region has no published page (no slug)
+        // OR no shops yet — in either case we don't want to render a link.
+        const isEmpty = !slug || count === 0;
         const cnt = isEmpty ? (
           <em>— in arrivo</em>
         ) : (
