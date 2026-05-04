@@ -45,7 +45,14 @@ export default function Footer(): React.ReactElement {
           </p>
           <div className={styles.socials}>
             {SOCIALS.map((s) => (
-              <a key={s.label} href={s.href} title={s.title} target="_blank" rel="noopener noreferrer">
+              <a
+                key={s.label}
+                href={s.href}
+                aria-label={s.title}
+                title={s.title}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 {s.label}
               </a>
             ))}
