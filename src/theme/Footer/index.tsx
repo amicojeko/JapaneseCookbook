@@ -7,7 +7,7 @@ const SOCIALS: ReadonlyArray<{ label: string; href: string; title: string }> = [
   { label: 'TT', href: 'https://www.tiktok.com/@amicojeko', title: 'TikTok' },
   { label: 'YT', href: 'https://youtube.com/amicojeko', title: 'YouTube' },
   { label: 'X', href: 'https://www.x.com/jeko', title: 'X' },
-  { label: 'IN', href: 'https://www.linkedin.com/in/stefanog', title: 'Linkedin' },
+  { label: 'IN', href: 'https://www.linkedin.com/in/stefanog', title: 'LinkedIn' },
   { label: 'GH', href: 'https://github.com/amicojeko/japanesecookbook', title: 'GitHub' },
 ];
 
