@@ -720,8 +720,13 @@ article > .theme-doc-markdown.markdown > p:first-of-type::first-letter {
   border-top: 2px solid var(--pg-ink);
   border-bottom: 2px solid var(--pg-ink);
   background: #fff;
+  margin: 8px 0 28px;
+}
+/* Inside the map header it lives next to the h1, no outer margin */
+.map-header .pg-meta-strip {
   margin: 0;
-}.pg-meta-strip > div {
+}
+.pg-meta-strip > div {
   padding: 12px 22px;
   text-align: center;
   border-right: 1px solid var(--pg-rule-soft);
@@ -794,7 +799,6 @@ article > .theme-doc-markdown.markdown > p:first-of-type::first-letter {
   margin-top: 18px;
 }
 .regions-hero .btn,
-.region-hero-info .btn,
 .submit-cta .btn {
   display: inline-flex;
   align-items: center;
@@ -809,29 +813,24 @@ article > .theme-doc-markdown.markdown > p:first-of-type::first-letter {
   text-decoration: none;
   font-family: var(--pg-font-sans);
 }
-.regions-hero .btn:hover,
-.region-hero-info .btn:hover {
+.regions-hero .btn:hover {
   background: var(--pg-yellow-soft);
 }
-.regions-hero .btn.primary,
-.region-hero-info .btn.primary {
+.regions-hero .btn.primary {
   background: var(--pg-ink);
   color: #fff;
 }
-.regions-hero .btn.primary:hover,
-.region-hero-info .btn.primary:hover {
+.regions-hero .btn.primary:hover {
   background: #2a2925;
   color: #fff;
 }
 .regions-hero .btn.red,
-.region-hero-info .btn.red,
 .submit-cta .btn {
   background: var(--pg-red);
   color: #fff;
   border-color: var(--pg-red-ink);
 }
 .regions-hero .btn.red:hover,
-.region-hero-info .btn.red:hover,
 .submit-cta .btn:hover {
   background: var(--pg-red-ink);
   color: #fff;
@@ -983,37 +982,6 @@ article > .theme-doc-markdown.markdown > p:first-of-type::first-letter {
 }
 .submit-cta .btn {
   margin-left: auto;
-}
-
-/* Region page — text-only hero */
-.region-hero {
-  border-bottom: 2px solid var(--pg-ink);
-  padding-bottom: 24px;
-  margin-bottom: 24px;
-}
-.region-hero-info {
-  max-width: 760px;
-}
-.region-hero-info h1 {
-  font-family: var(--pg-font-serif);
-  font-weight: 900;
-  font-size: clamp(64px, 9vw, 112px);
-  line-height: 0.92;
-  letter-spacing: -0.025em;
-  margin: 4px 0 0;
-}
-.region-hero-info .pg-meta-strip {
-  max-width: 520px;
-  margin-top: 18px;
-}
-.region-hero-info .pg-meta-strip .v {
-  font-size: 24px;
-}
-.region-hero-info .actions {
-  display: flex;
-  gap: 8px;
-  flex-wrap: wrap;
-  margin-top: 18px;
 }
 
 /* Sticky TOC for region cities */

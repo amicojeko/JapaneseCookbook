@@ -91,29 +91,20 @@ const RegionShopList: React.FC<Props> = ({ region, shops }) => {
 
   return (
     <>
-      <header className="region-hero">
-        <div className="region-hero-info">
-          <span className="pg-kicker">
-            Regione · {regionShops.length} negoz{regionShops.length === 1 ? 'io' : 'i'}{' '}
-            · {sortedCities.length} citt{sortedCities.length === 1 ? 'à' : 'à'}
-          </span>
-          <h1>{region}.</h1>
-          <div className="pg-meta-strip">
-            <div>
-              <div className="l">Negozi</div>
-              <div className="v">{regionShops.length}</div>
-            </div>
-            <div>
-              <div className="l">Città</div>
-              <div className="v">{sortedCities.length}</div>
-            </div>
-            <div>
-              <div className="l">Online</div>
-              <div className="v">{onlineCount}</div>
-            </div>
-          </div>
+      <div className="pg-meta-strip">
+        <div>
+          <div className="l">Negozi</div>
+          <div className="v">{regionShops.length}</div>
         </div>
-      </header>
+        <div>
+          <div className="l">Città</div>
+          <div className="v">{sortedCities.length}</div>
+        </div>
+        <div>
+          <div className="l">Online</div>
+          <div className="v">{onlineCount}</div>
+        </div>
+      </div>
 
       {sortedCities.length > 1 && (
         <nav className="region-toc" aria-label="Città in questa regione">

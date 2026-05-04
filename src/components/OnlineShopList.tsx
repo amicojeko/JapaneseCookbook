@@ -45,28 +45,20 @@ const OnlineShopList: React.FC = () => {
 
   return (
     <>
-      <header className="region-hero">
-        <div className="region-hero-info">
-          <span className="pg-kicker">
-            Sezione · {total} negoz{total === 1 ? 'io' : 'i'} online
-          </span>
-          <h1>Negozi online.</h1>
-          <div className="pg-meta-strip">
-            <div>
-              <div className="l">Negozi</div>
-              <div className="v">{total}</div>
-            </div>
-            <div>
-              <div className="l">Anche fisici</div>
-              <div className="v">{withPhysical}</div>
-            </div>
-            <div>
-              <div className="l">Sconti</div>
-              <div className="v">{withDiscount}</div>
-            </div>
-          </div>
+      <div className="pg-meta-strip">
+        <div>
+          <div className="l">Negozi</div>
+          <div className="v">{total}</div>
         </div>
-      </header>
+        <div>
+          <div className="l">Anche fisici</div>
+          <div className="v">{withPhysical}</div>
+        </div>
+        <div>
+          <div className="l">Sconti</div>
+          <div className="v">{withDiscount}</div>
+        </div>
+      </div>
 
       <ol className="shop-list">
         {allOnline.map((shop) => (

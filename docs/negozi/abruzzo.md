@@ -2,7 +2,6 @@
 title: Abruzzo
 description: Negozi orientali in Abruzzo.
 slug: "/negozi_orientali/abruzzo"
-hide_title: true
 ---
 import { NEGOZI } from '@site/src/data/negozi';
 import RegionShopList from '@site/src/components/RegionShopList';
