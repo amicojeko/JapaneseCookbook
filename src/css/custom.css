@@ -908,8 +908,16 @@ article > .theme-doc-markdown.markdown > p:first-of-type::first-letter {
 .region-row.is-empty .region-row__name {
   color: var(--pg-ink-faint);
 }
-.region-row.is-empty .region-row__link {
-  pointer-events: none;
+/* Empty-row wrapper is a <div> (not an <a>) so it's not focusable / activatable.
+   It needs the same grid layout as the anchor variant above. */
+.region-list .region-row.is-empty .region-row__link {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  align-items: baseline;
+  gap: 18px;
+  padding: 14px 4px 12px;
+  color: var(--pg-ink);
+  cursor: default;
 }
 .region-row.is-online {
   background: var(--pg-ink);

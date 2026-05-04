@@ -65,29 +65,42 @@ const RegionsList: React.FC = () => {
         const count = counts[region] || 0;
         const isEmpty = count === 0;
         const slug = REGION_SLUG[region];
+        const cnt = isEmpty ? (
+          <em>— in arrivo</em>
+        ) : (
+          <>
+            <strong>{count}</strong> negoz{count === 1 ? 'io' : 'i'}
+          </>
+        );
+        // Empty regions: render a non-interactive <div> instead of an <a>.
+        // An <a href="#"> would still be keyboard-focusable and activatable,
+        // jumping the page to the top — the previous CSS-only `pointer-events:
+        // none` defence didn't cover keyboard users.
         return (
           <li
             key={region}
             className={`region-row${isEmpty ? ' is-empty' : ''}`}
           >
-            <Link
-              className="region-row__link"
-              to={isEmpty ? '#' : `/negozi_orientali/${slug}`}
-            >
-              <span className="region-row__name">{region}</span>
-              <span className="region-row__cnt">
-                {isEmpty ? (
-                  <em>— in arrivo</em>
-                ) : (
-                  <>
-                    <strong>{count}</strong> negoz{count === 1 ? 'io' : 'i'}
-                  </>
-                )}
-              </span>
-              <span className="region-row__arrow" aria-hidden="true">
-                →
-              </span>
-            </Link>
+            {isEmpty ? (
+              <div className="region-row__link" aria-disabled="true">
+                <span className="region-row__name">{region}</span>
+                <span className="region-row__cnt">{cnt}</span>
+                <span className="region-row__arrow" aria-hidden="true">
+                  →
+                </span>
+              </div>
+            ) : (
+              <Link
+                className="region-row__link"
+                to={`/negozi_orientali/${slug}`}
+              >
+                <span className="region-row__name">{region}</span>
+                <span className="region-row__cnt">{cnt}</span>
+                <span className="region-row__arrow" aria-hidden="true">
+                  →
+                </span>
+              </Link>
+            )}
           </li>
         );
       })}
