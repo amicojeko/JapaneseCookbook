@@ -159,59 +159,11 @@ const config: Config = {
         },
       ],
     },
-    footer: {
-      style: 'dark',
-      links: [
-        {
-          title: 'Le Ricette Giapponesi di Jeko',
-          items: [
-            {
-              label: 'Pagine giappe - Negozi orientali in Italia',
-              to: '/negozi_orientali',
-            },
-          ],
-        },
-        {
-          title: 'Social media',
-          items: [
-            {
-              label: 'Instagram',
-              href: 'https://www.instagram.com/amicojeko',
-            },
-            {
-              label: 'TikTok',
-              href: 'https://www.tiktok.com/@amicojeko',
-            },
-            {
-              label: 'Youtube',
-              href: 'https://youtube.com/amicojeko',
-            },
-            {
-              label: 'X',
-              href: 'https://www.x.com/jeko',
-            },
-            {
-              label: 'Linkedin',
-              href: 'https://www.linkedin.com/in/stefanog',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'GitHub',
-              href: 'https://github.com/amicojeko/japanesecookbook',
-            },
-            {
-              label: 'Supportami con PayPal',
-              href: 'https://paypal.me/jeko23',
-            }
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} Stefano Guglielmetti. Built with Docusaurus.`,
-    },
+    // No `footer:` block here on purpose. The footer is fully swizzled in
+    // src/theme/Footer/index.tsx (custom 4-column layout with PayPal CTA, kanji
+    // brand mark, etc.) and never reads from themeConfig.footer. Keeping a
+    // config-side footer here would silently drift from what's actually
+    // rendered — edit src/theme/Footer/index.tsx to change footer content.
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
