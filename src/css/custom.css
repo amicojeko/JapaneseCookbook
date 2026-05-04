@@ -593,28 +593,20 @@ article > .theme-doc-markdown.markdown > p:first-of-type::first-letter {
    NEGOZI — Bentō × Izakaya
    ============================================ */
 
-/* Custom Leaflet pin (red rounded pin with 店 character) */
+/* Custom Leaflet pin — tapered teardrop SVG, no character */
 .neg-marker {
-  width: 28px;
-  height: 28px;
-  background: var(--pg-red);
-  color: #fff;
-  border: 2px solid var(--pg-ink);
-  border-radius: 50% 50% 50% 0;
-  transform: rotate(-45deg);
-  box-shadow: 1.5px 1.5px 0 var(--pg-ink);
-  display: grid;
-  place-items: center;
+  display: block;
+  filter: drop-shadow(1.5px 1.5px 0 var(--pg-ink));
+  overflow: visible;
 }
-.neg-marker span {
-  transform: rotate(45deg);
-  font-family: var(--pg-font-jp);
-  font-weight: 800;
-  font-size: 13px;
-  line-height: 1;
+.neg-marker path {
+  fill: var(--pg-red);
+  stroke: var(--pg-ink);
+  stroke-width: 2;
+  stroke-linejoin: round;
 }
-.neg-marker.is-online {
-  background: #2d5434;
+.neg-marker.is-online path {
+  fill: #2d5434;
 }
 /* Cluster: black pill with yellow border + red shadow */
 .marker-cluster {

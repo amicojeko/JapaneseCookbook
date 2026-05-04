@@ -42,12 +42,17 @@ const NegoziMap: React.FC = () => {
               const isOnline = !!shop.url;
               const cls = ['neg-marker'];
               if (isOnline) cls.push('is-online');
+              // Tapered teardrop pin (no character) — colour comes from CSS
+              const pinSvg =
+                `<svg class="${cls.join(' ')}" viewBox="0 0 24 32" width="24" height="32" xmlns="http://www.w3.org/2000/svg" overflow="visible">` +
+                `<path d="M 12 2 C 7 2 2 7 2 12 C 2 17 7 22 12 30 C 17 22 22 17 22 12 C 22 7 17 2 12 2 Z"/>` +
+                `</svg>`;
               const shopIcon = L.divIcon({
-                html: `<div class="${cls.join(' ')}"><span>店</span></div>`,
+                html: pinSvg,
                 className: '',
-                iconSize: [32, 32],
-                iconAnchor: [16, 28],
-                popupAnchor: [0, -28],
+                iconSize: [24, 32],
+                iconAnchor: [12, 31],
+                popupAnchor: [0, -30],
               });
 
               const marker = L.marker([shop.lat, shop.lng], { icon: shopIcon });
