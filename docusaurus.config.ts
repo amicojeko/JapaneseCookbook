@@ -36,6 +36,30 @@ const config: Config = {
     locales: ['it'],
   },
 
+  // Google Fonts: linked from <head> (not @import'd in CSS) so font discovery
+  // doesn't wait for custom.css to download/parse. Preconnect to gstatic warms
+  // the TLS handshake before woff2 requests fire — saves a round-trip on first paint.
+  stylesheets: [
+    {
+      href: 'https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=Inter:wght@400;500;600;700&family=Shippori+Mincho:wght@500;700;800&family=JetBrains+Mono:wght@400;500&display=swap',
+      rel: 'stylesheet',
+    },
+  ],
+  headTags: [
+    {
+      tagName: 'link',
+      attributes: { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+    },
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'preconnect',
+        href: 'https://fonts.gstatic.com',
+        crossorigin: 'anonymous',
+      },
+    },
+  ],
+
   presets: [
     [
       '@docusaurus/preset-classic',

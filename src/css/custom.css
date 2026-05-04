@@ -1,9 +1,12 @@
 /**
  * Theme: Bentō × Izakaya
  * Editorial bento layout with sophisticated izakaya palette.
+ *
+ * Google Fonts (Fraunces / Inter / Shippori Mincho / JetBrains Mono) are linked
+ * from the document <head> via `stylesheets` in docusaurus.config.ts — see
+ * notes there. Do NOT @import them here: that creates a sequential dependency
+ * chain (HTML → custom.css → fonts CSS → woff2) and hurts first paint.
  */
-
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=Inter:wght@400;500;600;700&family=Shippori+Mincho:wght@500;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
 
 /* ---------- DESIGN TOKENS ---------- */
 :root {

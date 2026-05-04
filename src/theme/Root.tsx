@@ -15,13 +15,11 @@ export default function Root({children}: Props): ReactNode {
 
     const links = [
       // Prefetch domains we know will be used
+      // (Google Fonts hints are emitted SSR via `headTags` in docusaurus.config.ts.)
       { rel: 'dns-prefetch', href: '//www.googletagmanager.com' },
       { rel: 'dns-prefetch', href: '//www.google-analytics.com' },
-      { rel: 'dns-prefetch', href: '//fonts.googleapis.com' },
-      { rel: 'dns-prefetch', href: '//fonts.gstatic.com' },
       // Preconnect to critical resources
       { rel: 'preconnect', href: '//www.googletagmanager.com' },
-      { rel: 'preconnect', href: '//fonts.gstatic.com', crossorigin: 'anonymous' },
     ];
 
     links.forEach(({rel, href, crossorigin}) => {
