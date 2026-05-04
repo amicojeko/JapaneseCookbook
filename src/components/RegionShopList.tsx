@@ -88,7 +88,7 @@ const RegionShopList: React.FC<Props> = ({ region, shops }) => {
             id={`city-${slugify(city)}`}
           >
             <header className="city-h">
-              <div className="city-name">{city}</div>
+              <h2 className="city-name">{city}</h2>
               <div className="city-cnt">
                 <strong>{cityShops.length}</strong> negoz
                 {cityShops.length === 1 ? 'io' : 'i'}

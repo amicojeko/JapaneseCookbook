@@ -1052,12 +1052,18 @@ article > .theme-doc-markdown.markdown > p:first-of-type::first-letter {
   padding-bottom: 6px;
   margin-bottom: 16px;
 }
+/* The element is a real <h2> for accessibility (screen-reader heading
+   navigation), so explicitly neutralise the global `.markdown h2` cascade —
+   the .city-h header already supplies the border / padding / spacing. */
 .city-section .city-name {
   font-family: var(--pg-font-serif);
   font-weight: 900;
   font-size: 36px;
   letter-spacing: -0.015em;
   line-height: 1;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 .city-section .city-cnt {
   font-family: var(--pg-font-mono);
