@@ -83,10 +83,17 @@ const config: Config = {
         theme: {
           customCss: './src/css/custom.css',
         },
-        gtag: {
-          trackingID: 'G-YZDG2VN7ZG',
-          anonymizeIP: true,
-        },
+        // gtag plugin only in production builds. In dev its route-update
+        // callback can fire before window.gtag is bound (HMR / build-while-dev
+        // races), throwing "window.gtag is not a function". Disabling in dev
+        // also keeps local pageviews out of GA.
+        gtag:
+          process.env.NODE_ENV === 'production'
+            ? {
+                trackingID: 'G-YZDG2VN7ZG',
+                anonymizeIP: true,
+              }
+            : undefined,
       } satisfies Preset.Options,
     ],
   ],
