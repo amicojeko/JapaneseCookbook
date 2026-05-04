@@ -713,7 +713,11 @@ article > .theme-doc-markdown.markdown > p:first-of-type::first-letter {
 /* Editorial meta-strip (Negozi / Regioni / Città — and friends) */
 .pg-meta-strip {
   display: grid;
-  grid-template-columns: repeat(3, minmax(120px, auto));
+  /* Flexible 1fr columns (no hard minimum) — keeps the strip from forcing
+     horizontal page scroll on 320px–360px viewports. The `minmax(0, 1fr)`
+     form is required: a bare `1fr` has an implicit `min-content` minimum,
+     which would re-introduce the same overflow when a value/label is wide. */
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   border-top: 2px solid var(--pg-ink);
   border-bottom: 2px solid var(--pg-ink);
   background: #fff;
@@ -724,6 +728,7 @@ article > .theme-doc-markdown.markdown > p:first-of-type::first-letter {
   margin: 0;
 }
 .pg-meta-strip > div {
+  min-width: 0; /* allow grid items to shrink below their content size */
   padding: 12px 22px;
   text-align: center;
   border-right: 1px solid var(--pg-rule-soft);
@@ -745,6 +750,20 @@ article > .theme-doc-markdown.markdown > p:first-of-type::first-letter {
   line-height: 1;
   margin-top: 4px;
   color: var(--pg-ink);
+}
+/* Narrow phones: tighten horizontal padding and shrink the value font so
+   labels like "ANCHE FISICI" don't truncate at 320px viewports. */
+@media (max-width: 480px) {
+  .pg-meta-strip > div {
+    padding: 10px 6px;
+  }
+  .pg-meta-strip .v {
+    font-size: 26px;
+  }
+  .pg-meta-strip .l {
+    font-size: 9px;
+    letter-spacing: 0.1em;
+  }
 }
 
 /* Map-page header */

@@ -6,6 +6,7 @@ slug: "/negozi_orientali"
 sidebar_position: 4
 hide_title: true
 ---
+import Link from '@docusaurus/Link';
 import RegionsList from '@site/src/components/RegionsList';
 
 <header className="regions-hero">
@@ -15,8 +16,8 @@ import RegionsList from '@site/src/components/RegionsList';
     Una guida regione per regione dei negozi fisici dove trovare ingredienti, utensili e prodotti giapponesi, coreani e cinesi. Più gli e-commerce italiani che ho provato e che consiglio.
   </p>
   <div className="quick-cta">
-    <a className="btn red" href="/negozi_orientali/mappa">🗺️ Apri la mappa</a>
-    <a className="btn primary" href="/negozi_orientali/online">🌐 Negozi online</a>
+    <Link className="btn red" to="/negozi_orientali/mappa">🗺️ Apri la mappa</Link>
+    <Link className="btn primary" to="/negozi_orientali/online">🌐 Negozi online</Link>
     <a className="btn" href="https://instagram.com/amicojeko" target="_blank" rel="noopener noreferrer">✉️ Segnalane uno</a>
   </div>
 </header>
