@@ -17,10 +17,8 @@ export type OnlineShop = {
 
 export const ONLINE_ONLY: OnlineShop[] = [
     { id: "sushitalia", name: "Sushitalia", url: "https://sushitalia.com" },
-    { id: "sushi-sushi", name: "Sushi Sushi", url: "https://sushi-sushi.it" },
     { id: "orientalitalia", name: "Oriental Italia", url: "https://www.orientalitalia.com" },
     { id: "fusioneat", name: "FusionEat", url: "https://www.fusioneat.it" },
-    { id: "domechan", name: "Domechan", url: "https://domechan.com/it" },
     {
         id: "zanzino",
         name: "Zanzino",
