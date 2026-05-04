@@ -57,10 +57,8 @@ const NegoziMap: React.FC = () => {
 
               const marker = L.marker([shop.lat, shop.lng], { icon: shopIcon });
 
-              const cat = `${shop.url ? 'E-commerce · ' : ''}Alimentari · Asia`;
               const popupContent = `
                 <div class="pop-card">
-                  <div class="pop-cat">${cat}</div>
                   <p class="pop-name">${escapeHtml(shop.name)}</p>
                   <p class="pop-addr">${escapeHtml(shop.address)}${
                     shop.city ? `<br/><strong>${escapeHtml(shop.city)}</strong>` : ''
