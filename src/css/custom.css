@@ -723,10 +723,6 @@ article > .theme-doc-markdown.markdown > p:first-of-type::first-letter {
   background: #fff;
   margin: 8px 0 28px;
 }
-/* Inside the map header it lives next to the h1, no outer margin */
-.map-header .pg-meta-strip {
-  margin: 0;
-}
 .pg-meta-strip > div {
   min-width: 0; /* allow grid items to shrink below their content size */
   padding: 12px 22px;
@@ -767,21 +763,11 @@ article > .theme-doc-markdown.markdown > p:first-of-type::first-letter {
 }
 
 /* Map-page header */
+/* Map page header — kicker + title stacked, meta-strip flows below in
+   document order (matches the layout of a region page like /lombardia/). */
 .map-header {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  gap: 18px;
+  display: block;
   margin-bottom: 18px;
-  flex-wrap: wrap;
-}
-.map-header h1 {
-  font-family: var(--pg-font-serif);
-  font-weight: 900;
-  font-size: clamp(38px, 5vw, 60px);
-  line-height: 0.96;
-  letter-spacing: -0.02em;
-  margin: 6px 0 0;
 }
 
 /* Lista Regioni (index page) — editorial hero */
@@ -790,14 +776,17 @@ article > .theme-doc-markdown.markdown > p:first-of-type::first-letter {
   border-bottom: 2px solid var(--pg-ink);
   padding-bottom: 24px;
 }
-.regions-hero h1 {
+/* Match the default site H1 size (.markdown h1:first-child) so titles inside
+   custom hero blocks read at the same scale as other pages (strumenti,
+   ingredienti, regioni, etc.). Only the margins/family/weight differ. */
+.regions-hero h1,
+.map-header h1 {
   font-family: var(--pg-font-serif);
   font-weight: 900;
-  font-size: clamp(44px, 6vw, 72px);
-  line-height: 0.95;
-  letter-spacing: -0.02em;
-  margin: 6px 0 0;
-  max-width: 14ch;
+  font-size: clamp(36px, 5.5vw, 64px);
+  line-height: 0.98;
+  letter-spacing: -0.015em;
+  margin: 6px 0 0.4em;
 }
 .regions-hero .lead {
   font-family: var(--pg-font-serif);
