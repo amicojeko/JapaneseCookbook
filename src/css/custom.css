@@ -152,6 +152,20 @@ h1, h2, h3, h4, h5, h6,
   color: var(--pg-red-ink);
   border-bottom-style: solid;
 }
+/* Icon-only links (image children, or anything inside .social-container)
+   should not get the text-link dotted underline. */
+.markdown a:has(> img),
+.markdown a:has(> svg),
+.markdown a:has(> picture),
+.markdown .social-container a {
+  border-bottom: 0;
+}
+.markdown a:has(> img):hover,
+.markdown a:has(> svg):hover,
+.markdown a:has(> picture):hover,
+.markdown .social-container a:hover {
+  border-bottom: 0;
+}
 /* Strong */
 .markdown strong { color: var(--pg-ink); }
 /* Inline code */
@@ -349,7 +363,6 @@ h1, h2, h3, h4, h5, h6,
   line-height: 1.55;
   padding: 14px 16px;
 }
-.theme-admonition .admonitionHeading_node_modules-\\@docusaurus-theme-classic-lib-theme-Admonition-Layout-styles-module,
 .theme-admonition h5,
 .theme-admonition .admonition-heading {
   font-family: var(--pg-font-serif);
@@ -397,7 +410,6 @@ h1, h2, h3, h4, h5, h6,
 }
 /* ---------- TAGS ---------- */
 .tag,
-.tag_node_modules-\\@docusaurus-theme-classic-lib-theme-Tag-styles-module,
 .theme-doc-tag-list a,
 a.tag {
   font-family: var(--pg-font-sans);
@@ -526,12 +538,19 @@ a.tag:hover {
 }
 
 /* ---------- RECIPE-PAGE ENHANCEMENTS ---------- */
-/* Hero image (rendered by ImageComponent) — bordered, paper backdrop */
-.markdown img,
-article img:not(.navbar__logo):not(.footer__logo) {
+/* Bento-frame border on content images (recipe heros, in-step photos, etc.).
+   Opt out small inline icons from this rule:
+     - .social-icon  — homepage brand-icon SVGs (Instagram, TikTok, …)
+     - .no-border    — generic opt-out; add to any inline <img> that isn't a
+                       content image (favicons, badges, decorative icons, …)
+   Component-rendered images (DocCard, ArticleCard, etc.) opt out via their
+   own CSS modules with `border: none !important`. */
+.markdown img:not(.social-icon):not(.no-border),
+article img:not(.navbar__logo):not(.footer__logo):not(.social-icon):not(.no-border) {
   border: 2px solid var(--pg-ink);
   background: var(--pg-paper-2);
-}/* Don't border Leaflet map tiles, markers, or attribution images */
+}
+/* Don't border Leaflet map tiles, markers, or attribution images */
 .leaflet-container img,
 .leaflet-container .leaflet-tile,
 .leaflet-container .leaflet-marker-icon,
