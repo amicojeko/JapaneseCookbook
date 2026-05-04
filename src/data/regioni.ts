@@ -39,16 +39,3 @@ export const REGIONI: ReadonlyArray<Region> = [
     { name: "Valle d'Aosta", slug: "valle_d_aosta" },
     { name: "Veneto", slug: "veneto" },
 ];
-
-/** Region display-name → URL slug (only for regions with a published page). */
-export const REGION_SLUG_BY_NAME: Readonly<Record<string, string>> =
-    Object.freeze(
-        Object.fromEntries(
-            REGIONI.flatMap((r) => (r.slug ? [[r.name, r.slug]] : []))
-        )
-    );
-
-/** Look up a region's URL slug. Returns `undefined` for regions without a published page. */
-export function regionSlug(name: string): string | undefined {
-    return REGION_SLUG_BY_NAME[name];
-}

@@ -22,13 +22,10 @@ export default function Root({children}: Props): ReactNode {
       { rel: 'preconnect', href: '//www.googletagmanager.com' },
     ];
 
-    links.forEach(({rel, href, crossorigin}) => {
+    links.forEach(({rel, href}) => {
       const link = document.createElement('link');
       link.rel = rel;
       link.href = href;
-      if (crossorigin) {
-        link.setAttribute('crossorigin', crossorigin);
-      }
       head.appendChild(link);
     });
 

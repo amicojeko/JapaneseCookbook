@@ -5,7 +5,7 @@ import { NEGOZI } from './negozi';
  * Physical shops in `negozi.ts` that ALSO have a `url` field are merged in
  * automatically by `getAllOnlineShops()`.
  */
-export type OnlineShop = {
+type OnlineShop = {
     id: string;
     name: string;
     url: string;
@@ -15,7 +15,7 @@ export type OnlineShop = {
     region?: string;
 };
 
-export const ONLINE_ONLY: OnlineShop[] = [
+const ONLINE_ONLY: OnlineShop[] = [
     { id: "sushitalia", name: "Sushitalia", url: "https://sushitalia.com" },
     { id: "orientalitalia", name: "Oriental Italia", url: "https://www.orientalitalia.com" },
     { id: "fusioneat", name: "FusionEat", url: "https://www.fusioneat.it" },
