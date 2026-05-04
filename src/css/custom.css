@@ -987,11 +987,10 @@ article > .theme-doc-markdown.markdown > p:first-of-type::first-letter {
 /* Sticky TOC for region cities */
 .region-toc {
   position: sticky;
-  top: 84px;
+  top: 60px;
   z-index: 5;
   background: var(--pg-paper);
-  border: 2px solid var(--pg-ink);
-  padding: 14px 16px;
+  padding: 14px 0;
   margin-bottom: 24px;
   display: flex;
   align-items: center;
@@ -1029,6 +1028,8 @@ article > .theme-doc-markdown.markdown > p:first-of-type::first-letter {
 /* City sections — used in region pages */
 .city-section {
   margin: 38px 0 0;
+  /* Clear the sticky navbar + sticky region-toc when jumping to a city anchor */
+  scroll-margin-top: 180px;
 }
 .city-section .city-h {
   display: flex;

@@ -1,35 +1,10 @@
 import React, { useMemo } from 'react';
-import Link from '@docusaurus/Link';
 import type { Negozio } from '@site/src/data/negozi';
 import { NEGOZI } from '@site/src/data/negozi';
 
 type Props = {
   region: string;
   shops?: Negozio[];
-};
-
-// Region display name → URL slug (matches docs/negozi/<slug>.md filenames).
-const REGION_SLUG: Record<string, string> = {
-  Abruzzo: 'abruzzo',
-  Basilicata: 'basilicata',
-  Calabria: 'calabria',
-  Campania: 'campania',
-  'Emilia-Romagna': 'emilia_romagna',
-  'Friuli-Venezia Giulia': 'friuli-venezia_giulia',
-  Lazio: 'lazio',
-  Liguria: 'liguria',
-  Lombardia: 'lombardia',
-  Marche: 'marche',
-  Molise: 'molise',
-  Piemonte: 'piemonte',
-  Puglia: 'puglia',
-  Sardegna: 'sardegna',
-  Sicilia: 'sicilia',
-  Toscana: 'toscana',
-  'Trentino-Alto Adige': 'trentino-alto_adige',
-  Umbria: 'umbria',
-  "Valle d'Aosta": 'valle_d_aosta',
-  Veneto: 'veneto',
 };
 
 const slugify = (s: string) =>
@@ -46,19 +21,6 @@ const RegionShopList: React.FC<Props> = ({ region, shops }) => {
     () => allShops.filter((s) => s.region === region),
     [allShops, region]
   );
-
-  // Other regions strip — counts from the full dataset.
-  const otherRegions = useMemo(() => {
-    const counts: Record<string, number> = {};
-    allShops.forEach((s) => {
-      if (s.region && s.region !== region) {
-        counts[s.region] = (counts[s.region] || 0) + 1;
-      }
-    });
-    return Object.entries(counts)
-      .sort((a, b) => b[1] - a[1])
-      .slice(0, 12);
-  }, [allShops, region]);
 
   if (regionShops.length === 0) {
     return (
@@ -179,23 +141,6 @@ const RegionShopList: React.FC<Props> = ({ region, shops }) => {
         );
       })}
 
-      {otherRegions.length > 0 && (
-        <section className="other-regions">
-          <h4>Continua a esplorare</h4>
-          <div className="strip">
-            {otherRegions.map(([name, count]) => {
-              const slug = REGION_SLUG[name];
-              if (!slug) return null;
-              return (
-                <Link key={name} to={`/negozi_orientali/${slug}`}>
-                  {name} <span className="n">{count}</span>
-                </Link>
-              );
-            })}
-            <Link to="/negozi_orientali">→ Tutte le regioni</Link>
-          </div>
-        </section>
-      )}
     </>
   );
 };
