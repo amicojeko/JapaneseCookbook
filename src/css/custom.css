@@ -615,9 +615,6 @@ article > .theme-doc-markdown.markdown > p:first-of-type::first-letter {
   stroke-width: 2;
   stroke-linejoin: round;
 }
-.neg-marker.is-online path {
-  fill: #2d5434;
-}
 /* Cluster: black pill with yellow border + red shadow */
 .marker-cluster {
   background: transparent !important;
