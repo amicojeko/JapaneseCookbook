@@ -290,6 +290,127 @@ h1, h2, h3, h4, h5, h6,
   }
 }
 
+/* ---------- ALGOLIA DOCSEARCH MODAL ---------- */
+/* Theme the modal via DocSearch's documented CSS custom properties so the
+   look matches the rest of the site (Bentō × Izakaya: cream paper, ink
+   borders, red accents, yellow highlight). Variables set on :root apply
+   to the modal which is portaled to <body>. */
+:root {
+  /* Brand */
+  --docsearch-primary-color: var(--pg-red);
+  --docsearch-text-color: var(--pg-ink);
+  --docsearch-muted-color: var(--pg-ink-faint);
+
+  /* Modal shell */
+  --docsearch-container-background: rgba(27, 26, 23, 0.55);
+  --docsearch-modal-background: var(--pg-paper);
+  --docsearch-modal-shadow: 4px 4px 0 var(--pg-ink);
+
+  /* Search input */
+  --docsearch-searchbox-background: #fff;
+  --docsearch-searchbox-focus-background: #fff;
+  --docsearch-searchbox-shadow: 0 0 0 2px var(--pg-ink);
+
+  /* Result row */
+  --docsearch-hit-color: var(--pg-ink);
+  --docsearch-hit-active-color: var(--pg-ink);
+  --docsearch-hit-background: #fff;
+  --docsearch-hit-shadow: 0 1px 0 var(--pg-rule-soft);
+  --docsearch-highlight-color: var(--pg-red);
+
+  /* Footer + key chips */
+  --docsearch-footer-background: var(--pg-paper-2);
+  --docsearch-footer-shadow: inset 0 1px 0 var(--pg-rule-soft);
+  --docsearch-key-gradient: linear-gradient(
+    -180deg,
+    var(--pg-paper-2),
+    var(--pg-paper)
+  );
+  --docsearch-key-shadow: inset 0 -1.5px 0 var(--pg-rule-soft),
+    inset 0 0 0 1px var(--pg-rule-soft), 0 1px 1.5px rgba(0, 0, 0, 0.08);
+  --docsearch-logo-color: var(--pg-ink-faint);
+}
+
+/* Edges + typography that the variables don't reach */
+.DocSearch-Modal {
+  border: 2px solid var(--pg-ink);
+  border-radius: 4px;
+  font-family: var(--pg-font-sans);
+}
+.DocSearch-SearchBar {
+  padding: 14px 16px;
+  border-bottom: 2px solid var(--pg-ink);
+}
+.DocSearch-Form {
+  border-radius: 999px;
+  box-shadow: var(--docsearch-searchbox-shadow);
+}
+.DocSearch-Input {
+  font-family: var(--pg-font-sans);
+  font-size: 15px;
+  font-weight: 500;
+}
+.DocSearch-Hit-source {
+  font-family: var(--pg-font-mono);
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--pg-ink-faint);
+  background: transparent;
+  padding: 14px 12px 6px;
+}
+.DocSearch-Hit a {
+  border-radius: 4px;
+  border: 1px solid var(--pg-rule-soft);
+}
+.DocSearch-Hit[aria-selected='true'] a {
+  background: var(--pg-yellow);
+  border-color: var(--pg-ink);
+  box-shadow: 2px 2px 0 var(--pg-ink);
+}
+.DocSearch-Hit[aria-selected='true'] .DocSearch-Hit-title,
+.DocSearch-Hit[aria-selected='true'] .DocSearch-Hit-path,
+.DocSearch-Hit[aria-selected='true'] mark {
+  color: var(--pg-ink) !important;
+}
+.DocSearch-Hit-title {
+  font-family: var(--pg-font-serif);
+  font-weight: 800;
+  font-size: 15px;
+}
+.DocSearch-Hit-path {
+  font-family: var(--pg-font-mono);
+  font-size: 11px;
+  letter-spacing: 0.06em;
+}
+.DocSearch-Hit mark {
+  color: var(--pg-red);
+  background: transparent;
+  font-weight: 700;
+}
+.DocSearch-Footer {
+  border-top: 2px solid var(--pg-ink);
+  font-family: var(--pg-font-mono);
+}
+.DocSearch-Commands-Key,
+.DocSearch-Footer .DocSearch-Label,
+.DocSearch-Cancel {
+  font-family: var(--pg-font-mono);
+  font-size: 11px;
+}
+.DocSearch-Cancel {
+  font-weight: 600;
+  color: var(--pg-red);
+}
+.DocSearch-NoResults,
+.DocSearch-NoResults-Prefill-List {
+  font-family: var(--pg-font-sans);
+}
+.DocSearch-Help {
+  font-family: var(--pg-font-sans);
+  color: var(--pg-ink-faint);
+}
 
 /* ---------- BREADCRUMB ---------- */
 .breadcrumbs__item .breadcrumbs__link,
