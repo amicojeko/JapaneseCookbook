@@ -40,3 +40,7 @@ Mentre il daikon riposa, preparate il guarnimento affettando molto finemente del
 :::tip
 Non buttate gli scarti della buccia rimossi con il katsuramuki! Possono essere recuperati e utilizzati per altre preparazioni, come ad esempio un kinpira di daikon.
 :::
+
+# Video
+
+<YouTubeVideo videoId="W1llNvmnKHY" />
