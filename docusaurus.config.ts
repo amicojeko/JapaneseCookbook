@@ -136,7 +136,7 @@ const config: Config = {
       respectPrefersColorScheme: false,
     },
     navbar: {
-      title: 'Le Ricette Giapponesi di Jeko',
+      title: 'Paginegiappe.it',
       logo: {
         alt: 'Jeko',
         src: 'img/logo_katakana.png',
@@ -144,12 +144,17 @@ const config: Config = {
       items: [
         {
           to: '/negozi_orientali',
-          label: 'Pagine Giappe',
+          label: 'Negozi',
           position: 'left'
         },
         {
           to: '/viaggi',
           label: 'Viaggi',
+          position: 'left'
+        },
+        {
+          to: '/libri',
+          label: 'Libri',
           position: 'left'
         },
         {

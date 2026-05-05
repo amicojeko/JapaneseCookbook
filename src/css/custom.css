@@ -267,6 +267,28 @@ h1, h2, h3, h4, h5, h6,
   color: #6b6960;
   top: 0;
 }
+/* Mobile: collapse the search pill to a circular lens icon. The placeholder
+   text + ⌘K hint are dead weight on touch — tapping it opens Algolia's
+   fullscreen modal regardless. Matches the navbar's hamburger breakpoint. */
+@media (max-width: 996px) {
+  .navbar .DocSearch-Button {
+    min-width: 0;
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    border-radius: 50%;
+    justify-content: center;
+    gap: 0;
+  }
+  .navbar .DocSearch-Button-Placeholder,
+  .navbar .DocSearch-Button-Keys {
+    display: none;
+  }
+  .navbar .DocSearch-Search-Icon {
+    width: 16px;
+    height: 16px;
+  }
+}
 
 
 /* ---------- BREADCRUMB ---------- */
