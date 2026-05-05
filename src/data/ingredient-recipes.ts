@@ -33,6 +33,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/sudako_negi_vapore"
     },
     {
+      "id": "ricette/menrui/tororo_natto_shiso_udon",
+      "title": "Tororo Natto Shiso Udon",
+      "description": "Una ricetta estiva veloce, nutriente e ricca di consistenze uniche grazie al contrasto tra il cremoso tororo e il natto.",
+      "permalink": "/ricette/tororo-natto-shiso-udon"
+    },
+    {
       "id": "ricette/menrui/yaki_udon",
       "title": "Yaki Udon",
       "description": "Un piatto giapponese completo, economico e velocissimo da preparare, nato per caso nel dopoguerra.",
@@ -497,6 +503,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/chawanmushi"
     },
     {
+      "id": "ricette/menrui/yakisoba",
+      "title": "Yakisoba",
+      "description": "La pasta saltata alla giapponese",
+      "permalink": "/ricette/yakisoba"
+    },
+    {
       "id": "ricette/preparazioni_di_base/brodi/vegan_dashi",
       "title": "Dashi Vegano",
       "description": "La base fondamentale della cucina giapponese in versione vegana. Un brodo ricco di umami preparato con alga kombu e funghi shiitake.",
@@ -513,12 +525,6 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Gyoza",
       "description": "Ravioli alla piastra",
       "permalink": "/ricette/gyoza"
-    },
-    {
-      "id": "ricette/yakimono/yakisoba",
-      "title": "Yakisoba",
-      "description": "La pasta saltata alla giapponese",
-      "permalink": "/ricette/yakisoba"
     },
     {
       "id": "ricette/zuppe/tofu_and_eggs",
@@ -565,6 +571,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/yaki-udon"
     },
     {
+      "id": "ricette/menrui/yakisoba",
+      "title": "Yakisoba",
+      "description": "La pasta saltata alla giapponese",
+      "permalink": "/ricette/yakisoba"
+    },
+    {
       "id": "ricette/preparazioni_di_base/brodi/dashi",
       "title": "Dashi",
       "description": "il brodo base per moltissime ricette",
@@ -599,12 +611,6 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Nasu no Yaki-bitashi",
       "description": "Nasu no Yaki-bitashi, ovvero melanzane grigliate in brodo - Un'alternativa più leggera e salutare alle classiche melanzane fritte (Agebitashi), che richiede solo due cucchiai d'olio per un risultato tenero, succoso e pieno di sapore.",
       "permalink": "/ricette/nasu_no_yaki-bitashi"
-    },
-    {
-      "id": "ricette/yakimono/yakisoba",
-      "title": "Yakisoba",
-      "description": "La pasta saltata alla giapponese",
-      "permalink": "/ricette/yakisoba"
     }
   ],
   "negi": [
@@ -625,6 +631,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Natto Soba",
       "description": "Spaghetti di grano saraceno freddi con natto, cipolline, alga nori e altre delizie",
       "permalink": "/ricette/natto_soba"
+    },
+    {
+      "id": "ricette/menrui/tororo_natto_shiso_udon",
+      "title": "Tororo Natto Shiso Udon",
+      "description": "Una ricetta estiva veloce, nutriente e ricca di consistenze uniche grazie al contrasto tra il cremoso tororo e il natto.",
+      "permalink": "/ricette/tororo-natto-shiso-udon"
     },
     {
       "id": "ricette/nimono/kakuni",
@@ -805,6 +817,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/bukkake_udon"
     },
     {
+      "id": "ricette/menrui/tororo_natto_shiso_udon",
+      "title": "Tororo Natto Shiso Udon",
+      "description": "Una ricetta estiva veloce, nutriente e ricca di consistenze uniche grazie al contrasto tra il cremoso tororo e il natto.",
+      "permalink": "/ricette/tororo-natto-shiso-udon"
+    },
+    {
       "id": "ricette/menrui/udon_burro_e_shoyu",
       "title": "Udon con Burro e Salsa di Soia",
       "description": "Il comfort food perfetto, l'equivalente giapponese del nostro \"burro e parmigiano\".",
@@ -937,6 +955,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/hiyashi_tori_dashi_somen"
     },
     {
+      "id": "ricette/menrui/tororo_natto_shiso_udon",
+      "title": "Tororo Natto Shiso Udon",
+      "description": "Una ricetta estiva veloce, nutriente e ricca di consistenze uniche grazie al contrasto tra il cremoso tororo e il natto.",
+      "permalink": "/ricette/tororo-natto-shiso-udon"
+    },
+    {
       "id": "ricette/sides/mugen_oba_nasu",
       "title": "Mugen Oba Nasu",
       "description": "Un piatto velocissimo dove le melanzane tenere incontrano la freschezza dello shiso e una salsa agrodolce irresistibile.",
@@ -975,6 +999,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Natto Soba",
       "description": "Spaghetti di grano saraceno freddi con natto, cipolline, alga nori e altre delizie",
       "permalink": "/ricette/natto_soba"
+    },
+    {
+      "id": "ricette/menrui/tororo_natto_shiso_udon",
+      "title": "Tororo Natto Shiso Udon",
+      "description": "Una ricetta estiva veloce, nutriente e ricca di consistenze uniche grazie al contrasto tra il cremoso tororo e il natto.",
+      "permalink": "/ricette/tororo-natto-shiso-udon"
     }
   ],
   "nori": [
@@ -1035,6 +1065,14 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/natto_soba"
     }
   ],
+  "yamaimo": [
+    {
+      "id": "ricette/menrui/tororo_natto_shiso_udon",
+      "title": "Tororo Natto Shiso Udon",
+      "description": "Una ricetta estiva veloce, nutriente e ricca di consistenze uniche grazie al contrasto tra il cremoso tororo e il natto.",
+      "permalink": "/ricette/tororo-natto-shiso-udon"
+    }
+  ],
   "beni shoga": [
     {
       "id": "ricette/menrui/yaki_udon",
@@ -1053,6 +1091,14 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Soboro Don",
       "description": "La colorata e sfiziosa ciotola di riso giapponese a base di pollo e uova strapazzate, perfetta per un pasto ricco di proteine",
       "permalink": "/ricette/soboro-don"
+    }
+  ],
+  "aonori": [
+    {
+      "id": "ricette/menrui/yakisoba",
+      "title": "Yakisoba",
+      "description": "La pasta saltata alla giapponese",
+      "permalink": "/ricette/yakisoba"
     }
   ],
   "nimono": [
@@ -1323,14 +1369,6 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Isobeyaki",
       "description": "Mochi grigliato avvolto nell'alga nori, uno snack semplice e \"pericolosamente\" buono",
       "permalink": "/ricette/isobeyaki"
-    }
-  ],
-  "aonori": [
-    {
-      "id": "ricette/yakimono/yakisoba",
-      "title": "Yakisoba",
-      "description": "La pasta saltata alla giapponese",
-      "permalink": "/ricette/yakisoba"
     }
   ],
   "konnyaku": [
