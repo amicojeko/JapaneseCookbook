@@ -1,9 +1,9 @@
 ---
 
-title: Beni shoga
+title: "Beni shoga: lo zenzero rosso giapponese"
 sidebar_custom_props:
   subtitle: Zenzero marinato nell'umezu
-description: Zenzero marinato nell'umezu
+description: "Cos'è il beni shoga, lo zenzero rosso giapponese marinato nell'umezu: differenza con il gari, usi su gyudon, yakisoba e okonomiyaki, ricetta casalinga."
 image: /img/ingredienti/benishoga.jpg
 category: ingredienti
 tags:
@@ -30,3 +30,14 @@ Consiglio di farne 2 barattolini, uno con abbastanza Umezu da bagnare tutto lo z
 
 Mettere in frigorifero, è pronto dopo 2-3 giorni e dura anche un anno.
 <IngredientRecipeList ingredientTag="beni_shoga" />
+
+## Domande frequenti sul beni shoga
+
+**Beni shoga e gari sono la stessa cosa?**
+No. Il beni shoga è zenzero a julienne marinato nell'[umezu](/ingredienti/umesu) (l'aceto delle umeboshi): rosso vivo, salato, deciso. Il gari è invece zenzero a fettine sottili marinato in amazu (aceto di riso e zucchero): rosa pallido o giallo, dolce-acidulo. Gli usi sono diversi: il beni shoga accompagna fritti e piatti alla griglia, il gari pulisce il palato fra le portate di sushi.
+
+**Su quali piatti si usa il beni shoga?**
+È la guarnizione tradizionale di [yakisoba](/ricette/yakisoba), takoyaki, okonomiyaki, [gyudon](/ricette/gyudon) e di molti piatti fritti. Aggiunge una spinta acida e salata che taglia la grassezza e ravviva il piatto a livello visivo.
+
+**Dove comprare il beni shoga in Italia?**
+Lo si trova in vasetto nei [negozi di alimentari asiatici](/negozi_orientali/) e nei marketplace specializzati. In alternativa è facile da preparare in casa: bastano zenzero giovane, [umezu](/ingredienti/umesu) e qualche giorno in frigorifero.

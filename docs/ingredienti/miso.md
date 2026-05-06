@@ -1,8 +1,8 @@
 ---
-title: Miso
+title: "Miso: cos'è e tipi di miso"
 sidebar_custom_props:
   subtitle: Pasta di soia fermentata
-description: Pasta di fagioli di soia fermentata
+description: "Cos'è il miso, la pasta di soia fermentata giapponese: i tipi principali (bianco, rosso, hatcho, mugi), come si usa in cucina e dove comprarlo."
 image: /img/ingredienti/miso-1.jpg
 ---
 import IngredientRecipeList from '@site/src/components/IngredientRecipeList';
@@ -25,3 +25,14 @@ Esistono diversi tipi di miso, ciascuno con le sue caratteristiche uniche, ad es
 - Miso di soia (Hatchomiso): Un tipo di miso più scuro e denso, noto per il suo sapore ricco e complesso.
 - Miso di orzo (Mugimiso): Preparato con l’orzo, ha un profilo aromatico particolare, leggermente dolce e fruttato.
 <IngredientRecipeList ingredientTag="miso" />
+
+## Domande frequenti sul miso
+
+**Che cos'è il miso?**
+Il miso è una pasta giapponese ottenuta dalla fermentazione di soia, sale e koji (un riso o orzo inoculato con la muffa *Aspergillus oryzae*). La fermentazione, da pochi mesi a diversi anni, sviluppa un sapore profondo, salato e ricchissimo di umami che è alla base di moltissimi piatti giapponesi.
+
+**Quanti tipi di miso esistono?**
+I quattro più comuni sono **shiromiso** (bianco, dolce e delicato), **akamiso** (rosso, intenso e salato), **hatchomiso** (solo soia, scuro e complesso) e **mugimiso** (con orzo, leggermente dolce e fruttato). In linea generale: più chiaro il colore, più breve la fermentazione, più dolce e leggero il sapore.
+
+**Dove comprare il miso in Italia?**
+Il miso si trova nei [negozi di alimentari asiatici](/negozi_orientali/), nei negozi bio (sia industriale sia artigianale) e nelle sezioni etniche dei supermercati ben forniti. Per iniziare basta una vaschetta di shiromiso o un miso "all-purpose": una volta aperto, dura mesi in frigorifero.

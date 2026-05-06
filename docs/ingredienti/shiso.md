@@ -1,8 +1,8 @@
 ---
-title: Shiso
+title: "Shiso (perilla): l'erba aromatica"
 sidebar_custom_props:
   subtitle: Erba aromatica giapponese
-description: Erba aromatica dal profumo unico, usata fresca o conservata in salamoia nella cucina giapponese
+description: "Cos'è lo shiso (o perilla), l'erba aromatica giapponese dalle foglie verdi o rosse: sapore, usi in cucina, sostituti e dove comprarlo in Italia."
 image: /img/ingredienti/shiso-1.jpg
 category: ingredienti
 ---
@@ -20,3 +20,14 @@ Lo shiso è versatile: le sue foglie vengono usate fresche come condimento o gua
 ## Video
 
 <YouTubeVideo videoId="DuLROdR2oyQ" />
+
+## Domande frequenti sullo shiso
+
+**Cos'è lo shiso?**
+Lo shiso (*Perilla frutescens*) è un'erba aromatica giapponese della famiglia della menta. Ne esistono due varietà principali: lo shiso verde (aoshiso), più fresco e citrico, e lo shiso rosso (akashiso), più pungente e usato per colorare gli umeboshi e i sottaceti.
+
+**Shiso e basilico: che differenza c'è?**
+Pur appartenendo entrambi alla famiglia delle Lamiaceae, hanno profili aromatici molto diversi. Lo shiso ha note di menta, anice e agrumi, ed è più pungente. Il basilico è più dolce e morbido. In emergenza, in alcune ricette, le foglie di basilico possono sostituire lo shiso, ma cambia il carattere finale del piatto.
+
+**Dove comprare lo shiso in Italia?**
+Le foglie fresche di shiso si trovano stagionalmente in alcuni [negozi di alimentari asiatici](/negozi_orientali/) e online. Lo shiso essiccato (yukari) e i semi di perilla sono più facili da reperire e si conservano molto a lungo. Coltivarlo in vaso è semplicissimo: cresce come la menta.

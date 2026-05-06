@@ -1,8 +1,8 @@
 ---
-title: Natto
+title: "Natto: la soia fermentata giapponese"
 sidebar_custom_props:
   subtitle: Soia fermentata filamentosa
-description: Semi di soia bolliti e fermentati
+description: "Cos'è il natto, la soia fermentata giapponese dal sapore forte e dalla consistenza filante: come si mangia, dove comprarlo e quali sono i suoi benefici."
 image: /img/ingredienti/natto-1.jpg
 ---
 import IngredientRecipeList from '@site/src/components/IngredientRecipeList';
@@ -22,3 +22,14 @@ Tipicamente servito su riso caldo con aggiunta di [salsa di soia](/ingredienti/s
 ## Video
 
 <YouTubeVideo videoId="93c1-x2abp8" />
+
+## Domande frequenti sul natto
+
+**Cos'è il natto?**
+Il natto è un alimento tradizionale giapponese a base di semi di soia fermentati con il *Bacillus subtilis natto*. La fermentazione gli dà la sua caratteristica consistenza appiccicosa e filante, un aroma intenso e un sapore forte. È un superfood ricco di proteine, fibre, vitamina K2 e probiotici.
+
+**Come si mangia il natto?**
+Il modo più tradizionale è sul riso bianco caldo, mescolato per attivare i fili (di solito 30-50 colpi di bacchetta), con un cucchiaino di [salsa di soia](/ingredienti/shoyu) e una punta di [karashi](/ingredienti/senape_karashi) o senape. Si usa anche dentro al sushi, nelle insalate, in zuppe e omelette. Spesso si mangia a colazione.
+
+**Dove comprare il natto in Italia?**
+Il natto si trova surgelato o refrigerato nei [negozi di alimentari giapponesi e asiatici](/negozi_orientali/) più forniti, soprattutto a Milano, Roma, Torino e nelle altre grandi città. Si conserva benissimo in congelatore: si scongela in pochi minuti a temperatura ambiente.
