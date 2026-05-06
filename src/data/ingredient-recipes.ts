@@ -244,8 +244,8 @@ export const INGREDIENT_RECIPE_INDEX = {
     },
     {
       "id": "ricette/preparazioni_di_base/salse/tentsuyu",
-      "title": "Tentsuyu",
-      "description": "La salsa per la tempura",
+      "title": "Salsa Tentsuyu: ricetta per tempura",
+      "description": "Ricetta della salsa tentsuyu, il condimento giapponese per il tempura a base di dashi, mirin e salsa di soia. Ingredienti, dosi e preparazione.",
       "permalink": "/ricette/tentsuyu"
     },
     {
@@ -856,8 +856,8 @@ export const INGREDIENT_RECIPE_INDEX = {
     },
     {
       "id": "ricette/preparazioni_di_base/salse/tentsuyu",
-      "title": "Tentsuyu",
-      "description": "La salsa per la tempura",
+      "title": "Salsa Tentsuyu: ricetta per tempura",
+      "description": "Ricetta della salsa tentsuyu, il condimento giapponese per il tempura a base di dashi, mirin e salsa di soia. Ingredienti, dosi e preparazione.",
       "permalink": "/ricette/tentsuyu"
     },
     {
