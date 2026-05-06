@@ -1,8 +1,8 @@
 ---
-title: Tentsuyu
+title: "Salsa Tentsuyu: ricetta per tempura"
 sidebar_custom_props:
   subtitle: Salsa per tempura
-description: La salsa per la tempura
+description: "Ricetta della salsa tentsuyu, il condimento giapponese per il tempura a base di dashi, mirin e salsa di soia. Ingredienti, dosi e preparazione."
 slug: /ricette/tentsuyu
 ingredients:
 - Daikon grattugiato
@@ -34,3 +34,14 @@ E' a base di [dashi](/ricette/dashi), mirin e [salsa di soia](/ingredienti/shoyu
 Versare tutti gli ingredienti in un pentolino, e scaldare fino a sobbollire (se c'e' lo zucchero, controllare che sia completamente dissolto), far freddare e conservare in un barattolo in frigorifero (2-3 settimane max)
 
 Quando si serve, mischiare con daikon grattugiato
+
+## Domande frequenti sulla salsa tentsuyu
+
+**Cos'è la salsa tentsuyu?**
+Il tentsuyu è la salsa tradizionale giapponese in cui si intinge il tempura appena fritto. È un brodo leggero a base di [dashi](/ricette/dashi), [mirin](/ingredienti/mirin) e [salsa di soia](/ingredienti/shoyu), spesso servito con daikon grattugiato che aggiunge freschezza e bilancia la grassezza del fritto.
+
+**Differenza tra tentsuyu e mentsuyu?**
+Sono parenti stretti, ma diversi nella destinazione. Il [mentsuyu](/ricette/mentsuyu) è più concentrato e si usa per condire i noodle (soba e udon), allungato con acqua o servito a parte. Il tentsuyu è più diluito ed è pensato esclusivamente come salsa di intinto per il tempura.
+
+**Per quanto si conserva il tentsuyu?**
+Dopo averlo preparato e raffreddato, si conserva in frigorifero per 2-3 settimane in un barattolo chiuso. Il daikon grattugiato va sempre aggiunto al momento di servire, mai conservato dentro la salsa, per non comprometterne il sapore e la durata.

@@ -1,8 +1,8 @@
 ---
-title: Furikake
+title: "Furikake: cos'è e come si usa"
 sidebar_custom_props:
   subtitle: Granella condimento per riso
-description: La "granella magica" giapponese che trasforma il riso bianco
+description: "Cos'è il furikake, come si usa sul riso giapponese, le varianti tradizionali, la ricetta fatta in casa e dove comprare il furikake in Italia."
 slug: /ingredienti/furikake
 image: /img/ingredienti/furikake.jpg
 ingredients:
@@ -59,3 +59,14 @@ Se visitate il Giappone, il furikake è il souvenir ideale. Costa poco, pesa poc
 <YouTubeVideo videoId="KjJZGZ25O_s" />
 
 <IngredientRecipeList ingredientTag="furikake" />
+
+## Domande frequenti sul furikake
+
+**Cos'è il furikake?**
+Il furikake è una granella secca giapponese usata per condire il riso bianco. È un mix bilanciato di alga nori, sesamo, sale, a volte zucchero e spesso katsuobushi (tonnetto essiccato), pesce o vegetali aromatici, che aggiunge umami e croccantezza al riso e ad altri piatti.
+
+**Dove comprare il furikake in Italia?**
+Il furikake si trova nei [negozi di alimentari asiatici](/negozi_orientali/) e nelle sezioni etniche dei supermercati più forniti. Esistono decine di varianti: la versione "nori sesamo" è la più diffusa e versatile per iniziare.
+
+**Differenza tra furikake e [kizami nori](/ingredienti/kizami_nori)?**
+Il kizami nori è semplicemente alga nori tagliata a striscioline. Il furikake è invece un condimento composto: contiene nori, ma anche sesamo, sale, zucchero e altri ingredienti macinati o essiccati. Il furikake è un condimento "completo", il kizami nori è una guarnizione mono-ingrediente.
