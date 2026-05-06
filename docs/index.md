@@ -1,7 +1,7 @@
 ---
-  title: Le ricette giapponesi di Jeko
+  title: "Ricette Giapponesi · 90+ ricette autentiche in italiano"
   sidebar_label: 🏠 Home
-  description: Benvenuti sul mio sito di ricette giapponesi!
+  description: "90+ ricette giapponesi autentiche in italiano, con foto e video: dal ramen al sushi, dai contorni alle salse. Spiegate passo passo da chi le ha imparate dai libri giapponesi."
   pagination_next: null
   pagination_prev: null
   hide_table_of_contents: true

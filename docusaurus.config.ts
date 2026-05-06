@@ -7,6 +7,9 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Le Ricette Giapponesi di Jeko',
   tagline: 'La Jekucina a casa tua!',
+  // Use a typographic middle dot in <title> tags ("Page · Site") instead of
+  // the default pipe — cleaner on the SERP and the browser tab.
+  titleDelimiter: '·',
   favicon: 'img/favicon.ico',
   trailingSlash: true,
   markdown: {
