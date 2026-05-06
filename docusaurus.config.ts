@@ -94,6 +94,17 @@ const config: Config = {
                 anonymizeIP: true,
               }
             : undefined,
+        // Sitemap: explicit config (preset-classic enables the plugin by
+        // default with priority 0.5 and no ignorePatterns). We pin priority
+        // to 0.7 to signal these pages as above-average importance, and skip
+        // the auto-generated /tags/** pages to free crawl budget — they
+        // showed up empty / "Crawled - currently not indexed" in GSC.
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.7,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
+        },
       } satisfies Preset.Options,
     ],
   ],
