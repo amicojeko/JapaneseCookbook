@@ -95,6 +95,46 @@ a.paypal-cta:hover,
   .paypal-content p { margin: 0 auto; }
 }
 
+.paypal-mini {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  margin: 3rem auto 1.25rem;
+  padding: 0.75rem 1rem;
+  font-family: var(--pg-font-sans);
+  font-size: 0.95rem;
+  color: var(--pg-ink);
+  background: var(--pg-paper-2);
+  border-top: 1px solid var(--pg-rule-soft);
+  border-bottom: 1px solid var(--pg-rule-soft);
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.paypal-mini-icon {
+  font-size: 1.25rem;
+  line-height: 1;
+}
+
+.paypal-mini-text {
+  line-height: 1.4;
+}
+
+.paypal-mini a,
+.markdown .paypal-mini a {
+  color: var(--pg-red);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.paypal-mini a:hover,
+.markdown .paypal-mini a:hover {
+  color: var(--pg-red-ink);
+  text-decoration: underline;
+}
+
 .social-container {
   display: flex;
   align-items: center;
