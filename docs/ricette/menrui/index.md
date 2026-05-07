@@ -1,6 +1,6 @@
 ---
 title: "🍜 Menrui - noodles"
-description: "Ricette di noodle giapponesi"
+description: "Noodles giapponesi: udon, soba, somen, ramen"
 slug: "/ricette/menrui"
 image: /img/ricette/yakisoba.jpg
 sidebar_custom_props:

@@ -1,6 +1,6 @@
 ---
 title: "🍲 Nimono - stufati"
-description: "Ricette di stufati giapponesi (nimono)"
+description: "Stufati e brasati a fuoco lento"
 slug: "/ricette/nimono"
 image: /img/ricette/nikujaga.jpg
 sidebar_custom_props:

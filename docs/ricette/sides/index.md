@@ -1,6 +1,6 @@
 ---
 title: "🥗 Contorni"
-description: "Ricette di contorni giapponesi"
+description: "Verdure, insalate e piccoli piatti di accompagnamento"
 slug: "/ricette/sides"
 image: /img/ricette/bieta-ohitashi.jpg
 sidebar_custom_props:

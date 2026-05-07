@@ -1,6 +1,6 @@
 ---
 title: "🍤 Agemono - fritti"
-description: "Ricette di fritture giapponesi (agemono)"
+description: "Fritti giapponesi: tempura, kara-age, korokke"
 slug: "/ricette/agemono"
 image: /img/ricette/karaage.jpg
 sidebar_custom_props:

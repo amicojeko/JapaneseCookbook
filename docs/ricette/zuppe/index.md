@@ -1,6 +1,6 @@
 ---
 title: "🍲 Zuppe"
-description: "Ricette di zuppe giapponesi"
+description: "Misoshiru, suimono e zuppe stagionali"
 slug: "/ricette/zuppe"
 image: /img/ricette/misoshiru.jpg
 sidebar_custom_props:

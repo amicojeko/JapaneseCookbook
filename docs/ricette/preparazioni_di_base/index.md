@@ -1,6 +1,6 @@
 ---
-title: "👨🏻‍🍳 Preparazioni di base della cucina giapponese"
-description: "Le preparazioni di base della cucina giapponese: dashi e brodi, salse (teriyaki, ponzu, tentsuyu, mentsuyu) e condimenti tradizionali."
+title: "👨🏻‍🍳 Preparazioni di base"
+description: "Brodi, salse, condimenti e tecniche di sushi: le preparazioni di base della cucina giapponese."
 slug: "/ricette/preparazioni_di_base"
 image: /img/ricette/dashi.jpg
 sidebar_custom_props:
