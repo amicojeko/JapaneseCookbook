@@ -17,15 +17,17 @@ const SITE_URL = 'https://paginegiappe.it';
 const WEBSITE_SCHEMA = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
-  name: 'Le Ricette Giapponesi di Jeko',
-  alternateName: 'Pagine Giappe',
+  name: 'Pagine Giappe',
+  alternateName: 'Le Ricette Giapponesi di Jeko',
   url: SITE_URL + '/',
   inLanguage: 'it-IT',
   potentialAction: {
     '@type': 'SearchAction',
+    // Trailing slash perche' il sito usa trailingSlash: true (senza slash
+    // Docusaurus ridireziona 301).
     target: {
       '@type': 'EntryPoint',
-      urlTemplate: SITE_URL + '/search?q={search_term_string}',
+      urlTemplate: SITE_URL + '/search/?q={search_term_string}',
     },
     'query-input': 'required name=search_term_string',
   },
