@@ -3,7 +3,7 @@ export const INGREDIENT_RECIPE_INDEX = {
     {
       "id": "ricette/agemono/enoki_tatsuta-age",
       "title": "Enoki Tatsuta-age",
-      "description": "Funghi enoki croccanti e saporiti, il contorno perfetto \"ladro di riso",
+      "description": "Funghi enoki croccanti e saporiti, il contorno perfetto \"ladro di riso\"",
       "permalink": "/ricette/enoki-tatsuta-age"
     },
     {
@@ -23,7 +23,7 @@ export const INGREDIENT_RECIPE_INDEX = {
     {
       "id": "ricette/agemono/enoki_tatsuta-age",
       "title": "Enoki Tatsuta-age",
-      "description": "Funghi enoki croccanti e saporiti, il contorno perfetto \"ladro di riso",
+      "description": "Funghi enoki croccanti e saporiti, il contorno perfetto \"ladro di riso\"",
       "permalink": "/ricette/enoki-tatsuta-age"
     },
     {
@@ -79,7 +79,7 @@ export const INGREDIENT_RECIPE_INDEX = {
     {
       "id": "ricette/agemono/enoki_tatsuta-age",
       "title": "Enoki Tatsuta-age",
-      "description": "Funghi enoki croccanti e saporiti, il contorno perfetto \"ladro di riso",
+      "description": "Funghi enoki croccanti e saporiti, il contorno perfetto \"ladro di riso\"",
       "permalink": "/ricette/enoki-tatsuta-age"
     },
     {
@@ -139,7 +139,7 @@ export const INGREDIENT_RECIPE_INDEX = {
     {
       "id": "ricette/zuppe/tonjiru",
       "title": "Tonjiru",
-      "description": "La zuppa giapponese più confortante, un \\\"reset dell'anima\\\" ricco di maiale e verdure di radice.",
+      "description": "La zuppa giapponese più confortante, un \"reset dell'anima\" ricco di maiale e verdure di radice.",
       "permalink": "/ricette/tonjiru"
     }
   ],
@@ -147,7 +147,7 @@ export const INGREDIENT_RECIPE_INDEX = {
     {
       "id": "ricette/agemono/enoki_tatsuta-age",
       "title": "Enoki Tatsuta-age",
-      "description": "Funghi enoki croccanti e saporiti, il contorno perfetto \"ladro di riso",
+      "description": "Funghi enoki croccanti e saporiti, il contorno perfetto \"ladro di riso\"",
       "permalink": "/ricette/enoki-tatsuta-age"
     },
     {
@@ -717,7 +717,7 @@ export const INGREDIENT_RECIPE_INDEX = {
     {
       "id": "ricette/zuppe/tonjiru",
       "title": "Tonjiru",
-      "description": "La zuppa giapponese più confortante, un \\\"reset dell'anima\\\" ricco di maiale e verdure di radice.",
+      "description": "La zuppa giapponese più confortante, un \"reset dell'anima\" ricco di maiale e verdure di radice.",
       "permalink": "/ricette/tonjiru"
     }
   ],
@@ -887,7 +887,7 @@ export const INGREDIENT_RECIPE_INDEX = {
     {
       "id": "ricette/zuppe/tonjiru",
       "title": "Tonjiru",
-      "description": "La zuppa giapponese più confortante, un \\\"reset dell'anima\\\" ricco di maiale e verdure di radice.",
+      "description": "La zuppa giapponese più confortante, un \"reset dell'anima\" ricco di maiale e verdure di radice.",
       "permalink": "/ricette/tonjiru"
     }
   ],
@@ -1347,7 +1347,7 @@ export const INGREDIENT_RECIPE_INDEX = {
     {
       "id": "ricette/zuppe/tonjiru",
       "title": "Tonjiru",
-      "description": "La zuppa giapponese più confortante, un \\\"reset dell'anima\\\" ricco di maiale e verdure di radice.",
+      "description": "La zuppa giapponese più confortante, un \"reset dell'anima\" ricco di maiale e verdure di radice.",
       "permalink": "/ricette/tonjiru"
     },
     {
@@ -1375,7 +1375,7 @@ export const INGREDIENT_RECIPE_INDEX = {
     {
       "id": "ricette/zuppe/tonjiru",
       "title": "Tonjiru",
-      "description": "La zuppa giapponese più confortante, un \\\"reset dell'anima\\\" ricco di maiale e verdure di radice.",
+      "description": "La zuppa giapponese più confortante, un \"reset dell'anima\" ricco di maiale e verdure di radice.",
       "permalink": "/ricette/tonjiru"
     }
   ]
