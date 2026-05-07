@@ -657,6 +657,17 @@ export const NEGOZI: Negozio[] = [
         map_url: "https://maps.app.goo.gl/91571G6YSmQFbtX28",
     },
     {
+        id: "marche-polverigi-nippo-sakaya",
+        name: "Nippo Sakaya",
+        url: "https://nipposakaya.com/",
+        region: "Marche",
+        city: "Polverigi",
+        address: "Via Minzoni, 5, 60020 Polverigi AN",
+        lat: 43.5247849,
+        lng: 13.3944109,
+        map_url: "https://maps.app.goo.gl/t21QE3q1vxEWXYt8A",
+    },
+    {
         id: "marche-porto-sant-elpidio-nuovo-cielo-market",
         name: "Nuovo Cielo Market 新天地商场",
         region: "Marche",
