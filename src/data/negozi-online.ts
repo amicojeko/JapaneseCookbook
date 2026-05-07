@@ -17,6 +17,13 @@ type OnlineShop = {
 
 const ONLINE_ONLY: OnlineShop[] = [
     { id: "sushitalia", name: "Sushitalia", url: "https://sushitalia.com" },
+    { id: "nipponia", name: "Nipponia", url: "https://nipponia.it/" },
+    {
+        id: "jfc",
+        name: "JFC",
+        url: "https://www.jfc.eu/it/products/",
+        category: "Distributore per professionisti",
+    },
     { id: "orientalitalia", name: "Oriental Italia", url: "https://www.orientalitalia.com" },
     { id: "fusioneat", name: "FusionEat", url: "https://www.fusioneat.it" },
     {
