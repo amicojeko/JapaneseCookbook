@@ -719,6 +719,7 @@ export const NEGOZI: Negozio[] = [
     {
         id: "piemonte-torino-kawaii-torino",
         name: "Kawaii.Torino",
+        url: "https://kawaiitorino.myshopify.com",
         region: "Piemonte",
         city: "Torino",
         address: "Via Madama Cristina, 11b, 10125 Torino TO",
