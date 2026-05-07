@@ -657,6 +657,16 @@ export const NEGOZI: Negozio[] = [
         map_url: "https://maps.app.goo.gl/91571G6YSmQFbtX28",
     },
     {
+        id: "marche-civitanova-marche-darunfa-supermercato-wenzhou-restaurant",
+        name: "大润发超市-温州餐馆",
+        region: "Marche",
+        city: "Civitanova Marche",
+        address: "Via Silvio Pellico, 18, 62012 Civitanova Marche MC",
+        lat: 43.2997393,
+        lng: 13.705522,
+        map_url: "https://maps.app.goo.gl/XWBp8yw9gXwd4JtU9",
+    },
+    {
         id: "marche-polverigi-nippo-sakaya",
         name: "Nippo Sakaya",
         url: "https://nipposakaya.com/",
