@@ -126,6 +126,14 @@ function categoryFromPath(filePath) {
   return CATEGORY_MAP[folder] ?? null;
 }
 
+/** Estrae tutti i videoId dai componenti `<YouTubeVideo videoId="..." />`. */
+function extractVideoIds(body) {
+  const ids = [];
+  const re = /<YouTubeVideo\s+videoId=["']([^"']+)["'][^>]*\/?>/g;
+  for (const m of body.matchAll(re)) ids.push(m[1]);
+  return ids;
+}
+
 function extractRecipe(filePath) {
   const raw = fs.readFileSync(filePath, 'utf-8');
   const {data: frontMatter, content: body} = matter(raw);
@@ -134,6 +142,7 @@ function extractRecipe(filePath) {
   if (frontMatter.draft === true) return null;
 
   const sections = parseSections(body);
+  const videoIds = extractVideoIds(body);
 
   // Prima sezione il cui titolo e' esattamente "Ingredienti" (case-insensitive).
   // Eventuali varianti tipo "Ingredienti per N persone" vanno rinominate nel
@@ -155,6 +164,7 @@ function extractRecipe(filePath) {
     recipeYield: typeof frontMatter.recipeYield === 'string' ? frontMatter.recipeYield : null,
     recipeIngredient,
     instructionsText,
+    videoIds,
   };
 }
 
@@ -170,7 +180,7 @@ function main() {
   for (const r of recipes) byId[r.docId] = r;
 
   // Output: file TS con const RECIPE_DATA.
-  const header = `// AUTO-GENERATED da scripts/generate-recipe-data.js — non editare a mano.\n// Estratto da docs/ricette/**/*.md. Rigenerato dal prebuild.\n\nexport interface RecipeData {\n  docId: string;\n  title: string;\n  description: string;\n  image: string | null;\n  recipeCategory: string | null;\n  recipeKeywords: string[];\n  recipeYield: string | null;\n  recipeIngredient: string[];\n  instructionsText: string;\n}\n\nexport const RECIPE_DATA: Record<string, RecipeData> = `;
+  const header = `// AUTO-GENERATED da scripts/generate-recipe-data.js — non editare a mano.\n// Estratto da docs/ricette/**/*.md. Rigenerato dal prebuild.\n\nexport interface RecipeData {\n  docId: string;\n  title: string;\n  description: string;\n  image: string | null;\n  recipeCategory: string | null;\n  recipeKeywords: string[];\n  recipeYield: string | null;\n  recipeIngredient: string[];\n  instructionsText: string;\n  videoIds: string[];\n}\n\nexport const RECIPE_DATA: Record<string, RecipeData> = `;
 
   const body = JSON.stringify(byId, null, 2);
 

@@ -26,6 +26,29 @@ function normalizePath(p: string): string {
   return p.replace(/\/+$/, '');
 }
 
+/**
+ * Costruisce un VideoObject schema.org riusando metadata della ricetta
+ * (name/description) e generando thumbnail YouTube + URL embed/content
+ * dal videoId. uploadDate non e' disponibile senza YouTube Data API,
+ * usiamo dateModified come fallback (Google lo accetta).
+ */
+function buildVideoObject(
+  videoId: string,
+  recipe: RecipeData,
+  uploadDate: string | undefined,
+): Record<string, unknown> {
+  const obj: Record<string, unknown> = {
+    '@type': 'VideoObject',
+    name: recipe.title,
+    description: recipe.description,
+    thumbnailUrl: [`https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`],
+    contentUrl: `https://www.youtube.com/watch?v=${videoId}`,
+    embedUrl: `https://www.youtube.com/embed/${videoId}`,
+  };
+  if (uploadDate) obj.uploadDate = uploadDate;
+  return obj;
+}
+
 function buildRecipeSchema(
   data: RecipeData,
   permalink: string,
@@ -59,6 +82,9 @@ function buildRecipeSchema(
     ];
   }
   if (dateModified) schema.dateModified = dateModified;
+  if (data.videoIds.length > 0) {
+    schema.video = data.videoIds.map((id) => buildVideoObject(id, data, dateModified));
+  }
   return schema;
 }
 
