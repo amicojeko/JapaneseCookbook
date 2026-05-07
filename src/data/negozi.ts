@@ -300,8 +300,8 @@ export const NEGOZI: Negozio[] = [
         region: "Lazio",
         city: "Roma",
         address: "Via Giovanni Volpato, 12, 00146 Roma RM",
-        lat: 41.8711018,
-        lng: 12.4676934,
+        lat: 41.8715778,
+        lng: 12.4671216,
         map_url: "https://maps.app.goo.gl/3oDEGMk2zMhMtwnUA",
     },
     {
