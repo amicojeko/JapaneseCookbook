@@ -13,6 +13,7 @@ import type {Props} from '@theme/DocTagDocListPage';
 import Unlisted from '@theme/ContentVisibility/Unlisted';
 import Heading from '@theme/Heading';
 import DocCardGrid from '@site/src/components/DocCardGrid';
+import ItemListStructuredData from '@site/src/components/ItemListStructuredData';
 import styles from './styles.module.css';
 
 // Very simple pluralization: probably good enough for now
@@ -79,6 +80,7 @@ function DocTagDocListPageContent({
                 </Translate>
               </Link>
             </header>
+            <ItemListStructuredData docs={tag.items as any} name={title} />
             <DocCardGrid docs={tag.items as any} />
           </main>
         </div>

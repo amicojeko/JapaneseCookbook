@@ -3,6 +3,7 @@ import {useCurrentSidebarCategory} from '@docusaurus/plugin-content-docs/client'
 import type {PropSidebarItem, PropSidebarItemLink, PropSidebarItemCategory} from '@docusaurus/plugin-content-docs';
 import type {DocCardDoc} from './DocCard';
 import DocCardGrid from './DocCardGrid';
+import ItemListStructuredData from './ItemListStructuredData';
 
 // Questa pagina non ha bisogno di titolo/descrizione perché il template del doc li renderizza già.
 export default function CategoryIndexPage(): React.ReactElement {
@@ -52,5 +53,10 @@ export default function CategoryIndexPage(): React.ReactElement {
       }));
   }, [category]);
 
-  return <DocCardGrid docs={docs} />;
+  return (
+    <>
+      <ItemListStructuredData docs={docs} name={category?.label} />
+      <DocCardGrid docs={docs} />
+    </>
+  );
 }
