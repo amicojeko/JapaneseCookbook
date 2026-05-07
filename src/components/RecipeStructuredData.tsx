@@ -81,6 +81,7 @@ function buildRecipeSchema(
       },
     ];
   }
+  if (data.datePublished) schema.datePublished = data.datePublished;
   if (dateModified) schema.dateModified = dateModified;
   if (data.videoIds.length > 0) {
     schema.video = data.videoIds.map((id) => buildVideoObject(id, data, dateModified));

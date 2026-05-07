@@ -13,6 +13,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const {execSync} = require('child_process');
 const matter = require('gray-matter');
 
 const ROOT = process.cwd();
@@ -134,6 +135,25 @@ function extractVideoIds(body) {
   return ids;
 }
 
+/**
+ * Data del primo commit del file (proxy per "datePublished" dello schema).
+ * Usa --diff-filter=A --follow per beccare il commit di creazione anche
+ * dopo rinomine. Ritorna ISO 8601 string o null se non in git.
+ */
+function firstCommitDate(absFile) {
+  try {
+    const out = execSync(
+      `git log --diff-filter=A --follow --format='%aI' -- ${JSON.stringify(absFile)}`,
+      {encoding: 'utf-8', stdio: ['pipe', 'pipe', 'ignore']},
+    ).trim();
+    if (!out) return null;
+    const lines = out.split('\n').filter(Boolean);
+    return lines[lines.length - 1] || null;
+  } catch {
+    return null;
+  }
+}
+
 function extractRecipe(filePath) {
   const raw = fs.readFileSync(filePath, 'utf-8');
   const {data: frontMatter, content: body} = matter(raw);
@@ -143,6 +163,7 @@ function extractRecipe(filePath) {
 
   const sections = parseSections(body);
   const videoIds = extractVideoIds(body);
+  const datePublished = firstCommitDate(filePath);
 
   // Prima sezione il cui titolo e' esattamente "Ingredienti" (case-insensitive).
   // Eventuali varianti tipo "Ingredienti per N persone" vanno rinominate nel
@@ -165,6 +186,7 @@ function extractRecipe(filePath) {
     recipeIngredient,
     instructionsText,
     videoIds,
+    datePublished,
   };
 }
 
@@ -180,7 +202,7 @@ function main() {
   for (const r of recipes) byId[r.docId] = r;
 
   // Output: file TS con const RECIPE_DATA.
-  const header = `// AUTO-GENERATED da scripts/generate-recipe-data.js — non editare a mano.\n// Estratto da docs/ricette/**/*.md. Rigenerato dal prebuild.\n\nexport interface RecipeData {\n  docId: string;\n  title: string;\n  description: string;\n  image: string | null;\n  recipeCategory: string | null;\n  recipeKeywords: string[];\n  recipeYield: string | null;\n  recipeIngredient: string[];\n  instructionsText: string;\n  videoIds: string[];\n}\n\nexport const RECIPE_DATA: Record<string, RecipeData> = `;
+  const header = `// AUTO-GENERATED da scripts/generate-recipe-data.js — non editare a mano.\n// Estratto da docs/ricette/**/*.md. Rigenerato dal prebuild.\n\nexport interface RecipeData {\n  docId: string;\n  title: string;\n  description: string;\n  image: string | null;\n  recipeCategory: string | null;\n  recipeKeywords: string[];\n  recipeYield: string | null;\n  recipeIngredient: string[];\n  instructionsText: string;\n  videoIds: string[];\n  datePublished: string | null;\n}\n\nexport const RECIPE_DATA: Record<string, RecipeData> = `;
 
   const body = JSON.stringify(byId, null, 2);
 
