@@ -1,10 +1,9 @@
 import React from 'react';
-import clsx from 'clsx';
 import {useDocById, useLayoutDoc} from '@docusaurus/plugin-content-docs/client';
 import DocCard from './DocCard';
-import gridStyles from './DocCardGrid.module.css';
+import DocCardGrid from './DocCardGrid';
 
-interface FeaturedDocProps {
+interface DocByIdCardProps {
   id: string;
 }
 
@@ -16,7 +15,7 @@ interface FeaturedDocProps {
  * per MVP: se passi un id sbagliato il build fallisce subito con il nome
  * del doc mancante.
  */
-function FeaturedDoc({id}: FeaturedDocProps): React.ReactElement | null {
+function DocByIdCard({id}: DocByIdCardProps): React.ReactElement | null {
   const doc = useDocById(id);
   const layoutDoc = useLayoutDoc(id);
   if (!doc || !layoutDoc) return null;
@@ -47,16 +46,18 @@ interface DocsByIdGridProps {
  * della pagina linkata — niente duplicazione di copy nel file della home.
  *
  * Per cambiare cosa appare nella home basta modificare la lista di id.
+ *
+ * Riusa DocCardGrid come wrapper per non duplicare markup/stili del grid.
  */
 export default function DocsByIdGrid({
   ids,
   className,
 }: DocsByIdGridProps): React.ReactElement {
   return (
-    <section className={clsx(gridStyles.docsGrid, className)}>
+    <DocCardGrid className={className}>
       {ids.map((id) => (
-        <FeaturedDoc key={id} id={id} />
+        <DocByIdCard key={id} id={id} />
       ))}
-    </section>
+    </DocCardGrid>
   );
 }
