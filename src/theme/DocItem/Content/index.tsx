@@ -12,6 +12,7 @@ import Heading from '@theme/Heading';
 import MDXContent from '@theme/MDXContent';
 import type {Props} from '@theme/DocItem/Content';
 import RecipeStructuredData from '@site/src/components/RecipeStructuredData';
+import FAQStructuredData from '@site/src/components/FAQStructuredData';
 
 function useSyntheticTitle(): string | null {
   const {metadata, frontMatter, contentTitle} = useDoc();
@@ -28,6 +29,7 @@ export default function DocItemContent({children}: Props): ReactNode {
   return (
     <div className={clsx(ThemeClassNames.docs.docMarkdown, 'markdown')}>
       <RecipeStructuredData />
+      <FAQStructuredData />
       {syntheticTitle && (
         <header>
           <Heading as="h1">{syntheticTitle}</Heading>
