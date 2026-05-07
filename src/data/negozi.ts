@@ -757,16 +757,6 @@ export const NEGOZI: Negozio[] = [
         map_url: "https://maps.app.goo.gl/iAFr3QvwYQpzVjiXA",
     },
     {
-        id: "piemonte-torino-kokoroya",
-        name: "Kokoroya",
-        region: "Piemonte",
-        city: "Torino",
-        address: "Via Piave, 9/A, 10122 Torino TO",
-        lat: 45.0759337,
-        lng: 7.675792,
-        map_url: "https://maps.app.goo.gl/h1G9WeVJSPytLrkY7",
-    },
-    {
         id: "sardegna-cagliari-il-suq-international-food-shop",
         name: "Il Suq International Food Shop",
         region: "Sardegna",
