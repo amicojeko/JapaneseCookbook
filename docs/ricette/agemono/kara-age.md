@@ -39,7 +39,7 @@ tags:
 - Shichimi togarashi
 - oppure una fettina di limone da spremere sopra
 
-## Preprarazione
+## Preparazione
 
 Tagliare il pollo in cubetti di circa 4 centimetri di lato, l'importante è che siano tutti più o meno delle stesse dimensioni, così che si cuociano uniformemente, meglio pezzi un po' piu cicciottelli che restano piu' umidi e danno piu' gusto.
 
