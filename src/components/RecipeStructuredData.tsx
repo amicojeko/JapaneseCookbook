@@ -49,7 +49,12 @@ function buildRecipeSchema(
   if (data.recipeIngredient.length > 0) schema.recipeIngredient = data.recipeIngredient;
   if (data.instructionsText) {
     schema.recipeInstructions = [
-      {'@type': 'HowToStep', text: data.instructionsText},
+      {
+        '@type': 'HowToStep',
+        name: 'Preparazione',
+        text: data.instructionsText,
+        url: absoluteUrl(siteUrl, withTrailingSlash(permalink)) + '#preparazione',
+      },
     ];
   }
   if (dateModified) schema.dateModified = dateModified;
@@ -58,21 +63,14 @@ function buildRecipeSchema(
 
 /**
  * Inietta lo schema JSON-LD `Recipe` nelle pagine ricetta sotto /ricette/.
- * PoC della Fase A4: attivo solo su 2 ricette campione (`dashi` e `kara-age`).
- * Quando il Rich Results Test sarà verde, rimuovo il filtro per generalizzare.
+ * Attivo su tutte le pagine il cui docId e' presente in RECIPE_DATA
+ * (popolato dal prebuild script per ogni file md sotto docs/ricette/
+ * che ha sezioni "Ingredienti" o "Preparazione" parsabili).
  */
-const POC_PATHS = new Set([
-  '/ricette/dashi',
-  '/ricette/kara-age',
-]);
-
 export default function RecipeStructuredData(): React.ReactElement | null {
   const {siteConfig} = useDocusaurusContext();
   const {metadata} = useDoc();
   const siteUrl = siteConfig.url || FALLBACK_SITE_URL;
-
-  // Filtro PoC — togliere dopo OK Rich Results Test
-  if (!POC_PATHS.has(normalizePath(metadata.permalink))) return null;
 
   const data = RECIPE_DATA[metadata.id];
   if (!data) return null;
