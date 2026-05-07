@@ -5,5 +5,6 @@ sidebar_custom_props:
 description: Le meravigliose pallette di polpo giapponesi
 slug: /ricette/takoyaki
 image: /img/ricette/takoyaki.webp
+draft: true
 ---
 <ImageComponent />

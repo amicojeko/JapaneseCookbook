@@ -129,6 +129,10 @@ function categoryFromPath(filePath) {
 function extractRecipe(filePath) {
   const raw = fs.readFileSync(filePath, 'utf-8');
   const {data: frontMatter, content: body} = matter(raw);
+
+  // Skip draft: true (Docusaurus stesso esclude la pagina dal build)
+  if (frontMatter.draft === true) return null;
+
   const sections = parseSections(body);
 
   // Prima sezione il cui titolo corrisponde a "Ingredienti" (case-insensitive)
@@ -153,7 +157,10 @@ function extractRecipe(filePath) {
 
 function main() {
   const files = walk(RICETTE_DIR);
-  const recipes = files.map(extractRecipe).filter((r) => r.recipeIngredient.length > 0 || r.instructionsText.length > 0);
+  const recipes = files
+    .map(extractRecipe)
+    .filter((r) => r !== null)
+    .filter((r) => r.recipeIngredient.length > 0 || r.instructionsText.length > 0);
 
   // Indicizza per docId
   const byId = Object.create(null);
