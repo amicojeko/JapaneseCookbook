@@ -1016,7 +1016,6 @@ export const NEGOZI: Negozio[] = [
         lat: 42.7708694,
         lng: 11.1125077,
         url: "https://coltelleriafedolfi.it/",
-        note: "Coltelleria, centro affilatura, incisioni su coltelli",
         map_url: "https://maps.app.goo.gl/apqV1CXgEA13Nkvy9",
     },
     {
