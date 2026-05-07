@@ -6,30 +6,30 @@ description: Budino di uova cotto al vapore
 slug: /ricette/chawanmushi
 image: /img/ricette/chawanmushi.jpg
 ingredients:
-- dashi
-- mirin
-- sake
-- sale
-- salsa di soia
-- uovo
-- ginnan
-- edamame
-- shiitake
-- gamberi
-- prezzemolo
-- cipolline
+  - dashi
+  - mirin
+  - sake
+  - sale
+  - salsa di soia
+  - uovo
+  - ginnan
+  - edamame
+  - shiitake
+  - gamberi
+  - prezzemolo
+  - cipolline
 tags:
-- ginnan
-- mirin
-- sake
-- shiitake
+  - ginnan
+  - mirin
+  - sake
+  - shiitake
+recipeYield: 4 persone
 ---
 Il Chawanmushi (茶碗蒸し) è un budino di uova salato cotto al vapore, tipico della cucina giapponese. La parola "chawan" significa "ciotola" e "mushi" significa "cotto al vapore". È un piatto delicato e saporito, spesso servito come antipasto o contorno in un pasto giapponese.
 
 <ImageComponent />
 
-## Ingredienti per 4 persone
-
+## Ingredienti
 - 120 ml di uovo, io uso 3 rossi e bianchi q.b. per arrivare a 120 ml
 - 360 ml di [dashi](/ricette/dashi) (rapporto di 3:1 con le uova)
 - 30 ml di salsa di soia (meglio se chiara)

@@ -20,7 +20,7 @@ Per la glassatura di miso, miso bianco o rosso (o mix) 2 cucchiai grandi, 2 cucc
 
 Meglio usare le melanzane lunghe e strette piuttosto che quelle tonde
 
-## Preprarazione
+## Preparazione
 
 Metti subito a scaldare il grill del forno
 

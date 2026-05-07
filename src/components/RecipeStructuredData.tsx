@@ -46,6 +46,7 @@ function buildRecipeSchema(
   const imageUrl = absoluteUrl(siteUrl, data.image);
   if (imageUrl) schema.image = [imageUrl];
   if (data.recipeCategory) schema.recipeCategory = data.recipeCategory;
+  if (data.recipeYield) schema.recipeYield = data.recipeYield;
   if (data.recipeIngredient.length > 0) schema.recipeIngredient = data.recipeIngredient;
   if (data.instructionsText) {
     schema.recipeInstructions = [

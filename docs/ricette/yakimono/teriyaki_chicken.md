@@ -3,18 +3,18 @@ title: Pollo Teriyaki
 description: Il segreto per un pollo succoso e perfettamente caramellato
 slug: /ricette/pollo_teriyaki
 ingredients:
-- sovracosce di pollo
-- mirin
-- sake
-- salsa di soia
-- riso bianco
+  - sovracosce di pollo
+  - mirin
+  - sake
+  - salsa di soia
+  - riso bianco
+recipeYield: 1 persona
 ---
 Il Pollo Teriyaki è forse uno dei piatti giapponesi più conosciuti al mondo, ma spesso viene interpretato male con salse troppo dense o cotture aggressive. La parola "Teriyaki" descrive una tecnica di cottura specifica: *teri* significa "lucentezza" (data dallo zucchero del mirin) e *yaki* significa "grigliato". Prepararlo in casa è sorprendentemente semplice se si segue il metodo tradizionale, che punta tutto sulla pazienza e sull'equilibrio dei sapori. Il risultato è un pollo dalla pelle croccante e dorata, con una carne incredibilmente tenera e una glassa profumata che avvolge ogni morso.
 
 ![Pollo Teriyaki](/img/ricette/pollo_teriyaki.jpg)
 
-## Ingredienti per 1 persona
-
+## Ingredienti
 - 1 sovracoscia di pollo (preferibilmente con la pelle)
 - 3 cucchiai di [Mirin](/ingredienti/mirin)
 - 3 cucchiai di [Sake](/ingredienti/sake)

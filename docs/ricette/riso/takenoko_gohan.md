@@ -2,25 +2,28 @@
 title: Takenoko Gohan
 sidebar_custom_props:
   subtitle: Riso con germogli di bambù
-description: "Un classico primaverile: riso condito (Takikomi Gohan) cotto con germogli di bambù, aburaage e brodo dashi."
+description: >-
+  Un classico primaverile: riso condito (Takikomi Gohan) cotto con germogli di
+  bambù, aburaage e brodo dashi.
 slug: /ricette/takenoko_gohan
 image: /img/ricette/takenoko_gohan.jpg
 ingredients:
-- Riso
-- Germogli di bambù
-- Aburaage
-- Dashi
-- Shoyu
-- Mirin
-- Kinome
+  - Riso
+  - Germogli di bambù
+  - Aburaage
+  - Dashi
+  - Shoyu
+  - Mirin
+  - Kinome
 tags:
-- mirin
-- rice
-- shoyu
+  - mirin
+  - rice
+  - shoyu
+recipeYield: 2 persone
 ---
 <ImageComponent />
 
-## Ingredienti (per 2 persone / 2 "go" di riso)
+## Ingredienti
 - 2 misurini di [Riso](/ingredienti/rice) (circa 300g)
 - 120-150g di Germogli di bambù già bolliti
 - 1 foglio piccolo di Aburaage (tofu fritto sottile)

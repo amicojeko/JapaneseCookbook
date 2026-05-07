@@ -6,16 +6,17 @@ description: Zuppa di miso
 slug: /ricette/zuppa_di_miso
 image: /img/ricette/misoshiru.jpg
 ingredients:
-- Negi o porro
-- Verdure a piacere
-- Tofu
-- Wakame
-- Dashi
-- Miso
+  - Negi o porro
+  - Verdure a piacere
+  - Tofu
+  - Wakame
+  - Dashi
+  - Miso
 tags:
-- miso
-- negi
-- wakame
+  - miso
+  - negi
+  - wakame
+recipeYield: 1 porzione
 ---
 La zuppa di miso (味噌汁, misoshiru) è una delle zuppe più iconiche della cucina giapponese. È un piatto semplice e nutriente, a base di [dashi](/ricette/dashi) e miso.
 
@@ -23,8 +24,7 @@ Questa è una versione base, ma il bello della zuppa di miso è proprio questo: 
 
 <ImageComponent />
 
-## Ingredienti (a porzione)
-
+## Ingredienti
 - 1 tazza di [dashi](/ricette/dashi)
 - 1 cucchiaio di miso
 - 1 cucchiaino di wakame essiccato

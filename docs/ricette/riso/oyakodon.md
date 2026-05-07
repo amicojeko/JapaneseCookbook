@@ -6,26 +6,26 @@ description: L'Oyakodon e' la carbonara giapponese
 slug: /ricette/oyakodon
 image: /img/ricette/oyakodon.jpg
 ingredients:
-- cipolla bianca
-- cipolline o negi o prezzemolo
-- cosce di pollo
-- dashi
-- mirin
-- olio di semi di arachide
-- riso bianco
-- sake
-- salsa di soia
-- uova grandi
+  - cipolla bianca
+  - cipolline o negi o prezzemolo
+  - cosce di pollo
+  - dashi
+  - mirin
+  - olio di semi di arachide
+  - riso bianco
+  - sake
+  - salsa di soia
+  - uova grandi
 tags:
-- mirin
-- negi
-- rice
-- sake
+  - mirin
+  - negi
+  - rice
+  - sake
+recipeYield: 1 persona
 ---
 <ImageComponent />
 
-## Ingredienti per 1 persona
-
+## Ingredienti
 - riso bianco
 - 2 uova grandi
 - 60 ml [dashi](/ricette/dashi)

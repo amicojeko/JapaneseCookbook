@@ -135,12 +135,14 @@ function extractRecipe(filePath) {
 
   const sections = parseSections(body);
 
-  // Prima sezione il cui titolo corrisponde a "Ingredienti" (case-insensitive)
+  // Prima sezione il cui titolo e' esattamente "Ingredienti" (case-insensitive).
+  // Eventuali varianti tipo "Ingredienti per N persone" vanno rinominate nel
+  // body e il yield va spostato nel frontmatter `recipeYield`.
   const ingrSection = sections.find((s) => /^ingredienti$/i.test(s.title));
   const recipeIngredient = ingrSection ? parseList(ingrSection.content) : [];
 
-  // Prima sezione il cui titolo corrisponde a Prep[*]azione (tollera typo)
-  const prepSection = sections.find((s) => /^prep[a-z]*azion[ei]$/i.test(s.title));
+  // Prima sezione il cui titolo e' esattamente "Preparazione".
+  const prepSection = sections.find((s) => /^preparazione$/i.test(s.title));
   const instructionsText = prepSection ? cleanInstructions(prepSection.content) : '';
 
   return {
@@ -150,6 +152,7 @@ function extractRecipe(filePath) {
     image: frontMatter.image ?? null,
     recipeCategory: categoryFromPath(filePath),
     recipeKeywords: Array.isArray(frontMatter.tags) ? frontMatter.tags : [],
+    recipeYield: typeof frontMatter.recipeYield === 'string' ? frontMatter.recipeYield : null,
     recipeIngredient,
     instructionsText,
   };
@@ -167,7 +170,7 @@ function main() {
   for (const r of recipes) byId[r.docId] = r;
 
   // Output: file TS con const RECIPE_DATA.
-  const header = `// AUTO-GENERATED da scripts/generate-recipe-data.js — non editare a mano.\n// Estratto da docs/ricette/**/*.md. Rigenerato dal prebuild.\n\nexport interface RecipeData {\n  docId: string;\n  title: string;\n  description: string;\n  image: string | null;\n  recipeCategory: string | null;\n  recipeKeywords: string[];\n  recipeIngredient: string[];\n  instructionsText: string;\n}\n\nexport const RECIPE_DATA: Record<string, RecipeData> = `;
+  const header = `// AUTO-GENERATED da scripts/generate-recipe-data.js — non editare a mano.\n// Estratto da docs/ricette/**/*.md. Rigenerato dal prebuild.\n\nexport interface RecipeData {\n  docId: string;\n  title: string;\n  description: string;\n  image: string | null;\n  recipeCategory: string | null;\n  recipeKeywords: string[];\n  recipeYield: string | null;\n  recipeIngredient: string[];\n  instructionsText: string;\n}\n\nexport const RECIPE_DATA: Record<string, RecipeData> = `;
 
   const body = JSON.stringify(byId, null, 2);
 

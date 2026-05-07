@@ -2,25 +2,28 @@
 title: Natto Soba
 sidebar_custom_props:
   subtitle: Soba freddi con natto
-description: Spaghetti di grano saraceno freddi con natto, cipolline, alga nori e altre delizie
+description: >-
+  Spaghetti di grano saraceno freddi con natto, cipolline, alga nori e altre
+  delizie
 slug: /ricette/natto_soba
 image: /img/ricette/natto_soba.jpg
 ingredients:
-- Cipolline verdi o negi
-- Kizami nori
-- natto
-- katsuobushi
-- soba
-- uovo
+  - Cipolline verdi o negi
+  - Kizami nori
+  - natto
+  - katsuobushi
+  - soba
+  - uovo
 tags:
-- katsuobushi
-- kizami_nori
-- natto
-- negi
-- nori
-- soba
+  - katsuobushi
+  - kizami_nori
+  - natto
+  - negi
+  - nori
+  - soba
+recipeYield: 2 persone
 ---
-## Ingredienti per 2 persone
+## Ingredienti
 - 200g di [soba](/ingredienti/soba)
 - Cipolline verdi o [negi](/ingredienti/negi)
 - 1 confezione di [natto](/ingredienti/natto)

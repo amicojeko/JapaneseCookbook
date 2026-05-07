@@ -8,6 +8,7 @@ export interface RecipeData {
   image: string | null;
   recipeCategory: string | null;
   recipeKeywords: string[];
+  recipeYield: string | null;
   recipeIngredient: string[];
   instructionsText: string;
 }
@@ -25,6 +26,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "sesamo",
       "potato_starch"
     ],
+    "recipeYield": null,
     "recipeIngredient": [
       "1 confezione di funghi enoki",
       "2 cucchiai di salsa di soia o salsa yakiniku",
@@ -49,6 +51,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "kewpie",
       "sake"
     ],
+    "recipeYield": null,
     "recipeIngredient": [
       "Coscia e sottocoscia di pollo disossata, con la pelle",
       "1 cucchiaio di salsa di soia",
@@ -73,7 +76,15 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "sake",
       "shiitake"
     ],
-    "recipeIngredient": [],
+    "recipeYield": "4 persone",
+    "recipeIngredient": [
+      "120 ml di uovo, io uso 3 rossi e bianchi q.b. per arrivare a 120 ml",
+      "360 ml di dashi (rapporto di 3:1 con le uova)",
+      "30 ml di salsa di soia (meglio se chiara)",
+      "20 ml di mirin",
+      "20 ml di sake (opzionale)",
+      "un pizzico di sale"
+    ],
     "instructionsText": "Unire in una ciotola le uova, con il dashi, il mirin, la salsa di soia (se si vuole, il sake) e il sale. Mescolare bene con luna frusta, cercando di non incorporare aria. Setacciare il composto con un colino a maglie strette in un'altra ciotola, e versare il composto nelle ciotoline di ceramica. Mettere nelle ciotoline uno o due gamberi, un paio di ginnan, e un fungo shiitake fatto a fettine. Versare il composto nelle ciotoline, e coprire con un foglio di alluminio. Mettere le ciotoline nella pentola per il vapore, e cuocere a circa 90 gradi per 10 minuti. La cosa piu' semplice per mantenere la temperatura é mettere una bacchetta tra il coperchio e la pentola, per tenere il coperchio socchiuso. Tenere la fiamma appena sufficiente a far sobbollire l'acqua. A questo punto si possono aggiungere altre decorazioni, come l'edamame, o un gambero o delle capesante fatte a fettine, e cuocere per altri 2 minuti. Altrimenti, si puo' cuocere per 12-13 minuti senza aggiungere nulla. Spegnere il fuoco, e lasciare riposare per 7-8 minuti. A questo punto aggiungere un po' di prezzemolo o cipolline, e servire caldo. Alternativamente, si puo' mettere in frigorifero e gustare freddo, con del buon vino bianco o del sake."
   },
   "ricette/antipasti/hiyashi_nasu": {
@@ -85,6 +96,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "recipeKeywords": [
       "katsuobushi"
     ],
+    "recipeYield": null,
     "recipeIngredient": [
       "1 o 2 Melanzane piccole e sode",
       "Cipolline verdi",
@@ -103,6 +115,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "katsuobushi",
       "negi"
     ],
+    "recipeYield": null,
     "recipeIngredient": [
       "1 panetto di tofu morbido (meglio se silken tofu)",
       "2-3 cucchiai di salsa ponzu",
@@ -122,6 +135,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "kewpie",
       "teriyaki"
     ],
+    "recipeYield": null,
     "recipeIngredient": [
       "Fogli di carta di riso rotondi",
       "Alette di pollo (o avanzi di pollo arrosto/sfilacciato)",
@@ -143,6 +157,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "sesamo",
       "wakame"
     ],
+    "recipeYield": null,
     "recipeIngredient": [
       "1 Cetriolo (se lo trovate, è molto meglio quello giapponese: stretto, lungo e sbruzzoloso)",
       "Alghe Wakame essiccate",
@@ -166,6 +181,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "sesame_oil",
       "sesamo"
     ],
+    "recipeYield": null,
     "recipeIngredient": [
       "Un quarto abbondante di Cavolo cappuccio",
       "1 cucchiaio di Olio di sesamo",
@@ -185,6 +201,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "negi",
       "shoyu"
     ],
+    "recipeYield": null,
     "recipeIngredient": [
       "Moscardini (Iidako)",
       "Negi (cipollotti lunghi o porri giapponesi)",
@@ -202,6 +219,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "recipeKeywords": [
       "sake"
     ],
+    "recipeYield": null,
     "recipeIngredient": [
       "Salmone",
       "Sale",
@@ -223,6 +241,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "udon",
       "daikon"
     ],
+    "recipeYield": null,
     "recipeIngredient": [
       "Udon confezionati (quelli freschi vanno benissimo, ma anche quelli secchi andranno bene)",
       "Un pezzo di 5cm di Daikon",
@@ -247,6 +266,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "sake",
       "shiso"
     ],
+    "recipeYield": null,
     "recipeIngredient": [],
     "instructionsText": "Sbollentare la sovraccoscia di pollo in acqua bollente per un minuto, quindi scolarla e gettare l'acqua. Questo passaggio serve a pulire il pollo e a garantire un brodo più limpido. In una pentola, unire l'alga kombu, il pollo sbollentato, l'acqua, il sakè, la salsa di soia, il mirin e lo zucchero. Portare a leggero bollore. Cuocere a fuoco basso per 25 minuti, schiumando di tanto in tanto le impurità che affiorano in superficie. A metà cottura, dopo circa 12 minuti, girare il pollo. Al termine della cottura, togliere il pollo e l'alga kombu dalla pentola. Lasciare raffreddare il pollo e il brodo separatamente, poi trasferire il brodo in frigorifero per farlo diventare ben freddo. Preparare i condimenti: tagliare il pollo cotto a fettine sottili e condirlo con un pizzico di sale. Tritare finemente il myoga e le foglie di shiso. Cuocere i somen seguendo le istruzioni sulla confezione. Scolarli e passarli immediatamente in una ciotola con acqua fredda e ghiaccio per bloccare la cottura e renderli più sodi. Scolarli di nuovo molto bene. Prendere il brodo freddo dal frigorifero, aggiungere l'aceto e mescolare. Mettere i somen in una ciotola, versarvi sopra il brodo freddo e guarnire con il trito di myoga e shiso, le fettine di pollo e i germogli di ravanello."
   },
@@ -264,7 +284,15 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "nori",
       "soba"
     ],
-    "recipeIngredient": [],
+    "recipeYield": "2 persone",
+    "recipeIngredient": [
+      "200g di soba",
+      "Cipolline verdi o negi",
+      "1 confezione di natto",
+      "katsuobushi",
+      "Kizami nori",
+      "1 uovo fresco che si possa mangiare crudo (opzionale)"
+    ],
     "instructionsText": "Bolli i soba in abbondante acqua (io non metto sale), sciacquali sotto l'acqua fredda, trasferiscili in una ciotola con acqua e ghiaccio per raffreddarli, scolali e asciugali bene, e mettili in una ciotola facendo una fossetta al centro, dove metterai il rosso dell'uovo. Aggiungi ai lati il natto, le cipolline tagliate sottili, il katsuobushi, il kizami nori, e il rosso dell'uovo al centro. Opzionale, come in foto, puoi aggiungere un paio di foglie di shiso fresco per guarnire. Mischia il mentsuyu e il dashi, per ottenere lo tsuyu, che verserai al lato della ciotola, per fare un fondo di circa 1 cm di altezza. E ora non ti resta che mangiare! Itadakimasu!"
   },
   "ricette/menrui/tori_dashi_no_nyumen": {
@@ -274,7 +302,18 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "image": "/img/ricette/tori-dashi-nyumen.jpg",
     "recipeCategory": "Noodles",
     "recipeKeywords": [],
-    "recipeIngredient": [],
+    "recipeYield": "2 persone",
+    "recipeIngredient": [
+      "Ossa di pollo (circa 300-400g, come ali o carcasse)",
+      "3 litri d'acqua (divisi in due fasi)",
+      "Un pezzetto di zenzero fresco",
+      "Uno scarto di porro (parte verde o cuore)",
+      "30-40 ml di salsa di soia (shoyu)",
+      "1 cucchiaio di zucchero (opzionale)",
+      "Sale q.b.",
+      "2 porzioni di Somen",
+      "Cipollotto (negi) per guarnire"
+    ],
     "instructionsText": "Il segreto di questo piatto risiede nella pulizia accurata della materia prima. Iniziamo mettendo le ossa di pollo, preferibilmente spezzate per rilasciare più sapore, in una pentola con un litro e mezzo d'acqua. Portiamo a bollore e lasciamo cuocere per pochi minuti finché non affiorano tutte le impurità in superficie; a questo punto gettiamo l'acqua e sciacquiamo bene le ossa sotto acqua corrente. Rimettiamo le ossa pulite nella pentola con il restante litro e mezzo d'acqua fresca, aggiungendo lo zenzero, lo scarto del porro, la salsa di soia, un pizzico di sale e lo zucchero. Copriamo e lasciamo sobbollire a fiamma bassa per circa un'ora, filtrando poi il brodo ottenuto con un colino a maglie fini per renderlo limpido. Mentre il brodo riposa, cuociamo i somen in acqua bollente per circa 3 minuti. Una volta pronti, è fondamentale scolarli e sciacquarli immediatamente sotto acqua corrente fredda, strofinandoli per rimuovere l'amido, e concludere con un breve bagno in acqua e ghiaccio per fermare la cottura. Per servire, disponiamo i somen in una ciotola, versiamo il brodo di pollo bollente e completiamo con il cipollotto tritato finemente."
   },
   "ricette/menrui/tororo_natto_shiso_udon": {
@@ -291,6 +330,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "negi",
       "shoyu"
     ],
+    "recipeYield": null,
     "recipeIngredient": [
       "Udon precotti",
       "1 confezione di Natto",
@@ -313,6 +353,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "kizami_nori",
       "nori"
     ],
+    "recipeYield": null,
     "recipeIngredient": [
       "1 confezione di Udon precotti",
       "Una noce di Burro",
@@ -334,6 +375,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "katsuobushi",
       "beni_shoga"
     ],
+    "recipeYield": null,
     "recipeIngredient": [
       "Udon precotti",
       "80g di fettine di maiale (preferibilmente una parte grassa; i vegetariani possono sostituirlo con dei funghi shiitake)",
@@ -360,6 +402,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "katsuobushi",
       "shiitake"
     ],
+    "recipeYield": null,
     "recipeIngredient": [
       "Pasta precotta a temperatura ambiente (ramen noodles o altra pasta)",
       "Salsa yakisoba circa 3-4 cucchiai",
@@ -384,7 +427,10 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "kizami_nori",
       "nori"
     ],
-    "recipeIngredient": [],
+    "recipeYield": "2 persone",
+    "recipeIngredient": [
+      "200g di spaghetti di grano saraceno"
+    ],
     "instructionsText": "Bollire gli spaghetti in abbondante acqua senza sale per la durata suggerita sulla confezione. Scolarli conservando una tazza dell'acqua di cottura (sobayu). Usare un colino e sciacquarli sotto acqua corrente fredda con le mani per eliminare l'amido in eccesso. Trasferirli in una ciotola con acqua e ghiaccio per raffreddarli per circa 30 secondi, poi scolarli bene e metterli da parte."
   },
   "ricette/nimono/daikon_no_nimono": {
@@ -401,6 +447,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "vegan",
       "vegetarian"
     ],
+    "recipeYield": null,
     "recipeIngredient": [],
     "instructionsText": "Per iniziare, prendete un grosso daikon e privatelo delle estremità. Anche se la buccia può sembrare sottile, lo strato esterno è in realtà piuttosto coriaceo, quindi è fondamentale rimuoverlo interamente utilizzando la tecnica del katsuramuki, effettuando un taglio rotatorio con il coltello. Una volta pelato, tagliate il tubero in fette spesse circa 3-4 cm. Per evitare che le fette si sfaldino durante la lunga cottura, rifilate accuratamente gli spigoli di ogni disco seguendo la tecnica del mentori. Per favorire la penetrazione del calore e degli aromi, incidete una croce profonda un paio di centimetri su una delle basi di ogni fetta di daikon. Passate quindi alla fase di pre-cottura: mettete il daikon in una pentola e copritelo con l'acqua recuperata dal lavaggio del riso. Coprite con un otoshibuta e fate bollire per circa un'ora; l'amido contenuto nell'acqua del riso aiuterà a rimuovere l'amaro naturale della radice, rendendola dolcissima. Verificate la cottura con uno stuzzicandente: quando penetra la polpa senza resistenza, scolate il daikon e lavatelo delicatamente sotto acqua corrente. Rimettetelo sul fuoco coprendolo con acqua fresca, portate a bollore e sciacquatelo nuovamente. Questa doppia pulizia assicura un sapore pulito e delicato. Per la cottura finale, disponete le fette in una pentola e ricopritele interamente con del dashi. Aggiungete un cucchiaio di mirin e un paio di cucchiai di salsa di soia (shoyu). Posizionate nuovamente l'otoshibuta e lasciate sobbollire a fuoco dolce per circa mezz'ora. Al termine, spegnete la fiamma e lasciate riposare il daikon nel suo brodo fino a quando non si sarà raffreddato; questo passaggio è fondamentale affinché la radice assorba tutto l'umami del liquido. Mentre il daikon riposa, preparate il guarnimento affettando molto finemente della scorza di limone, avendo cura di prelevare solo la parte gialla. Potete servire il piatto sia freddo che caldo, accompagnandolo con il suo brodo di cottura e completando con le striscioline di limone. Se eseguito correttamente, il daikon risulterà così tenero da poter essere tagliato facilmente con le bacchette."
   },
@@ -415,6 +462,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "mirin",
       "sake"
     ],
+    "recipeYield": null,
     "recipeIngredient": [
       "Zucca (varietà Kabocha o Mantovana)",
       "Dashi (o Dashi Vegano) q.b.",
@@ -438,6 +486,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "negi",
       "sake"
     ],
+    "recipeYield": null,
     "recipeIngredient": [
       "1 kg di pancetta di maiale",
       "1 Cipolla verde o un negi",
@@ -449,7 +498,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "1 pezzo di alga kombu",
       "4 uova"
     ],
-    "instructionsText": ""
+    "instructionsText": "Prima di tutto una premessa: questo è il metodo \"veloce\" per la preparazione del buta kaku-ni. Secondo il metodo tradizionale, spiegato ottimamente da Shizuo Tsuji nel suo libro \"Japanese Cooking: A Simple Art\" (praticamente la bibbia della cucina giapponese), ci vogliono due giorni per preparare il kakuni. Giuro che un giorno ci proverò, ma per ora mi accontento di questa versione. Tagliare la pancetta in pezzi di 5 cm di lato, e rosolare i cubi in una padella antiederente, 2 minuti per lato (12 minuti in totale). Asciugarli con un panno o dei fazzoletti di carta per eliminare il grasso in eccesso. Mettere i cubi di pancetta rosolata in una pentola a pressione, con il lato della pelle rivolto verso il basso. Aggiungere acqua tiepida ed un bicchiere di sake, fino a coprire la pancetta. Aggiungere la parte verde della cipolla e lo zenzero tagliato a fette. Chiudere la pentola a pressione e cuocere per mezz'ora. Scolare la pancetta e metterla da parte. Filtrare il brodo di cottura, facendolo freddare per poi togliere il grasso. Cuocere le uova in acqua bollente per 6 minuti e 30 secondi (prendendole dal frigo così partono sempre dalla stessa temperatura), in modo che restino liquide al centro, raffreddarle in acqua ghiacciata e sbucciarle. Sbollentare il bok choi in acqua bollente per 1 minuto, o saltarlo in padella con aglio e zenzero, e metterlo da parte. In una casseruola, mettere il brodo, la salsa di soia, il mirin, lo zucchero e il sake. Aggiungere la pancetta e il daikon tagliato a fette, e cuocere a fuoco basso facendo sobbollire per per 30 minuti. Negli ultimi 10 minuti aggiungere le uova e togliere il coperchio in modo che si ritiri un po' la salsa. Servire il kakuni con il bok choy e il daikon, e un po' di salsa. Guarnire a piacere con senape karashi, shichimi togarashi, e la parte bianca della cipolla verde tagliata a julienne e immersa in acqua fredda per arricciarla."
   },
   "ricette/nimono/nikujaga": {
     "docId": "ricette/nimono/nikujaga",
@@ -460,7 +509,18 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "recipeKeywords": [
       "mirin"
     ],
-    "recipeIngredient": [],
+    "recipeYield": "4 persone",
+    "recipeIngredient": [
+      "300g di manzo (taglio sottile o straccetti)",
+      "2 patate grandi",
+      "1 carota grande",
+      "1 cipolla grande",
+      "Olio di semi q.b.",
+      "Dashi q.b. (circa 400-500ml, per coprire)",
+      "Mirin 3 cucchiai",
+      "Salsa di soia (Shoyu) 3 cucchiai",
+      "Taccole (opzionali, per guarnizione)"
+    ],
     "instructionsText": "La preparazione inizia con il taglio delle verdure, che in questo piatto deve essere piuttosto rustico ma curato. Tagliamo la carota e la cipolla a pezzettoni grossolani. La carne di manzo deve essere tagliata a straccetti o fettine sottili, ideali per una cottura in umido veloce che la mantenga morbida. Passiamo alle patate: dopo averle tagliate a pezzi grandi, è fondamentale eseguire il mentori. Con un pelapatate, rifiliamo tutti gli spigoli vivi di ogni pezzo di patata, smussandoli. Questa tecnica serve a evitare che la patata si sfaldi e si rompa durante la cottura nel liquido, mantenendo il brodo limpido e i pezzi integri. Per la cottura, l'ordine di inserimento degli ingredienti è importante. Scaldiamo un filo di olio di semi in una pentola capiente (o un tegame di ghisa) e inseriamo prima le patate, poi le cipolle. Rosoliamo le verdure insieme per qualche minuto per insaporirle. Solo a questo punto aggiungiamo la carne. Non cerchiamo una rosolatura aggressiva della carne, ma vogliamo cuocerla dolcemente affinché si sfaldi e diventi tenerissima in cottura. Una volta che la carne ha cambiato colore, uniamo le carote e copriamo tutto a filo con il dashi. Alziamo la fiamma al massimo e portiamo a bollore. Appena il liquido bolle, utilizziamo un colino a maglia fine per \"schiumare\" il brodo, rimuovendo tutte le impurità che affiorano in superficie. A questo punto condiamo aggiungendo un giro di mirin e di salsa di soia. Abbassiamo la fiamma al minimo e copriamo con un otoshibuta. Lasciamo cuocere dolcemente per circa 15 minuti. Trascorso questo tempo, spegniamo il fuoco e lasciamo riposare: è in questa fase che i sapori si amalgamano e le verdure assorbono il condimento. Mentre il Nikujaga riposa, possiamo sbollentare brevemente delle taccole in acqua salata: useremo il loro verde brillante come guarnizione decorativa per dare un tocco di colore al piatto finito."
   },
   "ricette/preparazioni_di_base/brodi/dashi": {
@@ -473,6 +533,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "katsuobushi",
       "kombu"
     ],
+    "recipeYield": null,
     "recipeIngredient": [
       "1.8 litri di acqua fredda",
       "30 grammi di alga kombu",
@@ -492,6 +553,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "mirin",
       "sake"
     ],
+    "recipeYield": null,
     "recipeIngredient": [
       "½ tazza di sake",
       "1 tazza abbondante di mirin (dice 1 ⅛ che dovrebbe essere 1 + 2 cucchiai)",
@@ -513,7 +575,12 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "kombu",
       "shiitake"
     ],
-    "recipeIngredient": [],
+    "recipeYield": "circa 2 litri",
+    "recipeIngredient": [
+      "2 litri di Acqua",
+      "20-30g di Alga Kombu",
+      "5 Funghi Shiitake disidratati (secchi)"
+    ],
     "instructionsText": "La preparazione richiede tempo e pazienza per estrarre al meglio i sapori in modo delicato (infusione a freddo)."
   },
   "ricette/preparazioni_di_base/condimenti/furikake": {
@@ -528,6 +595,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "nori",
       "sesamo"
     ],
+    "recipeYield": null,
     "recipeIngredient": [
       "Katsuobushi",
       "Alga Kombu (anche recuperati dal dashi)",
@@ -546,6 +614,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "mirin",
       "sake"
     ],
+    "recipeYield": null,
     "recipeIngredient": [
       "1 tazza e 1/2 di salsa di soia",
       "1 tazza di mirin",
@@ -563,6 +632,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "recipeKeywords": [
       "rice"
     ],
+    "recipeYield": null,
     "recipeIngredient": [
       "3 cucchiai di ketchup",
       "2 cucchiai di salsa Worcestershire",
@@ -584,6 +654,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "rice",
       "yuzu"
     ],
+    "recipeYield": null,
     "recipeIngredient": [
       "2 parti di salsa di soia",
       "1 parte e ½ di dashi",
@@ -600,6 +671,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "image": null,
     "recipeCategory": "Salse",
     "recipeKeywords": [],
+    "recipeYield": null,
     "recipeIngredient": [
       "3 cucchiai di salsa worcestershire",
       "1 cucchiaio di mentsuyu",
@@ -618,6 +690,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "daikon",
       "mirin"
     ],
+    "recipeYield": null,
     "recipeIngredient": [
       "3 parti dashi",
       "1 parte mirin",
@@ -637,6 +710,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "potato_starch",
       "sake"
     ],
+    "recipeYield": null,
     "recipeIngredient": [
       "1 parte di sake",
       "1 parte di mirin",
@@ -653,6 +727,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "image": null,
     "recipeCategory": "Salse",
     "recipeKeywords": [],
+    "recipeYield": null,
     "recipeIngredient": [
       "4 cucchiai di ketchup (preferibilmente uno dal sapore poco zuccherino)",
       "4 cucchiai di salsa Worcestershire (in Giappone si usa una salsa simile, più fruttata, ma la Worcestershire classica è un’ottima alternativa)",
@@ -670,6 +745,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "image": null,
     "recipeCategory": "Salse",
     "recipeKeywords": [],
+    "recipeYield": null,
     "recipeIngredient": [
       "2 cucchiai di Zucchero",
       "2 cucchiai di Ketchup",
@@ -689,6 +765,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "mirin",
       "sake"
     ],
+    "recipeYield": null,
     "recipeIngredient": [
       "1 tazza di salsa di soia",
       "1  tazza di mirin",
@@ -707,6 +784,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "image": null,
     "recipeCategory": "Sushi",
     "recipeKeywords": [],
+    "recipeYield": null,
     "recipeIngredient": [],
     "instructionsText": "Sciogliere completamente lo zucchero e il sale nell'aceto, aggiungere l'alga e lasciare riposare per 24 ore in frigorifero. Dopo 24 ore, filtrare e imbottigliare, ed e' pronto per l'uso."
   },
@@ -722,7 +800,18 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "rice",
       "sake"
     ],
-    "recipeIngredient": [],
+    "recipeYield": "2 persone",
+    "recipeIngredient": [
+      "riso bianco",
+      "300 g di manzo, io uso il cappello del prete tagliato a macchina, e' meglio usare un taglio molto grasso",
+      "1/2 cipolla gialla",
+      "1 cipollina verde",
+      "Beni shoga per guarnire",
+      "150 ml di dashi",
+      "3-4 cucchiai di salsa di soia",
+      "2 cucchiai di mirin",
+      "2 cucchiai di sake"
+    ],
     "instructionsText": "Taglia la cipolla a fettine sottili per il lungo, e la cipollina verde a rondelle sottili. In una padella mmetti il dashi, la salsa di soia, il mirin e il sake e le cipolle, fai cuocere a fuoco medio fino a che le cipolle non si ammorbidiscono. Usa un coperchio per non far evaporare il brodo. Dopo 2-3 minuti aggiungi la carne e fai cuocere finche' la carne non e' piu' rosa. Quando la carne e' cotta, spegni il fuoco e aggiungi la cipollina verde. Versa il tutto sopra il riso caldo e guarnisci con beni shoga."
   },
   "ricette/riso/hamburger_don": {
@@ -734,7 +823,15 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "recipeKeywords": [
       "rice"
     ],
-    "recipeIngredient": [],
+    "recipeYield": "1 persona",
+    "recipeIngredient": [
+      "Una ciotola di Riso caldo",
+      "150g di Carne macinata a piacere (manzo, maiale o mista)",
+      "1 Uovo",
+      "1/2 Cipolla",
+      "Sale e pepe q.b.",
+      "1 cucchiaio di Olio di semi"
+    ],
     "instructionsText": "Tritare finemente la cipolla. Scaldare l'olio di semi in una padella a fuoco medio. Aggiungere la cipolla e soffriggere finché non appassisce. Aggiungere la carne macinata mista, condire con sale e pepe. Continuare a cuocere, premendo la carne per rosolarla e sgranarla, finché non è ben cotta. Aggiungere il ketchup e la salsa Worcestershire e saltare per 1-2 minuti finché il liquido in eccesso non evapora. Creare tre incavi nel composto di carne. Rompere un uovo in ciascun incavo. Abbassare la fiamma e cuocere per circa 5 minuti, o finché le uova non raggiungono la cottura desiderata. Mettere il riso caldo nelle ciotole individuali e adagiarvi sopra il composto di carne e uova."
   },
   "ricette/riso/nira_shio_kombu_onigiri": {
@@ -751,6 +848,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "katsuobushi",
       "nori"
     ],
+    "recipeYield": null,
     "recipeIngredient": [
       "Riso bianco (ben caldo)",
       "Nira (erba aglina)",
@@ -773,7 +871,15 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "nori",
       "rice"
     ],
-    "recipeIngredient": [],
+    "recipeYield": "2 onigiri",
+    "recipeIngredient": [
+      "1 tazza di Riso per sushi",
+      "1 tazza e un cicinino di più di acqua",
+      "120g di Tonno sott'olio (o al naturale)",
+      "3-4 cucchiai di Maionese (meglio la Kewpie)",
+      "Sale fino",
+      "2 Fogli di Alga Nori"
+    ],
     "instructionsText": "Sciacqua il riso sotto acqua fredda fino a che l'acqua non risulta limpida. Cuoci il riso con la quantità di acqua indicata, utilizzando una pentola con coperchio o una cuociriso. Una volta cotto, lascia riposare coperto per 10 minuti. Mentre il riso cuoce, prepariamo il ripieno. Scola il tonno molto accuratamente. In una ciotola, mescola il tonno con la maionese fino a ottenere un composto omogeneo e cremoso, ma non eccessivamente liquido. Puoi aggiungere un pizzico di pepe nero o meglio ancora di shichimi togarashi). Tieni una piccola ciotola d'acqua con un pizzico di sale. Bagna le mani con l'acqua salata: questo aiuterà a non far attaccare il riso e a condire l'esterno dell'onigiri. Prendi una porzione di riso cotto, grande piu o meno come una palla da tennis, e appiattiscila nel palmo della mano, creando una conca al centro. Metti un cucchiaio abbondante di ripieno di tonno e maionese nella conca. Copri il ripieno con il riso circostante e sigillalo completamente, poi modella il tutto con entrambe le mani nella classica forma triangolare, premendo delicatamente per compattare. Taglia i fogli di alga nori a strisce (circa 3-4 cm di larghezza). Avvolgi una striscia alla base dell'onigiri, lasciando le estremità rivolte verso l'esterno, per creare un pratico punto in cui afferrare lo snack senza toccare il riso."
   },
   "ricette/riso/onigiri_kimchi_asiago": {
@@ -786,6 +892,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "rice",
       "nori"
     ],
+    "recipeYield": null,
     "recipeIngredient": [
       "Riso bianco cotto al vapore (deve essere bello fumante)",
       "Kimchi",
@@ -807,7 +914,19 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "rice",
       "sake"
     ],
-    "recipeIngredient": [],
+    "recipeYield": "1 persona",
+    "recipeIngredient": [
+      "riso bianco",
+      "2 uova grandi",
+      "60 ml dashi",
+      "30 ml di salsa di soia",
+      "60 ml di mirin",
+      "mezza cipolla bianca",
+      "2 cosce di pollo o quantita' equivalente del taglio che preferite",
+      "cipolline o negi o prezzemolo (meglio quello giapponese) per decorare",
+      "2 cucchiai di sake",
+      "olio di semi di arachide"
+    ],
     "instructionsText": "L'Oyakodon va fatto su una padellina monoporzione, perche' poi lo fai scivolare tutto direttamente sulla ciotola di riso (caldo) Taglia la cipolla a fettine secondo la lunghezza della cipolla, il pollo a cubetti, e le cipolline a rondelle o losanghe. Rompi le uova in una ciotolina, e mescolale delicatamente (senza sbatterle) con le bacchette. Marina il pollo nel sake per 20 minuti. Asciuga bene il pollo e fallo rosolare a fuoco basso girandolo una sola volta quando si e' dorato. Quando e' dorato da entrambi i lati, toglierlo dalla padellina e metterlo da parte. Versa il dashi, il mirin e la salsa di soia nel pentolino, accendi il fuoco, aggiungi le cipolle e fai sobollire a fuoco medio-basso per 4 minuti. A questo punto abbassa la fiamma, e aggiungi il pollo. Fai sobollire per altri 2 minuti, fin quando il pollo non e' completamente cotto e il brodo non si e' ristretto un po'. Alza il fuoco a medio, versa delicatamente 2/3 dell'uovo cercando di coprire tutto. Mischia il resto dell'uovo alle cipolline e mettilo da parte. Fai andare 30-40 secondi a fuoco medio, poi abbassa la fiamma e cuoci un altro minuto, il brodo non si deve essere asciugato. Mischia molto delicatamente, e versa il restante uovo con le cipolline. A questo punto, spegni pure la fiamma e fai cuocere con il calore residuo per un altro minuto. La ricetta originale (come piace a me) prevede che l'uovo resti mezzo crudo e bello bavoso. Trasferisci il contenuto del pentolino direttamente sul riso facendocelo scivolare sopra. Servire caldo."
   },
   "ricette/riso/soborodon": {
@@ -825,8 +944,40 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "pollo",
       "uova"
     ],
-    "recipeIngredient": [],
+    "recipeYield": "2 persone",
+    "recipeIngredient": [
+      "Riso bianco cotto al vapore q.b.",
+      "2 uova",
+      "200g di carne macinata di pollo",
+      "1 cucchiaio di Mirin",
+      "1 cucchiaio di Sake",
+      "2 cucchiai di Salsa di soia (Shoyu)",
+      "Zenzero fresco (una piccola noce)",
+      "Piselli sbollentati (per guarnire)",
+      "Beni Shoga (zenzero rosso marinato) q.b.",
+      "Olio di semi q.b."
+    ],
     "instructionsText": "Iniziamo occupandoci delle uova, che andranno a formare la prima metà del nostro colorato mosaico. Rompiamo le uova in una ciotola, sbattiamole leggermente con le bacchette e versiamole in una padella scaldata con un filo d'olio. Dobbiamo strapazzarle in modo continuo e veloce, cercando di creare dei grumi piccoli e soffici, senza seccarle troppo. Una volta pronte, trasferiamole su un piatto e teniamole da parte. Nella stessa padella (non serve lavarla), inseriamo la carne macinata di pollo cruda. Aggiungiamo subito i condimenti: il mirin, il sake, la salsa di soia e lo zenzero fresco grattugiato. Accendiamo il fuoco e iniziamo a cuocere sgranando la carne in continuazione con una spatola di legno. Questo passaggio è fondamentale: la carne deve cuocersi sminuzzandosi il più possibile, assorbendo tutti i liquidi della marinatura. Continuiamo la cottura fino a quando il sughetto sul fondo non si sarà quasi completamente asciugato, lasciando il macinato saporito e ben sgranato. Ora arriva il momento più divertente: l'assemblaggio. Prepariamo una ciotola capiente creando una base soffice di riso bianco. Disponiamo le uova strapazzate su una metà della ciotola e il macinato di pollo sull'altra metà. Per separare queste due \"tifoserie\", creiamo una coreografica linea di demarcazione centrale utilizzando i piselli sbollentati. Infine, per dare un tocco di acidità che pulisce il palato e un accento di colore rosso vivo, adagiamo al centro un ciuffetto di beni shoga. Il vostro Soboro Don è pronto per essere ammirato e, soprattutto, divorato!"
+  },
+  "ricette/riso/takenoko_gohan": {
+    "docId": "ricette/riso/takenoko_gohan",
+    "title": "Takenoko Gohan",
+    "description": "Un classico primaverile: riso condito (Takikomi Gohan) cotto con germogli di bambù, aburaage e brodo dashi.",
+    "image": "/img/ricette/takenoko_gohan.jpg",
+    "recipeCategory": "Riso",
+    "recipeKeywords": [
+      "mirin",
+      "rice",
+      "shoyu"
+    ],
+    "recipeYield": "2 persone",
+    "recipeIngredient": [
+      "2 misurini di Riso (circa 300g)",
+      "120-150g di Germogli di bambù già bolliti",
+      "1 foglio piccolo di Aburaage (tofu fritto sottile)",
+      "Qualche foglia di Kinome (germogli di pepe sansho) per guarnire (opzionale)"
+    ],
+    "instructionsText": ""
   },
   "ricette/riso/takenoko_to_aburaage_takikomi_gohan": {
     "docId": "ricette/riso/takenoko_to_aburaage_takikomi_gohan",
@@ -841,6 +992,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "sake",
       "negi"
     ],
+    "recipeYield": null,
     "recipeIngredient": [
       "1 misurino di Riso bianco varietà originario",
       "Tofu fritto (Aburaage)",
@@ -865,7 +1017,17 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "rice",
       "shiitake"
     ],
-    "recipeIngredient": [],
+    "recipeYield": "1 persona",
+    "recipeIngredient": [
+      "1 tazza di riso",
+      "1 cucchiaio di salsa di soia",
+      "1 cucchiaio di mirin",
+      "1 tazza di dashi",
+      "1 pizzico di sale (un cucchiaino piccolo? Da misurare)",
+      "3-4 shiitake",
+      "Mezza carota a julienne",
+      "pollo/tonno in scatola/varie ed eventuali"
+    ],
     "instructionsText": "Quando lavi il riso poi lascialo a bagno una mezz’ora e poi un quarto d’ora ad asciugare: assorbira’ meglio il condimento Metti gli shiitake a mollo nel dashi tiepido, dopo mezz’ora filtra il tutto, otterrai lo shiitake dashi. Nella risiera metti il riso, il sale (non te lo scordare, molto poco ma ci vuole) la soia e il mirin, lo shiitake dashi (deve essere della stessa quantita’ in volume del riso) e mischia bene, fai depositare il riso e poi sopra metti, a strati, gli ingredienti, dal più duro al piu’ morbido. Accendi la risiera e non toccare, gira solo quando ha finito, e vedrai che ti mangi."
   },
   "ricette/sides/bieta_gialla_ohitashi": {
@@ -875,6 +1037,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "image": "/img/ricette/bieta-ohitashi.jpg",
     "recipeCategory": "Contorni",
     "recipeKeywords": [],
+    "recipeYield": null,
     "recipeIngredient": [
       "1 mazzo di bieta gialla (facilmente reperibile anche in Italia)",
       "120 ml di Dashi (anche in versione vegana)",
@@ -895,6 +1058,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "sides",
       "katsuobushi"
     ],
+    "recipeYield": null,
     "recipeIngredient": [
       "1 testa di broccoli",
       "1 cucchiaio di olio di sesamo (facoltativo ma consigliato)",
@@ -915,6 +1079,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "mirin",
       "shoyu"
     ],
+    "recipeYield": null,
     "recipeIngredient": [
       "2 mazzi di Spinaci",
       "1 cucchiaino colmo di Sale (per la bollitura)"
@@ -931,6 +1096,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "sesamo",
       "shiso"
     ],
+    "recipeYield": null,
     "recipeIngredient": [
       "2 Melanzane grandi (circa 300g)",
       "5 foglie di Shiso",
@@ -950,6 +1116,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "rice",
       "sake"
     ],
+    "recipeYield": null,
     "recipeIngredient": [
       "1 confezione di Funghi Enoki",
       "2 cucchiai di Salsa di Soia",
@@ -971,6 +1138,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "vegetarian",
       "vegan"
     ],
+    "recipeYield": null,
     "recipeIngredient": [],
     "instructionsText": "Metti subito a scaldare il grill del forno Tagliare la melanzana in 2, e inciderla a losanga (profondità’ 4-5 mm) per farla cuocere più’ uniformemente Mettere le melanzane in una padella con poco olio (arachide o girasole) caldo, dal lato della pelle, e farle cuocere senza coperchio per 2-3 minuti, girarle e farle cuocere dall’altro lato per altri 2-3 minuti. Se sono molto spesse mettere il coperchio. Mettere le melanzane in una teglia e spennellarle con la glassatura di miso, finire la cottura in forno con il grill al massimo, per 5 minuti o finche non sono dorate Vacci piano col miso che senno’ ti vengono salate Guarnire con negi (o cipolline)"
   },
@@ -986,6 +1154,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "mirin",
       "shiso"
     ],
+    "recipeYield": null,
     "recipeIngredient": [],
     "instructionsText": "Preparare il brodo di marinatura mescolando in una caraffa l'acqua, la salsa di soia, il mirin, lo zucchero, il dashi in polvere e lo zenzero grattugiato. Lavare e asciugare molto bene le melanzane. Rimuovere il picciolo e tagliarle a metà per il lungo. Con un coltello, incidere la superficie della buccia con tagli diagonali poco profondi, per favorire la cottura e l'assorbimento del sapore. Disporre le melanzane in una padella capiente. Spennellarle uniformemente su tutta la superficie (prima la buccia, poi la polpa) con i due cucchiai di olio. Cuocere a fuoco medio con la buccia rivolta verso il basso per circa 2-3 minuti. Girare le melanzane, abbassare la fiamma al minimo, coprire con un coperchio e cuocere lentamente finché la polpa non sarà tenera e ben dorata. Versare il brodo preparato direttamente nella padella sopra le melanzane. Alzare la fiamma a fuoco medio e portare a ebollizione. Appena il liquido bolle, spegnere immediatamente il fuoco. Trasferire con delicatezza le melanzane e tutto il loro brodo in un contenitore per alimenti. Lasciare raffreddare completamente a temperatura ambiente, dopodiché coprire e riporre in frigorifero a insaporire per almeno 3 ore. Servire le melanzane fredde, irrorandole con il loro brodo di marinatura e guarnendo a piacere con foglie di shiso tritate o katsuobushi."
   },
@@ -1002,6 +1171,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "mirin",
       "rice"
     ],
+    "recipeYield": null,
     "recipeIngredient": [
       "Patate a pasta gialla 1 kg",
       "Maionese Kewpie 250 ml circa (regolabili a piacere)",
@@ -1032,6 +1202,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "sake",
       "sesamo"
     ],
+    "recipeYield": null,
     "recipeIngredient": [
       "1 Melanzana",
       "Fecola di patate",
@@ -1057,6 +1228,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "rice",
       "sake"
     ],
+    "recipeYield": null,
     "recipeIngredient": [
       "450g daikon",
       "1 peperoncino rosso secco",
@@ -1080,6 +1252,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "sesamo",
       "shoyu"
     ],
+    "recipeYield": null,
     "recipeIngredient": [
       "500g di Daikon",
       "Sale (circa 2 cucchiai abbondanti per la spurgatura)",
@@ -1098,6 +1271,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "image": null,
     "recipeCategory": "Marinati",
     "recipeKeywords": [],
+    "recipeYield": null,
     "recipeIngredient": [
       "250g zenzero fresco",
       "1 cucchiaino di sale fino"
@@ -1113,6 +1287,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "recipeKeywords": [
       "senape_karashi"
     ],
+    "recipeYield": null,
     "recipeIngredient": [
       "1 Cetriolo",
       "Sale q.b.",
@@ -1132,6 +1307,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "miso",
       "sake"
     ],
+    "recipeYield": null,
     "recipeIngredient": [
       "150g miso chiaro",
       "25ml di sake",
@@ -1149,6 +1325,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "recipeKeywords": [
       "rice"
     ],
+    "recipeYield": null,
     "recipeIngredient": [
       "1 tazza di spicchi di aglio",
       "3/4 tazza di zucchero (a me sembra troppa)",
@@ -1170,6 +1347,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "sesamo",
       "shiitake"
     ],
+    "recipeYield": null,
     "recipeIngredient": [
       "250g di carne di maiale macinata, preferite un taglio grasso come il collo.",
       "500g di cavolo cinese",
@@ -1196,6 +1374,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "vegan",
       "nori"
     ],
+    "recipeYield": null,
     "recipeIngredient": [
       "Kirimochi (panetti di riso glutinoso essiccati)",
       "Salsa di soia (Shoyu)",
@@ -1214,6 +1393,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "potato_starch",
       "sake"
     ],
+    "recipeYield": null,
     "recipeIngredient": [
       "4 fettine di arista di maiale, sottili ma non troppo, meno di 1 cm",
       "fecola di patate per infarinare leggermente le fettine"
@@ -1227,7 +1407,14 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "image": null,
     "recipeCategory": "Griglia",
     "recipeKeywords": [],
-    "recipeIngredient": [],
+    "recipeYield": "1 persona",
+    "recipeIngredient": [
+      "1 sovracoscia di pollo (preferibilmente con la pelle)",
+      "3 cucchiai di Mirin",
+      "3 cucchiai di Sake",
+      "3 cucchiai di Salsa di soia (Shoyu)",
+      "Riso bianco al vapore come accompagnamento"
+    ],
     "instructionsText": "La chiave per un ottimo pollo teriyaki risiede nella gestione del calore e del grasso. Iniziamo disponendo la sovracoscia in un pentolino o una padella antiaderente ancora fredda, posizionandola con il lato della pelle verso il basso. Accendiamo il fuoco e lo regoliamo al minimo: il segreto è la lentezza. Lasciamo che il pollo rosoli dolcemente per circa 7-8 minuti; questo permetterà al grasso sottocutaneo di sciogliersi lentamente, rendendo la pelle croccante e sottile. Una volta che la pelle è ben dorata, giriamo il pollo e procediamo con la cottura dell'altro lato. Durante questa fase, è fondamentale utilizzare della carta assorbente per tamponare ed eliminare tutto il grasso in eccesso rilasciato dal pollo nella padella. Questo passaggio è cruciale per evitare che la salsa finale risulti untuosa. Continuiamo la cottura per altri 3-4 minuti fino a quando entrambi i lati saranno ben rosolati, quindi togliamo temporaneamente il pollo dalla padella e lasciamolo riposare. Prepariamo ora la salsa teriyaki nella stessa padella. Versiamo il mirin e il sake, alziamo leggermente la fiamma per far evaporare l'alcol e poi aggiungiamo la salsa di soia. Quando l'intruglio inizia a sobbollire, lasciamolo restringere per circa un minuto. Reintroduciamo il pollo nella padella e iniziamo a glassarlo con cura, girandolo più volte per farlo caramellare uniformemente su tutti i lati. Vogliamo che la salsa diventi splendente e affascinante, avvolgendo il pollo come una lacca. Infine, affettiamo il pollo a striscioline, come farebbe un vero chef di Hokuto, e disponiamolo coreograficamente su un letto di riso bianco al vapore. Non dimentichiamo di versare sopra tutta la salsa rimasta nella padella: sarebbe un delitto sprecarla."
   },
   "ricette/zuppe/misoshiru": {
@@ -1241,7 +1428,15 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "negi",
       "wakame"
     ],
-    "recipeIngredient": [],
+    "recipeYield": "1 porzione",
+    "recipeIngredient": [
+      "1 tazza di dashi",
+      "1 cucchiaio di miso",
+      "1 cucchiaino di wakame essiccato",
+      "tofu",
+      "negi o porro",
+      "altre aggiunte a piacere (opzionale)"
+    ],
     "instructionsText": "Portate il dashi a sfiorare il bollore. Se state preparando una zuppa di miso con verdure, funghi o altri ingredienti, aggiungeteli adesso e portateli a cottura prima del miso. Quando tutto è cotto, spegnete il fuoco e sciogliete il miso nel dashi aiutandovi con un setaccio o con un mestolino. Si può fare anche senza setaccio, ma in questo modo la zuppa resta più liscia e uniforme. Aggiungete il wakame, il tofu e il negi o il porro, poi servite subito."
   },
   "ricette/zuppe/osuimono": {
@@ -1256,6 +1451,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "sesame_oil",
       "sesamo"
     ],
+    "recipeYield": null,
     "recipeIngredient": [
       "Un pezzo di Daikon",
       "1 Carota piccola",
@@ -1276,6 +1472,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "potato_starch",
       "shiitake"
     ],
+    "recipeYield": null,
     "recipeIngredient": [
       "Mezzo panetto di Tofu",
       "1 Uovo",
@@ -1290,6 +1487,39 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     ],
     "instructionsText": "Preparare il brodo di cottura mescolando in una ciotola il dashi, la salsa di soia, il mirin e lo zucchero. Tagliare le verdure: affettare le carote a julienne, tagliare le cipolline a tocchetti grossolani e affettare i funghi shiitake dopo aver rimosso il gambo. Tagliare il tofu a cubetti non troppo piccoli. Versare il brodo preparato in un pentolino e aggiungere subito i cubetti di tofu, facendo attenzione a non romperli. Coprire e scaldare a fuoco medio per circa 10 minuti, finché non inizia a bollire. Togliere delicatamente il tofu cotto dal pentolino e metterlo da parte in un piatto fondo. Versare tutte le verdure tagliate (carote, funghi e cipolline) nello stesso brodo di cottura, coprire e cuocere per circa 5 minuti. Nel frattempo, sbattere leggermente un uovo in una ciotolina. In un'altra piccola ciotola, sciogliere la fecola di patate con un paio di cucchiai d'acqua fredda. Trascorsi i 5 minuti, versare la fecola sciolta nel pentolino con le verdure e mescolare per addensare leggermente il brodo. Creare un vortice nel brodo e versare a filo l'uovo sbattuto per creare l'effetto \"stracciatella\". Versare le verdure e il brodo sopra il tofu messo da parte nel piatto. La ricetta è pronta, e daje!"
   },
+  "ricette/zuppe/tonjiru": {
+    "docId": "ricette/zuppe/tonjiru",
+    "title": "Tonjiru",
+    "description": "La zuppa giapponese più confortante, un \"reset dell'anima\" ricco di maiale e verdure di radice.",
+    "image": "/img/ricette/tonjiru.jpg",
+    "recipeCategory": "Zuppe",
+    "recipeKeywords": [
+      "daikon",
+      "konnyaku",
+      "miso",
+      "sesame_oil",
+      "sesamo"
+    ],
+    "recipeYield": "4 persone",
+    "recipeIngredient": [
+      "250g di Pancetta di maiale (tagliata sottile)",
+      "250g di Daikon",
+      "1 Carota",
+      "300g di Patate (una patata media)",
+      "In alternativa o insieme alla patata, 250g di Gobo",
+      "3 pezzi di Taro (Satoimo) (circa 250g)",
+      "1/2 blocco di Konnyaku",
+      "1 Cipolla media",
+      "1 Cipollotto (Negi)",
+      "1/2 panetto di Tofu (Momen o sodo)",
+      "800ml - 1 litro di Dashi",
+      "2-3 cucchiai di Miso (meglio il miso rosso, Aka miso)",
+      "1 cucchiaino di Zenzero grattugiato",
+      "1 cucchiaio di Olio di sesamo",
+      "Sale q.b."
+    ],
+    "instructionsText": ""
+  },
   "ricette/zuppe/vegan-misoshiru": {
     "docId": "ricette/zuppe/vegan-misoshiru",
     "title": "Zuppa di Miso Vegana",
@@ -1301,6 +1531,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "miso",
       "wakame"
     ],
+    "recipeYield": null,
     "recipeIngredient": [
       "Dashi vegano (brodo di alga kombu e funghi shiitake)",
       "1 cucchiaio abbondante di Miso (nel video si usa il miso rosso o akamiso)",
@@ -1323,6 +1554,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "miso",
       "shiitake"
     ],
+    "recipeYield": null,
     "recipeIngredient": [
       "1 litro di Acqua fredda",
       "1-2 pezzi di Alga Kombu",
