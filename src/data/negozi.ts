@@ -1008,6 +1008,18 @@ export const NEGOZI: Negozio[] = [
         map_url: "https://maps.app.goo.gl/rTCsPE3E5PgYKE3V9",
     },
     {
+        id: "toscana-grosseto-coltelleria-fedolfi",
+        name: "Coltelleria Fedolfi",
+        region: "Toscana",
+        city: "Grosseto",
+        address: "Via Adamello, 7, 58100 Grosseto GR",
+        lat: 42.7708694,
+        lng: 11.1125077,
+        url: "https://coltelleriafedolfi.it/",
+        note: "Coltelleria, centro affilatura, incisioni su coltelli",
+        map_url: "https://maps.app.goo.gl/apqV1CXgEA13Nkvy9",
+    },
+    {
         id: "toscana-marina-di-carrara-sapori-lontani",
         name: "Sapori Lontani",
         region: "Toscana",
