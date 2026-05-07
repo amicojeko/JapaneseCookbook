@@ -2,9 +2,7 @@
 title: Soboro Don
 sidebar_custom_props:
   subtitle: Uova e pollo macinato su una ciotola di riso
-description: >-
-  La colorata e sfiziosa ciotola di riso giapponese a base di pollo e uova
-  strapazzate, perfetta per un pasto ricco di proteine
+description: "La colorata e sfiziosa ciotola di riso giapponese a base di pollo e uova strapazzate, perfetta per un pasto ricco di proteine"
 slug: /ricette/soboro-don
 image: /img/ricette/soboro_don.jpg
 ingredients:

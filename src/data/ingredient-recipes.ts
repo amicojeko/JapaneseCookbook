@@ -47,13 +47,13 @@ export const INGREDIENT_RECIPE_INDEX = {
     {
       "id": "ricette/riso/soborodon",
       "title": "Soboro Don",
-      "description": ">-",
+      "description": "La colorata e sfiziosa ciotola di riso giapponese a base di pollo e uova strapazzate, perfetta per un pasto ricco di proteine",
       "permalink": "/ricette/soboro-don"
     },
     {
       "id": "ricette/riso/takenoko_gohan",
       "title": "Takenoko Gohan",
-      "description": ">-",
+      "description": "Un classico primaverile: riso condito (Takikomi Gohan) cotto con germogli di bambù, aburaage e brodo dashi.",
       "permalink": "/ricette/takenoko_gohan"
     },
     {
@@ -139,7 +139,7 @@ export const INGREDIENT_RECIPE_INDEX = {
     {
       "id": "ricette/zuppe/tonjiru",
       "title": "Tonjiru",
-      "description": ">-",
+      "description": "La zuppa giapponese più confortante, un \\\"reset dell'anima\\\" ricco di maiale e verdure di radice.",
       "permalink": "/ricette/tonjiru"
     }
   ],
@@ -221,7 +221,7 @@ export const INGREDIENT_RECIPE_INDEX = {
     {
       "id": "ricette/nimono/nikujaga",
       "title": "Nikujaga",
-      "description": ">-",
+      "description": "Carne e patate, il comfort food per eccellenza della cucina casalinga giapponese",
       "permalink": "/ricette/nikujaga"
     },
     {
@@ -275,13 +275,13 @@ export const INGREDIENT_RECIPE_INDEX = {
     {
       "id": "ricette/riso/soborodon",
       "title": "Soboro Don",
-      "description": ">-",
+      "description": "La colorata e sfiziosa ciotola di riso giapponese a base di pollo e uova strapazzate, perfetta per un pasto ricco di proteine",
       "permalink": "/ricette/soboro-don"
     },
     {
       "id": "ricette/riso/takenoko_gohan",
       "title": "Takenoko Gohan",
-      "description": ">-",
+      "description": "Un classico primaverile: riso condito (Takikomi Gohan) cotto con germogli di bambù, aburaage e brodo dashi.",
       "permalink": "/ricette/takenoko_gohan"
     },
     {
@@ -293,7 +293,7 @@ export const INGREDIENT_RECIPE_INDEX = {
     {
       "id": "ricette/riso/takikomi_gohan",
       "title": "Takikomi Gohan",
-      "description": ">-",
+      "description": "Takikomi Gohan (Riso misto) 炊き込みご飯 - Riso svuotafrigo cotto direttamente nella risiera",
       "permalink": "/ricette/takikomi_gohan"
     },
     {
@@ -441,7 +441,7 @@ export const INGREDIENT_RECIPE_INDEX = {
     {
       "id": "ricette/riso/soborodon",
       "title": "Soboro Don",
-      "description": ">-",
+      "description": "La colorata e sfiziosa ciotola di riso giapponese a base di pollo e uova strapazzate, perfetta per un pasto ricco di proteine",
       "permalink": "/ricette/soboro-don"
     },
     {
@@ -511,13 +511,13 @@ export const INGREDIENT_RECIPE_INDEX = {
     {
       "id": "ricette/preparazioni_di_base/brodi/vegan_dashi",
       "title": "Dashi Vegano",
-      "description": ">-",
+      "description": "La base fondamentale della cucina giapponese in versione vegana. Un brodo ricco di umami preparato con alga kombu e funghi shiitake.",
       "permalink": "/ricette/dashi_vegan"
     },
     {
       "id": "ricette/riso/takikomi_gohan",
       "title": "Takikomi Gohan",
-      "description": ">-",
+      "description": "Takikomi Gohan (Riso misto) 炊き込みご飯 - Riso svuotafrigo cotto direttamente nella risiera",
       "permalink": "/ricette/takikomi_gohan"
     },
     {
@@ -555,7 +555,7 @@ export const INGREDIENT_RECIPE_INDEX = {
     {
       "id": "ricette/menrui/natto_soba",
       "title": "Natto Soba",
-      "description": ">-",
+      "description": "Spaghetti di grano saraceno freddi con natto, cipolline, alga nori e altre delizie",
       "permalink": "/ricette/natto_soba"
     },
     {
@@ -629,7 +629,7 @@ export const INGREDIENT_RECIPE_INDEX = {
     {
       "id": "ricette/menrui/natto_soba",
       "title": "Natto Soba",
-      "description": ">-",
+      "description": "Spaghetti di grano saraceno freddi con natto, cipolline, alga nori e altre delizie",
       "permalink": "/ricette/natto_soba"
     },
     {
@@ -717,7 +717,7 @@ export const INGREDIENT_RECIPE_INDEX = {
     {
       "id": "ricette/zuppe/tonjiru",
       "title": "Tonjiru",
-      "description": ">-",
+      "description": "La zuppa giapponese più confortante, un \\\"reset dell'anima\\\" ricco di maiale e verdure di radice.",
       "permalink": "/ricette/tonjiru"
     }
   ],
@@ -763,7 +763,7 @@ export const INGREDIENT_RECIPE_INDEX = {
     {
       "id": "ricette/preparazioni_di_base/brodi/vegan_dashi",
       "title": "Dashi Vegano",
-      "description": ">-",
+      "description": "La base fondamentale della cucina giapponese in versione vegana. Un brodo ricco di umami preparato con alga kombu e funghi shiitake.",
       "permalink": "/ricette/dashi_vegan"
     },
     {
@@ -887,7 +887,7 @@ export const INGREDIENT_RECIPE_INDEX = {
     {
       "id": "ricette/zuppe/tonjiru",
       "title": "Tonjiru",
-      "description": ">-",
+      "description": "La zuppa giapponese più confortante, un \\\"reset dell'anima\\\" ricco di maiale e verdure di radice.",
       "permalink": "/ricette/tonjiru"
     }
   ],
@@ -919,7 +919,7 @@ export const INGREDIENT_RECIPE_INDEX = {
     {
       "id": "ricette/preparazioni_di_base/brodi/vegan_dashi",
       "title": "Dashi Vegano",
-      "description": ">-",
+      "description": "La base fondamentale della cucina giapponese in versione vegana. Un brodo ricco di umami preparato con alga kombu e funghi shiitake.",
       "permalink": "/ricette/dashi_vegan"
     },
     {
@@ -977,7 +977,7 @@ export const INGREDIENT_RECIPE_INDEX = {
     {
       "id": "ricette/menrui/natto_soba",
       "title": "Natto Soba",
-      "description": ">-",
+      "description": "Spaghetti di grano saraceno freddi con natto, cipolline, alga nori e altre delizie",
       "permalink": "/ricette/natto_soba"
     },
     {
@@ -997,7 +997,7 @@ export const INGREDIENT_RECIPE_INDEX = {
     {
       "id": "ricette/menrui/natto_soba",
       "title": "Natto Soba",
-      "description": ">-",
+      "description": "Spaghetti di grano saraceno freddi con natto, cipolline, alga nori e altre delizie",
       "permalink": "/ricette/natto_soba"
     },
     {
@@ -1011,7 +1011,7 @@ export const INGREDIENT_RECIPE_INDEX = {
     {
       "id": "ricette/menrui/natto_soba",
       "title": "Natto Soba",
-      "description": ">-",
+      "description": "Spaghetti di grano saraceno freddi con natto, cipolline, alga nori e altre delizie",
       "permalink": "/ricette/natto_soba"
     },
     {
@@ -1061,7 +1061,7 @@ export const INGREDIENT_RECIPE_INDEX = {
     {
       "id": "ricette/menrui/natto_soba",
       "title": "Natto Soba",
-      "description": ">-",
+      "description": "Spaghetti di grano saraceno freddi con natto, cipolline, alga nori e altre delizie",
       "permalink": "/ricette/natto_soba"
     }
   ],
@@ -1089,7 +1089,7 @@ export const INGREDIENT_RECIPE_INDEX = {
     {
       "id": "ricette/riso/soborodon",
       "title": "Soboro Don",
-      "description": ">-",
+      "description": "La colorata e sfiziosa ciotola di riso giapponese a base di pollo e uova strapazzate, perfetta per un pasto ricco di proteine",
       "permalink": "/ricette/soboro-don"
     }
   ],
@@ -1155,7 +1155,7 @@ export const INGREDIENT_RECIPE_INDEX = {
     {
       "id": "ricette/preparazioni_di_base/brodi/vegan_dashi",
       "title": "Dashi Vegano",
-      "description": ">-",
+      "description": "La base fondamentale della cucina giapponese in versione vegana. Un brodo ricco di umami preparato con alga kombu e funghi shiitake.",
       "permalink": "/ricette/dashi_vegan"
     }
   ],
@@ -1211,13 +1211,13 @@ export const INGREDIENT_RECIPE_INDEX = {
     {
       "id": "ricette/riso/soborodon",
       "title": "Soboro Don",
-      "description": ">-",
+      "description": "La colorata e sfiziosa ciotola di riso giapponese a base di pollo e uova strapazzate, perfetta per un pasto ricco di proteine",
       "permalink": "/ricette/soboro-don"
     },
     {
       "id": "ricette/riso/takenoko_gohan",
       "title": "Takenoko Gohan",
-      "description": ">-",
+      "description": "Un classico primaverile: riso condito (Takikomi Gohan) cotto con germogli di bambù, aburaage e brodo dashi.",
       "permalink": "/ricette/takenoko_gohan"
     },
     {
@@ -1229,7 +1229,7 @@ export const INGREDIENT_RECIPE_INDEX = {
     {
       "id": "ricette/riso/takikomi_gohan",
       "title": "Takikomi Gohan",
-      "description": ">-",
+      "description": "Takikomi Gohan (Riso misto) 炊き込みご飯 - Riso svuotafrigo cotto direttamente nella risiera",
       "permalink": "/ricette/takikomi_gohan"
     },
     {
@@ -1275,7 +1275,7 @@ export const INGREDIENT_RECIPE_INDEX = {
     {
       "id": "ricette/riso/soborodon",
       "title": "Soboro Don",
-      "description": ">-",
+      "description": "La colorata e sfiziosa ciotola di riso giapponese a base di pollo e uova strapazzate, perfetta per un pasto ricco di proteine",
       "permalink": "/ricette/soboro-don"
     }
   ],
@@ -1283,7 +1283,7 @@ export const INGREDIENT_RECIPE_INDEX = {
     {
       "id": "ricette/riso/soborodon",
       "title": "Soboro Don",
-      "description": ">-",
+      "description": "La colorata e sfiziosa ciotola di riso giapponese a base di pollo e uova strapazzate, perfetta per un pasto ricco di proteine",
       "permalink": "/ricette/soboro-don"
     }
   ],
@@ -1347,7 +1347,7 @@ export const INGREDIENT_RECIPE_INDEX = {
     {
       "id": "ricette/zuppe/tonjiru",
       "title": "Tonjiru",
-      "description": ">-",
+      "description": "La zuppa giapponese più confortante, un \\\"reset dell'anima\\\" ricco di maiale e verdure di radice.",
       "permalink": "/ricette/tonjiru"
     },
     {
@@ -1375,7 +1375,7 @@ export const INGREDIENT_RECIPE_INDEX = {
     {
       "id": "ricette/zuppe/tonjiru",
       "title": "Tonjiru",
-      "description": ">-",
+      "description": "La zuppa giapponese più confortante, un \\\"reset dell'anima\\\" ricco di maiale e verdure di radice.",
       "permalink": "/ricette/tonjiru"
     }
   ]

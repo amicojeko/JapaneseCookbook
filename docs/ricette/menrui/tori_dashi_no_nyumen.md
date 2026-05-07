@@ -1,8 +1,6 @@
 ---
 title: Tori dashi no nyūmen
-description: >-
-  Somen in brodo di pollo caldo, la versione confortante e super economica di un
-  classico giapponese
+description: "Somen in brodo di pollo caldo, la versione confortante e super economica di un classico giapponese"
 slug: /ricette/tori_dashi_no_nyumen
 sidebar_custom_props:
   subtitle: Somen in brodo di pollo caldo

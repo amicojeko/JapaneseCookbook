@@ -2,9 +2,7 @@
 title: Tonjiru
 sidebar_custom_props:
   subtitle: Zuppa di maiale e verdure di radice
-description: >-
-  La zuppa giapponese più confortante, un "reset dell'anima" ricco di maiale e
-  verdure di radice.
+description: "La zuppa giapponese più confortante, un \"reset dell'anima\" ricco di maiale e verdure di radice."
 slug: /ricette/tonjiru
 image: /img/ricette/tonjiru.jpg
 ingredients:

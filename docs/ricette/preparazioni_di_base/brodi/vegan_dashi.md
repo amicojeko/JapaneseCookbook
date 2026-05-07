@@ -2,9 +2,7 @@
 title: Dashi Vegano
 sidebar_custom_props:
   subtitle: Brodo vegetale giapponese
-description: >-
-  La base fondamentale della cucina giapponese in versione vegana. Un brodo
-  ricco di umami preparato con alga kombu e funghi shiitake.
+description: "La base fondamentale della cucina giapponese in versione vegana. Un brodo ricco di umami preparato con alga kombu e funghi shiitake."
 slug: /ricette/dashi_vegan
 ingredients:
   - Alga Kombu
