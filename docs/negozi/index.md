@@ -8,6 +8,7 @@ hide_title: true
 ---
 import Link from '@docusaurus/Link';
 import RegionsList from '@site/src/components/RegionsList';
+import NegoziStats from '@site/src/components/NegoziStats';
 
 <header className="regions-hero">
   <span className="pg-kicker">Sezione · Negozi orientali</span>
@@ -15,6 +16,7 @@ import RegionsList from '@site/src/components/RegionsList';
   <p className="lead">
     Una guida regione per regione dei negozi fisici dove trovare ingredienti, utensili e prodotti giapponesi, coreani e cinesi. Più gli e-commerce italiani che ho provato e che consiglio.
   </p>
+  <NegoziStats />
   <div className="quick-cta">
     <Link className="btn red" to="/negozi_orientali/mappa">🗺️ Apri la mappa</Link>
     <Link className="btn primary" to="/negozi_orientali/online">🌐 Negozi online</Link>
