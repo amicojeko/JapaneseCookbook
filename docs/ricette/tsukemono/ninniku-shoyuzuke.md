@@ -23,7 +23,7 @@ Il Ninniku Shoyuzuke è una preparazione semplice per chi ama i sapori intensi. 
 - 1 tazza di [salsa di soia](/ingredienti/shoyu)
 - 1/2 tazza di aceto di riso
 
-### Preprarazione
+### Preparazione
 
 Mettere la [salsa di soia](/ingredienti/shoyu), lo zucchero e l'aceto di riso in un pentolino, portare a bollore e spegnere il fuoco.
 Versare il preparato in un barattolo di vetro sterilizzato insieme all'aglio.
@@ -36,7 +36,7 @@ Chiudere il barattolo e mettere in frigo. Il composto e' pronto dopo 3-4 settima
 - 1 tazza di spicchi di aglio
 - [salsa di soia](/ingredienti/shoyu) sufficiente a coprire l'aglio
 
-### Preprarazione
+### Preparazione
 
 Mettere l'aglio in un barattolo di vetro, coprire con la [salsa di soia](/ingredienti/shoyu) e lasciarlo in frigo per almeno 3-4 settimane.
 
@@ -49,7 +49,7 @@ Mettere l'aglio in un barattolo di vetro, coprire con la [salsa di soia](/ingred
 - 1 1/4 tazza di [salsa di soia](/ingredienti/shoyu)
 - 2 cucchiai di zucchero
 
-### Preprarazione
+### Preparazione
 
 Pulire gli spicchi d'aglio e privarli del picciolo. Sterilizzare un barattolo di vetro.
 Mettere gli spicchi d'aglio nel barattolo sterilizzato e ricoprire di aceto, mettere in frigorifero per 2 settimane.

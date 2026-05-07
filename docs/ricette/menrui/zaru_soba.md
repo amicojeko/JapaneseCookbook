@@ -4,19 +4,20 @@ description: Spaghetti di grano saraceno freddi
 slug: /ricette/zaru_soba
 image: /img/ricette/zaru_soba.jpg
 sidebar_custom_props:
-  subtitle: "Soba freddi da intingere nel mentsuyu"
+  subtitle: Soba freddi da intingere nel mentsuyu
 ingredients:
-- spaghetti di grano saraceno
-- mentsuyu
-- kizami nori
-- cipolline verdi
-- wasabi
-- daikon
-- zenzero
+  - spaghetti di grano saraceno
+  - mentsuyu
+  - kizami nori
+  - cipolline verdi
+  - wasabi
+  - daikon
+  - zenzero
 tags:
-- daikon
-- kizami_nori
-- nori
+  - daikon
+  - kizami_nori
+  - nori
+recipeYield: 2 persone
 ---
 Gli zaru soba sono spaghetti di grano saraceno freddi, serviti con una salsa a base di [(mentsuyu)](/ricette/mentsuyu). Sono un piatto estivo molto popolare, e si trovano in molti ristoranti giapponesi. Sono molto semplici da preparare, e sono un ottimo piatto per l'estate.
 
@@ -24,8 +25,7 @@ Cercate di trovare degli spaghetti di grano saraceno di buona qualita', con la p
 
 <ImageComponent />
 
-## Ingredienti per 2 persone
-
+## Ingredienti
 - 200g di spaghetti di grano saraceno
 
 ### Per la salsa:

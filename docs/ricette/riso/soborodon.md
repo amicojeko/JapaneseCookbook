@@ -2,35 +2,35 @@
 title: Soboro Don
 sidebar_custom_props:
   subtitle: Uova e pollo macinato su una ciotola di riso
-description: La colorata e sfiziosa ciotola di riso giapponese a base di pollo e uova strapazzate, perfetta per un pasto ricco di proteine
+description: "La colorata e sfiziosa ciotola di riso giapponese a base di pollo e uova strapazzate, perfetta per un pasto ricco di proteine"
 slug: /ricette/soboro-don
 image: /img/ricette/soboro_don.jpg
 ingredients:
-- riso
-- pollo
-- uova
-- piselli
-- beni shoga
-- mirin
-- sake
-- zenzero
-- salsa di soia
+  - riso
+  - pollo
+  - uova
+  - piselli
+  - beni shoga
+  - mirin
+  - sake
+  - zenzero
+  - salsa di soia
 tags:
-- beni_shoga
-- mirin
-- shoyu
-- rice
-- sake
-- pollo
-- uova
+  - beni_shoga
+  - mirin
+  - shoyu
+  - rice
+  - sake
+  - pollo
+  - uova
+recipeYield: 2 persone
 ---
 
 Spesso chi fa sport o cerca un pasto ricco di proteine finisce per ripiegare sul tristissimo e monotono "riso e tonno". Il Giappone, però, ci offre un'alternativa fantastica, colorata e infinitamente più saporita: il Soboro Don. Il termine *soboro* indica una preparazione a base di carne, pesce o uova cotti e "sbriciolati" finemente. In questa versione, andiamo a creare una ciotola (donburi) bellissima da vedere, amata da grandi e piccini, dove il sapore umami del pollo si sposa alla perfezione con la dolcezza delle uova e la base neutra del riso.
 
 <ImageComponent />
 
-## Ingredienti per 2 persone
-
+## Ingredienti
 - [Riso](/ingredienti/rice) bianco cotto al vapore q.b.
 - 2 uova
 - 200g di carne macinata di pollo

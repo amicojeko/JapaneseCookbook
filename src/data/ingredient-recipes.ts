@@ -3,7 +3,7 @@ export const INGREDIENT_RECIPE_INDEX = {
     {
       "id": "ricette/agemono/enoki_tatsuta-age",
       "title": "Enoki Tatsuta-age",
-      "description": "Funghi enoki croccanti e saporiti, il contorno perfetto \"ladro di riso",
+      "description": "Funghi enoki croccanti e saporiti, il contorno perfetto \"ladro di riso\"",
       "permalink": "/ricette/enoki-tatsuta-age"
     },
     {
@@ -23,7 +23,7 @@ export const INGREDIENT_RECIPE_INDEX = {
     {
       "id": "ricette/agemono/enoki_tatsuta-age",
       "title": "Enoki Tatsuta-age",
-      "description": "Funghi enoki croccanti e saporiti, il contorno perfetto \"ladro di riso",
+      "description": "Funghi enoki croccanti e saporiti, il contorno perfetto \"ladro di riso\"",
       "permalink": "/ricette/enoki-tatsuta-age"
     },
     {
@@ -79,7 +79,7 @@ export const INGREDIENT_RECIPE_INDEX = {
     {
       "id": "ricette/agemono/enoki_tatsuta-age",
       "title": "Enoki Tatsuta-age",
-      "description": "Funghi enoki croccanti e saporiti, il contorno perfetto \"ladro di riso",
+      "description": "Funghi enoki croccanti e saporiti, il contorno perfetto \"ladro di riso\"",
       "permalink": "/ricette/enoki-tatsuta-age"
     },
     {
@@ -147,7 +147,7 @@ export const INGREDIENT_RECIPE_INDEX = {
     {
       "id": "ricette/agemono/enoki_tatsuta-age",
       "title": "Enoki Tatsuta-age",
-      "description": "Funghi enoki croccanti e saporiti, il contorno perfetto \"ladro di riso",
+      "description": "Funghi enoki croccanti e saporiti, il contorno perfetto \"ladro di riso\"",
       "permalink": "/ricette/enoki-tatsuta-age"
     },
     {

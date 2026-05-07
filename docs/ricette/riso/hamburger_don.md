@@ -6,25 +6,25 @@ description: Una ciotola di riso (donburi) facile e veloce con carne macinata e 
 slug: /ricette/hamburger-donburi
 image: /img/ricette/hamburger_don.jpg
 ingredients:
-- Riso
-- Carne macinata
-- Uova
-- Cipolla
-- Ketchup
-- Salsa Worcestershire
-- Salsa Tonkatsu
-- Olio di semi
-- Sale
-- Pepe
+  - Riso
+  - Carne macinata
+  - Uova
+  - Cipolla
+  - Ketchup
+  - Salsa Worcestershire
+  - Salsa Tonkatsu
+  - Olio di semi
+  - Sale
+  - Pepe
 tags:
-- rice
+  - rice
+recipeYield: 1 persona
 ---
 In giappone esiste un tipo di cucina ispirato alla cucina occidentale chiamato Yoshoku (洋食), che letteralmente significa "cibo occidentale". Si tratta di piatti che sono stati adattati ai gusti giapponesi, spesso con ingredienti locali e tecniche di cottura giapponesi. Questo piatto, chiamato Hamburger Don (ハンバーグ丼), è un esempio perfetto di Yoshoku. Ed e' una mezza svolta per quando volete fare una cosa al volo, buona e sostanziosa.
 
 <ImageComponent />
 
-## Ingredienti (Per 1 persona)
-
+## Ingredienti
 - Una ciotola di [Riso](/ingredienti/rice) caldo
 - 150g di Carne macinata a piacere (manzo, maiale o mista)
 - 1 Uovo

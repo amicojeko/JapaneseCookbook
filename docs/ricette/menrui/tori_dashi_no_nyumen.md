@@ -1,24 +1,24 @@
 ---
 title: Tori dashi no nyūmen
-description: Somen in brodo di pollo caldo, la versione confortante e super economica di un classico giapponese
+description: "Somen in brodo di pollo caldo, la versione confortante e super economica di un classico giapponese"
 slug: /ricette/tori_dashi_no_nyumen
 sidebar_custom_props:
-  subtitle: "Somen in brodo di pollo caldo"
+  subtitle: Somen in brodo di pollo caldo
 image: /img/ricette/tori-dashi-nyumen.jpg
 ingredients:
-- ossa di pollo
-- zenzero
-- porro
-- salsa di soia
-- somen
-- cipollotto
+  - ossa di pollo
+  - zenzero
+  - porro
+  - salsa di soia
+  - somen
+  - cipollotto
+recipeYield: 2 persone
 ---
 In Giappone, i somen sono famosi soprattutto nella loro versione estiva, serviti freddi. Tuttavia, quando si cerca un pasto caldo e ristoratore, la scelta ricade sul **Nyūmen** (煮麺). Il termine si riferisce alla versione calda di questi sottili spaghetti di frumento e deriva originariamente da *nimeno*, che significa letteralmente "tagliolini bolliti". Questa ricetta del Tori dashi no nyūmen trasforma degli scarti di macelleria in un brodo umami profondo, creando un pasto completo che costa pochissimo ma regala una soddisfazione degna dei migliori ramen bar.
 
 <ImageComponent />
 
-## Ingredienti per 2 persone
-
+## Ingredienti
 - Ossa di pollo (circa 300-400g, come ali o carcasse)
 - 3 litri d'acqua (divisi in due fasi)
 - Un pezzetto di [zenzero](/tags/zenzero) fresco

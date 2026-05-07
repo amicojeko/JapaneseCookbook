@@ -5,21 +5,21 @@ sidebar_custom_props:
 description: Il classico snack giapponese per una merenda veloce o un pranzo al sacco.
 slug: /ricette/onigiri
 ingredients:
-- riso cotto
-- tonno sott'olio
-- maionese
-- alga nori
-- sale
+  - riso cotto
+  - tonno sott'olio
+  - maionese
+  - alga nori
+  - sale
 tags:
-- nori
-- rice
+  - nori
+  - rice
+recipeYield: 2 onigiri
 ---
 Gli onigiri (おにぎり), o _omusubi_, sono uno degli snack giapponesi più iconici e amati. Sono delle "polpette" di [riso](/ingredienti/rice) bianco, generalmente a forma triangolare, a forma di polpetta o cilindrica, che spesso racchiudono un ripieno e sono avvolte in una striscia di [alga nori](/ingredienti/nori).
 
 Sono perfetti per i bento box e come cibo da viaggio. Il ripieno al tonno e maionese (chiamato _Tsunamayo_, ツナマヨ, in Giappone) è uno dei più diffusi e apprezzati, unendo il sapore sapido del tonno con la dolcezza e la cremosità della maionese.
 
-## Ingredienti (per 2 onigiri belli cicciotti)
-
+## Ingredienti
 - 1 tazza di [Riso per sushi](/ingredienti/rice)
 - 1 tazza e un cicinino di più di acqua
 - 120g di Tonno sott'olio (o al naturale)

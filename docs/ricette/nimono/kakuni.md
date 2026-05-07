@@ -45,7 +45,7 @@ Per 4 persone:
 - 4 fette di [daikon](/ingredienti/daikon)
 - 4 bok choy o equivalente in peso di spinaci
 
-## Preparazione (metodo veloce)
+## Preparazione
 
 Prima di tutto una premessa: questo è il metodo "veloce" per la preparazione del buta kaku-ni. Secondo il metodo tradizionale, spiegato ottimamente da Shizuo Tsuji nel suo libro "Japanese Cooking: A Simple Art" (praticamente la bibbia della cucina giapponese), ci vogliono due giorni per preparare il kakuni. Giuro che un giorno ci proverò, ma per ora mi accontento di questa versione.
 

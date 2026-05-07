@@ -23,7 +23,7 @@ Il Ninniku no Misozuke è una di quelle chicche della cucina giapponese che tras
 - 45ml di [mirin](/ingredienti/mirin)
 - 3 teste d'aglio
 
-## Preprarazione
+## Preparazione
 
 Pulire gli spicchi d'aglio e privarli del picciolo. Sterilizzare un barattolo di vetro.
 Tagliare gli spicchi per il lungo e togliere l'anima. Mettere gli spicchi d'aglio su una griglia, e lasciare asciugare tutta la notte.
