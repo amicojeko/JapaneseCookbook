@@ -11,6 +11,31 @@ export default function CategoryIndexPage(): React.ReactElement {
   const docs = useMemo<DocCardDoc[]>(() => {
     const items = category?.items ?? [];
 
+    // Se la categoria contiene sotto-categorie, mostriamo quelle come card
+    // (hub di navigazione). Es. /ricette/preparazioni_di_base/ → 4 card per
+    // Brodi/Condimenti/Salse/Sushi anziché flatare tutti i doc nidificati.
+    const subCategories = items.filter(
+      (i): i is PropSidebarItemCategory => i.type === 'category',
+    );
+
+    if (subCategories.length > 0) {
+      return subCategories.map((sub) => {
+        // L'href della category punta al suo index.md (se esiste). Da lì
+        // ricaviamo anche il docId per il lookup dell'immagine.
+        const indexLink = sub.items?.find(
+          (it): it is PropSidebarItemLink => it.type === 'link' && it.href === sub.href,
+        );
+        const fallbackId = sub.href ? `${sub.href.replace(/^\//, '').replace(/\/$/, '')}/index` : '';
+        return {
+          id: indexLink?.docId ?? fallbackId,
+          title: sub.label ?? '',
+          description: (sub.customProps?.subtitle as string | undefined) ?? indexLink?.customProps?.subtitle as string | undefined,
+          permalink: sub.href ?? '',
+        };
+      });
+    }
+
+    // Caso base: la categoria contiene solo doc → flat-list di link.
     const flatten = (list: PropSidebarItem[]): PropSidebarItemLink[] =>
       list.flatMap((item) => {
         if (item.type === 'category') return flatten((item as PropSidebarItemCategory).items ?? []);
