@@ -129,15 +129,15 @@ const RegionShopList: React.FC<Props> = ({ region, shops }) => {
       )}
 
       {sortedCities.map((city) => {
+        const citySlug = `city-${slugify(city)}`;
         const cityShops = groupedByCity[city];
         return (
           <section
             key={city}
             className="city-section"
-            id={`city-${slugify(city)}`}
           >
             <header className="city-h">
-              <h2 className="city-name">{city}</h2>
+              <h2 className="city-name" id={citySlug}>{city}</h2>
               <div className="city-cnt">
                 <strong>{cityShops.length}</strong> negoz
                 {cityShops.length === 1 ? 'io' : 'i'}

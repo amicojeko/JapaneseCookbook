@@ -114,7 +114,7 @@ import RegionShopList from '@site/src/components/RegionShopList';
 
 ## Data modules (single source of truth)
 
-- `src/data/negozi.ts` — Physical stores: `{ id, name, region, city, address, lat, lng, url?, note?, map_url? }`. To add a shop, edit this file directly.
+- `src/data/negozi.ts` — Physical stores: `{ id, name, region, city, address, lat, lng, url?, note?, map_url? }`. To add/remove a shop, edit this file directly. **When you add or remove a shop, also update the hardcoded counts in the SEO intro paragraphs of the affected region page** — `docs/negozi/<region>.md` (5 top regions: Lombardia, Lazio, Piemonte, Emilia-Romagna, Veneto) and `docs/negozi/<other>.md` `description:` frontmatter (all regions). The numbers in the description (`"19 negozi…"`) and intro (`"In Lombardia trovi **19 negozi**…"` plus per-city counts like "Milano 7", "Brescia 2") are static for SEO snippet quality and need to stay in sync with the dataset. Sidebar meta-strip (`<NegoziStats />`) on `/negozi_orientali/` and `/negozi_orientali/mappa/` updates automatically — only the region-page copy needs manual sync.
 - `src/data/negozi-online.ts` — Online-only stores (`ONLINE_ONLY` array) plus `getAllOnlineShops()` which merges them with NEGOZI entries that have a `url`. Used by both `OnlineShopList` (rendering) and `RegionsList` (Online row count).
 - `src/data/regioni.ts` — Canonical Italian region list `{ name, slug? }`. Slug is **omitted** for regions without a published page (currently Basilicata, Molise) — they render as "in arrivo" placeholders. When you create `docs/negozi/<slug>.md`, add the `slug` here in the same commit. Both `RegionsList` and `OnlineShopList` consume this; never duplicate the table inline.
 
