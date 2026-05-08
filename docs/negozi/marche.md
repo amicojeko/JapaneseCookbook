@@ -1,6 +1,6 @@
 ---
-title: Marche
-description: Negozi orientali nelle Marche.
+title: "Negozi asiatici e giapponesi in Marche"
+description: "4 negozi di alimentari asiatici e giapponesi in Marche: Ancona, Civitanova Marche, Porto Sant'Elpidio. Indirizzi, mappa e shop online per ingredienti orientali."
 slug: "/negozi_orientali/marche"
 ---
 import { NEGOZI } from '@site/src/data/negozi';

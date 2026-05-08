@@ -38,7 +38,10 @@ This repository contains a Docusaurus site, in Italian, dedicated to Japanese co
 - `src/components/IngredientRecipeList.tsx` — ingredient → recipes via `ingredient-recipes.ts`.
 
 ## Data modules (single source of truth)
-- `src/data/negozi.ts` — physical shops: `{ id, name, region, city, address, lat, lng, url?, note?, map_url? }`. To add a shop, edit this file directly.
+- `src/data/negozi.ts` — physical shops: `{ id, name, region, city, address, lat, lng, url?, note?, map_url? }`. To add/remove a shop, edit this file directly. **When you add or remove a shop, also update the hardcoded counts in the SEO copy of the affected region page** — `docs/negozi/<region>.md`:
+  - `description:` frontmatter (e.g. `"19 negozi di alimentari asiatici e giapponesi in Lombardia: …"`) — applies to all 19 region pages.
+  - For the 5 top regions (Lombardia, Lazio, Piemonte, Emilia-Romagna, Veneto), the intro paragraph in the body has the total count and per-city counts (e.g. `"Milano [...] con 7 indirizzi"`, `"Brescia e Pavia hanno 2 negozi ciascuna"`) — keep these in sync with the dataset.
+  - The sidebar meta-strip (`<NegoziStats />`) on `/negozi_orientali/` and `/negozi_orientali/mappa/` updates automatically. Only the region-page copy needs manual sync.
 - `src/data/negozi-online.ts` — online-only stores (`ONLINE_ONLY`) plus `getAllOnlineShops()` which merges them with physical shops that have a `url`. Used by both `OnlineShopList` (rendering) and `RegionsList` (Online row count).
 - `src/data/regioni.ts` — canonical Italian region list `{ name, slug? }`. The `slug` is **omitted** for regions without a published page (currently Basilicata, Molise) — they show up as "in arrivo" placeholders. When you create `docs/negozi/<slug>.md`, add the `slug` here in the same commit. Both `RegionsList` and `OnlineShopList` consume from here — **never** duplicate the table elsewhere.
 
