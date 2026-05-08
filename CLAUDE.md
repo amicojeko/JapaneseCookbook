@@ -108,6 +108,8 @@ import RegionShopList from '@site/src/components/RegionShopList';
 
 **Internal links from MD/MDX:** use `import Link from '@docusaurus/Link'` and `<Link to="/path">` for SPA navigation. Plain `<a href="/...">` triggers a full page reload and bypasses Docusaurus prefetch. External links stay as `<a target="_blank" rel="noopener noreferrer">`.
 
+**Pull internal URLs from `build/sitemap.xml` — never invent them or infer them from folder paths.** The `slug:` declared in the destination's frontmatter is what controls the URL, and it routinely differs from the folder structure. Concrete example: `docs/ricette/preparazioni_di_base/brodi/dashi.md` is published at `/ricette/dashi/`, not `/ricette/preparazioni_di_base/brodi/dashi/`. Workflow: `grep <keyword> build/sitemap.xml`, take the `<loc>`, strip `https://paginegiappe.it`. If the sitemap is stale or missing, run `npm run build` first or read `slug:` from the destination file's frontmatter. **Exception:** tag pages (`/blog/tags/<tag>/`, `/tags/<tag>/`) are excluded from the sitemap (`ignorePatterns: ['/tags/**']` in the sitemap config) — link those by tag permalink as declared in `blog/tags.yml` or by the documented tag URL convention.
+
 **Inline icons in markdown content:** add `className="social-icon"` (existing convention) or `className="no-border"` to opt out of the global recipe-image border + paper-fill rule. Markdown content `<img>`s otherwise pick up a 2px ink border with a `--pg-paper-2` backdrop.
 
 **City headings inside `RegionShopList`** are real `<h2>` elements for screen-reader heading navigation. The CSS explicitly neutralises the global `.markdown h2` cascade (zero `border`, `padding`, `margin`) on `.city-section .city-name`.

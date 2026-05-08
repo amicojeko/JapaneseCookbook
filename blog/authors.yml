@@ -1,0 +1,20 @@
+jeko:
+  name: Stefano "Jeko" Guglielmetti
+  title: Curatore di Pagine Giappe · nerd impenitente e cuoco amatoriale ostinato
+  url: https://www.linkedin.com/in/stefanog
+  image_url: /img/JEKO-CUCINA-02.png
+  page: true
+  socials:
+    linkedin: stefanog
+    github: amicojeko
+    instagram: https://www.instagram.com/amicojeko
+    youtube: https://youtube.com/amicojeko
+
+fujitivo:
+  name: Erick "il Fujitivo"
+  title: Viaggiatore in Giappone dal 2008 · autore di "Andiamo in Giappone"
+  url: http://ilfujitivo.it
+  image_url: /img/authors/logo_ilfujitivo.png
+  page: true
+  socials:
+    instagram: https://www.instagram.com/ilfujitivo

@@ -16,6 +16,7 @@ const ESPLORA: ReadonlyArray<{ label: string; to: string }> = [
   { label: 'Viaggi in Giappone', to: '/viaggi' },
   { label: 'Libri consigliati', to: '/libri' },
   { label: 'Film, anime, serie TV', to: '/film_anime_serie_tv' },
+  { label: 'Blog', to: '/blog' },
 ];
 
 const APPROFONDIRE: ReadonlyArray<{ label: string; href: string }> = [
