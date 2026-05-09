@@ -74,14 +74,38 @@ const config: Config = {
           showLastUpdateAuthor: true,
         },
         blog: {
+          path: './blog',
+          routeBasePath: '/blog',
+          blogTitle: 'Blog · Pagine Giappe',
+          blogDescription:
+            'Appunti, novità e riflessioni dal taccuino di cucina giapponese di Pagine Giappe: ricette, ingredienti, negozi orientali in Italia e viaggi in Giappone.',
+          blogSidebarTitle: 'Ultimi post',
+          blogSidebarCount: 10,
+          postsPerPage: 10,
+          authorsMapPath: 'authors.yml',
           showReadingTime: true,
+          // Honor `hide_reading_time: true` in a post's frontmatter to
+          // suppress the strip on a single post. Otherwise use 350 wpm
+          // (Docusaurus default is 200; we bump it to better match how
+          // people actually skim editorial-blog content). Keep this in
+          // sync with READING_WPM in scripts/generate-blog-index.js so the
+          // homepage strip and the post header show the same number.
+          readingTime: ({content, frontMatter, defaultReadingTime}) =>
+            frontMatter.hide_reading_time
+              ? undefined
+              : defaultReadingTime({content, options: {wordsPerMinute: 350}}),
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
+            title: 'Pagine Giappe — Blog',
+            description:
+              'Appunti dal taccuino di cucina giapponese in italiano di Stefano "Jeko" Guglielmetti.',
+            copyright: `© ${new Date().getFullYear()} Stefano Guglielmetti — paginegiappe.it`,
+            language: 'it',
           },
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
+          onInlineTags: 'throw',
+          onInlineAuthors: 'throw',
+          onUntruncatedBlogPosts: 'throw',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -169,6 +193,11 @@ const config: Config = {
         {
           to: '/libri',
           label: 'Libri',
+          position: 'left'
+        },
+        {
+          to: '/blog',
+          label: 'Blog',
           position: 'left'
         },
         {

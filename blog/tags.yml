@@ -1,0 +1,29 @@
+annunci:
+  label: Annunci
+  permalink: /annunci
+  description: Aggiornamenti, novità e cambiamenti del sito.
+
+cucina:
+  label: Cucina
+  permalink: /cucina
+  description: Riflessioni, tecniche e racconti dalla cucina giapponese di casa.
+
+ingredienti:
+  label: Ingredienti
+  permalink: /ingredienti
+  description: Schede, prove d'uso e curiosità sugli ingredienti giapponesi.
+
+negozi:
+  label: Negozi
+  permalink: /negozi
+  description: Nuovi negozi orientali, scoperte e cambi di gestione.
+
+viaggi:
+  label: Viaggi
+  permalink: /viaggi
+  description: Storie, itinerari e consigli sul Giappone.
+
+dietro-le-quinte:
+  label: Dietro le quinte
+  permalink: /dietro-le-quinte
+  description: Come è fatto il sito, scelte editoriali, esperimenti.

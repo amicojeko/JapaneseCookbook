@@ -702,8 +702,11 @@ article img:not(.navbar__logo):not(.footer__logo):not(.social-icon):not(.no-bord
   background: transparent !important;
 }
 
-/* Drop-cap on the first paragraph of an article body */
-article > .theme-doc-markdown.markdown > p:first-of-type::first-letter {
+/* Drop-cap on the first paragraph of an article body.
+   Recipes/docs use `.theme-doc-markdown.markdown`; blog posts (single page,
+   list excerpts, tag-posts, author-posts) use `.markdown` inside .blog-wrapper. */
+article > .theme-doc-markdown.markdown > p:first-of-type::first-letter,
+.blog-wrapper article > .markdown > p:first-of-type::first-letter {
   font-family: var(--pg-font-serif);
   font-weight: 900;
   font-size: 4em;
@@ -1322,6 +1325,331 @@ article > .theme-doc-markdown.markdown > p:first-of-type::first-letter {
 }@media (max-width: 640px) {
   .shop-row-ed .name {
     font-size: 22px;
+  }
+}
+
+/* ---------- BLOG ---------- */
+/* Bentō × Izakaya style for the Docusaurus blog: list, post, tags, authors. */
+
+.blog-wrapper { background: var(--pg-paper); }
+
+/* Sidebar (desktop) — match the docs sidebar look */
+.blog-wrapper aside[class*='sidebar_'] {
+  background: var(--pg-paper);
+  border-right: 2px solid var(--pg-ink);
+}
+.blog-wrapper aside h3 {
+  font-family: var(--pg-font-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--pg-ink-faint);
+  margin: 8px 0 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--pg-rule-soft);
+}
+.blog-wrapper aside ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.blog-wrapper aside ul li { margin: 0 0 4px; }
+.blog-wrapper aside ul li a {
+  display: block;
+  padding: 8px 10px;
+  font-family: var(--pg-font-serif);
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.3;
+  color: var(--pg-ink);
+  text-decoration: none;
+  border-left: 3px solid transparent;
+  transition: background 0.12s ease, border-color 0.12s ease;
+}
+.blog-wrapper aside ul li a:hover {
+  background: var(--pg-yellow-soft);
+  border-left-color: var(--pg-red);
+  color: var(--pg-ink);
+}
+
+/* Page H1 on list / tag-list / author-list pages */
+:is(.blog-list-page, .blog-tags-list-page, .blog-tags-post-list-page,
+    .blog-authors-list-page, .blog-authors-posts-page) > .container h1 {
+  font-family: var(--pg-font-serif);
+  font-weight: 900;
+  letter-spacing: -0.015em;
+  font-size: clamp(34px, 5vw, 56px);
+  margin-bottom: 0.4em;
+}
+
+/* Inline article rows on list / tag-posts / author-posts pages
+   (no card chrome — match docusaurus.io/blog: full posts stacked,
+   separated by a hairline rule, same typography as the single post). */
+:is(.blog-list-page, .blog-tags-post-list-page, .blog-authors-posts-page) article {
+  background: transparent;
+  border: 0;
+  padding: 0 0 56px;
+  margin: 0 0 56px;
+  border-bottom: 1px solid var(--pg-rule-soft);
+}
+:is(.blog-list-page, .blog-tags-post-list-page, .blog-authors-posts-page) article:last-of-type {
+  border-bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+/* Title size matches the single-post H1 so the two pages feel like one document. */
+:is(.blog-list-page, .blog-tags-post-list-page, .blog-authors-posts-page) article > header h2 {
+  font-family: var(--pg-font-serif);
+  font-weight: 900;
+  letter-spacing: -0.015em;
+  font-size: clamp(36px, 5.5vw, 60px);
+  line-height: 1;
+  margin: 0 0 12px;
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+:is(.blog-list-page, .blog-tags-post-list-page, .blog-authors-posts-page) article > header h2 a {
+  color: var(--pg-ink);
+  text-decoration: none;
+  border-bottom: 0;
+}
+:is(.blog-list-page, .blog-tags-post-list-page, .blog-authors-posts-page) article > header h2 a:hover {
+  color: var(--pg-red-ink);
+}
+
+/* Date / reading time strip */
+:is(.blog-list-page, .blog-tags-post-list-page, .blog-authors-posts-page,
+    .blog-post-page) article > header > div {
+  font-family: var(--pg-font-mono);
+  font-size: 11.5px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--pg-ink-faint);
+}
+:is(.blog-list-page, .blog-tags-post-list-page, .blog-authors-posts-page,
+    .blog-post-page) article > header > div time {
+  color: var(--pg-ink);
+}
+
+/* Excerpt body on list-style pages */
+:is(.blog-list-page, .blog-tags-post-list-page, .blog-authors-posts-page) article .markdown p {
+  font-family: var(--pg-font-serif);
+  font-size: 17px;
+  line-height: 1.6;
+  color: var(--pg-ink-soft);
+}
+
+/* Article footer (Read More + tags) */
+:is(.blog-list-page, .blog-tags-post-list-page, .blog-authors-posts-page,
+    .blog-post-page) article > footer {
+  border-top: 1px solid var(--pg-rule-soft);
+  padding-top: 14px;
+  margin-top: 18px;
+}
+:is(.blog-list-page, .blog-tags-post-list-page, .blog-authors-posts-page,
+    .blog-post-page) article > footer a.button {
+  font-family: var(--pg-font-sans);
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  border: 2px solid var(--pg-ink);
+  background: var(--pg-yellow);
+  color: var(--pg-ink);
+  border-radius: 999px;
+  padding: 8px 16px;
+}
+:is(.blog-list-page, .blog-tags-post-list-page, .blog-authors-posts-page,
+    .blog-post-page) article > footer a.button:hover {
+  background: var(--pg-ink);
+  color: var(--pg-yellow);
+}
+
+/* Tag chips inside an article */
+:is(.blog-list-page, .blog-tags-post-list-page, .blog-authors-posts-page,
+    .blog-post-page) article ul[class*='tags_'] {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+:is(.blog-list-page, .blog-tags-post-list-page, .blog-authors-posts-page,
+    .blog-post-page) article ul[class*='tags_'] li { margin: 0; }
+:is(.blog-list-page, .blog-tags-post-list-page, .blog-authors-posts-page,
+    .blog-post-page) article ul[class*='tags_'] a {
+  font-family: var(--pg-font-mono);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border: 1.5px solid var(--pg-ink);
+  background: var(--pg-paper-2);
+  color: var(--pg-ink);
+  border-radius: 999px;
+  text-decoration: none;
+}
+:is(.blog-list-page, .blog-tags-post-list-page, .blog-authors-posts-page,
+    .blog-post-page) article ul[class*='tags_'] a:hover {
+  background: var(--pg-yellow);
+  color: var(--pg-ink);
+}
+
+/* Single post page title */
+.blog-post-page article > header h1 {
+  font-family: var(--pg-font-serif);
+  font-weight: 900;
+  letter-spacing: -0.015em;
+  font-size: clamp(36px, 5.5vw, 60px);
+  line-height: 1;
+  margin: 0 0 12px;
+}
+.blog-post-page article > .markdown { margin-top: 8px; }
+.blog-post-page nav.pagination-nav { margin-top: 32px; }
+.blog-list-page nav.pagination-nav { margin-top: 16px; }
+
+/* Author info row inside article header */
+:is(.blog-list-page, .blog-tags-post-list-page, .blog-authors-posts-page,
+    .blog-post-page) article > header .avatar { margin-top: 8px; }
+:is(.blog-list-page, .blog-tags-post-list-page, .blog-authors-posts-page,
+    .blog-post-page) article > header .avatar__name {
+  font-family: var(--pg-font-serif);
+  font-weight: 800;
+}
+:is(.blog-list-page, .blog-tags-post-list-page, .blog-authors-posts-page,
+    .blog-post-page) article > header .avatar small {
+  font-family: var(--pg-font-sans);
+  font-size: 12px;
+  color: var(--pg-ink-faint);
+}
+:is(.blog-list-page, .blog-tags-post-list-page, .blog-authors-posts-page,
+    .blog-post-page, .blog-authors-list-page) .avatar__photo {
+  border: 2px solid var(--pg-ink);
+  background: var(--pg-paper-2);
+}
+
+/* Tags index page — chip cloud */
+.blog-tags-list-page ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0;
+}
+.blog-tags-list-page ul li a {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 8px;
+  font-family: var(--pg-font-mono);
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 8px 14px;
+  border: 1.5px solid var(--pg-ink);
+  background: var(--pg-paper-2);
+  color: var(--pg-ink);
+  border-radius: 999px;
+  text-decoration: none;
+}
+.blog-tags-list-page ul li a:hover { background: var(--pg-yellow); }
+
+/* Authors index page — clean inline rows (no card chrome) */
+.blog-authors-list-page section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.blog-authors-list-page section ul > li {
+  list-style: none;
+  background: transparent;
+  border: 0;
+  padding: 0 0 28px;
+  margin: 0 0 28px;
+  border-bottom: 1px solid var(--pg-rule-soft);
+}
+.blog-authors-list-page section ul > li:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.blog-authors-list-page .avatar h2,
+.blog-authors-posts-page .avatar h1 {
+  font-family: var(--pg-font-serif);
+  font-weight: 900;
+  letter-spacing: -0.01em;
+  margin: 0;
+}
+.blog-authors-list-page .avatar h2 a,
+.blog-authors-posts-page .avatar h1 a {
+  color: var(--pg-ink);
+  text-decoration: none;
+  border-bottom: 0;
+}
+.blog-authors-list-page .avatar h2 a:hover,
+.blog-authors-posts-page .avatar h1 a:hover {
+  color: var(--pg-red-ink);
+}
+
+/* Author post-count badge */
+.blog-authors-list-page .avatar span[class*='authorBlogPostCount'] {
+  background: var(--pg-red);
+  color: #fff;
+  font-family: var(--pg-font-mono);
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  border-radius: 999px;
+  padding: 2px 9px;
+  margin-left: 10px;
+  border: 1.5px solid var(--pg-ink);
+}
+
+/* Author "title" line under the name */
+.blog-authors-list-page .avatar small,
+.blog-authors-posts-page .avatar small {
+  font-family: var(--pg-font-sans);
+  font-size: 13px;
+  color: var(--pg-ink-faint);
+  line-height: 1.4;
+  margin-top: 4px;
+}
+
+/* Single-author page header card */
+.blog-authors-posts-page > .container > .row > .col > .avatar {
+  background: #fff;
+  border: 2px solid var(--pg-ink);
+  padding: 22px 24px;
+  margin-bottom: 28px;
+}
+
+/* Author socials icons row */
+:is(.blog-authors-list-page, .blog-authors-posts-page,
+    .blog-post-page, .blog-list-page,
+    .blog-tags-post-list-page) .avatar [class*='socials_'] {
+  margin-top: 6px;
+  display: inline-flex;
+  gap: 8px;
+}
+:is(.blog-authors-list-page, .blog-authors-posts-page,
+    .blog-post-page, .blog-list-page,
+    .blog-tags-post-list-page) .avatar [class*='socials_'] a {
+  color: var(--pg-ink-faint);
+  border-bottom: 0;
+}
+:is(.blog-authors-list-page, .blog-authors-posts-page,
+    .blog-post-page, .blog-list-page,
+    .blog-tags-post-list-page) .avatar [class*='socials_'] a:hover {
+  color: var(--pg-red);
+}
+
+/* Mobile: tighter spacing between stacked posts */
+@media (max-width: 720px) {
+  :is(.blog-list-page, .blog-tags-post-list-page, .blog-authors-posts-page) article {
+    padding-bottom: 36px;
+    margin-bottom: 36px;
   }
 }
 

@@ -26,7 +26,9 @@ interface ImageComponentProps {
  * Usa automaticamente il titolo come alt text quando usa il frontmatter.
  * Supporta solo il campo singolo "image" nel frontmatter.
  */
-const ImageComponent: React.FC<ImageComponentProps> = ({
+// Direct-src branch: doesn't call useDoc(), so it works in any context
+// (docs, blog posts, MDX pages — anywhere ImageComponent gets used).
+const ImageFromSrc: React.FC<ImageComponentProps> = ({
   src,
   alt,
   width,
@@ -34,27 +36,25 @@ const ImageComponent: React.FC<ImageComponentProps> = ({
   style,
   useContainer = true,
 }) => {
+  const imgElement = (
+    <img
+      src={src}
+      alt={alt || ''}
+      width={width}
+      height={height}
+      style={style}
+      className={useContainer ? styles.image : undefined}
+    />
+  );
+
+  return useContainer ? (
+    <div className={styles.imageContainer}>{imgElement}</div>
+  ) : imgElement;
+};
+
+// Frontmatter branch: only mounted inside a docs page (DocProvider context).
+const ImageFromFrontmatter: React.FC = () => {
   const doc = useDoc();
-
-  // Se src è fornito, usa la modalità diretta (props)
-  if (src) {
-    const imgElement = (
-      <img
-        src={src}
-        alt={alt || ''}
-        width={width}
-        height={height}
-        style={style}
-        className={useContainer ? styles.image : undefined}
-      />
-    );
-
-    return useContainer ? (
-      <div className={styles.imageContainer}>{imgElement}</div>
-    ) : imgElement;
-  }
-
-  // Altrimenti usa la modalità frontmatter
   const imagePath = doc?.frontMatter?.image;
   const altText = doc?.frontMatter?.title || 'Immagine';
 
@@ -77,6 +77,13 @@ const ImageComponent: React.FC<ImageComponentProps> = ({
       />
     </div>
   );
+};
+
+const ImageComponent: React.FC<ImageComponentProps> = (props) => {
+  if (props.src) {
+    return <ImageFromSrc {...props} />;
+  }
+  return <ImageFromFrontmatter />;
 };
 
 export default ImageComponent;
