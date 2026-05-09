@@ -7,8 +7,8 @@ description: "Apriamo una sezione blog su paginegiappe.it per raccontare le novi
 image: /img/social_media_card.png
 ---
 
-Sono nato a Roma nel 1977, quindi c’ho una certa età, e ho sempre avuto un’attitudine da nerd.
-Di quelli che smontano le cose per capire come funzionano, che archiviano le ricette su GitHub come se fossero codice, che quando si appassionano a qualcosa finiscono inevitabilmente per studiarla fino in fondo.
+Sono nato a Roma nel 1977 e sono sempre stato un nerd.
+Di quelli che smontano le cose per capire come funzionano e a volte non sanno manco rimontarle, uno di quelli che quando si appassionano a qualcosa finiscono inevitabilmente per studiarla ossessivamente.
 
 <!-- truncate -->
 
@@ -25,7 +25,7 @@ E lui:
 
 > “Sì sì, ma vienimi a trovare.”
 
-E niente, praticamente sono stato un mese a casa sua, a scottargli il divano, a Tokyo.
+E niente, praticamente sono stato un mese a casa sua, a squattargli il divano, a Tokyo.
 
 Devo dire che quella prima volta in Giappone non ci ho capito un granché.
 Non è che non mi fosse piaciuto, semplicemente non capivo. Non capivo il Giappone, non capivo la loro cucina, non capivo quasi nulla di quello che avevo davanti.
@@ -39,7 +39,7 @@ Il Giappone mi sembrava qualcosa di completamente distante da me, e forse propri
 Così appena ho potuto ci sono tornato.
 E poi ancora. E ancora.
 
-2008, 2009, 2010, e avanti così fino al Covid.
+2008, 2009, 2010, e avanti così fino ad oggi.
 
 Nel 2013 ci sono stato per la prima volta con Marta, quella che poi è diventata mia moglie, e da quel viaggio lei ha deciso una cosa molto precisa: nessuna vacanza sarebbe mai stata veramente una vacanza se non fosse iniziata con un viaggio in Giappone.
 
