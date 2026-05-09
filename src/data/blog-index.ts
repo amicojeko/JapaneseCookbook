@@ -38,6 +38,23 @@ export const BLOG_INDEX: BlogIndexEntry[] = [
     ]
   },
   {
+    "slug": "pesce-guarda-a-sinistra",
+    "permalink": "/blog/pesce-guarda-a-sinistra/",
+    "title": "🐟 In Giappone il pesce guarda sempre a sinistra. Sapevatelo!",
+    "description": "Nei piatti, sui libri, sulle stampe, sulle emoji: in Giappone il pesce guarda sempre a sinistra. Perché? Cinque teorie e un'eccezione (la sogliola).",
+    "image": "/img/social_media_card.png",
+    "date": "2026-05-09",
+    "readingTime": 0.89,
+    "authors": [
+      {
+        "key": "jeko",
+        "name": "Stefano \"Jeko\" Guglielmetti",
+        "imageURL": "/img/JEKO-CUCINA-02.png",
+        "title": "Curatore di Pagine Giappe · nerd impenitente e cuoco amatoriale ostinato"
+      }
+    ]
+  },
+  {
     "slug": "benvenuti-nel-blog",
     "permalink": "/blog/benvenuti-nel-blog/",
     "title": "Chi sono, e perché esiste questo blog",
