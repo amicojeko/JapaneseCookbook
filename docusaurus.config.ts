@@ -84,6 +84,16 @@ const config: Config = {
           postsPerPage: 10,
           authorsMapPath: 'authors.yml',
           showReadingTime: true,
+          // Honor `hide_reading_time: true` in a post's frontmatter to
+          // suppress the strip on a single post. Otherwise use 350 wpm
+          // (Docusaurus default is 200; we bump it to better match how
+          // people actually skim editorial-blog content). Keep this in
+          // sync with READING_WPM in scripts/generate-blog-index.js so the
+          // homepage strip and the post header show the same number.
+          readingTime: ({content, frontMatter, defaultReadingTime}) =>
+            frontMatter.hide_reading_time
+              ? undefined
+              : defaultReadingTime({content, options: {wordsPerMinute: 350}}),
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,

@@ -14,6 +14,8 @@ export type BlogIndexEntry = {
   description: string | null;
   image: string | null;
   date: string;
+  /** Reading time in minutes (float). null when hide_reading_time is set. */
+  readingTime: number | null;
   authors: BlogIndexAuthor[];
 };
 
@@ -21,16 +23,17 @@ export const BLOG_INDEX: BlogIndexEntry[] = [
   {
     "slug": "chi-e-il-fujitivo",
     "permalink": "/blog/chi-e-il-fujitivo/",
-    "title": "Chi è Erick «il Fujitivo»",
-    "description": "Vi presento Erick Simionato, alias il Fujitivo: viaggiatore in Giappone dal 2008, autore di «Andiamo in Giappone» e da oggi firma della sezione viaggi di Pagine Giappe.",
+    "title": "Mi presento: sono Erick, «il Fujitivo»",
+    "description": "Sono Erick Simionato, alias il Fujitivo: viaggiatore in Giappone dal 2008, autore di «Andiamo in Giappone». Da oggi mi unisco a Pagine Giappe per parlarvi di viaggi.",
     "image": "/img/authors/logo_ilfujitivo.png",
     "date": "2026-05-09",
+    "readingTime": 0.65,
     "authors": [
       {
-        "key": "jeko",
-        "name": "Stefano \"Jeko\" Guglielmetti",
-        "imageURL": "/img/JEKO-CUCINA-02.png",
-        "title": "Curatore di Pagine Giappe · nerd impenitente e cuoco amatoriale ostinato"
+        "key": "fujitivo",
+        "name": "Erick \"il Fujitivo\"",
+        "imageURL": "/img/authors/logo_ilfujitivo.png",
+        "title": "Viaggiatore in Giappone dal 2008 · autore di \"Andiamo in Giappone\""
       }
     ]
   },
@@ -41,6 +44,7 @@ export const BLOG_INDEX: BlogIndexEntry[] = [
     "description": "Apriamo una sezione blog su paginegiappe.it per raccontare le novità del sito, gli ingredienti che proviamo, i negozi che scopriamo e i viaggi in Giappone.",
     "image": "/img/social_media_card.png",
     "date": "2026-05-08",
+    "readingTime": 2.1,
     "authors": [
       {
         "key": "jeko",

@@ -46,6 +46,9 @@ function PostCard({post}: {post: BlogIndexEntry}): React.ReactElement {
         <div className={styles.content}>
           <div className={styles.eyebrow}>
             <time dateTime={post.date}>{formatDate(post.date)}</time>
+            {post.readingTime != null && (
+              <span> · {Math.ceil(post.readingTime)} min</span>
+            )}
             {author && <span className={styles.author}> · {author.name}</span>}
           </div>
           <Heading as="h3" className={styles.title}>{post.title}</Heading>

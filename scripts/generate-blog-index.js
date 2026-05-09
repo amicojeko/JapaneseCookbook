@@ -6,11 +6,18 @@ const fs = require('fs');
 const path = require('path');
 const matter = require('gray-matter');
 const yaml = require('js-yaml');
+// Use the same calculator Docusaurus uses for the post page so the homepage
+// strip and the post header always show the same number (no drift).
+const {calculateReadingTime} = require('@docusaurus/plugin-content-blog/lib/readingTime.js');
 
 const BLOG_ROOT = path.join(process.cwd(), 'blog');
 const AUTHORS_FILE = path.join(BLOG_ROOT, 'authors.yml');
 const OUTPUT_FILE = path.join(process.cwd(), 'src', 'data', 'blog-index.ts');
 const MAX_POSTS = 6;
+const LOCALE = 'it';
+// Keep in sync with the readingTime callback in docusaurus.config.ts so the
+// homepage strip and the post header always show the same number.
+const READING_WPM = 350;
 
 function readAuthors() {
   if (!fs.existsSync(AUTHORS_FILE)) return {};
@@ -83,10 +90,14 @@ function build() {
   const posts = files
     .map((filePath) => {
       const raw = fs.readFileSync(filePath, 'utf8');
-      const {data: fm} = matter(raw);
+      const {data: fm, content} = matter(raw);
       const date = (typeof fm.date === 'string' && fm.date) || dateFromPath(filePath);
       if (!date || !fm.title) return null;
       const slug = slugFromFrontmatter(fm, filePath);
+      // Mirror docusaurus.config.ts: respect hide_reading_time opt-out.
+      const readingTime = fm.hide_reading_time
+        ? null
+        : calculateReadingTime(content, LOCALE, {wordsPerMinute: READING_WPM});
       return {
         slug,
         permalink: `/blog/${slug.replace(/^\//, '')}/`,
@@ -94,6 +105,7 @@ function build() {
         description: typeof fm.description === 'string' ? fm.description : null,
         image: typeof fm.image === 'string' ? fm.image : null,
         date,
+        readingTime,
         authors: authorsFromFrontmatter(fm.authors, authors),
       };
     })
@@ -117,6 +129,8 @@ export type BlogIndexEntry = {
   description: string | null;
   image: string | null;
   date: string;
+  /** Reading time in minutes (float). null when hide_reading_time is set. */
+  readingTime: number | null;
   authors: BlogIndexAuthor[];
 };
 `;
