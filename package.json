@@ -5,7 +5,7 @@
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
-    "prebuild": "node scripts/generate-image-metadata.js && node scripts/generate-ingredient-recipes.js && node scripts/generate-recipe-data.js && node scripts/generate-faq-data.js && node scripts/optimize-images.js",
+    "prebuild": "node scripts/generate-image-metadata.js && node scripts/generate-ingredient-recipes.js && node scripts/generate-recipe-data.js && node scripts/generate-faq-data.js && node scripts/generate-blog-index.js && node scripts/optimize-images.js",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",

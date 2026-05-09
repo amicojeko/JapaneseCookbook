@@ -1,0 +1,131 @@
+/* "Dal blog" strip — editorial cards in line with the Bentō × Izakaya look. */
+.wrapper {
+  margin: 2rem 0 2.5rem;
+}
+
+.headerRow {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 0.6rem;
+}
+
+.heading {
+  margin: 0;
+  font-family: var(--pg-font-serif);
+  font-weight: 900;
+  letter-spacing: -0.015em;
+  font-size: clamp(22px, 2.6vw, 30px);
+  color: var(--pg-ink);
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.seeAll {
+  font-family: var(--pg-font-mono);
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--pg-red);
+  text-decoration: none;
+  white-space: nowrap;
+  border-bottom: 1px dotted var(--pg-red);
+  padding-bottom: 1px;
+}
+.seeAll:hover {
+  color: var(--pg-red-ink);
+  border-bottom-style: solid;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.25rem;
+}
+
+.cardLink {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  transition: transform 0.15s ease;
+}
+.cardLink:hover { transform: translateY(-3px); text-decoration: none; }
+
+.card {
+  border: 2px solid var(--pg-ink);
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  transition: box-shadow 0.15s ease;
+}
+.cardLink:hover .card {
+  box-shadow: 5px 5px 0 var(--pg-ink);
+}
+
+.imageWrapper {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: var(--pg-paper-2);
+  border-bottom: 2px solid var(--pg-ink);
+}
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border: none !important;
+  transition: transform 0.3s ease;
+}
+.cardLink:hover .image { transform: scale(1.04); }
+
+.content {
+  padding: 14px 16px 16px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.eyebrow {
+  font-family: var(--pg-font-mono);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--pg-ink-faint);
+}
+.eyebrow time { color: var(--pg-ink); }
+.author { color: var(--pg-ink-faint); }
+
+.title {
+  margin: 2px 0 4px;
+  font-family: var(--pg-font-serif);
+  font-weight: 900;
+  letter-spacing: -0.01em;
+  font-size: 20px;
+  line-height: 1.15;
+  color: var(--pg-ink);
+}
+
+.description {
+  margin: 0;
+  font-family: var(--pg-font-serif);
+  font-size: 15px;
+  line-height: 1.45;
+  color: var(--pg-ink-soft);
+  flex: 1;
+}
+
+.cta {
+  margin-top: 8px;
+  align-self: flex-start;
+  font-family: var(--pg-font-mono);
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--pg-red);
+}
+.cardLink:hover .cta { color: var(--pg-red-ink); }

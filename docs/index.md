@@ -9,6 +9,7 @@
 ---
 import '../src/css/homepage.css';
 import DocsByIdGrid from '@site/src/components/DocsByIdGrid';
+import LatestBlogPosts from '@site/src/components/LatestBlogPosts';
 
 export const CATEGORIES = [
   'ricette/preparazioni_di_base/index',
@@ -63,6 +64,8 @@ Qui trovi cucina casalinga e da izakaya, niente fusion e niente piatti da all yo
     rel="noopener noreferrer"
   >Supporta con PayPal →</a>
 </div>
+
+<LatestBlogPosts limit={4} minPosts={4} />
 
 ## 🔥 Ricette più cercate
 
