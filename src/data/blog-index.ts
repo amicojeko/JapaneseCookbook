@@ -19,6 +19,22 @@ export type BlogIndexEntry = {
 
 export const BLOG_INDEX: BlogIndexEntry[] = [
   {
+    "slug": "chi-e-il-fujitivo",
+    "permalink": "/blog/chi-e-il-fujitivo/",
+    "title": "Chi è Erick «il Fujitivo»",
+    "description": "Vi presento Erick Simionato, alias il Fujitivo: viaggiatore in Giappone dal 2008, autore di «Andiamo in Giappone» e da oggi firma della sezione viaggi di Pagine Giappe.",
+    "image": "/img/authors/logo_ilfujitivo.png",
+    "date": "2026-05-09",
+    "authors": [
+      {
+        "key": "jeko",
+        "name": "Stefano \"Jeko\" Guglielmetti",
+        "imageURL": "/img/JEKO-CUCINA-02.png",
+        "title": "Curatore di Pagine Giappe · nerd impenitente e cuoco amatoriale ostinato"
+      }
+    ]
+  },
+  {
     "slug": "benvenuti-nel-blog",
     "permalink": "/blog/benvenuti-nel-blog/",
     "title": "Chi sono, e perché esiste questo blog",
