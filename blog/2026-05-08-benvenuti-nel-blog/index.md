@@ -7,8 +7,6 @@ description: "Apriamo una sezione blog su paginegiappe.it per raccontare le novi
 image: /img/social_media_card.png
 ---
 
-# Chi sono, e perché esiste questo blog
-
 Sono nato a Roma nel 1977, quindi c’ho una certa età, e ho sempre avuto un’attitudine da nerd.
 Di quelli che smontano le cose per capire come funzionano, che archiviano le ricette su GitHub come se fossero codice, che quando si appassionano a qualcosa finiscono inevitabilmente per studiarla fino in fondo.
 
