@@ -5,6 +5,10 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import {RECIPE_DATA, type RecipeData} from '@site/src/data/recipe-data';
 
 const FALLBACK_SITE_URL = 'https://paginegiappe.it';
+// Schema.org Recipe richiede `image` per la validazione di Google: senza
+// immagine la ricetta viene scartata dal rich result. Quando il frontmatter
+// non specifica un'immagine, ricadiamo sul social media card del sito.
+const FALLBACK_IMAGE = '/img/social_media_card.png';
 const AUTHOR = {
   '@type': 'Person',
   name: 'Stefano Guglielmetti',
@@ -66,7 +70,7 @@ function buildRecipeSchema(
     recipeCuisine: 'Giapponese',
     keywords: keywordParts.join(', '),
   };
-  const imageUrl = absoluteUrl(siteUrl, data.image);
+  const imageUrl = absoluteUrl(siteUrl, data.image) ?? absoluteUrl(siteUrl, FALLBACK_IMAGE);
   if (imageUrl) schema.image = [imageUrl];
   if (data.recipeCategory) schema.recipeCategory = data.recipeCategory;
   if (data.recipeYield) schema.recipeYield = data.recipeYield;
