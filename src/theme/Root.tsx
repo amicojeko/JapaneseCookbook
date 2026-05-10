@@ -13,6 +13,10 @@ const SITE_URL = 'https://paginegiappe.it';
  * vede al crawl. Il SearchAction punta a /search?q=... (Algolia gestisce
  * la modal — il path e' fittizio ma semantically valido per il sitelinks
  * search box di Google).
+ *
+ * Nota: i prefetch/preconnect per googletagmanager + Google Fonts sono SSR'd
+ * via `headTags` in docusaurus.config.ts (no useEffect runtime — il warm-up
+ * delle connessioni deve partire al primo paint, non dopo l'idratazione).
  */
 const WEBSITE_SCHEMA = {
   '@context': 'https://schema.org',
@@ -33,32 +37,7 @@ const WEBSITE_SCHEMA = {
   },
 };
 
-/**
- * Custom Root component: performance prefetch + global WebSite schema.
- */
 export default function Root({children}: Props): ReactNode {
-  React.useEffect(() => {
-    // Aggiungi prefetch per CDN e servizi third-party
-    const head = document.head;
-
-    const links = [
-      // Prefetch domains we know will be used
-      // (Google Fonts hints are emitted SSR via `headTags` in docusaurus.config.ts.)
-      { rel: 'dns-prefetch', href: '//www.googletagmanager.com' },
-      { rel: 'dns-prefetch', href: '//www.google-analytics.com' },
-      // Preconnect to critical resources
-      { rel: 'preconnect', href: '//www.googletagmanager.com' },
-    ];
-
-    links.forEach(({rel, href}) => {
-      const link = document.createElement('link');
-      link.rel = rel;
-      link.href = href;
-      head.appendChild(link);
-    });
-
-  }, []);
-
   return (
     <>
       <Head>

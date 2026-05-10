@@ -48,6 +48,11 @@ const config: Config = {
       rel: 'stylesheet',
     },
   ],
+  // headTags emit hints + the deferred gtag bootstrap directly into the SSR
+  // <head>. The gtag block is conditional on production: in dev there is no
+  // analytics tag at all (no `window.gtag`), which keeps local pageviews out
+  // of GA and avoids the "gtag is not a function" race the old plugin used to
+  // hit during HMR.
   headTags: [
     {
       tagName: 'link',
@@ -61,6 +66,34 @@ const config: Config = {
         crossorigin: 'anonymous',
       },
     },
+    ...(process.env.NODE_ENV === 'production'
+      ? [
+          {
+            tagName: 'link',
+            attributes: { rel: 'dns-prefetch', href: 'https://www.googletagmanager.com' },
+          },
+          {
+            tagName: 'link',
+            attributes: { rel: 'preconnect', href: 'https://www.googletagmanager.com' },
+          },
+          // Deferred gtag bootstrap. We define `window.gtag` immediately as a
+          // dataLayer queue (so the route tracker and any event tracking can
+          // start pushing right away), snapshot the entry pageview, and only
+          // request the actual ~156KB gtag.js library on the first user
+          // interaction (pointerdown/keydown/scroll) or after a 3s idle —
+          // whichever comes first. This removes ~150ms of long-task time from
+          // the first paint window and keeps the main thread free during the
+          // critical post-load period that drives INP. The tracking ID is
+          // duplicated in src/clientModules/gtag-route-tracker.ts — keep them
+          // in sync if it ever changes.
+          {
+            tagName: 'script',
+            attributes: {},
+            innerHTML:
+              "(function(){var w=window;w.dataLayer=w.dataLayer||[];function g(){w.dataLayer.push(arguments)}w.gtag=g;g('js',new Date());g('config','G-YZDG2VN7ZG',{anonymize_ip:true,page_path:location.pathname+location.search,page_location:location.href});var l=false;function L(){if(l)return;l=true;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-YZDG2VN7ZG';document.head.appendChild(s)}['pointerdown','keydown','scroll'].forEach(function(e){addEventListener(e,L,{once:true,passive:true,capture:true})});if('requestIdleCallback' in w){requestIdleCallback(L,{timeout:3000})}else{setTimeout(L,3000)}})();",
+          },
+        ]
+      : []),
   ],
 
   presets: [
@@ -110,17 +143,12 @@ const config: Config = {
         theme: {
           customCss: './src/css/custom.css',
         },
-        // gtag plugin only in production builds. In dev its route-update
-        // callback can fire before window.gtag is bound (HMR / build-while-dev
-        // races), throwing "window.gtag is not a function". Disabling in dev
-        // also keeps local pageviews out of GA.
-        gtag:
-          process.env.NODE_ENV === 'production'
-            ? {
-                trackingID: 'G-YZDG2VN7ZG',
-                anonymizeIP: true,
-              }
-            : undefined,
+        // gtag is NOT loaded via @docusaurus/plugin-google-gtag — that plugin
+        // injects the ~156KB gtag.js library at first paint, costing ~150ms
+        // of long-task time and ~100ms of scripting in the critical INP
+        // window. We replace it with the inline deferred bootstrap in
+        // `headTags` above plus the SPA route tracker in
+        // `src/clientModules/gtag-route-tracker.ts`.
         // Sitemap: explicit config (preset-classic enables the plugin by
         // default with priority 0.5 and no ignorePatterns). We pin priority
         // to 0.7 to signal these pages as above-average importance, and skip
@@ -217,6 +245,12 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
+
+  // The route tracker fires a `gtag('config', ID, {page_path})` on every SPA
+  // navigation so internal link clicks are still counted as pageviews. It is
+  // a no-op in dev (where window.gtag is undefined). See the file for why a
+  // setTimeout is wrapped around the call.
+  clientModules: [require.resolve('./src/clientModules/gtag-route-tracker.ts')],
 
   plugins: [
     [

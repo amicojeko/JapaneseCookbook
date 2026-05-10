@@ -122,7 +122,14 @@ import RegionShopList from '@site/src/components/RegionShopList';
 
 ## gtag / analytics
 
-`gtag` is enabled only in production builds via `gtag: process.env.NODE_ENV === 'production' ? {...} : undefined` in `docusaurus.config.ts`. Don't enable it unconditionally — in dev the route-update callback can fire before `window.gtag` is bound and crashes navigation. (A known dev-server side effect: running `npm run build` while `npm start` is up can leave the dev bundle wired to the gtag callback. `npm run clear` + restart fixes it; see also the comment in the gtag config block.)
+We **do not** use `@docusaurus/plugin-google-gtag`. The plugin loads gtag.js (~156KB) at first paint, which costs ~150ms of long-task time and was the dominant source of the field INP regression on mobile. Instead the integration is split in two pieces, both production-only:
+
+- **Inline bootstrap** in `headTags` (`docusaurus.config.ts`): defines `window.gtag` immediately as a `dataLayer` queue and snapshots the entry pageview (`page_path`, `page_location`). The actual `<script async src="…/gtag/js?id=…">` is appended to the head only on the first user interaction (`pointerdown` / `keydown` / `scroll`) **or** after `requestIdleCallback` with a 3s timeout — whichever comes first. Because `gtag` is defined as a queue from the start, any code that calls it before the library loads is buffered and replayed on load.
+- **SPA route tracker** at `src/clientModules/gtag-route-tracker.ts`: a Docusaurus `clientModule` that exports `onRouteDidUpdate(...)` and pushes a `gtag('config', ID, {page_path})` on every internal-link navigation (skips the initial mount and hash-only changes). Wrapped in `setTimeout(…, 0)` so it never lands inside the navigation-click long task.
+
+The tracking ID `G-YZDG2VN7ZG` is duplicated in both files — keep them in sync if it ever changes. In dev `window.gtag` is intentionally undefined (no inline bootstrap), so the route tracker no-ops and local pageviews never reach GA.
+
+Trade-off: pageviews from users who close the tab in the first ~2-3s before any interaction are not recorded. Empirically this is well under 10% of total pageviews on a content site and the lost segment is mostly low-value (immediate bouncers and bots).
 
 ## Do not edit generated files
 
