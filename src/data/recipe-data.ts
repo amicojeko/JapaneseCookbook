@@ -734,23 +734,26 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "docId": "ricette/preparazioni_di_base/salse/ponzu",
     "title": "Salsa Ponzu",
     "description": "Salsa fresca ed agrumata",
-    "image": null,
+    "image": "/img/ricette/ponzu.jpg",
     "recipeCategory": "Salse",
     "recipeKeywords": [
       "mirin",
-      "rice",
-      "yuzu"
+      "yuzu",
+      "shoyu",
+      "dashi"
     ],
     "recipeYield": null,
     "recipeIngredient": [
       "2 parti di salsa di soia",
       "1 parte e ½ di dashi",
-      "1 parte di succo di yuzu (si può sostituire con il limone o il lime, secondo i gusti)",
+      "1 parte di succo di limone (come alternativa allo yuzu)",
       "½ parte di aceto di riso",
       "1 parte di mirin"
     ],
-    "instructionsText": "Mescolare a freddo in una ciotolina, e lasciare riposare in frigo per almeno 30 minuti prima di servire. Si conserva per un sacco di tempo, non sono mai riuscito a farla andare a male!",
-    "videoIds": [],
+    "instructionsText": "Preparare la salsa ponzu è semplicissimo, anche perché non richiede alcuna cottura. Il segreto di questa ricetta risiede tutto nel rispetto delle proporzioni tra gli ingredienti. Per misurare i liquidi in modo rapido e preciso, è utilissimo l'impiego di un misurino da cocktail (jigger). In una ciotola, versate per prima cosa le due parti di salsa di soia e la parte e mezza di brodo dashi. Aggiungete successivamente la parte di succo di limone, la mezza parte di aceto di riso e la parte di mirin. A questo punto, utilizzate un paio di bacchette (o un cucchiaio) per mescolare accuratamente tutti i liquidi. Una volta amalgamato il tutto, filtrate il composto aiutandovi con un colino a maglie strette per rimuovere eventuali impurità o residui del limone. Non vi resta che imbottigliare la vostra salsa ponzu. È subito pronta per insaporire i vostri piatti!",
+    "videoIds": [
+      "nfS6pnLkvMU"
+    ],
     "datePublished": "2021-08-13T18:10:22+02:00"
   },
   "ricette/preparazioni_di_base/salse/takoyaki": {

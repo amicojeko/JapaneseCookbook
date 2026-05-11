@@ -45,6 +45,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/yaki-udon"
     },
     {
+      "id": "ricette/preparazioni_di_base/salse/ponzu",
+      "title": "Salsa Ponzu",
+      "description": "Salsa fresca ed agrumata",
+      "permalink": "/ricette/salsa_ponzu"
+    },
+    {
       "id": "ricette/riso/soborodon",
       "title": "Soboro Don",
       "description": "La colorata e sfiziosa ciotola di riso giapponese a base di pollo e uova strapazzate, perfetta per un pasto ricco di proteine",
@@ -1157,6 +1163,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Dashi Vegano",
       "description": "La base fondamentale della cucina giapponese in versione vegana. Un brodo ricco di umami preparato con alga kombu e funghi shiitake.",
       "permalink": "/ricette/dashi_vegan"
+    },
+    {
+      "id": "ricette/preparazioni_di_base/salse/ponzu",
+      "title": "Salsa Ponzu",
+      "description": "Salsa fresca ed agrumata",
+      "permalink": "/ricette/salsa_ponzu"
     }
   ],
   "rice": [
@@ -1165,12 +1177,6 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Salsa Okonomiyaki",
       "description": "Salsa per gli okonomiyaki",
       "permalink": "/ricette/salsa_okonomiyaki"
-    },
-    {
-      "id": "ricette/preparazioni_di_base/salse/ponzu",
-      "title": "Salsa Ponzu",
-      "description": "Salsa fresca ed agrumata",
-      "permalink": "/ricette/salsa_ponzu"
     },
     {
       "id": "ricette/riso/gyudon",
