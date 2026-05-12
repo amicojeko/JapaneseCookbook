@@ -74,6 +74,7 @@ Una raccolta rapida di canali YouTube e account Instagram utili per ricette, tec
 - [@nigirikuni](https://www.instagram.com/nigirikuni/) — top sushi chef.
 - [@justonecookbook](https://www.instagram.com/justonecookbook/) — ricette giapponesi spiegate in inglese, molto dettagliate e con foto passo passo, account del famoso blog Just One Cookbook.
 - [@oiri.kitchen](https://www.instagram.com/oiri.kitchen/) — tecniche di taglio giapponese avanzate.
+- [@onigirisando_days](https://www.instagram.com/onigirisando_days/) — account interamente dedicato a onigirisando/onigirazu.
 
 ### Lingua giapponese
 
