@@ -4,7 +4,7 @@ title: "Cosa definisce il ramen? Storia e varietà più comuni"
 authors: [aki]
 tags: [cucina, ingredienti]
 description: "Cos'è davvero il ramen? Dal kansui che lo distingue da tutti gli altri noodle in brodo alle varietà più popolari: shoyu, shio, tonkotsu, iekei, niboshi, Sapporo miso."
-image: /img/social_media_card.png
+image: /img/blog/Shoyu_ramen_Hayashida_Ikebukuro.jpg
 ---
 
 Un turista arriva in Giappone ed entra in un ristorante di ramen bramoso di provare per la prima volta il piatto autentico, aspettandosi un brodo denso dal sapore di maiale; invece gli viene servito un brodo limpido che sa di pesce essiccato. Un po' come può succedere a un giapponese che vede "lasagne" scritto sul menù e le ordina senza leggere il resto pensando che si facciano solo con il ragù alla bolognese, e invece si sorprende quando gli vengono servite lasagne di pesce in bianco.
@@ -30,6 +30,12 @@ Tra i ramen più tradizionali troviamo lo **shoyu ramen**. Questo è stato il pr
 
 Il brodo è uno *assari*, ovvero limpido, leggero ed elegante. Spesso è ottenuto da un mix di pollo, maiale o pesce. Il tare dello shoyu ramen è una miscela di diverse salse di soia invecchiate e ingredienti segreti. I noodle solitamente sono fini e dritti.
 
+<ImageComponent
+  src="/img/blog/Shoyu_ramen_Hayashida_Ikebukuro.jpg"
+  alt="Ciotola di shoyu ramen servita dal ristorante Hayashida a Ikebukuro, con brodo limpido ambrato e noodle sottili e dritti"
+  caption="Shoyu ramen — Hayashida, Ikebukuro (Tokyo)."
+/>
+
 ## Shio ramen
 
 Quasi parallelamente allo shoyu ramen si è sviluppato anche lo **shio ramen**. Nasce alla fine dell'800 a Hakodate, Hokkaido, dove gli immigrati cinesi introdussero una zuppa di noodle chiara e salata chiamata *chintan*.
@@ -37,6 +43,12 @@ Quasi parallelamente allo shoyu ramen si è sviluppato anche lo **shio ramen**. 
 Il brodo nella versione classica è leggero e quasi trasparente. Si ottiene bollendo dolcemente ossa di pollo, maiale o pesce. Ne esiste anche la variante torbida (*paitan*) più moderna, ottenuta bollendo la carne per ore facendo sì che il grasso emulsioni con l'acqua dandogli una consistenza e un aspetto simile al latte. Quest'ultima, lo shio ramen paitan con brodo principalmente di pollo, è molto popolare.
 
 Il tare è a base di sale marino — *shio* vuol dire proprio sale — combinato con kombu e spesso seppia essiccata o capesante, per dare profondità. Tradizionalmente si usano noodle dritti e sottili per la versione limpida, mentre nel paitan non è raro trovare noodle leggermente più spessi o addirittura ondulati per trattenere meglio la cremosità del brodo.
+
+<ImageComponent
+  src="/img/blog/Shio_paitan_Ramen_Ore_Ryu_Shio_Ramen.jpg"
+  alt="Ciotola di shio paitan ramen del ristorante Ore Ryu Shio Ramen, con brodo cremoso e biancastro a base di sale"
+  caption="Shio paitan ramen — Ore Ryu Shio Ramen."
+/>
 
 ## Tonkotsu: Hakata ramen
 
@@ -46,17 +58,35 @@ Quando gli italiani pensano al ramen, probabilmente si immaginano il **tonkotsu 
 
 Il brodo è *kotteri*, ovvero denso e dal sapore intenso. Come il paitan, la consistenza cremosa e il colore biancastro sono ottenuti facendo emulsionare il grasso della carne con la bollitura prolungata. Il tare è solitamente sale, zucchero e kombu o katsuobushi. Per essere definito Hakata ramen, i noodle devono essere molto sottili e dritti.
 
+<ImageComponent
+  src="/img/blog/Tonkotsu_ramen_Tonchin_a_Ikebukuro.jpg"
+  alt="Ciotola di tonkotsu ramen del ristorante Tonchin a Ikebukuro, con brodo denso a base di ossa di maiale"
+  caption="Tonkotsu ramen — Tonchin, Ikebukuro (Tokyo)."
+/>
+
 ## Iekei
 
 Un'altra tonkotsu molto popolare è lo **iekei**. Questo ramen è molto più recente: nato nel 1974 dal ristorante **Yoshimura-ya** (Yokohama). Si chiama così perché i ristoranti che lo riproposero mantennero il kanji di *ya* (家) nel nome, kanji che si può leggere anche *ie*.
 
 Essendo un tonkotsu, il brodo è kotteri. Si differenzia dal tonkotsu di Hakata per l'uso prominente della salsa di soia, che gli dà il suo tipico colore scuro, e per i noodle spessi, piatti e corti.
 
+<ImageComponent
+  src="/img/blog/Iekei_ramen_Akutagawa_kyoto.jpg"
+  alt="Ciotola di iekei ramen del ristorante Akutagawa a Kyoto, con brodo scuro arricchito di salsa di soia e noodle spessi e piatti"
+  caption="Iekei ramen — Akutagawa, Kyoto."
+/>
+
 ## Niboshi ramen
 
 Nelle coste settentrionali della Honshū, l'isola centrale del Giappone, dove vengono pescati moltissimi pesci piccoli tra cui sardine e acciughe, nasce un ramen dove il pesce è l'ingrediente principale del brodo. Si chiama **niboshi ramen**, in quanto è fatto con dashi di *niboshi*, pesci piccoli bolliti e poi essiccati al sole.
 
 Il brodo si ottiene lasciando il niboshi in infusione spesso insieme a kombu e talvolta pollo o maiale. Ne esistono sia una versione limpida e leggera, sia una densa e grigiastra, data dal pesce polverizzato. La prima è solitamente fatta con un tare di sale, mentre la seconda con un tare di soia. Spesso è abbinato a noodle di medio spessore e con un'alta percentuale di kansui per resistere alla sapidità del pesce.
+
+<ImageComponent
+  src="/img/blog/Niboshi_ramen_Niboshi_Maru_Saitama_eki.jpg"
+  alt="Ciotola di niboshi ramen del ristorante Niboshi Maru alla stazione di Saitama, con brodo a base di pesce essiccato"
+  caption="Niboshi ramen — Niboshi Maru, stazione di Saitama."
+/>
 
 ## Sapporo miso ramen
 

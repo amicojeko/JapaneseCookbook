@@ -34,6 +34,7 @@ This is a Docusaurus static site. Content lives in `docs/` as Markdown/MDX. Cust
 - `docs/libri/` — Book recommendations
 - `docs/viaggi/` — Travel guides
 - `docs/video/` — Films / anime / TV (slug `/film_anime_serie_tv`)
+- `blog/` — Docusaurus blog. One post per folder (`YYYY-MM-DD-slug/index.md`). Authors in `blog/authors.yml`, tags in `blog/tags.yml`.
 
 **Design system (`src/css/custom.css`):**
 - Bentō × Izakaya tokens: `--pg-ink`, `--pg-paper`, `--pg-paper-2`, `--pg-red`, `--pg-yellow`, `--pg-rule-soft`, etc.
@@ -45,7 +46,7 @@ This is a Docusaurus static site. Content lives in `docs/` as Markdown/MDX. Cust
 - `CategoryIndexPage` — Used in `index.md` files inside category folders to auto-render a card grid; delegates to `DocCardGrid`.
 - `DocCardGrid` / `DocCard` — Card grid + single card. Auto-loads images from `/image-metadata.json`.
 - `ArticleCard` — Editorial-row card (subtitle + image + content) used on `/film_anime_serie_tv`.
-- `ImageComponent` — Recipe hero image rendered from frontmatter.
+- `ImageComponent` — Two modes. (a) **No props** inside a docs page: reads `image` from frontmatter and renders the recipe hero. (b) **With `src` / `alt` props**: renders that specific image, usable anywhere (docs, blog posts, MDX pages). Accepts an optional `caption` (string or JSX); when present, the component renders `<figure>` + `<figcaption>` for proper semantics, otherwise a plain `<div>` container. Both modes are centered with 1.5rem vertical margin. **Globally registered in `src/theme/MDXComponents.tsx`** — no import needed in `.md` / `.mdx`. This is the default for inline content images; only fall back to raw markdown `![](…)` for tiny inline icons.
 - `YouTubeVideo` — Embed.
 - `NegoziMap` — Leaflet map with custom red teardrop SVG pin (single shared `divIcon` instance, no `is-online` variant). Cluster styled black-with-yellow-border + red shadow. Popups use `.pop-card` / `.pop-name` / `.pop-addr` / `.pop-note` / `.pop-actions`.
 - `NegoziStats` — Editorial meta-strip (Negozi / Regioni / Città) for the map page header.
@@ -113,6 +114,52 @@ import RegionShopList from '@site/src/components/RegionShopList';
 **Inline icons in markdown content:** add `className="social-icon"` (existing convention) or `className="no-border"` to opt out of the global recipe-image border + paper-fill rule. Markdown content `<img>`s otherwise pick up a 2px ink border with a `--pg-paper-2` backdrop.
 
 **City headings inside `RegionShopList`** are real `<h2>` elements for screen-reader heading navigation. The CSS explicitly neutralises the global `.markdown h2` cascade (zero `border`, `padding`, `margin`) on `.city-section .city-name`.
+
+## Blog posts
+
+Each post is its own folder under `blog/`: `blog/YYYY-MM-DD-slug/index.md`. The date in the folder name drives the publication date; don't duplicate it in frontmatter.
+
+**Post frontmatter:**
+```yaml
+---
+slug: my-post-slug                          # final URL is /blog/<slug>
+title: "Post title"
+authors: [aki]                              # key from blog/authors.yml; can be multiple
+tags: [cucina, ingredienti]                 # keys from blog/tags.yml
+description: "Short SEO description, 1–2 sentences."
+image: /img/blog/foo.jpg                    # used for OG / social card and blog-index hero
+---
+```
+
+Place the truncation marker (`<!-- truncate -->`) right after the lead paragraph. Everything before it shows in the blog index excerpt.
+
+**Adding a new author** — edit `blog/authors.yml`:
+```yaml
+aki:
+  name: Aki Nakagoe
+  title: Cuoco giapponese e divulgatore della cucina washoku casalinga
+  url: https://www.instagram.com/aki_nonsolosushi/    # primary author link
+  image_url: /img/authors/aki.jpg                     # optional; omit if you don't have a photo
+  page: true                                          # generates /blog/authors/aki
+  socials:
+    instagram: https://www.instagram.com/aki_nonsolosushi/
+```
+
+**Adding a new tag** — edit `blog/tags.yml` (key + `label` + `permalink` + `description`). Don't reference a tag in a post before adding it to `tags.yml`; Docusaurus will fail the build.
+
+**Inline images: always use `<ImageComponent>`, not raw markdown `![](…)`.** The component is registered globally so no import is required in the `.md` file. Pass `caption` to get a proper `<figure>` + `<figcaption>`:
+
+```mdx
+<ImageComponent
+  src="/img/blog/Shoyu_ramen_Hayashida_Ikebukuro.jpg"
+  alt="Ciotola di shoyu ramen del ristorante Hayashida a Ikebukuro, brodo limpido ambrato"
+  caption="Shoyu ramen — Hayashida, Ikebukuro (Tokyo)."
+/>
+```
+
+- Drop blog photos in `static/img/blog/`. The prebuild image pipeline (`npm run prebuild`) picks them up and generates the responsive `-320w` / `-640w` `.webp` / `.jpg` variants automatically.
+- Alt text describes the image content for screen readers and SEO; the caption is editorial context (rendered italic and muted). Don't duplicate the same string in both.
+- The frontmatter `image:` should point to the same in-post photo when one is a natural lead (the SEO `image:` is what becomes the Open Graph / Twitter card). Avoid `/img/social_media_card.png` as a default when a real post image exists.
 
 ## Data modules (single source of truth)
 

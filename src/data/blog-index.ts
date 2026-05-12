@@ -21,6 +21,22 @@ export type BlogIndexEntry = {
 
 export const BLOG_INDEX: BlogIndexEntry[] = [
   {
+    "slug": "cosa-definisce-il-ramen",
+    "permalink": "/blog/cosa-definisce-il-ramen/",
+    "title": "Cosa definisce il ramen? Storia e varietà più comuni",
+    "description": "Cos'è davvero il ramen? Dal kansui che lo distingue da tutti gli altri noodle in brodo alle varietà più popolari: shoyu, shio, tonkotsu, iekei, niboshi, Sapporo miso.",
+    "image": "/img/blog/Shoyu_ramen_Hayashida_Ikebukuro.jpg",
+    "date": "2026-05-12",
+    "readingTime": 3.75,
+    "authors": [
+      {
+        "key": "aki",
+        "name": "Aki Nakagoe",
+        "title": "Cuoco giapponese e divulgatore della cucina washoku casalinga"
+      }
+    ]
+  },
+  {
     "slug": "chi-e-il-fujitivo",
     "permalink": "/blog/chi-e-il-fujitivo/",
     "title": "Mi presento: sono Erick, «il Fujitivo»",
