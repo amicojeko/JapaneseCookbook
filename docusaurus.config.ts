@@ -152,14 +152,15 @@ const config: Config = {
     },
     image: 'img/social_media_card.png',
     metadata: [
+      // Card format only. Twitter/X falls back to og:title / og:description
+      // when twitter:title / twitter:description aren't set — and Docusaurus
+      // auto-generates og:* per page from frontmatter (title / description
+      // / image), so setting twitter:title / twitter:description here would
+      // hardcode site-wide strings on every page (already happened: blog
+      // posts showed "Le ricette giapponesi di Jeko" instead of the post
+      // title on X cards). Keep this minimal; let og:* be the single source
+      // of truth. twitter:image is auto-emitted per page by Docusaurus.
       {name: 'twitter:card', content: 'summary_large_image'},
-      {name: 'twitter:title', content: 'Le ricette giapponesi di Jeko'},
-      {
-        name: 'twitter:description',
-        content:
-          'Tutte le ricette giapponesi spiegate passo passo, con foto e video. Scopri i segreti della cucina giapponese con Jeko!'
-      },
-      {name: 'twitter:image', content: 'img/social_media_card.png'},
       {
         name: 'description',
         content: 'Tutte le ricette giapponesi spiegate passo passo, con foto e video. Scopri i segreti della cucina giapponese con Jeko!'
