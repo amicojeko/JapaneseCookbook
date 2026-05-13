@@ -10,6 +10,7 @@ interface ImageComponentProps {
   height?: number | string;
   style?: React.CSSProperties;
   useContainer?: boolean; // Se true, usa il container con stili
+  caption?: React.ReactNode; // Quando presente, wrappa in <figure> + <figcaption>
 }
 
 /**
@@ -35,6 +36,7 @@ const ImageFromSrc: React.FC<ImageComponentProps> = ({
   height,
   style,
   useContainer = true,
+  caption,
 }) => {
   const imgElement = (
     <img
@@ -47,9 +49,20 @@ const ImageFromSrc: React.FC<ImageComponentProps> = ({
     />
   );
 
-  return useContainer ? (
-    <div className={styles.imageContainer}>{imgElement}</div>
-  ) : imgElement;
+  if (!useContainer) {
+    return imgElement;
+  }
+
+  if (caption) {
+    return (
+      <figure className={styles.figure}>
+        {imgElement}
+        <figcaption className={styles.caption}>{caption}</figcaption>
+      </figure>
+    );
+  }
+
+  return <div className={styles.imageContainer}>{imgElement}</div>;
 };
 
 // Frontmatter branch: only mounted inside a docs page (DocProvider context).
