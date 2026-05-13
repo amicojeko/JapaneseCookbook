@@ -32,6 +32,7 @@ export const BLOG_INDEX: BlogIndexEntry[] = [
       {
         "key": "aki",
         "name": "Aki Nakagoe",
+        "imageURL": "/img/authors/aki_nakagoe.jpg",
         "title": "Cuoco giapponese e divulgatore della cucina washoku casalinga"
       }
     ]
