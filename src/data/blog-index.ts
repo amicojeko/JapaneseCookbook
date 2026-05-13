@@ -56,11 +56,11 @@ export const BLOG_INDEX: BlogIndexEntry[] = [
   {
     "slug": "pesce-guarda-a-sinistra",
     "permalink": "/blog/pesce-guarda-a-sinistra/",
-    "title": "🐟 In Giappone il pesce guarda sempre a sinistra. Sapevatelo!",
+    "title": "Il mistero del pesce che guarda a sinistra in Giappone: un viaggio tra miti, etichetta e sogliole ribelli!",
     "description": "Nei piatti, sui libri, sulle stampe, sulle emoji: in Giappone il pesce guarda sempre a sinistra. Perché? Cinque teorie e un'eccezione (la sogliola).",
-    "image": "/img/social_media_card.png",
+    "image": "/img/blog/il_pesce_guarda_sempre_a_sinistra.jpg",
     "date": "2026-05-09",
-    "readingTime": 0.89,
+    "readingTime": 3.74,
     "authors": [
       {
         "key": "jeko",

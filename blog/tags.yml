@@ -27,3 +27,13 @@ dietro-le-quinte:
   label: Dietro le quinte
   permalink: /dietro-le-quinte
   description: Come è fatto il sito, scelte editoriali, esperimenti.
+
+cultura:
+  label: Cultura
+  permalink: /cultura
+  description: Curiosità, tradizioni e stranezze della cultura giapponese
+
+pesce:
+  label: Pesce
+  permalink: /pesce
+  description: Tutto quello che c'è da sapere sul pesce in Giappone, dalle tecniche di taglio alle curiosità più strane.
