@@ -1447,23 +1447,43 @@ article > .theme-doc-markdown.markdown > p:first-of-type::first-letter,
   padding-top: 14px;
   margin-top: 18px;
 }
-:is(.blog-list-page, .blog-tags-post-list-page, .blog-authors-posts-page,
-    .blog-post-page) article > footer a.button {
-  font-family: var(--pg-font-sans);
-  font-weight: 700;
-  font-size: 12px;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  border: 2px solid var(--pg-ink);
-  background: var(--pg-yellow);
-  color: var(--pg-ink);
-  border-radius: 999px;
-  padding: 8px 16px;
+/* "Leggi l'articolo completo →" CTA on list/tag/author pages.
+   Docusaurus renders this as a plain <a><b>label</b></a> in
+   .col.text--right (no .button class), so we target that path
+   directly. The arrow is a CSS pseudo so it can animate on hover
+   without bloating the translation string. */
+:is(.blog-list-page, .blog-tags-post-list-page, .blog-authors-posts-page)
+    article > footer .col.text--right > a {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+  font-family: var(--pg-font-serif);
+  font-weight: 800;
+  font-size: 18px;
+  letter-spacing: -0.005em;
+  color: var(--pg-red);
+  text-decoration: none;
+  border-bottom: 0;
+  transition: color 0.15s ease;
 }
-:is(.blog-list-page, .blog-tags-post-list-page, .blog-authors-posts-page,
-    .blog-post-page) article > footer a.button:hover {
-  background: var(--pg-ink);
-  color: var(--pg-yellow);
+:is(.blog-list-page, .blog-tags-post-list-page, .blog-authors-posts-page)
+    article > footer .col.text--right > a > b {
+  font-weight: inherit;
+}
+:is(.blog-list-page, .blog-tags-post-list-page, .blog-authors-posts-page)
+    article > footer .col.text--right > a::after {
+  content: '→';
+  font-weight: 700;
+  display: inline-block;
+  transition: transform 0.18s ease;
+}
+:is(.blog-list-page, .blog-tags-post-list-page, .blog-authors-posts-page)
+    article > footer .col.text--right > a:hover {
+  color: var(--pg-red-ink);
+}
+:is(.blog-list-page, .blog-tags-post-list-page, .blog-authors-posts-page)
+    article > footer .col.text--right > a:hover::after {
+  transform: translateX(5px);
 }
 
 /* Tag chips inside an article */
