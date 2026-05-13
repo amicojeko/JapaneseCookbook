@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Le Ricette Giapponesi di Jeko',
+  title: 'Pagine Giappe',
   tagline: 'La Jekucina a casa tua!',
   // Use a typographic middle dot in <title> tags ("Page · Site") instead of
   // the default pipe — cleaner on the SERP and the browser tab.
@@ -175,7 +175,7 @@ const config: Config = {
       respectPrefersColorScheme: false,
     },
     navbar: {
-      title: 'Paginegiappe.it',
+      title: 'Pagine Giappe',
       logo: {
         alt: 'Jeko',
         src: 'img/logo_katakana.png',
