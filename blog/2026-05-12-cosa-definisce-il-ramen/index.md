@@ -2,7 +2,7 @@
 slug: cosa-definisce-il-ramen
 title: "Cosa definisce il ramen? Storia e varietà più comuni"
 authors: [aki]
-tags: [cucina, ingredienti]
+tags: [cucina, ingredienti, cultura]
 description: "Cos'è davvero il ramen? Dal kansui che lo distingue da tutti gli altri noodle in brodo alle varietà più popolari: shoyu, shio, tonkotsu, iekei, niboshi, Sapporo miso."
 image: /img/blog/Shoyu_ramen_Hayashida_Ikebukuro.jpg
 ---
