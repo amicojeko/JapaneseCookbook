@@ -41,7 +41,14 @@ function PostCard({post}: {post: BlogIndexEntry}): React.ReactElement {
       <article className={styles.card}>
         {post.image && (
           <div className={styles.imageWrapper}>
-            <OptimizedImage src={post.image} alt={post.title} className={styles.image} />
+            <OptimizedImage
+              src={post.image}
+              alt={post.title}
+              className={styles.image}
+              // Strip auto-fill minmax(300px, 1fr): card 340-450px
+              // (1 col su mobile, 2 col su tablet, 3-4 col su desktop).
+              sizes="(max-width: 480px) 100vw, (max-width: 1024px) 50vw, 360px"
+            />
           </div>
         )}
         <div className={styles.content}>
