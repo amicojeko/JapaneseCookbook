@@ -1,2 +1,33 @@
-# ruby serialize_recipes.rb
-# git add ricettario.json
+#!/usr/bin/env bash
+# Detect staged master images (anything under static/img/, excluding the
+# auto-generated -NNNw variants). If any are added/modified/deleted in this
+# commit, regenerate responsive variants (incrementally — only the changed
+# masters get re-encoded) and stage the result so the variants land in the
+# same commit as the master.
+
+set -e
+
+# Anything added/copied/modified under static/img that is NOT a -NNNw variant.
+staged_masters=$(git diff --cached --name-only --diff-filter=ACM \
+  | grep -E '^static/img/.+\.(jpg|jpeg|png|webp)$' \
+  | grep -vE -- '-[0-9]+w\.(jpg|webp)$' \
+  || true)
+
+# Master images that are being removed from this commit (so we can clean up
+# their variants).
+staged_deletes=$(git diff --cached --name-only --diff-filter=D \
+  | grep -E '^static/img/.+\.(jpg|jpeg|png|webp)$' \
+  | grep -vE -- '-[0-9]+w\.(jpg|webp)$' \
+  || true)
+
+if [ -z "$staged_masters" ] && [ -z "$staged_deletes" ]; then
+  exit 0
+fi
+
+echo "🖼  Master images changed — regenerating responsive variants..."
+node scripts/optimize-images.js
+
+# Stage every variant / manifest change the script produced so the commit
+# contains a consistent snapshot. We re-add the whole img/ tree because
+# variants can land in many subfolders.
+git add static/img static/image-srcset.json
