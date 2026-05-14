@@ -27,6 +27,6 @@ Da marzo 2024 ci siamo trasferiti a Chioggia, nella laguna di Venezia, e lavoran
 
 Dopo due anni, ho imparato cosa si può trovare e, soprattutto, con cosa sostituire quello che manca mantenendo il sapore originale. Questo mi ha portato a voler sfatare il mito che cucinare giapponese a casa sia difficile e che la cucina giapponese sia solo ramen e sushi. Per farlo ho iniziato a condividere le mie ricette, tutte autentiche e tutte realizzate nella cucina di una piccola città italiana.
 
-Condivido la mia conoscenza sulla cucina giapponese su questo blog e nella mia pagina instagram Non Solo Sushi dove condivido regolarmente nuove ricette casalinghe, facili e autentiche.
+Condivido la mia conoscenza sulla cucina giapponese su questo blog e nella mia pagina instagram [Non Solo Sushi](https://www.instagram.com/aki_nonsolosushi/) dove condivido regolarmente nuove ricette casalinghe, facili e autentiche.
 
 — Aki
