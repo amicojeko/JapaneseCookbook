@@ -133,6 +133,8 @@ image: /img/blog/foo.jpg                    # used for OG / social card and blog
 
 Place the truncation marker (`<!-- truncate -->`) right after the lead paragraph. Everything before it shows in the blog index excerpt.
 
+**When the user passes content for a blog post, place it 1:1 — verbatim.** Don't paraphrase, don't reorder, don't smooth wording, don't add closing signatures, don't reformat bullet lists into numbered ones (or vice-versa). The only structural additions allowed are: (a) the `<!-- truncate -->` marker after the opening paragraph, (b) H2 paragraph headings (`## …`) where they help scannability — pick the wording yourself but don't change the body text underneath. If you think the copy needs editing, suggest the change in chat first and wait for confirmation; don't apply it directly.
+
 **Adding a new author** — edit `blog/authors.yml`:
 ```yaml
 aki:
