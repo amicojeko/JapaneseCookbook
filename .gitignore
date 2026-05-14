@@ -8,12 +8,11 @@
 .docusaurus
 .cache-loader
 /static/image-metadata.json
-/static/image-srcset.json
-# Immagini ottimizzate a build-time (non committare)
-static/img/**/*-320w.*
-static/img/**/*-640w.*
-static/img/**/*-1280w.*
-static/img/**/*-1600w.*
+# image-srcset.json + le varianti responsive -NNNw .jpg/.webp sono ora
+# committate. Vengono rigenerate incrementalmente da scripts/optimize-images.js
+# (solo i master il cui MD5 è cambiato vengono ri-encodati) tramite il
+# pre-commit hook in .husky/pre-commit — la CI non rifa il lavoro, consuma
+# direttamente i file dal repo.
 
 # Misc
 .DS_Store

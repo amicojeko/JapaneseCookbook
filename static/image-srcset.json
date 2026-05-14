@@ -1,0 +1,1031 @@
+{
+  "JEKO-CUCINA-02.png": {
+    "hash": "946c4a1939ef5effed0782ae28fc3e49",
+    "original": "/img/JEKO-CUCINA-02.png",
+    "srcset": "/img/JEKO-CUCINA-02-320w.jpg 320w, /img/JEKO-CUCINA-02-640w.jpg 640w",
+    "width": 700,
+    "height": 700
+  },
+  "authors/aki_nakagoe.jpg": {
+    "hash": "02b57e32e1bb5c2a7944ca5cf6603789",
+    "original": "/img/authors/aki_nakagoe.jpg",
+    "srcset": "/img/authors/aki_nakagoe-320w.jpg 320w",
+    "width": 500,
+    "height": 500
+  },
+  "authors/logo_ilfujitivo.png": {
+    "hash": "6e8fe9754eb478b38f10209907d63cb9",
+    "original": "/img/authors/logo_ilfujitivo.png",
+    "srcset": "/img/authors/logo_ilfujitivo-320w.jpg 320w, /img/authors/logo_ilfujitivo-640w.jpg 640w, /img/authors/logo_ilfujitivo-1280w.jpg 1280w",
+    "width": 1480,
+    "height": 1310
+  },
+  "blog/Iekei_ramen_Akutagawa_kyoto.jpg": {
+    "hash": "217e04b896d894093d3c30f9325106b6",
+    "original": "/img/blog/Iekei_ramen_Akutagawa_kyoto.jpg",
+    "srcset": "/img/blog/Iekei_ramen_Akutagawa_kyoto-320w.jpg 320w, /img/blog/Iekei_ramen_Akutagawa_kyoto-640w.jpg 640w",
+    "width": 1200,
+    "height": 632
+  },
+  "blog/Niboshi_ramen_Niboshi_Maru_Saitama_eki.jpg": {
+    "hash": "a60492e3ed953da222133ecfa8e79f20",
+    "original": "/img/blog/Niboshi_ramen_Niboshi_Maru_Saitama_eki.jpg",
+    "srcset": "/img/blog/Niboshi_ramen_Niboshi_Maru_Saitama_eki-320w.jpg 320w, /img/blog/Niboshi_ramen_Niboshi_Maru_Saitama_eki-640w.jpg 640w",
+    "width": 1200,
+    "height": 710
+  },
+  "blog/Shio_paitan_Ramen_Ore_Ryu_Shio_Ramen.jpg": {
+    "hash": "97693d5286238e5e20a817178c798652",
+    "original": "/img/blog/Shio_paitan_Ramen_Ore_Ryu_Shio_Ramen.jpg",
+    "srcset": "/img/blog/Shio_paitan_Ramen_Ore_Ryu_Shio_Ramen-320w.jpg 320w, /img/blog/Shio_paitan_Ramen_Ore_Ryu_Shio_Ramen-640w.jpg 640w",
+    "width": 1200,
+    "height": 786
+  },
+  "blog/Shoyu_ramen_Hayashida_Ikebukuro.jpg": {
+    "hash": "b17bd4636e0d3002b8cadbfaff5a1bb7",
+    "original": "/img/blog/Shoyu_ramen_Hayashida_Ikebukuro.jpg",
+    "srcset": "/img/blog/Shoyu_ramen_Hayashida_Ikebukuro-320w.jpg 320w, /img/blog/Shoyu_ramen_Hayashida_Ikebukuro-640w.jpg 640w",
+    "width": 1200,
+    "height": 720
+  },
+  "blog/Tonkotsu_ramen_Tonchin_a_Ikebukuro.jpg": {
+    "hash": "eb5137aa8ad5181e23a4ba996dad3146",
+    "original": "/img/blog/Tonkotsu_ramen_Tonchin_a_Ikebukuro.jpg",
+    "srcset": "/img/blog/Tonkotsu_ramen_Tonchin_a_Ikebukuro-320w.jpg 320w, /img/blog/Tonkotsu_ramen_Tonchin_a_Ikebukuro-640w.jpg 640w",
+    "width": 1200,
+    "height": 707
+  },
+  "blog/aki_nakagoe.jpg": {
+    "hash": "24f27252fafcf3db1c50e442149db314",
+    "original": "/img/blog/aki_nakagoe.jpg",
+    "srcset": "/img/blog/aki_nakagoe-320w.jpg 320w, /img/blog/aki_nakagoe-640w.jpg 640w, /img/blog/aki_nakagoe-1280w.jpg 1280w, /img/blog/aki_nakagoe-1600w.jpg 1600w",
+    "width": 1638,
+    "height": 1464
+  },
+  "blog/enciclopedia_1956.jpg": {
+    "hash": "2be2d26eec8a003faed8d5a883214e47",
+    "original": "/img/blog/enciclopedia_1956.jpg",
+    "srcset": "/img/blog/enciclopedia_1956-320w.jpg 320w, /img/blog/enciclopedia_1956-640w.jpg 640w",
+    "width": 1127,
+    "height": 800
+  },
+  "blog/enciclopedia_1972.jpg": {
+    "hash": "07d8592cf7cd1039e530025f5bdcc63b",
+    "original": "/img/blog/enciclopedia_1972.jpg",
+    "srcset": "/img/blog/enciclopedia_1972-320w.jpg 320w, /img/blog/enciclopedia_1972-640w.jpg 640w",
+    "width": 1180,
+    "height": 800
+  },
+  "blog/il_pesce_guarda_sempre_a_sinistra.jpg": {
+    "hash": "300a68241f9976a70d8c3079940cbb59",
+    "original": "/img/blog/il_pesce_guarda_sempre_a_sinistra.jpg",
+    "srcset": "/img/blog/il_pesce_guarda_sempre_a_sinistra-320w.jpg 320w, /img/blog/il_pesce_guarda_sempre_a_sinistra-640w.jpg 640w",
+    "width": 1200,
+    "height": 670
+  },
+  "disegno_bello_pira.png": {
+    "hash": "9254f1dedb50a811c8b54a067995f685",
+    "original": "/img/disegno_bello_pira.png",
+    "srcset": "/img/disegno_bello_pira-320w.jpg 320w, /img/disegno_bello_pira-640w.jpg 640w",
+    "width": 700,
+    "height": 700
+  },
+  "header_bg.png": {
+    "hash": "c11c3d61047a6925967e924bd59944c2",
+    "original": "/img/header_bg.png",
+    "srcset": "",
+    "width": 14,
+    "height": 700
+  },
+  "icon_128.png": {
+    "hash": "8c8be9160e629d42cc5cc02b806321d7",
+    "original": "/img/icon_128.png",
+    "srcset": "",
+    "width": 128,
+    "height": 128
+  },
+  "icon_192.png": {
+    "hash": "e90de8a48656cd72993ba0e3fb0acd66",
+    "original": "/img/icon_192.png",
+    "srcset": "",
+    "width": 192,
+    "height": 192
+  },
+  "icon_32.png": {
+    "hash": "7235da98ee04d5d67c996fd406dbfd07",
+    "original": "/img/icon_32.png",
+    "srcset": "",
+    "width": 32,
+    "height": 32
+  },
+  "ingredienti/agedama.jpg": {
+    "hash": "7b0d4d054d0c88d5dc19b1848156434e",
+    "original": "/img/ingredienti/agedama.jpg",
+    "srcset": "/img/ingredienti/agedama-320w.jpg 320w, /img/ingredienti/agedama-640w.jpg 640w",
+    "width": 1000,
+    "height": 671
+  },
+  "ingredienti/aonori.jpg": {
+    "hash": "fa101527fc84102b9b2b379cda101542",
+    "original": "/img/ingredienti/aonori.jpg",
+    "srcset": "/img/ingredienti/aonori-320w.jpg 320w, /img/ingredienti/aonori-640w.jpg 640w",
+    "width": 1000,
+    "height": 671
+  },
+  "ingredienti/benishoga.jpg": {
+    "hash": "96c20d8cf579d16d5dd33fbd0496e874",
+    "original": "/img/ingredienti/benishoga.jpg",
+    "srcset": "/img/ingredienti/benishoga-320w.jpg 320w, /img/ingredienti/benishoga-640w.jpg 640w",
+    "width": 1000,
+    "height": 671
+  },
+  "ingredienti/daikon.jpg": {
+    "hash": "892c45d4b3e31fa565a071e68cffc7c8",
+    "original": "/img/ingredienti/daikon.jpg",
+    "srcset": "/img/ingredienti/daikon-320w.jpg 320w, /img/ingredienti/daikon-640w.jpg 640w",
+    "width": 1000,
+    "height": 545
+  },
+  "ingredienti/enoki-1.jpg": {
+    "hash": "4523f646d359f0916eb0b1a3aa343c3a",
+    "original": "/img/ingredienti/enoki-1.jpg",
+    "srcset": "/img/ingredienti/enoki-1-320w.jpg 320w, /img/ingredienti/enoki-1-640w.jpg 640w",
+    "width": 1000,
+    "height": 671
+  },
+  "ingredienti/fecola-1.jpg": {
+    "hash": "0e0ad3a83fdce9d85e3737ab059d7239",
+    "original": "/img/ingredienti/fecola-1.jpg",
+    "srcset": "/img/ingredienti/fecola-1-320w.jpg 320w, /img/ingredienti/fecola-1-640w.jpg 640w",
+    "width": 1000,
+    "height": 1000
+  },
+  "ingredienti/furikake.jpg": {
+    "hash": "5d62b01d5b2ceeb4932d14b34c133acb",
+    "original": "/img/ingredienti/furikake.jpg",
+    "srcset": "/img/ingredienti/furikake-320w.jpg 320w, /img/ingredienti/furikake-640w.jpg 640w, /img/ingredienti/furikake-1280w.jpg 1280w",
+    "width": 1280,
+    "height": 576
+  },
+  "ingredienti/ginnan.jpg": {
+    "hash": "f683d6bd4dfa7fb54860714dd6184a0e",
+    "original": "/img/ingredienti/ginnan.jpg",
+    "srcset": "/img/ingredienti/ginnan-320w.jpg 320w, /img/ingredienti/ginnan-640w.jpg 640w",
+    "width": 1000,
+    "height": 671
+  },
+  "ingredienti/gobo-1.png": {
+    "hash": "5ff06c761bf8fe55ff6233cb7edc0172",
+    "original": "/img/ingredienti/gobo-1.png",
+    "srcset": "/img/ingredienti/gobo-1-320w.jpg 320w, /img/ingredienti/gobo-1-640w.jpg 640w",
+    "width": 872,
+    "height": 343
+  },
+  "ingredienti/gobo.jpg": {
+    "hash": "a37dbd6d6b1ac48c90a877dcb0ea8d79",
+    "original": "/img/ingredienti/gobo.jpg",
+    "srcset": "/img/ingredienti/gobo-320w.jpg 320w, /img/ingredienti/gobo-640w.jpg 640w",
+    "width": 1200,
+    "height": 842
+  },
+  "ingredienti/karashi-1.jpg": {
+    "hash": "dd5794b28fcfe115e944f4553cd49b7f",
+    "original": "/img/ingredienti/karashi-1.jpg",
+    "srcset": "/img/ingredienti/karashi-1-320w.jpg 320w, /img/ingredienti/karashi-1-640w.jpg 640w, /img/ingredienti/karashi-1-1280w.jpg 1280w",
+    "width": 1376,
+    "height": 768
+  },
+  "ingredienti/karashi-2.jpg": {
+    "hash": "586d17d0e79e0ebf1d7ee108e0faf6e2",
+    "original": "/img/ingredienti/karashi-2.jpg",
+    "srcset": "/img/ingredienti/karashi-2-320w.jpg 320w, /img/ingredienti/karashi-2-640w.jpg 640w",
+    "width": 1000,
+    "height": 1000
+  },
+  "ingredienti/katsuobushi-1.jpg": {
+    "hash": "872ee9e5ca1e0422bc4a6627b397b921",
+    "original": "/img/ingredienti/katsuobushi-1.jpg",
+    "srcset": "/img/ingredienti/katsuobushi-1-320w.jpg 320w, /img/ingredienti/katsuobushi-1-640w.jpg 640w",
+    "width": 1184,
+    "height": 864
+  },
+  "ingredienti/kewpie-1.jpg": {
+    "hash": "db33697effe98d322450fe9245955158",
+    "original": "/img/ingredienti/kewpie-1.jpg",
+    "srcset": "/img/ingredienti/kewpie-1-320w.jpg 320w, /img/ingredienti/kewpie-1-640w.jpg 640w, /img/ingredienti/kewpie-1-1280w.jpg 1280w",
+    "width": 1280,
+    "height": 714
+  },
+  "ingredienti/kizami_nori.jpg": {
+    "hash": "54d65c946db3aa5d67b0be588b29f48b",
+    "original": "/img/ingredienti/kizami_nori.jpg",
+    "srcset": "/img/ingredienti/kizami_nori-320w.jpg 320w, /img/ingredienti/kizami_nori-640w.jpg 640w, /img/ingredienti/kizami_nori-1280w.jpg 1280w",
+    "width": 1344,
+    "height": 768
+  },
+  "ingredienti/kombu-1.jpg": {
+    "hash": "74e6b1fff4f3aff6177eb9f5ec3c8996",
+    "original": "/img/ingredienti/kombu-1.jpg",
+    "srcset": "/img/ingredienti/kombu-1-320w.jpg 320w, /img/ingredienti/kombu-1-640w.jpg 640w, /img/ingredienti/kombu-1-1280w.jpg 1280w",
+    "width": 1376,
+    "height": 768
+  },
+  "ingredienti/konnyaku-1.jpg": {
+    "hash": "ee86186e757e7a3911f8a33284868769",
+    "original": "/img/ingredienti/konnyaku-1.jpg",
+    "srcset": "/img/ingredienti/konnyaku-1-320w.jpg 320w, /img/ingredienti/konnyaku-1-640w.jpg 640w, /img/ingredienti/konnyaku-1-1280w.jpg 1280w",
+    "width": 1280,
+    "height": 714
+  },
+  "ingredienti/konnyaku-2.jpg": {
+    "hash": "609bfe4aa47ba3d1a9df185604dc8a64",
+    "original": "/img/ingredienti/konnyaku-2.jpg",
+    "srcset": "/img/ingredienti/konnyaku-2-320w.jpg 320w, /img/ingredienti/konnyaku-2-640w.jpg 640w",
+    "width": 800,
+    "height": 533
+  },
+  "ingredienti/la-yu.jpg": {
+    "hash": "a9a5640aba57be569be4fc2bd5007ca3",
+    "original": "/img/ingredienti/la-yu.jpg",
+    "srcset": "/img/ingredienti/la-yu-320w.jpg 320w, /img/ingredienti/la-yu-640w.jpg 640w, /img/ingredienti/la-yu-1280w.jpg 1280w, /img/ingredienti/la-yu-1600w.jpg 1600w",
+    "width": 2752,
+    "height": 1536
+  },
+  "ingredienti/mirin.jpg": {
+    "hash": "7c45a48093e5f64fa2f3f3432070a750",
+    "original": "/img/ingredienti/mirin.jpg",
+    "srcset": "/img/ingredienti/mirin-320w.jpg 320w, /img/ingredienti/mirin-640w.jpg 640w",
+    "width": 1024,
+    "height": 572
+  },
+  "ingredienti/mirin.webp": {
+    "hash": "d7e399c2d8890fda8ef42a0934b000df",
+    "original": "/img/ingredienti/mirin.webp",
+    "srcset": "/img/ingredienti/mirin-320w.jpg 320w, /img/ingredienti/mirin-640w.jpg 640w",
+    "width": 1200,
+    "height": 1372
+  },
+  "ingredienti/miso-1.jpg": {
+    "hash": "c6862d3995c5cd50ad4bd465f6600f51",
+    "original": "/img/ingredienti/miso-1.jpg",
+    "srcset": "/img/ingredienti/miso-1-320w.jpg 320w, /img/ingredienti/miso-1-640w.jpg 640w, /img/ingredienti/miso-1-1280w.jpg 1280w",
+    "width": 1280,
+    "height": 714
+  },
+  "ingredienti/miso-2.jpg": {
+    "hash": "fadf658d86f05ac5b8a8b93e99da0ffc",
+    "original": "/img/ingredienti/miso-2.jpg",
+    "srcset": "/img/ingredienti/miso-2-320w.jpg 320w, /img/ingredienti/miso-2-640w.jpg 640w",
+    "width": 700,
+    "height": 700
+  },
+  "ingredienti/miso-3.jpg": {
+    "hash": "fe4e0251b838e0d37711f553717f3cd9",
+    "original": "/img/ingredienti/miso-3.jpg",
+    "srcset": "/img/ingredienti/miso-3-320w.jpg 320w, /img/ingredienti/miso-3-640w.jpg 640w, /img/ingredienti/miso-3-1280w.jpg 1280w, /img/ingredienti/miso-3-1600w.jpg 1600w",
+    "width": 1920,
+    "height": 1080
+  },
+  "ingredienti/natto-1.jpg": {
+    "hash": "7a7b8aacf114b05630b6c7d7408c5299",
+    "original": "/img/ingredienti/natto-1.jpg",
+    "srcset": "/img/ingredienti/natto-1-320w.jpg 320w, /img/ingredienti/natto-1-640w.jpg 640w, /img/ingredienti/natto-1-1280w.jpg 1280w",
+    "width": 1400,
+    "height": 788
+  },
+  "ingredienti/negi-1.png": {
+    "hash": "076fdce26840922d390350ee4116beb1",
+    "original": "/img/ingredienti/negi-1.png",
+    "srcset": "/img/ingredienti/negi-1-320w.jpg 320w, /img/ingredienti/negi-1-640w.jpg 640w",
+    "width": 872,
+    "height": 537
+  },
+  "ingredienti/negi.jpg": {
+    "hash": "5487042721b31955e8a92f94ac67e385",
+    "original": "/img/ingredienti/negi.jpg",
+    "srcset": "/img/ingredienti/negi-320w.jpg 320w, /img/ingredienti/negi-640w.jpg 640w, /img/ingredienti/negi-1280w.jpg 1280w",
+    "width": 1376,
+    "height": 768
+  },
+  "ingredienti/nori-1.jpg": {
+    "hash": "3c720a671e86634a28b131cac93298e0",
+    "original": "/img/ingredienti/nori-1.jpg",
+    "srcset": "/img/ingredienti/nori-1-320w.jpg 320w, /img/ingredienti/nori-1-640w.jpg 640w, /img/ingredienti/nori-1-1280w.jpg 1280w",
+    "width": 1344,
+    "height": 768
+  },
+  "ingredienti/nori-2.jpg": {
+    "hash": "643914e84261efd4f7980d87a94dcaaa",
+    "original": "/img/ingredienti/nori-2.jpg",
+    "srcset": "/img/ingredienti/nori-2-320w.jpg 320w, /img/ingredienti/nori-2-640w.jpg 640w",
+    "width": 800,
+    "height": 880
+  },
+  "ingredienti/panko-1.jpg": {
+    "hash": "29fab1df8036c9d51dab1d6fae0ef55f",
+    "original": "/img/ingredienti/panko-1.jpg",
+    "srcset": "/img/ingredienti/panko-1-320w.jpg 320w, /img/ingredienti/panko-1-640w.jpg 640w",
+    "width": 1024,
+    "height": 585
+  },
+  "ingredienti/panko-2.jpg": {
+    "hash": "dcecf7a881d32697bae34a3644ff7727",
+    "original": "/img/ingredienti/panko-2.jpg",
+    "srcset": "/img/ingredienti/panko-2-320w.jpg 320w",
+    "width": 600,
+    "height": 600
+  },
+  "ingredienti/rice-1.jpg": {
+    "hash": "0f1099f09209894657b7119ac9e2e583",
+    "original": "/img/ingredienti/rice-1.jpg",
+    "srcset": "/img/ingredienti/rice-1-320w.jpg 320w, /img/ingredienti/rice-1-640w.jpg 640w",
+    "width": 1184,
+    "height": 864
+  },
+  "ingredienti/rice-2.jpg": {
+    "hash": "cd0e3ebe2c48685045a4e8753baa3955",
+    "original": "/img/ingredienti/rice-2.jpg",
+    "srcset": "/img/ingredienti/rice-2-320w.jpg 320w, /img/ingredienti/rice-2-640w.jpg 640w",
+    "width": 640,
+    "height": 640
+  },
+  "ingredienti/sesame-1.jpg": {
+    "hash": "d3ed923a319c00db60b06fb29398ec15",
+    "original": "/img/ingredienti/sesame-1.jpg",
+    "srcset": "/img/ingredienti/sesame-1-320w.jpg 320w, /img/ingredienti/sesame-1-640w.jpg 640w, /img/ingredienti/sesame-1-1280w.jpg 1280w",
+    "width": 1500,
+    "height": 998
+  },
+  "ingredienti/sesame-oil-1.jpg": {
+    "hash": "e92316406381c50586e23eea3b13ffaa",
+    "original": "/img/ingredienti/sesame-oil-1.jpg",
+    "srcset": "/img/ingredienti/sesame-oil-1-320w.jpg 320w",
+    "width": 600,
+    "height": 600
+  },
+  "ingredienti/shichimi-togarashi-1.jpg": {
+    "hash": "5a6820e4503fa3b3aecf2ceb911dd168",
+    "original": "/img/ingredienti/shichimi-togarashi-1.jpg",
+    "srcset": "/img/ingredienti/shichimi-togarashi-1-320w.jpg 320w, /img/ingredienti/shichimi-togarashi-1-640w.jpg 640w, /img/ingredienti/shichimi-togarashi-1-1280w.jpg 1280w",
+    "width": 1376,
+    "height": 768
+  },
+  "ingredienti/shichimi-togarashi-2.jpg": {
+    "hash": "153aa91bdd657be9ef380bcce74d1931",
+    "original": "/img/ingredienti/shichimi-togarashi-2.jpg",
+    "srcset": "/img/ingredienti/shichimi-togarashi-2-320w.jpg 320w, /img/ingredienti/shichimi-togarashi-2-640w.jpg 640w",
+    "width": 1000,
+    "height": 1000
+  },
+  "ingredienti/shiitake-1.png": {
+    "hash": "e627ce9f2c4d10cc164f20674bb16f62",
+    "original": "/img/ingredienti/shiitake-1.png",
+    "srcset": "/img/ingredienti/shiitake-1-320w.jpg 320w, /img/ingredienti/shiitake-1-640w.jpg 640w",
+    "width": 872,
+    "height": 440
+  },
+  "ingredienti/shiso-1.jpg": {
+    "hash": "6f9ea7a3afc500b602febc6e42ceac53",
+    "original": "/img/ingredienti/shiso-1.jpg",
+    "srcset": "/img/ingredienti/shiso-1-320w.jpg 320w, /img/ingredienti/shiso-1-640w.jpg 640w",
+    "width": 1000,
+    "height": 667
+  },
+  "ingredienti/shoyu.webp": {
+    "hash": "d5faad4f19e9063bbb5ef0245f5fc4e6",
+    "original": "/img/ingredienti/shoyu.webp",
+    "srcset": "/img/ingredienti/shoyu-320w.jpg 320w, /img/ingredienti/shoyu-640w.jpg 640w",
+    "width": 1000,
+    "height": 1000
+  },
+  "ingredienti/umezu.webp": {
+    "hash": "ce1ed97b8b6c771909bf0953ac0c92f7",
+    "original": "/img/ingredienti/umezu.webp",
+    "srcset": "/img/ingredienti/umezu-320w.jpg 320w",
+    "width": 325,
+    "height": 800
+  },
+  "ingredienti/wakame-1.jpg": {
+    "hash": "7b5a8a6555c0dd5d0f21e35c51d2e6b3",
+    "original": "/img/ingredienti/wakame-1.jpg",
+    "srcset": "/img/ingredienti/wakame-1-320w.jpg 320w, /img/ingredienti/wakame-1-640w.jpg 640w, /img/ingredienti/wakame-1-1280w.jpg 1280w",
+    "width": 1280,
+    "height": 714
+  },
+  "ingredienti/wakame-2.jpg": {
+    "hash": "713727cfbfeb5dc4a7298955ec1343df",
+    "original": "/img/ingredienti/wakame-2.jpg",
+    "srcset": "/img/ingredienti/wakame-2-320w.jpg 320w, /img/ingredienti/wakame-2-640w.jpg 640w",
+    "width": 900,
+    "height": 1100
+  },
+  "ingredienti/yume-nishiki.jpg": {
+    "hash": "77f12b5eed9af2430f7388d4af229029",
+    "original": "/img/ingredienti/yume-nishiki.jpg",
+    "srcset": "/img/ingredienti/yume-nishiki-320w.jpg 320w, /img/ingredienti/yume-nishiki-640w.jpg 640w, /img/ingredienti/yume-nishiki-1280w.jpg 1280w",
+    "width": 1500,
+    "height": 1500
+  },
+  "ingredienti/yuzu-1.jpg": {
+    "hash": "9ccec3cd25631bad1e16cb219e195536",
+    "original": "/img/ingredienti/yuzu-1.jpg",
+    "srcset": "/img/ingredienti/yuzu-1-320w.jpg 320w, /img/ingredienti/yuzu-1-640w.jpg 640w, /img/ingredienti/yuzu-1-1280w.jpg 1280w, /img/ingredienti/yuzu-1-1600w.jpg 1600w",
+    "width": 1870,
+    "height": 1106
+  },
+  "logo.jpeg": {
+    "hash": "6acaf6e7c444fa8eb149f844eafa2d61",
+    "original": "/img/logo.jpeg",
+    "srcset": "/img/logo-320w.jpg 320w",
+    "width": 600,
+    "height": 600
+  },
+  "logo_katakana.png": {
+    "hash": "6b63dbae396ec8431c83de3bbae48e45",
+    "original": "/img/logo_katakana.png",
+    "srcset": "",
+    "width": 300,
+    "height": 158
+  },
+  "pagine_giappe.jpg": {
+    "hash": "f7a59558c73eb072518dcce9090bf3f2",
+    "original": "/img/pagine_giappe.jpg",
+    "srcset": "/img/pagine_giappe-320w.jpg 320w, /img/pagine_giappe-640w.jpg 640w",
+    "width": 1200,
+    "height": 541
+  },
+  "placeholder.jpg": {
+    "hash": "101ba51f01942bf3d2d7af2cac9ed20a",
+    "original": "/img/placeholder.jpg",
+    "srcset": "/img/placeholder-320w.jpg 320w",
+    "width": 350,
+    "height": 350
+  },
+  "ricette/bieta-ohitashi.jpg": {
+    "hash": "a339fe6e20dc082844b9c1aa96b20bd4",
+    "original": "/img/ricette/bieta-ohitashi.jpg",
+    "srcset": "/img/ricette/bieta-ohitashi-320w.jpg 320w, /img/ricette/bieta-ohitashi-640w.jpg 640w, /img/ricette/bieta-ohitashi-1280w.jpg 1280w, /img/ricette/bieta-ohitashi-1600w.jpg 1600w",
+    "width": 1781,
+    "height": 1335
+  },
+  "ricette/bukkake_udon.jpg": {
+    "hash": "6832f2eb06f336b7283f06bf79ea71d8",
+    "original": "/img/ricette/bukkake_udon.jpg",
+    "srcset": "/img/ricette/bukkake_udon-320w.jpg 320w, /img/ricette/bukkake_udon-640w.jpg 640w",
+    "width": 951,
+    "height": 986
+  },
+  "ricette/burokkori_no_okaka-ae.png": {
+    "hash": "520705bfe2ba0858a7686f94c98c17fd",
+    "original": "/img/ricette/burokkori_no_okaka-ae.png",
+    "srcset": "/img/ricette/burokkori_no_okaka-ae-320w.jpg 320w, /img/ricette/burokkori_no_okaka-ae-640w.jpg 640w",
+    "width": 1200,
+    "height": 896
+  },
+  "ricette/chawanmushi.jpg": {
+    "hash": "b2818cc9a7eb08e368a4e25e775e2891",
+    "original": "/img/ricette/chawanmushi.jpg",
+    "srcset": "/img/ricette/chawanmushi-320w.jpg 320w, /img/ricette/chawanmushi-640w.jpg 640w",
+    "width": 1080,
+    "height": 1304
+  },
+  "ricette/daikon_no_nimono.jpg": {
+    "hash": "9c78a5c25d36474a1fa56c88cae6fde5",
+    "original": "/img/ricette/daikon_no_nimono.jpg",
+    "srcset": "/img/ricette/daikon_no_nimono-320w.jpg 320w, /img/ricette/daikon_no_nimono-640w.jpg 640w",
+    "width": 1200,
+    "height": 900
+  },
+  "ricette/daikon_shiokombuzuke.jpg": {
+    "hash": "c0eb3d5c6accd290a55055460c71a0ca",
+    "original": "/img/ricette/daikon_shiokombuzuke.jpg",
+    "srcset": "/img/ricette/daikon_shiokombuzuke-320w.jpg 320w, /img/ricette/daikon_shiokombuzuke-640w.jpg 640w",
+    "width": 1200,
+    "height": 675
+  },
+  "ricette/dashi.jpg": {
+    "hash": "7a6bba3b95b3418a165943fb052c4a63",
+    "original": "/img/ricette/dashi.jpg",
+    "srcset": "/img/ricette/dashi-320w.jpg 320w, /img/ricette/dashi-640w.jpg 640w",
+    "width": 1000,
+    "height": 545
+  },
+  "ricette/enoki-tatsuta-age.jpg": {
+    "hash": "d99d24239847b2be294bc7954b2a3160",
+    "original": "/img/ricette/enoki-tatsuta-age.jpg",
+    "srcset": "/img/ricette/enoki-tatsuta-age-320w.jpg 320w, /img/ricette/enoki-tatsuta-age-640w.jpg 640w, /img/ricette/enoki-tatsuta-age-1280w.jpg 1280w",
+    "width": 1376,
+    "height": 768
+  },
+  "ricette/furikake.jpg": {
+    "hash": "79998768e799a5a094e677dc352b0110",
+    "original": "/img/ricette/furikake.jpg",
+    "srcset": "/img/ricette/furikake-320w.jpg 320w, /img/ricette/furikake-640w.jpg 640w",
+    "width": 1000,
+    "height": 841
+  },
+  "ricette/gyoza1.jpg": {
+    "hash": "27ec7605b724450f656a7d2762b4814b",
+    "original": "/img/ricette/gyoza1.jpg",
+    "srcset": "/img/ricette/gyoza1-320w.jpg 320w, /img/ricette/gyoza1-640w.jpg 640w",
+    "width": 1000,
+    "height": 1026
+  },
+  "ricette/gyoza2.jpg": {
+    "hash": "da25eb2427dcf50af59b76f78088b302",
+    "original": "/img/ricette/gyoza2.jpg",
+    "srcset": "/img/ricette/gyoza2-320w.jpg 320w, /img/ricette/gyoza2-640w.jpg 640w",
+    "width": 1000,
+    "height": 1000
+  },
+  "ricette/gyoza3.jpg": {
+    "hash": "9d3bef6d39d4059b6c696936d7ab88db",
+    "original": "/img/ricette/gyoza3.jpg",
+    "srcset": "/img/ricette/gyoza3-320w.jpg 320w, /img/ricette/gyoza3-640w.jpg 640w",
+    "width": 1000,
+    "height": 1000
+  },
+  "ricette/gyudon.jpg": {
+    "hash": "33dc5ab1e4e8a63a6ae98fe06def5456",
+    "original": "/img/ricette/gyudon.jpg",
+    "srcset": "/img/ricette/gyudon-320w.jpg 320w, /img/ricette/gyudon-640w.jpg 640w",
+    "width": 1000,
+    "height": 750
+  },
+  "ricette/hamburger_don.jpg": {
+    "hash": "2eda9d40d320f0753ff261e1810d74ee",
+    "original": "/img/ricette/hamburger_don.jpg",
+    "srcset": "/img/ricette/hamburger_don-320w.jpg 320w, /img/ricette/hamburger_don-640w.jpg 640w",
+    "width": 1000,
+    "height": 788
+  },
+  "ricette/hiyashi_nasu.jpg": {
+    "hash": "fbce71411b0dbe40db51d97b17621761",
+    "original": "/img/ricette/hiyashi_nasu.jpg",
+    "srcset": "/img/ricette/hiyashi_nasu-320w.jpg 320w, /img/ricette/hiyashi_nasu-640w.jpg 640w",
+    "width": 1080,
+    "height": 1560
+  },
+  "ricette/hiyayakko.jpg": {
+    "hash": "6ddcac1e19d51609da0f0d939af57c23",
+    "original": "/img/ricette/hiyayakko.jpg",
+    "srcset": "/img/ricette/hiyayakko-320w.jpg 320w, /img/ricette/hiyayakko-640w.jpg 640w",
+    "width": 1000,
+    "height": 1023
+  },
+  "ricette/horenso_no_ohitashi.jpg": {
+    "hash": "f0ca6055156320b3676ea1f895c54dca",
+    "original": "/img/ricette/horenso_no_ohitashi.jpg",
+    "srcset": "/img/ricette/horenso_no_ohitashi-320w.jpg 320w, /img/ricette/horenso_no_ohitashi-640w.jpg 640w",
+    "width": 1200,
+    "height": 805
+  },
+  "ricette/isobeyaki.jpg": {
+    "hash": "bfa3af5ae4e1fdd9de00b3aeae4fcb14",
+    "original": "/img/ricette/isobeyaki.jpg",
+    "srcset": "/img/ricette/isobeyaki-320w.jpg 320w, /img/ricette/isobeyaki-640w.jpg 640w",
+    "width": 1080,
+    "height": 773
+  },
+  "ricette/kabocha_no_nimono.jpg": {
+    "hash": "341755b73181c445aef359d7ada2ad0e",
+    "original": "/img/ricette/kabocha_no_nimono.jpg",
+    "srcset": "/img/ricette/kabocha_no_nimono-320w.jpg 320w, /img/ricette/kabocha_no_nimono-640w.jpg 640w, /img/ricette/kabocha_no_nimono-1280w.jpg 1280w",
+    "width": 1280,
+    "height": 960
+  },
+  "ricette/kakuni.jpg": {
+    "hash": "0165bd81c5b6d71acbd688b9e28d61c6",
+    "original": "/img/ricette/kakuni.jpg",
+    "srcset": "/img/ricette/kakuni-320w.jpg 320w, /img/ricette/kakuni-640w.jpg 640w",
+    "width": 1024,
+    "height": 1024
+  },
+  "ricette/karaage.jpg": {
+    "hash": "3d5fd780a73afccecf972a77520a9e7f",
+    "original": "/img/ricette/karaage.jpg",
+    "srcset": "/img/ricette/karaage-320w.jpg 320w, /img/ricette/karaage-640w.jpg 640w",
+    "width": 1000,
+    "height": 750
+  },
+  "ricette/mentsuyu.jpg": {
+    "hash": "da21550e0a7168af1de78d5f6c8ba6d9",
+    "original": "/img/ricette/mentsuyu.jpg",
+    "srcset": "/img/ricette/mentsuyu-320w.jpg 320w, /img/ricette/mentsuyu-640w.jpg 640w",
+    "width": 800,
+    "height": 533
+  },
+  "ricette/misoshiru.jpg": {
+    "hash": "c04a801df4cdbd975754db312ae3bd9d",
+    "original": "/img/ricette/misoshiru.jpg",
+    "srcset": "/img/ricette/misoshiru-320w.jpg 320w, /img/ricette/misoshiru-640w.jpg 640w",
+    "width": 1080,
+    "height": 920
+  },
+  "ricette/nama_harumaki.jpg": {
+    "hash": "3f6122af0d2cbf631c2171759f8316ed",
+    "original": "/img/ricette/nama_harumaki.jpg",
+    "srcset": "/img/ricette/nama_harumaki-320w.jpg 320w, /img/ricette/nama_harumaki-640w.jpg 640w",
+    "width": 1024,
+    "height": 765
+  },
+  "ricette/nametake.jpg": {
+    "hash": "0205b20556e5035630b6ed0424e070d4",
+    "original": "/img/ricette/nametake.jpg",
+    "srcset": "/img/ricette/nametake-320w.jpg 320w, /img/ricette/nametake-640w.jpg 640w",
+    "width": 1200,
+    "height": 995
+  },
+  "ricette/nasudengaku.jpg": {
+    "hash": "278be9e815ae934a23885ce703391de4",
+    "original": "/img/ricette/nasudengaku.jpg",
+    "srcset": "/img/ricette/nasudengaku-320w.jpg 320w, /img/ricette/nasudengaku-640w.jpg 640w, /img/ricette/nasudengaku-1280w.jpg 1280w",
+    "width": 1333,
+    "height": 1000
+  },
+  "ricette/natto_soba.jpg": {
+    "hash": "9175d7172ce9ba4a5941c111760713fe",
+    "original": "/img/ricette/natto_soba.jpg",
+    "srcset": "/img/ricette/natto_soba-320w.jpg 320w, /img/ricette/natto_soba-640w.jpg 640w",
+    "width": 1200,
+    "height": 1530
+  },
+  "ricette/nikujaga.jpg": {
+    "hash": "1e44ee3cfc5e0c51b4bf03e64754ae6e",
+    "original": "/img/ricette/nikujaga.jpg",
+    "srcset": "/img/ricette/nikujaga-320w.jpg 320w, /img/ricette/nikujaga-640w.jpg 640w, /img/ricette/nikujaga-1280w.jpg 1280w",
+    "width": 1280,
+    "height": 960
+  },
+  "ricette/nira_shio_kombu_onigiri.jpg": {
+    "hash": "5472e63b6cb0e36ac95fc04476394a8c",
+    "original": "/img/ricette/nira_shio_kombu_onigiri.jpg",
+    "srcset": "/img/ricette/nira_shio_kombu_onigiri-320w.jpg 320w, /img/ricette/nira_shio_kombu_onigiri-640w.jpg 640w",
+    "width": 1200,
+    "height": 675
+  },
+  "ricette/onigiri_kimchi_asiago.jpg": {
+    "hash": "fc7eb5c817506bd2a4cb02db7961cb5b",
+    "original": "/img/ricette/onigiri_kimchi_asiago.jpg",
+    "srcset": "/img/ricette/onigiri_kimchi_asiago-320w.jpg 320w, /img/ricette/onigiri_kimchi_asiago-640w.jpg 640w, /img/ricette/onigiri_kimchi_asiago-1280w.jpg 1280w, /img/ricette/onigiri_kimchi_asiago-1600w.jpg 1600w",
+    "width": 1917,
+    "height": 1431
+  },
+  "ricette/oyakodon.jpg": {
+    "hash": "449927de36840ecd84f1dfccdb019e8a",
+    "original": "/img/ricette/oyakodon.jpg",
+    "srcset": "/img/ricette/oyakodon-320w.jpg 320w, /img/ricette/oyakodon-640w.jpg 640w",
+    "width": 943,
+    "height": 934
+  },
+  "ricette/pollo_teriyaki.jpg": {
+    "hash": "e5a04a605f8ef229e2a14a2bb653d1f5",
+    "original": "/img/ricette/pollo_teriyaki.jpg",
+    "srcset": "/img/ricette/pollo_teriyaki-320w.jpg 320w, /img/ricette/pollo_teriyaki-640w.jpg 640w",
+    "width": 1200,
+    "height": 896
+  },
+  "ricette/ponzu.jpg": {
+    "hash": "bf32ab0662234598ca7cb7c5a369043b",
+    "original": "/img/ricette/ponzu.jpg",
+    "srcset": "/img/ricette/ponzu-320w.jpg 320w, /img/ricette/ponzu-640w.jpg 640w",
+    "width": 1200,
+    "height": 896
+  },
+  "ricette/potetosarada.jpg": {
+    "hash": "d4cc650eb60cc38f9ae18b64b0f87583",
+    "original": "/img/ricette/potetosarada.jpg",
+    "srcset": "/img/ricette/potetosarada-320w.jpg 320w, /img/ricette/potetosarada-640w.jpg 640w",
+    "width": 1000,
+    "height": 1000
+  },
+  "ricette/shogayaki.jpg": {
+    "hash": "0ff0f4e077e97f75a710a1953d68c9be",
+    "original": "/img/ricette/shogayaki.jpg",
+    "srcset": "/img/ricette/shogayaki-320w.jpg 320w, /img/ricette/shogayaki-640w.jpg 640w",
+    "width": 1000,
+    "height": 750
+  },
+  "ricette/soboro_don.jpg": {
+    "hash": "fae9e30961853d741e5270020ad61faa",
+    "original": "/img/ricette/soboro_don.jpg",
+    "srcset": "/img/ricette/soboro_don-320w.jpg 320w, /img/ricette/soboro_don-640w.jpg 640w",
+    "width": 1200,
+    "height": 896
+  },
+  "ricette/sunomono.jpg": {
+    "hash": "4bf4cf15c85a23fe18df8ed53719d9ab",
+    "original": "/img/ricette/sunomono.jpg",
+    "srcset": "/img/ricette/sunomono-320w.jpg 320w, /img/ricette/sunomono-640w.jpg 640w",
+    "width": 971,
+    "height": 1205
+  },
+  "ricette/takenoko_gohan.jpg": {
+    "hash": "530ad02660b42460662e81acd3c7a93e",
+    "original": "/img/ricette/takenoko_gohan.jpg",
+    "srcset": "/img/ricette/takenoko_gohan-320w.jpg 320w, /img/ricette/takenoko_gohan-640w.jpg 640w",
+    "width": 1200,
+    "height": 950
+  },
+  "ricette/takenoko_to_aburaage_no_takikomi_gohan.jpg": {
+    "hash": "eaeac8fc805f325db45db1d390848a81",
+    "original": "/img/ricette/takenoko_to_aburaage_no_takikomi_gohan.jpg",
+    "srcset": "/img/ricette/takenoko_to_aburaage_no_takikomi_gohan-320w.jpg 320w, /img/ricette/takenoko_to_aburaage_no_takikomi_gohan-640w.jpg 640w, /img/ricette/takenoko_to_aburaage_no_takikomi_gohan-1280w.jpg 1280w",
+    "width": 1376,
+    "height": 768
+  },
+  "ricette/takoyaki.webp": {
+    "hash": "c8f9964874719720b88491c0244ea4ea",
+    "original": "/img/ricette/takoyaki.webp",
+    "srcset": "/img/ricette/takoyaki-320w.jpg 320w, /img/ricette/takoyaki-640w.jpg 640w",
+    "width": 1000,
+    "height": 750
+  },
+  "ricette/teriyaki_salmon.webp": {
+    "hash": "c1e9283bb6d0a049e826a20afdd46c83",
+    "original": "/img/ricette/teriyaki_salmon.webp",
+    "srcset": "/img/ricette/teriyaki_salmon-320w.jpg 320w, /img/ricette/teriyaki_salmon-640w.jpg 640w",
+    "width": 1000,
+    "height": 750
+  },
+  "ricette/tofu_and_eggs.jpg": {
+    "hash": "c7671031582df3b51c2c70b6fabb3605",
+    "original": "/img/ricette/tofu_and_eggs.jpg",
+    "srcset": "/img/ricette/tofu_and_eggs-320w.jpg 320w, /img/ricette/tofu_and_eggs-640w.jpg 640w",
+    "width": 1080,
+    "height": 1076
+  },
+  "ricette/tonjiru.jpg": {
+    "hash": "88903fd60fe37d6d7fd98bd494ea558b",
+    "original": "/img/ricette/tonjiru.jpg",
+    "srcset": "/img/ricette/tonjiru-320w.jpg 320w, /img/ricette/tonjiru-640w.jpg 640w",
+    "width": 1000,
+    "height": 750
+  },
+  "ricette/tori-dashi-nyumen.jpg": {
+    "hash": "a8fb6c82bb13199ed4641dde3c23d69e",
+    "original": "/img/ricette/tori-dashi-nyumen.jpg",
+    "srcset": "/img/ricette/tori-dashi-nyumen-320w.jpg 320w, /img/ricette/tori-dashi-nyumen-640w.jpg 640w",
+    "width": 1200,
+    "height": 896
+  },
+  "ricette/tororo-natto-shiso-udon.jpg": {
+    "hash": "9b1a72ae018fe844bfa2d7f3abe742cb",
+    "original": "/img/ricette/tororo-natto-shiso-udon.jpg",
+    "srcset": "/img/ricette/tororo-natto-shiso-udon-320w.jpg 320w, /img/ricette/tororo-natto-shiso-udon-640w.jpg 640w",
+    "width": 1200,
+    "height": 675
+  },
+  "ricette/udon_burro_e_shoyu.jpg": {
+    "hash": "b48fc5a49e3493e863e1124724239dda",
+    "original": "/img/ricette/udon_burro_e_shoyu.jpg",
+    "srcset": "/img/ricette/udon_burro_e_shoyu-320w.jpg 320w, /img/ricette/udon_burro_e_shoyu-640w.jpg 640w",
+    "width": 1000,
+    "height": 872
+  },
+  "ricette/unagi_di_melanzane.jpg": {
+    "hash": "d72ba61a6c6a22fd00fc70d97ebc17b0",
+    "original": "/img/ricette/unagi_di_melanzane.jpg",
+    "srcset": "/img/ricette/unagi_di_melanzane-320w.jpg 320w, /img/ricette/unagi_di_melanzane-640w.jpg 640w",
+    "width": 1080,
+    "height": 1276
+  },
+  "ricette/vegan_misoshiru.jpg": {
+    "hash": "e4454e38c709b361b63d26aa38666f52",
+    "original": "/img/ricette/vegan_misoshiru.jpg",
+    "srcset": "/img/ricette/vegan_misoshiru-320w.jpg 320w, /img/ricette/vegan_misoshiru-640w.jpg 640w",
+    "width": 1080,
+    "height": 1082
+  },
+  "ricette/yaki_udon.jpg": {
+    "hash": "624703d11f519574b41a7eb0c46a5ccc",
+    "original": "/img/ricette/yaki_udon.jpg",
+    "srcset": "/img/ricette/yaki_udon-320w.jpg 320w, /img/ricette/yaki_udon-640w.jpg 640w",
+    "width": 1200,
+    "height": 670
+  },
+  "ricette/yakisoba.jpg": {
+    "hash": "03ae72c307ccbaa83be0937952dbf357",
+    "original": "/img/ricette/yakisoba.jpg",
+    "srcset": "/img/ricette/yakisoba-320w.jpg 320w, /img/ricette/yakisoba-640w.jpg 640w, /img/ricette/yakisoba-1280w.jpg 1280w, /img/ricette/yakisoba-1600w.jpg 1600w",
+    "width": 1632,
+    "height": 1000
+  },
+  "ricette/yakitori.webp": {
+    "hash": "9539f43672e5ab4c1b107752c990f269",
+    "original": "/img/ricette/yakitori.webp",
+    "srcset": "/img/ricette/yakitori-320w.jpg 320w",
+    "width": 559,
+    "height": 800
+  },
+  "ricette/yamitsuki_kyabesu.jpg": {
+    "hash": "3b8ffd897fba1c0bf7d6932b4ac2a728",
+    "original": "/img/ricette/yamitsuki_kyabesu.jpg",
+    "srcset": "/img/ricette/yamitsuki_kyabesu-320w.jpg 320w, /img/ricette/yamitsuki_kyabesu-640w.jpg 640w",
+    "width": 1080,
+    "height": 1254
+  },
+  "ricette/zaru_soba.jpg": {
+    "hash": "c7f2bc6dd023b5a79f82d2422372e830",
+    "original": "/img/ricette/zaru_soba.jpg",
+    "srcset": "/img/ricette/zaru_soba-320w.jpg 320w, /img/ricette/zaru_soba-640w.jpg 640w",
+    "width": 1000,
+    "height": 1268
+  },
+  "ricette/zuppa-miso-funghi.jpg": {
+    "hash": "ce87a4d4d973b748fb804ee735f3e9fb",
+    "original": "/img/ricette/zuppa-miso-funghi.jpg",
+    "srcset": "/img/ricette/zuppa-miso-funghi-320w.jpg 320w, /img/ricette/zuppa-miso-funghi-640w.jpg 640w",
+    "width": 1000,
+    "height": 827
+  },
+  "social_media_card.png": {
+    "hash": "f437a3a32a1ad21ee4d60577161171c7",
+    "original": "/img/social_media_card.png",
+    "srcset": "/img/social_media_card-320w.jpg 320w, /img/social_media_card-640w.jpg 640w",
+    "width": 1200,
+    "height": 630
+  },
+  "strumenti/coltelli_giapponesi.jpg": {
+    "hash": "36a72a6952dc71e98f788e56e5a3e65d",
+    "original": "/img/strumenti/coltelli_giapponesi.jpg",
+    "srcset": "/img/strumenti/coltelli_giapponesi-320w.jpg 320w, /img/strumenti/coltelli_giapponesi-640w.jpg 640w",
+    "width": 1200,
+    "height": 799
+  },
+  "strumenti/cuociriso.jpg": {
+    "hash": "8b6e36d2748960e65f3299396207866a",
+    "original": "/img/strumenti/cuociriso.jpg",
+    "srcset": "/img/strumenti/cuociriso-320w.jpg 320w, /img/strumenti/cuociriso-640w.jpg 640w",
+    "width": 1200,
+    "height": 670
+  },
+  "strumenti/hangiri.jpg": {
+    "hash": "7755687e90551e3e54afbe3bd967d7e1",
+    "original": "/img/strumenti/hangiri.jpg",
+    "srcset": "/img/strumenti/hangiri-320w.jpg 320w, /img/strumenti/hangiri-640w.jpg 640w",
+    "width": 1200,
+    "height": 670
+  },
+  "strumenti/hashi.jpg": {
+    "hash": "2f3216583df621c3f7d862fcd0cd6076",
+    "original": "/img/strumenti/hashi.jpg",
+    "srcset": "/img/strumenti/hashi-320w.jpg 320w, /img/strumenti/hashi-640w.jpg 640w",
+    "width": 1200,
+    "height": 670
+  },
+  "strumenti/kushi.jpg": {
+    "hash": "566054532cd82e73f443f33422ad8c34",
+    "original": "/img/strumenti/kushi.jpg",
+    "srcset": "/img/strumenti/kushi-320w.jpg 320w, /img/strumenti/kushi-640w.jpg 640w",
+    "width": 1200,
+    "height": 670
+  },
+  "strumenti/pietre_per_affilatura.jpg": {
+    "hash": "5a04418d619e79aa24f0aa7305665e5a",
+    "original": "/img/strumenti/pietre_per_affilatura.jpg",
+    "srcset": "/img/strumenti/pietre_per_affilatura-320w.jpg 320w, /img/strumenti/pietre_per_affilatura-640w.jpg 640w",
+    "width": 1200,
+    "height": 670
+  },
+  "video/an.jpg": {
+    "hash": "50629aeacab08fd575e9cf95aaeeab00",
+    "original": "/img/video/an.jpg",
+    "srcset": "/img/video/an-320w.jpg 320w, /img/video/an-640w.jpg 640w, /img/video/an-1280w.jpg 1280w",
+    "width": 1280,
+    "height": 720
+  },
+  "video/campfire_cooking_in_another_world_with_my_absurd_skill.jpg": {
+    "hash": "8bff97e6feee7f8dd4926769da187841",
+    "original": "/img/video/campfire_cooking_in_another_world_with_my_absurd_skill.jpg",
+    "srcset": "/img/video/campfire_cooking_in_another_world_with_my_absurd_skill-320w.jpg 320w, /img/video/campfire_cooking_in_another_world_with_my_absurd_skill-640w.jpg 640w, /img/video/campfire_cooking_in_another_world_with_my_absurd_skill-1280w.jpg 1280w, /img/video/campfire_cooking_in_another_world_with_my_absurd_skill-1600w.jpg 1600w",
+    "width": 1920,
+    "height": 1080
+  },
+  "video/food_warws.jpg": {
+    "hash": "50fb8374930e15081792a30b0547a16f",
+    "original": "/img/video/food_warws.jpg",
+    "srcset": "/img/video/food_warws-320w.jpg 320w, /img/video/food_warws-640w.jpg 640w, /img/video/food_warws-1280w.jpg 1280w, /img/video/food_warws-1600w.jpg 1600w",
+    "width": 2560,
+    "height": 2048
+  },
+  "video/isekai_izakaya.webp": {
+    "hash": "d45c7d4dc935d9bdd2f8cd9012c81f78",
+    "original": "/img/video/isekai_izakaya.webp",
+    "srcset": "/img/video/isekai_izakaya-320w.jpg 320w, /img/video/isekai_izakaya-640w.jpg 640w",
+    "width": 686,
+    "height": 490
+  },
+  "video/kantaro.jpg": {
+    "hash": "d560098691d1ba34c93c1e1a116823b1",
+    "original": "/img/video/kantaro.jpg",
+    "srcset": "/img/video/kantaro-320w.jpg 320w, /img/video/kantaro-640w.jpg 640w, /img/video/kantaro-1280w.jpg 1280w, /img/video/kantaro-1600w.jpg 1600w",
+    "width": 2048,
+    "height": 1152
+  },
+  "video/midnight_diner.webp": {
+    "hash": "a50f16f1908e95e5d6cf2036731506ed",
+    "original": "/img/video/midnight_diner.webp",
+    "srcset": "/img/video/midnight_diner-320w.jpg 320w, /img/video/midnight_diner-640w.jpg 640w, /img/video/midnight_diner-1280w.jpg 1280w, /img/video/midnight_diner-1600w.jpg 1600w",
+    "width": 2560,
+    "height": 1707
+  },
+  "video/oishinbo.jpg": {
+    "hash": "cb5ce70e84952d8a5354a2533507bf82",
+    "original": "/img/video/oishinbo.jpg",
+    "srcset": "/img/video/oishinbo-320w.jpg 320w, /img/video/oishinbo-640w.jpg 640w, /img/video/oishinbo-1280w.jpg 1280w, /img/video/oishinbo-1600w.jpg 1600w",
+    "width": 2048,
+    "height": 1152
+  },
+  "video/oishinbo.webp": {
+    "hash": "5fb52bef1ee3fae10cf4f2f8a7334f5a",
+    "original": "/img/video/oishinbo.webp",
+    "srcset": "/img/video/oishinbo-320w.jpg 320w",
+    "width": 560,
+    "height": 400
+  },
+  "video/piacevole.webp": {
+    "hash": "f655b60ea94d0d162e8ce5d04a6fd4b6",
+    "original": "/img/video/piacevole.webp",
+    "srcset": "/img/video/piacevole-320w.jpg 320w, /img/video/piacevole-640w.jpg 640w",
+    "width": 780,
+    "height": 439
+  },
+  "video/ramen_teh.webp": {
+    "hash": "18ff2f6dd2e8b6ef8b87815d6a401a88",
+    "original": "/img/video/ramen_teh.webp",
+    "srcset": "/img/video/ramen_teh-320w.jpg 320w, /img/video/ramen_teh-640w.jpg 640w, /img/video/ramen_teh-1280w.jpg 1280w",
+    "width": 1296,
+    "height": 730
+  },
+  "video/samurai_gourmet2.jpg": {
+    "hash": "4e58863b14db4ced4d2feaa3cb62d9e1",
+    "original": "/img/video/samurai_gourmet2.jpg",
+    "srcset": "/img/video/samurai_gourmet2-320w.jpg 320w, /img/video/samurai_gourmet2-640w.jpg 640w, /img/video/samurai_gourmet2-1280w.jpg 1280w, /img/video/samurai_gourmet2-1600w.jpg 1600w",
+    "width": 1692,
+    "height": 1142
+  },
+  "video/tampopo.webp": {
+    "hash": "b902fb1a52af8264a16d7c98a12ab0a1",
+    "original": "/img/video/tampopo.webp",
+    "srcset": "/img/video/tampopo-320w.jpg 320w, /img/video/tampopo-640w.jpg 640w",
+    "width": 800,
+    "height": 450
+  },
+  "video/the_solitary_gourmet.webp": {
+    "hash": "fba53b75cc4e887d4632616e80997884",
+    "original": "/img/video/the_solitary_gourmet.webp",
+    "srcset": "/img/video/the_solitary_gourmet-320w.jpg 320w, /img/video/the_solitary_gourmet-640w.jpg 640w",
+    "width": 900,
+    "height": 506
+  },
+  "video/the_zen_diary.jpg": {
+    "hash": "84cf21b28d2b05dc35e9eb0a85a0a22c",
+    "original": "/img/video/the_zen_diary.jpg",
+    "srcset": "/img/video/the_zen_diary-320w.jpg 320w, /img/video/the_zen_diary-640w.jpg 640w, /img/video/the_zen_diary-1280w.jpg 1280w, /img/video/the_zen_diary-1600w.jpg 1600w",
+    "width": 2415,
+    "height": 1750
+  },
+  "video/the_zen_diary.png": {
+    "hash": "433bc0680b79fd50f195ad95aaa497b6",
+    "original": "/img/video/the_zen_diary.png",
+    "srcset": "/img/video/the_zen_diary-320w.jpg 320w, /img/video/the_zen_diary-640w.jpg 640w, /img/video/the_zen_diary-1280w.jpg 1280w",
+    "width": 1280,
+    "height": 720
+  },
+  "video/tonkatsu_dj_agetarou.jpg": {
+    "hash": "334a4bcc387bca4a4f3cd5cfa4b35e5f",
+    "original": "/img/video/tonkatsu_dj_agetarou.jpg",
+    "srcset": "/img/video/tonkatsu_dj_agetarou-320w.jpg 320w, /img/video/tonkatsu_dj_agetarou-640w.jpg 640w",
+    "width": 1200,
+    "height": 675
+  },
+  "video/udon.jpg": {
+    "hash": "c036d7c37b97aec91d9cc44754445a12",
+    "original": "/img/video/udon.jpg",
+    "srcset": "/img/video/udon-320w.jpg 320w, /img/video/udon-640w.jpg 640w",
+    "width": 640,
+    "height": 426
+  },
+  "video/what_did_you_eat_yesterday.webp": {
+    "hash": "f6021ad85555224602ccfe74fa2c2db7",
+    "original": "/img/video/what_did_you_eat_yesterday.webp",
+    "srcset": "/img/video/what_did_you_eat_yesterday-320w.jpg 320w, /img/video/what_did_you_eat_yesterday-640w.jpg 640w",
+    "width": 800,
+    "height": 450
+  },
+  "video/yakitate.jpg": {
+    "hash": "8b3be9124354b54d152de98b659fd4f5",
+    "original": "/img/video/yakitate.jpg",
+    "srcset": "/img/video/yakitate-320w.jpg 320w, /img/video/yakitate-640w.jpg 640w, /img/video/yakitate-1280w.jpg 1280w, /img/video/yakitate-1600w.jpg 1600w",
+    "width": 2048,
+    "height": 1152
+  },
+  "watermark.jpg": {
+    "hash": "ea95bebc5f94c4c91d4a81e622fc9b4c",
+    "original": "/img/watermark.jpg",
+    "srcset": "",
+    "width": 150,
+    "height": 150
+  }
+}
