@@ -21,7 +21,19 @@ interface OptimizedImageProps {
   /** Optional explicit dims (overrides manifest width/height). */
   width?: number | string;
   height?: number | string;
+  /**
+   * `sizes` attribute hint. Without it the browser assumes the image
+   * occupies 100vw and picks oversized variants — es. 640w o più
+   * per una card della home che in realtà è 286px (1280 viewport, 4 col)
+   * o 220px (768 viewport, 3 col). Tipici buoni valori:
+   *   - card grid auto-fill min-280px:  "(max-width: 480px) 100vw, 320px"
+   *   - inline content (~720px col):     "(max-width: 720px) 100vw, 720px"
+   * Default: content-column (720px).
+   */
+  sizes?: string;
 }
+
+const DEFAULT_SIZES = '(max-width: 720px) 100vw, 720px';
 
 /**
  * Renders a `<picture>` that serves a WebP responsive variant from the
@@ -41,6 +53,7 @@ export default function OptimizedImage({
   style,
   width,
   height,
+  sizes = DEFAULT_SIZES,
 }: OptimizedImageProps): React.ReactElement {
   const srcsetKey = src.replace(/^\/img\//, '');
   const srcsetData = (imageSrcset as Record<string, ImageSrcsetData>)[srcsetKey] as
@@ -53,7 +66,7 @@ export default function OptimizedImage({
   if (srcsetData?.srcset) {
     return (
       <picture className={pictureClassName}>
-        <source srcSet={srcsetData.srcset} type="image/webp" />
+        <source srcSet={srcsetData.srcset} type="image/webp" sizes={sizes} />
         <img
           src={srcsetData.original || src}
           alt={alt}
@@ -63,6 +76,7 @@ export default function OptimizedImage({
           width={imgWidth}
           height={imgHeight}
           style={style}
+          sizes={sizes}
         />
       </picture>
     );
