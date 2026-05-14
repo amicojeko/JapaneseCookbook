@@ -21,6 +21,23 @@ export type BlogIndexEntry = {
 
 export const BLOG_INDEX: BlogIndexEntry[] = [
   {
+    "slug": "chi-e-aki",
+    "permalink": "/blog/chi-e-aki/",
+    "title": "Mi presento: sono Aki, cuoco giapponese a Chioggia",
+    "description": "Sono Akifumi Nakagoe, cuoco giapponese di Fukuoka trasferitosi a Chioggia nel 2024. Da oggi mi unisco a Pagine Giappe per raccontare la cucina del mio paese con quello che si trova al supermercato italiano.",
+    "image": "/img/blog/aki_nakagoe.jpg",
+    "date": "2026-05-14",
+    "readingTime": 1.13,
+    "authors": [
+      {
+        "key": "aki",
+        "name": "Aki Nakagoe",
+        "imageURL": "/img/authors/aki_nakagoe.jpg",
+        "title": "Cuoco giapponese e divulgatore della cucina washoku casalinga"
+      }
+    ]
+  },
+  {
     "slug": "cosa-definisce-il-ramen",
     "permalink": "/blog/cosa-definisce-il-ramen/",
     "title": "Cosa definisce il ramen? Storia e varietà più comuni",
