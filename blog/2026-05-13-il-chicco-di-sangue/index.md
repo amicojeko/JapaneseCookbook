@@ -4,7 +4,7 @@ title: "Il chicco di sangue: come il riso ha creato (e distrutto) il Giappone"
 authors: [curiosity_power]
 tags: [cultura, ingredienti]
 description: "Per millenni in Giappone il riso non è stato cibo: è stato moneta, esercito, energia. Dal sistema Koku alle 2500 varietà, viaggio nel chicco che ha forgiato l'identità di un popolo."
-image: /img/social_media_card.png
+image: /img/blog/riso/agricoltori_nella_risaia.jpg
 ---
 
 Se pensi che il riso sia solo quel contorno bianco triste che accompagna il sushi al buffet all-you-can-eat, sei fuori strada. Per millenni, in Giappone, il riso non è stato "cibo". È stato **Bitcoin**. È stato il motivo per cui milioni di persone si sono scannate, il motivo per cui un samurai poteva considerarsi un dio o un pezzente, e la ragione stessa per cui oggi il Giappone ha quella mentalità ossessiva per la perfezione.
@@ -12,6 +12,12 @@ Se pensi che il riso sia solo quel contorno bianco triste che accompagna il sush
 <!-- truncate -->
 
 Prepara i sensi, perché stiamo per entrare nel magazzino del riso più pericoloso della storia.
+
+<ImageComponent
+  src="/img/blog/riso/agricoltori_nella_risaia.jpg"
+  alt="Pittura giapponese: signore con cappello dirige quattro contadini chini nella risaia."
+  caption="Taue (田植え), la piantagione del riso. Una scena del Giappone feudale che si è ripetuta identica per mille anni."
+/>
 
 ## Il riso è la tua banca (il sistema Koku)
 
@@ -22,6 +28,12 @@ Il **Koku** non era un'unità di misura astratta. Era la quantità di riso neces
 - **Il daimyō (signore feudale)**: non era "ricco" perché aveva oro. Era potente perché il suo feudo produceva, ad esempio, 1 milione di Koku.
 - **L'esercito**: se avevi 1 milione di Koku, potevi mantenere un esercito di 1 milione di uomini per un anno. Punto. La matematica della guerra era brutale e semplice.
 - **Lo stipendio del samurai**: i guerrieri venivano pagati in sacchi di riso. Immagina la scena: hai appena rischiato la vita in battaglia, torni a casa e la tua "busta paga" è un carro trainato da buoi pieno di chicchi.
+
+<ImageComponent
+  src="/img/blog/riso/koku.jpg"
+  alt="Tawara, sacchi di paglia intrecciata pieni di riso, accatastati."
+  caption="Il sistema koku in forma tangibile: in queste pile si misurava — e si pagava — il riso."
+/>
 
 ## Si uccideva (e si moriva) per un campo
 
@@ -49,6 +61,12 @@ I giapponesi hanno passato secoli a selezionare i chicchi più resistenti al fre
 - **Il Koshihikari**: è il boss finale. Creato per essere perfetto: lucido, elastico, con un equilibrio di zuccheri che ti esplode in bocca.
 - **Il riso per il sake**: non è quello che mangi. È un riso diverso, con un cuore di amido enorme, fatto apposta per essere "sacrificato" alla fermentazione.
 
+<ImageComponent
+  src="/img/blog/riso/nihonshu.jpg"
+  alt="Bottiglia di nihonshu Kubota e ochoko bianca, foto in bianco e nero."
+  caption="Il riso sacrificato alla fermentazione che diventa l'alcol degli dèi. Sulla bottiglia, la calligrafia di Kubota — uno dei produttori di Niigata."
+/>
+
 Questa varietà è il simbolo della resilienza. Se una malattia colpiva un tipo di riso, ce n'erano altri mille pronti a sfamare la nazione. È biodiversità applicata alla sopravvivenza.
 
 ## Ma perché è così bono? La scienza del palato
@@ -58,7 +76,13 @@ Parliamoci chiaramente: il riso giapponese (varietà *Japonica*) è un'altra cat
 - **Il segreto del lavaggio**: un giapponese non mette il riso nell'acqua e basta. Lo "massaggia". Lo lava finché l'acqua non è limpida come un ruscello di montagna. Questo toglie l'amido superficiale in eccesso e permette a ogni chicco di brillare come una perla.
 - **La consistenza *mochi-mochi***: è quel feedback elastico sotto i denti. Non è gomma, non è pappa. È la perfezione strutturale.
 
-Aggiungici che per secoli è stato la base per creare il **sake** (l'alcol degli dèi), l'aceto e il **mirin**, e capirai perché senza il riso la cucina giapponese sarebbe solo un mucchio di pesce crudo e alghe. Il riso è la colla che tiene insieme l'identità di un popolo.
+Aggiungici che per secoli è stato la base per creare il **sake** (l'alcol degli dèi), l'aceto e il **mirin**, e capirai perché togliere il riso alla cucina giapponese sarebbe come togliere contemporaneamente pane, pasta, olio e vino alla cucina italiana. Il riso è la colla che tiene insieme l'identità di un popolo.
+
+<ImageComponent
+  src="/img/blog/riso/botti_di_nihonshu.jpg"
+  alt="Parete di botti di sake decorate, impilate a un santuario shintoista."
+  caption="Kazaridaru: offerte di sake agli dèi. L'altro grande destino del chicco."
+/>
 
 ## Il chicco è potere
 

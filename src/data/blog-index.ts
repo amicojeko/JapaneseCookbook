@@ -27,13 +27,30 @@ export const BLOG_INDEX: BlogIndexEntry[] = [
     "description": "Sono Akifumi Nakagoe, cuoco giapponese di Fukuoka trasferitosi a Chioggia nel 2024. Da oggi mi unisco a Pagine Giappe per raccontare la cucina del mio paese con quello che si trova al supermercato italiano.",
     "image": "/img/blog/aki_nakagoe.jpg",
     "date": "2026-05-14",
-    "readingTime": 1.13,
+    "readingTime": 1.1,
     "authors": [
       {
         "key": "aki",
         "name": "Aki Nakagoe",
         "imageURL": "/img/authors/aki_nakagoe.jpg",
         "title": "Cuoco giapponese e divulgatore della cucina washoku casalinga"
+      }
+    ]
+  },
+  {
+    "slug": "il-chicco-di-sangue",
+    "permalink": "/blog/il-chicco-di-sangue/",
+    "title": "Il chicco di sangue: come il riso ha creato (e distrutto) il Giappone",
+    "description": "Per millenni in Giappone il riso non è stato cibo: è stato moneta, esercito, energia. Dal sistema Koku alle 2500 varietà, viaggio nel chicco che ha forgiato l'identità di un popolo.",
+    "image": "/img/blog/riso/agricoltori_nella_risaia.jpg",
+    "date": "2026-05-13",
+    "readingTime": 3.1,
+    "authors": [
+      {
+        "key": "curiosity_power",
+        "name": "Mattia di Sangro \"Curiosity Power\"",
+        "imageURL": "/img/authors/curiosity_power.jpg",
+        "title": "Divulgatore di storia e cultura, amante del Giappone"
       }
     ]
   },
