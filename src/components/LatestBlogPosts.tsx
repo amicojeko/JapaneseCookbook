@@ -2,6 +2,7 @@ import React from 'react';
 import Link from '@docusaurus/Link';
 import Heading from '@theme/Heading';
 import {BLOG_INDEX, type BlogIndexEntry} from '../data/blog-index';
+import OptimizedImage from './OptimizedImage';
 import styles from './LatestBlogPosts.module.css';
 
 interface LatestBlogPostsProps {
@@ -40,7 +41,7 @@ function PostCard({post}: {post: BlogIndexEntry}): React.ReactElement {
       <article className={styles.card}>
         {post.image && (
           <div className={styles.imageWrapper}>
-            <img src={post.image} alt={post.title} className={styles.image} loading="lazy" />
+            <OptimizedImage src={post.image} alt={post.title} className={styles.image} />
           </div>
         )}
         <div className={styles.content}>

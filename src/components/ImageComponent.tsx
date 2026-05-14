@@ -1,5 +1,6 @@
 import React from 'react';
 import { useDoc } from '@docusaurus/plugin-content-docs/client';
+import OptimizedImage from './OptimizedImage';
 import styles from './ImageComponent.module.css';
 
 interface ImageComponentProps {
@@ -29,6 +30,8 @@ interface ImageComponentProps {
  */
 // Direct-src branch: doesn't call useDoc(), so it works in any context
 // (docs, blog posts, MDX pages — anywhere ImageComponent gets used).
+// Delegates the <picture> + srcset emission to OptimizedImage, then wraps
+// in <figure>/<div> for layout/caption.
 const ImageFromSrc: React.FC<ImageComponentProps> = ({
   src,
   alt,
@@ -38,31 +41,31 @@ const ImageFromSrc: React.FC<ImageComponentProps> = ({
   useContainer = true,
   caption,
 }) => {
-  const imgElement = (
-    <img
-      src={src}
+  const opt = (
+    <OptimizedImage
+      src={src!}
       alt={alt || ''}
+      className={useContainer ? styles.image : undefined}
       width={width}
       height={height}
       style={style}
-      className={useContainer ? styles.image : undefined}
     />
   );
 
   if (!useContainer) {
-    return imgElement;
+    return opt;
   }
 
   if (caption) {
     return (
       <figure className={styles.figure}>
-        {imgElement}
+        {opt}
         <figcaption className={styles.caption}>{caption}</figcaption>
       </figure>
     );
   }
 
-  return <div className={styles.imageContainer}>{imgElement}</div>;
+  return <div className={styles.imageContainer}>{opt}</div>;
 };
 
 // Frontmatter branch: only mounted inside a docs page (DocProvider context).
@@ -83,9 +86,9 @@ const ImageFromFrontmatter: React.FC = () => {
 
   return (
     <div className={styles.imageContainer}>
-      <img
+      <OptimizedImage
         src={imagePath}
-        alt={altText}
+        alt={altText as string}
         className={styles.image}
       />
     </div>

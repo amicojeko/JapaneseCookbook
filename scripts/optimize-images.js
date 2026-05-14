@@ -1,9 +1,16 @@
 #!/usr/bin/env node
 
 /**
- * Generate responsive image variants (-320w / -640w / -1280w / -1600w, both
- * .jpg and .webp) for every master image in static/img/, and a manifest
+ * Generate responsive image variants (-320w / -640w / -1280w / -1600w as
+ * .webp only) for every master image in static/img/, and a manifest
  * static/image-srcset.json that maps master → variants + the master's MD5.
+ *
+ * WebP-only: >99% of paginegiappe.it traffic (GA, last 90d) is on browsers
+ * that support WebP natively. The handful that don't (~0.6%, mostly
+ * "(not set)" / bot UA strings) fall back gracefully to the master image
+ * via the <img> tag inside <picture> — they get a full-res file, the page
+ * still works. Halving the variant count (no JPG twins) saves repo size
+ * and keeps the manifest leaner.
  *
  * INCREMENTAL: walks every master and compares its current MD5 against the
  * manifest. If the hash matches *and* all expected variants exist on disk,
@@ -73,10 +80,18 @@ function expectedVariantPaths(masterPath, width) {
   const out = [];
   for (const size of SIZES) {
     if (width != null && size > width) continue;
-    out.push(path.join(dir, `${nameWithoutExt}-${size}w.jpg`));
     out.push(path.join(dir, `${nameWithoutExt}-${size}w.webp`));
   }
   return out;
+}
+
+// Legacy: previous versions also emitted -NNNw.jpg variants. They are no
+// longer used (the build now ships .webp only with master-image fallback)
+// — collect them so we can clean them up.
+function legacyJpgVariantPaths(masterPath) {
+  const dir = path.dirname(masterPath);
+  const nameWithoutExt = path.basename(masterPath).replace(/\.[^.]+$/, '');
+  return SIZES.map(size => path.join(dir, `${nameWithoutExt}-${size}w.jpg`));
 }
 
 async function optimizeMaster(masterPath, hash) {
@@ -91,8 +106,12 @@ async function optimizeMaster(masterPath, hash) {
   }
 
   // Wipe any existing variants for this master (dimensions might have shifted
-  // and old breakpoints could be stale).
-  for (const v of expectedVariantPaths(masterPath, null)) {
+  // and old breakpoints could be stale). Also remove legacy -NNNw.jpg
+  // variants left over from the pre-WebP-only era.
+  for (const v of [
+    ...expectedVariantPaths(masterPath, null),
+    ...legacyJpgVariantPaths(masterPath),
+  ]) {
     if (fs.existsSync(v)) fs.unlinkSync(v);
   }
 
@@ -101,21 +120,15 @@ async function optimizeMaster(masterPath, hash) {
   const srcset = [];
 
   for (const size of sizesToGenerate) {
-    const jpegName = `${nameWithoutExt}-${size}w.jpg`;
     const webpName = `${nameWithoutExt}-${size}w.webp`;
     const resizeHeight = Math.round((size * metadata.height) / metadata.width);
-
-    await sharp(masterPath)
-      .resize(size, resizeHeight, {withoutEnlargement: true})
-      .jpeg({quality: 80, progressive: true})
-      .toFile(path.join(dir, jpegName));
 
     await sharp(masterPath)
       .resize(size, resizeHeight, {withoutEnlargement: true})
       .webp({quality: 80})
       .toFile(path.join(dir, webpName));
 
-    const srcPath = relDir ? `${relDir}/${jpegName}` : jpegName;
+    const srcPath = relDir ? `${relDir}/${webpName}` : webpName;
     srcset.push(`/img/${srcPath} ${size}w`);
   }
 
@@ -146,13 +159,31 @@ async function optimizeMaster(masterPath, hash) {
     let processed = 0;
     let skipped = 0;
 
+    // One-time migration sweep: remove ALL legacy -NNNw.jpg variants for the
+    // current masters (we now ship .webp only). This is idempotent: once the
+    // .jpg variants are gone, subsequent runs find nothing to delete.
+    let legacyRemoved = 0;
+    for (const masterPath of masters) {
+      for (const v of legacyJpgVariantPaths(masterPath)) {
+        if (fs.existsSync(v)) {
+          fs.unlinkSync(v);
+          legacyRemoved++;
+        }
+      }
+    }
+    if (legacyRemoved > 0) {
+      console.log(`🧹 removed ${legacyRemoved} legacy -NNNw.jpg variants`);
+    }
+
     for (const masterPath of masters) {
       const key = manifestKeyFor(masterPath);
       const hash = md5OfFile(masterPath);
       const existing = manifest[key];
 
-      // Cache hit: same hash AND all expected variants present on disk.
-      if (existing && existing.hash === hash) {
+      // Cache hit: same hash, srcset is in the current (WebP-only) format,
+      // AND all expected variants present on disk.
+      const srcsetIsLegacy = existing && /\.jpg(\s|$)/.test(existing.srcset || '');
+      if (existing && existing.hash === hash && !srcsetIsLegacy) {
         const allVariantsExist = expectedVariantPaths(masterPath, existing.width)
           .every(v => fs.existsSync(v));
         if (allVariantsExist) {
@@ -176,7 +207,11 @@ async function optimizeMaster(masterPath, hash) {
     let removed = 0;
     for (const orphanKey of orphans) {
       const orphanMaster = path.join(imgDir, orphanKey);
-      for (const v of expectedVariantPaths(orphanMaster, manifest[orphanKey].width)) {
+      const toDelete = [
+        ...expectedVariantPaths(orphanMaster, manifest[orphanKey].width),
+        ...legacyJpgVariantPaths(orphanMaster),
+      ];
+      for (const v of toDelete) {
         if (fs.existsSync(v)) {
           fs.unlinkSync(v);
           removed++;

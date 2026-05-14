@@ -27,7 +27,7 @@ export const BLOG_INDEX: BlogIndexEntry[] = [
     "description": "Sono Akifumi Nakagoe, cuoco giapponese di Fukuoka trasferitosi a Chioggia nel 2024. Da oggi mi unisco a Pagine Giappe per raccontare la cucina del mio paese con quello che si trova al supermercato italiano.",
     "image": "/img/blog/aki_nakagoe.jpg",
     "date": "2026-05-14",
-    "readingTime": 1.13,
+    "readingTime": 1.1,
     "authors": [
       {
         "key": "aki",
