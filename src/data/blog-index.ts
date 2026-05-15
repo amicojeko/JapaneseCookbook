@@ -21,6 +21,40 @@ export type BlogIndexEntry = {
 
 export const BLOG_INDEX: BlogIndexEntry[] = [
   {
+    "slug": "distributori-automatici-giappone",
+    "permalink": "/blog/distributori-automatici-giappone/",
+    "title": "Jidōhanbaiki: perché in Giappone i distributori automatici sono ovunque",
+    "description": "Ramen istantanei, uova, biancheria, carne di Kobe: in Giappone i distributori automatici sono ovunque. Storia, invenzioni e leggende dei jihanki, dal primo del 1904 alle lattine calde fino al ruolo di infrastruttura d'emergenza.",
+    "image": "/img/blog/jidohanbaiki/jidohanbaiki3.jpg",
+    "date": "2026-05-15",
+    "readingTime": 2.18,
+    "authors": [
+      {
+        "key": "fujitivo",
+        "name": "Erick \"il Fujitivo\"",
+        "imageURL": "/img/authors/logo_ilfujitivo.png",
+        "title": "Viaggiatore in Giappone dal 2008 · autore di \"Andiamo in Giappone\""
+      }
+    ]
+  },
+  {
+    "slug": "il-chicco-di-sangue",
+    "permalink": "/blog/il-chicco-di-sangue/",
+    "title": "Il chicco di sangue: come il riso ha creato (e distrutto) il Giappone",
+    "description": "Per millenni in Giappone il riso non è stato cibo: è stato moneta, esercito, energia. Dal sistema Koku alle 2500 varietà, viaggio nel chicco che ha forgiato l'identità di un popolo.",
+    "image": "/img/blog/riso/agricoltori_nella_risaia.jpg",
+    "date": "2026-05-15",
+    "readingTime": 3.1,
+    "authors": [
+      {
+        "key": "curiosity_power",
+        "name": "Mattia di Sangro \"Curiosity Power\"",
+        "imageURL": "/img/authors/curiosity_power.jpg",
+        "title": "Divulgatore di storia e cultura, amante del Giappone"
+      }
+    ]
+  },
+  {
     "slug": "chi-e-aki",
     "permalink": "/blog/chi-e-aki/",
     "title": "Mi presento: sono Aki, cuoco giapponese a Chioggia",
@@ -79,23 +113,6 @@ export const BLOG_INDEX: BlogIndexEntry[] = [
     "image": "/img/blog/il_pesce_guarda_sempre_a_sinistra.jpg",
     "date": "2026-05-09",
     "readingTime": 3.74,
-    "authors": [
-      {
-        "key": "jeko",
-        "name": "Stefano \"Jeko\" Guglielmetti",
-        "imageURL": "/img/JEKO-CUCINA-02.png",
-        "title": "Curatore di Pagine Giappe · nerd impenitente e cuoco amatoriale ostinato"
-      }
-    ]
-  },
-  {
-    "slug": "benvenuti-nel-blog",
-    "permalink": "/blog/benvenuti-nel-blog/",
-    "title": "Chi sono, e perché esiste questo blog",
-    "description": "Apriamo una sezione blog su paginegiappe.it per raccontare le novità del sito, gli ingredienti che proviamo, i negozi che scopriamo e i viaggi in Giappone.",
-    "image": "/img/social_media_card.png",
-    "date": "2026-05-08",
-    "readingTime": 2.1,
     "authors": [
       {
         "key": "jeko",

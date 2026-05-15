@@ -13,6 +13,13 @@
     "width": 500,
     "height": 500
   },
+  "authors/curiosity_power.jpg": {
+    "hash": "d3e5b71a41865e6f992e32402f60f800",
+    "original": "/img/authors/curiosity_power.jpg",
+    "srcset": "/img/authors/curiosity_power-320w.webp 320w",
+    "width": 500,
+    "height": 499
+  },
   "authors/logo_ilfujitivo.png": {
     "hash": "6e8fe9754eb478b38f10209907d63cb9",
     "original": "/img/authors/logo_ilfujitivo.png",
@@ -82,6 +89,62 @@
     "srcset": "/img/blog/il_pesce_guarda_sempre_a_sinistra-320w.webp 320w, /img/blog/il_pesce_guarda_sempre_a_sinistra-640w.webp 640w",
     "width": 1200,
     "height": 670
+  },
+  "blog/jidohanbaiki/jidohanbaiki1.jpg": {
+    "hash": "a78e28aedb2752da0372f7788405d102",
+    "original": "/img/blog/jidohanbaiki/jidohanbaiki1.jpg",
+    "srcset": "/img/blog/jidohanbaiki/jidohanbaiki1-320w.webp 320w, /img/blog/jidohanbaiki/jidohanbaiki1-640w.webp 640w",
+    "width": 1000,
+    "height": 563
+  },
+  "blog/jidohanbaiki/jidohanbaiki2.jpg": {
+    "hash": "e99f2f12fcdea36bd3454bc7b47a2422",
+    "original": "/img/blog/jidohanbaiki/jidohanbaiki2.jpg",
+    "srcset": "/img/blog/jidohanbaiki/jidohanbaiki2-320w.webp 320w, /img/blog/jidohanbaiki/jidohanbaiki2-640w.webp 640w",
+    "width": 1000,
+    "height": 563
+  },
+  "blog/jidohanbaiki/jidohanbaiki3.jpg": {
+    "hash": "9fed730416a45a88db3e0b03394d9b00",
+    "original": "/img/blog/jidohanbaiki/jidohanbaiki3.jpg",
+    "srcset": "/img/blog/jidohanbaiki/jidohanbaiki3-320w.webp 320w, /img/blog/jidohanbaiki/jidohanbaiki3-640w.webp 640w",
+    "width": 1000,
+    "height": 563
+  },
+  "blog/jidohanbaiki/jidohanbaiki4.jpg": {
+    "hash": "c0feab18f797ea5485917a85ee5cd1d5",
+    "original": "/img/blog/jidohanbaiki/jidohanbaiki4.jpg",
+    "srcset": "/img/blog/jidohanbaiki/jidohanbaiki4-320w.webp 320w, /img/blog/jidohanbaiki/jidohanbaiki4-640w.webp 640w",
+    "width": 1000,
+    "height": 667
+  },
+  "blog/riso/agricoltori_nella_risaia.jpg": {
+    "hash": "c1d1a60555fd7f1ef855389a879733cb",
+    "original": "/img/blog/riso/agricoltori_nella_risaia.jpg",
+    "srcset": "/img/blog/riso/agricoltori_nella_risaia-320w.webp 320w, /img/blog/riso/agricoltori_nella_risaia-640w.webp 640w",
+    "width": 736,
+    "height": 552
+  },
+  "blog/riso/botti_di_nihonshu.jpg": {
+    "hash": "b852e363e10c1ce869c6598a39d5c170",
+    "original": "/img/blog/riso/botti_di_nihonshu.jpg",
+    "srcset": "/img/blog/riso/botti_di_nihonshu-320w.webp 320w, /img/blog/riso/botti_di_nihonshu-640w.webp 640w",
+    "width": 1000,
+    "height": 563
+  },
+  "blog/riso/koku.jpg": {
+    "hash": "89f6671c38035623470b17feb86cadd3",
+    "original": "/img/blog/riso/koku.jpg",
+    "srcset": "/img/blog/riso/koku-320w.webp 320w, /img/blog/riso/koku-640w.webp 640w",
+    "width": 1000,
+    "height": 563
+  },
+  "blog/riso/nihonshu.jpg": {
+    "hash": "dae8a104dacddc110c64ef8fce185a90",
+    "original": "/img/blog/riso/nihonshu.jpg",
+    "srcset": "/img/blog/riso/nihonshu-320w.webp 320w, /img/blog/riso/nihonshu-640w.webp 640w",
+    "width": 1000,
+    "height": 563
   },
   "disegno_bello_pira.png": {
     "hash": "9254f1dedb50a811c8b54a067995f685",
