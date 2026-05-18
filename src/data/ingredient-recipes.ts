@@ -1179,6 +1179,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/salsa_okonomiyaki"
     },
     {
+      "id": "ricette/riso/gohan",
+      "title": "Riso giapponese in pentola",
+      "description": "Come cuocere il riso giapponese in pentola: una tecnica che richiede attenzione e precisione per un risultato perfetto.",
+      "permalink": "/ricette/riso-giapponese-in-pentola"
+    },
+    {
       "id": "ricette/riso/gyudon",
       "title": "Gyudon",
       "description": "La ciotola di riso con carne di manzo e cipolla",
