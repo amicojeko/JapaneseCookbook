@@ -1673,3 +1673,219 @@ article > .theme-doc-markdown.markdown > p:first-of-type::first-letter,
   }
 }
 
+/* ---------- PRINT ---------- */
+@media print {
+  @page {
+    margin: 18mm 16mm 20mm;
+  }
+
+  html, body {
+    background: #fff !important;
+    color: #000 !important;
+    font-size: 11.5pt;
+    line-height: 1.45;
+  }
+
+  body {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* Hide all chrome: navbar, sidebar, TOC, breadcrumbs, pagination,
+     edit link, footer, back-to-top, announcement bar, skip-to-content. */
+  .navbar,
+  .theme-doc-sidebar-container,
+  .theme-doc-toc-desktop,
+  .theme-doc-toc-mobile,
+  .theme-doc-breadcrumbs,
+  .theme-edit-this-page,
+  .theme-last-updated,
+  .pagination-nav,
+  .theme-back-to-top-button,
+  .theme-announcement-bar,
+  div[class*='announcementBar'],
+  div[class*='skipToContent'],
+  .footer,
+  footer,
+  .DocSearch,
+  .navbar__search,
+  button[class*='toggle'],
+  /* In-page videos (YouTube embeds) — no value on paper */
+  .video-container-responsive,
+  iframe {
+    display: none !important;
+  }
+
+  /* Hide the entire "## Video" section (heading + every sibling that follows)
+     so the printed page doesn't end with a "Video" title above nothing.
+     Docusaurus auto-slugs the heading to id="video". Today "Video" is always
+     the last H2 in a recipe; the second rule restores visibility from the
+     next H2 onward, so the rule keeps working if that ever changes. */
+  .markdown h2#video,
+  .markdown h2#video ~ * {
+    display: none !important;
+  }
+  .markdown h2#video ~ h2,
+  .markdown h2#video ~ h2 ~ * {
+    display: revert !important;
+  }
+
+  /* Let the main column use the full page width */
+  .main-wrapper,
+  main,
+  .container,
+  .row,
+  .col,
+  [class*='docMainContainer'],
+  [class*='docItemContainer'],
+  [class*='docItemCol'],
+  article {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    float: none !important;
+    background: #fff !important;
+    box-shadow: none !important;
+  }
+
+  /* Typography: keep editorial serif, in black on white */
+  h1, h2, h3, h4, h5, h6,
+  .markdown h1, .markdown h2, .markdown h3, .markdown h4, .markdown h5, .markdown h6 {
+    color: #000 !important;
+    page-break-after: avoid;
+    break-after: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  .markdown h1 { font-size: 24pt; margin: 0 0 12pt; }
+  .markdown h2 {
+    font-size: 16pt;
+    margin: 18pt 0 8pt;
+    border-bottom: 1pt solid #000;
+    padding-bottom: 3pt;
+  }
+  .markdown h3 { font-size: 13pt; margin: 14pt 0 6pt; }
+
+  p, li {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* Lists (ingredients & steps): keep tight, avoid splitting a list item */
+  .markdown ul,
+  .markdown ol {
+    margin: 6pt 0 10pt;
+    padding-left: 18pt;
+  }
+  .markdown li {
+    page-break-inside: avoid;
+    break-inside: avoid;
+    margin: 2pt 0;
+  }
+
+  /* Ingredients block: try to keep the whole list on one page */
+  .markdown h2 + ul {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* Links: keep readable, drop the underline noise.
+     For non-anchor links to the same site, append the URL inline so the
+     printed page is still navigable. Skip in-page anchors and mail/tel. */
+  a, a:visited {
+    color: #000 !important;
+    text-decoration: none !important;
+    border-bottom: 0 !important;
+    font-weight: 600;
+  }
+  .markdown a[href^="http"]::after {
+    content: ' (' attr(href) ')';
+    font-weight: 400;
+    font-size: 0.85em;
+    color: #444;
+    word-break: break-all;
+  }
+  .markdown a[href^="#"]::after,
+  .markdown a[href^="mailto:"]::after,
+  .markdown a[href^="tel:"]::after,
+  .markdown a.no-print-url::after {
+    content: '';
+  }
+
+  /* Hide every photo on paper — recipes get used while cooking, the photo
+     wastes ink and space. Also drop the wrappers so they leave no gap. */
+  .markdown img,
+  .markdown picture,
+  .markdown figure,
+  .markdown figcaption,
+  .markdown [class*='imageContainer'],
+  .markdown [class*='figure_'] {
+    display: none !important;
+  }
+
+  /* Admonitions: keep the on-screen colors (tinted bg, colored left bar,
+     tinted ink). Browsers strip backgrounds in print by default, so opt
+     into color preservation explicitly on the admonition itself. */
+  .theme-admonition,
+  .alert {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  /* Don't let the global ink-black overrides for headings / body / links
+     reach inside an admonition — admonitions have their own tinted ink. */
+  .theme-admonition, .theme-admonition *,
+  .alert, .alert * {
+    color: inherit !important;
+  }
+  .theme-admonition a, .alert a,
+  .theme-admonition a:visited, .alert a:visited {
+    color: inherit !important;
+    text-decoration: underline !important;
+    font-weight: 600;
+  }
+  /* External-link URL append is noisy inside a tinted box — suppress it. */
+  .theme-admonition a[href^="http"]::after,
+  .alert a[href^="http"]::after {
+    content: '' !important;
+  }
+
+  /* Tables */
+  table {
+    border-collapse: collapse;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    width: 100% !important;
+  }
+  th, td {
+    border: 0.5pt solid #000 !important;
+    padding: 4pt 6pt !important;
+    color: #000 !important;
+  }
+  thead { display: table-header-group; }
+  tr { page-break-inside: avoid; break-inside: avoid; }
+
+  /* Code */
+  pre, code {
+    background: #f4f4f4 !important;
+    color: #000 !important;
+    border: 0.5pt solid #ccc;
+    font-size: 9.5pt;
+  }
+  pre {
+    padding: 6pt;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  /* Blog: hide the author meta column on print as well */
+  .blog-post-page [class*='blogPostAuthorsContainer'],
+  .blog-post-page nav.pagination-nav {
+    display: none !important;
+  }
+}
