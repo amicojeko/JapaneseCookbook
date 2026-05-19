@@ -21,6 +21,23 @@ export type BlogIndexEntry = {
 
 export const BLOG_INDEX: BlogIndexEntry[] = [
   {
+    "slug": "le-tre-scimmie-di-nikko",
+    "permalink": "/blog/le-tre-scimmie-di-nikko/",
+    "title": "Le tre scimmie che vedono, sentono e parlano",
+    "description": "Mizaru, Kikazaru e Iwazaru — le tre scimmie del santuario Tōshōgū di Nikkō — non invitano a ignorare i problemi. Il significato originale è l'opposto: non guardare il male, non ascoltarlo, non parlarne.",
+    "image": "/img/blog/tre_scimmie/nikko-trescimmie2.jpg",
+    "date": "2026-05-18",
+    "readingTime": 1.68,
+    "authors": [
+      {
+        "key": "fujitivo",
+        "name": "Erick \"il Fujitivo\"",
+        "imageURL": "/img/authors/logo_ilfujitivo.png",
+        "title": "Viaggiatore in Giappone dal 2008 · autore di \"Andiamo in Giappone\""
+      }
+    ]
+  },
+  {
     "slug": "distributori-automatici-giappone",
     "permalink": "/blog/distributori-automatici-giappone/",
     "title": "Jidōhanbaiki: perché in Giappone i distributori automatici sono ovunque",
@@ -102,23 +119,6 @@ export const BLOG_INDEX: BlogIndexEntry[] = [
         "name": "Erick \"il Fujitivo\"",
         "imageURL": "/img/authors/logo_ilfujitivo.png",
         "title": "Viaggiatore in Giappone dal 2008 · autore di \"Andiamo in Giappone\""
-      }
-    ]
-  },
-  {
-    "slug": "pesce-guarda-a-sinistra",
-    "permalink": "/blog/pesce-guarda-a-sinistra/",
-    "title": "Il mistero del pesce che guarda a sinistra in Giappone: un viaggio tra miti, etichetta e sogliole ribelli!",
-    "description": "Nei piatti, sui libri, sulle stampe, sulle emoji: in Giappone il pesce guarda sempre a sinistra. Perché? Cinque teorie e un'eccezione (la sogliola).",
-    "image": "/img/blog/il_pesce_guarda_sempre_a_sinistra.jpg",
-    "date": "2026-05-09",
-    "readingTime": 3.74,
-    "authors": [
-      {
-        "key": "jeko",
-        "name": "Stefano \"Jeko\" Guglielmetti",
-        "imageURL": "/img/JEKO-CUCINA-02.png",
-        "title": "Curatore di Pagine Giappe · nerd impenitente e cuoco amatoriale ostinato"
       }
     ]
   }

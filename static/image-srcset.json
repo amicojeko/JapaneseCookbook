@@ -146,6 +146,20 @@
     "width": 1000,
     "height": 563
   },
+  "blog/tre_scimmie/nikko-Shinkyusha.jpg": {
+    "hash": "327e394eac69ff827456f3dca1b2f103",
+    "original": "/img/blog/tre_scimmie/nikko-Shinkyusha.jpg",
+    "srcset": "/img/blog/tre_scimmie/nikko-Shinkyusha-320w.webp 320w, /img/blog/tre_scimmie/nikko-Shinkyusha-640w.webp 640w, /img/blog/tre_scimmie/nikko-Shinkyusha-1280w.webp 1280w",
+    "width": 1532,
+    "height": 1026
+  },
+  "blog/tre_scimmie/nikko-trescimmie2.jpg": {
+    "hash": "cce1cf5bafb689a057ca13c446dc8453",
+    "original": "/img/blog/tre_scimmie/nikko-trescimmie2.jpg",
+    "srcset": "/img/blog/tre_scimmie/nikko-trescimmie2-320w.webp 320w, /img/blog/tre_scimmie/nikko-trescimmie2-640w.webp 640w",
+    "width": 1000,
+    "height": 651
+  },
   "disegno_bello_pira.png": {
     "hash": "9254f1dedb50a811c8b54a067995f685",
     "original": "/img/disegno_bello_pira.png",
