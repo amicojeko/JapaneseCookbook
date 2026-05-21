@@ -1550,7 +1550,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "0Mcg9AhAKbQ"
     ],
-    "datePublished": null
+    "datePublished": "2026-05-21T14:55:29+02:00"
   },
   "ricette/yakimono/gyoza": {
     "docId": "ricette/yakimono/gyoza",
