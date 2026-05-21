@@ -395,6 +395,16 @@ export const NEGOZI: Negozio[] = [
         map_url: "https://maps.app.goo.gl/hXD1WTjpAs9dfBDd8",
     },
     {
+        id: "lazio-roma-mico-ostiense",
+        name: "mico ostiense",
+        region: "Lazio",
+        city: "Roma",
+        address: "Viale Leonardo da Vinci, 285, 00145 Roma RM",
+        lat: 41.8521728,
+        lng: 12.4803898,
+        map_url: "https://maps.app.goo.gl/JCsNTTF26SMUm53V6",
+    },
+    {
         id: "lazio-roma-snack-house",
         name: "Snack House",
         region: "Lazio",
