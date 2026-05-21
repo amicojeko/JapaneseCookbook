@@ -1375,6 +1375,22 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/zuppa-miso-funghi-vegana"
     }
   ],
+  "azuki": [
+    {
+      "id": "ricette/wagashi/oshiruko",
+      "title": "Oshiruko",
+      "description": "Una vera e propria zuppa dolce giapponese a base di fagioli azuki e mochi grigliati, resa celebre dall'anime One Piece.",
+      "permalink": "/ricette/oshiruko"
+    }
+  ],
+  "mochi": [
+    {
+      "id": "ricette/wagashi/oshiruko",
+      "title": "Oshiruko",
+      "description": "Una vera e propria zuppa dolce giapponese a base di fagioli azuki e mochi grigliati, resa celebre dall'anime One Piece.",
+      "permalink": "/ricette/oshiruko"
+    }
+  ],
   "snack": [
     {
       "id": "ricette/yakimono/isobeyaki",

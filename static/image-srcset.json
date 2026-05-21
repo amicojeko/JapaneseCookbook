@@ -755,6 +755,13 @@
     "width": 1917,
     "height": 1431
   },
+  "ricette/oshiruko.jpg": {
+    "hash": "2a4d4315a04020f0c6e862a083baf9c0",
+    "original": "/img/ricette/oshiruko.jpg",
+    "srcset": "/img/ricette/oshiruko-320w.webp 320w, /img/ricette/oshiruko-640w.webp 640w",
+    "width": 1200,
+    "height": 900
+  },
   "ricette/oyakodon.jpg": {
     "hash": "449927de36840ecd84f1dfccdb019e8a",
     "original": "/img/ricette/oyakodon.jpg",

@@ -1534,6 +1534,24 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [],
     "datePublished": "2022-01-17T19:27:34+01:00"
   },
+  "ricette/wagashi/oshiruko": {
+    "docId": "ricette/wagashi/oshiruko",
+    "title": "Oshiruko",
+    "description": "Una vera e propria zuppa dolce giapponese a base di fagioli azuki e mochi grigliati, resa celebre dall'anime One Piece.",
+    "image": "/img/ricette/oshiruko.jpg",
+    "recipeCategory": null,
+    "recipeKeywords": [
+      "azuki",
+      "mochi"
+    ],
+    "recipeYield": null,
+    "recipeIngredient": [],
+    "instructionsText": "Per iniziare, dobbiamo applicare una tecnica giapponese chiamata shibunuki, che serve per levare il sapore amaro dai fagioli. Facciamo bollire gli azuki in acqua per un paio di minuti, dopodiché scartiamo completamente quest'acqua. A questo punto, rimettiamo i fagioli in pentola e aggiungiamo il nostro litro di acqua fresca. Lasciamo sobbollire il tutto per 30-40 minuti, finché i fagioli non diventano così teneri da potersi schiacciare facilmente tra le dita. Solo ora possiamo aggiungere i condimenti: versiamo lo zucchero di canna e il pizzico di sale. Lasciamo restringere la zuppa sul fuoco, prendendocela comoda e schiumando le impurità in superficie, fino a farle assumere la consistenza densa che desideriamo. Ora arriva il momento preferito: grigliare i mochi! Posizioniamo questi panetti dall'apparenza innocua su una griglia rovente. Vedrete che si gonfieranno, diventando mortalmente tenerosi e acquisendo una consistenza collosa e tenace, molto simile a quella del formaggio fuso. Non ci resta che servire: versiamo la zuppa di azuki caldissima in una ciotola di legno e vi adagiamo dentro il mochi grigliato. Attenzione a masticarlo molto bene prima di deglutire!",
+    "videoIds": [
+      "0Mcg9AhAKbQ"
+    ],
+    "datePublished": null
+  },
   "ricette/yakimono/gyoza": {
     "docId": "ricette/yakimono/gyoza",
     "title": "Gyoza",
