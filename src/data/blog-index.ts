@@ -21,6 +21,23 @@ export type BlogIndexEntry = {
 
 export const BLOG_INDEX: BlogIndexEntry[] = [
   {
+    "slug": "shokunin-kishitsu",
+    "permalink": "/blog/shokunin-kishitsu/",
+    "title": "Shokunin Kishitsu: lo spirito dell'artigiano nella cucina giapponese",
+    "description": "Cosa sarebbe la cucina giapponese senza i suoi strumenti? Lo Shokunin Kishitsu è lo spirito dell'artigiano: la sensibilità che si nasconde dietro ogni coltello, ogni ciotola, ogni gesto in cucina.",
+    "image": "/img/blog/shokunin_kishitsu/fabbro-inari.jpg",
+    "date": "2026-05-20",
+    "readingTime": 3.03,
+    "authors": [
+      {
+        "key": "toolsreborn",
+        "name": "ToolsReborn – Wabi Sabi Story",
+        "imageURL": "/img/authors/tools_reborn.jpg",
+        "title": "Dietro la ruggine di ogni lama e di ogni attrezzo dimenticato si nasconde una storia unica"
+      }
+    ]
+  },
+  {
     "slug": "le-tre-scimmie-di-nikko",
     "permalink": "/blog/le-tre-scimmie-di-nikko/",
     "title": "Le tre scimmie che vedono, sentono e parlano",
@@ -102,23 +119,6 @@ export const BLOG_INDEX: BlogIndexEntry[] = [
         "name": "Aki Nakagoe",
         "imageURL": "/img/authors/aki_nakagoe.jpg",
         "title": "Cuoco giapponese e divulgatore della cucina washoku casalinga"
-      }
-    ]
-  },
-  {
-    "slug": "chi-e-il-fujitivo",
-    "permalink": "/blog/chi-e-il-fujitivo/",
-    "title": "Mi presento: sono Erick, «il Fujitivo»",
-    "description": "Sono Erick Simionato, alias il Fujitivo: viaggiatore in Giappone dal 2008, autore di «Andiamo in Giappone». Da oggi mi unisco a Pagine Giappe per parlarvi di viaggi.",
-    "image": "/img/authors/logo_ilfujitivo.png",
-    "date": "2026-05-09",
-    "readingTime": 0.65,
-    "authors": [
-      {
-        "key": "fujitivo",
-        "name": "Erick \"il Fujitivo\"",
-        "imageURL": "/img/authors/logo_ilfujitivo.png",
-        "title": "Viaggiatore in Giappone dal 2008 · autore di \"Andiamo in Giappone\""
       }
     ]
   }

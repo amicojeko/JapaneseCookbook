@@ -27,6 +27,13 @@
     "width": 1480,
     "height": 1310
   },
+  "authors/tools_reborn.jpg": {
+    "hash": "379a9d3ec45ba391bb5a4a270050def1",
+    "original": "/img/authors/tools_reborn.jpg",
+    "srcset": "/img/authors/tools_reborn-320w.webp 320w",
+    "width": 350,
+    "height": 350
+  },
   "blog/Iekei_ramen_Akutagawa_kyoto.jpg": {
     "hash": "217e04b896d894093d3c30f9325106b6",
     "original": "/img/blog/Iekei_ramen_Akutagawa_kyoto.jpg",
@@ -145,6 +152,34 @@
     "srcset": "/img/blog/riso/nihonshu-320w.webp 320w, /img/blog/riso/nihonshu-640w.webp 640w",
     "width": 1000,
     "height": 563
+  },
+  "blog/shokunin_kishitsu/artigiani-forgia.jpg": {
+    "hash": "1e8d607af2d0a8bdee3d40e19b1974c9",
+    "original": "/img/blog/shokunin_kishitsu/artigiani-forgia.jpg",
+    "srcset": "/img/blog/shokunin_kishitsu/artigiani-forgia-320w.webp 320w, /img/blog/shokunin_kishitsu/artigiani-forgia-640w.webp 640w",
+    "width": 1200,
+    "height": 800
+  },
+  "blog/shokunin_kishitsu/fabbro-inari.jpg": {
+    "hash": "36eddcf4571d7181da9facb67086f179",
+    "original": "/img/blog/shokunin_kishitsu/fabbro-inari.jpg",
+    "srcset": "/img/blog/shokunin_kishitsu/fabbro-inari-320w.webp 320w, /img/blog/shokunin_kishitsu/fabbro-inari-640w.webp 640w",
+    "width": 1200,
+    "height": 675
+  },
+  "blog/shokunin_kishitsu/shokunin-apprendista.jpg": {
+    "hash": "347484635e7816a04c6e2b05f6daba05",
+    "original": "/img/blog/shokunin_kishitsu/shokunin-apprendista.jpg",
+    "srcset": "/img/blog/shokunin_kishitsu/shokunin-apprendista-320w.webp 320w",
+    "width": 600,
+    "height": 396
+  },
+  "blog/shokunin_kishitsu/toolsreborn-logo.jpg": {
+    "hash": "1f594996ccea0c158aa76b1758e8fbd2",
+    "original": "/img/blog/shokunin_kishitsu/toolsreborn-logo.jpg",
+    "srcset": "/img/blog/shokunin_kishitsu/toolsreborn-logo-320w.webp 320w, /img/blog/shokunin_kishitsu/toolsreborn-logo-640w.webp 640w",
+    "width": 1200,
+    "height": 675
   },
   "blog/tre_scimmie/nikko-Shinkyusha.jpg": {
     "hash": "327e394eac69ff827456f3dca1b2f103",

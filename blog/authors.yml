@@ -34,3 +34,13 @@ curiosity_power:
   image_url: /img/authors/curiosity_power.jpg
   instagram: https://www.instagram.com/curiositypower_
   page: true
+
+toolsreborn:
+  name: ToolsReborn – Wabi Sabi Story
+  title: "Dietro la ruggine di ogni lama e di ogni attrezzo dimenticato si nasconde una storia unica"
+  url: https://www.youtube.com/@ToolsReborn
+  image_url: /img/authors/tools_reborn.jpg
+  page: true
+  socials:
+    youtube: https://www.youtube.com/@ToolsReborn
+    instagram: https://www.instagram.com/toolsreborn92/
