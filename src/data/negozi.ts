@@ -525,6 +525,16 @@ export const NEGOZI: Negozio[] = [
         map_url: "https://maps.app.goo.gl/vJW7wWYPJNnbWWmY8A",
     },
     {
+        id: "lombardia-milano-alimentari-hua-qiao",
+        name: "Alimentari Hua Qiao",
+        region: "Lombardia",
+        city: "Milano",
+        address: "Via Brembo, 1, 20139 Milano MI",
+        lat: 45.445489,
+        lng: 9.2125429,
+        map_url: "https://maps.app.goo.gl/CRD8xHFgicUEEdx4A",
+    },
+    {
         id: "lombardia-milano-mood-market",
         name: "Mood Market",
         region: "Lombardia",
