@@ -1080,6 +1080,15 @@ export const NEGOZI: Negozio[] = [
         map_url: "https://maps.app.goo.gl/vceTd2EauuFKU28S9",
     },
     {
+        id: "toscana-carrara-bazaar-del-dragone",
+        name: "Bazaar del Dragone",
+        region: "Toscana",
+        city: "Carrara",
+        address: "Via Roma, 15F, 54033 Carrara MS",
+        lat: 44.0769688,
+        lng: 10.0974959,
+    },
+    {
         id: "toscana-pisa-cozy-asian-kitchen-market",
         name: "COZY ASIAN KITCHEN & MARKET",
         region: "Toscana",

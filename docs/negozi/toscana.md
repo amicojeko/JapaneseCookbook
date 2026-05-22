@@ -1,6 +1,6 @@
 ---
 title: "Negozi asiatici e giapponesi in Toscana"
-description: "15 negozi di alimentari asiatici e giapponesi in Toscana: Firenze, Pisa, Siena, Grosseto. Indirizzi, mappa e shop online per ingredienti orientali."
+description: "16 negozi di alimentari asiatici e giapponesi in Toscana: Firenze, Pisa, Siena, Grosseto. Indirizzi, mappa e shop online per ingredienti orientali."
 slug: "/negozi_orientali/toscana"
 ---
 import { NEGOZI } from '@site/src/data/negozi';
