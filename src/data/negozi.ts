@@ -799,6 +799,16 @@ export const NEGOZI: Negozio[] = [
         map_url: "https://maps.app.goo.gl/iAFr3QvwYQpzVjiXA",
     },
     {
+        id: "piemonte-torino-kira-asian-food-market",
+        name: "Kira Asian Food Market",
+        region: "Piemonte",
+        city: "Torino",
+        address: "Via Principe Amedeo, 33 F, 10123 Torino TO",
+        lat: 45.0664412,
+        lng: 7.6912722,
+        map_url: "https://maps.app.goo.gl/1VtktgDzKVDeRtkW7",
+    },
+    {
         id: "sardegna-cagliari-il-suq-international-food-shop",
         name: "Il Suq International Food Shop",
         region: "Sardegna",
