@@ -27,7 +27,7 @@ export const BLOG_INDEX: BlogIndexEntry[] = [
     "description": "Cosa sarebbe la cucina giapponese senza i suoi strumenti? Lo Shokunin Kishitsu è lo spirito dell'artigiano: la sensibilità che si nasconde dietro ogni coltello, ogni ciotola, ogni gesto in cucina.",
     "image": "/img/blog/shokunin_kishitsu/fabbro-inari.jpg",
     "date": "2026-05-20",
-    "readingTime": 3.03,
+    "readingTime": 2.91,
     "authors": [
       {
         "key": "toolsreborn",
