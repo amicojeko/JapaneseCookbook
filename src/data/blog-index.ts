@@ -21,6 +21,23 @@ export type BlogIndexEntry = {
 
 export const BLOG_INDEX: BlogIndexEntry[] = [
   {
+    "slug": "udon-storia-e-varieta",
+    "permalink": "/blog/udon-storia-e-varieta/",
+    "title": "Udon: storia e varietà di uno dei noodle più antichi del Giappone",
+    "description": "Dalle origini nei monasteri buddisti del IX secolo allo street food di Edo, fino agli stili regionali del brodo: storia, varietà e geografia degli udon, i noodle di frumento più amati del Giappone.",
+    "image": "/img/blog/udon/udon1.jpg",
+    "date": "2026-05-21",
+    "readingTime": 2.69,
+    "authors": [
+      {
+        "key": "aki",
+        "name": "Aki Nakagoe",
+        "imageURL": "/img/authors/aki_nakagoe.jpg",
+        "title": "Cuoco giapponese e divulgatore della cucina washoku casalinga"
+      }
+    ]
+  },
+  {
     "slug": "shokunin-kishitsu",
     "permalink": "/blog/shokunin-kishitsu/",
     "title": "Shokunin Kishitsu: lo spirito dell'artigiano nella cucina giapponese",
@@ -96,23 +113,6 @@ export const BLOG_INDEX: BlogIndexEntry[] = [
     "image": "/img/blog/aki_nakagoe.jpg",
     "date": "2026-05-14",
     "readingTime": 1.1,
-    "authors": [
-      {
-        "key": "aki",
-        "name": "Aki Nakagoe",
-        "imageURL": "/img/authors/aki_nakagoe.jpg",
-        "title": "Cuoco giapponese e divulgatore della cucina washoku casalinga"
-      }
-    ]
-  },
-  {
-    "slug": "cosa-definisce-il-ramen",
-    "permalink": "/blog/cosa-definisce-il-ramen/",
-    "title": "Cosa definisce il ramen? Storia e varietà più comuni",
-    "description": "Cos'è davvero il ramen? Dal kansui che lo distingue da tutti gli altri noodle in brodo alle varietà più popolari: shoyu, shio, tonkotsu, iekei, niboshi, Sapporo miso.",
-    "image": "/img/blog/Shoyu_ramen_Hayashida_Ikebukuro.jpg",
-    "date": "2026-05-12",
-    "readingTime": 3.75,
     "authors": [
       {
         "key": "aki",

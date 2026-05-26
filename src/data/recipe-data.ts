@@ -411,6 +411,21 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [],
     "datePublished": "2025-10-01T14:54:45+02:00"
   },
+  "ricette/menrui/udon_fatti_in_casa": {
+    "docId": "ricette/menrui/udon_fatti_in_casa",
+    "title": "Udon fatti in casa",
+    "description": "L'impasto base degli udon — farina, sale e acqua — preparato a mano. Da qui parti per ogni piatto di udon: in brodo, freddi, saltati o immersi in salsa.",
+    "image": "/img/ricette/udon_fatti_in_casa.jpg",
+    "recipeCategory": "Noodles",
+    "recipeKeywords": [
+      "udon"
+    ],
+    "recipeYield": null,
+    "recipeIngredient": [],
+    "instructionsText": "Iniziate unendo le farine in una ciotola e mescolate accuratamente per rimuovere eventuali grumi. In un recipiente piccolo mescolate l'acqua e il sale, sciogliendolo bene perché non rimangano parti dell'impasto più salate. Aggiungete 2/3 dell'acqua e sale alla farina e mescolate con movimenti ampi e rapidi per 1 minuto. Poi aggiungete il resto poco alla volta e mescolate per circa 5 minuti senza fermarvi, fino a ottenere un composto unico e leggermente umido. Unito l'impasto in un unico blocco, premete 20-30 volte sul piano di lavoro esercitando pressione con il peso del corpo, poi impastate ripiegandolo in 3 parti portando i bordi verso l'interno. Ripetete più volte.",
+    "videoIds": [],
+    "datePublished": null
+  },
   "ricette/menrui/yaki_udon": {
     "docId": "ricette/menrui/yaki_udon",
     "title": "Yaki Udon",
@@ -486,7 +501,9 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "200g di spaghetti di grano saraceno"
     ],
     "instructionsText": "Bollire gli spaghetti in abbondante acqua senza sale per la durata suggerita sulla confezione. Scolarli conservando una tazza dell'acqua di cottura (sobayu). Usare un colino e sciacquarli sotto acqua corrente fredda con le mani per eliminare l'amido in eccesso. Trasferirli in una ciotola con acqua e ghiaccio per raffreddarli per circa 30 secondi, poi scolarli bene e metterli da parte.",
-    "videoIds": [],
+    "videoIds": [
+      "P1P7Ff26jQ0"
+    ],
     "datePublished": "2024-03-10T17:50:10+01:00"
   },
   "ricette/nimono/daikon_no_nimono": {

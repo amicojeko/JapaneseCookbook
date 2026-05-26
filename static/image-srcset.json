@@ -195,6 +195,27 @@
     "width": 1000,
     "height": 651
   },
+  "blog/udon/udon1.jpg": {
+    "hash": "0d86899a3d3df721a2ad436d51f7d193",
+    "original": "/img/blog/udon/udon1.jpg",
+    "srcset": "/img/blog/udon/udon1-320w.webp 320w, /img/blog/udon/udon1-640w.webp 640w",
+    "width": 1200,
+    "height": 675
+  },
+  "blog/udon/udon2.jpg": {
+    "hash": "093a9751829f9d0c4d1cd58a644b59b4",
+    "original": "/img/blog/udon/udon2.jpg",
+    "srcset": "/img/blog/udon/udon2-320w.webp 320w, /img/blog/udon/udon2-640w.webp 640w",
+    "width": 1200,
+    "height": 900
+  },
+  "blog/udon/udon3.jpg": {
+    "hash": "ceeb233594f1f06e7f28c5f5371dba56",
+    "original": "/img/blog/udon/udon3.jpg",
+    "srcset": "/img/blog/udon/udon3-320w.webp 320w, /img/blog/udon/udon3-640w.webp 640w",
+    "width": 1200,
+    "height": 900
+  },
   "disegno_bello_pira.png": {
     "hash": "9254f1dedb50a811c8b54a067995f685",
     "original": "/img/disegno_bello_pira.png",
@@ -908,6 +929,13 @@
     "srcset": "/img/ricette/udon_burro_e_shoyu-320w.webp 320w, /img/ricette/udon_burro_e_shoyu-640w.webp 640w",
     "width": 1000,
     "height": 872
+  },
+  "ricette/udon_fatti_in_casa.jpg": {
+    "hash": "b00b64e179620087af2578b989f1c2a7",
+    "original": "/img/ricette/udon_fatti_in_casa.jpg",
+    "srcset": "/img/ricette/udon_fatti_in_casa-320w.webp 320w, /img/ricette/udon_fatti_in_casa-640w.webp 640w",
+    "width": 1200,
+    "height": 900
   },
   "ricette/unagi_di_melanzane.jpg": {
     "hash": "d72ba61a6c6a22fd00fc70d97ebc17b0",

@@ -839,6 +839,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Udon con Burro e Salsa di Soia",
       "description": "Il comfort food perfetto, l'equivalente giapponese del nostro \"burro e parmigiano\".",
       "permalink": "/ricette/udon_burro_e_shoyu"
+    },
+    {
+      "id": "ricette/menrui/udon_fatti_in_casa",
+      "title": "Udon fatti in casa",
+      "description": "L'impasto base degli udon — farina, sale e acqua — preparato a mano. Da qui parti per ogni piatto di udon: in brodo, freddi, saltati o immersi in salsa.",
+      "permalink": "/ricette/udon_fatti_in_casa"
     }
   ],
   "daikon": [
