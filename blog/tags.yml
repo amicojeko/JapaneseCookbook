@@ -37,3 +37,8 @@ pesce:
   label: Pesce
   permalink: /pesce
   description: Tutto quello che c'è da sapere sul pesce in Giappone, dalle tecniche di taglio alle curiosità più strane.
+
+musica:
+  label: Musica
+  permalink: /musica
+  description: City pop, sigle, colonne sonore e storie dietro le canzoni giapponesi.

@@ -125,6 +125,13 @@
     "width": 1000,
     "height": 667
   },
+  "blog/miki_matsubara/miki_matsubara_nel_1980.jpg": {
+    "hash": "291158289e20b47f3f6a7c3fac944262",
+    "original": "/img/blog/miki_matsubara/miki_matsubara_nel_1980.jpg",
+    "srcset": "/img/blog/miki_matsubara/miki_matsubara_nel_1980-320w.webp 320w, /img/blog/miki_matsubara/miki_matsubara_nel_1980-640w.webp 640w",
+    "width": 1200,
+    "height": 900
+  },
   "blog/riso/agricoltori_nella_risaia.jpg": {
     "hash": "c1d1a60555fd7f1ef855389a879733cb",
     "original": "/img/blog/riso/agricoltori_nella_risaia.jpg",
