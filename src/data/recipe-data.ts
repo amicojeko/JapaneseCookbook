@@ -626,17 +626,19 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "katsuobushi",
       "kombu",
       "mirin",
-      "sake"
+      "sake",
+      "shiitake"
     ],
     "recipeYield": null,
     "recipeIngredient": [
-      "½ tazza di sake",
-      "1 tazza abbondante di mirin (dice 1 ⅛ che dovrebbe essere 1 + 2 cucchiai)",
-      "1 tazza di salsa di soia",
-      "1 pezzo di kombu (5 grammi? pesare)",
-      "1 tazza di katsuobushi (pesare)"
+      "100 ml di Sake da cucina",
+      "200 ml di Mirin",
+      "300 ml di Salsa di soia (Shoyu)",
+      "10 g di Alga kombu",
+      "2 funghi Shiitake secchi",
+      "Un bel manciatone di Katsuobushi (anche in scaglie grosse)"
     ],
-    "instructionsText": "Metti tutto in un pentolino e porta molto dolcemente a ebollizione, poi spegni il fuoco e lascia freddare Filtra tutto e metti in un barattolo, la salsa inizia a dare il meglio di se dopo 2-3 giorni in frigorifero. Non so ancora quanto si conservi a lungo, ne ho una di 2 mesi, sembra buona e non sono ancora morto.",
+    "instructionsText": "Iniziate versando in un pentolino i 100 ml di sake e i 200 ml di mirin. Accendete il fuoco e, appena i liquidi iniziano a sobbollire, dategli fuoco (flambé) per far bruciare ed evaporare l'alcol. Aspettate che la fiamma si spenga da sola; se vi spaventate o se temete di dar fuoco alla cucina, vi basterà mettere un coperchio sopra la pentola per soffocare la fiamma senza farvi prendere dal panico. Quando la fiamma si è spenta ed è rimasto il liquido caldo, aggiungete i 300 ml di salsa di soia, l'alga kombu e i funghi shiitake secchi. Regolate il fuoco al minimo e portate il liquido appena a bollore. Non appena compaiono le primissime bollicine, spegnete immediatamente il fornello e lasciate il tutto in infusione fino a quando non si sarà quasi raffreddato. Questo processo lento serve a estrarre tutto l'umami dall'alga kombu, evitando però di farla diventare amara. Dopo un paio d'ore, l'alga si sarà gonfiata e avrà dato tutto ciò che poteva dare, quindi toglietela dalla pentola. Riaccendete il fuoco e fate sobbollire dolcemente per 5-10 minuti: questo passaggio serve a restringere e concentrare il sapore, poiché questo condimento andrà poi diluito. Spegnete nuovamente il fuoco e aggiungete una bella manciata abbondante di katsuobushi. Lasciate riposare finché il liquido non si sarà raffreddato. Infine, filtrate il tutto con un colino a maglie strette e imbottigliate il vostro prezioso Mentsuyu.",
     "videoIds": [
       "gXeX1rC_YTs"
     ],

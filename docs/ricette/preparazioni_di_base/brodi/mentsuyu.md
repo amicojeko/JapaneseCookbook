@@ -10,12 +10,14 @@ ingredients:
 - katsuobushi
 - kombu
 - sake
+- shiitake
 - salsa di soia
 tags:
 - katsuobushi
 - kombu
 - mirin
 - sake
+- shiitake
 ---
 Il **mentsuyu** è un brodo forte e salato, tradizionalmente usato nei piatti di noodles come **soba** e **udon**. È un ingrediente fondamentale della cucina giapponese, preparato con una miscela di **katsuobushi**, [salsa di soia](/ingredienti/shoyu), **mirin** e **zucchero**. Questa combinazione di ingredienti crea una bomba di umami, perfetta per arricchire una vasta gamma di piatti.
 
@@ -30,17 +32,28 @@ Esistono due tipi principali di mentsuyu:
 
 ## Ingredienti
 
-- ½ tazza di [sake](/ingredienti/sake)
-- 1 tazza abbondante di [mirin](/ingredienti/mirin) (dice 1 ⅛ che dovrebbe essere 1 + 2 cucchiai)
-- 1 tazza di [salsa di soia](/ingredienti/shoyu)
-- 1 pezzo di [kombu](/ingredienti/kombu) (5 grammi? pesare)
-- 1 tazza di katsuobushi (pesare)
+- 100 ml di [Sake](/ingredienti/sake) da cucina
+- 200 ml di [Mirin](/ingredienti/mirin)
+- 300 ml di [Salsa di soia (Shoyu)](/ingredienti/shoyu)
+- 10 g di [Alga kombu](/ingredienti/kombu)
+- 2 funghi [Shiitake](/ingredienti/shiitake) secchi
+- Un bel manciatone di [Katsuobushi](/ingredienti/katsuobushi) (anche in scaglie grosse)
 
 ## Preparazione
 
-Metti tutto in un pentolino e porta molto dolcemente a ebollizione, poi spegni il fuoco e lascia freddare
+Iniziate versando in un pentolino i 100 ml di [sake](/ingredienti/sake) e i 200 ml di [mirin](/ingredienti/mirin). Accendete il fuoco e, appena i liquidi iniziano a sobbollire, dategli fuoco (flambé) per far bruciare ed evaporare l'alcol. Aspettate che la fiamma si spenga da sola; se vi spaventate o se temete di dar fuoco alla cucina, vi basterà mettere un coperchio sopra la pentola per soffocare la fiamma senza farvi prendere dal panico.
 
-Filtra tutto e metti in un barattolo, la salsa inizia a dare il meglio di se dopo 2-3 giorni in frigorifero. Non so ancora quanto si conservi a lungo, ne ho una di 2 mesi, sembra buona e non sono ancora morto.
+Quando la fiamma si è spenta ed è rimasto il liquido caldo, aggiungete i 300 ml di [salsa di soia](/ingredienti/shoyu), l'alga [kombu](/ingredienti/kombu) e i funghi [shiitake](/ingredienti/shiitake) secchi. Regolate il fuoco al minimo e portate il liquido appena a bollore. Non appena compaiono le primissime bollicine, spegnete immediatamente il fornello e lasciate il tutto in infusione fino a quando non si sarà quasi raffreddato. Questo processo lento serve a estrarre tutto l'umami dall'alga kombu, evitando però di farla diventare amara.
+
+Dopo un paio d'ore, l'alga si sarà gonfiata e avrà dato tutto ciò che poteva dare, quindi toglietela dalla pentola. Riaccendete il fuoco e fate sobbollire dolcemente per 5-10 minuti: questo passaggio serve a restringere e concentrare il sapore, poiché questo condimento andrà poi diluito.
+
+Spegnete nuovamente il fuoco e aggiungete una bella manciata abbondante di [katsuobushi](/ingredienti/katsuobushi). Lasciate riposare finché il liquido non si sarà raffreddato.
+
+Infine, filtrate il tutto con un colino a maglie strette e imbottigliate il vostro prezioso Mentsuyu.
+
+:::tip Antispreco
+Non gettate il katsuobushi e gli shiitake intrisi di salsa rimasti nel colino! Potete farli essiccare e utilizzarli in futuro per preparare un fenomenale furikake.
+:::
 
 ### Kaketsuyu e Tsuketsuyu
 

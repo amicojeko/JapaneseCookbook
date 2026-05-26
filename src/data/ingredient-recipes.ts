@@ -515,6 +515,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/yakisoba"
     },
     {
+      "id": "ricette/preparazioni_di_base/brodi/mentsuyu",
+      "title": "Mentsuyu",
+      "description": "Il brodo per immergere soba e udon",
+      "permalink": "/ricette/mentsuyu"
+    },
+    {
       "id": "ricette/preparazioni_di_base/brodi/vegan_dashi",
       "title": "Dashi Vegano",
       "description": "La base fondamentale della cucina giapponese in versione vegana. Un brodo ricco di umami preparato con alga kombu e funghi shiitake.",
