@@ -424,7 +424,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "recipeIngredient": [],
     "instructionsText": "Iniziate unendo le farine in una ciotola e mescolate accuratamente per rimuovere eventuali grumi. In un recipiente piccolo mescolate l'acqua e il sale, sciogliendolo bene perché non rimangano parti dell'impasto più salate. Aggiungete 2/3 dell'acqua e sale alla farina e mescolate con movimenti ampi e rapidi per 1 minuto. Poi aggiungete il resto poco alla volta e mescolate per circa 5 minuti senza fermarvi, fino a ottenere un composto unico e leggermente umido. Unito l'impasto in un unico blocco, premete 20-30 volte sul piano di lavoro esercitando pressione con il peso del corpo, poi impastate ripiegandolo in 3 parti portando i bordi verso l'interno. Ripetete più volte.",
     "videoIds": [],
-    "datePublished": null
+    "datePublished": "2026-05-26T15:55:53+02:00"
   },
   "ricette/menrui/yaki_udon": {
     "docId": "ricette/menrui/yaki_udon",

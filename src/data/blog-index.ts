@@ -21,13 +21,30 @@ export type BlogIndexEntry = {
 
 export const BLOG_INDEX: BlogIndexEntry[] = [
   {
+    "slug": "miki-matsubara",
+    "permalink": "/blog/miki-matsubara/",
+    "title": "Miki Matsubara, la cantante che voleva essere dimenticata",
+    "description": "Mayonaka no Door ~ Stay With Me è esplosa su TikTok quarant'anni dopo essere stata pubblicata. Ma dietro il city pop più virale di sempre c'è la storia di una donna che chiese di essere dimenticata.",
+    "image": "/img/blog/miki_matsubara/miki_matsubara_nel_1980.jpg",
+    "date": "2026-05-22",
+    "readingTime": 2.12,
+    "authors": [
+      {
+        "key": "jeko",
+        "name": "Stefano \"Jeko\" Guglielmetti",
+        "imageURL": "/img/JEKO-CUCINA-02.png",
+        "title": "Curatore di Pagine Giappe · nerd impenitente e cuoco amatoriale ostinato"
+      }
+    ]
+  },
+  {
     "slug": "udon-storia-e-varieta",
     "permalink": "/blog/udon-storia-e-varieta/",
     "title": "Udon: storia e varietà di uno dei noodle più antichi del Giappone",
     "description": "Dalle origini nei monasteri buddisti del IX secolo allo street food di Edo, fino agli stili regionali del brodo: storia, varietà e geografia degli udon, i noodle di frumento più amati del Giappone.",
     "image": "/img/blog/udon/udon1.jpg",
     "date": "2026-05-21",
-    "readingTime": 2.69,
+    "readingTime": 2.83,
     "authors": [
       {
         "key": "aki",
@@ -102,23 +119,6 @@ export const BLOG_INDEX: BlogIndexEntry[] = [
         "name": "Mattia di Sangro \"Curiosity Power\"",
         "imageURL": "/img/authors/curiosity_power.jpg",
         "title": "Divulgatore di storia e cultura, amante del Giappone"
-      }
-    ]
-  },
-  {
-    "slug": "chi-e-aki",
-    "permalink": "/blog/chi-e-aki/",
-    "title": "Mi presento: sono Aki, cuoco giapponese a Chioggia",
-    "description": "Sono Akifumi Nakagoe, cuoco giapponese di Fukuoka trasferitosi a Chioggia nel 2024. Da oggi mi unisco a Pagine Giappe per raccontare la cucina del mio paese con quello che si trova al supermercato italiano.",
-    "image": "/img/blog/aki_nakagoe.jpg",
-    "date": "2026-05-14",
-    "readingTime": 1.1,
-    "authors": [
-      {
-        "key": "aki",
-        "name": "Aki Nakagoe",
-        "imageURL": "/img/authors/aki_nakagoe.jpg",
-        "title": "Cuoco giapponese e divulgatore della cucina washoku casalinga"
       }
     ]
   }
