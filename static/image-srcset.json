@@ -160,6 +160,27 @@
     "width": 1000,
     "height": 563
   },
+  "blog/shamisen/erick_e_lo_shamisen.jpg": {
+    "hash": "5bb87d752f526cb774f2a9595e411f48",
+    "original": "/img/blog/shamisen/erick_e_lo_shamisen.jpg",
+    "srcset": "/img/blog/shamisen/erick_e_lo_shamisen-320w.webp 320w, /img/blog/shamisen/erick_e_lo_shamisen-640w.webp 640w, /img/blog/shamisen/erick_e_lo_shamisen-1280w.webp 1280w",
+    "width": 1448,
+    "height": 1086
+  },
+  "blog/shamisen/plettro.jpg": {
+    "hash": "a65eb85c995df15e2163fc1bbc7343b2",
+    "original": "/img/blog/shamisen/plettro.jpg",
+    "srcset": "/img/blog/shamisen/plettro-320w.webp 320w, /img/blog/shamisen/plettro-640w.webp 640w, /img/blog/shamisen/plettro-1280w.webp 1280w",
+    "width": 1448,
+    "height": 1086
+  },
+  "blog/shamisen/tre_corde.jpg": {
+    "hash": "5fc7aef370f4fa381ec0680ebb475c0f",
+    "original": "/img/blog/shamisen/tre_corde.jpg",
+    "srcset": "/img/blog/shamisen/tre_corde-320w.webp 320w, /img/blog/shamisen/tre_corde-640w.webp 640w, /img/blog/shamisen/tre_corde-1280w.webp 1280w",
+    "width": 1448,
+    "height": 1086
+  },
   "blog/shokunin_kishitsu/artigiani-forgia.jpg": {
     "hash": "1e8d607af2d0a8bdee3d40e19b1974c9",
     "original": "/img/blog/shokunin_kishitsu/artigiani-forgia.jpg",

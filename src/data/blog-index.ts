@@ -21,6 +21,23 @@ export type BlogIndexEntry = {
 
 export const BLOG_INDEX: BlogIndexEntry[] = [
   {
+    "slug": "shamisen",
+    "permalink": "/blog/shamisen/",
+    "title": "Che cos'è davvero lo shamisen?",
+    "description": "Tre corde, un grande plettro, un manico senza tasti. Lo shamisen è il suono inconfondibile della musica tradizionale giapponese — ma da dove arriva, com'è fatto e perché funziona ancora oggi nel rock, nei matsuri e negli anime?",
+    "image": "/img/blog/shamisen/erick_e_lo_shamisen.jpg",
+    "date": "2026-05-23",
+    "readingTime": 1.89,
+    "authors": [
+      {
+        "key": "fujitivo",
+        "name": "Erick \"il Fujitivo\"",
+        "imageURL": "/img/authors/logo_ilfujitivo.png",
+        "title": "Viaggiatore in Giappone dal 2008 · autore di \"Andiamo in Giappone\""
+      }
+    ]
+  },
+  {
     "slug": "miki-matsubara",
     "permalink": "/blog/miki-matsubara/",
     "title": "Miki Matsubara, la cantante che voleva essere dimenticata",
@@ -102,23 +119,6 @@ export const BLOG_INDEX: BlogIndexEntry[] = [
         "name": "Erick \"il Fujitivo\"",
         "imageURL": "/img/authors/logo_ilfujitivo.png",
         "title": "Viaggiatore in Giappone dal 2008 · autore di \"Andiamo in Giappone\""
-      }
-    ]
-  },
-  {
-    "slug": "il-chicco-di-sangue",
-    "permalink": "/blog/il-chicco-di-sangue/",
-    "title": "Il chicco di sangue: come il riso ha creato (e distrutto) il Giappone",
-    "description": "Per millenni in Giappone il riso non è stato cibo: è stato moneta, esercito, energia. Dal sistema Koku alle 2500 varietà, viaggio nel chicco che ha forgiato l'identità di un popolo.",
-    "image": "/img/blog/riso/agricoltori_nella_risaia.jpg",
-    "date": "2026-05-15",
-    "readingTime": 3.1,
-    "authors": [
-      {
-        "key": "curiosity_power",
-        "name": "Mattia di Sangro \"Curiosity Power\"",
-        "imageURL": "/img/authors/curiosity_power.jpg",
-        "title": "Divulgatore di storia e cultura, amante del Giappone"
       }
     ]
   }
