@@ -174,6 +174,13 @@
     "width": 1448,
     "height": 1086
   },
+  "blog/shamisen/shamisen.jpg": {
+    "hash": "5a0751581796a50b16aaf8899c94a495",
+    "original": "/img/blog/shamisen/shamisen.jpg",
+    "srcset": "/img/blog/shamisen/shamisen-320w.webp 320w, /img/blog/shamisen/shamisen-640w.webp 640w, /img/blog/shamisen/shamisen-1280w.webp 1280w",
+    "width": 1448,
+    "height": 1086
+  },
   "blog/shamisen/tre_corde.jpg": {
     "hash": "5fc7aef370f4fa381ec0680ebb475c0f",
     "original": "/img/blog/shamisen/tre_corde.jpg",

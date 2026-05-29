@@ -23,6 +23,12 @@ La parola *shamisen* descrive esattamente la sua natura: uno strumento tradizion
 
 A prima vista potrebbe ricordare un liuto o il riassunto di una chitarra, ma il modo di suonarlo e il suo particolare timbro sono completamente diversi da qualsiasi strumento occidentale.
 
+<ImageComponent
+  src="/img/blog/shamisen/tre_corde.jpg"
+  alt="Dettaglio dello shamisen: le tre corde tese lungo il manico senza tasti."
+  caption="Le tre corde da cui lo strumento prende il nome."
+/>
+
 ## Com'è fatto uno shamisen?
 
 Lo shamisen è composto da una cassa armonica in legno, ricoperta originariamente da pelle animale ma oggi spesso sintetica.
@@ -30,9 +36,9 @@ Lo shamisen è composto da una cassa armonica in legno, ricoperta originariament
 Alla cassa è attaccato un lungo manico, **senza tasti**, il che permette di avere più libertà nella modulazione delle note ma richiede anche una grande precisione, come per il violino. Questo permette allo strumento di creare sfumature sonore incredibilmente espressive, note che sembrano piangere, vibrare, a volte quasi parlare.
 
 <ImageComponent
-  src="/img/blog/shamisen/tre_corde.jpg"
-  alt="Dettaglio dello shamisen: le tre corde tese lungo il manico senza tasti."
-  caption="Le tre corde tese lungo un manico completamente liscio — niente tasti, solo precisione."
+  src="/img/blog/shamisen/shamisen.jpg"
+  alt="Uno shamisen intero: cassa armonica, manico lungo senza tasti e itomaki laterali."
+  caption="Uno shamisen visto per intero: cassa armonica, lungo manico liscio e itomaki laterali per tendere le corde."
 />
 
 Le tre corde vengono tese tramite gli *itomaki*, le "chiavi" laterali, che come tutto il resto dello strumento sono smontabili. Esatto: persino il manico, almeno nei modelli di fattura medio-alta, può essere disassemblato, per trasportare più facilmente lo strumento senza danneggiarlo.
