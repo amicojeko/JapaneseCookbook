@@ -917,6 +917,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/hiyashi_tori_dashi_somen"
     },
     {
+      "id": "ricette/menrui/tomato_to_tsuna_no_hiyashi_somen",
+      "title": "Tomato to Tsuna no Hiyashi Somen",
+      "description": "Una ricetta estiva semplicissima e velocissima, un mix perfetto tra i sapori mediterranei e la dispensa giapponese.",
+      "permalink": "/ricette/tomato-tsuna-hiyashi-somen"
+    },
+    {
       "id": "ricette/nimono/kakuni",
       "title": "Buta Kaku-ni",
       "description": "Pancia di maiale cotta lentamente in salsa di soia",
@@ -971,6 +977,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Hiyashi Tori Dashi Somen",
       "description": "Un piatto di noodles freddi rinfrescante e saporito, con un tocco di aceto che lo rende perfetto per l'estate.",
       "permalink": "/ricette/hiyashi_tori_dashi_somen"
+    },
+    {
+      "id": "ricette/menrui/tomato_to_tsuna_no_hiyashi_somen",
+      "title": "Tomato to Tsuna no Hiyashi Somen",
+      "description": "Una ricetta estiva semplicissima e velocissima, un mix perfetto tra i sapori mediterranei e la dispensa giapponese.",
+      "permalink": "/ricette/tomato-tsuna-hiyashi-somen"
     },
     {
       "id": "ricette/menrui/tororo_natto_shiso_udon",
@@ -1081,6 +1093,22 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Natto Soba",
       "description": "Spaghetti di grano saraceno freddi con natto, cipolline, alga nori e altre delizie",
       "permalink": "/ricette/natto_soba"
+    }
+  ],
+  "somen": [
+    {
+      "id": "ricette/menrui/tomato_to_tsuna_no_hiyashi_somen",
+      "title": "Tomato to Tsuna no Hiyashi Somen",
+      "description": "Una ricetta estiva semplicissima e velocissima, un mix perfetto tra i sapori mediterranei e la dispensa giapponese.",
+      "permalink": "/ricette/tomato-tsuna-hiyashi-somen"
+    }
+  ],
+  "tsuyu": [
+    {
+      "id": "ricette/menrui/tomato_to_tsuna_no_hiyashi_somen",
+      "title": "Tomato to Tsuna no Hiyashi Somen",
+      "description": "Una ricetta estiva semplicissima e velocissima, un mix perfetto tra i sapori mediterranei e la dispensa giapponese.",
+      "permalink": "/ricette/tomato-tsuna-hiyashi-somen"
     }
   ],
   "yamaimo": [

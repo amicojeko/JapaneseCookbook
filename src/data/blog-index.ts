@@ -27,7 +27,7 @@ export const BLOG_INDEX: BlogIndexEntry[] = [
     "description": "Tre corde, un grande plettro, un manico senza tasti. Lo shamisen è il suono inconfondibile della musica tradizionale giapponese — ma da dove arriva, com'è fatto e perché funziona ancora oggi nel rock, nei matsuri e negli anime?",
     "image": "/img/blog/shamisen/erick_e_lo_shamisen.jpg",
     "date": "2026-05-23",
-    "readingTime": 1.89,
+    "readingTime": 1.99,
     "authors": [
       {
         "key": "fujitivo",

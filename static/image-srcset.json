@@ -895,6 +895,13 @@
     "width": 1200,
     "height": 896
   },
+  "ricette/somen_freddi_tonno_pomodoro.jpg": {
+    "hash": "535b7ed67b57ea521e96e16f6ec2743b",
+    "original": "/img/ricette/somen_freddi_tonno_pomodoro.jpg",
+    "srcset": "/img/ricette/somen_freddi_tonno_pomodoro-320w.webp 320w, /img/ricette/somen_freddi_tonno_pomodoro-640w.webp 640w, /img/ricette/somen_freddi_tonno_pomodoro-1280w.webp 1280w, /img/ricette/somen_freddi_tonno_pomodoro-1600w.webp 1600w",
+    "width": 1672,
+    "height": 941
+  },
   "ricette/sunomono.jpg": {
     "hash": "4bf4cf15c85a23fe18df8ed53719d9ab",
     "original": "/img/ricette/sunomono.jpg",
