@@ -126,7 +126,12 @@ const config: Config = {
         // to 0.7 to signal these pages as above-average importance, and skip
         // the auto-generated /tags/** pages to free crawl budget — they
         // showed up empty / "Crawled - currently not indexed" in GSC.
+        // `lastmod: 'date'` emits a <lastmod>YYYY-MM-DD</lastmod> per URL
+        // (from frontmatter date / git history) so Google can prioritize
+        // crawling of new and recently updated pages — without it new blog
+        // posts get stuck in "Discovered – currently not indexed".
         sitemap: {
+          lastmod: 'date',
           changefreq: 'weekly',
           priority: 0.7,
           ignorePatterns: ['/tags/**'],
