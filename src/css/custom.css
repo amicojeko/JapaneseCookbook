@@ -920,6 +920,167 @@ article > .theme-doc-markdown.markdown > p:first-of-type::first-letter,
   margin-bottom: 18px;
 }
 
+/* ============================================
+   NEGOZI — Search / "Vicino a me"
+   ============================================ */
+.negozi-search {
+  margin-bottom: 22px;
+  background: var(--pg-paper-2);
+  border: 2px solid var(--pg-ink);
+  padding: 18px 20px 16px;
+}
+.search-form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+.geo-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--pg-font-mono);
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 8px 18px;
+  border: 1.5px solid var(--pg-ink);
+  background: var(--pg-yellow);
+  color: var(--pg-ink);
+  cursor: pointer;
+  border-radius: 999px;
+  transition: opacity 0.15s;
+  white-space: nowrap;
+}
+.geo-btn:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+.search-divider {
+  font-family: var(--pg-font-serif);
+  font-style: italic;
+  font-size: 14px;
+  color: var(--pg-ink-faint);
+}
+.address-row {
+  display: flex;
+  gap: 6px;
+  flex: 1 1 280px;
+  min-width: 0;
+}
+.address-row input {
+  flex: 1;
+  min-width: 0;
+  border: 1.5px solid var(--pg-ink);
+  padding: 8px 12px;
+  font-family: var(--pg-font-sans);
+  font-size: 14px;
+  border-radius: 4px;
+  background: #fff;
+  color: var(--pg-ink);
+}
+.address-row input::placeholder {
+  color: var(--pg-ink-faint);
+  opacity: 1;
+}
+.search-btn {
+  font-family: var(--pg-font-mono);
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 8px 16px;
+  border: 1.5px solid var(--pg-ink);
+  background: var(--pg-ink);
+  color: var(--pg-yellow);
+  cursor: pointer;
+  border-radius: 999px;
+  transition: opacity 0.15s;
+  white-space: nowrap;
+}
+.search-btn:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+.search-error {
+  color: var(--pg-red);
+  font-family: var(--pg-font-sans);
+  font-size: 13px;
+  margin: 10px 0 0;
+}
+.search-results {
+  margin-top: 14px;
+  border-top: 2px solid var(--pg-ink);
+  padding-top: 12px;
+}
+.results-heading {
+  font-family: var(--pg-font-serif);
+  font-size: 15px;
+  margin: 0 0 10px;
+}
+.search-results ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 4px;
+}
+.result-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 8px 10px;
+  border: 1.5px solid var(--pg-rule-soft);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+.result-item:hover {
+  background: #fff;
+  border-color: var(--pg-ink);
+}
+.result-num {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--pg-ink);
+  color: var(--pg-yellow);
+  font-family: var(--pg-font-mono);
+  font-weight: 700;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1px;
+}
+.result-item .result-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  min-width: 0;
+}
+.result-item strong {
+  font-family: var(--pg-font-serif);
+  font-size: 14px;
+  color: var(--pg-ink);
+}
+.result-meta {
+  font-family: var(--pg-font-sans);
+  font-size: 12px;
+  color: var(--pg-ink-soft);
+}
+@media (max-width: 600px) {
+  .search-form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .search-divider {
+    text-align: center;
+  }
+}
+
 /* Lista Regioni (index page) — editorial hero */
 .regions-hero {
   margin-bottom: 28px;
