@@ -1079,6 +1079,15 @@ article > .theme-doc-markdown.markdown > p:first-of-type::first-letter,
   .search-divider {
     text-align: center;
   }
+  .address-row {
+    flex-direction: column;
+    flex-basis: auto;
+  }
+  .address-row input,
+  .search-btn,
+  .geo-btn {
+    width: 100%;
+  }
 }
 
 /* Lista Regioni (index page) — editorial hero */
