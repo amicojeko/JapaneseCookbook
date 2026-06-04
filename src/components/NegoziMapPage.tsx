@@ -24,6 +24,7 @@ function haversineDistance(
 
 type Negozio = (typeof NEGOZI)[number];
 type Result = Negozio & { distance: number };
+type Suggestion = { display_name: string; lat: string; lon: string };
 
 const NegoziMapPage: React.FC = () => {
   return (
@@ -180,7 +181,11 @@ const NegoziMapPage: React.FC = () => {
           const [flyKey, setFlyKey] = useState(0);
           const [popupId, setPopupId] = useState<string | null>(null);
           const [focusKey, setFocusKey] = useState(0);
+          const [suggestions, setSuggestions] = useState<Suggestion[]>([]);
+          const [showSuggestions, setShowSuggestions] = useState(false);
+          const [activeSuggestion, setActiveSuggestion] = useState(-1);
           const markerRefs = useRef<Map<string, any>>(new Map());
+          const suppressFetchRef = useRef(false);
 
           const flyTo = useCallback(
             (lat: number, lng: number, zoom: number) => {
@@ -234,14 +239,55 @@ const NegoziMapPage: React.FC = () => {
             );
           };
 
+          useEffect(() => {
+            if (suppressFetchRef.current) {
+              suppressFetchRef.current = false;
+              return;
+            }
+            const q = address.trim();
+            if (q.length < 3) {
+              setSuggestions([]);
+              setShowSuggestions(false);
+              return;
+            }
+            const controller = new AbortController();
+            const timer = setTimeout(async () => {
+              try {
+                const resp = await fetch(
+                  `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(q)}&limit=5&countrycodes=it&accept-language=it&viewbox=6.62,47.10,18.52,35.49&bounded=1&addressdetails=0`,
+                  { signal: controller.signal },
+                );
+                const data: Suggestion[] = await resp.json();
+                setSuggestions(data || []);
+                setShowSuggestions(true);
+                setActiveSuggestion(-1);
+              } catch (e) {
+                if ((e as Error).name !== 'AbortError') {
+                  setSuggestions([]);
+                }
+              }
+            }, 300);
+            return () => {
+              controller.abort();
+              clearTimeout(timer);
+            };
+          }, [address]);
+
+          const pickSuggestion = (s: Suggestion) => {
+            suppressFetchRef.current = true;
+            setAddress(s.display_name);
+            setSuggestions([]);
+            setShowSuggestions(false);
+            findNearest(parseFloat(s.lat), parseFloat(s.lon), s.display_name);
+          };
+
           const handleAddressSearch = async () => {
             if (!address.trim()) return;
             setSearching(true);
             setError('');
             try {
               const resp = await fetch(
-                `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(address)}&limit=1&countrycodes=it`,
-                { headers: { 'User-Agent': 'PagineGiappe.it/1.0' } },
+                `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(address)}&limit=1&countrycodes=it&accept-language=it&viewbox=6.62,47.10,18.52,35.49&bounded=1`,
               );
               const data = await resp.json();
               if (data && data.length > 0) {
@@ -288,15 +334,77 @@ const NegoziMapPage: React.FC = () => {
                   </button>
                   <span className="search-divider">oppure</span>
                   <div className="address-row">
-                    <input
-                      type="text"
-                      placeholder="Inserisci un indirizzo o una città…"
-                      value={address}
-                      onChange={(e) => setAddress(e.target.value)}
-                      onKeyDown={(e) =>
-                        e.key === 'Enter' && handleAddressSearch()
-                      }
-                    />
+                    <div className="address-input-wrap">
+                      <input
+                        type="text"
+                        placeholder="Inserisci un indirizzo o una città…"
+                        value={address}
+                        autoComplete="off"
+                        onChange={(e) => setAddress(e.target.value)}
+                        onFocus={() =>
+                          suggestions.length > 0 && setShowSuggestions(true)
+                        }
+                        onBlur={() =>
+                          setTimeout(() => setShowSuggestions(false), 150)
+                        }
+                        onKeyDown={(e) => {
+                          if (
+                            e.key === 'ArrowDown' &&
+                            showSuggestions &&
+                            suggestions.length > 0
+                          ) {
+                            e.preventDefault();
+                            setActiveSuggestion(
+                              (i) => (i + 1) % suggestions.length,
+                            );
+                          } else if (
+                            e.key === 'ArrowUp' &&
+                            showSuggestions &&
+                            suggestions.length > 0
+                          ) {
+                            e.preventDefault();
+                            setActiveSuggestion(
+                              (i) =>
+                                (i - 1 + suggestions.length) %
+                                suggestions.length,
+                            );
+                          } else if (e.key === 'Escape') {
+                            setShowSuggestions(false);
+                          } else if (e.key === 'Enter') {
+                            if (
+                              showSuggestions &&
+                              activeSuggestion >= 0 &&
+                              suggestions[activeSuggestion]
+                            ) {
+                              e.preventDefault();
+                              pickSuggestion(suggestions[activeSuggestion]);
+                            } else {
+                              handleAddressSearch();
+                            }
+                          }
+                        }}
+                      />
+                      {showSuggestions && suggestions.length > 0 && (
+                        <ul className="address-suggestions">
+                          {suggestions.map((s, i) => (
+                            <li
+                              key={`${s.lat}-${s.lon}-${i}`}
+                              className={
+                                'suggestion-item' +
+                                (i === activeSuggestion ? ' is-active' : '')
+                              }
+                              onMouseDown={(e) => {
+                                e.preventDefault();
+                                pickSuggestion(s);
+                              }}
+                              onMouseEnter={() => setActiveSuggestion(i)}
+                            >
+                              {s.display_name}
+                            </li>
+                          ))}
+                        </ul>
+                      )}
+                    </div>
                     <button
                       className="search-btn"
                       onClick={handleAddressSearch}

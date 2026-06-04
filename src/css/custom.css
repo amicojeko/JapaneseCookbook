@@ -969,8 +969,13 @@ article > .theme-doc-markdown.markdown > p:first-of-type::first-letter,
   flex: 1 1 280px;
   min-width: 0;
 }
-.address-row input {
+.address-input-wrap {
+  position: relative;
   flex: 1;
+  min-width: 0;
+}
+.address-row input {
+  width: 100%;
   min-width: 0;
   border: 1.5px solid var(--pg-ink);
   padding: 8px 12px;
@@ -979,10 +984,42 @@ article > .theme-doc-markdown.markdown > p:first-of-type::first-letter,
   border-radius: 4px;
   background: #fff;
   color: var(--pg-ink);
+  box-sizing: border-box;
 }
 .address-row input::placeholder {
   color: var(--pg-ink-faint);
   opacity: 1;
+}
+.address-suggestions {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  border: 2px solid var(--pg-ink);
+  border-radius: 4px;
+  box-shadow: 4px 4px 0 var(--pg-ink);
+  max-height: 260px;
+  overflow-y: auto;
+}
+.suggestion-item {
+  padding: 8px 12px;
+  font-family: var(--pg-font-sans);
+  font-size: 13px;
+  color: var(--pg-ink);
+  cursor: pointer;
+  border-bottom: 1px solid var(--pg-rule-soft);
+}
+.suggestion-item:last-child {
+  border-bottom: 0;
+}
+.suggestion-item.is-active,
+.suggestion-item:hover {
+  background: var(--pg-yellow);
 }
 .search-btn {
   font-family: var(--pg-font-mono);
