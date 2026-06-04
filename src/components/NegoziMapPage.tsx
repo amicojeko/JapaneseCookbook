@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 import { NEGOZI } from '@site/src/data/negozi';
+import 'leaflet.markercluster/dist/MarkerCluster.css';
+import 'leaflet.markercluster/dist/MarkerCluster.Default.css';
 
 /* ---- Haversine (km) ---- */
 function haversineDistance(
