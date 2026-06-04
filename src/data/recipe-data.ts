@@ -359,7 +359,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "jkbb8aukEuk"
     ],
-    "datePublished": null
+    "datePublished": "2026-06-02T16:16:13+02:00"
   },
   "ricette/menrui/tori_dashi_no_nyumen": {
     "docId": "ricette/menrui/tori_dashi_no_nyumen",
