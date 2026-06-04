@@ -20,6 +20,13 @@
     "width": 500,
     "height": 499
   },
+  "authors/donatella_peterlin.jpg": {
+    "hash": "dcec648034777f8d1af6d843799109ce",
+    "original": "/img/authors/donatella_peterlin.jpg",
+    "srcset": "/img/authors/donatella_peterlin-320w.webp 320w",
+    "width": 634,
+    "height": 634
+  },
   "authors/logo_ilfujitivo.png": {
     "hash": "6e8fe9754eb478b38f10209907d63cb9",
     "original": "/img/authors/logo_ilfujitivo.png",
@@ -89,6 +96,34 @@
     "srcset": "/img/blog/enciclopedia_1972-320w.webp 320w, /img/blog/enciclopedia_1972-640w.webp 640w",
     "width": 1180,
     "height": 800
+  },
+  "blog/giappone_e_giapponismo/Toulouse-Lautrec.jpeg": {
+    "hash": "7a76539a3995210b7fee4dba221490fd",
+    "original": "/img/blog/giappone_e_giapponismo/Toulouse-Lautrec.jpeg",
+    "srcset": "/img/blog/giappone_e_giapponismo/Toulouse-Lautrec-320w.webp 320w, /img/blog/giappone_e_giapponismo/Toulouse-Lautrec-640w.webp 640w",
+    "width": 990,
+    "height": 1260
+  },
+  "blog/giappone_e_giapponismo/camille_monet.jpg": {
+    "hash": "8057c0e6a23c542eec0f545301e3d2ad",
+    "original": "/img/blog/giappone_e_giapponismo/camille_monet.jpg",
+    "srcset": "/img/blog/giappone_e_giapponismo/camille_monet-320w.webp 320w",
+    "width": 544,
+    "height": 900
+  },
+  "blog/giappone_e_giapponismo/divan_japonaise_Toulouse-Lautrec.jpeg": {
+    "hash": "6a9e783675b244be7f868b4d2ade6f32",
+    "original": "/img/blog/giappone_e_giapponismo/divan_japonaise_Toulouse-Lautrec.jpeg",
+    "srcset": "/img/blog/giappone_e_giapponismo/divan_japonaise_Toulouse-Lautrec-320w.webp 320w, /img/blog/giappone_e_giapponismo/divan_japonaise_Toulouse-Lautrec-640w.webp 640w",
+    "width": 964,
+    "height": 1280
+  },
+  "blog/giappone_e_giapponismo/mandorlo_van_gogh.jpg": {
+    "hash": "3e97cdaad9462ed8ab5639be6cb07811",
+    "original": "/img/blog/giappone_e_giapponismo/mandorlo_van_gogh.jpg",
+    "srcset": "/img/blog/giappone_e_giapponismo/mandorlo_van_gogh-320w.webp 320w, /img/blog/giappone_e_giapponismo/mandorlo_van_gogh-640w.webp 640w",
+    "width": 1000,
+    "height": 790
   },
   "blog/il_pesce_guarda_sempre_a_sinistra.jpg": {
     "hash": "300a68241f9976a70d8c3079940cbb59",

@@ -21,6 +21,22 @@ export type BlogIndexEntry = {
 
 export const BLOG_INDEX: BlogIndexEntry[] = [
   {
+    "slug": "giapponismo",
+    "permalink": "/blog/giapponismo/",
+    "title": "Giappone e giapponismo: il gusto per l'esotico",
+    "description": "Dall'apertura dei porti giapponesi nell'800 al Giapponismo che ha contagiato Van Gogh, Manet e Puccini: un viaggio fra Madama Butterfly, Maupassant, Goncourt e il nostro sushi quotidiano.",
+    "image": "/img/blog/giappone_e_giapponismo/courtesan_vincent_van_gogh.avif",
+    "date": "2026-05-24",
+    "readingTime": 6.17,
+    "authors": [
+      {
+        "key": "donatella",
+        "name": "Donatella Peterlin",
+        "title": "Appassionata di storia, arte e cultura · mamma di Jeko"
+      }
+    ]
+  },
+  {
     "slug": "shamisen",
     "permalink": "/blog/shamisen/",
     "title": "Che cos'è davvero lo shamisen?",
@@ -96,23 +112,6 @@ export const BLOG_INDEX: BlogIndexEntry[] = [
     "image": "/img/blog/tre_scimmie/nikko-trescimmie2.jpg",
     "date": "2026-05-18",
     "readingTime": 1.68,
-    "authors": [
-      {
-        "key": "fujitivo",
-        "name": "Erick \"il Fujitivo\"",
-        "imageURL": "/img/authors/logo_ilfujitivo.png",
-        "title": "Viaggiatore in Giappone dal 2008 · autore di \"Andiamo in Giappone\""
-      }
-    ]
-  },
-  {
-    "slug": "distributori-automatici-giappone",
-    "permalink": "/blog/distributori-automatici-giappone/",
-    "title": "Jidōhanbaiki: perché in Giappone i distributori automatici sono ovunque",
-    "description": "Ramen istantanei, uova, biancheria, carne di Kobe: in Giappone i distributori automatici sono ovunque. Storia, invenzioni e leggende dei jihanki, dal primo del 1904 alle lattine calde fino al ruolo di infrastruttura d'emergenza.",
-    "image": "/img/blog/jidohanbaiki/jidohanbaiki3.jpg",
-    "date": "2026-05-15",
-    "readingTime": 2.18,
     "authors": [
       {
         "key": "fujitivo",
