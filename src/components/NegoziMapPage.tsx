@@ -46,6 +46,18 @@ const NegoziMapPage: React.FC = () => {
           return null;
         };
 
+        /* ---- Focus controller ---- */
+        const MapFocusController: React.FC = () => {
+          const map = useMap();
+          useEffect(() => {
+            const container = map.getContainer();
+            container.setAttribute('tabindex', '-1');
+            container.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            container.focus({ preventScroll: true });
+          }, []);
+          return null;
+        };
+
         /* ---- Marker cluster ---- */
         const ClusteredMarkers: React.FC<{
           markerRefs: React.MutableRefObject<Map<string, any>>;
@@ -165,6 +177,7 @@ const NegoziMapPage: React.FC = () => {
           const [flyZoom, setFlyZoom] = useState(12);
           const [flyKey, setFlyKey] = useState(0);
           const [popupId, setPopupId] = useState<string | null>(null);
+          const [focusKey, setFocusKey] = useState(0);
           const markerRefs = useRef<Map<string, any>>(new Map());
 
           const flyTo = useCallback(
@@ -306,6 +319,7 @@ const NegoziMapPage: React.FC = () => {
                           onClick={() => {
                             flyTo(s.lat, s.lng, 16);
                             setPopupId(s.id);
+                            setFocusKey((k) => k + 1);
                           }}
                         >
                           <span className="result-num">{i + 1}</span>
@@ -328,6 +342,7 @@ const NegoziMapPage: React.FC = () => {
                 zoom={5.5}
                 style={{ height: '700px', width: '100%' }}
                 scrollWheelZoom={true}
+                tabIndex={-1}
               >
                 <TileLayer
                   attribution='&copy; <a href="https://carto.com/">CartoDB</a>'
@@ -343,6 +358,9 @@ const NegoziMapPage: React.FC = () => {
                   lng={flyLng}
                   zoom={flyZoom}
                 />
+                {focusKey > 0 && (
+                  <MapFocusController key={focusKey} />
+                )}
               </MapContainer>
             </>
           );
