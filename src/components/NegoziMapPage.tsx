@@ -63,7 +63,7 @@ const NegoziMapPage: React.FC = () => {
 
         /* ---- Marker cluster ---- */
         const ClusteredMarkers: React.FC<{
-          markerRefs: React.MutableRefObject<Map<string, any>>;
+          markerRefs: React.RefObject<Map<string, any>>;
           popupId: string | null;
         }> = ({ markerRefs, popupId }) => {
           const map = useMap();
@@ -186,6 +186,13 @@ const NegoziMapPage: React.FC = () => {
           const [activeSuggestion, setActiveSuggestion] = useState(-1);
           const markerRefs = useRef<Map<string, any>>(new Map());
           const suppressFetchRef = useRef(false);
+          const resultsRef = useRef<HTMLDivElement>(null);
+
+          useEffect(() => {
+            if (results.length > 0 && resultsRef.current) {
+              resultsRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+          }, [results]);
 
           const flyTo = useCallback(
             (lat: number, lng: number, zoom: number) => {
@@ -416,7 +423,7 @@ const NegoziMapPage: React.FC = () => {
                 </div>
                 {error && <p className="search-error">{error}</p>}
                 {results.length > 0 && (
-                  <div className="search-results">
+                  <div className="search-results" ref={resultsRef}>
                     <p className="results-heading">
                       I 10 negozi più vicini a{' '}
                       <strong>{locatedName}</strong>
