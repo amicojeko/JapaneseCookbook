@@ -1103,6 +1103,11 @@ article > .theme-doc-markdown.markdown > p:first-of-type::first-letter,
   font-size: 14px;
   color: var(--pg-ink);
 }
+.result-addr {
+  font-family: var(--pg-font-sans);
+  font-size: 12px;
+  color: var(--pg-ink-soft);
+}
 .result-meta {
   font-family: var(--pg-font-sans);
   font-size: 12px;

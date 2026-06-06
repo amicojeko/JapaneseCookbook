@@ -442,8 +442,9 @@ const NegoziMapPage: React.FC = () => {
                           <span className="result-num">{i + 1}</span>
                           <div className="result-info">
                             <strong>{s.name}</strong>
+                            <span className="result-addr">{s.address}</span>
                             <span className="result-meta">
-                              {s.city} ({s.region}) — {s.distance.toFixed(1)}{' '}
+                              {s.city} · {s.region} — {s.distance.toFixed(1)}{' '}
                               km
                             </span>
                           </div>
