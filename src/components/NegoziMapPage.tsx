@@ -170,6 +170,26 @@ const NegoziMapPage: React.FC = () => {
           return null;
         };
 
+        /* ---- Dashed route line ---- */
+        const RoutePolyline: React.FC<{
+          from: [number, number] | null;
+          to: [number, number] | null;
+        }> = ({ from, to }) => {
+          const map = useMap();
+          useEffect(() => {
+            if (!from || !to) return;
+            const line = L.polyline([from, to], {
+              color: '#c8321c',
+              weight: 2,
+              dashArray: '8 6',
+              opacity: 0.7,
+              interactive: false,
+            }).addTo(map);
+            return () => { map.removeLayer(line); };
+          }, [from, to]);
+          return null;
+        };
+
         /* ---- Page body ---- */
         const PageBody: React.FC = () => {
           const [address, setAddress] = useState('');
@@ -186,6 +206,8 @@ const NegoziMapPage: React.FC = () => {
           const [suggestions, setSuggestions] = useState<Suggestion[]>([]);
           const [showSuggestions, setShowSuggestions] = useState(false);
           const [activeSuggestion, setActiveSuggestion] = useState(-1);
+          const [userPos, setUserPos] = useState<[number, number] | null>(null);
+          const [lineTarget, setLineTarget] = useState<[number, number] | null>(null);
           const markerRefs = useRef<Map<string, any>>(new Map());
           const suppressFetchRef = useRef(false);
           const resultsRef = useRef<HTMLDivElement>(null);
@@ -216,6 +238,8 @@ const NegoziMapPage: React.FC = () => {
               setResults(withDist.slice(0, 10));
               setLocatedName(label);
               setError('');
+              setUserPos([lat, lng]);
+              setLineTarget(null);
               flyTo(lat, lng, 12);
               setPopupId(null);
             },
@@ -438,6 +462,7 @@ const NegoziMapPage: React.FC = () => {
                           onClick={() => {
                             flyTo(s.lat, s.lng, 16);
                             setPopupId(s.id);
+                            setLineTarget([s.lat, s.lng]);
                             setFocusKey((k) => k + 1);
                           }}
                         >
@@ -468,6 +493,7 @@ const NegoziMapPage: React.FC = () => {
                   attribution='&copy; <a href="https://carto.com/">CartoDB</a>'
                   url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
                 />
+                <RoutePolyline from={userPos} to={lineTarget} />
                 <ClusteredMarkers
                   markerRefs={markerRefs}
                   popupId={popupId}
