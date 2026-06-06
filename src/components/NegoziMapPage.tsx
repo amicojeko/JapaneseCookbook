@@ -179,12 +179,22 @@ const NegoziMapPage: React.FC = () => {
           useEffect(() => {
             if (!from || !to) return;
             let line: any = null;
+            let originDot: any = null;
             const draw = () => {
               line = L.polyline([from, to], {
                 color: '#c8321c',
-                weight: 2,
-                dashArray: '8 6',
-                opacity: 0.7,
+                weight: 5,
+                dashArray: '1 12',
+                lineCap: 'round',
+                opacity: 0.75,
+                interactive: false,
+              }).addTo(map);
+              originDot = L.circleMarker(from, {
+                radius: 9,
+                color: '#fff',
+                weight: 3,
+                fillColor: '#c8321c',
+                fillOpacity: 1,
                 interactive: false,
               }).addTo(map);
             };
@@ -192,6 +202,7 @@ const NegoziMapPage: React.FC = () => {
             return () => {
               map.off('moveend', draw);
               if (line) map.removeLayer(line);
+              if (originDot) map.removeLayer(originDot);
             };
           }, [from, to]);
           return null;
