@@ -178,14 +178,21 @@ const NegoziMapPage: React.FC = () => {
           const map = useMap();
           useEffect(() => {
             if (!from || !to) return;
-            const line = L.polyline([from, to], {
-              color: '#c8321c',
-              weight: 2,
-              dashArray: '8 6',
-              opacity: 0.7,
-              interactive: false,
-            }).addTo(map);
-            return () => { map.removeLayer(line); };
+            let line: any = null;
+            const draw = () => {
+              line = L.polyline([from, to], {
+                color: '#c8321c',
+                weight: 2,
+                dashArray: '8 6',
+                opacity: 0.7,
+                interactive: false,
+              }).addTo(map);
+            };
+            map.once('moveend', draw);
+            return () => {
+              map.off('moveend', draw);
+              if (line) map.removeLayer(line);
+            };
           }, [from, to]);
           return null;
         };
