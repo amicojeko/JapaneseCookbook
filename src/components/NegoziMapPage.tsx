@@ -155,14 +155,16 @@ const NegoziMapPage: React.FC = () => {
             };
           }, [map]);
 
-          /* Open popup when popupId changes */
+          /* Open popup after map animation ends (marker may still be in cluster mid-flight) */
           useEffect(() => {
-            if (popupId) {
-              const m = markerRefs.current.get(popupId);
-              if (m) {
-                m.openPopup();
-              }
-            }
+            if (!popupId) return;
+            const m = markerRefs.current.get(popupId);
+            if (!m) return;
+            const openIt = () => {
+              clusterRef.current?.zoomToShowLayer(m, () => m.openPopup());
+            };
+            map.once('moveend', openIt);
+            return () => { map.off('moveend', openIt); };
           }, [popupId]);
 
           return null;
