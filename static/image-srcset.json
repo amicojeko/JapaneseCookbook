@@ -126,11 +126,11 @@
     "height": 790
   },
   "blog/hyorogan/hyorogan_balls.jpg": {
-    "hash": "5b119f7e351d3d181de2f9c885eb4b0a",
+    "hash": "03a03d50e1b361023812d5f5a8a206db",
     "original": "/img/blog/hyorogan/hyorogan_balls.jpg",
-    "srcset": "/img/blog/hyorogan/hyorogan_balls-320w.webp 320w, /img/blog/hyorogan/hyorogan_balls-640w.webp 640w",
-    "width": 679,
-    "height": 452
+    "srcset": "/img/blog/hyorogan/hyorogan_balls-320w.webp 320w, /img/blog/hyorogan/hyorogan_balls-640w.webp 640w, /img/blog/hyorogan/hyorogan_balls-1280w.webp 1280w, /img/blog/hyorogan/hyorogan_balls-1600w.webp 1600w",
+    "width": 1672,
+    "height": 941
   },
   "blog/hyorogan/hyorogan_hero.jpg": {
     "hash": "d20625a47e7741e5c4f9c2a5ae5e55dc",
