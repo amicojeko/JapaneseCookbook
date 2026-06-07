@@ -38,6 +38,23 @@ export const BLOG_INDEX: BlogIndexEntry[] = [
     ]
   },
   {
+    "slug": "yoshoku",
+    "permalink": "/blog/yoshoku/",
+    "title": "Yōshoku: come il Giappone ha reinventato la cucina occidentale",
+    "description": "Lo yōshoku non è cucina europea servita in Giappone, ma una tradizione a sé: piatti dall'aspetto occidentale che in Occidente non esistono, nati dall'incontro fra Giappone e mondo e diventati classici giapponesi moderni.",
+    "image": "/img/blog/yoshoku/omurice.jpg",
+    "date": "2026-06-07",
+    "readingTime": 2.69,
+    "authors": [
+      {
+        "key": "aki",
+        "name": "Aki Nakagoe",
+        "imageURL": "/img/authors/aki_nakagoe.jpg",
+        "title": "Cuoco giapponese e divulgatore della cucina washoku casalinga"
+      }
+    ]
+  },
+  {
     "slug": "giapponismo",
     "permalink": "/blog/giapponismo/",
     "title": "Giappone e giapponismo: il gusto per l'esotico",
@@ -102,23 +119,6 @@ export const BLOG_INDEX: BlogIndexEntry[] = [
         "name": "Aki Nakagoe",
         "imageURL": "/img/authors/aki_nakagoe.jpg",
         "title": "Cuoco giapponese e divulgatore della cucina washoku casalinga"
-      }
-    ]
-  },
-  {
-    "slug": "shokunin-kishitsu",
-    "permalink": "/blog/shokunin-kishitsu/",
-    "title": "Shokunin Kishitsu: lo spirito dell'artigiano nella cucina giapponese",
-    "description": "Cosa sarebbe la cucina giapponese senza i suoi strumenti? Lo Shokunin Kishitsu è lo spirito dell'artigiano: la sensibilità che si nasconde dietro ogni coltello, ogni ciotola, ogni gesto in cucina.",
-    "image": "/img/blog/shokunin_kishitsu/fabbro-inari.jpg",
-    "date": "2026-05-20",
-    "readingTime": 2.91,
-    "authors": [
-      {
-        "key": "toolsreborn",
-        "name": "ToolsReborn – Wabi Sabi Story",
-        "imageURL": "/img/authors/tools_reborn.jpg",
-        "title": "Dietro la ruggine di ogni lama e di ogni attrezzo dimenticato si nasconde una storia unica"
       }
     ]
   }

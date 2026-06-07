@@ -300,6 +300,34 @@
     "width": 1200,
     "height": 900
   },
+  "blog/yoshoku/curry.jpg": {
+    "hash": "adcae141d9eee4eff17c6a6d15021919",
+    "original": "/img/blog/yoshoku/curry.jpg",
+    "srcset": "/img/blog/yoshoku/curry-320w.webp 320w, /img/blog/yoshoku/curry-640w.webp 640w, /img/blog/yoshoku/curry-1280w.webp 1280w, /img/blog/yoshoku/curry-1600w.webp 1600w",
+    "width": 1672,
+    "height": 941
+  },
+  "blog/yoshoku/katsu_sando.jpg": {
+    "hash": "754bcf3ba8d351322d6339eb588dc9a4",
+    "original": "/img/blog/yoshoku/katsu_sando.jpg",
+    "srcset": "/img/blog/yoshoku/katsu_sando-320w.webp 320w, /img/blog/yoshoku/katsu_sando-640w.webp 640w, /img/blog/yoshoku/katsu_sando-1280w.webp 1280w, /img/blog/yoshoku/katsu_sando-1600w.webp 1600w",
+    "width": 1672,
+    "height": 941
+  },
+  "blog/yoshoku/omurice.jpg": {
+    "hash": "a3fb35835f1a47ce66bc5635ffa9ec8e",
+    "original": "/img/blog/yoshoku/omurice.jpg",
+    "srcset": "/img/blog/yoshoku/omurice-320w.webp 320w, /img/blog/yoshoku/omurice-640w.webp 640w, /img/blog/yoshoku/omurice-1280w.webp 1280w, /img/blog/yoshoku/omurice-1600w.webp 1600w",
+    "width": 1672,
+    "height": 941
+  },
+  "blog/yoshoku/wafu_pasta.jpg": {
+    "hash": "9cf144a6fbb7dbe388bb2b400f36efdb",
+    "original": "/img/blog/yoshoku/wafu_pasta.jpg",
+    "srcset": "/img/blog/yoshoku/wafu_pasta-320w.webp 320w, /img/blog/yoshoku/wafu_pasta-640w.webp 640w, /img/blog/yoshoku/wafu_pasta-1280w.webp 1280w, /img/blog/yoshoku/wafu_pasta-1600w.webp 1600w",
+    "width": 1672,
+    "height": 941
+  },
   "disegno_bello_pira.png": {
     "hash": "9254f1dedb50a811c8b54a067995f685",
     "original": "/img/disegno_bello_pira.png",
