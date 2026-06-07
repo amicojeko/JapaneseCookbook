@@ -125,6 +125,20 @@
     "width": 1000,
     "height": 790
   },
+  "blog/hyorogan/hyorogan_balls.jpg": {
+    "hash": "5b119f7e351d3d181de2f9c885eb4b0a",
+    "original": "/img/blog/hyorogan/hyorogan_balls.jpg",
+    "srcset": "/img/blog/hyorogan/hyorogan_balls-320w.webp 320w, /img/blog/hyorogan/hyorogan_balls-640w.webp 640w",
+    "width": 679,
+    "height": 452
+  },
+  "blog/hyorogan/hyorogan_hero.jpg": {
+    "hash": "d20625a47e7741e5c4f9c2a5ae5e55dc",
+    "original": "/img/blog/hyorogan/hyorogan_hero.jpg",
+    "srcset": "/img/blog/hyorogan/hyorogan_hero-320w.webp 320w, /img/blog/hyorogan/hyorogan_hero-640w.webp 640w",
+    "width": 1274,
+    "height": 717
+  },
   "blog/il_pesce_guarda_sempre_a_sinistra.jpg": {
     "hash": "300a68241f9976a70d8c3079940cbb59",
     "original": "/img/blog/il_pesce_guarda_sempre_a_sinistra.jpg",

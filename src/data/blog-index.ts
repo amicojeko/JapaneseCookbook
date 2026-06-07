@@ -21,6 +21,23 @@ export type BlogIndexEntry = {
 
 export const BLOG_INDEX: BlogIndexEntry[] = [
   {
+    "slug": "hyorogan",
+    "permalink": "/blog/hyorogan/",
+    "title": "Scienza d'infiltrazione: la verità storica sugli Hyorogan, la razione K dei ninja",
+    "description": "Gli Hyorogan non erano pillole miracolose: erano l'equivalente shinobi delle moderne barrette energetiche. Una sofisticata ingegneria alimentare ad alta densità, pensata per logistica e sopravvivenza dietro le linee nemiche.",
+    "image": "/img/blog/hyorogan/hyorogan_hero.jpg",
+    "date": "2026-06-07",
+    "readingTime": 1.96,
+    "authors": [
+      {
+        "key": "curiosity_power",
+        "name": "Mattia di Sangro \"Curiosity Power\"",
+        "imageURL": "/img/authors/curiosity_power.jpg",
+        "title": "Divulgatore di storia e cultura, amante del Giappone"
+      }
+    ]
+  },
+  {
     "slug": "giapponismo",
     "permalink": "/blog/giapponismo/",
     "title": "Giappone e giapponismo: il gusto per l'esotico",
@@ -32,6 +49,7 @@ export const BLOG_INDEX: BlogIndexEntry[] = [
       {
         "key": "donatella",
         "name": "Donatella Peterlin",
+        "imageURL": "/img/authors/donatella_peterlin.jpg",
         "title": "Appassionata di storia, arte e cultura · mamma di Jeko"
       }
     ]
@@ -101,23 +119,6 @@ export const BLOG_INDEX: BlogIndexEntry[] = [
         "name": "ToolsReborn – Wabi Sabi Story",
         "imageURL": "/img/authors/tools_reborn.jpg",
         "title": "Dietro la ruggine di ogni lama e di ogni attrezzo dimenticato si nasconde una storia unica"
-      }
-    ]
-  },
-  {
-    "slug": "le-tre-scimmie-di-nikko",
-    "permalink": "/blog/le-tre-scimmie-di-nikko/",
-    "title": "Le tre scimmie che vedono, sentono e parlano",
-    "description": "Mizaru, Kikazaru e Iwazaru — le tre scimmie del santuario Tōshōgū di Nikkō — non invitano a ignorare i problemi. Il significato originale è l'opposto: non guardare il male, non ascoltarlo, non parlarne.",
-    "image": "/img/blog/tre_scimmie/nikko-trescimmie2.jpg",
-    "date": "2026-05-18",
-    "readingTime": 1.68,
-    "authors": [
-      {
-        "key": "fujitivo",
-        "name": "Erick \"il Fujitivo\"",
-        "imageURL": "/img/authors/logo_ilfujitivo.png",
-        "title": "Viaggiatore in Giappone dal 2008 · autore di \"Andiamo in Giappone\""
       }
     ]
   }
