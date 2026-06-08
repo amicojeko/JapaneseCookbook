@@ -1702,7 +1702,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "0CdyqA8cCfQ"
     ],
-    "datePublished": null
+    "datePublished": "2026-06-08T12:56:37+02:00"
   },
   "ricette/yakimono/teriyaki_chicken": {
     "docId": "ricette/yakimono/teriyaki_chicken",
@@ -1862,6 +1862,31 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "instructionsText": "Mettere in ammollo una manciata di alghe wakame in acqua fredda per farle rinvenire. Tagliare il tofu a cubetti. Portare a bollore il dashi vegano in una pentola. Appena bolle, aggiungere il tofu a cubetti e le alghe wakame reidratate. Cuocere per un paio di minuti. In una ciotolina a parte (o in un mestolo), stemperare il miso con un po' di brodo caldo per scioglierlo bene. È importante farlo a fuoco spento per non rovinare i fermenti. Spegnere il fuoco sotto la pentola e versare il miso sciolto nella zuppa. Mescolare bene. Servire subito in una ciotola e guarnire con delle cipolline fresche tagliate sottili.",
     "videoIds": [],
     "datePublished": "2025-09-05T10:46:48+02:00"
+  },
+  "ricette/zuppe/wakatake": {
+    "docId": "ricette/zuppe/wakatake",
+    "title": "Wakatake",
+    "description": "Una zuppa giapponese facilissima, velocissima e buonissima a base di germogli di bambù e alga wakame.",
+    "image": "/img/ricette/wakatake.jpg",
+    "recipeCategory": "Zuppe",
+    "recipeKeywords": [
+      "dashi",
+      "wakame",
+      "shoyu"
+    ],
+    "recipeYield": null,
+    "recipeIngredient": [
+      "Germoglio di bambù (Takenoko) precotto e tagliato a fette",
+      "Dashi",
+      "Alga Wakame",
+      "1 cucchiaio di Salsa di soia (Shoyu)",
+      "Un pizzico di sale"
+    ],
+    "instructionsText": "La preparazione di questa zuppa è talmente rapida che non ci crederete. In un pentolino, versate il brodo dashi e aggiungete le fette di germoglio di bambù (takenoko). Poiché il bambù è già precotto, vi basterà farlo sobbollire nel brodo per qualche minuto, giusto il tempo che si insaporisca. Per condire, aggiungete un cucchiaio di salsa di soia e un pizzico di sale. Infine, a fuoco spento, unite l'alga wakame: in questo modo resterà tenera e manterrà il suo bel colore verde. E voilà, il vostro profumato Wakatake è pronto per essere gustato!",
+    "videoIds": [
+      "0CdyqA8cCfQ"
+    ],
+    "datePublished": null
   },
   "ricette/zuppe/zuppa_di_miso_e_funghi": {
     "docId": "ricette/zuppe/zuppa_di_miso_e_funghi",

@@ -79,6 +79,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Daikon Shiokombuzuke",
       "description": "Daikon marinato con shio kombu, sesamo e shoyu. Una bomba di umami!",
       "permalink": "/ricette/daikon_shiokombuzuke"
+    },
+    {
+      "id": "ricette/zuppe/wakatake",
+      "title": "Wakatake",
+      "description": "Una zuppa giapponese facilissima, velocissima e buonissima a base di germogli di bambù e alga wakame.",
+      "permalink": "/ricette/wakatake"
     }
   ],
   "sesamo": [
@@ -763,6 +769,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Zuppa di Miso Vegana",
       "description": "La versione vegana della zuppa di miso.",
       "permalink": "/ricette/zuppa_di_miso_vegana"
+    },
+    {
+      "id": "ricette/zuppe/wakatake",
+      "title": "Wakatake",
+      "description": "Una zuppa giapponese facilissima, velocissima e buonissima a base di germogli di bambù e alga wakame.",
+      "permalink": "/ricette/wakatake"
     }
   ],
   "vegan": [
@@ -1221,6 +1233,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Salsa Ponzu",
       "description": "Salsa fresca ed agrumata",
       "permalink": "/ricette/salsa_ponzu"
+    },
+    {
+      "id": "ricette/zuppe/wakatake",
+      "title": "Wakatake",
+      "description": "Una zuppa giapponese facilissima, velocissima e buonissima a base di germogli di bambù e alga wakame.",
+      "permalink": "/ricette/wakatake"
     }
   ],
   "rice": [
