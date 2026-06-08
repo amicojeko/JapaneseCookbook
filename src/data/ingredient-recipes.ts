@@ -1369,6 +1369,32 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/soboro-don"
     }
   ],
+  "takenoko": [
+    {
+      "id": "ricette/riso/takenoko_gohan",
+      "title": "Takenoko Gohan",
+      "description": "Un classico primaverile: riso condito (Takikomi Gohan) cotto con germogli di bambù, aburaage e brodo dashi.",
+      "permalink": "/ricette/takenoko_gohan"
+    },
+    {
+      "id": "ricette/riso/takenoko_to_aburaage_takikomi_gohan",
+      "title": "Takenoko to Aburaage no Takikomi Gohan",
+      "description": "Un classico piatto casalingo giapponese, il Takikomi Gohan è un riso magico cotto comodamente nel cuociriso insieme ai suoi condimenti.",
+      "permalink": "/ricette/takenoko_to_aburaage_no_takikomi_gohan"
+    },
+    {
+      "id": "ricette/yakimono/takenoko_niku_miso",
+      "title": "Takenoko e Niku Miso",
+      "description": "Un secondo piatto ricco e saporito a base di germogli di bambù, carne trita, zenzero e una glassa umami al miso.",
+      "permalink": "/ricette/takenoko-niku-miso"
+    },
+    {
+      "id": "ricette/zuppe/wakatake",
+      "title": "Wakatake",
+      "description": "Una zuppa giapponese facilissima, velocissima e buonissima a base di germogli di bambù e alga wakame.",
+      "permalink": "/ricette/wakatake"
+    }
+  ],
   "sides": [
     {
       "id": "ricette/sides/burokkori_no_okaka-ae",

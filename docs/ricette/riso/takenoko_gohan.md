@@ -14,6 +14,7 @@ ingredients:
   - Mirin
   - Kinome
 tags:
+  - takenoko
   - mirin
   - rice
   - shoyu

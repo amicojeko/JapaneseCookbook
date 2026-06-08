@@ -15,6 +15,7 @@ ingredients:
 - sake
 - dashi in polvere
 tags:
+- takenoko
 - rice
 - shoyu
 - mirin

@@ -615,6 +615,13 @@
     "width": 1000,
     "height": 1000
   },
+  "ingredienti/takenoko.jpg": {
+    "hash": "5caad6f1a6bb7994283b75d6fcf81832",
+    "original": "/img/ingredienti/takenoko.jpg",
+    "srcset": "/img/ingredienti/takenoko-320w.webp 320w, /img/ingredienti/takenoko-640w.webp 640w, /img/ingredienti/takenoko-1280w.webp 1280w, /img/ingredienti/takenoko-1600w.webp 1600w",
+    "width": 1672,
+    "height": 941
+  },
   "ingredienti/umezu.webp": {
     "hash": "ce1ed97b8b6c771909bf0953ac0c92f7",
     "original": "/img/ingredienti/umezu.webp",

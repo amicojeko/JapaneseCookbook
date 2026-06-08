@@ -16,6 +16,7 @@ ingredients:
 - cipolline
 - raiu
 tags:
+- takenoko
 - sesame_oil
 - miso
 - negi
@@ -27,7 +28,7 @@ Se per il vostro germoglio di bambù (*takenoko*) cercate un sapore più deciso 
 
 ## Ingredienti
 
-- Germoglio di bambù (Takenoko) precotto e tagliato a fette
+- Germoglio di bambù ([Takenoko](/ingredienti/takenoko)) precotto e tagliato a fette
 - Carne trita di pollo o di maiale
 - 1 spicchio d'aglio
 - Un pezzo di zenzero fresco

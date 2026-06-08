@@ -12,6 +12,7 @@ ingredients:
 - salsa di soia
 - sale
 tags:
+- takenoko
 - dashi
 - wakame
 - shoyu
@@ -23,7 +24,7 @@ Oggi vi presento il *takenoko*, ovvero il germoglio di bambù giapponese, un ing
 
 ## Ingredienti
 
-- Germoglio di bambù (Takenoko) precotto e tagliato a fette
+- Germoglio di bambù ([Takenoko](/ingredienti/takenoko)) precotto e tagliato a fette
 - [Dashi](/ricette/dashi)
 - Alga Wakame
 - 1 cucchiaio di [Salsa di soia (Shoyu)](/ingredienti/shoyu)

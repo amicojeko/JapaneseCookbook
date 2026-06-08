@@ -1167,6 +1167,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "image": "/img/ricette/takenoko_gohan.jpg",
     "recipeCategory": "Riso",
     "recipeKeywords": [
+      "takenoko",
       "mirin",
       "rice",
       "shoyu"
@@ -1189,6 +1190,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "image": "/img/ricette/takenoko_to_aburaage_no_takikomi_gohan.jpg",
     "recipeCategory": "Riso",
     "recipeKeywords": [
+      "takenoko",
       "rice",
       "shoyu",
       "mirin",
@@ -1682,6 +1684,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "image": "/img/ricette/takenoko_niku_miso.jpg",
     "recipeCategory": "Griglia",
     "recipeKeywords": [
+      "takenoko",
       "sesame_oil",
       "miso",
       "negi"
@@ -1870,6 +1873,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "image": "/img/ricette/wakatake.jpg",
     "recipeCategory": "Zuppe",
     "recipeKeywords": [
+      "takenoko",
       "dashi",
       "wakame",
       "shoyu"
@@ -1886,7 +1890,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "0CdyqA8cCfQ"
     ],
-    "datePublished": null
+    "datePublished": "2026-06-08T12:56:57+02:00"
   },
   "ricette/zuppe/zuppa_di_miso_e_funghi": {
     "docId": "ricette/zuppe/zuppa_di_miso_e_funghi",
