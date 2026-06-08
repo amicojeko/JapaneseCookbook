@@ -1675,6 +1675,35 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     ],
     "datePublished": "2021-06-07T17:46:15+02:00"
   },
+  "ricette/yakimono/takenoko_niku_miso": {
+    "docId": "ricette/yakimono/takenoko_niku_miso",
+    "title": "Takenoko e Niku Miso",
+    "description": "Un secondo piatto ricco e saporito a base di germogli di bambù, carne trita, zenzero e una glassa umami al miso.",
+    "image": "/img/ricette/takenoko_niku_miso.jpg",
+    "recipeCategory": "Griglia",
+    "recipeKeywords": [
+      "sesame_oil",
+      "miso",
+      "negi"
+    ],
+    "recipeYield": null,
+    "recipeIngredient": [
+      "Germoglio di bambù (Takenoko) precotto e tagliato a fette",
+      "Carne trita di pollo o di maiale",
+      "1 spicchio d'aglio",
+      "Un pezzo di zenzero fresco",
+      "Olio di sesamo",
+      "1 cucchiaio di Miso",
+      "1 cucchiaio di salsa Tonkatsu (sostituibile con un sacco di altre salse)",
+      "Cipolline (Negi)",
+      "Olio al sesamo piccante (Raiu)"
+    ],
+    "instructionsText": "Per iniziare, sgrattugiamo finemente uno spicchio d'aglio e un pezzetto di zenzero fresco per creare la nostra base aromatica. In un padellino, scaldiamo un po' di olio di sesamo e uniamo la nostra base di aglio e zenzero. Aggiungiamo la carne trita (che può essere di pollo o di maiale, a vostra scelta) e le fettine di takenoko. A questo punto inseriamo i condimenti principali: un cucchiaio di miso e un cucchiaio di salsa tonkatsu. Procediamo con delle vigorose spadellate sul fuoco per fare in modo che tutti i liquidi si restringano e vengano assorbiti perfettamente dalla carne e dal bambù. Una volta che il piatto è ben caramellato e ristretto, lo trasferiamo in una ciotola per servirlo. Per completare l'opera, guarniamo con le immancabili cipolline fresche tritate e aggiungiamo qualche goccia di raiu, l'olio al sesamo piccante che farà impazzire le vostre papille gustative. Buon appetito, o per meglio dire, Itadakimasu!",
+    "videoIds": [
+      "0CdyqA8cCfQ"
+    ],
+    "datePublished": null
+  },
   "ricette/yakimono/teriyaki_chicken": {
     "docId": "ricette/yakimono/teriyaki_chicken",
     "title": "Pollo Teriyaki",

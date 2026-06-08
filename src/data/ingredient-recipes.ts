@@ -675,6 +675,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/gyoza"
     },
     {
+      "id": "ricette/yakimono/takenoko_niku_miso",
+      "title": "Takenoko e Niku Miso",
+      "description": "Un secondo piatto ricco e saporito a base di germogli di bambù, carne trita, zenzero e una glassa umami al miso.",
+      "permalink": "/ricette/takenoko-niku-miso"
+    },
+    {
       "id": "ricette/zuppe/misoshiru",
       "title": "Misoshiru",
       "description": "Zuppa di miso",
@@ -719,6 +725,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Gyoza",
       "description": "Ravioli alla piastra",
       "permalink": "/ricette/gyoza"
+    },
+    {
+      "id": "ricette/yakimono/takenoko_niku_miso",
+      "title": "Takenoko e Niku Miso",
+      "description": "Un secondo piatto ricco e saporito a base di germogli di bambù, carne trita, zenzero e una glassa umami al miso.",
+      "permalink": "/ricette/takenoko-niku-miso"
     },
     {
       "id": "ricette/zuppe/osuimono",
@@ -1389,6 +1401,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Ninniku no Misozuke",
       "description": "Aglio conservato sotto miso",
       "permalink": "/ricette/ninniku_no_misozuke"
+    },
+    {
+      "id": "ricette/yakimono/takenoko_niku_miso",
+      "title": "Takenoko e Niku Miso",
+      "description": "Un secondo piatto ricco e saporito a base di germogli di bambù, carne trita, zenzero e una glassa umami al miso.",
+      "permalink": "/ricette/takenoko-niku-miso"
     },
     {
       "id": "ricette/zuppe/misoshiru",

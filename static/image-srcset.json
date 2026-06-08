@@ -965,6 +965,13 @@
     "width": 1200,
     "height": 950
   },
+  "ricette/takenoko_niku_miso.jpg": {
+    "hash": "92b1c8a288460ddaaee5722187b25a17",
+    "original": "/img/ricette/takenoko_niku_miso.jpg",
+    "srcset": "/img/ricette/takenoko_niku_miso-320w.webp 320w, /img/ricette/takenoko_niku_miso-640w.webp 640w, /img/ricette/takenoko_niku_miso-1280w.webp 1280w, /img/ricette/takenoko_niku_miso-1600w.webp 1600w",
+    "width": 1672,
+    "height": 941
+  },
   "ricette/takenoko_to_aburaage_no_takikomi_gohan.jpg": {
     "hash": "eaeac8fc805f325db45db1d390848a81",
     "original": "/img/ricette/takenoko_to_aburaage_no_takikomi_gohan.jpg",
