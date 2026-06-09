@@ -253,7 +253,7 @@ const NegoziMapPage: React.FC = () => {
                 distance: haversineDistance(lat, lng, s.lat, s.lng),
               }));
               withDist.sort((a, b) => a.distance - b.distance);
-              setResults(withDist.slice(0, 10));
+              setResults(withDist.slice(0, 5));
               setLocatedName(label);
               setError('');
               setUserPos([lat, lng]);
@@ -469,7 +469,7 @@ const NegoziMapPage: React.FC = () => {
                 {results.length > 0 && (
                   <div className="search-results" ref={resultsRef}>
                     <p className="results-heading">
-                      I 10 negozi più vicini a{' '}
+                      I 5 negozi più vicini a{' '}
                       <strong>{locatedName}</strong>
                     </p>
                     <ol>
