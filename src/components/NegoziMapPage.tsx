@@ -484,14 +484,16 @@ const NegoziMapPage: React.FC = () => {
                             setFocusKey((k) => k + 1);
                           }}
                         >
-                          <span className="result-num">{i + 1}</span>
-                          <div className="result-info">
-                            <strong>{s.name}</strong>
-                            <span className="result-addr">{s.address}</span>
-                            <span className="result-meta">
-                              {s.city} · {s.region} — {s.distance.toFixed(1)}{' '}
-                              km
+                          <div className="result-item__row">
+                            <span className="result-num">{i + 1}</span>
+                            <div className="result-item__info">
+                              <strong className="result-item__name">{s.name}</strong>
+                              <span className="result-item__sub">{s.address} · {s.city}</span>
+                            </div>
+                            <span className="result-item__dist">
+                              <strong>{s.distance.toFixed(1)}</strong>{' '}km
                             </span>
+                            <span className="result-item__arrow" aria-hidden="true">→</span>
                           </div>
                         </li>
                       ))}
