@@ -1098,7 +1098,7 @@ article > .theme-doc-markdown.markdown > p:first-of-type::first-letter,
 .result-item__name {
   font-family: var(--pg-font-serif);
   font-weight: 900;
-  font-size: 22px;
+  font-size: 17px;
   letter-spacing: -0.01em;
   line-height: 1.1;
   display: block;
@@ -1125,7 +1125,7 @@ article > .theme-doc-markdown.markdown > p:first-of-type::first-letter,
 .result-item__dist strong {
   color: var(--pg-red);
   font-family: var(--pg-font-serif);
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 900;
   font-style: normal;
   margin-right: 2px;
@@ -1151,7 +1151,7 @@ article > .theme-doc-markdown.markdown > p:first-of-type::first-letter,
   .result-item__dist { grid-area: dist; }
   .result-item__arrow { grid-area: arrow; }
   .result-item__sub  { grid-area: sub; }
-  .result-item__name { font-size: 18px; }
+  .result-item__name { font-size: 15px; }
 }
 @media (max-width: 600px) {
   .search-form {
