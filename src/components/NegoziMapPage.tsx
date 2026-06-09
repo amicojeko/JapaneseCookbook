@@ -24,7 +24,27 @@ function haversineDistance(
 
 type Negozio = (typeof NEGOZI)[number];
 type Result = Negozio & { distance: number };
-type Suggestion = { display_name: string; lat: string; lon: string };
+type NominatimAddress = {
+  road?: string; pedestrian?: string; footway?: string;
+  house_number?: string;
+  suburb?: string; neighbourhood?: string; quarter?: string; city_district?: string;
+  city?: string; town?: string; village?: string; municipality?: string; county?: string;
+  postcode?: string;
+};
+type Suggestion = { display_name: string; lat: string; lon: string; address?: NominatimAddress };
+
+function formatSuggestion(s: Suggestion, showUnknownNum = true): string {
+  const a = s.address;
+  if (!a) return s.display_name;
+  const road = a.road || a.pedestrian || a.footway;
+  const city = a.city || a.town || a.village || a.municipality || a.county;
+  if (road) {
+    const num = a.house_number ? ` ${a.house_number}` : showUnknownNum ? ' (n. ?)' : '';
+    return [road + num, a.postcode, city].filter(Boolean).join(', ');
+  }
+  const place = a.suburb || a.neighbourhood || a.quarter || a.city_district;
+  return [place, city, a.postcode].filter(Boolean).join(', ') || s.display_name;
+}
 
 const NegoziMapPage: React.FC = () => {
   return (
@@ -305,7 +325,7 @@ const NegoziMapPage: React.FC = () => {
             const timer = setTimeout(async () => {
               try {
                 const resp = await fetch(
-                  `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(q)}&limit=5&countrycodes=it&accept-language=it&viewbox=6.62,47.10,18.52,35.49&bounded=1&addressdetails=0`,
+                  `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(q)}&limit=5&countrycodes=it&accept-language=it&viewbox=6.62,47.10,18.52,35.49&bounded=1&addressdetails=1`,
                   { signal: controller.signal },
                 );
                 const data: Suggestion[] = await resp.json();
@@ -326,10 +346,10 @@ const NegoziMapPage: React.FC = () => {
 
           const pickSuggestion = (s: Suggestion) => {
             suppressFetchRef.current = true;
-            setAddress(s.display_name);
+            setAddress(formatSuggestion(s, false));
             setSuggestions([]);
             setShowSuggestions(false);
-            findNearest(parseFloat(s.lat), parseFloat(s.lon), s.display_name);
+            findNearest(parseFloat(s.lat), parseFloat(s.lon), formatSuggestion(s, false));
           };
 
           const handleAddressSearch = async () => {
@@ -338,15 +358,15 @@ const NegoziMapPage: React.FC = () => {
             setError('');
             try {
               const resp = await fetch(
-                `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(address)}&limit=1&countrycodes=it&accept-language=it&viewbox=6.62,47.10,18.52,35.49&bounded=1`,
+                `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(address)}&limit=1&countrycodes=it&accept-language=it&viewbox=6.62,47.10,18.52,35.49&bounded=1&addressdetails=1`,
               );
               const data = await resp.json();
               if (data && data.length > 0) {
-                const { lat, lon, display_name } = data[0];
+                const { lat, lon } = data[0];
                 findNearest(
                   parseFloat(lat),
                   parseFloat(lon),
-                  display_name,
+                  formatSuggestion(data[0] as Suggestion, false),
                 );
               } else {
                 setError(
@@ -450,7 +470,7 @@ const NegoziMapPage: React.FC = () => {
                               }}
                               onMouseEnter={() => setActiveSuggestion(i)}
                             >
-                              {s.display_name}
+                              {formatSuggestion(s)}
                             </li>
                           ))}
                         </ul>
