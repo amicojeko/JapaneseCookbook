@@ -33,13 +33,13 @@ type NominatimAddress = {
 };
 type Suggestion = { display_name: string; lat: string; lon: string; address?: NominatimAddress };
 
-function formatSuggestion(s: Suggestion, showUnknownNum = true): string {
+function formatSuggestion(s: Suggestion): string {
   const a = s.address;
   if (!a) return s.display_name;
   const road = a.road || a.pedestrian || a.footway;
   const city = a.city || a.town || a.village || a.municipality || a.county;
   if (road) {
-    const num = a.house_number ? ` ${a.house_number}` : showUnknownNum ? ' (n. ?)' : '';
+    const num = a.house_number ? ` ${a.house_number}` : '';
     return [road + num, a.postcode, city].filter(Boolean).join(', ');
   }
   const place = a.suburb || a.neighbourhood || a.quarter || a.city_district;
@@ -346,10 +346,10 @@ const NegoziMapPage: React.FC = () => {
 
           const pickSuggestion = (s: Suggestion) => {
             suppressFetchRef.current = true;
-            setAddress(formatSuggestion(s, false));
+            setAddress(formatSuggestion(s));
             setSuggestions([]);
             setShowSuggestions(false);
-            findNearest(parseFloat(s.lat), parseFloat(s.lon), formatSuggestion(s, false));
+            findNearest(parseFloat(s.lat), parseFloat(s.lon), formatSuggestion(s));
           };
 
           const handleAddressSearch = async () => {
@@ -366,7 +366,7 @@ const NegoziMapPage: React.FC = () => {
                 findNearest(
                   parseFloat(lat),
                   parseFloat(lon),
-                  formatSuggestion(data[0] as Suggestion, false),
+                  formatSuggestion(data[0] as Suggestion),
                 );
               } else {
                 setError(
