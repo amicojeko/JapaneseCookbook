@@ -43,7 +43,7 @@ export const BLOG_INDEX: BlogIndexEntry[] = [
     "title": "Yōshoku: come il Giappone ha reinventato la cucina occidentale",
     "description": "Lo yōshoku non è cucina europea servita in Giappone, ma una tradizione a sé: piatti dall'aspetto occidentale che in Occidente non esistono, nati dall'incontro fra Giappone e mondo e diventati classici giapponesi moderni.",
     "image": "/img/blog/yoshoku/omurice.jpg",
-    "date": "2026-06-07",
+    "date": "2026-06-10",
     "readingTime": 2.69,
     "authors": [
       {
