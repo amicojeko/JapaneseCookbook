@@ -925,9 +925,8 @@ article > .theme-doc-markdown.markdown > p:first-of-type::first-letter,
    ============================================ */
 .negozi-search {
   margin-bottom: 22px;
-  background: var(--pg-paper-2);
-  border: 2px solid var(--pg-ink);
-  padding: 18px 20px 16px;
+  border-top: 2px solid var(--pg-ink);
+  padding: 18px 0 0;
 }
 .search-form {
   display: flex;
