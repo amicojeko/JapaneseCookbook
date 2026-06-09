@@ -1050,6 +1050,7 @@ article > .theme-doc-markdown.markdown > p:first-of-type::first-letter,
   margin-top: 14px;
   border-top: 2px solid var(--pg-ink);
   padding-top: 12px;
+  scroll-margin-top: 72px; /* --ifm-navbar-height (60px) + breathing room */
 }
 .results-heading {
   font-family: var(--pg-font-serif);
