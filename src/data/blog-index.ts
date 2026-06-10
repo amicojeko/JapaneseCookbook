@@ -21,6 +21,22 @@ export type BlogIndexEntry = {
 
 export const BLOG_INDEX: BlogIndexEntry[] = [
   {
+    "slug": "mirin-sake",
+    "permalink": "/blog/mirin-sake/",
+    "title": "Mirin e sake: sono la stessa cosa? Quasi. Ma no.",
+    "description": "Sake e mirin sono parenti stretti che a un certo punto della loro storia hanno preso strade diverse: uno è nato per essere bevuto, l'altro è finito (anche) in padella. Una piccola guida per capire la differenza.",
+    "image": "/img/social_media_card.png",
+    "date": "2026-06-12",
+    "readingTime": 1.37,
+    "authors": [
+      {
+        "key": "carlo",
+        "name": "Carlo Cocorullo",
+        "title": "Sake Sommelier · Aiki"
+      }
+    ]
+  },
+  {
     "slug": "yoshoku",
     "permalink": "/blog/yoshoku/",
     "title": "Yōshoku: come il Giappone ha reinventato la cucina occidentale",
@@ -34,22 +50,6 @@ export const BLOG_INDEX: BlogIndexEntry[] = [
         "name": "Aki Nakagoe",
         "imageURL": "/img/authors/aki_nakagoe.jpg",
         "title": "Cuoco giapponese e divulgatore della cucina washoku casalinga"
-      }
-    ]
-  },
-  {
-    "slug": "mirin-sake",
-    "permalink": "/blog/mirin-sake/",
-    "title": "Mirin e sake: sono la stessa cosa? Quasi. Ma no.",
-    "description": "Sake e mirin sono parenti stretti che a un certo punto della loro storia hanno preso strade diverse: uno è nato per essere bevuto, l'altro è finito (anche) in padella. Una piccola guida per capire la differenza.",
-    "image": "/img/social_media_card.png",
-    "date": "2026-06-09",
-    "readingTime": 1.37,
-    "authors": [
-      {
-        "key": "carlo",
-        "name": "Carlo Cocorullo",
-        "title": "Sake Sommelier · Aiki"
       }
     ]
   },
