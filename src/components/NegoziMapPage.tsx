@@ -491,7 +491,7 @@ const NegoziMapPage: React.FC = () => {
                 {results.length > 0 && (
                   <div className="search-results" ref={resultsRef}>
                     <p className="results-heading">
-                      I 5 negozi più vicini a{' '}
+                      {results.length === 1 ? 'Il negozio più vicino a' : `I ${results.length} negozi più vicini a`}{' '}
                       <strong>{locatedName}</strong>
                     </p>
                     <ol>
