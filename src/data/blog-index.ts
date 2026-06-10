@@ -38,6 +38,22 @@ export const BLOG_INDEX: BlogIndexEntry[] = [
     ]
   },
   {
+    "slug": "mirin-sake",
+    "permalink": "/blog/mirin-sake/",
+    "title": "Mirin e sake: sono la stessa cosa? Quasi. Ma no.",
+    "description": "Sake e mirin sono parenti stretti che a un certo punto della loro storia hanno preso strade diverse: uno è nato per essere bevuto, l'altro è finito (anche) in padella. Una piccola guida per capire la differenza.",
+    "image": "/img/social_media_card.png",
+    "date": "2026-06-09",
+    "readingTime": 1.37,
+    "authors": [
+      {
+        "key": "carlo",
+        "name": "Carlo Cocorullo",
+        "title": "Sake Sommelier · Aiki"
+      }
+    ]
+  },
+  {
     "slug": "hyorogan",
     "permalink": "/blog/hyorogan/",
     "title": "Scienza d'infiltrazione: la verità storica sugli Hyorogan, la razione K dei ninja",
@@ -102,23 +118,6 @@ export const BLOG_INDEX: BlogIndexEntry[] = [
         "name": "Stefano \"Jeko\" Guglielmetti",
         "imageURL": "/img/JEKO-CUCINA-02.png",
         "title": "Curatore di Pagine Giappe · nerd impenitente e cuoco amatoriale ostinato"
-      }
-    ]
-  },
-  {
-    "slug": "udon-storia-e-varieta",
-    "permalink": "/blog/udon-storia-e-varieta/",
-    "title": "Udon: storia e varietà di uno dei noodle più antichi del Giappone",
-    "description": "Dalle origini nei monasteri buddisti del IX secolo allo street food di Edo, fino agli stili regionali del brodo: storia, varietà e geografia degli udon, i noodle di frumento più amati del Giappone.",
-    "image": "/img/blog/udon/udon1.jpg",
-    "date": "2026-05-21",
-    "readingTime": 2.83,
-    "authors": [
-      {
-        "key": "aki",
-        "name": "Aki Nakagoe",
-        "imageURL": "/img/authors/aki_nakagoe.jpg",
-        "title": "Cuoco giapponese e divulgatore della cucina washoku casalinga"
       }
     ]
   }
