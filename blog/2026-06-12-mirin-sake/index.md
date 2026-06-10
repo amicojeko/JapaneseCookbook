@@ -13,11 +13,11 @@ Una delle domande che mi fanno più spesso quando si parla di cucina giapponese 
 
 La risposta breve è: sì, ma anche no.
 
-La risposta lunga è che sake e mirin sono parenti stretti che, a un certo punto della loro storia, hanno preso strade diverse.
+La risposta lunga è che [sake](/ingredienti/sake) e [mirin](/ingredienti/mirin) sono parenti stretti che, a un certo punto della loro storia, hanno preso strade diverse.
 
 ## Quando il mirin si beveva
 
-Oggi in Occidente il mirin è conosciuto quasi esclusivamente come ingrediente da cucina. Lo troviamo nelle marinature, nelle salse teriyaki, nei *nimono* (gli stufati giapponesi) e in tantissimi piatti tradizionali.
+Oggi in Occidente il mirin è conosciuto quasi esclusivamente come ingrediente da cucina. Lo troviamo nelle marinature, nelle [salse teriyaki](/ricette/salsa_teriyaki), nei [*nimono*](/ricette/nimono) (gli stufati giapponesi) e in tantissimi piatti tradizionali.
 
 Ma originariamente non era nato per cucinare.
 
@@ -43,7 +43,7 @@ Questa dolcezza lo rende perfetto in cucina perché:
 
 - dona lucentezza alle preparazioni;
 - ammorbidisce i sapori;
-- bilancia la sapidità della salsa di soia;
+- bilancia la sapidità della [salsa di soia](/ingredienti/shoyu);
 - aiuta a creare quell'inconfondibile equilibrio dolce-salato tipico della cucina giapponese.
 
 ## Il problema del "mirin" che troviamo al supermercato
