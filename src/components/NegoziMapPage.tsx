@@ -328,6 +328,7 @@ const NegoziMapPage: React.FC = () => {
                   `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(q)}&limit=5&countrycodes=it&accept-language=it&viewbox=6.62,47.10,18.52,35.49&bounded=1&addressdetails=1`,
                   { signal: controller.signal },
                 );
+                if (!resp.ok) throw new Error(`Nominatim ${resp.status}`);
                 const data: Suggestion[] = await resp.json();
                 setSuggestions(data || []);
                 setShowSuggestions(true);
@@ -360,6 +361,7 @@ const NegoziMapPage: React.FC = () => {
               const resp = await fetch(
                 `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(address)}&limit=1&countrycodes=it&accept-language=it&viewbox=6.62,47.10,18.52,35.49&bounded=1&addressdetails=1`,
               );
+              if (!resp.ok) throw new Error(`Nominatim ${resp.status}`);
               const data = await resp.json();
               if (data && data.length > 0) {
                 const { lat, lon } = data[0];
