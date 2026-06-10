@@ -21,23 +21,6 @@ export type BlogIndexEntry = {
 
 export const BLOG_INDEX: BlogIndexEntry[] = [
   {
-    "slug": "hyorogan",
-    "permalink": "/blog/hyorogan/",
-    "title": "Scienza d'infiltrazione: la verità storica sugli Hyorogan, la razione K dei ninja",
-    "description": "Gli Hyorogan non erano pillole miracolose: erano l'equivalente shinobi delle moderne barrette energetiche. Una sofisticata ingegneria alimentare ad alta densità, pensata per logistica e sopravvivenza dietro le linee nemiche.",
-    "image": "/img/blog/hyorogan/hyorogan_hero.jpg",
-    "date": "2026-06-07",
-    "readingTime": 1.96,
-    "authors": [
-      {
-        "key": "curiosity_power",
-        "name": "Mattia di Sangro \"Curiosity Power\"",
-        "imageURL": "/img/authors/curiosity_power.jpg",
-        "title": "Divulgatore di storia e cultura, amante del Giappone"
-      }
-    ]
-  },
-  {
     "slug": "yoshoku",
     "permalink": "/blog/yoshoku/",
     "title": "Yōshoku: come il Giappone ha reinventato la cucina occidentale",
@@ -51,6 +34,23 @@ export const BLOG_INDEX: BlogIndexEntry[] = [
         "name": "Aki Nakagoe",
         "imageURL": "/img/authors/aki_nakagoe.jpg",
         "title": "Cuoco giapponese e divulgatore della cucina washoku casalinga"
+      }
+    ]
+  },
+  {
+    "slug": "hyorogan",
+    "permalink": "/blog/hyorogan/",
+    "title": "Scienza d'infiltrazione: la verità storica sugli Hyorogan, la razione K dei ninja",
+    "description": "Gli Hyorogan non erano pillole miracolose: erano l'equivalente shinobi delle moderne barrette energetiche. Una sofisticata ingegneria alimentare ad alta densità, pensata per logistica e sopravvivenza dietro le linee nemiche.",
+    "image": "/img/blog/hyorogan/hyorogan_hero.jpg",
+    "date": "2026-06-07",
+    "readingTime": 1.96,
+    "authors": [
+      {
+        "key": "curiosity_power",
+        "name": "Mattia di Sangro \"Curiosity Power\"",
+        "imageURL": "/img/authors/curiosity_power.jpg",
+        "title": "Divulgatore di storia e cultura, amante del Giappone"
       }
     ]
   },
