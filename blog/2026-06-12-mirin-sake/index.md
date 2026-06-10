@@ -17,7 +17,7 @@ La risposta lunga è che [sake](/ingredienti/sake) e [mirin](/ingredienti/mirin)
 
 ## Quando il mirin si beveva
 
-Oggi in Occidente il mirin è conosciuto quasi esclusivamente come ingrediente da cucina. Lo troviamo nelle marinature, nelle [salse teriyaki](/ricette/salsa_teriyaki), nei [*nimono*](/ricette/nimono) (gli stufati giapponesi) e in tantissimi piatti tradizionali.
+Oggi in Occidente il mirin è conosciuto quasi esclusivamente come ingrediente da cucina. Lo troviamo nelle marinature, nelle [salse teriyaki](/ricette/salsa_teriyaki), nei [*nimono*](/ricette/nimono) (gli stufati giapponesi) e [in tantissimi piatti tradizionali](/tags/mirin).
 
 Ma originariamente non era nato per cucinare.
 
