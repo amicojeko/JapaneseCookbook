@@ -499,11 +499,22 @@ const NegoziMapPage: React.FC = () => {
                         <li
                           key={s.id}
                           className="result-item"
+                          role="button"
+                          tabIndex={0}
                           onClick={() => {
                             flyTo(s.lat, s.lng, 16);
                             setPopupId(s.id);
                             setLineTarget([s.lat, s.lng]);
                             setFocusKey((k) => k + 1);
+                          }}
+                          onKeyDown={(e) => {
+                            if (e.key === 'Enter' || e.key === ' ') {
+                              e.preventDefault();
+                              flyTo(s.lat, s.lng, 16);
+                              setPopupId(s.id);
+                              setLineTarget([s.lat, s.lng]);
+                              setFocusKey((k) => k + 1);
+                            }
                           }}
                         >
                           <div className="result-item__row">
