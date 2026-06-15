@@ -4,12 +4,17 @@ title: "Perché i giapponesi offrono 5 yen al santuario (e non è per risparmiar
 authors: [fujitivo]
 tags: [cultura, viaggi]
 description: "La monetina da 5 yen nasconde un mondo: goen, enmusubi, enkiri. Legami da creare, relazioni da tagliare e una storia di emancipazione femminile che pochi conoscono."
-image: /img/blog/goen-5-yen/placeholder.jpg
+image: /img/blog/5yen/5yen.jpg
 ---
 
 Vi è mai capitato di vedere qualcuno lanciare una monetina da 5 yen nella cassetta delle offerte di un santuario giapponese? E perché mentre tutti donano 100 yen, queste persone solo 5?
 
 <!-- truncate -->
+
+<ImageComponent
+  src="/img/blog/5yen/5yen.jpg"
+  alt="Monetina giapponese da 5 yen con il foro centrale, simbolo di goen — legame e connessione"
+/>
 
 Quando si visita un santuario in Giappone, è normale vedere persone lanciare una moneta, fare una preghiera e poi allontanarsi ma soprattutto durante la prima visita dell'anno, l'hatsumode, molti scelgono di offrire proprio una moneta da 5 yen.
 

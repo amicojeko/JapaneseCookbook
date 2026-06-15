@@ -48,6 +48,13 @@
     "width": 350,
     "height": 350
   },
+  "blog/5yen/5yen.jpg": {
+    "hash": "3fb4ff4e6a9b154a626bf184a6d4fbea",
+    "original": "/img/blog/5yen/5yen.jpg",
+    "srcset": "/img/blog/5yen/5yen-320w.webp 320w, /img/blog/5yen/5yen-640w.webp 640w, /img/blog/5yen/5yen-1280w.webp 1280w, /img/blog/5yen/5yen-1600w.webp 1600w",
+    "width": 1672,
+    "height": 941
+  },
   "blog/Iekei_ramen_Akutagawa_kyoto.jpg": {
     "hash": "217e04b896d894093d3c30f9325106b6",
     "original": "/img/blog/Iekei_ramen_Akutagawa_kyoto.jpg",
