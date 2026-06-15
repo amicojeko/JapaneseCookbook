@@ -124,8 +124,11 @@ const config: Config = {
         // Sitemap: explicit config (preset-classic enables the plugin by
         // default with priority 0.5 and no ignorePatterns). We pin priority
         // to 0.7 to signal these pages as above-average importance, and skip
-        // the auto-generated /tags/** pages to free crawl budget — they
+        // the auto-generated utility/thin pages to free crawl budget — they
         // showed up empty / "Crawled - currently not indexed" in GSC.
+        // These same routes also carry a `noindex` meta tag (swizzle wrappers
+        // in src/theme/) so Google won't index them even if it reaches them
+        // via internal links rather than the sitemap.
         // `lastmod: 'date'` emits a <lastmod>YYYY-MM-DD</lastmod> per URL
         // (from frontmatter date / git history) so Google can prioritize
         // crawling of new and recently updated pages — without it new blog
@@ -134,7 +137,14 @@ const config: Config = {
           lastmod: 'date',
           changefreq: 'weekly',
           priority: 0.7,
-          ignorePatterns: ['/tags/**'],
+          ignorePatterns: [
+            '/tags/**', // docs tag pages
+            '/blog/tags/**',
+            '/blog/authors/**',
+            '/blog/archive/**',
+            '/blog/page/**', // blog index pagination (page 2+); /blog/ stays
+            '/search/',
+          ],
           filename: 'sitemap.xml',
         },
       } satisfies Preset.Options,

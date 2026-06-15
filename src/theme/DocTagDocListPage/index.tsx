@@ -14,6 +14,7 @@ import Unlisted from '@theme/ContentVisibility/Unlisted';
 import Heading from '@theme/Heading';
 import DocCardGrid from '@site/src/components/DocCardGrid';
 import ItemListStructuredData from '@site/src/components/ItemListStructuredData';
+import NoindexMeta from '@site/src/components/NoindexMeta';
 import styles from './styles.module.css';
 
 // Very simple pluralization: probably good enough for now
@@ -54,6 +55,8 @@ function DocTagDocListPageMetadata({
     <>
       <PageMetadata title={title} description={tag.description} />
       <SearchMetadata tag="doc_tag_doc_list" />
+      {/* Thin utility listing — also dropped from sitemap.xml. */}
+      <NoindexMeta />
     </>
   );
 }
