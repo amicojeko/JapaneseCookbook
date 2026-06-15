@@ -21,30 +21,13 @@ export type BlogIndexEntry = {
 
 export const BLOG_INDEX: BlogIndexEntry[] = [
   {
-    "slug": "bandiere-giappone-sole-nascente",
-    "permalink": "/blog/bandiere-giappone-sole-nascente/",
-    "title": "Perché la bandiera giapponese a volte ha i raggi rossi?",
-    "description": "Hinomaru e Kyokujitsuki: due bandiere che condividono il sole rosso ma non la stessa storia. Una rappresenta ufficialmente il Giappone, l'altra è un simbolo militare controverso.",
-    "image": "/img/blog/bandiere/bandiere.jpg",
-    "date": "2026-07-08",
-    "readingTime": 1.75,
-    "authors": [
-      {
-        "key": "fujitivo",
-        "name": "Erick \"il Fujitivo\"",
-        "imageURL": "/img/authors/logo_ilfujitivo.png",
-        "title": "Viaggiatore in Giappone dal 2008 · autore di \"Andiamo in Giappone\""
-      }
-    ]
-  },
-  {
-    "slug": "shokunin-kishitsu-disciplina-tempo-bellezza-silenziosa",
-    "permalink": "/blog/shokunin-kishitsu-disciplina-tempo-bellezza-silenziosa/",
-    "title": "Shokunin Kishitsu | I 20 valori dello spirito artigiano — Parte II: Disciplina, tempo e bellezza silenziosa",
-    "description": "Shugyō, Kodawari, Kaizen, Mushin, Wabi, Sabi e Shibui: come la pratica ripetuta trasforma la tecnica in naturalezza e insegna a riconoscere la bellezza silenziosa del tempo.",
-    "image": "/img/blog/shokunin_kishitsu/parte2.jpg",
-    "date": "2026-07-07",
-    "readingTime": 3.53,
+    "slug": "shokunin-kishitsu-materia-riparazione-senso",
+    "permalink": "/blog/shokunin-kishitsu-materia-riparazione-senso/",
+    "title": "Shokunin Kishitsu | I 20 valori dello spirito artigiano — Parte III: Materia, riparazione e senso",
+    "description": "Fukinsei, Kanso, Shizen, Kintsugi, Ikigai e Shokunin: il rapporto con la materia, la filosofia della riparazione e il senso profondo del mestiere artigiano.",
+    "image": "/img/blog/toolsreborn/calligraphy_18_shokunin.jpg",
+    "date": "2026-07-03",
+    "readingTime": 3.63,
     "authors": [
       {
         "key": "toolsreborn",
@@ -55,36 +38,19 @@ export const BLOG_INDEX: BlogIndexEntry[] = [
     ]
   },
   {
-    "slug": "kirin-logo-drago",
-    "permalink": "/blog/kirin-logo-drago/",
-    "title": "Perché il logo della birra Kirin è uno strano drago?",
-    "description": "Il logo della birra Kirin raffigura una creatura leggendaria a metà tra drago, cervo e cavallo. Origini cinesi, restyle giapponese e il giorno in cui il Kirin diventò... una giraffa.",
-    "image": "/img/blog/kirin/kirin.jpg",
+    "slug": "shokunin-kishitsu-disciplina-tempo-bellezza-silenziosa",
+    "permalink": "/blog/shokunin-kishitsu-disciplina-tempo-bellezza-silenziosa/",
+    "title": "Shokunin Kishitsu | I 20 valori dello spirito artigiano — Parte II: Disciplina, tempo e bellezza silenziosa",
+    "description": "Shugyō, Kodawari, Kaizen, Mushin, Wabi, Sabi e Shibui: come la pratica ripetuta trasforma la tecnica in naturalezza e insegna a riconoscere la bellezza silenziosa del tempo.",
+    "image": "/img/blog/toolsreborn/calligraphy_08_shugyo.jpg",
     "date": "2026-06-26",
-    "readingTime": 1.62,
+    "readingTime": 3.47,
     "authors": [
       {
-        "key": "fujitivo",
-        "name": "Erick \"il Fujitivo\"",
-        "imageURL": "/img/authors/logo_ilfujitivo.png",
-        "title": "Viaggiatore in Giappone dal 2008 · autore di \"Andiamo in Giappone\""
-      }
-    ]
-  },
-  {
-    "slug": "shoyu-salsa-di-soia",
-    "permalink": "/blog/shoyu-salsa-di-soia/",
-    "title": "Shōyu — La salsa di soia: un condimento da tavola o un ingrediente da cucina?",
-    "description": "Molti italiani considerano la salsa di soia un condimento da tavola. In Giappone è prima di tutto un ingrediente da cucina: una guida alle varietà principali e a come sceglierla.",
-    "image": "/img/blog/shoyu/shoyu.jpg",
-    "date": "2026-06-25",
-    "readingTime": 1.84,
-    "authors": [
-      {
-        "key": "aki",
-        "name": "Aki Nakagoe",
-        "imageURL": "/img/authors/aki_nakagoe.jpg",
-        "title": "Cuoco giapponese e divulgatore della cucina washoku casalinga"
+        "key": "toolsreborn",
+        "name": "ToolsReborn – Wabi Sabi Story",
+        "imageURL": "/img/authors/tools_reborn.jpg",
+        "title": "Dietro la ruggine di ogni lama e di ogni attrezzo dimenticato si nasconde una storia unica"
       }
     ]
   },
@@ -119,6 +85,40 @@ export const BLOG_INDEX: BlogIndexEntry[] = [
         "name": "Erick \"il Fujitivo\"",
         "imageURL": "/img/authors/logo_ilfujitivo.png",
         "title": "Viaggiatore in Giappone dal 2008 · autore di \"Andiamo in Giappone\""
+      }
+    ]
+  },
+  {
+    "slug": "mirin-sake",
+    "permalink": "/blog/mirin-sake/",
+    "title": "Mirin e sake: sono la stessa cosa? Quasi. Ma no.",
+    "description": "Sake e mirin sono parenti stretti che a un certo punto della loro storia hanno preso strade diverse: uno è nato per essere bevuto, l'altro è finito (anche) in padella. Una piccola guida per capire la differenza.",
+    "image": "/img/blog/mirin-sake/mirin-da-bere.jpg",
+    "date": "2026-06-15",
+    "readingTime": 1.51,
+    "authors": [
+      {
+        "key": "carlo",
+        "name": "Carlo Cocorullo",
+        "imageURL": "/img/authors/carlo.jpg",
+        "title": "Sake Sommelier · Aiki"
+      }
+    ]
+  },
+  {
+    "slug": "yoshoku",
+    "permalink": "/blog/yoshoku/",
+    "title": "Yōshoku: come il Giappone ha reinventato la cucina occidentale",
+    "description": "Lo yōshoku non è cucina europea servita in Giappone, ma una tradizione a sé: piatti dall'aspetto occidentale che in Occidente non esistono, nati dall'incontro fra Giappone e mondo e diventati classici giapponesi moderni.",
+    "image": "/img/blog/yoshoku/omurice.jpg",
+    "date": "2026-06-10",
+    "readingTime": 2.69,
+    "authors": [
+      {
+        "key": "aki",
+        "name": "Aki Nakagoe",
+        "imageURL": "/img/authors/aki_nakagoe.jpg",
+        "title": "Cuoco giapponese e divulgatore della cucina washoku casalinga"
       }
     ]
   }
