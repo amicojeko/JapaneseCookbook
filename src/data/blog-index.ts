@@ -25,13 +25,14 @@ export const BLOG_INDEX: BlogIndexEntry[] = [
     "permalink": "/blog/mirin-sake/",
     "title": "Mirin e sake: sono la stessa cosa? Quasi. Ma no.",
     "description": "Sake e mirin sono parenti stretti che a un certo punto della loro storia hanno preso strade diverse: uno è nato per essere bevuto, l'altro è finito (anche) in padella. Una piccola guida per capire la differenza.",
-    "image": "/img/social_media_card.png",
-    "date": "2026-06-12",
-    "readingTime": 1.37,
+    "image": "/img/blog/mirin-sake/mirin-da-bere.jpg",
+    "date": "2026-06-15",
+    "readingTime": 1.51,
     "authors": [
       {
         "key": "carlo",
         "name": "Carlo Cocorullo",
+        "imageURL": "/img/authors/carlo.jpg",
         "title": "Sake Sommelier · Aiki"
       }
     ]

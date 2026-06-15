@@ -4,7 +4,7 @@ title: "Mirin e sake: sono la stessa cosa? Quasi. Ma no."
 authors: [carlo]
 tags: [ingredienti, cucina]
 description: "Sake e mirin sono parenti stretti che a un certo punto della loro storia hanno preso strade diverse: uno è nato per essere bevuto, l'altro è finito (anche) in padella. Una piccola guida per capire la differenza."
-image: /img/social_media_card.png
+image: /img/blog/mirin-sake/mirin-da-bere.jpg
 ---
 
 Una delle domande che mi fanno più spesso quando si parla di cucina giapponese è: "Ma il mirin è tipo il sake?"
@@ -24,6 +24,12 @@ Ma originariamente non era nato per cucinare.
 Nel Giappone del periodo Muromachi (circa tra il XIV e il XVI secolo), il mirin era considerato una bevanda alcolica dolce e raffinata, apprezzata soprattutto dalle classi più agiate e spesso consumata come digestivo o durante occasioni speciali.
 
 In pratica, prima di finire in padella, il mirin finiva nei bicchieri.
+
+<ImageComponent
+  src="/img/blog/mirin-sake/mirin-da-bere.jpg"
+  alt="Bottiglia e bicchiere di mirin servito come bevanda alcolica dolce"
+  caption="Prima di diventare un ingrediente da cucina, il mirin era una bevanda dolce e raffinata."
+/>
 
 ## Quindi cos'è il sake?
 

@@ -13,6 +13,13 @@
     "width": 500,
     "height": 500
   },
+  "authors/carlo.jpg": {
+    "hash": "a11f186f2dd8c83fe4a14267fa63e891",
+    "original": "/img/authors/carlo.jpg",
+    "srcset": "/img/authors/carlo-320w.webp 320w, /img/authors/carlo-640w.webp 640w",
+    "width": 730,
+    "height": 730
+  },
   "authors/curiosity_power.jpg": {
     "hash": "d3e5b71a41865e6f992e32402f60f800",
     "original": "/img/authors/curiosity_power.jpg",
@@ -180,6 +187,13 @@
     "srcset": "/img/blog/miki_matsubara/miki_matsubara_nel_1980-320w.webp 320w, /img/blog/miki_matsubara/miki_matsubara_nel_1980-640w.webp 640w",
     "width": 1200,
     "height": 900
+  },
+  "blog/mirin-sake/mirin-da-bere.jpg": {
+    "hash": "5b2a99c78a419da4a5d6d575d198260d",
+    "original": "/img/blog/mirin-sake/mirin-da-bere.jpg",
+    "srcset": "/img/blog/mirin-sake/mirin-da-bere-320w.webp 320w, /img/blog/mirin-sake/mirin-da-bere-640w.webp 640w, /img/blog/mirin-sake/mirin-da-bere-1280w.webp 1280w, /img/blog/mirin-sake/mirin-da-bere-1600w.webp 1600w",
+    "width": 1672,
+    "height": 941
   },
   "blog/riso/agricoltori_nella_risaia.jpg": {
     "hash": "c1d1a60555fd7f1ef855389a879733cb",
