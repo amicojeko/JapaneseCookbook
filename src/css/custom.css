@@ -1383,112 +1383,34 @@ article > .theme-doc-markdown.markdown > p:first-of-type::first-letter,
   margin-bottom: 0.4em;
 }
 
-/* Inline article rows on list / tag-posts / author-posts pages
-   (no card chrome — match docusaurus.io/blog: full posts stacked,
-   separated by a hairline rule, same typography as the single post). */
-:is(.blog-list-page, .blog-tags-post-list-page, .blog-authors-posts-page) article {
-  background: transparent;
-  border: 0;
-  padding: 0 0 56px;
-  margin: 0 0 56px;
-  border-bottom: 1px solid var(--pg-rule-soft);
-}
-:is(.blog-list-page, .blog-tags-post-list-page, .blog-authors-posts-page) article:last-of-type {
-  border-bottom: 0;
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-/* Title size matches the single-post H1 so the two pages feel like one document. */
-:is(.blog-list-page, .blog-tags-post-list-page, .blog-authors-posts-page) article > header h2 {
-  font-family: var(--pg-font-serif);
-  font-weight: 900;
-  letter-spacing: -0.015em;
-  font-size: clamp(36px, 5.5vw, 60px);
-  line-height: 1;
-  margin: 0 0 12px;
-  border-bottom: 0;
-  padding-bottom: 0;
-}
-:is(.blog-list-page, .blog-tags-post-list-page, .blog-authors-posts-page) article > header h2 a {
-  color: var(--pg-ink);
-  text-decoration: none;
-  border-bottom: 0;
-}
-:is(.blog-list-page, .blog-tags-post-list-page, .blog-authors-posts-page) article > header h2 a:hover {
-  color: var(--pg-red-ink);
-}
+/* The blog index, tag and author listings now render as editorial cards
+   (BlogCardGrid — same component as the homepage "Dal blog" strip), so the
+   old "inline article rows" chrome that used to style each `article` on these
+   pages has been removed. The card styling lives in LatestBlogPosts.module.css.
+   The rules below are scoped so they keep applying to the single-post page
+   (.blog-post-page), whose `article` still uses the default theme structure. */
 
-/* Date / reading time strip */
-:is(.blog-list-page, .blog-tags-post-list-page, .blog-authors-posts-page,
-    .blog-post-page) article > header > div {
+/* Date / reading time strip (single post page) */
+.blog-post-page article > header > div {
   font-family: var(--pg-font-mono);
   font-size: 11.5px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--pg-ink-faint);
 }
-:is(.blog-list-page, .blog-tags-post-list-page, .blog-authors-posts-page,
-    .blog-post-page) article > header > div time {
+.blog-post-page article > header > div time {
   color: var(--pg-ink);
 }
 
-/* Excerpt body on list-style pages */
-:is(.blog-list-page, .blog-tags-post-list-page, .blog-authors-posts-page) article .markdown p {
-  font-family: var(--pg-font-serif);
-  font-size: 17px;
-  line-height: 1.6;
-  color: var(--pg-ink-soft);
-}
-
-/* Article footer (Read More + tags) */
-:is(.blog-list-page, .blog-tags-post-list-page, .blog-authors-posts-page,
-    .blog-post-page) article > footer {
+/* Article footer (tags) on the single post page */
+.blog-post-page article > footer {
   border-top: 1px solid var(--pg-rule-soft);
   padding-top: 14px;
   margin-top: 18px;
 }
-/* "Leggi l'articolo completo →" CTA on list/tag/author pages.
-   Docusaurus renders this as a plain <a><b>label</b></a> in
-   .col.text--right (no .button class), so we target that path
-   directly. The arrow is a CSS pseudo so it can animate on hover
-   without bloating the translation string. */
-:is(.blog-list-page, .blog-tags-post-list-page, .blog-authors-posts-page)
-    article > footer .col.text--right > a {
-  display: inline-flex;
-  align-items: baseline;
-  gap: 6px;
-  font-family: var(--pg-font-serif);
-  font-weight: 800;
-  font-size: 18px;
-  letter-spacing: -0.005em;
-  color: var(--pg-red);
-  text-decoration: none;
-  border-bottom: 0;
-  transition: color 0.15s ease;
-}
-:is(.blog-list-page, .blog-tags-post-list-page, .blog-authors-posts-page)
-    article > footer .col.text--right > a > b {
-  font-weight: inherit;
-}
-:is(.blog-list-page, .blog-tags-post-list-page, .blog-authors-posts-page)
-    article > footer .col.text--right > a::after {
-  content: '→';
-  font-weight: 700;
-  display: inline-block;
-  transition: transform 0.18s ease;
-}
-:is(.blog-list-page, .blog-tags-post-list-page, .blog-authors-posts-page)
-    article > footer .col.text--right > a:hover {
-  color: var(--pg-red-ink);
-}
-:is(.blog-list-page, .blog-tags-post-list-page, .blog-authors-posts-page)
-    article > footer .col.text--right > a:hover::after {
-  transform: translateX(5px);
-}
 
-/* Tag chips inside an article */
-:is(.blog-list-page, .blog-tags-post-list-page, .blog-authors-posts-page,
-    .blog-post-page) article ul[class*='tags_'] {
+/* Tag chips inside an article (single post page) */
+.blog-post-page article ul[class*='tags_'] {
   list-style: none;
   padding: 0;
   margin: 12px 0 0;
@@ -1496,10 +1418,8 @@ article > .theme-doc-markdown.markdown > p:first-of-type::first-letter,
   flex-wrap: wrap;
   gap: 8px;
 }
-:is(.blog-list-page, .blog-tags-post-list-page, .blog-authors-posts-page,
-    .blog-post-page) article ul[class*='tags_'] li { margin: 0; }
-:is(.blog-list-page, .blog-tags-post-list-page, .blog-authors-posts-page,
-    .blog-post-page) article ul[class*='tags_'] a {
+.blog-post-page article ul[class*='tags_'] li { margin: 0; }
+.blog-post-page article ul[class*='tags_'] a {
   font-family: var(--pg-font-mono);
   font-size: 11px;
   letter-spacing: 0.1em;
@@ -1511,8 +1431,7 @@ article > .theme-doc-markdown.markdown > p:first-of-type::first-letter,
   border-radius: 999px;
   text-decoration: none;
 }
-:is(.blog-list-page, .blog-tags-post-list-page, .blog-authors-posts-page,
-    .blog-post-page) article ul[class*='tags_'] a:hover {
+.blog-post-page article ul[class*='tags_'] a:hover {
   background: var(--pg-yellow);
   color: var(--pg-ink);
 }
@@ -1530,22 +1449,19 @@ article > .theme-doc-markdown.markdown > p:first-of-type::first-letter,
 .blog-post-page nav.pagination-nav { margin-top: 32px; }
 .blog-list-page nav.pagination-nav { margin-top: 16px; }
 
-/* Author info row inside article header */
-:is(.blog-list-page, .blog-tags-post-list-page, .blog-authors-posts-page,
-    .blog-post-page) article > header .avatar { margin-top: 8px; }
-:is(.blog-list-page, .blog-tags-post-list-page, .blog-authors-posts-page,
-    .blog-post-page) article > header .avatar__name {
+/* Author byline inside the single post article header */
+.blog-post-page article > header .avatar { margin-top: 8px; }
+.blog-post-page article > header .avatar__name {
   font-family: var(--pg-font-serif);
   font-weight: 800;
 }
-:is(.blog-list-page, .blog-tags-post-list-page, .blog-authors-posts-page,
-    .blog-post-page) article > header .avatar small {
+.blog-post-page article > header .avatar small {
   font-family: var(--pg-font-sans);
   font-size: 12px;
   color: var(--pg-ink-faint);
 }
-:is(.blog-list-page, .blog-tags-post-list-page, .blog-authors-posts-page,
-    .blog-post-page, .blog-authors-list-page) .avatar__photo {
+/* Author avatar photo on the author posts/list pages + single post byline */
+:is(.blog-authors-posts-page, .blog-authors-list-page, .blog-post-page) .avatar__photo {
   border: 2px solid var(--pg-ink);
   background: var(--pg-paper-2);
 }

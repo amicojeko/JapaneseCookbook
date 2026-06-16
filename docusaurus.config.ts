@@ -90,10 +90,14 @@ const config: Config = {
           // people actually skim editorial-blog content). Keep this in
           // sync with READING_WPM in scripts/generate-blog-index.js so the
           // homepage strip and the post header show the same number.
-          readingTime: ({content, frontMatter, defaultReadingTime}) =>
+          readingTime: ({content, frontMatter, locale, defaultReadingTime}) =>
             frontMatter.hide_reading_time
               ? undefined
-              : defaultReadingTime({content, options: {wordsPerMinute: 350}}),
+              : defaultReadingTime({
+                  content,
+                  locale,
+                  options: {wordsPerMinute: 350},
+                }),
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,

@@ -100,21 +100,27 @@
 .eyebrow time { color: var(--pg-ink); }
 .author { color: var(--pg-ink-faint); }
 
-.title {
+/* Scoped under .card so the module controls the card typography in every
+   context. On the homepage the strip sits inside `.markdown`, whose
+   `.markdown h3` / `.markdown p` rules would otherwise win over a bare
+   `.title` / `.description` class and make the homepage cards differ from the
+   blog/tag/author listing cards (which render outside `.markdown`). The values
+   below match the homepage's effective look so nothing changes there. */
+.card .title {
   margin: 2px 0 4px;
   font-family: var(--pg-font-serif);
-  font-weight: 900;
-  letter-spacing: -0.01em;
-  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: -0.015em;
+  font-size: 24px;
   line-height: 1.15;
   color: var(--pg-ink);
 }
 
-.description {
+.card .description {
   margin: 0;
   font-family: var(--pg-font-serif);
-  font-size: 15px;
-  line-height: 1.45;
+  font-size: 17px;
+  line-height: 1.65;
   color: var(--pg-ink-soft);
   flex: 1;
 }

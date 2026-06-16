@@ -1,20 +1,64 @@
 import React, {type ReactNode} from 'react';
-import BlogListPage from '@theme-original/BlogListPage';
-import type BlogListPageType from '@theme/BlogListPage';
-import type {WrapperProps} from '@docusaurus/types';
+import clsx from 'clsx';
+
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import {
+  PageMetadata,
+  HtmlClassNameProvider,
+  ThemeClassNames,
+} from '@docusaurus/theme-common';
+import BlogLayout from '@theme/BlogLayout';
+import BlogListPaginator from '@theme/BlogListPaginator';
+import SearchMetadata from '@theme/SearchMetadata';
+import type {Props} from '@theme/BlogListPage';
+import BlogListPageStructuredData from '@theme/BlogListPage/StructuredData';
+import BlogCardGrid, {blogItemsToCards} from '@site/src/components/BlogCardGrid';
 import NoindexMeta from '@site/src/components/NoindexMeta';
 
-type Props = WrapperProps<typeof BlogListPageType>;
+// Ejected (not wrapped): renders the blog index as homepage-style editorial
+// cards (BlogCardGrid) instead of the default full BlogPostItems list, while
+// keeping layout, metadata, structured data and pagination intact.
+// Paginated pages (/blog/page/2/ and beyond) are noindexed — page 1 (/blog/)
+// is the real, indexable blog home.
 
-// Wrap (not eject): noindex only the paginated blog index pages
-// (/blog/page/2/ and beyond). Page 1 (/blog/) is the real, indexable blog
-// home — `metadata.page` is 1 there — so we leave it untouched.
-export default function BlogListPageWrapper(props: Props): ReactNode {
-  const isPaginated = props.metadata.page > 1;
+function BlogListPageMetadata(props: Props): ReactNode {
+  const {metadata} = props;
+  const {
+    siteConfig: {title: siteTitle},
+  } = useDocusaurusContext();
+  const {blogDescription, blogTitle, permalink} = metadata;
+  const isBlogOnlyMode = permalink === '/';
+  const title = isBlogOnlyMode ? siteTitle : blogTitle;
   return (
     <>
-      {isPaginated && <NoindexMeta />}
-      <BlogListPage {...props} />
+      <PageMetadata title={title} description={blogDescription} />
+      <SearchMetadata tag="blog_posts_list" />
     </>
+  );
+}
+
+function BlogListPageContent(props: Props): ReactNode {
+  const {metadata, items, sidebar} = props;
+  return (
+    <BlogLayout sidebar={sidebar}>
+      <BlogCardGrid posts={blogItemsToCards(items)} />
+      <BlogListPaginator metadata={metadata} />
+    </BlogLayout>
+  );
+}
+
+export default function BlogListPage(props: Props): ReactNode {
+  const isPaginated = props.metadata.page > 1;
+  return (
+    <HtmlClassNameProvider
+      className={clsx(
+        ThemeClassNames.wrapper.blogPages,
+        ThemeClassNames.page.blogListPage,
+      )}>
+      {isPaginated && <NoindexMeta />}
+      <BlogListPageMetadata {...props} />
+      <BlogListPageStructuredData {...props} />
+      <BlogListPageContent {...props} />
+    </HtmlClassNameProvider>
   );
 }

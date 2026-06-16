@@ -1,8 +1,8 @@
 import React from 'react';
 import Link from '@docusaurus/Link';
 import Heading from '@theme/Heading';
-import {BLOG_INDEX, type BlogIndexEntry} from '../data/blog-index';
-import OptimizedImage from './OptimizedImage';
+import {BLOG_INDEX} from '../data/blog-index';
+import BlogCardGrid, {type BlogCardData} from './BlogCardGrid';
 import styles from './LatestBlogPosts.module.css';
 
 interface LatestBlogPostsProps {
@@ -21,53 +21,6 @@ interface LatestBlogPostsProps {
   seeAllLabel?: string;
 }
 
-const dateFormatter = new Intl.DateTimeFormat('it-IT', {
-  day: 'numeric',
-  month: 'long',
-  year: 'numeric',
-  timeZone: 'UTC',
-});
-
-function formatDate(iso: string): string {
-  const d = new Date(`${iso}T00:00:00Z`);
-  if (Number.isNaN(d.getTime())) return iso;
-  return dateFormatter.format(d);
-}
-
-function PostCard({post}: {post: BlogIndexEntry}): React.ReactElement {
-  const author = post.authors[0];
-  return (
-    <Link to={post.permalink} className={styles.cardLink} aria-label={post.title}>
-      <article className={styles.card}>
-        {post.image && (
-          <div className={styles.imageWrapper}>
-            <OptimizedImage
-              src={post.image}
-              alt={post.title}
-              className={styles.image}
-              // Strip auto-fill minmax(300px, 1fr): card 340-450px
-              // (1 col su mobile, 2 col su tablet, 3-4 col su desktop).
-              sizes="(max-width: 480px) 100vw, (max-width: 1024px) 50vw, 360px"
-            />
-          </div>
-        )}
-        <div className={styles.content}>
-          <div className={styles.eyebrow}>
-            <time dateTime={post.date}>{formatDate(post.date)}</time>
-            {post.readingTime != null && (
-              <span> · {Math.ceil(post.readingTime)} min</span>
-            )}
-            {author && <span className={styles.author}> · {author.name}</span>}
-          </div>
-          <Heading as="h3" className={styles.title}>{post.title}</Heading>
-          {post.description && <p className={styles.description}>{post.description}</p>}
-          <span className={styles.cta}>Leggi →</span>
-        </div>
-      </article>
-    </Link>
-  );
-}
-
 export default function LatestBlogPosts({
   limit = 2,
   minPosts = 0,
@@ -75,7 +28,15 @@ export default function LatestBlogPosts({
   seeAllLabel = 'Tutti i post →',
 }: LatestBlogPostsProps): React.ReactElement | null {
   if (BLOG_INDEX.length < minPosts) return null;
-  const posts = BLOG_INDEX.slice(0, limit);
+  const posts: BlogCardData[] = BLOG_INDEX.slice(0, limit).map((p) => ({
+    permalink: p.permalink,
+    title: p.title,
+    date: p.date,
+    description: p.description ?? undefined,
+    readingTime: p.readingTime ?? undefined,
+    authorName: p.authors[0]?.name,
+    image: p.image ?? undefined,
+  }));
   if (posts.length === 0) return null;
   return (
     <section className={styles.wrapper}>
@@ -87,9 +48,7 @@ export default function LatestBlogPosts({
           )}
         </div>
       )}
-      <div className={styles.grid}>
-        {posts.map((p) => <PostCard key={p.slug} post={p} />)}
-      </div>
+      <BlogCardGrid posts={posts} titleAs="h3" />
     </section>
   );
 }
