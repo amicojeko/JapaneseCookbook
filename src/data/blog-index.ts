@@ -21,6 +21,23 @@ export type BlogIndexEntry = {
 
 export const BLOG_INDEX: BlogIndexEntry[] = [
   {
+    "slug": "goen-5-yen",
+    "permalink": "/blog/goen-5-yen/",
+    "title": "Perché i giapponesi offrono 5 yen al santuario (e non è per risparmiare)",
+    "description": "La monetina da 5 yen nasconde un mondo: goen, enmusubi, enkiri. Legami da creare, relazioni da tagliare e una storia di emancipazione femminile che pochi conoscono.",
+    "image": "/img/blog/5yen/5yen.jpg",
+    "date": "2026-06-16",
+    "readingTime": 1.46,
+    "authors": [
+      {
+        "key": "fujitivo",
+        "name": "Erick \"il Fujitivo\"",
+        "imageURL": "/img/authors/logo_ilfujitivo.png",
+        "title": "Viaggiatore in Giappone dal 2008 · autore di \"Andiamo in Giappone\""
+      }
+    ]
+  },
+  {
     "slug": "mirin-sake",
     "permalink": "/blog/mirin-sake/",
     "title": "Mirin e sake: sono la stessa cosa? Quasi. Ma no.",
@@ -102,23 +119,6 @@ export const BLOG_INDEX: BlogIndexEntry[] = [
         "name": "Erick \"il Fujitivo\"",
         "imageURL": "/img/authors/logo_ilfujitivo.png",
         "title": "Viaggiatore in Giappone dal 2008 · autore di \"Andiamo in Giappone\""
-      }
-    ]
-  },
-  {
-    "slug": "miki-matsubara",
-    "permalink": "/blog/miki-matsubara/",
-    "title": "Miki Matsubara, la cantante che voleva essere dimenticata",
-    "description": "Mayonaka no Door ~ Stay With Me è esplosa su TikTok quarant'anni dopo essere stata pubblicata. Ma dietro il city pop più virale di sempre c'è la storia di una donna che chiese di essere dimenticata.",
-    "image": "/img/blog/miki_matsubara/miki_matsubara_nel_1980.jpg",
-    "date": "2026-05-22",
-    "readingTime": 2.12,
-    "authors": [
-      {
-        "key": "jeko",
-        "name": "Stefano \"Jeko\" Guglielmetti",
-        "imageURL": "/img/JEKO-CUCINA-02.png",
-        "title": "Curatore di Pagine Giappe · nerd impenitente e cuoco amatoriale ostinato"
       }
     ]
   }
