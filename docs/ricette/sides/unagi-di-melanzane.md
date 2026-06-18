@@ -12,7 +12,7 @@ ingredients:
 - Mirin
 - Salsa di soia
 - Zucchero
-- Olio di semi di sesamo
+- Olio di semi
 - Riso
 tags:
 - vegan
@@ -36,7 +36,7 @@ E infatti oggi vi racconterò questa: la favola della melanzana che voleva esser
 - 1 cucchiaio di [Mirin](/ingredienti/mirin)
 - 2 cucchiai di [Salsa di Soia](/ingredienti/shoyu)
 - 1 cucchiaino di Zucchero
-- [Olio di semi di sesamo](/ingredienti/sesame_oil) per la cottura
+- Olio di semi per la cottura
 - [Riso](/ingredienti/rice) bianco cotto per servire
 - [Semi di sesamo](/ingredienti/sesamo) tostati per guarnire
 - [Cipolline verdi](/ingredienti/negi) per guarnire
