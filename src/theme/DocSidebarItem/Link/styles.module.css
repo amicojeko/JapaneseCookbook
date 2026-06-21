@@ -35,7 +35,7 @@
   line-height: 0.8;
 }
 
-/* Active sidebar link has a red background — bump subtitle to white for contrast */
+/* Active sidebar link has a soft red background — use dark red for the subtitle */
 :global(.menu__link--active) .subtitle {
-  color: #fff;
+  color: var(--pg-red-ink);
 }

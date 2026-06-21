@@ -462,14 +462,14 @@ h1, h2, h3, h4, h5, h6,
 
 .menu__link--active:not(.menu__link--sublist),
 .menu__list-item-collapsible--active > .menu__link {
-  background: var(--pg-red);
-  color: #fff;
+  background: var(--pg-red-soft);
+  color: var(--pg-red-ink);
   font-weight: 600;
 }
 
 .menu__list-item-collapsible--active > .menu__link:hover {
-  background: var(--pg-red-ink);
-  color: #fff;
+  background: var(--pg-red-soft);
+  color: var(--pg-red-ink);
 }
 
 .menu__caret::before,
@@ -478,7 +478,7 @@ h1, h2, h3, h4, h5, h6,
 }
 .menu__list-item-collapsible--active .menu__caret::before,
 .menu__link--active .menu__link--sublist-caret::after {
-  filter: brightness(0) invert(1);
+  filter: brightness(0);
 }
 
 /* ---------- TOC ---------- */
