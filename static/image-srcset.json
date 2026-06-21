@@ -769,6 +769,13 @@
     "width": 1200,
     "height": 900
   },
+  "ricette/daikon_kinpira.jpg": {
+    "hash": "39fb071976c8b9f147782e7c8ea6bd14",
+    "original": "/img/ricette/daikon_kinpira.jpg",
+    "srcset": "/img/ricette/daikon_kinpira-320w.webp 320w, /img/ricette/daikon_kinpira-640w.webp 640w, /img/ricette/daikon_kinpira-1280w.webp 1280w, /img/ricette/daikon_kinpira-1600w.webp 1600w",
+    "width": 1672,
+    "height": 941
+  },
   "ricette/daikon_no_nimono.jpg": {
     "hash": "9c78a5c25d36474a1fa56c88cae6fde5",
     "original": "/img/ricette/daikon_no_nimono.jpg",

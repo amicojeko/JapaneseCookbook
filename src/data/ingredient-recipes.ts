@@ -75,6 +75,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/horenso_no_ohitashi"
     },
     {
+      "id": "ricette/sides/kinpira_di_daikon_e_carote",
+      "title": "Kinpira di Daikon e Carote",
+      "description": "Il Kinpira è una ricetta tradizionale giapponese velocissima e vegana, perfetta per recuperare le bucce di daikon e carote saltandole in padella.",
+      "permalink": "/ricette/kinpira-di-daikon-e-carote"
+    },
+    {
       "id": "ricette/tsukemono/daikon_shiokombuzuke",
       "title": "Daikon Shiokombuzuke",
       "description": "Daikon marinato con shio kombu, sesamo e shoyu. Una bomba di umami!",
@@ -117,6 +123,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Nira shio kombu no maze onigiri",
       "description": "Un onigiri ricco di umami, preparato mescolando il riso caldo con erba aglina, shio kombu, katsuobushi e olio di sesamo.",
       "permalink": "/ricette/nira-shio-kombu-maze-onigiri"
+    },
+    {
+      "id": "ricette/sides/kinpira_di_daikon_e_carote",
+      "title": "Kinpira di Daikon e Carote",
+      "description": "Il Kinpira è una ricetta tradizionale giapponese velocissima e vegana, perfetta per recuperare le bucce di daikon e carote saltandole in padella.",
+      "permalink": "/ricette/kinpira-di-daikon-e-carote"
     },
     {
       "id": "ricette/sides/mugen_oba_nasu",
@@ -315,6 +327,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/horenso_no_ohitashi"
     },
     {
+      "id": "ricette/sides/kinpira_di_daikon_e_carote",
+      "title": "Kinpira di Daikon e Carote",
+      "description": "Il Kinpira è una ricetta tradizionale giapponese velocissima e vegana, perfetta per recuperare le bucce di daikon e carote saltandole in padella.",
+      "permalink": "/ricette/kinpira-di-daikon-e-carote"
+    },
+    {
       "id": "ricette/sides/nametake",
       "title": "Nametake",
       "description": "Una ricetta giapponese \"casalinga\" facilissima ed economica. Funghi Enoki cotti in salsa di soia e mirin, perfetti sul riso.",
@@ -461,6 +479,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Takenoko to Aburaage no Takikomi Gohan",
       "description": "Un classico piatto casalingo giapponese, il Takikomi Gohan è un riso magico cotto comodamente nel cuociriso insieme ai suoi condimenti.",
       "permalink": "/ricette/takenoko_to_aburaage_no_takikomi_gohan"
+    },
+    {
+      "id": "ricette/sides/kinpira_di_daikon_e_carote",
+      "title": "Kinpira di Daikon e Carote",
+      "description": "Il Kinpira è una ricetta tradizionale giapponese velocissima e vegana, perfetta per recuperare le bucce di daikon e carote saltandole in padella.",
+      "permalink": "/ricette/kinpira-di-daikon-e-carote"
     },
     {
       "id": "ricette/sides/nametake",
@@ -721,6 +745,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/nira-shio-kombu-maze-onigiri"
     },
     {
+      "id": "ricette/sides/kinpira_di_daikon_e_carote",
+      "title": "Kinpira di Daikon e Carote",
+      "description": "Il Kinpira è una ricetta tradizionale giapponese velocissima e vegana, perfetta per recuperare le bucce di daikon e carote saltandole in padella.",
+      "permalink": "/ricette/kinpira-di-daikon-e-carote"
+    },
+    {
       "id": "ricette/tsukemono/daikon_shiokombuzuke",
       "title": "Daikon Shiokombuzuke",
       "description": "Daikon marinato con shio kombu, sesamo e shoyu. Una bomba di umami!",
@@ -901,6 +931,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Salsa Tentsuyu: ricetta per tempura",
       "description": "Ricetta della salsa tentsuyu, il condimento giapponese per il tempura a base di dashi, mirin e salsa di soia. Ingredienti, dosi e preparazione.",
       "permalink": "/ricette/tentsuyu"
+    },
+    {
+      "id": "ricette/sides/kinpira_di_daikon_e_carote",
+      "title": "Kinpira di Daikon e Carote",
+      "description": "Il Kinpira è una ricetta tradizionale giapponese velocissima e vegana, perfetta per recuperare le bucce di daikon e carote saltandole in padella.",
+      "permalink": "/ricette/kinpira-di-daikon-e-carote"
     },
     {
       "id": "ricette/sides/nasu_no_yaki-bitashi",

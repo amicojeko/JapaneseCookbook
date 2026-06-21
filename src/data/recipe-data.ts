@@ -1307,6 +1307,37 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [],
     "datePublished": "2026-01-01T20:10:53+01:00"
   },
+  "ricette/sides/kinpira_di_daikon_e_carote": {
+    "docId": "ricette/sides/kinpira_di_daikon_e_carote",
+    "title": "Kinpira di Daikon e Carote",
+    "description": "Il Kinpira è una ricetta tradizionale giapponese velocissima e vegana, perfetta per recuperare le bucce di daikon e carote saltandole in padella.",
+    "image": "/img/ricette/daikon_kinpira.jpg",
+    "recipeCategory": "Contorni",
+    "recipeKeywords": [
+      "daikon",
+      "sesame_oil",
+      "sake",
+      "mirin",
+      "shoyu",
+      "sesamo"
+    ],
+    "recipeYield": null,
+    "recipeIngredient": [
+      "Bucce di daikon",
+      "Bucce di carota",
+      "Olio di sesamo",
+      "Un goccio di Sake",
+      "Mirin",
+      "Salsa di soia (Shoyu)",
+      "1 cucchiaio di zucchero (opzionale)",
+      "Sesamo tostato"
+    ],
+    "instructionsText": "Per cominciare, prendete le bucce del daikon e della carota che vi sono avanzate e tagliatele a julienne. In una padella, versate un filo di olio di sesamo e fatelo scaldare. Aggiungete le vostre verdure a julienne e spadellate fino a farle appassire per bene. A questo punto, sfumate con un goccio di sake, dopodiché aggiungete il mirin e la salsa di soia. Se vi piace un contrasto più agrodolce, potete aggiungere anche un bel cucchiaio di zucchero. Continuate a cuocere dando un paio di spadellate finché i liquidi non si saranno assorbiti quasi completamente. Quando la salsa si è assorbita, aggiungete una pioggia di sesamo tostato e mescolate. Trasferite il Kinpira in una bella ciotolina, dategli \"un'acchittata\" e completate con un altro po' di sesamo in superficie. Il vostro piatto antispreco è pronto per essere gustato!",
+    "videoIds": [
+      "yO20Egoclpw"
+    ],
+    "datePublished": null
+  },
   "ricette/sides/mugen_oba_nasu": {
     "docId": "ricette/sides/mugen_oba_nasu",
     "title": "Mugen Oba Nasu",
@@ -1441,7 +1472,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "1 cucchiaio di Mirin",
       "2 cucchiai di Salsa di Soia",
       "1 cucchiaino di Zucchero",
-      "Olio di semi di sesamo per la cottura",
+      "Olio di semi per la cottura",
       "Riso bianco cotto per servire",
       "Semi di sesamo tostati per guarnire",
       "Cipolline verdi per guarnire"
