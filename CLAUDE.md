@@ -8,6 +8,8 @@ Italian-language Japanese cooking recipe and ingredient guide website built with
 
 ## Commands
 
+> **Always run commands through WSL when on Windows.** This repo lives on the WSL filesystem and Node/npm are installed there (via nvm). Don't run `npm`/`node`/`git` from the Windows host shell — invoke them inside WSL (e.g. `wsl.exe -d ubuntu-20.04 -- bash -c "…"`).
+
 ```bash
 npm install        # Install dependencies (Node 20+ required)
 npm start          # Start local dev server with hot-reload
