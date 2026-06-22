@@ -1,0 +1,5 @@
+# Copia questo file in `.paginegiappe-telegram-token` (gitignored) e metti i valori veri.
+# Il token si ottiene da @BotFather; il bot va aggiunto come admin del canale.
+# TELEGRAM_CHANNEL: @paginegiappe = canale di prova, @amicojeko_news = canale definitivo.
+TELEGRAM_BOT_TOKEN=000000000:FAKE-TOKEN-SOSTITUISCI-CON-QUELLO-VERO
+TELEGRAM_CHANNEL=@paginegiappe

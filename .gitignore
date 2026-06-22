@@ -16,6 +16,10 @@
 
 # Misc
 .DS_Store
+
+# Credenziali bot Telegram (il .sample va invece committato)
+.paginegiappe-telegram-token
+
 .env.local
 .env.development.local
 .env.test.local
@@ -28,4 +32,6 @@ yarn-error.log*
 tmp
 
 # Claude Code (config locale, worktree temporanei, ecc.)
-.claude/
+# Ignora tutto dentro .claude/ TRANNE le skill di progetto, che vanno committate.
+.claude/*
+!.claude/skills/
