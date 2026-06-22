@@ -272,6 +272,13 @@
     "width": 1200,
     "height": 675
   },
+  "blog/shokunin_kishitsu/parte1.jpg": {
+    "hash": "68deb18a7b04748ce3df62b3678233c6",
+    "original": "/img/blog/shokunin_kishitsu/parte1.jpg",
+    "srcset": "/img/blog/shokunin_kishitsu/parte1-320w.webp 320w, /img/blog/shokunin_kishitsu/parte1-640w.webp 640w, /img/blog/shokunin_kishitsu/parte1-1280w.webp 1280w, /img/blog/shokunin_kishitsu/parte1-1600w.webp 1600w",
+    "width": 1600,
+    "height": 900
+  },
   "blog/shokunin_kishitsu/shokunin-apprendista.jpg": {
     "hash": "347484635e7816a04c6e2b05f6daba05",
     "original": "/img/blog/shokunin_kishitsu/shokunin-apprendista.jpg",
@@ -285,6 +292,146 @@
     "srcset": "/img/blog/shokunin_kishitsu/toolsreborn-logo-320w.webp 320w, /img/blog/shokunin_kishitsu/toolsreborn-logo-640w.webp 640w",
     "width": 1200,
     "height": 675
+  },
+  "blog/toolsreborn/calligraphy_01_gi.jpg": {
+    "hash": "923f09c21f5259dab019aa2e844a9672",
+    "original": "/img/blog/toolsreborn/calligraphy_01_gi.jpg",
+    "srcset": "/img/blog/toolsreborn/calligraphy_01_gi-320w.webp 320w, /img/blog/toolsreborn/calligraphy_01_gi-640w.webp 640w",
+    "width": 1024,
+    "height": 1536
+  },
+  "blog/toolsreborn/calligraphy_02_yu.jpg": {
+    "hash": "49a1a60bb454c68271b1e1eff47bc72a",
+    "original": "/img/blog/toolsreborn/calligraphy_02_yu.jpg",
+    "srcset": "/img/blog/toolsreborn/calligraphy_02_yu-320w.webp 320w, /img/blog/toolsreborn/calligraphy_02_yu-640w.webp 640w",
+    "width": 1024,
+    "height": 1536
+  },
+  "blog/toolsreborn/calligraphy_03_jin.jpg": {
+    "hash": "ea79fe034c646b782b93338cfdd4a3d5",
+    "original": "/img/blog/toolsreborn/calligraphy_03_jin.jpg",
+    "srcset": "/img/blog/toolsreborn/calligraphy_03_jin-320w.webp 320w, /img/blog/toolsreborn/calligraphy_03_jin-640w.webp 640w",
+    "width": 1024,
+    "height": 1536
+  },
+  "blog/toolsreborn/calligraphy_04_rei.jpg": {
+    "hash": "705c1a6cb29efcc5a5802ac11f76db7a",
+    "original": "/img/blog/toolsreborn/calligraphy_04_rei.jpg",
+    "srcset": "/img/blog/toolsreborn/calligraphy_04_rei-320w.webp 320w, /img/blog/toolsreborn/calligraphy_04_rei-640w.webp 640w",
+    "width": 1024,
+    "height": 1536
+  },
+  "blog/toolsreborn/calligraphy_05_makoto.jpg": {
+    "hash": "abe06f30b75b32db7c61c7487d93746d",
+    "original": "/img/blog/toolsreborn/calligraphy_05_makoto.jpg",
+    "srcset": "/img/blog/toolsreborn/calligraphy_05_makoto-320w.webp 320w, /img/blog/toolsreborn/calligraphy_05_makoto-640w.webp 640w",
+    "width": 1024,
+    "height": 1536
+  },
+  "blog/toolsreborn/calligraphy_06_meiyo.jpg": {
+    "hash": "2f3810ddb251c38cdd3e6b5ef10759b8",
+    "original": "/img/blog/toolsreborn/calligraphy_06_meiyo.jpg",
+    "srcset": "/img/blog/toolsreborn/calligraphy_06_meiyo-320w.webp 320w, /img/blog/toolsreborn/calligraphy_06_meiyo-640w.webp 640w",
+    "width": 1024,
+    "height": 1536
+  },
+  "blog/toolsreborn/calligraphy_07_chugi.jpg": {
+    "hash": "b2d174bd4b6c3340f6d2c12bfa2860ce",
+    "original": "/img/blog/toolsreborn/calligraphy_07_chugi.jpg",
+    "srcset": "/img/blog/toolsreborn/calligraphy_07_chugi-320w.webp 320w, /img/blog/toolsreborn/calligraphy_07_chugi-640w.webp 640w",
+    "width": 1024,
+    "height": 1536
+  },
+  "blog/toolsreborn/calligraphy_08_shugyo.jpg": {
+    "hash": "e8bf221c83738e0843dc168025caa25e",
+    "original": "/img/blog/toolsreborn/calligraphy_08_shugyo.jpg",
+    "srcset": "/img/blog/toolsreborn/calligraphy_08_shugyo-320w.webp 320w, /img/blog/toolsreborn/calligraphy_08_shugyo-640w.webp 640w",
+    "width": 1024,
+    "height": 1536
+  },
+  "blog/toolsreborn/calligraphy_09_wabi.jpg": {
+    "hash": "60cc3ce6c92ac6afb18c60c565c06ec0",
+    "original": "/img/blog/toolsreborn/calligraphy_09_wabi.jpg",
+    "srcset": "/img/blog/toolsreborn/calligraphy_09_wabi-320w.webp 320w, /img/blog/toolsreborn/calligraphy_09_wabi-640w.webp 640w",
+    "width": 1024,
+    "height": 1536
+  },
+  "blog/toolsreborn/calligraphy_10_sabi.jpg": {
+    "hash": "d0312f58dfe09b2519d61f2d01be9775",
+    "original": "/img/blog/toolsreborn/calligraphy_10_sabi.jpg",
+    "srcset": "/img/blog/toolsreborn/calligraphy_10_sabi-320w.webp 320w, /img/blog/toolsreborn/calligraphy_10_sabi-640w.webp 640w",
+    "width": 1024,
+    "height": 1536
+  },
+  "blog/toolsreborn/calligraphy_11_kintsugi.jpg": {
+    "hash": "003b695c7b8a89fa362c76b6b42e8db3",
+    "original": "/img/blog/toolsreborn/calligraphy_11_kintsugi.jpg",
+    "srcset": "/img/blog/toolsreborn/calligraphy_11_kintsugi-320w.webp 320w, /img/blog/toolsreborn/calligraphy_11_kintsugi-640w.webp 640w",
+    "width": 1024,
+    "height": 1536
+  },
+  "blog/toolsreborn/calligraphy_12_shibui.jpg": {
+    "hash": "ad564cb310ec27d67b37ffbad2af785b",
+    "original": "/img/blog/toolsreborn/calligraphy_12_shibui.jpg",
+    "srcset": "/img/blog/toolsreborn/calligraphy_12_shibui-320w.webp 320w, /img/blog/toolsreborn/calligraphy_12_shibui-640w.webp 640w",
+    "width": 1024,
+    "height": 1536
+  },
+  "blog/toolsreborn/calligraphy_13_fukinsei.jpg": {
+    "hash": "6c2a15fac2f839efaedecceb44e484b8",
+    "original": "/img/blog/toolsreborn/calligraphy_13_fukinsei.jpg",
+    "srcset": "/img/blog/toolsreborn/calligraphy_13_fukinsei-320w.webp 320w, /img/blog/toolsreborn/calligraphy_13_fukinsei-640w.webp 640w",
+    "width": 1024,
+    "height": 1536
+  },
+  "blog/toolsreborn/calligraphy_14_kanso.jpg": {
+    "hash": "38422c0c016b509709dcbf855f1507a2",
+    "original": "/img/blog/toolsreborn/calligraphy_14_kanso.jpg",
+    "srcset": "/img/blog/toolsreborn/calligraphy_14_kanso-320w.webp 320w, /img/blog/toolsreborn/calligraphy_14_kanso-640w.webp 640w",
+    "width": 1024,
+    "height": 1536
+  },
+  "blog/toolsreborn/calligraphy_15_shizen.jpg": {
+    "hash": "ca9e85c83439a63dc4eae3c5e513f486",
+    "original": "/img/blog/toolsreborn/calligraphy_15_shizen.jpg",
+    "srcset": "/img/blog/toolsreborn/calligraphy_15_shizen-320w.webp 320w, /img/blog/toolsreborn/calligraphy_15_shizen-640w.webp 640w",
+    "width": 1024,
+    "height": 1536
+  },
+  "blog/toolsreborn/calligraphy_16_ikigai.jpg": {
+    "hash": "2a69897fb8f4019ec40c6772426be0c4",
+    "original": "/img/blog/toolsreborn/calligraphy_16_ikigai.jpg",
+    "srcset": "/img/blog/toolsreborn/calligraphy_16_ikigai-320w.webp 320w, /img/blog/toolsreborn/calligraphy_16_ikigai-640w.webp 640w",
+    "width": 1024,
+    "height": 1536
+  },
+  "blog/toolsreborn/calligraphy_17_kodawari.jpg": {
+    "hash": "4e1ba23d2e657c345dc5036cbf409b2a",
+    "original": "/img/blog/toolsreborn/calligraphy_17_kodawari.jpg",
+    "srcset": "/img/blog/toolsreborn/calligraphy_17_kodawari-320w.webp 320w, /img/blog/toolsreborn/calligraphy_17_kodawari-640w.webp 640w",
+    "width": 1024,
+    "height": 1536
+  },
+  "blog/toolsreborn/calligraphy_18_shokunin.jpg": {
+    "hash": "4b2d401e075e3b8cb9a5ec19d004789f",
+    "original": "/img/blog/toolsreborn/calligraphy_18_shokunin.jpg",
+    "srcset": "/img/blog/toolsreborn/calligraphy_18_shokunin-320w.webp 320w, /img/blog/toolsreborn/calligraphy_18_shokunin-640w.webp 640w",
+    "width": 1024,
+    "height": 1536
+  },
+  "blog/toolsreborn/calligraphy_19_kaizen.jpg": {
+    "hash": "3658e7f6be5887b681da2622ea45fe32",
+    "original": "/img/blog/toolsreborn/calligraphy_19_kaizen.jpg",
+    "srcset": "/img/blog/toolsreborn/calligraphy_19_kaizen-320w.webp 320w, /img/blog/toolsreborn/calligraphy_19_kaizen-640w.webp 640w",
+    "width": 1024,
+    "height": 1536
+  },
+  "blog/toolsreborn/calligraphy_20_mushin.jpg": {
+    "hash": "d9a4c9b8435dd83e323fb7513cde7959",
+    "original": "/img/blog/toolsreborn/calligraphy_20_mushin.jpg",
+    "srcset": "/img/blog/toolsreborn/calligraphy_20_mushin-320w.webp 320w, /img/blog/toolsreborn/calligraphy_20_mushin-640w.webp 640w",
+    "width": 1024,
+    "height": 1536
   },
   "blog/tre_scimmie/nikko-Shinkyusha.jpg": {
     "hash": "327e394eac69ff827456f3dca1b2f103",

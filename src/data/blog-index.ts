@@ -21,6 +21,23 @@ export type BlogIndexEntry = {
 
 export const BLOG_INDEX: BlogIndexEntry[] = [
   {
+    "slug": "shokunin-kishitsu-etica-del-gesto",
+    "permalink": "/blog/shokunin-kishitsu-etica-del-gesto/",
+    "title": "Shokunin Kishitsu | I 20 valori dello spirito artigiano — Parte I: L'etica del gesto",
+    "description": "Gi, Yū, Jin, Rei, Makoto, Meiyo, Chūgi: i sette valori dell'etica del gesto che guidano la mano dell'artigiano e del cuoco giapponese.",
+    "image": "/img/blog/shokunin_kishitsu/parte1.jpg",
+    "date": "2026-06-19",
+    "readingTime": 3.49,
+    "authors": [
+      {
+        "key": "toolsreborn",
+        "name": "ToolsReborn – Wabi Sabi Story",
+        "imageURL": "/img/authors/tools_reborn.jpg",
+        "title": "Dietro la ruggine di ogni lama e di ogni attrezzo dimenticato si nasconde una storia unica"
+      }
+    ]
+  },
+  {
     "slug": "goen-5-yen",
     "permalink": "/blog/goen-5-yen/",
     "title": "Perché i giapponesi offrono 5 yen al santuario (e non è per risparmiare)",
@@ -102,23 +119,6 @@ export const BLOG_INDEX: BlogIndexEntry[] = [
         "name": "Donatella Peterlin",
         "imageURL": "/img/authors/donatella_peterlin.jpg",
         "title": "Appassionata di storia, arte e cultura · mamma di Jeko"
-      }
-    ]
-  },
-  {
-    "slug": "shamisen",
-    "permalink": "/blog/shamisen/",
-    "title": "Che cos'è davvero lo shamisen?",
-    "description": "Tre corde, un grande plettro, un manico senza tasti. Lo shamisen è il suono inconfondibile della musica tradizionale giapponese — ma da dove arriva, com'è fatto e perché funziona ancora oggi nel rock, nei matsuri e negli anime?",
-    "image": "/img/blog/shamisen/erick_e_lo_shamisen.jpg",
-    "date": "2026-05-23",
-    "readingTime": 1.99,
-    "authors": [
-      {
-        "key": "fujitivo",
-        "name": "Erick \"il Fujitivo\"",
-        "imageURL": "/img/authors/logo_ilfujitivo.png",
-        "title": "Viaggiatore in Giappone dal 2008 · autore di \"Andiamo in Giappone\""
       }
     ]
   }
