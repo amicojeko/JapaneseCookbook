@@ -18,7 +18,7 @@ TELEGRAM_CHANNEL=@paginegiappe        # @paginegiappe = prova, @amicojeko_news =
 
 Se il file non esiste, dì all'utente di copiarlo da `.paginegiappe-telegram-token.sample` e fermati.
 
-> Su Windows esegui i comandi via WSL, come da `CLAUDE.md`. Su macOS/Linux direttamente.
+> **Encoding / shell (importante).** Su questo setup Windows il Bash tool è **Git Bash (MINGW64)**, non WSL. **Non** instradare il `curl` via `wsl.exe` (MSYS traduce gli argomenti tipo `/home/...` in path Windows e rompe tutto). Esegui direttamente nel Bash tool dalla root del repo. Il locale di Git Bash **non è UTF-8**: se passi le emoji con `-d "text=$VAR"` arrivano come `?`. Per questo il testo va scritto in un **file** (con lo strumento Write, che garantisce byte UTF-8) e inviato con `--data-urlencode "text@FILE"`, così la shell non tocca mai i byte. Su macOS/Linux funziona comunque allo stesso modo.
 
 ## Procedura
 
@@ -71,22 +71,22 @@ https://paginegiappe.it/blog/mirin-sake/
 
 ## Pubblicazione
 
-Scrivi il messaggio approvato in un file temporaneo (evita problemi di escaping con emoji e a capo) e invialo. Esegui dalla root del repo:
+Due passi, dalla root del repo:
+
+1. **Scrivi il messaggio approvato in `.tg-msg.txt` usando lo strumento Write** (NON un heredoc `cat > … <<EOF`: in Git Bash le emoji nell'heredoc vengono mangled, e un file in `/tmp` non è visibile al curl di Windows). Il file va nella root del repo, così il curl lo legge con un **path relativo**. Il testo è il messaggio così com'è: prima riga il corpo, ultima riga la URL.
+
+2. **Invia** con `--data-urlencode "text@.tg-msg.txt"` (percent-encoding dei byte UTF-8 → emoji corrette a prescindere dal locale). Il `chat_id` puoi prenderlo da `${TELEGRAM_CHANNEL}` o passarlo esplicito (es. `@paginegiappe` per la prova, `@amicojeko_news` per il definitivo):
 
 ```bash
 set -a; source .paginegiappe-telegram-token; set +a
 
-# Scrivi qui il testo approvato:
-cat > /tmp/tg-msg.txt <<'EOF'
-<TESTO APPROVATO QUI>
-EOF
-
 curl -s "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
   --data-urlencode "chat_id=${TELEGRAM_CHANNEL}" \
-  --data-urlencode "text@/tmp/tg-msg.txt" \
+  --data-urlencode "text@.tg-msg.txt" \
   -d "disable_web_page_preview=false"
+echo
 
-rm -f /tmp/tg-msg.txt
+rm -f .tg-msg.txt
 ```
 
-Controlla che la risposta JSON contenga `"ok":true`. Se `ok:false`, riporta `description` all'utente (errori tipici: bot non admin del canale, `chat_id` sbagliato, token errato).
+Controlla che la risposta JSON contenga `"ok":true`. Le emoji nel campo `text` della risposta appaiono come escape Unicode (`🔪` = 🔪): è normale e corretto, vuol dire che Telegram le ha ricevute bene. Se `ok:false`, riporta `description` all'utente (errori tipici: bot non admin del canale, `chat_id` sbagliato, token errato). Il `404 Not Found` di solito significa token vuoto/non caricato (verifica che `source` abbia popolato `${TELEGRAM_BOT_TOKEN}`).
