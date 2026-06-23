@@ -1067,6 +1067,7 @@ export const NEGOZI: Negozio[] = [
         lat: 42.7708694,
         lng: 11.1125077,
         url: "https://coltelleriafedolfi.it/",
+        note: "Codici sconto online: JEKO5JP (ordine minimo 130€), JEKO8JP (ordine minimo 299€)",
         map_url: "https://maps.app.goo.gl/apqV1CXgEA13Nkvy9",
     },
     {
