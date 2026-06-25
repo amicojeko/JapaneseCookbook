@@ -25,6 +25,7 @@
     "@docusaurus/theme-search-algolia": "^3.9.2",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
+    "gray-matter": "^4.0.3",
     "leaflet": "^1.9.4",
     "leaflet.markercluster": "^1.5.3",
     "prism-react-renderer": "^2.3.0",

@@ -920,6 +920,258 @@ article > .theme-doc-markdown.markdown > p:first-of-type::first-letter,
   margin-bottom: 18px;
 }
 
+/* ============================================
+   NEGOZI — Search / "Vicino a me"
+   ============================================ */
+.negozi-search {
+  margin-bottom: 22px;
+  border-top: 2px solid var(--pg-ink);
+  padding: 18px 0 0;
+}
+.negozi-search .search-form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+.negozi-search .geo-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--pg-font-mono);
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 8px 18px;
+  border: 1.5px solid var(--pg-ink);
+  background: var(--pg-yellow);
+  color: var(--pg-ink);
+  cursor: pointer;
+  border-radius: 999px;
+  transition: opacity 0.15s;
+  white-space: nowrap;
+}
+.negozi-search .geo-btn:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+.negozi-search .search-divider {
+  font-family: var(--pg-font-serif);
+  font-style: italic;
+  font-size: 14px;
+  color: var(--pg-ink-faint);
+}
+.negozi-search .address-row {
+  display: flex;
+  gap: 6px;
+  flex: 1 1 280px;
+  min-width: 0;
+}
+.negozi-search .address-input-wrap {
+  position: relative;
+  flex: 1;
+  min-width: 0;
+}
+.negozi-search .address-row input {
+  width: 100%;
+  min-width: 0;
+  border: 1.5px solid var(--pg-ink);
+  padding: 8px 12px;
+  font-family: var(--pg-font-sans);
+  font-size: 14px;
+  border-radius: 4px;
+  background: #fff;
+  color: var(--pg-ink);
+  box-sizing: border-box;
+}
+.negozi-search .address-row input::placeholder {
+  color: var(--pg-ink-faint);
+  opacity: 1;
+}
+.negozi-search .address-suggestions {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  border: 2px solid var(--pg-ink);
+  border-radius: 4px;
+  box-shadow: 4px 4px 0 var(--pg-ink);
+  max-height: 260px;
+  overflow-y: auto;
+}
+.negozi-search .suggestion-item {
+  padding: 8px 12px;
+  font-family: var(--pg-font-sans);
+  font-size: 13px;
+  color: var(--pg-ink);
+  cursor: pointer;
+  border-bottom: 1px solid var(--pg-rule-soft);
+}
+.negozi-search .suggestion-item:last-child {
+  border-bottom: 0;
+}
+.negozi-search .suggestion-item.is-active,
+.negozi-search .suggestion-item:hover {
+  background: var(--pg-yellow);
+}
+.negozi-search .search-btn {
+  font-family: var(--pg-font-mono);
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 8px 16px;
+  border: 1.5px solid var(--pg-ink);
+  background: var(--pg-ink);
+  color: var(--pg-yellow);
+  cursor: pointer;
+  border-radius: 999px;
+  transition: opacity 0.15s;
+  white-space: nowrap;
+}
+.negozi-search .search-btn:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+.negozi-search .search-error {
+  color: var(--pg-red);
+  font-family: var(--pg-font-sans);
+  font-size: 13px;
+  margin: 10px 0 0;
+}
+.negozi-search .search-results {
+  margin-top: 14px;
+  border-top: 2px solid var(--pg-ink);
+  padding-top: 12px;
+  scroll-margin-top: 72px; /* --ifm-navbar-height (60px) + breathing room */
+}
+.negozi-search .results-heading {
+  font-family: var(--pg-font-serif);
+  font-size: 15px;
+  margin: 0 0 10px;
+}
+.negozi-search .search-results ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.negozi-search .result-item {
+  border-bottom: 2px solid var(--pg-ink);
+  cursor: pointer;
+}
+.negozi-search .result-item__row {
+  display: grid;
+  grid-template-columns: auto 1fr auto auto;
+  align-items: center;
+  gap: 12px 16px;
+  padding: 14px 4px 12px;
+  transition: background 0.12s, padding 0.12s;
+}
+.negozi-search .result-item:hover .result-item__row {
+  background: var(--pg-yellow-soft);
+  padding-left: 14px;
+  padding-right: 14px;
+}
+.negozi-search .result-num {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--pg-ink);
+  color: var(--pg-yellow);
+  font-family: var(--pg-font-mono);
+  font-weight: 700;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.negozi-search .result-item__info {
+  min-width: 0;
+}
+.negozi-search .result-item__name {
+  font-family: var(--pg-font-serif);
+  font-weight: 900;
+  font-size: 17px;
+  letter-spacing: -0.01em;
+  line-height: 1.1;
+  display: block;
+  color: var(--pg-ink);
+}
+.negozi-search .result-item__sub {
+  font-family: var(--pg-font-sans);
+  font-size: 12px;
+  color: var(--pg-ink-soft);
+  display: block;
+  margin-top: 3px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.negozi-search .result-item__dist {
+  font-family: var(--pg-font-mono);
+  font-size: 11px;
+  color: var(--pg-ink-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  white-space: nowrap;
+}
+.negozi-search .result-item__dist strong {
+  color: var(--pg-red);
+  font-family: var(--pg-font-serif);
+  font-size: 14px;
+  font-weight: 900;
+  font-style: normal;
+  margin-right: 2px;
+}
+.negozi-search .result-item__arrow {
+  font-family: var(--pg-font-mono);
+  font-size: 16px;
+  color: var(--pg-ink);
+  width: 24px;
+  text-align: right;
+}
+@media (max-width: 640px) {
+  .negozi-search .result-item__row {
+    grid-template-columns: auto 1fr auto;
+    grid-template-areas:
+      'num  name  arrow'
+      '.    sub   sub'
+      '.    dist  dist';
+    gap: 4px 12px;
+  }
+  .negozi-search .result-num        { grid-area: num; }
+  .negozi-search .result-item__info { grid-area: name; }
+  .negozi-search .result-item__dist { grid-area: dist; }
+  .negozi-search .result-item__arrow { grid-area: arrow; }
+  .negozi-search .result-item__sub  { grid-area: sub; }
+  .negozi-search .result-item__name { font-size: 15px; }
+}
+@media (max-width: 600px) {
+  .negozi-search .search-form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .negozi-search .search-divider {
+    text-align: center;
+  }
+  .negozi-search .address-row {
+    flex-direction: column;
+    flex-basis: auto;
+  }
+  .negozi-search .address-row input,
+  .negozi-search .search-btn,
+  .negozi-search .geo-btn {
+    width: 100%;
+  }
+}
+
 /* Lista Regioni (index page) — editorial hero */
 .regions-hero {
   margin-bottom: 28px;
