@@ -30,7 +30,7 @@
   --pg-info-bg: #f1ebe0;      --pg-info-border: #9a8868; --pg-info-ink: #4a3e2a;
 
   /* Typography */
-  --pg-font-serif: 'Fraunces', 'Iowan Old Style', 'Georgia', serif;
+  --pg-font-serif: 'Newsreader', 'Iowan Old Style', 'Georgia', serif;
   --pg-font-jp: 'Shippori Mincho', 'Yu Mincho', serif;
   --pg-font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
   --pg-font-mono: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace;
