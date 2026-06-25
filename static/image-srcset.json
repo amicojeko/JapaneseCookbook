@@ -293,6 +293,13 @@
     "width": 1200,
     "height": 675
   },
+  "blog/shoyu/shoyu.jpg": {
+    "hash": "5f7cc544b5ee03c9dd8b8c07547b4178",
+    "original": "/img/blog/shoyu/shoyu.jpg",
+    "srcset": "/img/blog/shoyu/shoyu-320w.webp 320w, /img/blog/shoyu/shoyu-640w.webp 640w, /img/blog/shoyu/shoyu-1280w.webp 1280w, /img/blog/shoyu/shoyu-1600w.webp 1600w",
+    "width": 2752,
+    "height": 1536
+  },
   "blog/toolsreborn/calligraphy_01_gi.jpg": {
     "hash": "923f09c21f5259dab019aa2e844a9672",
     "original": "/img/blog/toolsreborn/calligraphy_01_gi.jpg",

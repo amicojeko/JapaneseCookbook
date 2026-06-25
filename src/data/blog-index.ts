@@ -21,6 +21,23 @@ export type BlogIndexEntry = {
 
 export const BLOG_INDEX: BlogIndexEntry[] = [
   {
+    "slug": "shoyu-salsa-di-soia",
+    "permalink": "/blog/shoyu-salsa-di-soia/",
+    "title": "Shōyu — La salsa di soia: un condimento da tavola o un ingrediente da cucina?",
+    "description": "Molti italiani considerano la salsa di soia un condimento da tavola. In Giappone è prima di tutto un ingrediente da cucina: una guida alle varietà principali e a come sceglierla.",
+    "image": "/img/blog/shoyu/shoyu.jpg",
+    "date": "2026-06-25",
+    "readingTime": 1.84,
+    "authors": [
+      {
+        "key": "aki",
+        "name": "Aki Nakagoe",
+        "imageURL": "/img/authors/aki_nakagoe.jpg",
+        "title": "Cuoco giapponese e divulgatore della cucina washoku casalinga"
+      }
+    ]
+  },
+  {
     "slug": "shokunin-kishitsu-etica-del-gesto",
     "permalink": "/blog/shokunin-kishitsu-etica-del-gesto/",
     "title": "Shokunin Kishitsu | I 20 valori dello spirito artigiano — Parte I: L'etica del gesto",
@@ -102,23 +119,6 @@ export const BLOG_INDEX: BlogIndexEntry[] = [
         "name": "Mattia di Sangro \"Curiosity Power\"",
         "imageURL": "/img/authors/curiosity_power.jpg",
         "title": "Divulgatore di storia e cultura, amante del Giappone"
-      }
-    ]
-  },
-  {
-    "slug": "giapponismo",
-    "permalink": "/blog/giapponismo/",
-    "title": "Giappone e giapponismo: il gusto per l'esotico",
-    "description": "Dall'apertura dei porti giapponesi nell'800 al Giapponismo che ha contagiato Van Gogh, Manet e Puccini: un viaggio fra Madama Butterfly, Maupassant, Goncourt e il nostro sushi quotidiano.",
-    "image": "/img/blog/giappone_e_giapponismo/courtesan_vincent_van_gogh.avif",
-    "date": "2026-05-24",
-    "readingTime": 6.17,
-    "authors": [
-      {
-        "key": "donatella",
-        "name": "Donatella Peterlin",
-        "imageURL": "/img/authors/donatella_peterlin.jpg",
-        "title": "Appassionata di storia, arte e cultura · mamma di Jeko"
       }
     ]
   }
