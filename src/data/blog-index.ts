@@ -21,6 +21,23 @@ export type BlogIndexEntry = {
 
 export const BLOG_INDEX: BlogIndexEntry[] = [
   {
+    "slug": "kirin-logo-drago",
+    "permalink": "/blog/kirin-logo-drago/",
+    "title": "Perché il logo della birra Kirin è uno strano drago?",
+    "description": "Il logo della birra Kirin raffigura una creatura leggendaria a metà tra drago, cervo e cavallo. Origini cinesi, restyle giapponese e il giorno in cui il Kirin diventò... una giraffa.",
+    "image": "/img/blog/kirin/kirin.jpg",
+    "date": "2026-06-25",
+    "readingTime": 1.62,
+    "authors": [
+      {
+        "key": "fujitivo",
+        "name": "Erick \"il Fujitivo\"",
+        "imageURL": "/img/authors/logo_ilfujitivo.png",
+        "title": "Viaggiatore in Giappone dal 2008 · autore di \"Andiamo in Giappone\""
+      }
+    ]
+  },
+  {
     "slug": "shokunin-kishitsu-etica-del-gesto",
     "permalink": "/blog/shokunin-kishitsu-etica-del-gesto/",
     "title": "Shokunin Kishitsu | I 20 valori dello spirito artigiano — Parte I: L'etica del gesto",
@@ -102,23 +119,6 @@ export const BLOG_INDEX: BlogIndexEntry[] = [
         "name": "Mattia di Sangro \"Curiosity Power\"",
         "imageURL": "/img/authors/curiosity_power.jpg",
         "title": "Divulgatore di storia e cultura, amante del Giappone"
-      }
-    ]
-  },
-  {
-    "slug": "giapponismo",
-    "permalink": "/blog/giapponismo/",
-    "title": "Giappone e giapponismo: il gusto per l'esotico",
-    "description": "Dall'apertura dei porti giapponesi nell'800 al Giapponismo che ha contagiato Van Gogh, Manet e Puccini: un viaggio fra Madama Butterfly, Maupassant, Goncourt e il nostro sushi quotidiano.",
-    "image": "/img/blog/giappone_e_giapponismo/courtesan_vincent_van_gogh.avif",
-    "date": "2026-05-24",
-    "readingTime": 6.17,
-    "authors": [
-      {
-        "key": "donatella",
-        "name": "Donatella Peterlin",
-        "imageURL": "/img/authors/donatella_peterlin.jpg",
-        "title": "Appassionata di storia, arte e cultura · mamma di Jeko"
       }
     ]
   }
