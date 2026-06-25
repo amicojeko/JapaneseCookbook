@@ -1336,7 +1336,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "yO20Egoclpw"
     ],
-    "datePublished": null
+    "datePublished": "2026-06-21T22:45:09+02:00"
   },
   "ricette/sides/mugen_oba_nasu": {
     "docId": "ricette/sides/mugen_oba_nasu",
@@ -1556,7 +1556,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "docId": "ricette/tsukemono/kyuri-no-tsukemono",
     "title": "Kyuri no Tsukemono",
     "description": "Cetrioli sottaceto veloci",
-    "image": null,
+    "image": "/img/ricette/kyuri_no_tsukemono.jpg",
     "recipeCategory": "Marinati",
     "recipeKeywords": [
       "senape_karashi"
@@ -1565,7 +1565,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "recipeIngredient": [
       "1 Cetriolo",
       "Sale q.b.",
-      "2 cucchiaini di Sushisu (aceto per sushi)",
+      "2 cucchiaini di Sushisu (aceto per sushi) (in alternativa, 2 cucchiaini di aceto + 1 cucchiaino di zucchero)",
       "1 cucchiaino di senape Karashi (in alternativa, va bene anche la senape comune)"
     ],
     "instructionsText": "Per prima cosa, preparare il cetriolo. Con la lama di un coltello, raschiare via le asperità dalla buccia. Spargere un po' di sale su un tagliere e massaggiare vigorosamente il cetriolo sul sale per qualche istante. Eliminare il sale in eccesso e inserire il cetriolo (tagliato a metà se necessario) in un sacchetto di plastica per alimenti. Aggiungere nel sacchetto i due cucchiaini di sushisu e il cucchiaino di senape. Per creare un effetto \"sottovuoto dei poveri\", immergere il sacchetto in acqua (lasciando l'apertura fuori) per far uscire tutta l'aria, quindi sigillarlo. Mettere il sacchetto in frigorifero a marinare per qualche ora. Una volta pronto, togliere il cetriolo dal sacchetto, tagliarlo in quarti per il lungo, eliminare i semi interni e poi tagliarlo a tocchetti. Disporre i pezzi su un piattino, condire con un po' del liquido di marinatura avanzato nel sacchetto e servire. Itadakimasu!",

@@ -1042,6 +1042,13 @@
     "width": 1000,
     "height": 750
   },
+  "ricette/kyuri_no_tsukemono.jpg": {
+    "hash": "51388db405015a1ac5e6af470ab23996",
+    "original": "/img/ricette/kyuri_no_tsukemono.jpg",
+    "srcset": "/img/ricette/kyuri_no_tsukemono-320w.webp 320w, /img/ricette/kyuri_no_tsukemono-640w.webp 640w, /img/ricette/kyuri_no_tsukemono-1280w.webp 1280w, /img/ricette/kyuri_no_tsukemono-1600w.webp 1600w",
+    "width": 1672,
+    "height": 941
+  },
   "ricette/mentsuyu.jpg": {
     "hash": "da21550e0a7168af1de78d5f6c8ba6d9",
     "original": "/img/ricette/mentsuyu.jpg",
