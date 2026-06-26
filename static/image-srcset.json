@@ -188,6 +188,13 @@
     "width": 1000,
     "height": 667
   },
+  "blog/kirin/kirin.jpg": {
+    "hash": "aeea7b612aefb81f5605bf3c77adf5ab",
+    "original": "/img/blog/kirin/kirin.jpg",
+    "srcset": "/img/blog/kirin/kirin-320w.webp 320w, /img/blog/kirin/kirin-640w.webp 640w, /img/blog/kirin/kirin-1280w.webp 1280w, /img/blog/kirin/kirin-1600w.webp 1600w",
+    "width": 1672,
+    "height": 941
+  },
   "blog/miki_matsubara/miki_matsubara_nel_1980.jpg": {
     "hash": "291158289e20b47f3f6a7c3fac944262",
     "original": "/img/blog/miki_matsubara/miki_matsubara_nel_1980.jpg",

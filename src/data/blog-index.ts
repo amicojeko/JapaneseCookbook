@@ -21,6 +21,23 @@ export type BlogIndexEntry = {
 
 export const BLOG_INDEX: BlogIndexEntry[] = [
   {
+    "slug": "kirin-logo-drago",
+    "permalink": "/blog/kirin-logo-drago/",
+    "title": "Perché il logo della birra Kirin è uno strano drago?",
+    "description": "Il logo della birra Kirin raffigura una creatura leggendaria a metà tra drago, cervo e cavallo. Origini cinesi, restyle giapponese e il giorno in cui il Kirin diventò... una giraffa.",
+    "image": "/img/blog/kirin/kirin.jpg",
+    "date": "2026-06-26",
+    "readingTime": 1.62,
+    "authors": [
+      {
+        "key": "fujitivo",
+        "name": "Erick \"il Fujitivo\"",
+        "imageURL": "/img/authors/logo_ilfujitivo.png",
+        "title": "Viaggiatore in Giappone dal 2008 · autore di \"Andiamo in Giappone\""
+      }
+    ]
+  },
+  {
     "slug": "shoyu-salsa-di-soia",
     "permalink": "/blog/shoyu-salsa-di-soia/",
     "title": "Shōyu — La salsa di soia: un condimento da tavola o un ingrediente da cucina?",
@@ -102,23 +119,6 @@ export const BLOG_INDEX: BlogIndexEntry[] = [
         "name": "Aki Nakagoe",
         "imageURL": "/img/authors/aki_nakagoe.jpg",
         "title": "Cuoco giapponese e divulgatore della cucina washoku casalinga"
-      }
-    ]
-  },
-  {
-    "slug": "hyorogan",
-    "permalink": "/blog/hyorogan/",
-    "title": "Scienza d'infiltrazione: la verità storica sugli Hyorogan, la razione K dei ninja",
-    "description": "Gli Hyorogan non erano pillole miracolose: erano l'equivalente shinobi delle moderne barrette energetiche. Una sofisticata ingegneria alimentare ad alta densità, pensata per logistica e sopravvivenza dietro le linee nemiche.",
-    "image": "/img/blog/hyorogan/hyorogan_hero.jpg",
-    "date": "2026-06-07",
-    "readingTime": 1.96,
-    "authors": [
-      {
-        "key": "curiosity_power",
-        "name": "Mattia di Sangro \"Curiosity Power\"",
-        "imageURL": "/img/authors/curiosity_power.jpg",
-        "title": "Divulgatore di storia e cultura, amante del Giappone"
       }
     ]
   }
