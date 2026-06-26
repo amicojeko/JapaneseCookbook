@@ -38,6 +38,23 @@ export const BLOG_INDEX: BlogIndexEntry[] = [
     ]
   },
   {
+    "slug": "shoyu-salsa-di-soia",
+    "permalink": "/blog/shoyu-salsa-di-soia/",
+    "title": "Shōyu — La salsa di soia: un condimento da tavola o un ingrediente da cucina?",
+    "description": "Molti italiani considerano la salsa di soia un condimento da tavola. In Giappone è prima di tutto un ingrediente da cucina: una guida alle varietà principali e a come sceglierla.",
+    "image": "/img/blog/shoyu/shoyu.jpg",
+    "date": "2026-06-25",
+    "readingTime": 1.84,
+    "authors": [
+      {
+        "key": "aki",
+        "name": "Aki Nakagoe",
+        "imageURL": "/img/authors/aki_nakagoe.jpg",
+        "title": "Cuoco giapponese e divulgatore della cucina washoku casalinga"
+      }
+    ]
+  },
+  {
     "slug": "shokunin-kishitsu-etica-del-gesto",
     "permalink": "/blog/shokunin-kishitsu-etica-del-gesto/",
     "title": "Shokunin Kishitsu | I 20 valori dello spirito artigiano — Parte I: L'etica del gesto",
@@ -102,23 +119,6 @@ export const BLOG_INDEX: BlogIndexEntry[] = [
         "name": "Aki Nakagoe",
         "imageURL": "/img/authors/aki_nakagoe.jpg",
         "title": "Cuoco giapponese e divulgatore della cucina washoku casalinga"
-      }
-    ]
-  },
-  {
-    "slug": "hyorogan",
-    "permalink": "/blog/hyorogan/",
-    "title": "Scienza d'infiltrazione: la verità storica sugli Hyorogan, la razione K dei ninja",
-    "description": "Gli Hyorogan non erano pillole miracolose: erano l'equivalente shinobi delle moderne barrette energetiche. Una sofisticata ingegneria alimentare ad alta densità, pensata per logistica e sopravvivenza dietro le linee nemiche.",
-    "image": "/img/blog/hyorogan/hyorogan_hero.jpg",
-    "date": "2026-06-07",
-    "readingTime": 1.96,
-    "authors": [
-      {
-        "key": "curiosity_power",
-        "name": "Mattia di Sangro \"Curiosity Power\"",
-        "imageURL": "/img/authors/curiosity_power.jpg",
-        "title": "Divulgatore di storia e cultura, amante del Giappone"
       }
     ]
   }
