@@ -26,7 +26,7 @@ export const BLOG_INDEX: BlogIndexEntry[] = [
     "title": "Perché il logo della birra Kirin è uno strano drago?",
     "description": "Il logo della birra Kirin raffigura una creatura leggendaria a metà tra drago, cervo e cavallo. Origini cinesi, restyle giapponese e il giorno in cui il Kirin diventò... una giraffa.",
     "image": "/img/blog/kirin/kirin.jpg",
-    "date": "2026-06-25",
+    "date": "2026-06-26",
     "readingTime": 1.62,
     "authors": [
       {
