@@ -12,6 +12,7 @@ ingredients:
 - Katsuobushi
 tags:
 - katsuobushi
+- estivo
 ---
 In Giappone, sognare una melanzana nella prima notte dell'anno (Hatsuyume) è considerato di buon auspicio. Un antico proverbio dice: "Primo, il Monte Fuji; secondo, il falco; terzo, la melanzana". Questo perché la parola giapponese per melanzana, *nasu*, ha lo stesso suono del verbo "realizzare" o "portare a termine" (*nasu*), rendendola un simbolo di successo.
 

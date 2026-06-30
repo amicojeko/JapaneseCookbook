@@ -18,6 +18,7 @@ tags:
 - tsuyu
 - shiso
 - kombu
+- estivo
 recipeYield: 1 persona
 ---
 

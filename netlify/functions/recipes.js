@@ -59,9 +59,24 @@ function looseMatch(a, b) {
   return i >= 4;
 }
 
+// Sinonimi stagionali → tag canonico (le forme sostantivo/aggettivo italiane
+// divergono troppo presto per il match morfologico, es. "estate" vs "estivo").
+const SEASON_SYNONYMS = {
+  estate: 'estivo', estiva: 'estivo', estive: 'estivo', estivi: 'estivo', estivo: 'estivo', summer: 'estivo',
+  inverno: 'invernale', invernale: 'invernale', invernali: 'invernale', winter: 'invernale',
+  primavera: 'primaverile', primaverile: 'primaverile', primaverili: 'primaverile', spring: 'primaverile',
+  autunno: 'autunnale', autunnale: 'autunnale', autunnali: 'autunnale', autumn: 'autunnale', fall: 'autunnale',
+};
+
+/** Riconduce un termine al suo tag stagionale canonico, se applicabile. */
+function canon(term) {
+  return SEASON_SYNONYMS[norm(term)] ?? term;
+}
+
 /** Il recipe ha un tag che combacia (morfologicamente) col termine. */
 function matchesTag(recipe, term) {
-  return (recipe.tags ?? []).some((t) => looseMatch(t, term));
+  const c = canon(term);
+  return (recipe.tags ?? []).some((t) => looseMatch(t, c));
 }
 
 function matchesIngredient(recipe, ingredient) {

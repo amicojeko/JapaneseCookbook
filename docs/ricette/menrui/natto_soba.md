@@ -19,6 +19,7 @@ tags:
   - negi
   - nori
   - soba
+  - estivo
 recipeYield: 2 persone
 ---
 ## Ingredienti

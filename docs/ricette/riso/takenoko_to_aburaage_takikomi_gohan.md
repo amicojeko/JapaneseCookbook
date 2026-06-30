@@ -21,6 +21,7 @@ tags:
 - mirin
 - sake
 - negi
+- primaverile
 ---
 
 import ImageComponent from '@site/src/components/ImageComponent';

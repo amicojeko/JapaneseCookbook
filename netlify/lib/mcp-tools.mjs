@@ -133,7 +133,7 @@ export function createServer() {
     {
       query: z.string().optional().describe('Nome o parola chiave della ricetta (es. "karaage", "pollo fritto")'),
       ingredient: z.string().optional().describe('Filtra per ingrediente, anche via tag (es. "miso", "tofu", "shoyu", "daikon")'),
-      tag: z.string().optional().describe('Filtra per tag/caratteristica: "vegan", "vegetarian", "rice", "udon", "soba", "snack", ecc.'),
+      tag: z.string().optional().describe('Filtra per tag/caratteristica: "vegan", "vegetarian", stagione ("estate"/"inverno"/"primavera"/"autunno"), "rice", "udon", "soba", "snack", ecc.'),
       category: z.string().optional().describe('Categoria: Fritti, Zuppe, Riso, Noodles, Griglia, Antipasti, Pesce, Stufati, Contorni, Sushi, Marinati, Brodi, Salse, Condimenti'),
       servings: z.number().int().min(1).max(20).optional().describe('Numero di persone — aggiunge note di conversione dosi'),
       limit: z.number().int().min(1).max(30).optional().default(8),

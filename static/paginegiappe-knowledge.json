@@ -2,7 +2,7 @@
   "meta": {
     "site": "https://paginegiappe.it",
     "description": "Guida italiana alla cucina giapponese: ricette autentiche, ingredienti, negozi orientali in Italia, strumenti, viaggi e cultura gastronomica.",
-    "generated": "2026-06-30T17:36:08.403Z",
+    "generated": "2026-06-30T18:04:59.284Z",
     "version": 1
   },
   "ricette": [
@@ -86,7 +86,8 @@
       "image": "https://paginegiappe.it/img/ricette/hiyashi_nasu.jpg",
       "category": "Antipasti",
       "tags": [
-        "katsuobushi"
+        "katsuobushi",
+        "estivo"
       ],
       "recipeYield": null,
       "ingredients": [
@@ -105,7 +106,8 @@
       "category": "Antipasti",
       "tags": [
         "katsuobushi",
-        "negi"
+        "negi",
+        "estivo"
       ],
       "recipeYield": null,
       "ingredients": [
@@ -125,7 +127,8 @@
       "category": "Antipasti",
       "tags": [
         "kewpie",
-        "teriyaki"
+        "teriyaki",
+        "estivo"
       ],
       "recipeYield": null,
       "ingredients": [
@@ -147,7 +150,8 @@
       "tags": [
         "sesame_oil",
         "sesamo",
-        "wakame"
+        "wakame",
+        "estivo"
       ],
       "recipeYield": null,
       "ingredients": [
@@ -231,7 +235,8 @@
       "category": "Noodles",
       "tags": [
         "udon",
-        "daikon"
+        "daikon",
+        "estivo"
       ],
       "recipeYield": null,
       "ingredients": [
@@ -256,7 +261,8 @@
         "kombu",
         "mirin",
         "sake",
-        "shiso"
+        "shiso",
+        "estivo"
       ],
       "recipeYield": null,
       "ingredients": [],
@@ -274,7 +280,8 @@
         "natto",
         "negi",
         "nori",
-        "soba"
+        "soba",
+        "estivo"
       ],
       "recipeYield": "2 persone",
       "ingredients": [
@@ -297,7 +304,8 @@
         "somen",
         "tsuyu",
         "shiso",
-        "kombu"
+        "kombu",
+        "estivo"
       ],
       "recipeYield": "1 persona",
       "ingredients": [
@@ -344,7 +352,8 @@
         "natto",
         "shiso",
         "negi",
-        "shoyu"
+        "shoyu",
+        "estivo"
       ],
       "recipeYield": null,
       "ingredients": [
@@ -459,7 +468,8 @@
       "tags": [
         "daikon",
         "kizami_nori",
-        "nori"
+        "nori",
+        "estivo"
       ],
       "recipeYield": "2 persone",
       "ingredients": [
@@ -501,7 +511,8 @@
       "tags": [
         "vegan",
         "mirin",
-        "sake"
+        "sake",
+        "autunnale"
       ],
       "recipeYield": null,
       "ingredients": [
@@ -525,7 +536,8 @@
         "kombu",
         "mirin",
         "negi",
-        "sake"
+        "sake",
+        "invernale"
       ],
       "recipeYield": null,
       "ingredients": [
@@ -548,7 +560,8 @@
       "image": "https://paginegiappe.it/img/ricette/nikujaga.jpg",
       "category": "Stufati",
       "tags": [
-        "mirin"
+        "mirin",
+        "invernale"
       ],
       "recipeYield": "4 persone",
       "ingredients": [
@@ -1040,7 +1053,8 @@
         "takenoko",
         "mirin",
         "rice",
-        "shoyu"
+        "shoyu",
+        "primaverile"
       ],
       "recipeYield": "2 persone",
       "ingredients": [
@@ -1063,7 +1077,8 @@
         "shoyu",
         "mirin",
         "sake",
-        "negi"
+        "negi",
+        "primaverile"
       ],
       "recipeYield": null,
       "ingredients": [
@@ -1534,7 +1549,8 @@
         "takenoko",
         "sesame_oil",
         "miso",
-        "negi"
+        "negi",
+        "primaverile"
       ],
       "recipeYield": null,
       "ingredients": [
@@ -1659,7 +1675,8 @@
         "konnyaku",
         "miso",
         "sesame_oil",
-        "sesamo"
+        "sesamo",
+        "invernale"
       ],
       "recipeYield": "4 persone",
       "ingredients": [
@@ -1712,7 +1729,8 @@
         "takenoko",
         "dashi",
         "wakame",
-        "shoyu"
+        "shoyu",
+        "primaverile"
       ],
       "recipeYield": null,
       "ingredients": [

@@ -15,6 +15,7 @@ ingredients:
 tags:
 - kewpie
 - teriyaki
+- estivo
 ---
 
 Il termine giapponese *Nama* ha diverse sfumature di significato: vuol dire crudo, grezzo, ma anche "sfuso" o "alla spina" (la birra alla spina, ad esempio, si chiama *Nama biru*). *Harumaki*, invece, è la parola che indica i classici involtini primavera. I *Nama Harumaki* sono quindi la versione giapponese dei freschissimi involtini in carta di riso, non fritti e serviti crudi. Una ricetta estiva, leggera e incredibilmente versatile, che in questa versione viene farcita con un godurioso pollo teriyaki e maionese giapponese.

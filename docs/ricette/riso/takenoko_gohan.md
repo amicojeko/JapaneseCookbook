@@ -18,6 +18,7 @@ tags:
   - mirin
   - rice
   - shoyu
+  - primaverile
 recipeYield: 2 persone
 ---
 <ImageComponent />

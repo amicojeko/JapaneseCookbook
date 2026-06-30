@@ -21,6 +21,7 @@ tags:
 - mirin
 - sake
 - shiso
+- estivo
 ---
 Questo piatto estivo è tanto saporito quanto rinfrescante. Il pollo viene cotto lentamente per creare un brodo ricco e delizioso, che viene poi servito freddo sopra dei somen sottili. L'aggiunta finale di aceto dona al brodo una piacevole nota acidula che pulisce il palato e lo rende perfetto per le giornate più calde.
 

@@ -20,6 +20,7 @@ tags:
 - sesame_oil
 - miso
 - negi
+- primaverile
 ---
 
 <ImageComponent />

@@ -16,6 +16,7 @@ tags:
 - dashi
 - wakame
 - shoyu
+- primaverile
 ---
 
 <ImageComponent />

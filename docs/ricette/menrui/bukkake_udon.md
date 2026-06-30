@@ -17,6 +17,7 @@ ingredients:
 tags:
 - udon
 - daikon
+- estivo
 ---
 La parola **Bukkake** in giapponese deriva dal verbo *bukkakeru*, che vuol dire versare sopra o rovesciare addosso con forza. Infatti, ridendo e scherzando, oggi prepariamo proprio i Bukkake Udon!
 

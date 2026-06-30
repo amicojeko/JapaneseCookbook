@@ -15,6 +15,7 @@ tags:
 - vegan
 - mirin
 - sake
+- autunnale
 ---
 Quando arriva l'autunno e la zucca abbonda, spesso non sappiamo più come cucinarla per variare dal solito. La soluzione arriva dal Giappone con il Kabocha no Nimono, ovvero la zucca stufata. Questo piatto appartiene alla vasta categoria dei [Nimono](/tags/nimono), le preparazioni stufate che costituiscono una colonna portante della cucina casalinga giapponese. È una ricetta semplicissima, completamente vegana, che esalta la dolcezza naturale dell'ortaggio bilanciandola con la sapidità del brodo e della soia. Non serve essere chef raffinati per prepararla, ma il risultato è un comfort food caldo e avvolgente.
 
