@@ -2,7 +2,26 @@
 
 Server MCP (Model Context Protocol) per consultare [paginegiappe.it](https://paginegiappe.it) — la guida italiana alla cucina giapponese.
 
-## Installazione (consigliata, via npx)
+Esistono due modi per usarlo:
+
+- **Connettore remoto (hosted)** — il più semplice, nessuna installazione. Adatto a Claude.ai (web) e Claude Desktop.
+- **Locale via npx** — esegue il server sul tuo computer (Claude Desktop).
+
+Entrambi espongono gli stessi 8 strumenti e condividono lo stesso codice (`tools.js`).
+
+## Connettore remoto (consigliato)
+
+Nessun software da installare: il server è già attivo su **`https://paginegiappe.it/mcp`**.
+
+In Claude (web o desktop): **Impostazioni → Connettori → Aggiungi connettore personalizzato**, e incolla l'URL:
+
+```
+https://paginegiappe.it/mcp
+```
+
+Non serve autenticazione: il connettore espone solo dati pubblici in sola lettura.
+
+## Installazione locale (via npx)
 
 Non serve clonare niente né installare dipendenze a mano: `npx` scarica ed esegue il pacchetto al volo, sempre all'ultima versione pubblicata.
 

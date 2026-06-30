@@ -1,6 +1,6 @@
 {
   "name": "mcp-paginegiappe",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "MCP server per paginegiappe.it — ricette, ingredienti, negozi e cultura della cucina giapponese in italiano",
   "type": "module",
   "main": "server.js",
@@ -9,6 +9,7 @@
   },
   "files": [
     "server.js",
+    "tools.js",
     "README.md"
   ],
   "keywords": [

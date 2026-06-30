@@ -73,6 +73,20 @@ function readMd(filePath) {
   return { fm, content };
 }
 
+/**
+ * URL canonica: usa lo `slug` di frontmatter se presente, altrimenti deriva dal
+ * path del file (stessa convenzione di generate-ingredient-recipes.js: `/${docId}`).
+ * Docusaurus instrada per path quando lo slug manca, quindi il fallback è corretto.
+ */
+function docUrl(filePath, fm) {
+  if (typeof fm.slug === 'string' && fm.slug) return absUrl(fm.slug);
+  const docId = path
+    .relative(path.join(ROOT, 'docs'), filePath)
+    .replace(/\\/g, '/')
+    .replace(/\.(md|mdx)$/, '');
+  return absUrl(`/${docId}`);
+}
+
 // ─── Ricette ─────────────────────────────────────────────────────────────────
 
 const CATEGORY_MAP = {
@@ -169,7 +183,7 @@ function processRicette() {
     result.push({
       title: fm.title,
       description: fm.description ?? '',
-      url: absUrl(fm.slug),
+      url: docUrl(f, fm),
       image: absImg(fm.image),
       category: categoryFromPath(f),
       tags: Array.isArray(fm.tags) ? fm.tags : [],
@@ -194,7 +208,7 @@ function processDocSection(dirRel, { includeIndex = false } = {}) {
     result.push({
       title: fm.title ?? '',
       description: fm.description ?? '',
-      url: absUrl(fm.slug),
+      url: docUrl(f, fm),
       image: absImg(fm.image ?? null),
       tags: Array.isArray(fm.tags) ? fm.tags : [],
       content: stripMdx(content),
