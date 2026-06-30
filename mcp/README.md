@@ -2,16 +2,9 @@
 
 Server MCP (Model Context Protocol) per consultare [paginegiappe.it](https://paginegiappe.it) — la guida italiana alla cucina giapponese.
 
-## Installazione
+## Installazione (consigliata, via npx)
 
-### 1. Installa le dipendenze
-
-```bash
-cd mcp
-npm install
-```
-
-### 2. Configura Claude Desktop
+Non serve clonare niente né installare dipendenze a mano: `npx` scarica ed esegue il pacchetto al volo, sempre all'ultima versione pubblicata.
 
 Apri il file di configurazione di Claude Desktop:
 
@@ -24,18 +17,38 @@ Aggiungi il server MCP:
 {
   "mcpServers": {
     "paginegiappe": {
+      "command": "npx",
+      "args": ["-y", "mcp-paginegiappe"]
+    }
+  }
+}
+```
+
+Riavvia Claude Desktop. I tools di paginegiappe appariranno automaticamente.
+
+> Il server è un proxy leggero verso le API di paginegiappe.it: i dati arrivano sempre
+> in tempo reale dal sito, quindi le ricette/negozi sono sempre aggiornati senza
+> dover aggiornare il pacchetto.
+
+## Installazione alternativa (da sorgente locale)
+
+Se preferisci eseguire dal checkout della repo:
+
+```bash
+cd mcp
+npm install
+```
+
+```json
+{
+  "mcpServers": {
+    "paginegiappe": {
       "command": "node",
       "args": ["/percorso/assoluto/JapaneseCookbook/mcp/server.js"]
     }
   }
 }
 ```
-
-Sostituisci `/percorso/assoluto/JapaneseCookbook` con il percorso reale della repo sul tuo computer.
-
-### 3. Riavvia Claude Desktop
-
-Dopo aver salvato la configurazione, riavvia Claude Desktop. I tools di paginegiappe appariranno automaticamente.
 
 ---
 
