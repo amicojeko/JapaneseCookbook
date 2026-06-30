@@ -12,7 +12,7 @@ Questa informativa descrive come vengono trattati i dati quando usi **paginegiap
 ## Titolare
 
 Il sito paginegiappe.it è un progetto personale gestito da Stefano Guglielmetti (Amico Jeko).
-Contatto: [Instagram @amicojeko](https://www.instagram.com/amicojeko/) — _(email di contatto: inserire se disponibile)_
+Contatto: [jeko+privacy@jeko.net](mailto:jeko+privacy@jeko.net) — oppure [Instagram @amicojeko](https://www.instagram.com/amicojeko/)
 
 ## Quali dati vengono trattati
 
@@ -60,7 +60,7 @@ Quando navighi direttamente il sito web (al di fuori degli Assistenti), paginegi
 
 ## I tuoi diritti
 
-In conformità al Regolamento UE 2016/679 (GDPR) hai diritto di accesso, rettifica, cancellazione e opposizione al trattamento dei tuoi dati. Dato che gli Assistenti non conservano dati personali, nella maggior parte dei casi non vi sono dati da correggere o cancellare lato paginegiappe.it; per qualsiasi richiesta puoi comunque contattarci tramite [Instagram @amicojeko](https://www.instagram.com/amicojeko/).
+In conformità al Regolamento UE 2016/679 (GDPR) hai diritto di accesso, rettifica, cancellazione e opposizione al trattamento dei tuoi dati. Dato che gli Assistenti non conservano dati personali, nella maggior parte dei casi non vi sono dati da correggere o cancellare lato paginegiappe.it; per qualsiasi richiesta puoi comunque contattarci all'indirizzo [jeko+privacy@jeko.net](mailto:jeko+privacy@jeko.net).
 
 Per i dati eventualmente trattati dalle piattaforme AI o dai servizi terzi sopra elencati, fai riferimento alle rispettive informative.
 
@@ -74,4 +74,4 @@ Questa informativa può essere aggiornata nel tempo. La data di "ultimo aggiorna
 
 ## Contatti
 
-Per domande su questa informativa o sul trattamento dei dati: [Instagram @amicojeko](https://www.instagram.com/amicojeko/).
+Per domande su questa informativa o sul trattamento dei dati: [jeko+privacy@jeko.net](mailto:jeko+privacy@jeko.net) o [Instagram @amicojeko](https://www.instagram.com/amicojeko/).
