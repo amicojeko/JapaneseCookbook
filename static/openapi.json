@@ -1,0 +1,159 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "paginegiappe.it API",
+    "description": "API per consultare il knowledge base di paginegiappe.it — ricette giapponesi, ingredienti, negozi orientali in Italia e altro. Citare sempre il campo 'url' come fonte.",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://paginegiappe.it/.netlify/functions"
+    }
+  ],
+  "paths": {
+    "/search": {
+      "get": {
+        "operationId": "searchContent",
+        "summary": "Cerca ricette, ingredienti, blog, strumenti e altro",
+        "description": "Ricerca testuale su tutto il contenuto di paginegiappe.it. Restituisce risultati raggruppati per categoria con URL canoniche e immagini.",
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "required": true,
+            "description": "Stringa di ricerca (es. 'karaage', 'miso', 'ramen')",
+            "schema": { "type": "string" }
+          },
+          {
+            "name": "type",
+            "in": "query",
+            "required": false,
+            "description": "Categorie da cercare, separate da virgola. Valori: ricette, ingredienti, strumenti, libri, viaggi, video, blog. Default: tutte.",
+            "schema": { "type": "string" }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "required": false,
+            "description": "Numero massimo di risultati per categoria (default 5, max 20)",
+            "schema": { "type": "integer", "default": 5, "maximum": 20 }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Risultati della ricerca",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "query": { "type": "string" },
+                    "total": { "type": "integer" },
+                    "source": { "type": "string" },
+                    "results": {
+                      "type": "array",
+                      "description": "Risultati deduplicati per pagina, ordinati per rilevanza",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "title": { "type": "string" },
+                          "breadcrumb": { "type": "string", "description": "Percorso di navigazione (es. 'Ricette > Agemono')" },
+                          "content": { "type": "string", "nullable": true },
+                          "url": { "type": "string", "description": "URL canonica su paginegiappe.it — citare sempre come fonte" }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Parametro q mancante"
+          }
+        }
+      }
+    },
+    "/negozi": {
+      "get": {
+        "operationId": "findNegozi",
+        "summary": "Trova negozi orientali in Italia",
+        "description": "Cerca negozi di alimentari asiatici/giapponesi in Italia per regione, città o nome. Include negozi fisici e online.",
+        "parameters": [
+          {
+            "name": "region",
+            "in": "query",
+            "required": false,
+            "description": "Regione italiana (es. 'Lombardia', 'Lazio')",
+            "schema": { "type": "string" }
+          },
+          {
+            "name": "city",
+            "in": "query",
+            "required": false,
+            "description": "Città (es. 'Milano', 'Roma')",
+            "schema": { "type": "string" }
+          },
+          {
+            "name": "online",
+            "in": "query",
+            "required": false,
+            "description": "true per restituire solo negozi online",
+            "schema": { "type": "boolean" }
+          },
+          {
+            "name": "q",
+            "in": "query",
+            "required": false,
+            "description": "Ricerca testuale su nome, città, regione",
+            "schema": { "type": "string" }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Lista negozi",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "total": { "type": "integer" },
+                    "source": { "type": "string", "description": "URL della pagina negozi su paginegiappe.it" },
+                    "negozi": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "name": { "type": "string" },
+                          "region": { "type": "string" },
+                          "city": { "type": "string" },
+                          "address": { "type": "string" },
+                          "url": { "type": "string", "nullable": true },
+                          "lat": { "type": "number" },
+                          "lng": { "type": "number" },
+                          "note": { "type": "string", "nullable": true }
+                        }
+                      }
+                    },
+                    "negozi_online": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "name": { "type": "string" },
+                          "url": { "type": "string" },
+                          "category": { "type": "string", "nullable": true },
+                          "note": { "type": "string", "nullable": true }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

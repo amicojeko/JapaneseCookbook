@@ -1,0 +1,45 @@
+# paginegiappe.it — Cucina giapponese in italiano
+
+> Guida italiana alla cucina giapponese: ricette autentiche, ingredienti, negozi orientali
+> in Italia, libri, strumenti da cucina, consigli di viaggio e cultura gastronomica.
+> Contenuti scritti in italiano, misure in sistema metrico.
+
+## Ricette
+- [Tutte le ricette](/ricette/) — organizzate per tecnica di cottura
+- [Agemono — fritti](/ricette/agemono/) — karaage, tempura, tonkatsu, tatsuta-age
+- [Antipasti](/ricette/antipasti/) — edamame, gyoza, hiyayakko
+- [Pesce](/ricette/fish/) — sashimi, teriyaki di pesce
+- [Noodles e menrui](/ricette/menrui/) — ramen, udon, soba, sōmen
+- [Nimono — stufati](/ricette/nimono/) — oden, nikujaga
+- [Riso](/ricette/riso/) — onigiri, takikomi gohan, kayu
+- [Contorni](/ricette/sides/) — sunomono, kinpira
+- [Tsukemono — marinati e sottaceti](/ricette/tsukemono/) — tsukemono vari
+- [Yakimono — alla griglia](/ricette/yakimono/) — teriyaki, okonomiyaki, takoyaki
+- [Zuppe](/ricette/zuppe/) — miso shiru, tonjiru
+- [Preparazioni di base](/ricette/preparazioni_di_base/) — dashi, brodi, salse, condimenti, sushi e sashimi
+
+## Ingredienti
+- [Guida agli ingredienti giapponesi](/ingredienti/) — shoyu, mirin, sake, dashi, tofu, miso, nori, katsuobushi, wasabi, yuzu e molto altro
+
+## Strumenti
+- [Strumenti da cucina giapponese](/strumenti/) — coltelli hōchō, hangiri, suribachi, zaru, oroshigane, makisu, hashi
+
+## Libri
+- [Libri consigliati](/libri/) — ricettari e testi di cultura gastronomica giapponese in italiano e inglese
+
+## Viaggi
+- [Consigli di viaggio in Giappone](/viaggi/) — connessione, soldi e pagamenti, pianificazione, sicurezza
+
+## Film, Anime, Serie TV
+- [Film e anime sul cibo giapponese](/film_anime_serie_tv/) — Tampopo e altri classici
+
+## Negozi
+- [Negozi orientali in Italia per regione](/negozi_orientali/) — mappa e lista per Lombardia, Lazio, Piemonte, Emilia-Romagna, Veneto e altre regioni
+- [Negozi online](/negozi_orientali/online/) — e-commerce per acquistare ingredienti giapponesi in Italia
+
+## Blog
+- [Articoli di approfondimento](/blog/) — cultura, storia degli ingredienti, sake, shoyu, ramen, birra Kirin e altro
+
+## Dati machine-readable
+- [Export JSON completo](/paginegiappe-knowledge.json) — tutti i contenuti in formato JSON strutturato (ricette, ingredienti, negozi, blog, strumenti, viaggi)
+- [Sitemap XML](/sitemap.xml) — sitemap completa del sito

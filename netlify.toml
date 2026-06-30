@@ -5,6 +5,10 @@
 [build.environment]
   NODE_VERSION = "22"
 
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+
 # Caching static assets
 [[headers]]
   for = "/assets/*"

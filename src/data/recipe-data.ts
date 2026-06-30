@@ -1565,11 +1565,13 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "recipeIngredient": [
       "1 Cetriolo",
       "Sale q.b.",
-      "2 cucchiaini di Sushisu (aceto per sushi) (in alternativa, 2 cucchiaini di aceto + 1 cucchiaino di zucchero)",
+      "2 cucchiaini di Sushisu (aceto per sushi) (in alternativa, 2 cucchiaini di aceto di riso + 1 cucchiaino di zucchero)",
       "1 cucchiaino di senape Karashi (in alternativa, va bene anche la senape comune)"
     ],
-    "instructionsText": "Per prima cosa, preparare il cetriolo. Con la lama di un coltello, raschiare via le asperità dalla buccia. Spargere un po' di sale su un tagliere e massaggiare vigorosamente il cetriolo sul sale per qualche istante. Eliminare il sale in eccesso e inserire il cetriolo (tagliato a metà se necessario) in un sacchetto di plastica per alimenti. Aggiungere nel sacchetto i due cucchiaini di sushisu e il cucchiaino di senape. Per creare un effetto \"sottovuoto dei poveri\", immergere il sacchetto in acqua (lasciando l'apertura fuori) per far uscire tutta l'aria, quindi sigillarlo. Mettere il sacchetto in frigorifero a marinare per qualche ora. Una volta pronto, togliere il cetriolo dal sacchetto, tagliarlo in quarti per il lungo, eliminare i semi interni e poi tagliarlo a tocchetti. Disporre i pezzi su un piattino, condire con un po' del liquido di marinatura avanzato nel sacchetto e servire. Itadakimasu!",
-    "videoIds": [],
+    "instructionsText": "Per prima cosa, preparare il cetriolo. Con la lama di un coltello, raschiare via le asperità dalla buccia. Spargere un po' di sale su un tagliere e massaggiare vigorosamente il cetriolo sul sale per qualche istante. Eliminare il sale in eccesso e inserire il cetriolo (tagliato a metà se necessario) in un sacchetto di plastica per alimenti. Aggiungere nel sacchetto i due cucchiaini di sushisu (o due chucchiaini di aceto di riso e un cucchiaino di zucchero) e il cucchiaino di senape. Per creare un effetto \"sottovuoto dei poveri\", immergere il sacchetto in acqua (lasciando l'apertura fuori) per far uscire tutta l'aria, quindi sigillarlo. Mettere il sacchetto in frigorifero a marinare per qualche ora. Una volta pronto, togliere il cetriolo dal sacchetto, tagliarlo a fette in diagonale, e disporle nel modo piu coreografico possibile su un bel piatto di portata per fare scena con i vostri ospiti. Condire con un po' del liquido di marinatura avanzato nel sacchetto e servire. Itadakimasu!",
+    "videoIds": [
+      "WcxIkdZa2XI"
+    ],
     "datePublished": "2025-09-03T20:09:44+02:00"
   },
   "ricette/tsukemono/ninniku-no-misozuke": {
