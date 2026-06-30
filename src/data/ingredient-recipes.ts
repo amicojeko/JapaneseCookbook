@@ -655,6 +655,68 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/nasu_no_yaki-bitashi"
     }
   ],
+  "estivo": [
+    {
+      "id": "ricette/antipasti/hiyashi_nasu",
+      "title": "Hiyashi Nasu",
+      "description": "Un piatto tipico degli Izakaya giapponesi, semplicissimo e incredibilmente buono.",
+      "permalink": "/ricette/hiyashi_nasu"
+    },
+    {
+      "id": "ricette/antipasti/hiyayakko",
+      "title": "Hiyayakko",
+      "description": "Tofu freddo con condimento",
+      "permalink": "/ricette/hiyayakko"
+    },
+    {
+      "id": "ricette/antipasti/nama_harumaki",
+      "title": "Nama Harumaki",
+      "description": "Gli involtini primavera giapponesi in carta di riso, freschi e non fritti, ripieni di pollo teriyaki",
+      "permalink": "/ricette/nama-harumaki"
+    },
+    {
+      "id": "ricette/antipasti/sunomono",
+      "title": "Sunomono di Cetrioli e Wakame (con variante al Polpo)",
+      "description": "Insalatine giapponesi con condimento a base di aceto, perfette per l'estate.",
+      "permalink": "/ricette/sunomono"
+    },
+    {
+      "id": "ricette/menrui/bukkake_udon",
+      "title": "Bukkake Udon",
+      "description": "Udon freddi con condimento versato sopra.",
+      "permalink": "/ricette/bukkake_udon"
+    },
+    {
+      "id": "ricette/menrui/hiyashi_tori_dashi_somen",
+      "title": "Hiyashi Tori Dashi Somen",
+      "description": "Un piatto di noodles freddi rinfrescante e saporito, con un tocco di aceto che lo rende perfetto per l'estate.",
+      "permalink": "/ricette/hiyashi_tori_dashi_somen"
+    },
+    {
+      "id": "ricette/menrui/natto_soba",
+      "title": "Natto Soba",
+      "description": "Spaghetti di grano saraceno freddi con natto, cipolline, alga nori e altre delizie",
+      "permalink": "/ricette/natto_soba"
+    },
+    {
+      "id": "ricette/menrui/tomato_to_tsuna_no_hiyashi_somen",
+      "title": "Tomato to Tsuna no Hiyashi Somen",
+      "description": "Una ricetta estiva semplicissima e velocissima, un mix perfetto tra i sapori mediterranei e la dispensa giapponese.",
+      "permalink": "/ricette/tomato-tsuna-hiyashi-somen"
+    },
+    {
+      "id": "ricette/menrui/tororo_natto_shiso_udon",
+      "title": "Tororo Natto Shiso Udon",
+      "description": "Una ricetta estiva veloce, nutriente e ricca di consistenze uniche grazie al contrasto tra il cremoso tororo e il natto.",
+      "permalink": "/ricette/tororo-natto-shiso-udon"
+    },
+    {
+      "id": "ricette/menrui/zaru_soba",
+      "title": "Zaru Soba",
+      "description": "Spaghetti di grano saraceno freddi",
+      "permalink": "/ricette/zaru_soba"
+    }
+  ],
   "negi": [
     {
       "id": "ricette/antipasti/hiyayakko",
@@ -1257,6 +1319,34 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/potetosarada"
     }
   ],
+  "autunnale": [
+    {
+      "id": "ricette/nimono/kabocha_no_nimono",
+      "title": "Kabocha no Nimono",
+      "description": "La zucca giapponese stufata, un classico contorno autunnale vegano",
+      "permalink": "/ricette/kabocha-no-nimono"
+    }
+  ],
+  "invernale": [
+    {
+      "id": "ricette/nimono/kakuni",
+      "title": "Buta Kaku-ni",
+      "description": "Pancia di maiale cotta lentamente in salsa di soia",
+      "permalink": "/ricette/buta_kakuni"
+    },
+    {
+      "id": "ricette/nimono/nikujaga",
+      "title": "Nikujaga",
+      "description": "Carne e patate, il comfort food per eccellenza della cucina casalinga giapponese",
+      "permalink": "/ricette/nikujaga"
+    },
+    {
+      "id": "ricette/zuppe/tonjiru",
+      "title": "Tonjiru",
+      "description": "La zuppa giapponese più confortante, un \"reset dell'anima\" ricco di maiale e verdure di radice.",
+      "permalink": "/ricette/tonjiru"
+    }
+  ],
   "dashi": [
     {
       "id": "ricette/preparazioni_di_base/brodi/vegan_dashi",
@@ -1406,6 +1496,32 @@ export const INGREDIENT_RECIPE_INDEX = {
     }
   ],
   "takenoko": [
+    {
+      "id": "ricette/riso/takenoko_gohan",
+      "title": "Takenoko Gohan",
+      "description": "Un classico primaverile: riso condito (Takikomi Gohan) cotto con germogli di bambù, aburaage e brodo dashi.",
+      "permalink": "/ricette/takenoko_gohan"
+    },
+    {
+      "id": "ricette/riso/takenoko_to_aburaage_takikomi_gohan",
+      "title": "Takenoko to Aburaage no Takikomi Gohan",
+      "description": "Un classico piatto casalingo giapponese, il Takikomi Gohan è un riso magico cotto comodamente nel cuociriso insieme ai suoi condimenti.",
+      "permalink": "/ricette/takenoko_to_aburaage_no_takikomi_gohan"
+    },
+    {
+      "id": "ricette/yakimono/takenoko_niku_miso",
+      "title": "Takenoko e Niku Miso",
+      "description": "Un secondo piatto ricco e saporito a base di germogli di bambù, carne trita, zenzero e una glassa umami al miso.",
+      "permalink": "/ricette/takenoko-niku-miso"
+    },
+    {
+      "id": "ricette/zuppe/wakatake",
+      "title": "Wakatake",
+      "description": "Una zuppa giapponese facilissima, velocissima e buonissima a base di germogli di bambù e alga wakame.",
+      "permalink": "/ricette/wakatake"
+    }
+  ],
+  "primaverile": [
     {
       "id": "ricette/riso/takenoko_gohan",
       "title": "Takenoko Gohan",

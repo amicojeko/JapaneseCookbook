@@ -108,7 +108,8 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "image": "/img/ricette/hiyashi_nasu.jpg",
     "recipeCategory": "Antipasti",
     "recipeKeywords": [
-      "katsuobushi"
+      "katsuobushi",
+      "estivo"
     ],
     "recipeYield": null,
     "recipeIngredient": [
@@ -129,7 +130,8 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "recipeCategory": "Antipasti",
     "recipeKeywords": [
       "katsuobushi",
-      "negi"
+      "negi",
+      "estivo"
     ],
     "recipeYield": null,
     "recipeIngredient": [
@@ -153,7 +155,8 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "recipeCategory": "Antipasti",
     "recipeKeywords": [
       "kewpie",
-      "teriyaki"
+      "teriyaki",
+      "estivo"
     ],
     "recipeYield": null,
     "recipeIngredient": [
@@ -179,7 +182,8 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "recipeKeywords": [
       "sesame_oil",
       "sesamo",
-      "wakame"
+      "wakame",
+      "estivo"
     ],
     "recipeYield": null,
     "recipeIngredient": [
@@ -271,7 +275,8 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "recipeCategory": "Noodles",
     "recipeKeywords": [
       "udon",
-      "daikon"
+      "daikon",
+      "estivo"
     ],
     "recipeYield": null,
     "recipeIngredient": [
@@ -298,7 +303,8 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "kombu",
       "mirin",
       "sake",
-      "shiso"
+      "shiso",
+      "estivo"
     ],
     "recipeYield": null,
     "recipeIngredient": [],
@@ -318,7 +324,8 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "natto",
       "negi",
       "nori",
-      "soba"
+      "soba",
+      "estivo"
     ],
     "recipeYield": "2 persone",
     "recipeIngredient": [
@@ -343,7 +350,8 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "somen",
       "tsuyu",
       "shiso",
-      "kombu"
+      "kombu",
+      "estivo"
     ],
     "recipeYield": "1 persona",
     "recipeIngredient": [
@@ -398,7 +406,8 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "natto",
       "shiso",
       "negi",
-      "shoyu"
+      "shoyu",
+      "estivo"
     ],
     "recipeYield": null,
     "recipeIngredient": [
@@ -522,7 +531,8 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "recipeKeywords": [
       "daikon",
       "kizami_nori",
-      "nori"
+      "nori",
+      "estivo"
     ],
     "recipeYield": "2 persone",
     "recipeIngredient": [
@@ -565,7 +575,8 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "recipeKeywords": [
       "vegan",
       "mirin",
-      "sake"
+      "sake",
+      "autunnale"
     ],
     "recipeYield": null,
     "recipeIngredient": [
@@ -593,7 +604,8 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "kombu",
       "mirin",
       "negi",
-      "sake"
+      "sake",
+      "invernale"
     ],
     "recipeYield": null,
     "recipeIngredient": [
@@ -618,7 +630,8 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "image": "/img/ricette/nikujaga.jpg",
     "recipeCategory": "Stufati",
     "recipeKeywords": [
-      "mirin"
+      "mirin",
+      "invernale"
     ],
     "recipeYield": "4 persone",
     "recipeIngredient": [
@@ -1170,7 +1183,8 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "takenoko",
       "mirin",
       "rice",
-      "shoyu"
+      "shoyu",
+      "primaverile"
     ],
     "recipeYield": "2 persone",
     "recipeIngredient": [
@@ -1195,7 +1209,8 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "shoyu",
       "mirin",
       "sake",
-      "negi"
+      "negi",
+      "primaverile"
     ],
     "recipeYield": null,
     "recipeIngredient": [
@@ -1720,7 +1735,8 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "takenoko",
       "sesame_oil",
       "miso",
-      "negi"
+      "negi",
+      "primaverile"
     ],
     "recipeYield": null,
     "recipeIngredient": [
@@ -1850,7 +1866,8 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "konnyaku",
       "miso",
       "sesame_oil",
-      "sesamo"
+      "sesamo",
+      "invernale"
     ],
     "recipeYield": "4 persone",
     "recipeIngredient": [
@@ -1909,7 +1926,8 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "takenoko",
       "dashi",
       "wakame",
-      "shoyu"
+      "shoyu",
+      "primaverile"
     ],
     "recipeYield": null,
     "recipeIngredient": [
