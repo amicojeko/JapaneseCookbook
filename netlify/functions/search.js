@@ -8,9 +8,23 @@
  * Restituisce risultati strutturati con URL canoniche e breadcrumb per i LLM.
  */
 
+const knowledge = require('../../static/paginegiappe-knowledge.json');
+
 const ALGOLIA_APP_ID = '9DWNYPKJD0';
 const ALGOLIA_SEARCH_KEY = 'b31d01c5282cee1939baf74e884ce829';
 const ALGOLIA_INDEX = 'ricettegiapponesi';
+
+// Mappa URL base → immagine, costruita da tutte le sezioni del knowledge base.
+// Permette di arricchire i risultati Algolia (che non includono le foto).
+const IMAGE_BY_URL = (() => {
+  const map = {};
+  for (const section of ['ricette', 'ingredienti', 'strumenti', 'libri', 'viaggi', 'video', 'blog']) {
+    for (const item of knowledge[section] ?? []) {
+      if (item.url && item.image) map[item.url.replace(/\/$/, '')] = item.image;
+    }
+  }
+  return map;
+})();
 
 const CORS = {
   'Access-Control-Allow-Origin': '*',
@@ -85,7 +99,8 @@ exports.handler = async (event) => {
         .filter(Boolean)
         .filter((v, i, a) => a.indexOf(v) === i)
         .join(' > ');
-      return { title, breadcrumb, content: hit.content ?? null, url: baseUrl };
+      const image = IMAGE_BY_URL[baseUrl.replace(/\/$/, '')] ?? null;
+      return { title, breadcrumb, content: hit.content ?? null, url: baseUrl, image };
     })
     .filter(({ url }) => {
       if (!url || seenUrls.has(url)) return false;

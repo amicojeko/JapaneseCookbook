@@ -32,7 +32,8 @@
                     "title": { "type": "string" },
                     "breadcrumb": { "type": "string" },
                     "content": { "type": "string", "nullable": true },
-                    "url": { "type": "string", "description": "URL canonica — citare sempre come fonte" }
+                    "url": { "type": "string", "description": "URL canonica — citare sempre come fonte" },
+                    "image": { "type": "string", "nullable": true, "description": "Foto del contenuto, da mostrare quando presente" }
                   }
                 }}
               }
@@ -75,6 +76,39 @@
                     "ingredients": { "type": "array", "items": { "type": "string" } },
                     "instructions": { "type": "string" },
                     "servings_note": { "type": "string", "nullable": true, "description": "Istruzione di scaling dosi (presente solo se servings fornito e recipeYield disponibile)" }
+                  }
+                }}
+              }
+            }}}
+          }
+        }
+      }
+    },
+    "/ingredienti": {
+      "get": {
+        "operationId": "explainIngredient",
+        "summary": "Scheda completa di un ingrediente giapponese (con foto)",
+        "description": "Restituisce titolo, immagine, descrizione e contenuto completo degli ingredienti che corrispondono alla query. Include sempre la foto quando disponibile.",
+        "parameters": [
+          { "name": "q", "in": "query", "required": false, "schema": { "type": "string" }, "description": "Nome dell'ingrediente (es. 'miso', 'dashi', 'mirin')" },
+          { "name": "limit", "in": "query", "required": false, "schema": { "type": "integer", "default": 3, "maximum": 10 } }
+        ],
+        "responses": {
+          "200": {
+            "description": "Schede ingrediente",
+            "content": { "application/json": { "schema": {
+              "type": "object",
+              "properties": {
+                "total": { "type": "integer" },
+                "source": { "type": "string" },
+                "results": { "type": "array", "items": {
+                  "type": "object",
+                  "properties": {
+                    "title": { "type": "string" },
+                    "description": { "type": "string" },
+                    "url": { "type": "string" },
+                    "image": { "type": "string", "nullable": true },
+                    "content": { "type": "string" }
                   }
                 }}
               }
