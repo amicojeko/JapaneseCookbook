@@ -182,8 +182,76 @@
         ],
         "responses": {
           "200": {
-            "description": "Suggerimenti",
-            "content": { "application/json": { "schema": { "type": "object" } } }
+            "description": "Suggerimenti. La forma dipende da type: 'menu' popola courses, 'reading' popola libri+video, 'blog' popola results.",
+            "content": { "application/json": { "schema": {
+              "type": "object",
+              "properties": {
+                "type": { "type": "string" },
+                "occasion": { "type": "string", "nullable": true },
+                "servings": { "type": "integer", "nullable": true },
+                "note": { "type": "string", "nullable": true },
+                "source": { "type": "string", "nullable": true },
+                "topic": { "type": "string", "nullable": true },
+                "courses": {
+                  "type": "array",
+                  "description": "Portate del menu (solo type=menu), ognuna con ricetta completa",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "role": { "type": "string" },
+                      "title": { "type": "string" },
+                      "description": { "type": "string" },
+                      "url": { "type": "string" },
+                      "image": { "type": "string", "nullable": true },
+                      "category": { "type": "string", "nullable": true },
+                      "recipeYield": { "type": "string", "nullable": true },
+                      "ingredients": { "type": "array", "items": { "type": "string" } },
+                      "instructions": { "type": "string" },
+                      "servings_note": { "type": "string", "nullable": true }
+                    }
+                  }
+                },
+                "libri": {
+                  "type": "array",
+                  "description": "Libri consigliati (solo type=reading)",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "title": { "type": "string" },
+                      "description": { "type": "string" },
+                      "url": { "type": "string" },
+                      "content": { "type": "string", "nullable": true }
+                    }
+                  }
+                },
+                "video": {
+                  "type": "array",
+                  "description": "Film, anime e serie TV consigliati (solo type=reading)",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "title": { "type": "string" },
+                      "description": { "type": "string" },
+                      "url": { "type": "string" },
+                      "content": { "type": "string", "nullable": true }
+                    }
+                  }
+                },
+                "results": {
+                  "type": "array",
+                  "description": "Articoli del blog (solo type=blog)",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "title": { "type": "string" },
+                      "url": { "type": "string" },
+                      "description": { "type": "string", "nullable": true },
+                      "content": { "type": "string", "nullable": true }
+                    }
+                  }
+                }
+              }
+            }}}
           }
         }
       }
