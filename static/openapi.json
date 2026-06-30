@@ -2,74 +2,81 @@
   "openapi": "3.1.0",
   "info": {
     "title": "paginegiappe.it API",
-    "description": "API per consultare il knowledge base di paginegiappe.it — ricette giapponesi, ingredienti, negozi orientali in Italia e altro. Citare sempre il campo 'url' come fonte.",
-    "version": "1.0.0"
+    "description": "API per consultare il knowledge base di paginegiappe.it — ricette giapponesi, ingredienti, negozi orientali in Italia e altro. Citare sempre il campo 'url' come fonte canonica.",
+    "version": "2.0.0"
   },
   "servers": [
-    {
-      "url": "https://paginegiappe.it/.netlify/functions"
-    }
+    { "url": "https://paginegiappe.it/.netlify/functions" }
   ],
   "paths": {
     "/search": {
       "get": {
         "operationId": "searchContent",
-        "summary": "Cerca ricette, ingredienti, blog, strumenti e altro",
-        "description": "Ricerca testuale su tutto il contenuto di paginegiappe.it. Restituisce risultati raggruppati per categoria con URL canoniche e immagini.",
+        "summary": "Cerca contenuti (ricette, ingredienti, blog, strumenti…)",
+        "description": "Ricerca testuale su tutto il sito via Algolia. Risultati deduplicati per pagina, ordinati per rilevanza.",
         "parameters": [
-          {
-            "name": "q",
-            "in": "query",
-            "required": true,
-            "description": "Stringa di ricerca (es. 'karaage', 'miso', 'ramen')",
-            "schema": { "type": "string" }
-          },
-          {
-            "name": "type",
-            "in": "query",
-            "required": false,
-            "description": "Categorie da cercare, separate da virgola. Valori: ricette, ingredienti, strumenti, libri, viaggi, video, blog. Default: tutte.",
-            "schema": { "type": "string" }
-          },
-          {
-            "name": "limit",
-            "in": "query",
-            "required": false,
-            "description": "Numero massimo di risultati per categoria (default 5, max 20)",
-            "schema": { "type": "integer", "default": 5, "maximum": 20 }
-          }
+          { "name": "q", "in": "query", "required": true, "schema": { "type": "string" }, "description": "Termine di ricerca" },
+          { "name": "limit", "in": "query", "required": false, "schema": { "type": "integer", "default": 10, "maximum": 20 } }
         ],
         "responses": {
           "200": {
-            "description": "Risultati della ricerca",
-            "content": {
-              "application/json": {
-                "schema": {
+            "description": "Risultati",
+            "content": { "application/json": { "schema": {
+              "type": "object",
+              "properties": {
+                "query": { "type": "string" },
+                "total": { "type": "integer" },
+                "results": { "type": "array", "items": {
                   "type": "object",
                   "properties": {
-                    "query": { "type": "string" },
-                    "total": { "type": "integer" },
-                    "source": { "type": "string" },
-                    "results": {
-                      "type": "array",
-                      "description": "Risultati deduplicati per pagina, ordinati per rilevanza",
-                      "items": {
-                        "type": "object",
-                        "properties": {
-                          "title": { "type": "string" },
-                          "breadcrumb": { "type": "string", "description": "Percorso di navigazione (es. 'Ricette > Agemono')" },
-                          "content": { "type": "string", "nullable": true },
-                          "url": { "type": "string", "description": "URL canonica su paginegiappe.it — citare sempre come fonte" }
-                        }
-                      }
-                    }
+                    "title": { "type": "string" },
+                    "breadcrumb": { "type": "string" },
+                    "content": { "type": "string", "nullable": true },
+                    "url": { "type": "string", "description": "URL canonica — citare sempre come fonte" }
                   }
-                }
+                }}
               }
-            }
-          },
-          "400": {
-            "description": "Parametro q mancante"
+            }}}
+          }
+        }
+      }
+    },
+    "/recipes": {
+      "get": {
+        "operationId": "findRecipes",
+        "summary": "Cerca ricette per nome, ingrediente o categoria",
+        "description": "Restituisce ricette complete (ingredienti + istruzioni). Supporta scaling dosi per numero di persone.",
+        "parameters": [
+          { "name": "q", "in": "query", "required": false, "schema": { "type": "string" }, "description": "Ricerca testuale" },
+          { "name": "ingredient", "in": "query", "required": false, "schema": { "type": "string" }, "description": "Filtra ricette che contengono questo ingrediente (es. 'miso', 'tofu')" },
+          { "name": "category", "in": "query", "required": false, "schema": { "type": "string" }, "description": "Fritti | Zuppe | Riso | Noodles | Griglia | Antipasti | Pesce | Stufati | Contorni | Sushi | Marinati | Brodi | Salse | Condimenti" },
+          { "name": "servings", "in": "query", "required": false, "schema": { "type": "integer" }, "description": "Numero di persone — aggiunge servings_note con moltiplicatore dosi" },
+          { "name": "limit", "in": "query", "required": false, "schema": { "type": "integer", "default": 10, "maximum": 30 } }
+        ],
+        "responses": {
+          "200": {
+            "description": "Ricette trovate",
+            "content": { "application/json": { "schema": {
+              "type": "object",
+              "properties": {
+                "total": { "type": "integer" },
+                "servings": { "type": "integer", "nullable": true },
+                "results": { "type": "array", "items": {
+                  "type": "object",
+                  "properties": {
+                    "title": { "type": "string" },
+                    "description": { "type": "string" },
+                    "url": { "type": "string" },
+                    "image": { "type": "string", "nullable": true },
+                    "category": { "type": "string", "nullable": true },
+                    "tags": { "type": "array", "items": { "type": "string" } },
+                    "ingredients": { "type": "array", "items": { "type": "string" } },
+                    "instructions": { "type": "string" },
+                    "servings_note": { "type": "string", "nullable": true, "description": "Istruzione di scaling dosi (presente solo se servings fornito)" }
+                  }
+                }}
+              }
+            }}}
           }
         }
       }
@@ -78,79 +85,69 @@
       "get": {
         "operationId": "findNegozi",
         "summary": "Trova negozi orientali in Italia",
-        "description": "Cerca negozi di alimentari asiatici/giapponesi in Italia per regione, città o nome. Include negozi fisici e online.",
+        "description": "Ricerca per città, regione, coordinate GPS o codici sconto. Con lat+lng ordina per distanza.",
         "parameters": [
-          {
-            "name": "region",
-            "in": "query",
-            "required": false,
-            "description": "Regione italiana (es. 'Lombardia', 'Lazio')",
-            "schema": { "type": "string" }
-          },
-          {
-            "name": "city",
-            "in": "query",
-            "required": false,
-            "description": "Città (es. 'Milano', 'Roma')",
-            "schema": { "type": "string" }
-          },
-          {
-            "name": "online",
-            "in": "query",
-            "required": false,
-            "description": "true per restituire solo negozi online",
-            "schema": { "type": "boolean" }
-          },
-          {
-            "name": "q",
-            "in": "query",
-            "required": false,
-            "description": "Ricerca testuale su nome, città, regione",
-            "schema": { "type": "string" }
-          }
+          { "name": "region", "in": "query", "required": false, "schema": { "type": "string" }, "description": "Regione italiana (es. 'Lombardia')" },
+          { "name": "city", "in": "query", "required": false, "schema": { "type": "string" }, "description": "Città (es. 'Milano')" },
+          { "name": "lat", "in": "query", "required": false, "schema": { "type": "number" }, "description": "Latitudine GPS utente" },
+          { "name": "lng", "in": "query", "required": false, "schema": { "type": "number" }, "description": "Longitudine GPS utente" },
+          { "name": "radius_km", "in": "query", "required": false, "schema": { "type": "number", "default": 20 }, "description": "Raggio di ricerca in km (richiede lat+lng)" },
+          { "name": "discount", "in": "query", "required": false, "schema": { "type": "boolean" }, "description": "true per negozi con codici sconto" },
+          { "name": "online", "in": "query", "required": false, "schema": { "type": "boolean" }, "description": "true per soli negozi online" },
+          { "name": "q", "in": "query", "required": false, "schema": { "type": "string" }, "description": "Ricerca testuale su nome/indirizzo" }
         ],
         "responses": {
           "200": {
-            "description": "Lista negozi",
-            "content": {
-              "application/json": {
-                "schema": {
+            "description": "Negozi trovati",
+            "content": { "application/json": { "schema": {
+              "type": "object",
+              "properties": {
+                "total": { "type": "integer" },
+                "search_center": { "type": "object", "nullable": true, "properties": { "lat": { "type": "number" }, "lng": { "type": "number" } } },
+                "radius_km": { "type": "number", "nullable": true },
+                "source": { "type": "string" },
+                "negozi": { "type": "array", "items": {
                   "type": "object",
                   "properties": {
-                    "total": { "type": "integer" },
-                    "source": { "type": "string", "description": "URL della pagina negozi su paginegiappe.it" },
-                    "negozi": {
-                      "type": "array",
-                      "items": {
-                        "type": "object",
-                        "properties": {
-                          "name": { "type": "string" },
-                          "region": { "type": "string" },
-                          "city": { "type": "string" },
-                          "address": { "type": "string" },
-                          "url": { "type": "string", "nullable": true },
-                          "lat": { "type": "number" },
-                          "lng": { "type": "number" },
-                          "note": { "type": "string", "nullable": true }
-                        }
-                      }
-                    },
-                    "negozi_online": {
-                      "type": "array",
-                      "items": {
-                        "type": "object",
-                        "properties": {
-                          "name": { "type": "string" },
-                          "url": { "type": "string" },
-                          "category": { "type": "string", "nullable": true },
-                          "note": { "type": "string", "nullable": true }
-                        }
-                      }
-                    }
+                    "name": { "type": "string" },
+                    "region": { "type": "string" },
+                    "city": { "type": "string" },
+                    "address": { "type": "string" },
+                    "url": { "type": "string", "nullable": true },
+                    "distance_km": { "type": "number", "nullable": true },
+                    "note": { "type": "string", "nullable": true, "description": "Può contenere codici sconto" }
                   }
-                }
+                }},
+                "negozi_online": { "type": "array", "items": {
+                  "type": "object",
+                  "properties": {
+                    "name": { "type": "string" },
+                    "url": { "type": "string" },
+                    "category": { "type": "string", "nullable": true },
+                    "note": { "type": "string", "nullable": true }
+                  }
+                }}
               }
-            }
+            }}}
+          }
+        }
+      }
+    },
+    "/suggest": {
+      "get": {
+        "operationId": "getSuggestions",
+        "summary": "Suggerimenti: menu completo, letture o curiosità dal blog",
+        "description": "type=menu restituisce ricette complete per costruire lista della spesa e piano di preparazione. type=reading suggerisce libri e film/anime. type=blog cerca curiosità per argomento.",
+        "parameters": [
+          { "name": "type", "in": "query", "required": true, "schema": { "type": "string", "enum": ["menu", "reading", "blog"] } },
+          { "name": "servings", "in": "query", "required": false, "schema": { "type": "integer", "default": 2 }, "description": "Numero di persone (solo per type=menu)" },
+          { "name": "occasion", "in": "query", "required": false, "schema": { "type": "string", "enum": ["pranzo", "cena", "aperitivo"], "default": "cena" }, "description": "Tipo di pasto (solo per type=menu)" },
+          { "name": "topic", "in": "query", "required": false, "schema": { "type": "string" }, "description": "Argomento di ricerca (solo per type=blog, es. 'sake', 'storia')" }
+        ],
+        "responses": {
+          "200": {
+            "description": "Suggerimenti",
+            "content": { "application/json": { "schema": { "type": "object" } } }
           }
         }
       }

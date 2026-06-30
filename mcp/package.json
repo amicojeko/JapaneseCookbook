@@ -1,0 +1,16 @@
+{
+  "name": "mcp-paginegiappe",
+  "version": "1.0.0",
+  "description": "MCP server per paginegiappe.it — cucina giapponese in italiano",
+  "type": "module",
+  "main": "server.js",
+  "bin": {
+    "mcp-paginegiappe": "./server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
