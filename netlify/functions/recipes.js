@@ -81,16 +81,17 @@ exports.handler = async (event) => {
     return true;
   });
 
-  // Rilevanza: titolo match prima
+  // Rilevanza: match nel titolo prima, con bonus per match esatto / iniziale.
   if (tokens.length) {
-    const titleTokens = tokens.filter((t) => results.some((r) => r.title.toLowerCase().includes(t)));
-    if (titleTokens.length) {
-      results.sort((a, b) => {
-        const aTitle = titleTokens.filter((t) => a.title.toLowerCase().includes(t)).length;
-        const bTitle = titleTokens.filter((t) => b.title.toLowerCase().includes(t)).length;
-        return bTitle - aTitle;
-      });
-    }
+    const qLower = q.toLowerCase();
+    const score = (r) => {
+      const title = r.title.toLowerCase();
+      let s = tokens.filter((t) => title.includes(t)).length; // # token nel titolo
+      if (title === qLower) s += 100; // titolo identico alla query (es. "Dashi")
+      else if (title.startsWith(qLower)) s += 50; // titolo inizia con la query
+      return s;
+    };
+    results.sort((a, b) => score(b) - score(a) || a.title.length - b.title.length);
   }
 
   const totalMatches = results.length;

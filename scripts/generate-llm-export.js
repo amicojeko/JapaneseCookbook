@@ -123,35 +123,61 @@ function parseSections(body) {
   return sections.map((s) => ({ ...s, content: s.lines.join('\n').trim() }));
 }
 
+function stripInline(s) {
+  return s
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+    .replace(/\*\*?([^*]+)\*\*?/g, '$1')
+    .replace(/`([^`]+)`/g, '$1')
+    .trim();
+}
+
 function parseList(content) {
   return content
     .split('\n')
     .map((l) => l.match(/^\s*[-*+]\s+(.+?)\s*$/)?.[1])
     .filter(Boolean)
-    .map((s) =>
-      s
-        .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
-        .replace(/\*\*?([^*]+)\*\*?/g, '$1')
-        .trim(),
-    );
+    .map(stripInline);
 }
 
-function cleanInstructions(content) {
-  return content
-    .replace(/:::[^\n]*\n[\s\S]*?:::/g, '')
+/**
+ * Costruisce il corpo completo della ricetta per il consumo AI: include intro,
+ * sotto-ricette con le loro intestazioni (es. "Niban Dashi") e tutte le sezioni
+ * di preparazione. Esclude le sezioni "Ingredienti" (esposte a parte come array),
+ * la sezione "Video" in poi, gli import/componenti MDX. Le admonition (:::note…)
+ * vengono appiattite mantenendone il testo (contiene consigli utili).
+ */
+function buildRecipeBody(rawBody) {
+  // Taglia da "## Video" (o "# Video") in poi.
+  const noVideo = rawBody.split(/^#{1,6}\s+Video\s*$/im)[0];
+  // Rimuove import e componenti JSX/MDX.
+  const noJsx = noVideo
+    .replace(/^import\s+.+$/gm, '')
     .replace(/<[A-Za-z][^>]*\/>/g, '')
     .replace(/<[A-Za-z][^>]*>[\s\S]*?<\/[A-Za-z][^>]*>/g, '')
-    .split('\n')
-    .map((l) =>
-      l
-        .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
-        .replace(/\*\*?([^*]+)\*\*?/g, '$1')
-        .replace(/`([^`]+)`/g, '$1')
-        .trim(),
-    )
-    .filter(Boolean)
-    .join(' ')
-    .replace(/\s+/g, ' ')
+    .replace(/^:::.*$/gm, ''); // marker admonition (apertura/chiusura), il testo interno resta
+
+  const out = [];
+  let skipSection = false; // dentro una sezione "Ingredienti": salta heading + contenuto
+  for (const rawLine of noJsx.split('\n')) {
+    const h = rawLine.match(/^(#{1,6})\s+(.+?)\s*$/);
+    if (h) {
+      const title = h[2].trim();
+      // Sezione "Ingredienti": esposta a parte come array → salta tutta la sezione.
+      if (/^ingredienti$/i.test(title)) {
+        skipSection = true;
+        continue;
+      }
+      skipSection = false;
+      // "Preparazione" è ovvio dal contesto della scheda: tieni il contenuto, non il label.
+      if (/^preparazione$/i.test(title)) continue;
+      out.push(stripInline(title)); // intestazione sotto-ricetta (es. "Niban Dashi")
+    } else if (!skipSection) {
+      out.push(stripInline(rawLine));
+    }
+  }
+  return out
+    .join('\n')
+    .replace(/\n{3,}/g, '\n\n')
     .trim();
 }
 
@@ -173,10 +199,10 @@ function processRicette() {
     if (fm.draft === true) continue;
     if (!fm.title) continue;
     const sections = parseSections(content);
-    const ingrSection = sections.find((s) => /^ingredienti$/i.test(s.title));
-    const prepSection = sections.find((s) => /^preparazione$/i.test(s.title));
-    const ingredients = ingrSection
-      ? parseList(ingrSection.content)
+    // Unione degli ingredienti da tutte le sezioni "Ingredienti" (ricette multi-parte).
+    const ingrSections = sections.filter((s) => /^ingredienti$/i.test(s.title));
+    const ingredients = ingrSections.length
+      ? [...new Set(ingrSections.flatMap((s) => parseList(s.content)))]
       : Array.isArray(fm.ingredients)
         ? fm.ingredients
         : [];
@@ -189,7 +215,7 @@ function processRicette() {
       tags: Array.isArray(fm.tags) ? fm.tags : [],
       recipeYield: typeof fm.recipeYield === 'string' ? fm.recipeYield : null,
       ingredients,
-      instructions: prepSection ? cleanInstructions(prepSection.content) : '',
+      instructions: buildRecipeBody(content),
     });
   }
   return result;
