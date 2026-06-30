@@ -1,9 +1,9 @@
 /**
- * Definizioni condivise dei tool MCP di paginegiappe.it.
+ * Definizioni dei tool MCP di paginegiappe.it.
  *
  * `createServer()` ritorna un McpServer configurato con tutti i tool, i formatter
- * Markdown e le istruzioni globali. Usato sia dall'entrypoint stdio (server.js,
- * pacchetto npm) che dall'entrypoint hosted (netlify/functions/mcp.mjs).
+ * Markdown e le istruzioni globali. Usato dall'endpoint hosted
+ * (netlify/functions/mcp.mjs).
  */
 
 import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';

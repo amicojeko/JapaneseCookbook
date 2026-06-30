@@ -8,11 +8,11 @@
  * Aggiungilo come Custom Connector in Claude.ai / Claude Desktop puntando a:
  *   https://paginegiappe.it/mcp
  *
- * Condivide le definizioni dei tool con il pacchetto npm via mcp/tools.js.
+ * Le definizioni dei tool vivono in netlify/lib/mcp-tools.js.
  */
 
 import { WebStandardStreamableHTTPServerTransport } from '@modelcontextprotocol/sdk/server/webStandardStreamableHttp.js';
-import { createServer } from '../../mcp/tools.js';
+import { createServer } from '../lib/mcp-tools.mjs';
 
 export const config = { path: '/mcp' };
 
