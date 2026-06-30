@@ -59,7 +59,8 @@
             "content": { "application/json": { "schema": {
               "type": "object",
               "properties": {
-                "total": { "type": "integer" },
+                "total": { "type": "integer", "description": "Numero totale di ricette che soddisfano i filtri (prima del limit)" },
+                "returned": { "type": "integer", "description": "Numero di ricette effettivamente incluse in results" },
                 "servings": { "type": "integer", "nullable": true },
                 "results": { "type": "array", "items": {
                   "type": "object",
@@ -70,9 +71,10 @@
                     "image": { "type": "string", "nullable": true },
                     "category": { "type": "string", "nullable": true },
                     "tags": { "type": "array", "items": { "type": "string" } },
+                    "recipeYield": { "type": "string", "nullable": true, "description": "Resa originale della ricetta (es. '4 persone')" },
                     "ingredients": { "type": "array", "items": { "type": "string" } },
                     "instructions": { "type": "string" },
-                    "servings_note": { "type": "string", "nullable": true, "description": "Istruzione di scaling dosi (presente solo se servings fornito)" }
+                    "servings_note": { "type": "string", "nullable": true, "description": "Istruzione di scaling dosi (presente solo se servings fornito e recipeYield disponibile)" }
                   }
                 }}
               }

@@ -81,6 +81,7 @@ function buildMenu(occasion, servings) {
       url: recipe.url,
       image: recipe.image,
       category: recipe.category,
+      recipeYield: recipe.recipeYield ?? null,
       ingredients: recipe.ingredients,
       instructions: recipe.instructions,
       ...(servings ? { servings_note: servingsNote(recipe, servings) } : {}),
@@ -91,17 +92,22 @@ function buildMenu(occasion, servings) {
 
 async function suggestBlog(topic) {
   const url = `https://${ALGOLIA_APP_ID}-dsn.algolia.net/1/indexes/${ALGOLIA_INDEX}/query`;
-  const res = await fetch(url, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'X-Algolia-Application-Id': ALGOLIA_APP_ID,
-      'X-Algolia-API-Key': ALGOLIA_SEARCH_KEY,
-    },
-    body: JSON.stringify({ query: topic, hitsPerPage: 8, attributesToRetrieve: ['url', 'hierarchy', 'content'], attributesToHighlight: [], distinct: 1 }),
-  });
-  if (!res.ok) return [];
-  const data = await res.json();
+  let data;
+  try {
+    const res = await fetch(url, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-Algolia-Application-Id': ALGOLIA_APP_ID,
+        'X-Algolia-API-Key': ALGOLIA_SEARCH_KEY,
+      },
+      body: JSON.stringify({ query: topic, hitsPerPage: 8, attributesToRetrieve: ['url', 'hierarchy', 'content'], attributesToHighlight: [], distinct: 1 }),
+    });
+    if (!res.ok) return [];
+    data = await res.json();
+  } catch {
+    return [];
+  }
   const seenUrls = new Set();
   return (data.hits ?? [])
     .map((h) => ({ title: h.hierarchy?.lvl1 ?? h.hierarchy?.lvl0 ?? '', url: (h.url ?? '').split('#')[0], content: h.content ?? null }))

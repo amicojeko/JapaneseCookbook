@@ -173,6 +173,7 @@ function processRicette() {
       image: absImg(fm.image),
       category: categoryFromPath(f),
       tags: Array.isArray(fm.tags) ? fm.tags : [],
+      recipeYield: typeof fm.recipeYield === 'string' ? fm.recipeYield : null,
       ingredients,
       instructions: prepSection ? cleanInstructions(prepSection.content) : '',
     });

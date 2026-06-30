@@ -8,7 +8,8 @@
     "mcp-paginegiappe": "./server.js"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.0.0"
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^3.23.0 || ^4.0.0"
   },
   "engines": {
     "node": ">=18"

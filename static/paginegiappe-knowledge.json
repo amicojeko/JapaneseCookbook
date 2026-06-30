@@ -2,7 +2,7 @@
   "meta": {
     "site": "https://paginegiappe.it",
     "description": "Guida italiana alla cucina giapponese: ricette autentiche, ingredienti, negozi orientali in Italia, strumenti, viaggi e cultura gastronomica.",
-    "generated": "2026-06-30T15:28:08.122Z",
+    "generated": "2026-06-30T16:23:01.993Z",
     "version": 1
   },
   "ricette": [
@@ -18,6 +18,7 @@
         "sesamo",
         "potato_starch"
       ],
+      "recipeYield": null,
       "ingredients": [
         "1 confezione di funghi enoki",
         "2 cucchiai di salsa di soia o salsa yakiniku",
@@ -42,6 +43,7 @@
         "kewpie",
         "sake"
       ],
+      "recipeYield": null,
       "ingredients": [
         "Coscia e sottocoscia di pollo disossata, con la pelle",
         "1 cucchiaio di salsa di soia",
@@ -66,6 +68,7 @@
         "sake",
         "shiitake"
       ],
+      "recipeYield": "4 persone",
       "ingredients": [
         "120 ml di uovo, io uso 3 rossi e bianchi q.b. per arrivare a 120 ml",
         "360 ml di dashi (rapporto di 3:1 con le uova)",
@@ -85,6 +88,7 @@
       "tags": [
         "katsuobushi"
       ],
+      "recipeYield": null,
       "ingredients": [
         "1 o 2 Melanzane piccole e sode",
         "Cipolline verdi",
@@ -103,6 +107,7 @@
         "katsuobushi",
         "negi"
       ],
+      "recipeYield": null,
       "ingredients": [
         "1 panetto di tofu morbido (meglio se silken tofu)",
         "2-3 cucchiai di salsa ponzu",
@@ -122,6 +127,7 @@
         "kewpie",
         "teriyaki"
       ],
+      "recipeYield": null,
       "ingredients": [
         "Fogli di carta di riso rotondi",
         "Alette di pollo (o avanzi di pollo arrosto/sfilacciato)",
@@ -143,6 +149,7 @@
         "sesamo",
         "wakame"
       ],
+      "recipeYield": null,
       "ingredients": [
         "1 Cetriolo (se lo trovate, è molto meglio quello giapponese: stretto, lungo e sbruzzoloso)",
         "Alghe Wakame essiccate",
@@ -166,6 +173,7 @@
         "sesame_oil",
         "sesamo"
       ],
+      "recipeYield": null,
       "ingredients": [
         "Un quarto abbondante di Cavolo cappuccio",
         "1 cucchiaio di Olio di sesamo",
@@ -185,6 +193,7 @@
         "negi",
         "shoyu"
       ],
+      "recipeYield": null,
       "ingredients": [
         "Moscardini (Iidako)",
         "Negi (cipollotti lunghi o porri giapponesi)",
@@ -202,6 +211,7 @@
       "tags": [
         "sake"
       ],
+      "recipeYield": null,
       "ingredients": [
         "Salmone",
         "Sale",
@@ -223,6 +233,7 @@
         "udon",
         "daikon"
       ],
+      "recipeYield": null,
       "ingredients": [
         "Udon confezionati (quelli freschi vanno benissimo, ma anche quelli secchi andranno bene)",
         "Un pezzo di 5cm di Daikon",
@@ -247,6 +258,7 @@
         "sake",
         "shiso"
       ],
+      "recipeYield": null,
       "ingredients": [],
       "instructions": "Sbollentare la sovraccoscia di pollo in acqua bollente per un minuto, quindi scolarla e gettare l'acqua. Questo passaggio serve a pulire il pollo e a garantire un brodo più limpido. In una pentola, unire l'alga kombu, il pollo sbollentato, l'acqua, il sakè, la salsa di soia, il mirin e lo zucchero. Portare a leggero bollore. Cuocere a fuoco basso per 25 minuti, schiumando di tanto in tanto le impurità che affiorano in superficie. A metà cottura, dopo circa 12 minuti, girare il pollo. Al termine della cottura, togliere il pollo e l'alga kombu dalla pentola. Lasciare raffreddare il pollo e il brodo separatamente, poi trasferire il brodo in frigorifero per farlo diventare ben freddo. Preparare i condimenti: tagliare il pollo cotto a fettine sottili e condirlo con un pizzico di sale. Tritare finemente il myoga e le foglie di shiso. Cuocere i somen seguendo le istruzioni sulla confezione. Scolarli e passarli immediatamente in una ciotola con acqua fredda e ghiaccio per bloccare la cottura e renderli più sodi. Scolarli di nuovo molto bene. Prendere il brodo freddo dal frigorifero, aggiungere l'aceto e mescolare. Mettere i somen in una ciotola, versarvi sopra il brodo freddo e guarnire con il trito di myoga e shiso, le fettine di pollo e i germogli di ravanello."
     },
@@ -264,6 +276,7 @@
         "nori",
         "soba"
       ],
+      "recipeYield": "2 persone",
       "ingredients": [
         "200g di soba",
         "Cipolline verdi o negi",
@@ -286,6 +299,7 @@
         "shiso",
         "kombu"
       ],
+      "recipeYield": "1 persona",
       "ingredients": [
         "80g di Somen",
         "1 pomodoro maturo",
@@ -304,6 +318,7 @@
       "image": "https://paginegiappe.it/img/ricette/tori-dashi-nyumen.jpg",
       "category": "Noodles",
       "tags": [],
+      "recipeYield": "2 persone",
       "ingredients": [
         "Ossa di pollo (circa 300-400g, come ali o carcasse)",
         "3 litri d'acqua (divisi in due fasi)",
@@ -331,6 +346,7 @@
         "negi",
         "shoyu"
       ],
+      "recipeYield": null,
       "ingredients": [
         "Udon precotti",
         "1 confezione di Natto",
@@ -353,6 +369,7 @@
         "kizami_nori",
         "nori"
       ],
+      "recipeYield": null,
       "ingredients": [
         "1 confezione di Udon precotti",
         "Una noce di Burro",
@@ -371,6 +388,7 @@
       "tags": [
         "udon"
       ],
+      "recipeYield": null,
       "ingredients": [
         "Farina 00",
         "Farina manitoba",
@@ -391,6 +409,7 @@
         "katsuobushi",
         "beni_shoga"
       ],
+      "recipeYield": null,
       "ingredients": [
         "Udon precotti",
         "80g di fettine di maiale (preferibilmente una parte grassa; i vegetariani possono sostituirlo con dei funghi shiitake)",
@@ -417,6 +436,7 @@
         "katsuobushi",
         "shiitake"
       ],
+      "recipeYield": null,
       "ingredients": [
         "Pasta precotta a temperatura ambiente (ramen noodles o altra pasta)",
         "Salsa yakisoba circa 3-4 cucchiai",
@@ -441,6 +461,7 @@
         "kizami_nori",
         "nori"
       ],
+      "recipeYield": "2 persone",
       "ingredients": [
         "200g di spaghetti di grano saraceno"
       ],
@@ -460,6 +481,7 @@
         "vegan",
         "vegetarian"
       ],
+      "recipeYield": null,
       "ingredients": [
         "daikon",
         "acqua di lavaggio del riso",
@@ -481,6 +503,7 @@
         "mirin",
         "sake"
       ],
+      "recipeYield": null,
       "ingredients": [
         "Zucca (varietà Kabocha o Mantovana)",
         "Dashi (o Dashi Vegano) q.b.",
@@ -504,6 +527,7 @@
         "negi",
         "sake"
       ],
+      "recipeYield": null,
       "ingredients": [
         "1 kg di pancetta di maiale",
         "1 Cipolla verde o un negi",
@@ -526,6 +550,7 @@
       "tags": [
         "mirin"
       ],
+      "recipeYield": "4 persone",
       "ingredients": [
         "300g di manzo (taglio sottile o straccetti)",
         "2 patate grandi",
@@ -549,6 +574,7 @@
         "katsuobushi",
         "kombu"
       ],
+      "recipeYield": null,
       "ingredients": [
         "1.8 litri di acqua fredda",
         "30 grammi di alga kombu",
@@ -569,6 +595,7 @@
         "sake",
         "shiitake"
       ],
+      "recipeYield": null,
       "ingredients": [
         "100 ml di Sake da cucina",
         "200 ml di Mirin",
@@ -591,6 +618,7 @@
         "kombu",
         "shiitake"
       ],
+      "recipeYield": "circa 2 litri",
       "ingredients": [
         "2 litri di Acqua",
         "20-30g di Alga Kombu",
@@ -610,6 +638,7 @@
         "nori",
         "sesamo"
       ],
+      "recipeYield": null,
       "ingredients": [
         "Katsuobushi",
         "Alga Kombu (anche recuperati dal dashi)",
@@ -628,6 +657,7 @@
         "mirin",
         "sake"
       ],
+      "recipeYield": null,
       "ingredients": [
         "1 tazza e 1/2 di salsa di soia",
         "1 tazza di mirin",
@@ -645,6 +675,7 @@
       "tags": [
         "rice"
       ],
+      "recipeYield": null,
       "ingredients": [
         "3 cucchiai di ketchup",
         "2 cucchiai di salsa Worcestershire",
@@ -667,6 +698,7 @@
         "shoyu",
         "dashi"
       ],
+      "recipeYield": null,
       "ingredients": [
         "2 parti di salsa di soia",
         "1 parte e ½ di dashi",
@@ -683,6 +715,7 @@
       "image": null,
       "category": "Salse",
       "tags": [],
+      "recipeYield": null,
       "ingredients": [
         "3 cucchiai di salsa worcestershire",
         "1 cucchiaio di mentsuyu",
@@ -701,6 +734,7 @@
         "daikon",
         "mirin"
       ],
+      "recipeYield": null,
       "ingredients": [
         "3 parti dashi",
         "1 parte mirin",
@@ -720,6 +754,7 @@
         "potato_starch",
         "sake"
       ],
+      "recipeYield": null,
       "ingredients": [
         "1 parte di sake",
         "1 parte di mirin",
@@ -736,6 +771,7 @@
       "image": null,
       "category": "Salse",
       "tags": [],
+      "recipeYield": null,
       "ingredients": [
         "4 cucchiai di ketchup (preferibilmente uno dal sapore poco zuccherino)",
         "4 cucchiai di salsa Worcestershire (in Giappone si usa una salsa simile, più fruttata, ma la Worcestershire classica è un’ottima alternativa)",
@@ -753,6 +789,7 @@
       "image": null,
       "category": "Salse",
       "tags": [],
+      "recipeYield": null,
       "ingredients": [
         "2 cucchiai di Zucchero",
         "2 cucchiai di Ketchup",
@@ -772,6 +809,7 @@
         "mirin",
         "sake"
       ],
+      "recipeYield": null,
       "ingredients": [
         "1 tazza di salsa di soia",
         "1  tazza di mirin",
@@ -790,6 +828,7 @@
       "image": null,
       "category": "Sushi",
       "tags": [],
+      "recipeYield": null,
       "ingredients": [],
       "instructions": ""
     },
@@ -800,6 +839,7 @@
       "image": null,
       "category": "Sushi",
       "tags": [],
+      "recipeYield": null,
       "ingredients": [],
       "instructions": "Sciogliere completamente lo zucchero e il sale nell'aceto, aggiungere l'alga e lasciare riposare per 24 ore in frigorifero. Dopo 24 ore, filtrare e imbottigliare, ed e' pronto per l'uso."
     },
@@ -812,6 +852,7 @@
       "tags": [
         "rice"
       ],
+      "recipeYield": null,
       "ingredients": [
         "1 misurino preciso di Riso giapponese (varietà Japonica o Originario)",
         "1 misurino (più mezzo centimetro) di acqua fredda"
@@ -830,6 +871,7 @@
         "rice",
         "sake"
       ],
+      "recipeYield": "2 persone",
       "ingredients": [
         "riso bianco",
         "300 g di manzo, io uso il cappello del prete tagliato a macchina, e' meglio usare un taglio molto grasso",
@@ -852,6 +894,7 @@
       "tags": [
         "rice"
       ],
+      "recipeYield": "1 persona",
       "ingredients": [
         "Una ciotola di Riso caldo",
         "150g di Carne macinata a piacere (manzo, maiale o mista)",
@@ -876,6 +919,7 @@
         "katsuobushi",
         "nori"
       ],
+      "recipeYield": null,
       "ingredients": [
         "Riso bianco (ben caldo)",
         "Nira (erba aglina)",
@@ -898,6 +942,7 @@
         "nori",
         "rice"
       ],
+      "recipeYield": "2 onigiri",
       "ingredients": [
         "1 tazza di Riso per sushi",
         "1 tazza e un cicinino di più di acqua",
@@ -918,6 +963,7 @@
         "rice",
         "nori"
       ],
+      "recipeYield": null,
       "ingredients": [
         "Riso bianco cotto al vapore (deve essere bello fumante)",
         "Kimchi",
@@ -939,6 +985,7 @@
         "rice",
         "sake"
       ],
+      "recipeYield": "1 persona",
       "ingredients": [
         "riso bianco",
         "2 uova grandi",
@@ -968,6 +1015,7 @@
         "pollo",
         "uova"
       ],
+      "recipeYield": "2 persone",
       "ingredients": [
         "Riso bianco cotto al vapore q.b.",
         "2 uova",
@@ -994,6 +1042,7 @@
         "rice",
         "shoyu"
       ],
+      "recipeYield": "2 persone",
       "ingredients": [
         "2 misurini di Riso (circa 300g)",
         "120-150g di Germogli di bambù già bolliti",
@@ -1016,6 +1065,7 @@
         "sake",
         "negi"
       ],
+      "recipeYield": null,
       "ingredients": [
         "1 misurino di Riso bianco varietà originario",
         "Tofu fritto (Aburaage)",
@@ -1040,6 +1090,7 @@
         "rice",
         "shiitake"
       ],
+      "recipeYield": "1 persona",
       "ingredients": [
         "1 tazza di riso",
         "1 cucchiaio di salsa di soia",
@@ -1059,6 +1110,7 @@
       "image": "https://paginegiappe.it/img/ricette/bieta-ohitashi.jpg",
       "category": "Contorni",
       "tags": [],
+      "recipeYield": null,
       "ingredients": [
         "1 mazzo di bieta gialla (facilmente reperibile anche in Italia)",
         "120 ml di Dashi (anche in versione vegana)",
@@ -1079,6 +1131,7 @@
         "sides",
         "katsuobushi"
       ],
+      "recipeYield": null,
       "ingredients": [
         "1 testa di broccoli",
         "1 cucchiaio di olio di sesamo (facoltativo ma consigliato)",
@@ -1099,6 +1152,7 @@
         "mirin",
         "shoyu"
       ],
+      "recipeYield": null,
       "ingredients": [
         "2 mazzi di Spinaci",
         "1 cucchiaino colmo di Sale (per la bollitura)"
@@ -1119,6 +1173,7 @@
         "shoyu",
         "sesamo"
       ],
+      "recipeYield": null,
       "ingredients": [
         "Bucce di daikon",
         "Bucce di carota",
@@ -1141,6 +1196,7 @@
         "sesamo",
         "shiso"
       ],
+      "recipeYield": null,
       "ingredients": [
         "2 Melanzane grandi (circa 300g)",
         "5 foglie di Shiso",
@@ -1160,6 +1216,7 @@
         "rice",
         "sake"
       ],
+      "recipeYield": null,
       "ingredients": [
         "1 confezione di Funghi Enoki",
         "2 cucchiai di Salsa di Soia",
@@ -1181,6 +1238,7 @@
         "vegetarian",
         "vegan"
       ],
+      "recipeYield": null,
       "ingredients": [],
       "instructions": "Metti subito a scaldare il grill del forno Tagliare la melanzana in 2, e inciderla a losanga (profondità’ 4-5 mm) per farla cuocere più’ uniformemente Mettere le melanzane in una padella con poco olio (arachide o girasole) caldo, dal lato della pelle, e farle cuocere senza coperchio per 2-3 minuti, girarle e farle cuocere dall’altro lato per altri 2-3 minuti. Se sono molto spesse mettere il coperchio. Mettere le melanzane in una teglia e spennellarle con la glassatura di miso, finire la cottura in forno con il grill al massimo, per 5 minuti o finche non sono dorate Vacci piano col miso che senno’ ti vengono salate Guarnire con negi (o cipolline)"
     },
@@ -1196,6 +1254,7 @@
         "mirin",
         "shiso"
       ],
+      "recipeYield": null,
       "ingredients": [],
       "instructions": "Preparare il brodo di marinatura mescolando in una caraffa l'acqua, la salsa di soia, il mirin, lo zucchero, il dashi in polvere e lo zenzero grattugiato. Lavare e asciugare molto bene le melanzane. Rimuovere il picciolo e tagliarle a metà per il lungo. Con un coltello, incidere la superficie della buccia con tagli diagonali poco profondi, per favorire la cottura e l'assorbimento del sapore. Disporre le melanzane in una padella capiente. Spennellarle uniformemente su tutta la superficie (prima la buccia, poi la polpa) con i due cucchiai di olio. Cuocere a fuoco medio con la buccia rivolta verso il basso per circa 2-3 minuti. Girare le melanzane, abbassare la fiamma al minimo, coprire con un coperchio e cuocere lentamente finché la polpa non sarà tenera e ben dorata. Versare il brodo preparato direttamente nella padella sopra le melanzane. Alzare la fiamma a fuoco medio e portare a ebollizione. Appena il liquido bolle, spegnere immediatamente il fuoco. Trasferire con delicatezza le melanzane e tutto il loro brodo in un contenitore per alimenti. Lasciare raffreddare completamente a temperatura ambiente, dopodiché coprire e riporre in frigorifero a insaporire per almeno 3 ore. Servire le melanzane fredde, irrorandole con il loro brodo di marinatura e guarnendo a piacere con foglie di shiso tritate o katsuobushi."
     },
@@ -1212,6 +1271,7 @@
         "mirin",
         "rice"
       ],
+      "recipeYield": null,
       "ingredients": [
         "Patate a pasta gialla 1 kg",
         "Maionese Kewpie 250 ml circa (regolabili a piacere)",
@@ -1242,6 +1302,7 @@
         "sake",
         "sesamo"
       ],
+      "recipeYield": null,
       "ingredients": [
         "1 Melanzana",
         "Fecola di patate",
@@ -1267,6 +1328,7 @@
         "rice",
         "sake"
       ],
+      "recipeYield": null,
       "ingredients": [
         "450g daikon",
         "1 peperoncino rosso secco",
@@ -1290,6 +1352,7 @@
         "sesamo",
         "shoyu"
       ],
+      "recipeYield": null,
       "ingredients": [
         "500g di Daikon",
         "Sale (circa 2 cucchiai abbondanti per la spurgatura)",
@@ -1308,6 +1371,7 @@
       "image": null,
       "category": "Marinati",
       "tags": [],
+      "recipeYield": null,
       "ingredients": [
         "250g zenzero fresco",
         "1 cucchiaino di sale fino"
@@ -1323,6 +1387,7 @@
       "tags": [
         "senape_karashi"
       ],
+      "recipeYield": null,
       "ingredients": [
         "1 Cetriolo",
         "Sale q.b.",
@@ -1342,6 +1407,7 @@
         "miso",
         "sake"
       ],
+      "recipeYield": null,
       "ingredients": [
         "150g miso chiaro",
         "25ml di sake",
@@ -1359,6 +1425,7 @@
       "tags": [
         "rice"
       ],
+      "recipeYield": null,
       "ingredients": [
         "1 tazza di spicchi di aglio",
         "3/4 tazza di zucchero (a me sembra troppa)",
@@ -1377,6 +1444,7 @@
         "azuki",
         "mochi"
       ],
+      "recipeYield": null,
       "ingredients": [
         "fagioli azuki",
         "zucchero di canna",
@@ -1398,6 +1466,7 @@
         "sesamo",
         "shiitake"
       ],
+      "recipeYield": null,
       "ingredients": [
         "250g di carne di maiale macinata, preferite un taglio grasso come il collo.",
         "500g di cavolo cinese",
@@ -1424,6 +1493,7 @@
         "vegan",
         "nori"
       ],
+      "recipeYield": null,
       "ingredients": [
         "Kirimochi (panetti di riso glutinoso essiccati)",
         "Salsa di soia (Shoyu)",
@@ -1442,6 +1512,7 @@
         "potato_starch",
         "sake"
       ],
+      "recipeYield": null,
       "ingredients": [
         "4 fettine di arista di maiale, sottili ma non troppo, meno di 1 cm",
         "fecola di patate per infarinare leggermente le fettine"
@@ -1460,6 +1531,7 @@
         "miso",
         "negi"
       ],
+      "recipeYield": null,
       "ingredients": [
         "Germoglio di bambù (Takenoko) precotto e tagliato a fette",
         "Carne trita di pollo o di maiale",
@@ -1480,6 +1552,7 @@
       "image": null,
       "category": "Griglia",
       "tags": [],
+      "recipeYield": "1 persona",
       "ingredients": [
         "1 sovracoscia di pollo (preferibilmente con la pelle)",
         "3 cucchiai di Mirin",
@@ -1496,6 +1569,7 @@
       "image": "https://paginegiappe.it/img/ricette/yakitori.webp",
       "category": "Griglia",
       "tags": [],
+      "recipeYield": null,
       "ingredients": [],
       "instructions": ""
     },
@@ -1510,6 +1584,7 @@
         "negi",
         "wakame"
       ],
+      "recipeYield": "1 porzione",
       "ingredients": [
         "1 tazza di dashi",
         "1 cucchiaio di miso",
@@ -1532,6 +1607,7 @@
         "sesame_oil",
         "sesamo"
       ],
+      "recipeYield": null,
       "ingredients": [
         "Un pezzo di Daikon",
         "1 Carota piccola",
@@ -1552,6 +1628,7 @@
         "potato_starch",
         "shiitake"
       ],
+      "recipeYield": null,
       "ingredients": [
         "Mezzo panetto di Tofu",
         "1 Uovo",
@@ -1579,6 +1656,7 @@
         "sesame_oil",
         "sesamo"
       ],
+      "recipeYield": "4 persone",
       "ingredients": [
         "250g di Pancetta di maiale (tagliata sottile)",
         "250g di Daikon",
@@ -1609,6 +1687,7 @@
         "miso",
         "wakame"
       ],
+      "recipeYield": null,
       "ingredients": [
         "Dashi vegano (brodo di alga kombu e funghi shiitake)",
         "1 cucchiaio abbondante di Miso (nel video si usa il miso rosso o akamiso)",
@@ -1630,6 +1709,7 @@
         "wakame",
         "shoyu"
       ],
+      "recipeYield": null,
       "ingredients": [
         "Germoglio di bambù (Takenoko) precotto e tagliato a fette",
         "Dashi",
@@ -1652,6 +1732,7 @@
         "miso",
         "shiitake"
       ],
+      "recipeYield": null,
       "ingredients": [
         "1 litro di Acqua fredda",
         "1-2 pezzi di Alga Kombu",

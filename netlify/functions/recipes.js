@@ -33,9 +33,22 @@ function servingsNote(recipe, servings) {
   return `Le dosi indicate sono per ${base} ${base === 1 ? 'persona' : 'persone'}. Per ${servings} persone moltiplica ogni ingrediente × ${mult}.`;
 }
 
+/** Normalizza per il match ingredienti: minuscolo, no accenti, _ e - → spazio. */
+function normalizeIng(s) {
+  return s
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')
+    .replace(/[_-]+/g, ' ')
+    .trim();
+}
+
 function matchesIngredient(recipe, ingredient) {
-  const needle = ingredient.toLowerCase();
-  return recipe.ingredients.some((ing) => ing.toLowerCase().includes(needle));
+  const needle = normalizeIng(ingredient);
+  // Cerca sia nella lista ingredienti estesa che nei tag canonici (es. "shoyu", "potato_starch")
+  const inIngredients = recipe.ingredients.some((ing) => normalizeIng(ing).includes(needle));
+  const inTags = (recipe.tags ?? []).some((t) => normalizeIng(t).includes(needle));
+  return inIngredients || inTags;
 }
 
 function matchesQuery(recipe, tokens) {
@@ -80,6 +93,8 @@ exports.handler = async (event) => {
     }
   }
 
+  const totalMatches = results.length;
+
   results = results.slice(0, limit).map((r) => ({
     title: r.title,
     description: r.description,
@@ -87,6 +102,7 @@ exports.handler = async (event) => {
     image: r.image,
     category: r.category,
     tags: r.tags,
+    recipeYield: r.recipeYield ?? null,
     ingredients: r.ingredients,
     instructions: r.instructions,
     ...(servings ? { servings_note: servingsNote(r, servings) } : {}),
@@ -99,6 +115,6 @@ exports.handler = async (event) => {
       'Content-Type': 'application/json',
       'Cache-Control': 'public, max-age=300',
     },
-    body: JSON.stringify({ total: results.length, servings: servings ?? null, results }),
+    body: JSON.stringify({ total: totalMatches, returned: results.length, servings: servings ?? null, results }),
   };
 };

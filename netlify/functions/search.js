@@ -38,31 +38,40 @@ exports.handler = async (event) => {
 
   const algoliaUrl = `https://${ALGOLIA_APP_ID}-dsn.algolia.net/1/indexes/${ALGOLIA_INDEX}/query`;
 
-  const algoliaRes = await fetch(algoliaUrl, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'X-Algolia-Application-Id': ALGOLIA_APP_ID,
-      'X-Algolia-API-Key': ALGOLIA_SEARCH_KEY,
-    },
-    body: JSON.stringify({
-      query: q,
-      hitsPerPage,
-      attributesToRetrieve: ['url', 'hierarchy', 'content', 'type'],
-      attributesToHighlight: [],
-      distinct: 1,
-    }),
-  });
+  let data;
+  try {
+    const algoliaRes = await fetch(algoliaUrl, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-Algolia-Application-Id': ALGOLIA_APP_ID,
+        'X-Algolia-API-Key': ALGOLIA_SEARCH_KEY,
+      },
+      body: JSON.stringify({
+        query: q,
+        hitsPerPage,
+        attributesToRetrieve: ['url', 'hierarchy', 'content', 'type'],
+        attributesToHighlight: [],
+        distinct: 1,
+      }),
+    });
 
-  if (!algoliaRes.ok) {
+    if (!algoliaRes.ok) {
+      return {
+        statusCode: 502,
+        headers: { ...CORS, 'Content-Type': 'application/json' },
+        body: JSON.stringify({ error: 'Errore Algolia', status: algoliaRes.status }),
+      };
+    }
+
+    data = await algoliaRes.json();
+  } catch (err) {
     return {
       statusCode: 502,
       headers: { ...CORS, 'Content-Type': 'application/json' },
-      body: JSON.stringify({ error: 'Errore Algolia', status: algoliaRes.status }),
+      body: JSON.stringify({ error: 'Algolia non raggiungibile', detail: String(err.message ?? err) }),
     };
   }
-
-  const data = await algoliaRes.json();
 
   // Trasforma gli hit Algolia in un formato pulito per i LLM.
   // Deduplica per URL base (senza anchor #section) tenendo il primo hit per pagina.
