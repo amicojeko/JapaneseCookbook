@@ -33,8 +33,8 @@ function servingsNote(recipe, servings) {
   return `Le dosi indicate sono per ${base} ${base === 1 ? 'persona' : 'persone'}. Per ${servings} persone moltiplica ogni ingrediente × ${mult}.`;
 }
 
-/** Normalizza per il match ingredienti: minuscolo, no accenti, _ e - → spazio. */
-function normalizeIng(s) {
+/** Normalizza: minuscolo, no accenti, _ e - → spazio. */
+function norm(s) {
   return s
     .toLowerCase()
     .normalize('NFD')
@@ -43,21 +43,37 @@ function normalizeIng(s) {
     .trim();
 }
 
-function matchesIngredient(recipe, ingredient) {
-  const needle = normalizeIng(ingredient);
-  // Cerca sia nella lista ingredienti estesa che nei tag canonici (es. "shoyu", "potato_starch")
-  const inIngredients = recipe.ingredients.some((ing) => normalizeIng(ing).includes(needle));
-  const inTags = (recipe.tags ?? []).some((t) => normalizeIng(t).includes(needle));
-  return inIngredients || inTags;
+/**
+ * Match morfologico tra due termini: combaciano se uno contiene l'altro,
+ * oppure se condividono un prefisso di almeno 4 caratteri. Gestisce le
+ * declinazioni italiane senza un dizionario: "vegana"/"vegane"/"vegano" → "vegan",
+ * "vegetariana" → "vegetarian", "marinati" → "marinato", ecc.
+ */
+function looseMatch(a, b) {
+  a = norm(a);
+  b = norm(b);
+  if (!a || !b) return false;
+  if (a.includes(b) || b.includes(a)) return true;
+  let i = 0;
+  while (i < a.length && i < b.length && a[i] === b[i]) i++;
+  return i >= 4;
 }
 
+/** Il recipe ha un tag che combacia (morfologicamente) col termine. */
+function matchesTag(recipe, term) {
+  return (recipe.tags ?? []).some((t) => looseMatch(t, term));
+}
+
+function matchesIngredient(recipe, ingredient) {
+  const needle = norm(ingredient);
+  const inIngredients = recipe.ingredients.some((ing) => norm(ing).includes(needle));
+  return inIngredients || matchesTag(recipe, ingredient);
+}
+
+/** Ogni token deve comparire nel titolo/descrizione/categoria o combaciare con un tag. */
 function matchesQuery(recipe, tokens) {
-  const haystack = [recipe.title, recipe.description, ...(recipe.tags ?? []), recipe.category]
-    .filter(Boolean)
-    .join(' ')
-    .toLowerCase();
-  const normalized = haystack + ' ' + haystack.replace(/-/g, '');
-  return tokens.every((t) => normalized.includes(t));
+  const text = norm([recipe.title, recipe.description, recipe.category].filter(Boolean).join(' '));
+  return tokens.every((t) => text.includes(norm(t)) || matchesTag(recipe, t));
 }
 
 exports.handler = async (event) => {
@@ -68,6 +84,7 @@ exports.handler = async (event) => {
   const params = event.queryStringParameters ?? {};
   const q = (params.q ?? '').trim();
   const ingredient = (params.ingredient ?? '').trim();
+  const tag = (params.tag ?? '').trim();
   const category = (params.category ?? '').trim().toLowerCase();
   const servings = params.servings ? parseInt(params.servings, 10) : null;
   const limit = Math.min(parseInt(params.limit ?? '10', 10) || 10, 30);
@@ -77,6 +94,7 @@ exports.handler = async (event) => {
   let results = knowledge.ricette.filter((r) => {
     if (tokens.length && !matchesQuery(r, tokens)) return false;
     if (ingredient && !matchesIngredient(r, ingredient)) return false;
+    if (tag && !matchesTag(r, tag)) return false;
     if (category && r.category?.toLowerCase() !== category) return false;
     return true;
   });

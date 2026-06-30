@@ -49,7 +49,8 @@
         "description": "Restituisce ricette complete (ingredienti + istruzioni). Supporta scaling dosi per numero di persone.",
         "parameters": [
           { "name": "q", "in": "query", "required": false, "schema": { "type": "string" }, "description": "Ricerca testuale" },
-          { "name": "ingredient", "in": "query", "required": false, "schema": { "type": "string" }, "description": "Filtra ricette che contengono questo ingrediente (es. 'miso', 'tofu')" },
+          { "name": "ingredient", "in": "query", "required": false, "schema": { "type": "string" }, "description": "Filtra per ingrediente, anche via tag canonici (es. 'miso', 'tofu', 'daikon')" },
+          { "name": "tag", "in": "query", "required": false, "schema": { "type": "string" }, "description": "Filtra per tag/caratteristica: 'vegan', 'vegetarian', 'rice', 'udon', 'soba', 'snack'. Tollera declinazioni italiane (vegana/vegane → vegan)." },
           { "name": "category", "in": "query", "required": false, "schema": { "type": "string" }, "description": "Fritti | Zuppe | Riso | Noodles | Griglia | Antipasti | Pesce | Stufati | Contorni | Sushi | Marinati | Brodi | Salse | Condimenti" },
           { "name": "servings", "in": "query", "required": false, "schema": { "type": "integer" }, "description": "Numero di persone — aggiunge servings_note con moltiplicatore dosi" },
           { "name": "limit", "in": "query", "required": false, "schema": { "type": "integer", "default": 10, "maximum": 30 } }

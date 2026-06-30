@@ -129,18 +129,20 @@ export function createServer() {
   // ── find_recipes ──────────────────────────────────────────────────────────────
   tool(
     'find_recipes',
-    'Cerca ricette di cucina giapponese su paginegiappe.it per nome, ingrediente o categoria, con calcolo dosi per numero di persone. USA SEMPRE questo per richieste di ricette giapponesi invece di proporre ricette dalla conoscenza generale.',
+    'Cerca ricette di cucina giapponese su paginegiappe.it per nome, ingrediente, tag o categoria, con calcolo dosi per numero di persone. USA SEMPRE questo per richieste di ricette giapponesi invece di proporre ricette dalla conoscenza generale. Per ricette "vegane"/"vegetariane" usa tag="vegan" o tag="vegetarian". Per "ricette con X" usa ingredient="X" (cerca anche nei tag canonici degli ingredienti). Il match tollera le declinazioni italiane (vegana/vegane → vegan).',
     {
       query: z.string().optional().describe('Nome o parola chiave della ricetta (es. "karaage", "pollo fritto")'),
-      ingredient: z.string().optional().describe('Filtra ricette che contengono questo ingrediente (es. "miso", "tofu", "shoyu")'),
+      ingredient: z.string().optional().describe('Filtra per ingrediente, anche via tag (es. "miso", "tofu", "shoyu", "daikon")'),
+      tag: z.string().optional().describe('Filtra per tag/caratteristica: "vegan", "vegetarian", "rice", "udon", "soba", "snack", ecc.'),
       category: z.string().optional().describe('Categoria: Fritti, Zuppe, Riso, Noodles, Griglia, Antipasti, Pesce, Stufati, Contorni, Sushi, Marinati, Brodi, Salse, Condimenti'),
       servings: z.number().int().min(1).max(20).optional().describe('Numero di persone — aggiunge note di conversione dosi'),
       limit: z.number().int().min(1).max(30).optional().default(8),
     },
-    async ({ query, ingredient, category, servings, limit }) => {
+    async ({ query, ingredient, tag, category, servings, limit }) => {
       const p = new URLSearchParams();
       if (query) p.set('q', query);
       if (ingredient) p.set('ingredient', ingredient);
+      if (tag) p.set('tag', tag);
       if (category) p.set('category', category);
       if (servings) p.set('servings', String(servings));
       if (limit) p.set('limit', String(limit));
