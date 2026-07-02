@@ -108,7 +108,8 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "image": "/img/ricette/hiyashi_nasu.jpg",
     "recipeCategory": "Antipasti",
     "recipeKeywords": [
-      "katsuobushi"
+      "katsuobushi",
+      "estivo"
     ],
     "recipeYield": null,
     "recipeIngredient": [
@@ -129,7 +130,8 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "recipeCategory": "Antipasti",
     "recipeKeywords": [
       "katsuobushi",
-      "negi"
+      "negi",
+      "estivo"
     ],
     "recipeYield": null,
     "recipeIngredient": [
@@ -153,7 +155,8 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "recipeCategory": "Antipasti",
     "recipeKeywords": [
       "kewpie",
-      "teriyaki"
+      "teriyaki",
+      "estivo"
     ],
     "recipeYield": null,
     "recipeIngredient": [
@@ -179,7 +182,8 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "recipeKeywords": [
       "sesame_oil",
       "sesamo",
-      "wakame"
+      "wakame",
+      "estivo"
     ],
     "recipeYield": null,
     "recipeIngredient": [
@@ -271,7 +275,8 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "recipeCategory": "Noodles",
     "recipeKeywords": [
       "udon",
-      "daikon"
+      "daikon",
+      "estivo"
     ],
     "recipeYield": null,
     "recipeIngredient": [
@@ -298,7 +303,8 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "kombu",
       "mirin",
       "sake",
-      "shiso"
+      "shiso",
+      "estivo"
     ],
     "recipeYield": null,
     "recipeIngredient": [],
@@ -318,7 +324,8 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "natto",
       "negi",
       "nori",
-      "soba"
+      "soba",
+      "estivo"
     ],
     "recipeYield": "2 persone",
     "recipeIngredient": [
@@ -343,7 +350,8 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "somen",
       "tsuyu",
       "shiso",
-      "kombu"
+      "kombu",
+      "estivo"
     ],
     "recipeYield": "1 persona",
     "recipeIngredient": [
@@ -398,7 +406,8 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "natto",
       "shiso",
       "negi",
-      "shoyu"
+      "shoyu",
+      "estivo"
     ],
     "recipeYield": null,
     "recipeIngredient": [
@@ -522,7 +531,8 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "recipeKeywords": [
       "daikon",
       "kizami_nori",
-      "nori"
+      "nori",
+      "estivo"
     ],
     "recipeYield": "2 persone",
     "recipeIngredient": [
@@ -565,7 +575,8 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "recipeKeywords": [
       "vegan",
       "mirin",
-      "sake"
+      "sake",
+      "autunnale"
     ],
     "recipeYield": null,
     "recipeIngredient": [
@@ -593,7 +604,8 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "kombu",
       "mirin",
       "negi",
-      "sake"
+      "sake",
+      "invernale"
     ],
     "recipeYield": null,
     "recipeIngredient": [
@@ -618,7 +630,8 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "image": "/img/ricette/nikujaga.jpg",
     "recipeCategory": "Stufati",
     "recipeKeywords": [
-      "mirin"
+      "mirin",
+      "invernale"
     ],
     "recipeYield": "4 persone",
     "recipeIngredient": [
@@ -1097,6 +1110,35 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     ],
     "datePublished": "2026-04-01T19:49:18+02:00"
   },
+  "ricette/riso/onigiri_sakura_ebi": {
+    "docId": "ricette/riso/onigiri_sakura_ebi",
+    "title": "Onigiri ai Sakura Ebi",
+    "description": "Una ricetta deliziosa per preparare i \"maze onigiri\" con Sakura Ebi (microgamberetti rosa), erba cipollina, sesamo e alga shio kombu.",
+    "image": "/img/ricette/onigiri_sakura_ebi.jpg",
+    "recipeCategory": "Riso",
+    "recipeKeywords": [
+      "rice",
+      "sesamo",
+      "shoyu",
+      "kombu",
+      "sakura ebi"
+    ],
+    "recipeYield": null,
+    "recipeIngredient": [
+      "Riso bianco caldo per onigiri",
+      "Sakura Ebi (microgamberetti rosa secchi)",
+      "Erba cipollina fresca tritata",
+      "Semi di Sesamo",
+      "Salsa di soia (Shoyu)",
+      "Shio Kombu (alga kombu sotto sale)",
+      "Acqua e sale per la formatura"
+    ],
+    "instructionsText": "Per iniziare, versate il riso caldo appena cotto in una ciotola capiente. Aggiungete i delicati Sakura Ebi, l'erba cipollina fresca tritata, una spolverata di semi di sesamo e un filo di salsa di soia. Con l'aiuto di una spatola (shamoji), mescolate il tutto con cura. È fondamentale utilizzare un movimento \"convettivo\", dal basso verso l'alto, per non schiacciare i chicchi di riso. Aggiungete anche lo shio kombu, che agirà da vero e proprio \"turbo\" per il sapore, donando una spinta di umami incredibile. Mescolate nuovamente fino a distribuire tutti gli ingredienti in modo uniforme. Ora è il momento di formare gli onigiri. Bagnatevi le mani con dell'acqua e salatele abbondantemente. Prelevate una porzione di riso condito (se lo desiderate, potete aggiungere un cuore di prugna umeboshi al centro) e chiudetela delicatamente. Iniziate a \"striangolare\" la polpetta tra i palmi delle mani per darle la classica forma. I vostri onigiri ai Sakura Ebi sono pronti per essere gustati o confezionati per un pranzo fuori casa!",
+    "videoIds": [
+      "3kV_q6itqko"
+    ],
+    "datePublished": null
+  },
   "ricette/riso/oyakodon": {
     "docId": "ricette/riso/oyakodon",
     "title": "Oyakodon",
@@ -1170,7 +1212,8 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "takenoko",
       "mirin",
       "rice",
-      "shoyu"
+      "shoyu",
+      "primaverile"
     ],
     "recipeYield": "2 persone",
     "recipeIngredient": [
@@ -1195,7 +1238,8 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "shoyu",
       "mirin",
       "sake",
-      "negi"
+      "negi",
+      "primaverile"
     ],
     "recipeYield": null,
     "recipeIngredient": [
@@ -1720,7 +1764,8 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "takenoko",
       "sesame_oil",
       "miso",
-      "negi"
+      "negi",
+      "primaverile"
     ],
     "recipeYield": null,
     "recipeIngredient": [
@@ -1850,7 +1895,8 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "konnyaku",
       "miso",
       "sesame_oil",
-      "sesamo"
+      "sesamo",
+      "invernale"
     ],
     "recipeYield": "4 persone",
     "recipeIngredient": [
@@ -1909,7 +1955,8 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "takenoko",
       "dashi",
       "wakame",
-      "shoyu"
+      "shoyu",
+      "primaverile"
     ],
     "recipeYield": null,
     "recipeIngredient": [
