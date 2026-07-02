@@ -1137,7 +1137,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "3kV_q6itqko"
     ],
-    "datePublished": null
+    "datePublished": "2026-07-02T18:39:27+02:00"
   },
   "ricette/riso/oyakodon": {
     "docId": "ricette/riso/oyakodon",
