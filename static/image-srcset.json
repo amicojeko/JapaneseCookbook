@@ -776,6 +776,13 @@
     "width": 640,
     "height": 640
   },
+  "ingredienti/sakura_ebi.jpg": {
+    "hash": "c482d01a496b6034c0533961daac24c9",
+    "original": "/img/ingredienti/sakura_ebi.jpg",
+    "srcset": "/img/ingredienti/sakura_ebi-320w.webp 320w, /img/ingredienti/sakura_ebi-640w.webp 640w, /img/ingredienti/sakura_ebi-1280w.webp 1280w, /img/ingredienti/sakura_ebi-1600w.webp 1600w",
+    "width": 1672,
+    "height": 941
+  },
   "ingredienti/sesame-1.jpg": {
     "hash": "d3ed923a319c00db60b06fb29398ec15",
     "original": "/img/ingredienti/sesame-1.jpg",
@@ -1125,6 +1132,13 @@
     "srcset": "/img/ricette/onigiri_kimchi_asiago-320w.webp 320w, /img/ricette/onigiri_kimchi_asiago-640w.webp 640w, /img/ricette/onigiri_kimchi_asiago-1280w.webp 1280w, /img/ricette/onigiri_kimchi_asiago-1600w.webp 1600w",
     "width": 1917,
     "height": 1431
+  },
+  "ricette/onigiri_sakura_ebi.jpg": {
+    "hash": "b3fc5a68294ed5d6c29adf6c5393f5a8",
+    "original": "/img/ricette/onigiri_sakura_ebi.jpg",
+    "srcset": "/img/ricette/onigiri_sakura_ebi-320w.webp 320w, /img/ricette/onigiri_sakura_ebi-640w.webp 640w, /img/ricette/onigiri_sakura_ebi-1280w.webp 1280w, /img/ricette/onigiri_sakura_ebi-1600w.webp 1600w",
+    "width": 1672,
+    "height": 941
   },
   "ricette/oshiruko.jpg": {
     "hash": "2a4d4315a04020f0c6e862a083baf9c0",

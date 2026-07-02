@@ -2,7 +2,7 @@
   "meta": {
     "site": "https://paginegiappe.it",
     "description": "Guida italiana alla cucina giapponese: ricette autentiche, ingredienti, negozi orientali in Italia, strumenti, viaggi e cultura gastronomica.",
-    "generated": "2026-06-30T18:04:59.284Z",
+    "generated": "2026-07-02T17:10:52.088Z",
     "version": 1
   },
   "ricette": [
@@ -987,6 +987,31 @@
       "instructions": "Una cosa che amo del Giappone e dei giapponesi è che, per quanto abbiano una tradizione culinaria antichissima e fortissima, sono molto più aperti alle contaminazioni di noi. Spesso i gusti personali prevalgono sulla più antica delle tradizioni. Questa ricetta è l'esempio perfetto di questa apertura: uniamo il classico riso bianco giapponese a ingredienti apparentemente lontani, come il kimchi coreano e il formaggio Asiago. L'Asiago si rivela una scelta azzeccatissima, poiché ricorda molto alcuni formaggi prodotti nella regione dell'Hokkaido. Il risultato è un onigiri croccante fuori, filante dentro e dal sapore esplosivo.\n\nIniziamo la preparazione tritando finemente al coltello il kimchi e grattugiando il formaggio Asiago. In una ciotola capiente, uniamo questi due ingredienti al riso. È fondamentale che il riso sia ancora ben caldo, mi raccomando bello fumante, affinché i sapori si amalgamino perfettamente e il formaggio inizi a sciogliersi. Mescoliamo il composto con gran delicatezza: non vogliamo fare un pappone.\n\nPassiamo ora alla formatura. Ci bagniamo ben bene le mani con l'acqua per impedire al riso di appiccicarsi e iniziamo a striangolare il composto, compattandolo fino a dargli la classica forma a triangolo. Non preoccupatevi se all'inizio non vengono dei bellissimi onigiri. Un trucco professionale per assicurarci che tengano bene la forma è avvolgere ogni onigiri con della pellicola da cucina e farli riposare per una mezz'oretta, affinché si compattino bene.\n\nTrascorso il tempo di riposo, ungiamo una padella con un po' di olio di semi e la scaldiamo a fuoco basso. Adagiamo delicatamente i nostri onigiri e li facciamo croccare a fiamma bassa da tutti i lati, ma proprio tutti.\n\nPer completare, come dei veri professionisti, facciamo croccare la nostra alga nori passandola rapidamente a fiamma viva sul fornello. Capirete che è bella secca quando si spezzerà da sola. Aggiungiamo l'alga all'ultimo momento, a mo' di tovagliolino edibile, in maniera che rimanga bella croccante mentre addentiamo il nostro onigiri filante e saporito."
     },
     {
+      "title": "Onigiri ai Sakura Ebi",
+      "description": "Una ricetta deliziosa per preparare i \"maze onigiri\" con Sakura Ebi (microgamberetti rosa), erba cipollina, sesamo e alga shio kombu.",
+      "url": "https://paginegiappe.it/ricette/onigiri-sakura-ebi/",
+      "image": "https://paginegiappe.it/img/ricette/onigiri_sakura_ebi.jpg",
+      "category": "Riso",
+      "tags": [
+        "rice",
+        "sesamo",
+        "shoyu",
+        "kombu",
+        "sakura ebi"
+      ],
+      "recipeYield": null,
+      "ingredients": [
+        "Riso bianco caldo per onigiri",
+        "Sakura Ebi (microgamberetti rosa secchi)",
+        "Erba cipollina fresca tritata",
+        "Semi di Sesamo",
+        "Salsa di soia (Shoyu)",
+        "Shio Kombu (alga kombu sotto sale)",
+        "Acqua e sale per la formatura"
+      ],
+      "instructions": "Questa ricetta è perfetta per preparare degli onigiri dal sapore unico e delicato, ideali da portare con sé per un pranzo veloce o un viaggio in treno. I protagonisti di questa preparazione sono i Sakura Ebi, dei microgamberetti rosa giapponesi che ricordano i delicati petali di ciliegio. Prepareremo dei maze onigiri, ovvero delle polpette in cui gli ingredienti vengono mescolati direttamente nel riso, arricchendoli con erba cipollina e shio kombu per un'esplosione di umami.\n\nPer iniziare, versate il riso caldo appena cotto in una ciotola capiente. Aggiungete i delicati Sakura Ebi, l'erba cipollina fresca tritata, una spolverata di semi di sesamo e un filo di salsa di soia.\n\nCon l'aiuto di una spatola (shamoji), mescolate il tutto con cura. È fondamentale utilizzare un movimento \"convettivo\", dal basso verso l'alto, per non schiacciare i chicchi di riso. Aggiungete anche lo shio kombu, che agirà da vero e proprio \"turbo\" per il sapore, donando una spinta di umami incredibile. Mescolate nuovamente fino a distribuire tutti gli ingredienti in modo uniforme.\n\nOra è il momento di formare gli onigiri. Bagnatevi le mani con dell'acqua e salatele abbondantemente. Prelevate una porzione di riso condito (se lo desiderate, potete aggiungere un cuore di prugna umeboshi al centro) e chiudetela delicatamente. Iniziate a \"striangolare\" la polpetta tra i palmi delle mani per darle la classica forma.\n\nRicordate la regola d'oro: modellate l'onigiri senza premere troppo, in modo che l'interno rimanga arioso e \"fluffoso\".\n\nI vostri onigiri ai Sakura Ebi sono pronti per essere gustati o confezionati per un pranzo fuori casa!"
+    },
+    {
       "title": "Oyakodon",
       "description": "L'Oyakodon e' la carbonara giapponese",
       "url": "https://paginegiappe.it/ricette/oyakodon/",
@@ -1959,6 +1984,14 @@
       "image": null,
       "tags": [],
       "content": "Il sake è un elemento fondamentale della cucina e della cultura giapponese. Non è solo un drink, ma una bevanda che racconta la storia e le tradizioni del Giappone.\n\nChe cos'è il sake?\n\nIl sake è un vino di riso prodotto attraverso un processo di fermentazione che trasforma il riso in alcol. A differenza del vino, che è prodotto da uve, il sake è fatto da riso speciale, noto come \"sakamai\". Questo tipo di riso ha una struttura diversa, con un nucleo più grande e una maggiore concentrazione di amidi, che si prestano bene alla fermentazione.\n\nTipi di sake\n\nIl mondo del sake è vasto e vario. Esistono diversi tipi di sake, ciascuno con le sue caratteristiche uniche:\n\n- Junmai: Il \"puro\" sake, prodotto solo con riso, acqua, lievito e koji. Non contiene alcun alcol aggiunto.\n- Honjozo: Simile al Junmai, ma con un piccolo quantitativo di alcol aggiunto per migliorare il sapore e la conservazione.\n- Ginjo: Un sake di alta qualità, prodotto con riso polverizzato almeno al 60%, che dà un sapore più delicato e fruttato.\n- Daiginjo: Il più raffinato dei sake, con riso polverizzato almeno al 50%, che offre un sapore ancora più delicato e complesso.\n\nCome scegliere il tuo sake\n\nScegliere il sake giusto può sembrare una sfida, ma con qualche consiglio diventa molto più facile. Considera il seguente:\n\n- Occasione: Vuoi un sake per un pranzo leggero o per una cena formale? I sake più leggeri come il Ginjo sono perfetti per pranzi informali, mentre i Daiginjo sono ideali per occasioni speciali.\n- Cibo: Abbinare il sake con il cibo giusto può fare tutta la differenza. Ad esempio, un sake secco come il Junmai si sposa bene con piatti a base di pesce, mentre un sake più dolce come il Daiginjo può essere un eccellente accompagnamento per dessert.\n- Preferenze personali: Sei un appassionato di sapori delicati o preferisci qualcosa di più robusto? Assaggia diversi tipi di sake per scoprire il tuo preferito.\n\nCome servire il sake\n\nIl sake può essere servito sia caldo che freddo, a seconda delle tue preferenze e del tipo di sake. Generalmente, i sake più leggeri come il Ginjo e il Daiginjo sono migliori freddi, mentre i Junmai possono essere gustosi sia caldi che freddi. Ricorda di servire il sake in piccoli bicchieri tradizionali chiamati \"ochoko\" per apprezzarne appieno il sapore.\n\nRicette con sake\n\nIl sake non è solo una bevanda, ma può anche essere utilizzato in cucina per aggiungere un tocco di autenticità ai tuoi piatti giapponesi, esattamente come il vino nella cucina italiana."
+    },
+    {
+      "title": "Sakura Ebi",
+      "description": "Cosa sono i Sakura Ebi, i minuscoli gamberetti rosa giapponesi essiccati: pesca, stagionalità, sapore e usi in cucina.",
+      "url": "https://paginegiappe.it/ingredienti/sakura_ebi/",
+      "image": "https://paginegiappe.it/img/ingredienti/sakura_ebi.jpg",
+      "tags": [],
+      "content": "I Sakura Ebi (Lucensosergia lucens, un tempo classificati come Sergia lucens) sono minuscoli gamberetti giapponesi lunghi appena 4-5 cm, dal corpo semitrasparente attraversato da pigmenti rossi concentrati sul carapace, intorno alla bocca e sulla coda. È proprio questa colorazione rosata, che ricorda i petali di ciliegio, a dare loro il nome: sakura in giapponese significa infatti \"fiore di ciliegio\".\n\nVengono pescati quasi esclusivamente nella baia di Suruga, nella prefettura di Shizuoka — dove la pesca è attiva ininterrottamente dal 1894 — e in quantità minori nelle acque costiere di Taiwan. La pesca avviene di notte con reti a strascico, in due finestre stagionali: da marzo a giugno e da ottobre a dicembre. I mesi estivi, da maggio ad agosto, coincidono con la riproduzione della specie e sono chiusi alla pesca per tutelarne le popolazioni.\n\nIn cucina si trovano soprattutto essiccati, usati come guarnizione croccante e saporita per il riso, le insalate e i piatti di riso mantecato come i maze onigiri (per esempio l'Onigiri ai Sakura Ebi). Non mancano però anche le preparazioni con il prodotto fresco: tempura (kakiage), sashimi, sushi e donburi. Il loro sapore è intensamente umami e leggermente dolce, con la croccantezza tipica del guscio sottile, che li rende un condimento pronto all'uso, senza bisogno di cottura.\n\nDal punto di vista nutrizionale sono sorprendentemente ricchi: 100 g di prodotto essiccato apportano oltre 300 kcal e quasi 65 g di proteine, oltre a essere un'ottima fonte di calcio, fosforo e vitamina B12, grazie al guscio che nei gamberetti essiccati viene consumato integralmente."
     },
     {
       "title": "Satoimo (里芋) o Taro",
