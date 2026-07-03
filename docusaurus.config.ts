@@ -182,7 +182,7 @@ const config: Config = {
       {name: 'twitter:card', content: 'summary_large_image'},
       {
         name: 'description',
-        content: 'Tutte le ricette giapponesi spiegate passo passo, con foto e video. Scopri i segreti della cucina giapponese con Jeko!'
+        content: 'Cucina casalinga giapponese autentica in italiano: ricette di casa e da izakaya spiegate passo passo, con foto e video. Niente fusion, niente all you can eat.'
       },
       // Performance optimizations
       {name: 'referrer', content: 'strict-origin-when-cross-origin'},

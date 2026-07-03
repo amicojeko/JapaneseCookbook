@@ -1,7 +1,7 @@
 ---
-  title: "Ricette Giapponesi · 90+ ricette autentiche in italiano"
+  title: "Ricette Giapponesi · Cucina casalinga autentica in italiano"
   sidebar_label: 🏠 Home
-  description: "90+ ricette giapponesi autentiche in italiano, con foto e video: dal ramen al sushi, dai contorni alle salse. Spiegate passo passo da chi le ha imparate dai libri giapponesi."
+  description: "90+ ricette di cucina casalinga giapponese autentica in italiano: come si mangia davvero a casa e nelle izakaya, non da ristorante o all you can eat. Passo passo, con foto e video."
   pagination_next: null
   pagination_prev: null
   hide_table_of_contents: true
