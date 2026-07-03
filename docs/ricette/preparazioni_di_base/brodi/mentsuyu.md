@@ -21,7 +21,7 @@ tags:
 ---
 Il **mentsuyu** è un brodo forte e salato, tradizionalmente usato nei piatti di noodles come **soba** e **udon**. È un ingrediente fondamentale della cucina giapponese, preparato con una miscela di **katsuobushi**, [salsa di soia](/ingredienti/shoyu), **mirin** e **zucchero**. Questa combinazione di ingredienti crea una bomba di umami, perfetta per arricchire una vasta gamma di piatti.
 
-### Tipi di Mentsuyu
+## Tipi di Mentsuyu
 
 Esistono due tipi principali di mentsuyu:
 
