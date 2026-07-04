@@ -38,16 +38,16 @@ const WEBSITE_SCHEMA = {
  */
 export default function Root({children}: Props): ReactNode {
   React.useEffect(() => {
-    // Aggiungi prefetch per CDN e servizi third-party
+    // DNS-prefetch hints for the analytics domains. We intentionally do NOT add
+    // a preconnect to www.googletagmanager.com here: @docusaurus/plugin-google-gtag
+    // already emits one, and a second copy tripped PSI's "more than 4 preconnect
+    // origins" warning (duplicate connection). dns-prefetch is cheap and doesn't
+    // count against that budget.
     const head = document.head;
 
     const links = [
-      // Prefetch domains we know will be used
-      // (Google Fonts hints are emitted SSR via `headTags` in docusaurus.config.ts.)
       { rel: 'dns-prefetch', href: '//www.googletagmanager.com' },
       { rel: 'dns-prefetch', href: '//www.google-analytics.com' },
-      // Preconnect to critical resources
-      { rel: 'preconnect', href: '//www.googletagmanager.com' },
     ];
 
     links.forEach(({rel, href}) => {

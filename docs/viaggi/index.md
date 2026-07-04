@@ -18,14 +18,14 @@ Questa guida e' curata da **Erick**, meglio conosciuto come [**il Fujitivo**](ht
 
 :::
 
-### [Pianificazione del viaggio](/viaggi/pianificazione)
+## [Pianificazione del viaggio](/viaggi/pianificazione)
 Tutto quello che serve sapere prima di partire: quanto anticipo prenotare, come scegliere le destinazioni, se andare da soli o in gruppo, affidarsi a un'agenzia e quale stagione scegliere per il vostro viaggio.
 
-### [Sicurezza e terremoti](/viaggi/sicurezza)
+## [Sicurezza e terremoti](/viaggi/sicurezza)
 Il Giappone e' uno dei Paesi piu' sicuri al mondo. Qui trovate informazioni sulla criminalita', sulla Yakuza, sull'assicurazione medica (indispensabile!) e su come comportarsi in caso di terremoto.
 
-### [Soldi e pagamenti](/viaggi/soldi_e_pagamenti)
+## [Soldi e pagamenti](/viaggi/soldi_e_pagamenti)
 Quanto costa vivere in Giappone, come pagare, quali carte funzionano, come usare le IC card, dove cambiare gli yen e come sfruttare il Tax Free.
 
-### [Connessione](/viaggi/connessione)
+## [Connessione](/viaggi/connessione)
 Come restare connessi durante il viaggio: eSIM e Pocket Wi-Fi a confronto.

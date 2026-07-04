@@ -16,6 +16,8 @@ interface OptimizedImageProps {
   pictureClassName?: string;
   /** Disable lazy loading for above-the-fold heroes. Default: true. */
   lazy?: boolean;
+  /** Hint for the browser's fetch priority. Set 'high' on the LCP hero. */
+  fetchPriority?: 'high' | 'low' | 'auto';
   /** Style passthrough for the inner <img>. */
   style?: React.CSSProperties;
   /** Optional explicit dims (overrides manifest width/height). */
@@ -50,6 +52,7 @@ export default function OptimizedImage({
   className,
   pictureClassName,
   lazy = true,
+  fetchPriority,
   style,
   width,
   height,
@@ -73,6 +76,7 @@ export default function OptimizedImage({
           className={className}
           loading={lazy ? 'lazy' : 'eager'}
           decoding="async"
+          fetchPriority={fetchPriority}
           width={imgWidth}
           height={imgHeight}
           style={style}
@@ -89,6 +93,7 @@ export default function OptimizedImage({
       className={className}
       loading={lazy ? 'lazy' : 'eager'}
       decoding="async"
+      fetchPriority={fetchPriority}
       width={imgWidth}
       height={imgHeight}
       style={style}

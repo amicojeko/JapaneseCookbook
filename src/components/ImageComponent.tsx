@@ -1,7 +1,18 @@
 import React from 'react';
+import Head from '@docusaurus/Head';
 import { useDoc } from '@docusaurus/plugin-content-docs/client';
 import OptimizedImage from './OptimizedImage';
+import imageSrcset from '../../static/image-srcset.json';
 import styles from './ImageComponent.module.css';
+
+// Sizes hint for the hero, kept in sync with OptimizedImage's DEFAULT_SIZES so
+// the variant we preload matches the one <picture> ultimately selects.
+const HERO_SIZES = '(max-width: 720px) 100vw, 720px';
+
+interface HeroSrcset {
+  original: string;
+  srcset: string;
+}
 
 interface ImageComponentProps {
   // Props per uso diretto (passando src)
@@ -84,14 +95,40 @@ const ImageFromFrontmatter: React.FC = () => {
     return null;
   }
 
+  // The recipe/ingredient hero is almost always the LCP element. Load it
+  // eagerly with high fetch priority, and preload the responsive WebP variant
+  // (imagesrcset/imagesizes mirror the <picture> below) so it starts
+  // downloading during HTML parse instead of after the CSS/JS.
+  const srcsetKey = imagePath.replace(/^\/img\//, '');
+  const hero = (imageSrcset as Record<string, HeroSrcset>)[srcsetKey];
+
   return (
-    <div className={styles.imageContainer}>
-      <OptimizedImage
-        src={imagePath}
-        alt={altText as string}
-        className={styles.image}
-      />
-    </div>
+    <>
+      <Head>
+        {hero?.srcset ? (
+          <link
+            rel="preload"
+            as="image"
+            type="image/webp"
+            imageSrcSet={hero.srcset}
+            imageSizes={HERO_SIZES}
+            fetchPriority="high"
+          />
+        ) : (
+          <link rel="preload" as="image" href={imagePath} fetchPriority="high" />
+        )}
+      </Head>
+      <div className={styles.imageContainer}>
+        <OptimizedImage
+          src={imagePath}
+          alt={altText as string}
+          className={styles.image}
+          lazy={false}
+          fetchPriority="high"
+          sizes={HERO_SIZES}
+        />
+      </div>
+    </>
   );
 };
 

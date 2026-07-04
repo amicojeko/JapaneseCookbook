@@ -2,10 +2,12 @@
  * Theme: Bentō × Izakaya
  * Editorial bento layout with sophisticated izakaya palette.
  *
- * Google Fonts (Fraunces / Inter / Shippori Mincho / JetBrains Mono) are linked
- * from the document <head> via `stylesheets` in docusaurus.config.ts — see
- * notes there. Do NOT @import them here: that creates a sequential dependency
+ * Fonts (Newsreader / Inter / Shippori Mincho / JetBrains Mono) are self-hosted
+ * in static/fonts/ and declared via @font-face in src/css/fonts.css, which is
+ * inlined into <head> by the inline-fontface plugin in docusaurus.config.ts.
+ * Do NOT @import Google Fonts here: that creates a render-blocking dependency
  * chain (HTML → custom.css → fonts CSS → woff2) and hurts first paint.
+ * Regenerate the woff2 + fonts.css with `node scripts/fetch-fonts.mjs`.
  */
 
 /* ---------- DESIGN TOKENS ---------- */
@@ -734,6 +736,53 @@ article > .theme-doc-markdown.markdown > p:first-of-type::first-letter,
     max-width: 100%;
     aspect-ratio: 9 / 16;
   }
+}
+
+/* YouTube facade — thumbnail + play button; the real iframe mounts on click.
+   Keeps the 1+ MB player JS off the first paint (Core Web Vitals). */
+.yt-facade {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+  background: var(--pg-ink);
+  overflow: hidden;
+}
+.yt-facade__thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border: 0;
+}
+.yt-facade__play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform 0.15s ease;
+}
+.yt-facade:hover .yt-facade__play,
+.yt-facade:focus-visible .yt-facade__play {
+  transform: translate(-50%, -50%) scale(1.08);
+}
+.yt-facade__play-bg {
+  fill: var(--pg-red);
+  opacity: 0.92;
+}
+.yt-facade:hover .yt-facade__play-bg,
+.yt-facade:focus-visible .yt-facade__play-bg {
+  opacity: 1;
+}
+.yt-facade__play-arrow {
+  fill: #fff;
+}
+.yt-facade:focus-visible {
+  outline: 3px solid var(--pg-yellow);
+  outline-offset: 2px;
 }
 
 /* Leaflet customizations */

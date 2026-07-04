@@ -15,6 +15,13 @@
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
+# Self-hosted fonts (static/fonts/*.woff2). They only change when
+# scripts/fetch-fonts.mjs is re-run, so a year-long immutable cache is safe.
+[[headers]]
+  for = "/fonts/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
 # Harden a bit
 [[headers]]
   for = "/*"

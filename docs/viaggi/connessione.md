@@ -11,7 +11,7 @@ Nonostante l'immagine discutibilmente ultratecnologica del Giappone, affidare la
 
 Le opzioni valide sono eSIM oppure Pocket Wi-Fi.
 
-### eSIM
+## eSIM
 
 Una delle soluzioni piu' comode, a patto che il vostro smartphone sia compatibile (basta controllare online, ci sono molte guide in merito). Non serve cambiare fisicamente la SIM, perche' si tratta di una **soluzione software** e una volta acquistato il piano dati online, riceveremo una mail con le istruzioni per attivare tutto in pochi minuti.
 
@@ -19,7 +19,7 @@ E' ottima per chi viaggia da solo, chi vuole essere online appena atterrato o no
 
 I piani eSIM sono solitamente **solo dati** ma per l'uso quotidiano (mappe, traduzioni e social) sono ottimi e volendo chiamare qualcuno, bastera' farlo attraverso Whatsapp o simili.
 
-### Pocket Wi-Fi
+## Pocket Wi-Fi
 
 E' un piccolo **router portatile** che crea una rete wireless a cui collegare smartphone, tablet e computer. Una buona soluzione se viaggiate in gruppo e volete **dividere le spese**, perche' consente di collegare piu' dispositivi contemporaneamente, oppure se per qualche motivo dovete connettervi con portatili, tablet o altri device.
 
