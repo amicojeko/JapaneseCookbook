@@ -34,31 +34,18 @@ const WEBSITE_SCHEMA = {
 };
 
 /**
- * Custom Root component: performance prefetch + global WebSite schema.
+ * Custom Root component: global WebSite schema.
+ *
+ * Note: we deliberately do NOT inject dns-prefetch hints for the analytics
+ * domains. @docusaurus/plugin-google-gtag already emits a `preconnect` for both
+ * www.googletagmanager.com and www.google-analytics.com (verified in the built
+ * HTML), and a `preconnect` is a strict superset of `dns-prefetch` (it does the
+ * DNS lookup plus the TCP + TLS handshake). Re-adding dns-prefetch to those two
+ * origins was pure redundancy and pushed PSI past its "more than 4 preconnect
+ * origins" budget (3 preconnect + 2 dns-prefetch = 5). Route prefetching is
+ * handled separately by src/clientModules/deferPrefetch.ts.
  */
 export default function Root({children}: Props): ReactNode {
-  React.useEffect(() => {
-    // DNS-prefetch hints for the analytics domains. We intentionally do NOT add
-    // a preconnect to www.googletagmanager.com here: @docusaurus/plugin-google-gtag
-    // already emits one, and a second copy tripped PSI's "more than 4 preconnect
-    // origins" warning (duplicate connection). dns-prefetch is cheap and doesn't
-    // count against that budget.
-    const head = document.head;
-
-    const links = [
-      { rel: 'dns-prefetch', href: '//www.googletagmanager.com' },
-      { rel: 'dns-prefetch', href: '//www.google-analytics.com' },
-    ];
-
-    links.forEach(({rel, href}) => {
-      const link = document.createElement('link');
-      link.rel = rel;
-      link.href = href;
-      head.appendChild(link);
-    });
-
-  }, []);
-
   return (
     <>
       <Head>
