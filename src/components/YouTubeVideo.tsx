@@ -5,6 +5,12 @@ type Props = {
   title?: string;
 };
 
+// Thumbnail quality ladder. maxresdefault (1280×720, native 16:9) is the
+// sharpest but only exists for videos uploaded in HD; sddefault (640×480) is a
+// reliable middle ground; hqdefault (480×360) always exists. We start at maxres
+// and step down on the first load error.
+const THUMB_QUALITIES = ['maxresdefault', 'sddefault', 'hqdefault'] as const;
+
 // Warm up the connections to YouTube's domains on first hover/focus so the
 // iframe + player JS start resolving DNS/TLS before the actual click.
 let warmed = false;
@@ -30,7 +36,12 @@ function warmConnections() {
  */
 const YouTubeVideo: React.FC<Props> = ({ videoId, title = 'Video YouTube' }) => {
   const [activated, setActivated] = useState(false);
+  const [qualityIndex, setQualityIndex] = useState(0);
   const activate = useCallback(() => setActivated(true), []);
+  const onThumbError = useCallback(
+    () => setQualityIndex((i) => Math.min(i + 1, THUMB_QUALITIES.length - 1)),
+    [],
+  );
 
   return (
     <div className="video-container-responsive">
@@ -57,7 +68,8 @@ const YouTubeVideo: React.FC<Props> = ({ videoId, title = 'Video YouTube' }) => 
           >
             <img
               className="yt-facade__thumb"
-              src={`https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`}
+              src={`https://i.ytimg.com/vi/${videoId}/${THUMB_QUALITIES[qualityIndex]}.jpg`}
+              onError={onThumbError}
               alt=""
               loading="lazy"
               decoding="async"
