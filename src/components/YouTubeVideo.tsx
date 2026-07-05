@@ -1,4 +1,5 @@
 import React, { useState, useCallback } from 'react';
+import { gtagEvent } from '@site/src/lib/analytics';
 
 type Props = {
   videoId: string;
@@ -37,7 +38,15 @@ function warmConnections() {
 const YouTubeVideo: React.FC<Props> = ({ videoId, title = 'Video YouTube' }) => {
   const [activated, setActivated] = useState(false);
   const [qualityIndex, setQualityIndex] = useState(0);
-  const activate = useCallback(() => setActivated(true), []);
+  const activate = useCallback(() => {
+    setActivated(true);
+    // GA4 key-event (P6): il click sul facade e' il segnale di "play".
+    gtagEvent('youtube_video_play', {
+      video_id: videoId,
+      page_path:
+        typeof window !== 'undefined' ? window.location.pathname : undefined,
+    });
+  }, [videoId]);
   const onThumbError = useCallback(
     () => setQualityIndex((i) => Math.min(i + 1, THUMB_QUALITIES.length - 1)),
     [],
