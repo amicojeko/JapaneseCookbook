@@ -2,7 +2,7 @@
   "meta": {
     "site": "https://paginegiappe.it",
     "description": "Guida italiana alla cucina giapponese: ricette autentiche, ingredienti, negozi orientali in Italia, strumenti, viaggi e cultura gastronomica.",
-    "generated": "2026-07-02T17:10:52.088Z",
+    "generated": "2026-07-07T12:11:23.852Z",
     "version": 1
   },
   "ricette": [
@@ -1991,7 +1991,7 @@
       "url": "https://paginegiappe.it/ingredienti/sakura_ebi/",
       "image": "https://paginegiappe.it/img/ingredienti/sakura_ebi.jpg",
       "tags": [],
-      "content": "I Sakura Ebi (Lucensosergia lucens, un tempo classificati come Sergia lucens) sono minuscoli gamberetti giapponesi lunghi appena 4-5 cm, dal corpo semitrasparente attraversato da pigmenti rossi concentrati sul carapace, intorno alla bocca e sulla coda. È proprio questa colorazione rosata, che ricorda i petali di ciliegio, a dare loro il nome: sakura in giapponese significa infatti \"fiore di ciliegio\".\n\nVengono pescati quasi esclusivamente nella baia di Suruga, nella prefettura di Shizuoka — dove la pesca è attiva ininterrottamente dal 1894 — e in quantità minori nelle acque costiere di Taiwan. La pesca avviene di notte con reti a strascico, in due finestre stagionali: da marzo a giugno e da ottobre a dicembre. I mesi estivi, da maggio ad agosto, coincidono con la riproduzione della specie e sono chiusi alla pesca per tutelarne le popolazioni.\n\nIn cucina si trovano soprattutto essiccati, usati come guarnizione croccante e saporita per il riso, le insalate e i piatti di riso mantecato come i maze onigiri (per esempio l'Onigiri ai Sakura Ebi). Non mancano però anche le preparazioni con il prodotto fresco: tempura (kakiage), sashimi, sushi e donburi. Il loro sapore è intensamente umami e leggermente dolce, con la croccantezza tipica del guscio sottile, che li rende un condimento pronto all'uso, senza bisogno di cottura.\n\nDal punto di vista nutrizionale sono sorprendentemente ricchi: 100 g di prodotto essiccato apportano oltre 300 kcal e quasi 65 g di proteine, oltre a essere un'ottima fonte di calcio, fosforo e vitamina B12, grazie al guscio che nei gamberetti essiccati viene consumato integralmente."
+      "content": "I Sakura Ebi (Lucensosergia lucens, un tempo classificati come Sergia lucens) sono minuscoli gamberetti giapponesi lunghi appena 4-5 cm, dal corpo semitrasparente attraversato da pigmenti rossi concentrati sul carapace, intorno alla bocca e sulla coda. È proprio questa colorazione rosata, che ricorda i petali di ciliegio, a dare loro il nome: sakura in giapponese significa infatti \"fiore di ciliegio\".\n\nVengono pescati quasi esclusivamente nella baia di Suruga, nella prefettura di Shizuoka, dove la pesca è attiva ininterrottamente dal 1894, e in quantità minori nelle acque costiere di Taiwan. La pesca avviene di notte con reti a strascico, in due finestre stagionali: da marzo a giugno e da ottobre a dicembre. I mesi estivi, da maggio ad agosto, coincidono con la riproduzione della specie e sono chiusi alla pesca per tutelarne le popolazioni.\n\nIn cucina si trovano soprattutto essiccati, usati come guarnizione croccante e saporita per il riso, le insalate e i piatti di riso mantecato come i maze onigiri (per esempio l'Onigiri ai Sakura Ebi). Non mancano però anche le preparazioni con il prodotto fresco: tempura (kakiage), sashimi, sushi e donburi. Il loro sapore è intensamente umami e leggermente dolce, con la croccantezza tipica del guscio sottile, che li rende un condimento pronto all'uso, senza bisogno di cottura.\n\nDal punto di vista nutrizionale sono sorprendentemente ricchi: 100 g di prodotto essiccato apportano oltre 300 kcal e quasi 65 g di proteine, oltre a essere un'ottima fonte di calcio, fosforo e vitamina B12, grazie al guscio che nei gamberetti essiccati viene consumato integralmente."
     },
     {
       "title": "Satoimo (里芋) o Taro",
@@ -3867,6 +3867,20 @@
     }
   ],
   "blog": [
+    {
+      "title": "Shokunin Kishitsu | I 20 valori dello spirito artigiano — Parte II: Disciplina, tempo e bellezza silenziosa",
+      "description": "Shugyō, Kodawari, Kaizen, Mushin, Wabi, Sabi e Shibui: come la pratica ripetuta trasforma la tecnica in naturalezza e insegna a riconoscere la bellezza silenziosa del tempo.",
+      "url": "https://paginegiappe.it/blog/shokunin-kishitsu-disciplina-tempo-bellezza-silenziosa/",
+      "image": "https://paginegiappe.it/img/blog/shokunin_kishitsu/parte2.jpg",
+      "date": "2026-07-07",
+      "authors": [
+        "toolsreborn"
+      ],
+      "tags": [
+        "cultura",
+        "cucina"
+      ]
+    },
     {
       "title": "Perché il logo della birra Kirin è uno strano drago?",
       "description": "Il logo della birra Kirin raffigura una creatura leggendaria a metà tra drago, cervo e cavallo. Origini cinesi, restyle giapponese e il giorno in cui il Kirin diventò... una giraffa.",

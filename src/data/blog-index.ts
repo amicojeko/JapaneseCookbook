@@ -21,6 +21,23 @@ export type BlogIndexEntry = {
 
 export const BLOG_INDEX: BlogIndexEntry[] = [
   {
+    "slug": "shokunin-kishitsu-disciplina-tempo-bellezza-silenziosa",
+    "permalink": "/blog/shokunin-kishitsu-disciplina-tempo-bellezza-silenziosa/",
+    "title": "Shokunin Kishitsu | I 20 valori dello spirito artigiano — Parte II: Disciplina, tempo e bellezza silenziosa",
+    "description": "Shugyō, Kodawari, Kaizen, Mushin, Wabi, Sabi e Shibui: come la pratica ripetuta trasforma la tecnica in naturalezza e insegna a riconoscere la bellezza silenziosa del tempo.",
+    "image": "/img/blog/shokunin_kishitsu/parte2.jpg",
+    "date": "2026-07-07",
+    "readingTime": 3.53,
+    "authors": [
+      {
+        "key": "toolsreborn",
+        "name": "ToolsReborn – Wabi Sabi Story",
+        "imageURL": "/img/authors/tools_reborn.jpg",
+        "title": "Dietro la ruggine di ogni lama e di ogni attrezzo dimenticato si nasconde una storia unica"
+      }
+    ]
+  },
+  {
     "slug": "kirin-logo-drago",
     "permalink": "/blog/kirin-logo-drago/",
     "title": "Perché il logo della birra Kirin è uno strano drago?",
@@ -102,23 +119,6 @@ export const BLOG_INDEX: BlogIndexEntry[] = [
         "name": "Carlo Cocorullo",
         "imageURL": "/img/authors/carlo.jpg",
         "title": "Sake Sommelier · Aiki"
-      }
-    ]
-  },
-  {
-    "slug": "yoshoku",
-    "permalink": "/blog/yoshoku/",
-    "title": "Yōshoku: come il Giappone ha reinventato la cucina occidentale",
-    "description": "Lo yōshoku non è cucina europea servita in Giappone, ma una tradizione a sé: piatti dall'aspetto occidentale che in Occidente non esistono, nati dall'incontro fra Giappone e mondo e diventati classici giapponesi moderni.",
-    "image": "/img/blog/yoshoku/omurice.jpg",
-    "date": "2026-06-10",
-    "readingTime": 2.69,
-    "authors": [
-      {
-        "key": "aki",
-        "name": "Aki Nakagoe",
-        "imageURL": "/img/authors/aki_nakagoe.jpg",
-        "title": "Cuoco giapponese e divulgatore della cucina washoku casalinga"
       }
     ]
   }

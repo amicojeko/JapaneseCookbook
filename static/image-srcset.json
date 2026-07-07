@@ -286,6 +286,13 @@
     "width": 1600,
     "height": 900
   },
+  "blog/shokunin_kishitsu/parte2.jpg": {
+    "hash": "a448517f216640754e9e92b2f2c687e0",
+    "original": "/img/blog/shokunin_kishitsu/parte2.jpg",
+    "srcset": "/img/blog/shokunin_kishitsu/parte2-320w.webp 320w, /img/blog/shokunin_kishitsu/parte2-640w.webp 640w, /img/blog/shokunin_kishitsu/parte2-1280w.webp 1280w, /img/blog/shokunin_kishitsu/parte2-1600w.webp 1600w",
+    "width": 1600,
+    "height": 900
+  },
   "blog/shokunin_kishitsu/shokunin-apprendista.jpg": {
     "hash": "347484635e7816a04c6e2b05f6daba05",
     "original": "/img/blog/shokunin_kishitsu/shokunin-apprendista.jpg",
