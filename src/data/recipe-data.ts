@@ -747,6 +747,24 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [],
     "datePublished": "2022-01-05T17:58:24+01:00"
   },
+  "ricette/preparazioni_di_base/condimenti/kinako": {
+    "docId": "ricette/preparazioni_di_base/condimenti/kinako",
+    "title": "Kinako",
+    "description": "Il kinako è la farina di soia tostata giallo dorata dei dolci giapponesi: come prepararla in casa con soia secca, una padella e un tritatutto.",
+    "image": "/img/ricette/kinako.jpg",
+    "recipeCategory": "Condimenti",
+    "recipeKeywords": [
+      "soia",
+      "wagashi"
+    ],
+    "recipeYield": null,
+    "recipeIngredient": [
+      "Fagioli di soia essiccati"
+    ],
+    "instructionsText": "Versate i semi di soia secchi in una padella e tostateli a fuoco basso, senza aggiungere olio, per circa 10 minuti. Mescolate spesso, in modo che tostino in maniera uniforme e non brucino. Quando il rumore di scoppiettio diminuisce e sentite un profumo tostato e fragrante, spegnete il fuoco. Lasciate intiepidire la soia, poi avvolgetela in un canovaccio pulito o in un panno resistente. Picchiettate delicatamente con un mattarello o un pestello per rompere i semi in pezzi più piccoli. Trasferite la soia spezzata in un tritatutto o in un robot da cucina. Frullate a intervalli, fino a ottenere una farina il più possibile fine. Passate la farina attraverso un setaccio. La polvere più fine è il kinako.",
+    "videoIds": [],
+    "datePublished": null
+  },
   "ricette/preparazioni_di_base/salse/nikiri": {
     "docId": "ricette/preparazioni_di_base/salse/nikiri",
     "title": "Nikiri Sauce",
@@ -1137,7 +1155,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "3kV_q6itqko"
     ],
-    "datePublished": "2026-07-02T18:39:27+02:00"
+    "datePublished": "2026-07-02T19:26:45+02:00"
   },
   "ricette/riso/oyakodon": {
     "docId": "ricette/riso/oyakodon",

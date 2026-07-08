@@ -1385,6 +1385,22 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/wakatake"
     }
   ],
+  "soia": [
+    {
+      "id": "ricette/preparazioni_di_base/condimenti/kinako",
+      "title": "Kinako",
+      "description": "Il kinako è la farina di soia tostata giallo dorata dei dolci giapponesi: come prepararla in casa con soia secca, una padella e un tritatutto.",
+      "permalink": "/ricette/kinako"
+    }
+  ],
+  "wagashi": [
+    {
+      "id": "ricette/preparazioni_di_base/condimenti/kinako",
+      "title": "Kinako",
+      "description": "Il kinako è la farina di soia tostata giallo dorata dei dolci giapponesi: come prepararla in casa con soia secca, una padella e un tritatutto.",
+      "permalink": "/ricette/kinako"
+    }
+  ],
   "rice": [
     {
       "id": "ricette/preparazioni_di_base/salse/okonomiyaki",

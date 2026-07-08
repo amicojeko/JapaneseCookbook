@@ -2,7 +2,7 @@
   "meta": {
     "site": "https://paginegiappe.it",
     "description": "Guida italiana alla cucina giapponese: ricette autentiche, ingredienti, negozi orientali in Italia, strumenti, viaggi e cultura gastronomica.",
-    "generated": "2026-07-07T12:11:23.852Z",
+    "generated": "2026-07-08T17:07:31.926Z",
     "version": 1
   },
   "ricette": [
@@ -659,6 +659,22 @@
         "Alga nori"
       ],
       "instructions": "Il furikake e' un condimento per il riso, ed e' estremamente popolare.\nIo lo uso per recuperare il katsuobushi e l'alga kombu che uso per il dashi.\nSiccome e' secco si conserva per un sacco, e' supercomodo, e ci potete condire il riso bianco o gli onigiri quando andate di fretta o non avete niente da mangiare.\n\nPer il condimento\n- 1 parte di zucchero\n- 2 parti di aceto di riso (devo provare a sostituirlo con il sake)\n- 2 parti di mirin\n- 2.5 parti di salsa di soia\n- 1 parte di acqua\n\n(I piu' attenti avranno notato che praticamente e' salsa Teriyaki)\n\nSe il Katsuobushi e' nuovo, prendetene una bella manciata e tostatelo in padella, come si fa col sesamo (ovvero a fuoco medio, senza coperchio, muovendolo spesso e togliendolo quando inizia a imbrunire)\n\nSe invece e' usato, strizzatelo benissimo, e cercate di sfilacciarlo il piu' possibile prima di metterlo in padella. Poi mettetelo in una padella bella ampia, in modo che non tenda ad appallottolarsi, e fare come sopra, ma con molto piu' tempo ed attenzione.\n\nQuando il Katsuobushi e' bello tostato, sbriciolatelo senza pieta' (si ma fate pezzetti, non sabbia...)\n\nL'alga kombu, se e' nuova ed essiccata, mettetela a bagno un po' per ammorbidirla, senno' finisce che ci rompete il coltello. E poi, nuova o usata che sia, fatela a quadratini di mezzo centimetro di lato.\n\nTostate i semi di sesamo (come se fosse Katsuobushi), senza distrarvi e a fuoco medio-basso, perche' come vi distraete si carbonizzano immediatamente.\n\nSbriciolate l'alga nori con le mani, da molta soddisfazione. Anche qui attenti a non fare l'Aonori per sbaglio.\n\nComunque, siccome la kombu, cosi come e', e' dura da morire, mettetela in una padella, e metteteci tutto il condimento.\nFate andare a fuoco basso, finche' il liquido non si sara' ritirato, e l'alga kombu ammorbidita. Se l'alga kombu e' ancora dura, aggiungete un po' di acqua e fate andare ancora.\n\nQuando il liquido avra' raggiunto la densita' della salsa Teriyaki quando e' pronta (ho imparato da mia madre a dare sempre istruzioni utilissime), spegnete il fuoco e aggiungete il katsuobushi, i semi di sesamo e l'alga nori, e mescolate bene.\n\nAlla fine vengono tutte palline ammappazzate ma non vi preccupate. Mettete tutto in forno su un bel foglio di carta da forno, a bassa temperatura (70-75 gradi), e ogni tanto aprite il forno, mescolate, sfragnate, e richiudete, finche' non sara' tutto bello secco e croccante. A questo punto dategli un'ultima sfragnata e mettete in un barattolo, e ciaone dal Giappone."
+    },
+    {
+      "title": "Kinako",
+      "description": "Il kinako è la farina di soia tostata giallo dorata dei dolci giapponesi: come prepararla in casa con soia secca, una padella e un tritatutto.",
+      "url": "https://paginegiappe.it/ricette/kinako/",
+      "image": "https://paginegiappe.it/img/ricette/kinako.jpg",
+      "category": "Condimenti",
+      "tags": [
+        "soia",
+        "wagashi"
+      ],
+      "recipeYield": null,
+      "ingredients": [
+        "Fagioli di soia essiccati"
+      ],
+      "instructions": "Avete presente quella polvere giallo dorata che viene spesso spolverata sui dolci giapponesi? Si chiama kinako (きな粉) ed è una farina ottenuta da soia tostata e macinata. A volte viene mescolata con zucchero, soprattutto per accompagnare dolci non molto zuccherati.\n\nIn Giappone il kinako è un ingrediente molto comune nei dolci tradizionali, ma si usa anche su gelati, yogurt, torte e persino nelle bevande. Ha un sapore delicato, tostato e leggermente dolce, che può ricordare quello delle arachidi tostate. Non è un caso: anche le arachidi sono legumi come la soia.\n\nIn Italia non è sempre facile trovarlo già pronto, ma prepararlo in casa è semplice: servono solo soia secca, una padella e un tritatutto.\n\nVersate i semi di soia secchi in una padella e tostateli a fuoco basso, senza aggiungere olio, per circa 10 minuti. Mescolate spesso, in modo che tostino in maniera uniforme e non brucino.\n\nQuando il rumore di scoppiettio diminuisce e sentite un profumo tostato e fragrante, spegnete il fuoco.\n\nLasciate intiepidire la soia, poi avvolgetela in un canovaccio pulito o in un panno resistente. Picchiettate delicatamente con un mattarello o un pestello per rompere i semi in pezzi più piccoli.\n\nQuesto passaggio è fondamentale perché aiuta il tritatutto a lavorare meglio: con i semi interi, infatti, le lame possono girare senza riuscire a macinarli in modo uniforme.\n\nTrasferite la soia spezzata in un tritatutto o in un robot da cucina. Frullate a intervalli, fino a ottenere una farina il più possibile fine.\n\nPassate la farina attraverso un setaccio. La polvere più fine è il kinako.\n\nNon buttate i pezzetti rimasti nel setaccio: potete tritarli di nuovo oppure usarli come topping croccante per yogurt, insalate o zuppa di miso.\n\nIdea semplice per l'uso quotidiano\n\nA me piace mangiarlo a colazione o come merenda sciogliendo 3–4 cucchiaini di kinako e 2 cucchiaini di zucchero in una tazza di latte di soia caldo o freddo.\n\n— Aki"
     },
     {
       "title": "Nikiri Sauce",
