@@ -28,6 +28,20 @@ Prima di generare il file, assicurati di avere queste cose. Se manca qualcosa di
 
 5. **Categoria.** Scegli la sottocartella giusta sotto `docs/ricette/` in base al metodo/tipo di piatto. Cartelle esistenti: `agemono`, `antipasti`, `fish`, `menrui`, `nimono`, `preparazioni_di_base`, `riso`, `sides`, `tsukemono`, `wagashi`, `yakimono`, `zuppe`. In dubbio, chiedi all'utente in quale categoria metterla.
 
+6. **Firma (opzionale).** Se l'utente ti chiede di **firmare** la ricetta (es. "firmala Aki", "mettici la firma di Aki come sugli udon"), aggiungi la firma dell'autore come **ultima riga** del corpo (vedi sotto). Se non te lo chiede, non firmare.
+
+## Firma dell'autore
+
+Quando l'utente chiede di firmare la ricetta, chiudi il corpo — **dopo ogni altra sezione, `## Video` compresa** — con una riga em-dash + link alla pagina autore:
+
+```markdown
+— [Aki](/blog/authors/aki)
+```
+
+- Il testo del link è il **nome** dell'autore; l'URL è `/blog/authors/<chiave>`, dove `<chiave>` è la chiave dell'autore in [`blog/authors.yml`](../../../blog/authors.yml) (per Aki: `aki` → `/blog/authors/aki`). Verifica la chiave lì, non inventarla.
+- È lo stesso formato usato in fondo a `docs/ricette/menrui/udon_fatti_in_casa.md` (la ricetta di riferimento per la firma).
+- Separala dal resto con una riga vuota; nessun heading sopra.
+
 ## Frontmatter (sempre completo)
 
 ```yaml
@@ -64,6 +78,7 @@ Regole sul frontmatter:
 5. **`## Preparazione`** — il procedimento, fedele al testo dell'utente.
 6. **Varianti / sotto-preparazioni** — se la ricetta ne ha (come Ichiban/Niban dashi), usa `##`/`###`. Solo se presenti nel contenuto.
 7. **`## Video`** — **solo se** l'utente ha fornito almeno un ID. Un `<YouTubeVideo videoId="..." />` per video; se ce ne sono più con ruoli diversi, mettili sotto `###` con etichetta (come nel dashi).
+8. **Firma** — **solo se** l'utente l'ha chiesta. Ultima riga in assoluto: `— [Nome](/blog/authors/<chiave>)` (vedi "Firma dell'autore").
 
 ## Link interni (OBBLIGATORIO, vedi CLAUDE.md)
 
@@ -87,6 +102,7 @@ Non forzarle: mettile solo dove il contenuto lo giustifica, ma quando c'è un ri
 
 1. **Verifica gli slug dei link** contro `build/sitemap.xml` (o i frontmatter di destinazione).
 2. **`npm run build`** — obbligatorio (via WSL: `wsl.exe -d ubuntu-20.04 -- bash -c "cd … && npm run build"`). Il prebuild rigenera `src/data/recipe-data.ts`, `ingredient-recipes.ts` e `paginegiappe-knowledge.json`, altrimenti la ricetta non compare in home, nelle card ingrediente né nell'export AI. I file `src/data/*.ts` rigenerati vanno **nello stesso commit** della ricetta.
+   - Se ottieni `npm: command not found`, node è gestito da nvm e non è sul PATH della shell non interattiva. Anteponi il bin di node 20: `bash -c 'export PATH="/home/jeko/.nvm/versions/node/v20.19.5/bin:$PATH"; cd /home/jeko/Workspace/JapaneseCookbook && npm run build'`.
 3. Ricorda all'utente che l'immagine master, al commit, farà scattare l'hook husky che genera le varianti responsive.
 4. Non committare a meno che l'utente non lo chieda.
 
@@ -101,4 +117,5 @@ Non forzarle: mettile solo dove il contenuto lo giustifica, ma quando c'è un ri
 - [ ] Link interni su ingredienti/ricette citati, slug verificati sul sitemap
 - [ ] `:::note` / `:::tip` / `:::warning` dove servono
 - [ ] Sezione `## Video` **solo** se l'utente ha dato l'ID
+- [ ] Firma `— [Nome](/blog/authors/<chiave>)` in ultima riga **solo** se l'utente l'ha chiesta
 - [ ] `npm run build` eseguito

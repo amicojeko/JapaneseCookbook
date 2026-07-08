@@ -71,3 +71,8 @@ con [link interno](/ricette/...)).
 ### Seconda preparazione
 <YouTubeVideo videoId="..." />
 -->
+
+<!-- FIRMA OPZIONALE: aggiungila come ULTIMA riga SOLO se l'utente ha chiesto di firmare.
+     <chiave> = chiave autore in blog/authors.yml (Aki -> aki). Altrimenti cancella questa riga. -->
+
+— [Aki](/blog/authors/aki)
