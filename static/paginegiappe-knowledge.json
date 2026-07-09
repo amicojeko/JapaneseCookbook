@@ -2,7 +2,7 @@
   "meta": {
     "site": "https://paginegiappe.it",
     "description": "Guida italiana alla cucina giapponese: ricette autentiche, ingredienti, negozi orientali in Italia, strumenti, viaggi e cultura gastronomica.",
-    "generated": "2026-07-08T17:07:31.926Z",
+    "generated": "2026-07-09T07:00:34.411Z",
     "version": 1
   },
   "ricette": [
@@ -3883,6 +3883,20 @@
     }
   ],
   "blog": [
+    {
+      "title": "Perché la bandiera giapponese a volte ha i raggi rossi?",
+      "description": "Hinomaru e Kyokujitsuki: due bandiere che condividono il sole rosso ma non la stessa storia. Una rappresenta ufficialmente il Giappone, l'altra è un simbolo militare controverso.",
+      "url": "https://paginegiappe.it/blog/bandiere-giappone-sole-nascente/",
+      "image": "https://paginegiappe.it/img/blog/bandiere/bandiere.jpg",
+      "date": "2026-07-08",
+      "authors": [
+        "fujitivo"
+      ],
+      "tags": [
+        "cultura",
+        "viaggi"
+      ]
+    },
     {
       "title": "Shokunin Kishitsu | I 20 valori dello spirito artigiano — Parte II: Disciplina, tempo e bellezza silenziosa",
       "description": "Shugyō, Kodawari, Kaizen, Mushin, Wabi, Sabi e Shibui: come la pratica ripetuta trasforma la tecnica in naturalezza e insegna a riconoscere la bellezza silenziosa del tempo.",

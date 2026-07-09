@@ -21,6 +21,23 @@ export type BlogIndexEntry = {
 
 export const BLOG_INDEX: BlogIndexEntry[] = [
   {
+    "slug": "bandiere-giappone-sole-nascente",
+    "permalink": "/blog/bandiere-giappone-sole-nascente/",
+    "title": "Perché la bandiera giapponese a volte ha i raggi rossi?",
+    "description": "Hinomaru e Kyokujitsuki: due bandiere che condividono il sole rosso ma non la stessa storia. Una rappresenta ufficialmente il Giappone, l'altra è un simbolo militare controverso.",
+    "image": "/img/blog/bandiere/bandiere.jpg",
+    "date": "2026-07-08",
+    "readingTime": 1.74,
+    "authors": [
+      {
+        "key": "fujitivo",
+        "name": "Erick \"il Fujitivo\"",
+        "imageURL": "/img/authors/logo_ilfujitivo.png",
+        "title": "Viaggiatore in Giappone dal 2008 · autore di \"Andiamo in Giappone\""
+      }
+    ]
+  },
+  {
     "slug": "shokunin-kishitsu-disciplina-tempo-bellezza-silenziosa",
     "permalink": "/blog/shokunin-kishitsu-disciplina-tempo-bellezza-silenziosa/",
     "title": "Shokunin Kishitsu | I 20 valori dello spirito artigiano — Parte II: Disciplina, tempo e bellezza silenziosa",
@@ -102,23 +119,6 @@ export const BLOG_INDEX: BlogIndexEntry[] = [
         "name": "Erick \"il Fujitivo\"",
         "imageURL": "/img/authors/logo_ilfujitivo.png",
         "title": "Viaggiatore in Giappone dal 2008 · autore di \"Andiamo in Giappone\""
-      }
-    ]
-  },
-  {
-    "slug": "mirin-sake",
-    "permalink": "/blog/mirin-sake/",
-    "title": "Mirin e sake: sono la stessa cosa? Quasi. Ma no.",
-    "description": "Sake e mirin sono parenti stretti che a un certo punto della loro storia hanno preso strade diverse: uno è nato per essere bevuto, l'altro è finito (anche) in padella. Una piccola guida per capire la differenza.",
-    "image": "/img/blog/mirin-sake/mirin-da-bere.jpg",
-    "date": "2026-06-15",
-    "readingTime": 1.51,
-    "authors": [
-      {
-        "key": "carlo",
-        "name": "Carlo Cocorullo",
-        "imageURL": "/img/authors/carlo.jpg",
-        "title": "Sake Sommelier · Aiki"
       }
     ]
   }
