@@ -944,6 +944,13 @@
     "width": 1080,
     "height": 1304
   },
+  "ricette/chuka_tataki_kyuri.jpg": {
+    "hash": "dea7e2875bc6c1a1bc033a4cdb74cad6",
+    "original": "/img/ricette/chuka_tataki_kyuri.jpg",
+    "srcset": "/img/ricette/chuka_tataki_kyuri-320w.webp 320w, /img/ricette/chuka_tataki_kyuri-640w.webp 640w, /img/ricette/chuka_tataki_kyuri-1280w.webp 1280w, /img/ricette/chuka_tataki_kyuri-1600w.webp 1600w",
+    "width": 1672,
+    "height": 941
+  },
   "ricette/ciotola-di-riso.jpg": {
     "hash": "682d2b9717cd58b8fb869499add859fa",
     "original": "/img/ricette/ciotola-di-riso.jpg",

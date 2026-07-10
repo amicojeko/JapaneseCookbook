@@ -101,6 +101,32 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     ],
     "datePublished": "2025-10-27T22:43:02+01:00"
   },
+  "ricette/antipasti/chuka_tataki_kyuri": {
+    "docId": "ricette/antipasti/chuka_tataki_kyuri",
+    "title": "Chūka-fū tataki kyūri",
+    "description": "Insalata estiva di cetriolo giapponese schiacciato e marinato con salsa di soia, aceto di riso, olio di sesamo e sesamo tostato.",
+    "image": "/img/ricette/chuka_tataki_kyuri.jpg",
+    "recipeCategory": "Antipasti",
+    "recipeKeywords": [
+      "antipasti",
+      "sesamo"
+    ],
+    "recipeYield": "1 persona",
+    "recipeIngredient": [
+      "1 Cetriolo (meglio di varieta' persiana o giapponese, lunga e sottile)",
+      "1 cucchiaio di Salsa di soia (Shoyu)",
+      "1 cucchiaio di Aceto di riso",
+      "1 cucchiaio di Olio di sesamo",
+      "1 cucchiaio di Zucchero",
+      "1 cucchiaino di Brodo di pollo in polvere",
+      "Sesamo tostato abbondante"
+    ],
+    "instructionsText": "Per prima cosa, prendete il vostro cetriolo giapponese (quello lungo, fino e \"sbruzzoloso\") e inseritelo all'interno di un sacchetto di plastica resistente (come quelli per il congelatore). Questo eviterà di \"trovare cetriolini per tutta casa\". Ora, armatevi di matterello e andate a colpire il cetriolo a mazzaroccate fino a quando non si sarà rotto in tanti pezzi irregolari. È proprio questa la tecnica del tataki kyūri: la rottura irregolare permette alla marinatura di entrare bene in profondità all'interno della polpa. A questo punto, con i pezzi di cetriolo ancora all'interno della busta, aggiungiamo tutti i condimenti in egual misura: un cucchiaio di salsa di soia, uno di aceto di riso, uno di olio di sesamo e uno di zucchero. Aggiungete poi un cucchiaino di brodo di pollo in polvere e un'abbondante pioggia di sesamo tostato. Sigillate il sacchetto e dategli \"una bella shakerata\": in questo, la busta aiuta tantissimo a far amalgamare tutti i sapori in modo omogeneo. Non vi resta che versare il contenuto in una ciotolina e servire. Avrete ottenuto un'insalata freschissima e saporita che sarà una grande compagna per la vostra estate!",
+    "videoIds": [
+      "R5SFTwKcVTU"
+    ],
+    "datePublished": null
+  },
   "ricette/antipasti/hiyashi_nasu": {
     "docId": "ricette/antipasti/hiyashi_nasu",
     "title": "Hiyashi Nasu",
@@ -763,7 +789,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     ],
     "instructionsText": "Versate i semi di soia secchi in una padella e tostateli a fuoco basso, senza aggiungere olio, per circa 10 minuti. Mescolate spesso, in modo che tostino in maniera uniforme e non brucino. Quando il rumore di scoppiettio diminuisce e sentite un profumo tostato e fragrante, spegnete il fuoco. Lasciate intiepidire la soia, poi avvolgetela in un canovaccio pulito o in un panno resistente. Picchiettate delicatamente con un mattarello o un pestello per rompere i semi in pezzi più piccoli. Trasferite la soia spezzata in un tritatutto o in un robot da cucina. Frullate a intervalli, fino a ottenere una farina il più possibile fine. Passate la farina attraverso un setaccio. La polvere più fine è il kinako.",
     "videoIds": [],
-    "datePublished": null
+    "datePublished": "2026-07-08T19:12:41+02:00"
   },
   "ricette/preparazioni_di_base/salse/nikiri": {
     "docId": "ricette/preparazioni_di_base/salse/nikiri",

@@ -2,7 +2,7 @@
   "meta": {
     "site": "https://paginegiappe.it",
     "description": "Guida italiana alla cucina giapponese: ricette autentiche, ingredienti, negozi orientali in Italia, strumenti, viaggi e cultura gastronomica.",
-    "generated": "2026-07-09T07:00:34.411Z",
+    "generated": "2026-07-10T13:49:22.751Z",
     "version": 1
   },
   "ricette": [
@@ -78,6 +78,28 @@
         "un pizzico di sale"
       ],
       "instructions": "Il Chawanmushi (茶碗蒸し) è un budino di uova salato cotto al vapore, tipico della cucina giapponese. La parola \"chawan\" significa \"ciotola\" e \"mushi\" significa \"cotto al vapore\". È un piatto delicato e saporito, spesso servito come antipasto o contorno in un pasto giapponese.\n\nPer guarnire\n\n- 4-8 gamberi\n- ginnan\n- edamame\n- 3 shiitake\n- cipolline o prezzemolo (meglio quello giapponese) per decorare\n\nAttrezzature per la preparazione e la cottura\n\n- 4 bicchieri di ceramica o terracotta\n- 1 pentola per il vapore\n- 1 colino a maglie strette\n\nUnire in una ciotola le uova, con il dashi, il mirin, la salsa di soia (se si vuole, il sake) e il sale. Mescolare bene con luna frusta, cercando di non incorporare aria.\nSetacciare il composto con un colino a maglie strette in un'altra ciotola, e versare il composto nelle ciotoline di ceramica.\nMettere nelle ciotoline uno o due gamberi, un paio di ginnan, e un fungo shiitake fatto a fettine.\nVersare il composto nelle ciotoline, e coprire con un foglio di alluminio. Mettere le ciotoline nella pentola per il vapore, e cuocere a circa 90 gradi per 10 minuti.\nLa cosa piu' semplice per mantenere la temperatura é  mettere una bacchetta tra il coperchio e la pentola, per tenere il coperchio socchiuso. Tenere la fiamma appena sufficiente a far sobbollire l'acqua.\n\nA questo punto si possono aggiungere altre decorazioni, come l'edamame, o un gambero o delle capesante fatte a fettine, e cuocere per altri 2 minuti. Altrimenti, si puo' cuocere per 12-13 minuti senza aggiungere nulla.\n\nSpegnere il fuoco, e lasciare riposare per 7-8 minuti. A questo punto aggiungere un po' di prezzemolo o cipolline, e servire caldo.\n\nAlternativamente, si puo' mettere in frigorifero e gustare freddo, con del buon vino bianco o del sake."
+    },
+    {
+      "title": "Chūka-fū tataki kyūri",
+      "description": "Insalata estiva di cetriolo giapponese schiacciato e marinato con salsa di soia, aceto di riso, olio di sesamo e sesamo tostato.",
+      "url": "https://paginegiappe.it/ricette/chuka_tataki_kyuri/",
+      "image": "https://paginegiappe.it/img/ricette/chuka_tataki_kyuri.jpg",
+      "category": "Antipasti",
+      "tags": [
+        "antipasti",
+        "sesamo"
+      ],
+      "recipeYield": "1 persona",
+      "ingredients": [
+        "1 Cetriolo (meglio di varieta' persiana o giapponese, lunga e sottile)",
+        "1 cucchiaio di Salsa di soia (Shoyu)",
+        "1 cucchiaio di Aceto di riso",
+        "1 cucchiaio di Olio di sesamo",
+        "1 cucchiaio di Zucchero",
+        "1 cucchiaino di Brodo di pollo in polvere",
+        "Sesamo tostato abbondante"
+      ],
+      "instructions": "Questa è una ricetta 100% giapponese, perfetta per l'estate e ideale per valorizzare al meglio questo ortaggio. In giapponese si chiama Chūka-fū tataki kyūri, che potremmo tradurre come \"cetriolo schiacciato alla cinese\". Il segreto di questa preparazione è la sua \"brutalità\": il cetriolo non viene tagliato, ma letteralmente rotto, il che permette ai condimenti di penetrare in profondità.\n\nPer prima cosa, prendete il vostro cetriolo giapponese (quello lungo, fino e \"sbruzzoloso\") e inseritelo all'interno di un sacchetto di plastica resistente (come quelli per il congelatore). Questo eviterà di \"trovare cetriolini per tutta casa\".\n\nOra, armatevi di matterello e andate a colpire il cetriolo a mazzaroccate fino a quando non si sarà rotto in tanti pezzi irregolari. È proprio questa la tecnica del tataki kyūri: la rottura irregolare permette alla marinatura di entrare bene in profondità all'interno della polpa.\n\nA questo punto, con i pezzi di cetriolo ancora all'interno della busta, aggiungiamo tutti i condimenti in egual misura: un cucchiaio di salsa di soia, uno di aceto di riso, uno di olio di sesamo e uno di zucchero. Aggiungete poi un cucchiaino di brodo di pollo in polvere e un'abbondante pioggia di sesamo tostato.\n\nSigillate il sacchetto e dategli \"una bella shakerata\": in questo, la busta aiuta tantissimo a far amalgamare tutti i sapori in modo omogeneo.\n\nNon vi resta che versare il contenuto in una ciotolina e servire. Avrete ottenuto un'insalata freschissima e saporita che sarà una grande compagna per la vostra estate!"
     },
     {
       "title": "Hiyashi Nasu",

@@ -107,6 +107,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/enoki-tatsuta-age"
     },
     {
+      "id": "ricette/antipasti/chuka_tataki_kyuri",
+      "title": "Chūka-fū tataki kyūri",
+      "description": "Insalata estiva di cetriolo giapponese schiacciato e marinato con salsa di soia, aceto di riso, olio di sesamo e sesamo tostato.",
+      "permalink": "/ricette/chuka_tataki_kyuri"
+    },
+    {
       "id": "ricette/antipasti/sunomono",
       "title": "Sunomono di Cetrioli e Wakame (con variante al Polpo)",
       "description": "Insalatine giapponesi con condimento a base di aceto, perfette per l'estate.",
@@ -591,6 +597,14 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Zuppa di Miso e Funghi Vegana",
       "description": "Una zuppa di miso vegana, perfetta per l'autunno, con shiitake, enoki e miso rosso.",
       "permalink": "/ricette/zuppa-miso-funghi-vegana"
+    }
+  ],
+  "antipasti": [
+    {
+      "id": "ricette/antipasti/chuka_tataki_kyuri",
+      "title": "Chūka-fū tataki kyūri",
+      "description": "Insalata estiva di cetriolo giapponese schiacciato e marinato con salsa di soia, aceto di riso, olio di sesamo e sesamo tostato.",
+      "permalink": "/ricette/chuka_tataki_kyuri"
     }
   ],
   "katsuobushi": [
