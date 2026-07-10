@@ -97,6 +97,13 @@
     "width": 1638,
     "height": 1464
   },
+  "blog/bandiere/bandiere.jpg": {
+    "hash": "ab1363d5708f7553cc9de2ccc5c864e9",
+    "original": "/img/blog/bandiere/bandiere.jpg",
+    "srcset": "/img/blog/bandiere/bandiere-320w.webp 320w, /img/blog/bandiere/bandiere-640w.webp 640w, /img/blog/bandiere/bandiere-1280w.webp 1280w, /img/blog/bandiere/bandiere-1600w.webp 1600w",
+    "width": 1672,
+    "height": 941
+  },
   "blog/enciclopedia_1956.jpg": {
     "hash": "2be2d26eec8a003faed8d5a883214e47",
     "original": "/img/blog/enciclopedia_1956.jpg",
