@@ -181,3 +181,13 @@ Serie giapponese del 2019 che racconta la vita quotidiana di una coppia, seguend
 Ogni episodio unisce narrazione intima e spiegazione culinaria, trasformando la cucina domestica in spazio di condivisione, equilibrio e affetto. Una serie delicata che celebra la semplicità del cibo quotidiano.
 
 </ArticleCard>
+
+### The Makanai: Cooking for the Maiko House
+
+<ArticleCard subtitle="titolo originale: 舞妓さんちのまかないさん, Maiko-san chi no Makanai-san" imageSrc="/img/video/makanai.jpg" imageAlt="The Makanai: Cooking for the Maiko House">
+
+Serie giapponese del 2023, diretta e sviluppata da Hirokazu Kore-eda e tratta dall'omonimo manga di Aiko Koyama. Racconta la storia di Kiyo e Sumire, due amiche che lasciano Aomori e si trasferiscono a Kyoto con il sogno di diventare maiko. Mentre Sumire dimostra un grande talento e prosegue la propria formazione, Kiyo scopre che la sua vera vocazione è un'altra: cucinare per le ragazze della casa.
+
+Kiyo diventa così la makanai, la persona incaricata di preparare i pasti quotidiani per chi vive e lavora nella struttura. Attraverso zuppe, donburi, verdure di stagione e semplici piatti casalinghi, la serie racconta la vita delle maiko lontano dagli stereotipi, mostrando il cibo come cura, memoria e modo per sentirsi a casa. Delicata, lenta e visivamente bellissima, è una delle serie che meglio rappresentano la cucina domestica giapponese e il suo legame con le stagioni e con gli affetti.
+
+</ArticleCard>

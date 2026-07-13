@@ -1462,6 +1462,13 @@
     "width": 2048,
     "height": 1152
   },
+  "video/makanai.jpg": {
+    "hash": "5068f8627c5624a23a4b9d78b24a2582",
+    "original": "/img/video/makanai.jpg",
+    "srcset": "/img/video/makanai-320w.webp 320w, /img/video/makanai-640w.webp 640w, /img/video/makanai-1280w.webp 1280w",
+    "width": 1472,
+    "height": 1069
+  },
   "video/midnight_diner.webp": {
     "hash": "a50f16f1908e95e5d6cf2036731506ed",
     "original": "/img/video/midnight_diner.webp",
