@@ -605,6 +605,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Chūka-fū tataki kyūri",
       "description": "Insalata estiva di cetriolo giapponese schiacciato e marinato con salsa di soia, aceto di riso, olio di sesamo e sesamo tostato.",
       "permalink": "/ricette/chuka_tataki_kyuri"
+    },
+    {
+      "id": "ricette/antipasti/tofu_natto_kimchi_ponzu",
+      "title": "Hiyayakko con Natto e Kimchi",
+      "description": "Tofu freddo caricato con natto, kimchi e salsa ponzu — un accostamento apparentemente caotico che regala un sapore sorprendente.",
+      "permalink": "/ricette/tofu-natto-kimchi-ponzu"
     }
   ],
   "katsuobushi": [
@@ -895,6 +901,50 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/wakatake"
     }
   ],
+  "natto": [
+    {
+      "id": "ricette/antipasti/tofu_natto_kimchi_ponzu",
+      "title": "Hiyayakko con Natto e Kimchi",
+      "description": "Tofu freddo caricato con natto, kimchi e salsa ponzu — un accostamento apparentemente caotico che regala un sapore sorprendente.",
+      "permalink": "/ricette/tofu-natto-kimchi-ponzu"
+    },
+    {
+      "id": "ricette/menrui/natto_soba",
+      "title": "Natto Soba",
+      "description": "Spaghetti di grano saraceno freddi con natto, cipolline, alga nori e altre delizie",
+      "permalink": "/ricette/natto_soba"
+    },
+    {
+      "id": "ricette/menrui/tororo_natto_shiso_udon",
+      "title": "Tororo Natto Shiso Udon",
+      "description": "Una ricetta estiva veloce, nutriente e ricca di consistenze uniche grazie al contrasto tra il cremoso tororo e il natto.",
+      "permalink": "/ricette/tororo-natto-shiso-udon"
+    }
+  ],
+  "tofu": [
+    {
+      "id": "ricette/antipasti/tofu_natto_kimchi_ponzu",
+      "title": "Hiyayakko con Natto e Kimchi",
+      "description": "Tofu freddo caricato con natto, kimchi e salsa ponzu — un accostamento apparentemente caotico che regala un sapore sorprendente.",
+      "permalink": "/ricette/tofu-natto-kimchi-ponzu"
+    }
+  ],
+  "kimchi": [
+    {
+      "id": "ricette/antipasti/tofu_natto_kimchi_ponzu",
+      "title": "Hiyayakko con Natto e Kimchi",
+      "description": "Tofu freddo caricato con natto, kimchi e salsa ponzu — un accostamento apparentemente caotico che regala un sapore sorprendente.",
+      "permalink": "/ricette/tofu-natto-kimchi-ponzu"
+    }
+  ],
+  "salsa ponzu": [
+    {
+      "id": "ricette/antipasti/tofu_natto_kimchi_ponzu",
+      "title": "Hiyayakko con Natto e Kimchi",
+      "description": "Tofu freddo caricato con natto, kimchi e salsa ponzu — un accostamento apparentemente caotico che regala un sapore sorprendente.",
+      "permalink": "/ricette/tofu-natto-kimchi-ponzu"
+    }
+  ],
   "vegan": [
     {
       "id": "ricette/antipasti/yamitsuki_kyabesu",
@@ -1175,20 +1225,6 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Zaru Soba",
       "description": "Spaghetti di grano saraceno freddi",
       "permalink": "/ricette/zaru_soba"
-    }
-  ],
-  "natto": [
-    {
-      "id": "ricette/menrui/natto_soba",
-      "title": "Natto Soba",
-      "description": "Spaghetti di grano saraceno freddi con natto, cipolline, alga nori e altre delizie",
-      "permalink": "/ricette/natto_soba"
-    },
-    {
-      "id": "ricette/menrui/tororo_natto_shiso_udon",
-      "title": "Tororo Natto Shiso Udon",
-      "description": "Una ricetta estiva veloce, nutriente e ricca di consistenze uniche grazie al contrasto tra il cremoso tororo e il natto.",
-      "permalink": "/ricette/tororo-natto-shiso-udon"
     }
   ],
   "nori": [

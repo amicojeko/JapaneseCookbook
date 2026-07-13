@@ -1273,6 +1273,13 @@
     "width": 1080,
     "height": 1076
   },
+  "ricette/tofu_natto_kimchi_ponzu.jpg": {
+    "hash": "96035c3c7af801b3b2e7df79f74f7a31",
+    "original": "/img/ricette/tofu_natto_kimchi_ponzu.jpg",
+    "srcset": "/img/ricette/tofu_natto_kimchi_ponzu-320w.webp 320w, /img/ricette/tofu_natto_kimchi_ponzu-640w.webp 640w, /img/ricette/tofu_natto_kimchi_ponzu-1280w.webp 1280w, /img/ricette/tofu_natto_kimchi_ponzu-1600w.webp 1600w",
+    "width": 1672,
+    "height": 941
+  },
   "ricette/tonjiru.jpg": {
     "hash": "88903fd60fe37d6d7fd98bd494ea558b",
     "original": "/img/ricette/tonjiru.jpg",

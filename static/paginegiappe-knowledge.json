@@ -2,7 +2,7 @@
   "meta": {
     "site": "https://paginegiappe.it",
     "description": "Guida italiana alla cucina giapponese: ricette autentiche, ingredienti, negozi orientali in Italia, strumenti, viaggi e cultura gastronomica.",
-    "generated": "2026-07-13T10:27:48.414Z",
+    "generated": "2026-07-13T10:44:35.540Z",
     "version": 1
   },
   "ricette": [
@@ -187,6 +187,28 @@
         "Sale fino"
       ],
       "instructions": "Perfette per rinfrescare la torrida estate, dei bellissimi piatti freddi giapponesi! Si parla di Sunomono, ovvero insalatine con condimento a base di aceto. Vedremo la versione classica con cetriolo e alghe wakame, e quella super lusso con l'aggiunta del polpo. E adesso, vi faccio vedere come si fanno!\n\nPreparazione delle verdure\nPer prima cosa, facciamo rinvenire le alghe wakame in abbondante acqua fredda per una decina di minuti. Nel frattempo, tagliamo il cetriolo a fette sottilissime. Mettiamo le fette in un colino, le saliamo leggermente, diamo una bella mescolata e le lasciamo riposare per fargli perdere un po' d'acqua.\n\nStrizziamo tutto: Una volta che le wakame si sono riprese, diamo una bella sciacquata sotto l'acqua corrente e poi una bella strizzata con le mani per rimuovere l'eccesso d'acqua. Facciamo lo stesso con i cetrioli: una rapidissima sciacquata per togliere il sale e un'altra bella strizzata.\n\nAssemblaggio (Versione 1: Kyuri to Wakame no Sunomono)\n\nAdesso che tutti gli ingredienti sono pronti, procediamo all'assemblaggio. In una ciotola uniamo le alghe wakame e una parte dei cetrioli. Condiamo con:\n- 2 cucchiai di sushisu\n- 1 cucchiaio di shoyu (salsa di soia)\n- Un goccino di olio di sesamo\n\nMescoliamo bene e serviamo su un bel piattino da portata. Una generosa spolverata di sesamo tostato a guarnire e la nostra prima insalatina è pronta!\n\nAssemblaggio (Versione 2: con il Polpo)\n\nSiccome oggi non ci accontentiamo, passiamo alla seconda versione! In un'altra ciotola mettiamo altre wakame, il nostro bel polpo tagliato a pezzetti e, perché no, i cetrioli rimasti. Condiamo di nuovo:\n- 2 cucchiai abbondanti di sushisu\n- 1 cucchiaio di salsa di soia\n\nUna bella mescolata e serviamo. Anche qui, semi di sesamo a guarnire e anche questa è pronta!"
+    },
+    {
+      "title": "Hiyayakko con Natto e Kimchi",
+      "description": "Tofu freddo caricato con natto, kimchi e salsa ponzu — un accostamento apparentemente caotico che regala un sapore sorprendente.",
+      "url": "https://paginegiappe.it/ricette/tofu-natto-kimchi-ponzu/",
+      "image": "https://paginegiappe.it/img/ricette/tofu_natto_kimchi_ponzu.jpg",
+      "category": "Antipasti",
+      "tags": [
+        "antipasti",
+        "natto",
+        "tofu",
+        "kimchi",
+        "salsa ponzu"
+      ],
+      "recipeYield": "1 persona",
+      "ingredients": [
+        "1 panetto di Tofu",
+        "1 confezione di Natto (con le sue bustine di senape e salsa incluse)",
+        "Kimchi",
+        "Salsa Ponzu"
+      ],
+      "instructions": "All'inizio il tofu non lo capivo, ma poi ha detto bene il mio amico Giulio, grande scrittore: \"Il tofu è un moltiplicatore delle doti dello chef\". Se lo fai male viene uno schifo, ma se lo fai bene viene divino. In cucina uno più uno non fa sempre due, ma a volte può fare anche 20, 50 o 100, e possiamo divertirci con accostamenti inaspettati e azzardati per ottenere risultati sorprendenti.\n\nOggi prepariamo una ricetta incredibile a cui all'inizio non credevo nemmeno io. L'incontro tra il tofu, il natto (il nemico dell'Occidente), il kimchi e la salsa ponzu crea un'apparente cacofonia caotica di sapori, dalla quale in realtà esce un sapore divino. E non divino nel senso che sa \"de vino\", ma divino nel senso di \"Dio quant'è bbona\"!\n\n1. Posizionate il panetto di tofu in un piattino fondo e praticate una leggera incisione sulla superficie con un coltello.\n2. Aprite la confezione di natto, aggiungete la senape e la salsina contenute all'interno, e mescolate vigorosamente con le bacchette finché i fagioli non diventano belli filanti e collosi.\n3. Versate il natto appena mescolato direttamente sopra il panetto di tofu.\n4. Aggiungete una bella porzione di kimchi sopra il natto.\n5. Irrorate il tutto con abbondante salsa ponzu.\n6. Il vostro piatto è pronto. Se \"v'aregge\", rifatela e assaggiatela, altrimenti mangiatevi \"una rosetta cor salame\"!\n\nSe vuoi la versione più sobria e classica del tofu freddo, prova l'hiyayakko: stesso panetto, condimenti più tradizionali (negi, zenzero, katsuobushi)."
     },
     {
       "title": "Yamitsuki Kyabesu",

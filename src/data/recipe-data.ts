@@ -226,6 +226,32 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [],
     "datePublished": "2025-09-03T20:09:44+02:00"
   },
+  "ricette/antipasti/tofu_natto_kimchi_ponzu": {
+    "docId": "ricette/antipasti/tofu_natto_kimchi_ponzu",
+    "title": "Hiyayakko con Natto e Kimchi",
+    "description": "Tofu freddo caricato con natto, kimchi e salsa ponzu — un accostamento apparentemente caotico che regala un sapore sorprendente.",
+    "image": "/img/ricette/tofu_natto_kimchi_ponzu.jpg",
+    "recipeCategory": "Antipasti",
+    "recipeKeywords": [
+      "antipasti",
+      "natto",
+      "tofu",
+      "kimchi",
+      "salsa ponzu"
+    ],
+    "recipeYield": "1 persona",
+    "recipeIngredient": [
+      "1 panetto di Tofu",
+      "1 confezione di Natto (con le sue bustine di senape e salsa incluse)",
+      "Kimchi",
+      "Salsa Ponzu"
+    ],
+    "instructionsText": "1. Posizionate il panetto di tofu in un piattino fondo e praticate una leggera incisione sulla superficie con un coltello. 2. Aprite la confezione di natto, aggiungete la senape e la salsina contenute all'interno, e mescolate vigorosamente con le bacchette finché i fagioli non diventano belli filanti e collosi. 3. Versate il natto appena mescolato direttamente sopra il panetto di tofu. 4. Aggiungete una bella porzione di kimchi sopra il natto. 5. Irrorate il tutto con abbondante salsa ponzu. 6. Il vostro piatto è pronto. Se \"v'aregge\", rifatela e assaggiatela, altrimenti mangiatevi \"una rosetta cor salame\"!",
+    "videoIds": [
+      "Z123fdzaRXU"
+    ],
+    "datePublished": null
+  },
   "ricette/antipasti/yamitsuki_kyabesu": {
     "docId": "ricette/antipasti/yamitsuki_kyabesu",
     "title": "Yamitsuki Kyabesu",

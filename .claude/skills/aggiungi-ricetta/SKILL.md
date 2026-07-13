@@ -24,7 +24,7 @@ Prima di generare il file, assicurati di avere queste cose. Se manca qualcosa di
    - **Chiedi sempre all'utente l'ID (o gli ID) del video** ("Hai un video YouTube per questa ricetta? Se sì passami l'ID").
    - Se l'utente **non** te lo dà, **non** aggiungere la sezione `## Video`. Non cercarlo tu su YouTube, non inventarlo.
 
-4. **Titolo (romanji).** Il `title:` deve essere, quando esiste, la versione **romanji** del nome giapponese del piatto (es. `Oyakodon`, `Tonjiru`, `Dashi`), non la traduzione italiana. La traduzione/descrizione va nel sottotitolo.
+4. **Titolo (romanji) e sottotitolo.** Il `title:` deve **richiamare una ricetta giapponese nota**: usa la versione **romanji** del nome del piatto (es. `Oyakodon`, `Tonjiru`, `Dashi`), non la traduzione italiana. Per un piatto-fusione o una variante, aggancialo alla ricetta canonica più vicina invece di inventare un nome descrittivo (es. un tofu freddo caricato con natto e kimchi → `Hiyayakko con Natto e Kimchi`, non `Tofu, natto, kimchi e ponzu`). Il `sidebar_custom_props.subtitle` **spiega in poche parole di che si tratta** in italiano (es. `Tofu freddo con natto, kimchi e ponzu`); la traduzione/descrizione più estesa va nel `description:`.
 
 5. **Categoria.** Scegli la sottocartella giusta sotto `docs/ricette/` in base al metodo/tipo di piatto. Cartelle esistenti: `agemono`, `antipasti`, `fish`, `menrui`, `nimono`, `preparazioni_di_base`, `riso`, `sides`, `tsukemono`, `wagashi`, `yakimono`, `zuppe`. In dubbio, chiedi all'utente in quale categoria metterla.
 
