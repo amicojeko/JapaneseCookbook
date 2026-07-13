@@ -27,7 +27,7 @@ export const BLOG_INDEX: BlogIndexEntry[] = [
     "description": "Hinomaru e Kyokujitsuki: due bandiere che condividono il sole rosso ma non la stessa storia. Una rappresenta ufficialmente il Giappone, l'altra è un simbolo militare controverso.",
     "image": "/img/blog/bandiere/bandiere.jpg",
     "date": "2026-07-08",
-    "readingTime": 1.74,
+    "readingTime": 1.75,
     "authors": [
       {
         "key": "fujitivo",

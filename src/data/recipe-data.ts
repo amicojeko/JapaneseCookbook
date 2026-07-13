@@ -125,7 +125,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "R5SFTwKcVTU"
     ],
-    "datePublished": null
+    "datePublished": "2026-07-10T15:49:56+02:00"
   },
   "ricette/antipasti/hiyashi_nasu": {
     "docId": "ricette/antipasti/hiyashi_nasu",
