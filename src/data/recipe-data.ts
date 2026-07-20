@@ -250,7 +250,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "Z123fdzaRXU"
     ],
-    "datePublished": null
+    "datePublished": "2026-07-13T12:48:06+02:00"
   },
   "ricette/antipasti/yamitsuki_kyabesu": {
     "docId": "ricette/antipasti/yamitsuki_kyabesu",
@@ -391,6 +391,34 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "instructionsText": "Bolli i soba in abbondante acqua (io non metto sale), sciacquali sotto l'acqua fredda, trasferiscili in una ciotola con acqua e ghiaccio per raffreddarli, scolali e asciugali bene, e mettili in una ciotola facendo una fossetta al centro, dove metterai il rosso dell'uovo. Aggiungi ai lati il natto, le cipolline tagliate sottili, il katsuobushi, il kizami nori, e il rosso dell'uovo al centro. Opzionale, come in foto, puoi aggiungere un paio di foglie di shiso fresco per guarnire. Mischia il mentsuyu e il dashi, per ottenere lo tsuyu, che verserai al lato della ciotola, per fare un fondo di circa 1 cm di altezza. E ora non ti resta che mangiare! Itadakimasu!",
     "videoIds": [],
     "datePublished": "2024-07-19T10:04:20+02:00"
+  },
+  "ricette/menrui/somen_tororo_lime": {
+    "docId": "ricette/menrui/somen_tororo_lime",
+    "title": "Somen Freddi con Tororo e Lime",
+    "description": "Una ricetta estiva freschissima e \"neba neba\", a base di somen ghiacciati, nagaimo grattugiato, tuorlo crudo e lime.",
+    "image": "/img/ricette/somen_tororo_lime.jpg",
+    "recipeCategory": "Noodles",
+    "recipeKeywords": [
+      "somen",
+      "tororo",
+      "nagaimo",
+      "ponzu"
+    ],
+    "recipeYield": null,
+    "recipeIngredient": [
+      "Somen",
+      "Nagaimo (tubero giapponese)",
+      "1 Tuorlo d'uovo freschissimo",
+      "Cipolline verdi",
+      "1 Lime",
+      "Salsa Ponzu",
+      "Acqua e ghiaccio"
+    ],
+    "instructionsText": "La ricetta è semplicissima. Iniziate cuocendo i somen in acqua bollente. Una volta cotti, scolateli e sciacquateli immediatamente sotto l'acqua corrente, per poi tuffarli in una ciotola piena di acqua e ghiaccio per farli raffreddare del tutto. Prendete il vostro Nagaimo e grattugiatelo finemente fino a ottenere il Tororo, una crema viscosa e super rinfrescante. A questo punto passiamo all'impiattamento: adagiate i somen ghiacciati sul fondo di una ciotola e versateci sopra abbondante Tororo. Posizionate al centro un tuorlo d'uovo freschissimo, aggiungete le cipolline verdi tagliate fini e decorate con qualche fettina di lime. Per concludere, irrorate tutto con la salsa ponzu e date una freschissima spremutina di succo di lime. Mescolate bene il tutto per ottenere un piatto mega avvolgente e super confortante!",
+    "videoIds": [
+      "PjykDwvUW6g"
+    ],
+    "datePublished": null
   },
   "ricette/menrui/tomato_to_tsuna_no_hiyashi_somen": {
     "docId": "ricette/menrui/tomato_to_tsuna_no_hiyashi_somen",

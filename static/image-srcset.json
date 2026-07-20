@@ -1224,6 +1224,13 @@
     "width": 1672,
     "height": 941
   },
+  "ricette/somen_tororo_lime.jpg": {
+    "hash": "fc617e56b26781d9516fefc5f95a7998",
+    "original": "/img/ricette/somen_tororo_lime.jpg",
+    "srcset": "/img/ricette/somen_tororo_lime-320w.webp 320w, /img/ricette/somen_tororo_lime-640w.webp 640w, /img/ricette/somen_tororo_lime-1280w.webp 1280w, /img/ricette/somen_tororo_lime-1600w.webp 1600w",
+    "width": 1672,
+    "height": 941
+  },
   "ricette/sunomono.jpg": {
     "hash": "4bf4cf15c85a23fe18df8ed53719d9ab",
     "original": "/img/ricette/sunomono.jpg",

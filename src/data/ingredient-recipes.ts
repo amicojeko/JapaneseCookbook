@@ -1287,10 +1287,40 @@ export const INGREDIENT_RECIPE_INDEX = {
   ],
   "somen": [
     {
+      "id": "ricette/menrui/somen_tororo_lime",
+      "title": "Somen Freddi con Tororo e Lime",
+      "description": "Una ricetta estiva freschissima e \"neba neba\", a base di somen ghiacciati, nagaimo grattugiato, tuorlo crudo e lime.",
+      "permalink": "/ricette/somen-tororo-lime"
+    },
+    {
       "id": "ricette/menrui/tomato_to_tsuna_no_hiyashi_somen",
       "title": "Tomato to Tsuna no Hiyashi Somen",
       "description": "Una ricetta estiva semplicissima e velocissima, un mix perfetto tra i sapori mediterranei e la dispensa giapponese.",
       "permalink": "/ricette/tomato-tsuna-hiyashi-somen"
+    }
+  ],
+  "tororo": [
+    {
+      "id": "ricette/menrui/somen_tororo_lime",
+      "title": "Somen Freddi con Tororo e Lime",
+      "description": "Una ricetta estiva freschissima e \"neba neba\", a base di somen ghiacciati, nagaimo grattugiato, tuorlo crudo e lime.",
+      "permalink": "/ricette/somen-tororo-lime"
+    }
+  ],
+  "nagaimo": [
+    {
+      "id": "ricette/menrui/somen_tororo_lime",
+      "title": "Somen Freddi con Tororo e Lime",
+      "description": "Una ricetta estiva freschissima e \"neba neba\", a base di somen ghiacciati, nagaimo grattugiato, tuorlo crudo e lime.",
+      "permalink": "/ricette/somen-tororo-lime"
+    }
+  ],
+  "ponzu": [
+    {
+      "id": "ricette/menrui/somen_tororo_lime",
+      "title": "Somen Freddi con Tororo e Lime",
+      "description": "Una ricetta estiva freschissima e \"neba neba\", a base di somen ghiacciati, nagaimo grattugiato, tuorlo crudo e lime.",
+      "permalink": "/ricette/somen-tororo-lime"
     }
   ],
   "tsuyu": [

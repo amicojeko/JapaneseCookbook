@@ -2,7 +2,7 @@
   "meta": {
     "site": "https://paginegiappe.it",
     "description": "Guida italiana alla cucina giapponese: ricette autentiche, ingredienti, negozi orientali in Italia, strumenti, viaggi e cultura gastronomica.",
-    "generated": "2026-07-13T10:44:35.540Z",
+    "generated": "2026-07-20T12:36:30.043Z",
     "version": 1
   },
   "ricette": [
@@ -337,6 +337,30 @@
         "1 uovo fresco che si possa mangiare crudo (opzionale)"
       ],
       "instructions": "Per il condimento\n- mezza tazza di mentsuyu\n- mezza tazza di dashi\n\nBolli i soba in abbondante acqua (io non metto sale), sciacquali sotto l'acqua fredda, trasferiscili in una ciotola con acqua e ghiaccio per raffreddarli, scolali e asciugali bene, e mettili in una ciotola facendo una fossetta al centro, dove metterai il rosso dell'uovo.\n\nAggiungi ai lati il natto, le cipolline tagliate sottili, il katsuobushi, il kizami nori, e il rosso dell'uovo al centro. Opzionale, come in foto, puoi aggiungere un paio di foglie di shiso fresco per guarnire.\n\nMischia il mentsuyu e il dashi, per ottenere lo tsuyu, che verserai al lato della ciotola, per fare un fondo di circa 1 cm di altezza.\n\nE ora non ti resta che mangiare! Itadakimasu!"
+    },
+    {
+      "title": "Somen Freddi con Tororo e Lime",
+      "description": "Una ricetta estiva freschissima e \"neba neba\", a base di somen ghiacciati, nagaimo grattugiato, tuorlo crudo e lime.",
+      "url": "https://paginegiappe.it/ricette/somen-tororo-lime/",
+      "image": "https://paginegiappe.it/img/ricette/somen_tororo_lime.jpg",
+      "category": "Noodles",
+      "tags": [
+        "somen",
+        "tororo",
+        "nagaimo",
+        "ponzu"
+      ],
+      "recipeYield": null,
+      "ingredients": [
+        "Somen",
+        "Nagaimo (tubero giapponese)",
+        "1 Tuorlo d'uovo freschissimo",
+        "Cipolline verdi",
+        "1 Lime",
+        "Salsa Ponzu",
+        "Acqua e ghiaccio"
+      ],
+      "instructions": "In giapponese esistono più di 4500 parole mimetiche (o onomatopee) e una delle più famose per descrivere il cibo è Neba Neba, che indica qualcosa di filamentoso, appiccicoso e viscoso. Il grande protagonista di questa ricetta è il Nagaimo, un tubero che, una volta grattugiato, crea una \"pappa collosa\" chiamata Tororo. Insieme al tuorlo d'uovo, questo ingrediente trasformerà i vostri somen freddi regalando un incredibile \"effetto carbocrema del 2000\"!\n\nLa ricetta è semplicissima. Iniziate cuocendo i somen in acqua bollente. Una volta cotti, scolateli e sciacquateli immediatamente sotto l'acqua corrente, per poi tuffarli in una ciotola piena di acqua e ghiaccio per farli raffreddare del tutto.\n\nPrendete il vostro Nagaimo e grattugiatelo finemente fino a ottenere il Tororo, una crema viscosa e super rinfrescante.\n\nA questo punto passiamo all'impiattamento: adagiate i somen ghiacciati sul fondo di una ciotola e versateci sopra abbondante Tororo. Posizionate al centro un tuorlo d'uovo freschissimo, aggiungete le cipolline verdi tagliate fini e decorate con qualche fettina di lime.\n\nPer concludere, irrorate tutto con la salsa ponzu e date una freschissima spremutina di succo di lime. Mescolate bene il tutto per ottenere un piatto mega avvolgente e super confortante!"
     },
     {
       "title": "Tomato to Tsuna no Hiyashi Somen",
@@ -2441,7 +2465,7 @@
       "url": "https://paginegiappe.it/film_anime_serie_tv/",
       "image": null,
       "tags": [],
-      "content": "Film, Anime e Serie TV sul cibo giapponese\n\nIn questa sezione raccolgo i film, gli anime e le serie TV che mi hanno colpito di più, e che secondo me sono dei must see per chi ama la cultura gastronomica giapponese.\n\nFilm\n\nTampopo\n\nThe Zen Diary\n\nLe ricette della signora Toku\n\nRamen Teh\n\nUdon\n\nAnime\n\nFood Wars (Shokugeki no Soma)\n\nIsekai Izakaya: Japanese Food From Another World\n\nCampfire Cooking in Another World with My Absurd Skill\n\nOishinbo\n\nYakitate!! Japan\n\nPiace: Watashi no Italian\n\nTonkatsu DJ Agetaro\n\nSerie TV\n\nSamurai Gourmet\n\nMidnight Diner\n\nKantaro: The Sweet Tooth Salaryman\n\nThe Solitary Gourmet\n\nWhat Did You Eat Yesterday?"
+      "content": "Film, Anime e Serie TV sul cibo giapponese\n\nIn questa sezione raccolgo i film, gli anime e le serie TV che mi hanno colpito di più, e che secondo me sono dei must see per chi ama la cultura gastronomica giapponese.\n\nFilm\n\nTampopo\n\nThe Zen Diary\n\nLe ricette della signora Toku\n\nRamen Teh\n\nUdon\n\nAnime\n\nFood Wars (Shokugeki no Soma)\n\nIsekai Izakaya: Japanese Food From Another World\n\nCampfire Cooking in Another World with My Absurd Skill\n\nOishinbo\n\nYakitate!! Japan\n\nPiace: Watashi no Italian\n\nTonkatsu DJ Agetaro\n\nSerie TV\n\nSamurai Gourmet\n\nMidnight Diner\n\nKantaro: The Sweet Tooth Salaryman\n\nThe Solitary Gourmet\n\nWhat Did You Eat Yesterday?\n\nThe Makanai: Cooking for the Maiko House"
     }
   ],
   "negozi": [
