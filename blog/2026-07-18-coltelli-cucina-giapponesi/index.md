@@ -1,7 +1,7 @@
 ---
 slug: coltelli-cucina-giapponesi
 title: "Coltelli da cucina giapponesi"
-authors: [christian]
+authors: [cristian]
 tags: [cultura, cucina]
 description: "Come sono fatti i coltelli da cucina giapponesi e le principali differenze dai coltelli occidentali: acciai, forgiatura, tempra, rinvenimento, manico e affilatura."
 image: /img/blog/coltelli_cucina_giapponesi_esempi.jpg

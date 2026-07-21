@@ -1587,5 +1587,19 @@
     "srcset": "",
     "width": 150,
     "height": 150
+  },
+  "ricette/mugen_piiman.jpg": {
+    "hash": "52567a616395db636117d9dbf974734a",
+    "original": "/img/ricette/mugen_piiman.jpg",
+    "srcset": "/img/ricette/mugen_piiman-320w.webp 320w, /img/ricette/mugen_piiman-640w.webp 640w, /img/ricette/mugen_piiman-1280w.webp 1280w, /img/ricette/mugen_piiman-1600w.webp 1600w",
+    "width": 1672,
+    "height": 941
+  },
+  "ricette/nasu_niku_miso.jpg": {
+    "hash": "70956856d91a2c26e97fd2c3707cbc74",
+    "original": "/img/ricette/nasu_niku_miso.jpg",
+    "srcset": "/img/ricette/nasu_niku_miso-320w.webp 320w, /img/ricette/nasu_niku_miso-640w.webp 640w, /img/ricette/nasu_niku_miso-1280w.webp 1280w, /img/ricette/nasu_niku_miso-1600w.webp 1600w",
+    "width": 1672,
+    "height": 941
   }
 }

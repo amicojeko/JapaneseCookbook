@@ -21,6 +21,23 @@ export type BlogIndexEntry = {
 
 export const BLOG_INDEX: BlogIndexEntry[] = [
   {
+    "slug": "shokunin-kishitsu-materia-riparazione-senso",
+    "permalink": "/blog/shokunin-kishitsu-materia-riparazione-senso/",
+    "title": "Shokunin Kishitsu | I 20 valori dello spirito artigiano — Parte III: Materia, riparazione e senso",
+    "description": "Fukinsei, Kanso, Shizen, Kintsugi, Ikigai e Shokunin: il rapporto con la materia, la filosofia della riparazione e il senso profondo del mestiere artigiano.",
+    "image": "/img/blog/toolsreborn/coltelli-giapponesi-tradizionali-pietre-naturali.jpg",
+    "date": "2026-07-22",
+    "readingTime": 3.73,
+    "authors": [
+      {
+        "key": "toolsreborn",
+        "name": "ToolsReborn – Wabi Sabi Story",
+        "imageURL": "/img/authors/tools_reborn.jpg",
+        "title": "Dietro la ruggine di ogni lama e di ogni attrezzo dimenticato si nasconde una storia unica"
+      }
+    ]
+  },
+  {
     "slug": "coltelli-cucina-giapponesi",
     "permalink": "/blog/coltelli-cucina-giapponesi/",
     "title": "Coltelli da cucina giapponesi",
@@ -30,9 +47,26 @@ export const BLOG_INDEX: BlogIndexEntry[] = [
     "readingTime": 5,
     "authors": [
       {
-        "key": "christian",
-        "name": "Christian Zijno",
+        "key": "cristian",
+        "name": "Cristian Zijno",
         "title": "Forgiatore di metalli e storie"
+      }
+    ]
+  },
+  {
+    "slug": "bandiere-giappone-sole-nascente",
+    "permalink": "/blog/bandiere-giappone-sole-nascente/",
+    "title": "Perché la bandiera giapponese a volte ha i raggi rossi?",
+    "description": "Hinomaru e Kyokujitsuki: due bandiere che condividono il sole rosso ma non la stessa storia. Una rappresenta ufficialmente il Giappone, l'altra è un simbolo militare controverso.",
+    "image": "/img/blog/bandiere/bandiere.jpg",
+    "date": "2026-07-08",
+    "readingTime": 1.75,
+    "authors": [
+      {
+        "key": "fujitivo",
+        "name": "Erick \"il Fujitivo\"",
+        "imageURL": "/img/authors/logo_ilfujitivo.png",
+        "title": "Viaggiatore in Giappone dal 2008 · autore di \"Andiamo in Giappone\""
       }
     ]
   },
@@ -84,40 +118,6 @@ export const BLOG_INDEX: BlogIndexEntry[] = [
         "name": "Aki Nakagoe",
         "imageURL": "/img/authors/aki_nakagoe.jpg",
         "title": "Cuoco giapponese e divulgatore della cucina washoku casalinga"
-      }
-    ]
-  },
-  {
-    "slug": "shokunin-kishitsu-etica-del-gesto",
-    "permalink": "/blog/shokunin-kishitsu-etica-del-gesto/",
-    "title": "Shokunin Kishitsu | I 20 valori dello spirito artigiano — Parte I: L'etica del gesto",
-    "description": "Gi, Yū, Jin, Rei, Makoto, Meiyo, Chūgi: i sette valori dell'etica del gesto che guidano la mano dell'artigiano e del cuoco giapponese.",
-    "image": "/img/blog/shokunin_kishitsu/parte1.jpg",
-    "date": "2026-06-19",
-    "readingTime": 3.49,
-    "authors": [
-      {
-        "key": "toolsreborn",
-        "name": "ToolsReborn – Wabi Sabi Story",
-        "imageURL": "/img/authors/tools_reborn.jpg",
-        "title": "Dietro la ruggine di ogni lama e di ogni attrezzo dimenticato si nasconde una storia unica"
-      }
-    ]
-  },
-  {
-    "slug": "goen-5-yen",
-    "permalink": "/blog/goen-5-yen/",
-    "title": "Perché i giapponesi offrono 5 yen al santuario (e non è per risparmiare)",
-    "description": "La monetina da 5 yen nasconde un mondo: goen, enmusubi, enkiri. Legami da creare, relazioni da tagliare e una storia di emancipazione femminile che pochi conoscono.",
-    "image": "/img/blog/5yen/5yen.jpg",
-    "date": "2026-06-16",
-    "readingTime": 1.46,
-    "authors": [
-      {
-        "key": "fujitivo",
-        "name": "Erick \"il Fujitivo\"",
-        "imageURL": "/img/authors/logo_ilfujitivo.png",
-        "title": "Viaggiatore in Giappone dal 2008 · autore di \"Andiamo in Giappone\""
       }
     ]
   }
