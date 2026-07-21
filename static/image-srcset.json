@@ -97,12 +97,47 @@
     "width": 1638,
     "height": 1464
   },
-  "blog/bandiere/bandiere.jpg": {
-    "hash": "ab1363d5708f7553cc9de2ccc5c864e9",
-    "original": "/img/blog/bandiere/bandiere.jpg",
-    "srcset": "/img/blog/bandiere/bandiere-320w.webp 320w, /img/blog/bandiere/bandiere-640w.webp 640w, /img/blog/bandiere/bandiere-1280w.webp 1280w, /img/blog/bandiere/bandiere-1600w.webp 1600w",
-    "width": 1672,
-    "height": 941
+  "blog/coltelli_cucina_giapponesi_biselli.jpg": {
+    "hash": "4c268a1e755f258dc75990149f56985e",
+    "original": "/img/blog/coltelli_cucina_giapponesi_biselli.jpg",
+    "srcset": "/img/blog/coltelli_cucina_giapponesi_biselli-320w.webp 320w, /img/blog/coltelli_cucina_giapponesi_biselli-640w.webp 640w",
+    "width": 1108,
+    "height": 736
+  },
+  "blog/coltelli_cucina_giapponesi_esempi.jpg": {
+    "hash": "9b7c57fabd4e1ec09cc8ff9fe6115b7d",
+    "original": "/img/blog/coltelli_cucina_giapponesi_esempi.jpg",
+    "srcset": "/img/blog/coltelli_cucina_giapponesi_esempi-320w.webp 320w, /img/blog/coltelli_cucina_giapponesi_esempi-640w.webp 640w",
+    "width": 878,
+    "height": 878
+  },
+  "blog/coltelli_cucina_giapponesi_forgiatura.jpg": {
+    "hash": "06f5acf14b12ebb5a14fc574157f2f86",
+    "original": "/img/blog/coltelli_cucina_giapponesi_forgiatura.jpg",
+    "srcset": "/img/blog/coltelli_cucina_giapponesi_forgiatura-320w.webp 320w, /img/blog/coltelli_cucina_giapponesi_forgiatura-640w.webp 640w",
+    "width": 860,
+    "height": 573
+  },
+  "blog/coltelli_cucina_giapponesi_pietre_naturali.jpg": {
+    "hash": "0f180c5d34c1795b89d66d504a682291",
+    "original": "/img/blog/coltelli_cucina_giapponesi_pietre_naturali.jpg",
+    "srcset": "/img/blog/coltelli_cucina_giapponesi_pietre_naturali-320w.webp 320w, /img/blog/coltelli_cucina_giapponesi_pietre_naturali-640w.webp 640w",
+    "width": 860,
+    "height": 645
+  },
+  "blog/coltelli_cucina_giapponesi_pietre_sintetiche.jpg": {
+    "hash": "a61740a80a3fd549131fb649f7f18a40",
+    "original": "/img/blog/coltelli_cucina_giapponesi_pietre_sintetiche.jpg",
+    "srcset": "/img/blog/coltelli_cucina_giapponesi_pietre_sintetiche-320w.webp 320w, /img/blog/coltelli_cucina_giapponesi_pietre_sintetiche-640w.webp 640w",
+    "width": 860,
+    "height": 764
+  },
+  "blog/coltelli_cucina_giapponesi_sezioni.jpg": {
+    "hash": "f6918b4dc2dae3b26b2ed0b2d9081885",
+    "original": "/img/blog/coltelli_cucina_giapponesi_sezioni.jpg",
+    "srcset": "/img/blog/coltelli_cucina_giapponesi_sezioni-320w.webp 320w, /img/blog/coltelli_cucina_giapponesi_sezioni-640w.webp 640w",
+    "width": 1025,
+    "height": 1024
   },
   "blog/enciclopedia_1956.jpg": {
     "hash": "2be2d26eec8a003faed8d5a883214e47",
@@ -460,13 +495,6 @@
     "srcset": "/img/blog/toolsreborn/calligraphy_20_mushin-320w.webp 320w, /img/blog/toolsreborn/calligraphy_20_mushin-640w.webp 640w",
     "width": 1024,
     "height": 1536
-  },
-  "blog/toolsreborn/coltelli-giapponesi-tradizionali-pietre-naturali.jpg": {
-    "hash": "41026c9aa69b5ae648ce32caabd900ce",
-    "original": "/img/blog/toolsreborn/coltelli-giapponesi-tradizionali-pietre-naturali.jpg",
-    "srcset": "/img/blog/toolsreborn/coltelli-giapponesi-tradizionali-pietre-naturali-320w.webp 320w, /img/blog/toolsreborn/coltelli-giapponesi-tradizionali-pietre-naturali-640w.webp 640w, /img/blog/toolsreborn/coltelli-giapponesi-tradizionali-pietre-naturali-1280w.webp 1280w, /img/blog/toolsreborn/coltelli-giapponesi-tradizionali-pietre-naturali-1600w.webp 1600w",
-    "width": 1600,
-    "height": 900
   },
   "blog/tre_scimmie/nikko-Shinkyusha.jpg": {
     "hash": "327e394eac69ff827456f3dca1b2f103",
@@ -951,13 +979,6 @@
     "width": 1080,
     "height": 1304
   },
-  "ricette/chuka_tataki_kyuri.jpg": {
-    "hash": "dea7e2875bc6c1a1bc033a4cdb74cad6",
-    "original": "/img/ricette/chuka_tataki_kyuri.jpg",
-    "srcset": "/img/ricette/chuka_tataki_kyuri-320w.webp 320w, /img/ricette/chuka_tataki_kyuri-640w.webp 640w, /img/ricette/chuka_tataki_kyuri-1280w.webp 1280w, /img/ricette/chuka_tataki_kyuri-1600w.webp 1600w",
-    "width": 1672,
-    "height": 941
-  },
   "ricette/ciotola-di-riso.jpg": {
     "hash": "682d2b9717cd58b8fb869499add859fa",
     "original": "/img/ricette/ciotola-di-riso.jpg",
@@ -1119,13 +1140,6 @@
     "width": 1080,
     "height": 920
   },
-  "ricette/mugen_piiman.jpg": {
-    "hash": "52567a616395db636117d9dbf974734a",
-    "original": "/img/ricette/mugen_piiman.jpg",
-    "srcset": "/img/ricette/mugen_piiman-320w.webp 320w, /img/ricette/mugen_piiman-640w.webp 640w, /img/ricette/mugen_piiman-1280w.webp 1280w, /img/ricette/mugen_piiman-1600w.webp 1600w",
-    "width": 1672,
-    "height": 941
-  },
   "ricette/nama_harumaki.jpg": {
     "hash": "3f6122af0d2cbf631c2171759f8316ed",
     "original": "/img/ricette/nama_harumaki.jpg",
@@ -1140,13 +1154,6 @@
     "width": 1200,
     "height": 995
   },
-  "ricette/nasu_niku_miso.jpg": {
-    "hash": "70956856d91a2c26e97fd2c3707cbc74",
-    "original": "/img/ricette/nasu_niku_miso.jpg",
-    "srcset": "/img/ricette/nasu_niku_miso-320w.webp 320w, /img/ricette/nasu_niku_miso-640w.webp 640w, /img/ricette/nasu_niku_miso-1280w.webp 1280w, /img/ricette/nasu_niku_miso-1600w.webp 1600w",
-    "width": 1672,
-    "height": 941
-  },
   "ricette/nasudengaku.jpg": {
     "hash": "278be9e815ae934a23885ce703391de4",
     "original": "/img/ricette/nasudengaku.jpg",
@@ -1160,13 +1167,6 @@
     "srcset": "/img/ricette/natto_soba-320w.webp 320w, /img/ricette/natto_soba-640w.webp 640w",
     "width": 1200,
     "height": 1530
-  },
-  "ricette/niku_udon.jpg": {
-    "hash": "23d21c5da8d7bc2e04d486c6c2faab17",
-    "original": "/img/ricette/niku_udon.jpg",
-    "srcset": "/img/ricette/niku_udon-320w.webp 320w, /img/ricette/niku_udon-640w.webp 640w, /img/ricette/niku_udon-1280w.webp 1280w, /img/ricette/niku_udon-1600w.webp 1600w",
-    "width": 1672,
-    "height": 941
   },
   "ricette/nikujaga.jpg": {
     "hash": "1e44ee3cfc5e0c51b4bf03e64754ae6e",
@@ -1252,13 +1252,6 @@
     "width": 1672,
     "height": 941
   },
-  "ricette/somen_tororo_lime.jpg": {
-    "hash": "fc617e56b26781d9516fefc5f95a7998",
-    "original": "/img/ricette/somen_tororo_lime.jpg",
-    "srcset": "/img/ricette/somen_tororo_lime-320w.webp 320w, /img/ricette/somen_tororo_lime-640w.webp 640w, /img/ricette/somen_tororo_lime-1280w.webp 1280w, /img/ricette/somen_tororo_lime-1600w.webp 1600w",
-    "width": 1672,
-    "height": 941
-  },
   "ricette/sunomono.jpg": {
     "hash": "4bf4cf15c85a23fe18df8ed53719d9ab",
     "original": "/img/ricette/sunomono.jpg",
@@ -1307,13 +1300,6 @@
     "srcset": "/img/ricette/tofu_and_eggs-320w.webp 320w, /img/ricette/tofu_and_eggs-640w.webp 640w",
     "width": 1080,
     "height": 1076
-  },
-  "ricette/tofu_natto_kimchi_ponzu.jpg": {
-    "hash": "96035c3c7af801b3b2e7df79f74f7a31",
-    "original": "/img/ricette/tofu_natto_kimchi_ponzu.jpg",
-    "srcset": "/img/ricette/tofu_natto_kimchi_ponzu-320w.webp 320w, /img/ricette/tofu_natto_kimchi_ponzu-640w.webp 640w, /img/ricette/tofu_natto_kimchi_ponzu-1280w.webp 1280w, /img/ricette/tofu_natto_kimchi_ponzu-1600w.webp 1600w",
-    "width": 1672,
-    "height": 941
   },
   "ricette/tonjiru.jpg": {
     "hash": "88903fd60fe37d6d7fd98bd494ea558b",
@@ -1370,13 +1356,6 @@
     "srcset": "/img/ricette/wakatake-320w.webp 320w, /img/ricette/wakatake-640w.webp 640w, /img/ricette/wakatake-1280w.webp 1280w, /img/ricette/wakatake-1600w.webp 1600w",
     "width": 1672,
     "height": 941
-  },
-  "ricette/warabi_mochi.jpg": {
-    "hash": "9ec8520fbc21ad52b250f90684fe3be3",
-    "original": "/img/ricette/warabi_mochi.jpg",
-    "srcset": "/img/ricette/warabi_mochi-320w.webp 320w, /img/ricette/warabi_mochi-640w.webp 640w, /img/ricette/warabi_mochi-1280w.webp 1280w",
-    "width": 1448,
-    "height": 1086
   },
   "ricette/yaki_udon.jpg": {
     "hash": "624703d11f519574b41a7eb0c46a5ccc",
@@ -1503,13 +1482,6 @@
     "srcset": "/img/video/kantaro-320w.webp 320w, /img/video/kantaro-640w.webp 640w, /img/video/kantaro-1280w.webp 1280w, /img/video/kantaro-1600w.webp 1600w",
     "width": 2048,
     "height": 1152
-  },
-  "video/makanai.jpg": {
-    "hash": "5068f8627c5624a23a4b9d78b24a2582",
-    "original": "/img/video/makanai.jpg",
-    "srcset": "/img/video/makanai-320w.webp 320w, /img/video/makanai-640w.webp 640w, /img/video/makanai-1280w.webp 1280w",
-    "width": 1472,
-    "height": 1069
   },
   "video/midnight_diner.webp": {
     "hash": "a50f16f1908e95e5d6cf2036731506ed",

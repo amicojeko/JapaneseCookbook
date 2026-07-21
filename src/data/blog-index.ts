@@ -21,36 +21,18 @@ export type BlogIndexEntry = {
 
 export const BLOG_INDEX: BlogIndexEntry[] = [
   {
-    "slug": "shokunin-kishitsu-materia-riparazione-senso",
-    "permalink": "/blog/shokunin-kishitsu-materia-riparazione-senso/",
-    "title": "Shokunin Kishitsu | I 20 valori dello spirito artigiano — Parte III: Materia, riparazione e senso",
-    "description": "Fukinsei, Kanso, Shizen, Kintsugi, Ikigai e Shokunin: il rapporto con la materia, la filosofia della riparazione e il senso profondo del mestiere artigiano.",
-    "image": "/img/blog/toolsreborn/coltelli-giapponesi-tradizionali-pietre-naturali.jpg",
-    "date": "2026-07-22",
-    "readingTime": 3.73,
+    "slug": "coltelli-cucina-giapponesi",
+    "permalink": "/blog/coltelli-cucina-giapponesi/",
+    "title": "Coltelli da cucina giapponesi",
+    "description": "Come sono fatti i coltelli da cucina giapponesi e le principali differenze dai coltelli occidentali: acciai, forgiatura, tempra, rinvenimento, manico e affilatura.",
+    "image": "/img/blog/coltelli_cucina_giapponesi_esempi.jpg",
+    "date": "2026-07-18",
+    "readingTime": 5,
     "authors": [
       {
-        "key": "toolsreborn",
-        "name": "ToolsReborn – Wabi Sabi Story",
-        "imageURL": "/img/authors/tools_reborn.jpg",
-        "title": "Dietro la ruggine di ogni lama e di ogni attrezzo dimenticato si nasconde una storia unica"
-      }
-    ]
-  },
-  {
-    "slug": "bandiere-giappone-sole-nascente",
-    "permalink": "/blog/bandiere-giappone-sole-nascente/",
-    "title": "Perché la bandiera giapponese a volte ha i raggi rossi?",
-    "description": "Hinomaru e Kyokujitsuki: due bandiere che condividono il sole rosso ma non la stessa storia. Una rappresenta ufficialmente il Giappone, l'altra è un simbolo militare controverso.",
-    "image": "/img/blog/bandiere/bandiere.jpg",
-    "date": "2026-07-08",
-    "readingTime": 1.75,
-    "authors": [
-      {
-        "key": "fujitivo",
-        "name": "Erick \"il Fujitivo\"",
-        "imageURL": "/img/authors/logo_ilfujitivo.png",
-        "title": "Viaggiatore in Giappone dal 2008 · autore di \"Andiamo in Giappone\""
+        "key": "christian",
+        "name": "Christian Zijno",
+        "title": "Forgiatore di metalli e storie"
       }
     ]
   },
@@ -119,6 +101,23 @@ export const BLOG_INDEX: BlogIndexEntry[] = [
         "name": "ToolsReborn – Wabi Sabi Story",
         "imageURL": "/img/authors/tools_reborn.jpg",
         "title": "Dietro la ruggine di ogni lama e di ogni attrezzo dimenticato si nasconde una storia unica"
+      }
+    ]
+  },
+  {
+    "slug": "goen-5-yen",
+    "permalink": "/blog/goen-5-yen/",
+    "title": "Perché i giapponesi offrono 5 yen al santuario (e non è per risparmiare)",
+    "description": "La monetina da 5 yen nasconde un mondo: goen, enmusubi, enkiri. Legami da creare, relazioni da tagliare e una storia di emancipazione femminile che pochi conoscono.",
+    "image": "/img/blog/5yen/5yen.jpg",
+    "date": "2026-06-16",
+    "readingTime": 1.46,
+    "authors": [
+      {
+        "key": "fujitivo",
+        "name": "Erick \"il Fujitivo\"",
+        "imageURL": "/img/authors/logo_ilfujitivo.png",
+        "title": "Viaggiatore in Giappone dal 2008 · autore di \"Andiamo in Giappone\""
       }
     ]
   }
