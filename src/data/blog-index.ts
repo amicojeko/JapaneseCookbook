@@ -25,9 +25,9 @@ export const BLOG_INDEX: BlogIndexEntry[] = [
     "permalink": "/blog/shokunin-kishitsu-materia-riparazione-senso/",
     "title": "Shokunin Kishitsu | I 20 valori dello spirito artigiano — Parte III: Materia, riparazione e senso",
     "description": "Fukinsei, Kanso, Shizen, Kintsugi, Ikigai e Shokunin: il rapporto con la materia, la filosofia della riparazione e il senso profondo del mestiere artigiano.",
-    "image": "/img/blog/toolsreborn/coltelli-shokunin.jpg",
+    "image": "/img/blog/toolsreborn/coltelli-giapponesi-tradizionali-pietre-naturali.jpg",
     "date": "2026-07-22",
-    "readingTime": 3.72,
+    "readingTime": 3.73,
     "authors": [
       {
         "key": "toolsreborn",
