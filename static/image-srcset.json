@@ -461,6 +461,13 @@
     "width": 1024,
     "height": 1536
   },
+  "blog/toolsreborn/coltelli-giapponesi-tradizionali-pietre-naturali.jpg": {
+    "hash": "41026c9aa69b5ae648ce32caabd900ce",
+    "original": "/img/blog/toolsreborn/coltelli-giapponesi-tradizionali-pietre-naturali.jpg",
+    "srcset": "/img/blog/toolsreborn/coltelli-giapponesi-tradizionali-pietre-naturali-320w.webp 320w, /img/blog/toolsreborn/coltelli-giapponesi-tradizionali-pietre-naturali-640w.webp 640w, /img/blog/toolsreborn/coltelli-giapponesi-tradizionali-pietre-naturali-1280w.webp 1280w, /img/blog/toolsreborn/coltelli-giapponesi-tradizionali-pietre-naturali-1600w.webp 1600w",
+    "width": 1600,
+    "height": 900
+  },
   "blog/tre_scimmie/nikko-Shinkyusha.jpg": {
     "hash": "327e394eac69ff827456f3dca1b2f103",
     "original": "/img/blog/tre_scimmie/nikko-Shinkyusha.jpg",

@@ -418,7 +418,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "PjykDwvUW6g"
     ],
-    "datePublished": null
+    "datePublished": "2026-07-20T14:37:17+02:00"
   },
   "ricette/menrui/tomato_to_tsuna_no_hiyashi_somen": {
     "docId": "ricette/menrui/tomato_to_tsuna_no_hiyashi_somen",
