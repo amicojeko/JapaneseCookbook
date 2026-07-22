@@ -4,12 +4,18 @@ title: "Shokunin Kishitsu | I 20 valori dello spirito artigiano — Parte III: M
 authors: [toolsreborn]
 tags: [cultura, cucina]
 description: "Fukinsei, Kanso, Shizen, Kintsugi, Ikigai e Shokunin: il rapporto con la materia, la filosofia della riparazione e il senso profondo del mestiere artigiano."
-image: /img/blog/toolsreborn/calligraphy_18_shokunin.jpg
+image: /img/blog/toolsreborn/coltelli-shokunin.jpg
 ---
 
 Che cosa succede quando uno strumento smette di essere soltanto un oggetto?
 
 <!-- truncate -->
+
+<ImageComponent
+  src="/img/blog/toolsreborn/coltelli-shokunin.jpg"
+  alt="Tre coltelli giapponesi tradizionali forgiati a mano, con pietre naturali nagura, su un tavolo di legno scuro"
+  caption="Coltelli giapponesi e pietre naturali — ToolsReborn."
+/>
 
 Nei due articoli precedenti abbiamo attraversato l'etica del gesto, la disciplina della pratica e la bellezza silenziosa del tempo.
 
