@@ -1,0 +1,117 @@
+/* Bentō×Izakaya "new version" toast. Tokens come from src/css/custom.css. */
+
+.popup {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: calc(var(--ifm-z-index-fixed) + 1);
+  max-width: 22rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 1rem 1.1rem;
+  background: var(--pg-paper);
+  border: 2px solid var(--pg-ink);
+  border-radius: 12px;
+  box-shadow: 6px 6px 0 rgba(27, 26, 23, 0.12);
+  animation: pg-pwa-slide-in 0.25s ease-out;
+}
+
+@keyframes pg-pwa-slide-in {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.body {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+}
+
+.dot {
+  flex: 0 0 auto;
+  width: 10px;
+  height: 10px;
+  margin-top: 0.35rem;
+  border-radius: 50%;
+  background: var(--pg-red);
+  box-shadow: 0 0 0 4px var(--pg-red-soft);
+}
+
+.text {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.25;
+  color: var(--pg-ink);
+}
+
+.subtitle {
+  margin: 0.15rem 0 0;
+  font-size: 0.85rem;
+  line-height: 1.35;
+  color: var(--pg-ink-soft);
+}
+
+.close {
+  flex: 0 0 auto;
+  padding: 0;
+  width: 1.6rem;
+  height: 1.6rem;
+  line-height: 1;
+  font-size: 1.4rem;
+  color: var(--pg-ink-faint);
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: color 0.15s ease, background 0.15s ease;
+}
+
+.close:hover {
+  color: var(--pg-ink);
+  background: var(--pg-paper-2);
+}
+
+.reload {
+  align-self: stretch;
+  padding: 0.55rem 1rem;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--pg-paper);
+  background: var(--pg-red);
+  border: 2px solid var(--pg-red);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.reload:hover {
+  background: var(--pg-red-ink);
+  border-color: var(--pg-red-ink);
+}
+
+.reload:focus-visible,
+.close:focus-visible {
+  outline: 2px solid var(--pg-ink);
+  outline-offset: 2px;
+}
+
+@media (max-width: 480px) {
+  .popup {
+    left: 1rem;
+    right: 1rem;
+    max-width: none;
+  }
+}
