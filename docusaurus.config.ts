@@ -52,7 +52,13 @@ const config: Config = {
   // Defer Docusaurus's on-viewport route prefetching until the page is idle.
   // Without this the home hub fires ~180 <link rel="prefetch"> during load and
   // starves the LCP resources on slow mobile (regressed home LCP 7.0s → 9.1s).
-  clientModules: [require.resolve('./src/clientModules/deferPrefetch.ts')],
+  clientModules: [
+    require.resolve('./src/clientModules/deferPrefetch.ts'),
+    // Background pre-warm of recipe hero photos into the SW image cache, so
+    // recipes are available offline with a photo. See the file for the
+    // politeness guards (Save-Data, slow connection, 24h throttle).
+    require.resolve('./src/clientModules/pwaWarmImages.ts'),
+  ],
 
   i18n: {
     defaultLocale: 'it',
@@ -256,6 +262,9 @@ const config: Config = {
           href: 'https://github.com/amicojeko/japanesecookbook',
           label: 'GitHub',
           position: 'right',
+          // Hidden when running as an installed app (see the
+          // display-mode: standalone rules in src/css/custom.css).
+          className: 'navbar-github-link',
         },
       ],
     },
