@@ -1,25 +1,28 @@
 // Custom service-worker code for @docusaurus/plugin-pwa.
 //
-// The plugin precaches the app shell (JS/CSS/HTML/fonts — see injectManifestConfig
-// in docusaurus.config.ts). Since Docusaurus bakes page content into JS chunks,
-// precaching the JS already makes all text content available offline. What we
-// deliberately DON'T precache is the ~68MB of recipe photos.
+// The plugin precaches the app shell (JS/CSS/HTML/fonts) AND — via
+// additionalManifestEntries in docusaurus.config.ts — one small (~640w) hero
+// photo per recipe. So at install time every recipe is cached WITH its text
+// and a photo, without pulling the full ~68MB of image variants.
 //
-// This module adds runtime caching (CacheFirst) for images. Combined with the
-// background pre-warm of recipe hero photos (src/clientModules/pwaWarmImages.ts),
-// every recipe ends up available offline WITH a photo, without a multi-megabyte
-// download at install time.
+// This module does two things:
 //
-// Sibling-variant fallback: photos are served via responsive srcset, so the
-// exact variant a recipe page requests offline may differ from the small one we
-// pre-warmed. When a request misses the cache AND the network is unavailable, we
-// serve any cached variant of the SAME base image (e.g. the 640w we warmed in
-// place of the 1280w the page asked for). This lets us pre-warm just one small
-// variant per recipe yet still show a photo offline at any size.
+// 1. clients.claim() on activate. The Docusaurus PWA service worker does NOT
+//    call clients.claim(), which means the very page that triggered the install
+//    stays UNCONTROLLED until a manual reload — so offline navigation fails in
+//    that first session (and often on the first launch of an installed app).
+//    Claiming fixes it: the SW controls the page as soon as it activates.
 //
-// The default export runs inside the SW (bundled by webpack, so workbox imports
-// resolve). It receives { offlineMode, debug }. With offlineModeActivationStrategies
-// set to ['always'] in the config, offlineMode is true for every visitor.
+// 2. Runtime caching (CacheFirst) for images actually browsed, plus a
+//    sibling-variant offline fallback: photos use responsive srcset, so the
+//    variant a recipe page requests offline (e.g. 1280w on a retina phone) may
+//    differ from the precached 640w. On a cache miss with no network, we serve
+//    any cached variant of the SAME photo from ANY cache (the precache included)
+//    so the recipe still shows an image at any size offline.
+//
+// Runs inside the SW (bundled by webpack, so workbox imports resolve). Receives
+// { offlineMode, debug }. With offlineModeActivationStrategies: ['always'],
+// offlineMode is true for every visitor.
 
 import {registerRoute} from 'workbox-routing';
 import {CacheFirst} from 'workbox-strategies';
@@ -38,15 +41,38 @@ function baseImageKey(pathname) {
     .replace(/\.[a-z0-9]+$/i, '');
 }
 
+// Offline fallback: find any already-cached variant of the same photo, in any
+// cache (runtime image cache OR the Workbox precache where recipe heroes live).
+async function findSiblingVariant(requestUrl) {
+  const base = baseImageKey(new URL(requestUrl).pathname);
+  for (const cacheName of await caches.keys()) {
+    const cache = await caches.open(cacheName);
+    for (const cachedReq of await cache.keys()) {
+      if (baseImageKey(new URL(cachedReq.url).pathname) === base) {
+        const hit = await cache.match(cachedReq);
+        if (hit) {
+          return hit;
+        }
+      }
+    }
+  }
+  return undefined;
+}
+
 export default function swCustom(params) {
   const {offlineMode, debug} = params;
 
-  // Only wire up caching when offline mode is active. With ['always'] this is
-  // every visitor; kept as a guard so other strategies still behave sanely.
+  // (1) Take control of the current page as soon as we activate, so offline
+  // works WITHOUT a manual reload. Registered unconditionally.
+  self.addEventListener('activate', (event) => {
+    event.waitUntil(self.clients.claim());
+  });
+
   if (!offlineMode) {
     return;
   }
 
+  // (2) Runtime image cache + cross-cache sibling fallback.
   const isSameOriginImage = ({request, url}) =>
     url.origin === self.location.origin &&
     (request.destination === 'image' ||
@@ -59,35 +85,19 @@ export default function swCustom(params) {
       plugins: [
         new CacheableResponsePlugin({statuses: [0, 200]}),
         new ExpirationPlugin({
-          // Room for every warmed recipe hero (~86) plus normal browsing.
           maxEntries: 500,
           maxAgeSeconds: 60 * 24 * 60 * 60, // 60 days
           purgeOnQuotaError: true,
         }),
         {
-          // Called when the strategy fails (cache miss + network unavailable).
-          // Serve any cached sibling variant of the same photo so recipes still
-          // show an image offline regardless of the size requested.
-          handlerDidError: async ({request}) => {
-            const base = baseImageKey(new URL(request.url).pathname);
-            const cache = await caches.open(IMAGE_CACHE);
-            for (const cachedReq of await cache.keys()) {
-              const p = new URL(cachedReq.url).pathname;
-              if (baseImageKey(p) === base) {
-                const hit = await cache.match(cachedReq);
-                if (hit) {
-                  return hit;
-                }
-              }
-            }
-            return undefined;
-          },
+          // Fired when the strategy fails (cache miss + network unavailable).
+          handlerDidError: async ({request}) => findSiblingVariant(request.url),
         },
       ],
     }),
   );
 
   if (debug) {
-    console.log('[PWA][swCustom]: image runtime cache + sibling fallback registered');
+    console.log('[PWA][swCustom]: clients.claim + image cache + sibling fallback registered');
   }
 }
