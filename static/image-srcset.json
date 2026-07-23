@@ -923,6 +923,48 @@
     "width": 350,
     "height": 350
   },
+  "pwa/apple-touch-icon.png": {
+    "hash": "bcea5a8b91e43f6ba3a62d5b4d4d94ff",
+    "original": "/img/pwa/apple-touch-icon.png",
+    "srcset": "",
+    "width": 180,
+    "height": 180
+  },
+  "pwa/icon-192.png": {
+    "hash": "77ea605c43c9429fc5a2ce26afaa6b35",
+    "original": "/img/pwa/icon-192.png",
+    "srcset": "",
+    "width": 192,
+    "height": 192
+  },
+  "pwa/icon-512.png": {
+    "hash": "4bf3027a58601b7e3782d8bd114a6ceb",
+    "original": "/img/pwa/icon-512.png",
+    "srcset": "/img/pwa/icon-512-320w.webp 320w",
+    "width": 512,
+    "height": 512
+  },
+  "pwa/icon-maskable-512.png": {
+    "hash": "f892abc114519d1fa813208ed39b272a",
+    "original": "/img/pwa/icon-maskable-512.png",
+    "srcset": "/img/pwa/icon-maskable-512-320w.webp 320w",
+    "width": 512,
+    "height": 512
+  },
+  "pwa/screenshot-narrow.jpg": {
+    "hash": "cb4592a34fb10629ec56fb79963a4bbe",
+    "original": "/img/pwa/screenshot-narrow.jpg",
+    "srcset": "/img/pwa/screenshot-narrow-320w.webp 320w, /img/pwa/screenshot-narrow-640w.webp 640w",
+    "width": 720,
+    "height": 1280
+  },
+  "pwa/screenshot-wide.jpg": {
+    "hash": "731561dfb607efe73099e7a0be1e5ad1",
+    "original": "/img/pwa/screenshot-wide.jpg",
+    "srcset": "/img/pwa/screenshot-wide-320w.webp 320w, /img/pwa/screenshot-wide-640w.webp 640w, /img/pwa/screenshot-wide-1280w.webp 1280w",
+    "width": 1280,
+    "height": 720
+  },
   "ricette/bieta-ohitashi.jpg": {
     "hash": "a339fe6e20dc082844b9c1aa96b20bd4",
     "original": "/img/ricette/bieta-ohitashi.jpg",
