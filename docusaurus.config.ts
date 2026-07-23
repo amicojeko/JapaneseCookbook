@@ -239,6 +239,11 @@ const config: Config = {
       },
       items: [
         {
+          to: '/ricette',
+          label: 'Ricette',
+          position: 'left'
+        },
+        {
           to: '/negozi_orientali',
           label: 'Negozi',
           position: 'left'
