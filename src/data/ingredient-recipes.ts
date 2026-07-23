@@ -33,6 +33,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/sudako_negi_vapore"
     },
     {
+      "id": "ricette/menrui/niku_udon",
+      "title": "Niku Udon",
+      "description": "Una ricetta velocissima e gustosa per preparare i Niku Udon, un piatto a base di noodles, carne e cipolla pronto in soli 10 minuti.",
+      "permalink": "/ricette/niku_udon"
+    },
+    {
       "id": "ricette/menrui/tororo_natto_shiso_udon",
       "title": "Tororo Natto Shiso Udon",
       "description": "Una ricetta estiva veloce, nutriente e ricca di consistenze uniche grazie al contrasto tra il cremoso tororo e il natto.",
@@ -769,6 +775,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/natto_soba"
     },
     {
+      "id": "ricette/menrui/niku_udon",
+      "title": "Niku Udon",
+      "description": "Una ricetta velocissima e gustosa per preparare i Niku Udon, un piatto a base di noodles, carne e cipolla pronto in soli 10 minuti.",
+      "permalink": "/ricette/niku_udon"
+    },
+    {
       "id": "ricette/menrui/tororo_natto_shiso_udon",
       "title": "Tororo Natto Shiso Udon",
       "description": "Una ricetta estiva veloce, nutriente e ricca di consistenze uniche grazie al contrasto tra il cremoso tororo e il natto.",
@@ -831,6 +843,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Yamitsuki Kyabesu",
       "description": "Il cavolo che te da la rota!",
       "permalink": "/ricette/yamitsuki_kyabesu"
+    },
+    {
+      "id": "ricette/menrui/niku_udon",
+      "title": "Niku Udon",
+      "description": "Una ricetta velocissima e gustosa per preparare i Niku Udon, un piatto a base di noodles, carne e cipolla pronto in soli 10 minuti.",
+      "permalink": "/ricette/niku_udon"
     },
     {
       "id": "ricette/riso/nira_shio_kombu_onigiri",
@@ -1019,6 +1037,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Bukkake Udon",
       "description": "Udon freddi con condimento versato sopra.",
       "permalink": "/ricette/bukkake_udon"
+    },
+    {
+      "id": "ricette/menrui/niku_udon",
+      "title": "Niku Udon",
+      "description": "Una ricetta velocissima e gustosa per preparare i Niku Udon, un piatto a base di noodles, carne e cipolla pronto in soli 10 minuti.",
+      "permalink": "/ricette/niku_udon"
     },
     {
       "id": "ricette/menrui/tororo_natto_shiso_udon",
@@ -1285,6 +1309,20 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/natto_soba"
     }
   ],
+  "tsuyu": [
+    {
+      "id": "ricette/menrui/niku_udon",
+      "title": "Niku Udon",
+      "description": "Una ricetta velocissima e gustosa per preparare i Niku Udon, un piatto a base di noodles, carne e cipolla pronto in soli 10 minuti.",
+      "permalink": "/ricette/niku_udon"
+    },
+    {
+      "id": "ricette/menrui/tomato_to_tsuna_no_hiyashi_somen",
+      "title": "Tomato to Tsuna no Hiyashi Somen",
+      "description": "Una ricetta estiva semplicissima e velocissima, un mix perfetto tra i sapori mediterranei e la dispensa giapponese.",
+      "permalink": "/ricette/tomato-tsuna-hiyashi-somen"
+    }
+  ],
   "somen": [
     {
       "id": "ricette/menrui/somen_tororo_lime",
@@ -1321,14 +1359,6 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Somen Freddi con Tororo e Lime",
       "description": "Una ricetta estiva freschissima e \"neba neba\", a base di somen ghiacciati, nagaimo grattugiato, tuorlo crudo e lime.",
       "permalink": "/ricette/somen-tororo-lime"
-    }
-  ],
-  "tsuyu": [
-    {
-      "id": "ricette/menrui/tomato_to_tsuna_no_hiyashi_somen",
-      "title": "Tomato to Tsuna no Hiyashi Somen",
-      "description": "Una ricetta estiva semplicissima e velocissima, un mix perfetto tra i sapori mediterranei e la dispensa giapponese.",
-      "permalink": "/ricette/tomato-tsuna-hiyashi-somen"
     }
   ],
   "yamaimo": [

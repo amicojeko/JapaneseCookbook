@@ -1147,6 +1147,13 @@
     "width": 1200,
     "height": 1530
   },
+  "ricette/niku_udon.jpg": {
+    "hash": "23d21c5da8d7bc2e04d486c6c2faab17",
+    "original": "/img/ricette/niku_udon.jpg",
+    "srcset": "/img/ricette/niku_udon-320w.webp 320w, /img/ricette/niku_udon-640w.webp 640w, /img/ricette/niku_udon-1280w.webp 1280w, /img/ricette/niku_udon-1600w.webp 1600w",
+    "width": 1672,
+    "height": 941
+  },
   "ricette/nikujaga.jpg": {
     "hash": "1e44ee3cfc5e0c51b4bf03e64754ae6e",
     "original": "/img/ricette/nikujaga.jpg",

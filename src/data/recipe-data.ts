@@ -392,6 +392,37 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [],
     "datePublished": "2024-07-19T10:04:20+02:00"
   },
+  "ricette/menrui/niku_udon": {
+    "docId": "ricette/menrui/niku_udon",
+    "title": "Niku Udon",
+    "description": "Una ricetta velocissima e gustosa per preparare i Niku Udon, un piatto a base di noodles, carne e cipolla pronto in soli 10 minuti.",
+    "image": "/img/ricette/niku_udon.jpg",
+    "recipeCategory": "Noodles",
+    "recipeKeywords": [
+      "udon",
+      "shoyu",
+      "tsuyu",
+      "sesame_oil",
+      "negi"
+    ],
+    "recipeYield": "1 persona",
+    "recipeIngredient": [
+      "Udon",
+      "100 g di straccetti di carne di manzo",
+      "Un quarto di cipolla tagliata fina",
+      "Uno spicchio di aglio",
+      "1 cucchiaio di Salsa di soia (Shoyu)",
+      "1 cucchiaino di zucchero",
+      "Olio di sesamo",
+      "Tsuyu",
+      "Cipolline verdi (Negi)"
+    ],
+    "instructionsText": "Per cominciare, tagliate la cipolla e l'aglio. In una ciotola, inserite gli straccetti di carne e amalgamateli con la cipolla tagliata, l'aglio schiacciato, la salsa di soia e lo zucchero. Date al tutto \"una bella ammischiata\". A parte, tritate anche le cipolline verdi che vi serviranno per la guarnizione finale. In una padella, versate un filo di olio di sesamo e, a fuoco basso, fate cuocere la carne marinata con le cipolle per 2-3 minuti, mescolando gentilmente. Nel frattempo, mettete a bollire i vostri udon. Preparate il brodo diluendo lo tsuyu con l'acqua in proporzione 5 a 1. Come detto, il brodo può essere tenuto freddo, caldo o tiepido come più vi piace. Una volta cotti gli udon, scolateli e inseriteli nella ciotola con il brodo tsuyu. Adagiatevi sopra la carne appena spadellata (magari aiutandovi con delle bellissime pinzette a forma di zampa di gatto!) e chiudete il piatto con una pioggia di cipolline tritate. I vostri Niku Udon sono pronti da gustare!",
+    "videoIds": [
+      "85Qst4TolyM"
+    ],
+    "datePublished": null
+  },
   "ricette/menrui/somen_tororo_lime": {
     "docId": "ricette/menrui/somen_tororo_lime",
     "title": "Somen Freddi con Tororo e Lime",
