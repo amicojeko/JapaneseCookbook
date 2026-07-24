@@ -417,11 +417,11 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "Tsuyu",
       "Cipolline verdi (Negi)"
     ],
-    "instructionsText": "Per cominciare, tagliate la cipolla e l'aglio. In una ciotola, inserite gli straccetti di carne e amalgamateli con la cipolla tagliata, l'aglio schiacciato, la salsa di soia e lo zucchero. Date al tutto \"una bella ammischiata\". A parte, tritate anche le cipolline verdi che vi serviranno per la guarnizione finale. In una padella, versate un filo di olio di sesamo e, a fuoco basso, fate cuocere la carne marinata con le cipolle per 2-3 minuti, mescolando gentilmente. Nel frattempo, mettete a bollire i vostri udon. Preparate il brodo diluendo lo tsuyu con l'acqua in proporzione 5 a 1. Come detto, il brodo può essere tenuto freddo, caldo o tiepido come più vi piace. Una volta cotti gli udon, scolateli e inseriteli nella ciotola con il brodo tsuyu. Adagiatevi sopra la carne appena spadellata (magari aiutandovi con delle bellissime pinzette a forma di zampa di gatto!) e chiudete il piatto con una pioggia di cipolline tritate. I vostri Niku Udon sono pronti da gustare!",
+    "instructionsText": "Per cominciare, tagliate la cipolla e l'aglio. In una ciotola, inserite gli straccetti di carne e amalgamateli con la cipolla tagliata, l'aglio schiacciato, la salsa di soia e lo zucchero. Date al tutto una bella ammischiata. A parte, tritate anche le cipolline verdi che vi serviranno per la guarnizione finale. In una padella, versate un filo di olio di sesamo e, a fuoco basso, fate cuocere la carne marinata con le cipolle per 2-3 minuti, mescolando gentilmente. Nel frattempo, mettete a bollire i vostri udon. Preparate il brodo diluendo lo tsuyu con l'acqua in proporzione 5 a 1. Come detto, il brodo può essere tenuto freddo, caldo o tiepido come più vi piace. Una volta cotti gli udon, scolateli e metteteli nella ciotola con il brodo tsuyu. Adagiatevi sopra la carne appena spadellata (magari aiutandovi con delle bellissime pinzette a forma di zampa di gatto!) e chiudete il piatto con una pioggia di cipolline tritate. I vostri Niku Udon sono pronti da gustare!",
     "videoIds": [
       "85Qst4TolyM"
     ],
-    "datePublished": null
+    "datePublished": "2026-07-23T23:44:01+02:00"
   },
   "ricette/menrui/somen_tororo_lime": {
     "docId": "ricette/menrui/somen_tororo_lime",
@@ -1806,6 +1806,22 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "0Mcg9AhAKbQ"
     ],
     "datePublished": "2026-05-21T14:55:29+02:00"
+  },
+  "ricette/wagashi/warabi_mochi": {
+    "docId": "ricette/wagashi/warabi_mochi",
+    "title": "Warabi Mochi",
+    "description": "Il warabi mochi è il dolce estivo giapponese gelatinoso e quasi trasparente, servito freddo con kinako e kuromitsu.",
+    "image": "/img/ricette/warabi_mochi.jpg",
+    "recipeCategory": null,
+    "recipeKeywords": [
+      "wagashi",
+      "potato_starch"
+    ],
+    "recipeYield": null,
+    "recipeIngredient": [],
+    "instructionsText": "Versate tutti gli ingredienti direttamente in una padella e mescolate per sciogliere eventuali grumi. Accendete il fuoco e, a fuoco basso, fate addensare lentamente mescolando costantemente. Quando diventa denso e inizia a solidificarsi, spegnete il fuoco e continuate a mescolare per circa 30 secondi. Preparate una ciotola con acqua e ghiaccio e trasferiteci dentro il composto. Aspettate che si raffreddi per poterlo toccare senza scottarvi. Da dentro l'acqua staccate i mochi della dimensione che preferite con le mani e riponeteli in un vassoio o piatto. Fateli raffreddare in frigo per almeno 10 minuti. Spolverateli con del kinako o del matcha, versateci sopra abbondante kuromitsu o sciroppo d'acero e gustateli freddi in una calda giornata estiva. — Aki",
+    "videoIds": [],
+    "datePublished": null
   },
   "ricette/yakimono/gyoza": {
     "docId": "ricette/yakimono/gyoza",

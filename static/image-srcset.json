@@ -1357,6 +1357,13 @@
     "width": 1672,
     "height": 941
   },
+  "ricette/warabi_mochi.jpg": {
+    "hash": "9ec8520fbc21ad52b250f90684fe3be3",
+    "original": "/img/ricette/warabi_mochi.jpg",
+    "srcset": "/img/ricette/warabi_mochi-320w.webp 320w, /img/ricette/warabi_mochi-640w.webp 640w, /img/ricette/warabi_mochi-1280w.webp 1280w",
+    "width": 1448,
+    "height": 1086
+  },
   "ricette/yaki_udon.jpg": {
     "hash": "624703d11f519574b41a7eb0c46a5ccc",
     "original": "/img/ricette/yaki_udon.jpg",

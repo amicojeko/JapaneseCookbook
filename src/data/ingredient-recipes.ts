@@ -217,6 +217,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/unagi_di_melanzane"
     },
     {
+      "id": "ricette/wagashi/warabi_mochi",
+      "title": "Warabi Mochi",
+      "description": "Il warabi mochi è il dolce estivo giapponese gelatinoso e quasi trasparente, servito freddo con kinako e kuromitsu.",
+      "permalink": "/ricette/warabi-mochi"
+    },
+    {
       "id": "ricette/yakimono/shogayaki",
       "title": "Shogayaki",
       "description": "Scaloppine di maiale allo zenzero",
@@ -1509,6 +1515,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Kinako",
       "description": "Il kinako è la farina di soia tostata giallo dorata dei dolci giapponesi: come prepararla in casa con soia secca, una padella e un tritatutto.",
       "permalink": "/ricette/kinako"
+    },
+    {
+      "id": "ricette/wagashi/warabi_mochi",
+      "title": "Warabi Mochi",
+      "description": "Il warabi mochi è il dolce estivo giapponese gelatinoso e quasi trasparente, servito freddo con kinako e kuromitsu.",
+      "permalink": "/ricette/warabi-mochi"
     }
   ],
   "rice": [
