@@ -1130,6 +1130,16 @@ export const NEGOZI: Negozio[] = [
         map_url: "https://maps.app.goo.gl/2sUavUwQd9cpAp1h7",
     },
     {
+        id: "toscana-colle-di-val-d-elsa-micasa",
+        name: "Micasa",
+        region: "Toscana",
+        city: "Colle di Val d'Elsa",
+        address: "Località Belvedere, 53034 Colle di Val d'Elsa SI",
+        lat: 43.4062306,
+        lng: 11.1651725,
+        map_url: "https://maps.app.goo.gl/p6EYtc1LgTMYLaMu8",
+    },
+    {
         id: "trentino-alto-adige-bolzano-panda-market",
         name: "Panda Market",
         region: "Trentino-Alto Adige",
