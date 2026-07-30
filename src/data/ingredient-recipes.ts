@@ -99,6 +99,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/daikon_shiokombuzuke"
     },
     {
+      "id": "ricette/yakimono/nasu_niku_miso",
+      "title": "Nasu no Niku Miso",
+      "description": "Una ricetta velocissima che unisce la cucina giapponese a quella italiana: carne trita, melanzane e miso per un condimento perfetto per il riso bianco.",
+      "permalink": "/ricette/nasu-no-niku-miso"
+    },
+    {
       "id": "ricette/zuppe/wakatake",
       "title": "Wakatake",
       "description": "Una zuppa giapponese facilissima, velocissima e buonissima a base di germogli di bambù e alga wakame.",
@@ -177,6 +183,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Gyoza",
       "description": "Ravioli alla piastra",
       "permalink": "/ricette/gyoza"
+    },
+    {
+      "id": "ricette/yakimono/nasu_niku_miso",
+      "title": "Nasu no Niku Miso",
+      "description": "Una ricetta velocissima che unisce la cucina giapponese a quella italiana: carne trita, melanzane e miso per un condimento perfetto per il riso bianco.",
+      "permalink": "/ricette/nasu-no-niku-miso"
     },
     {
       "id": "ricette/zuppe/osuimono",
@@ -393,6 +405,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/ninniku_no_misozuke"
     },
     {
+      "id": "ricette/yakimono/nasu_niku_miso",
+      "title": "Nasu no Niku Miso",
+      "description": "Una ricetta velocissima che unisce la cucina giapponese a quella italiana: carne trita, melanzane e miso per un condimento perfetto per il riso bianco.",
+      "permalink": "/ricette/nasu-no-niku-miso"
+    },
+    {
       "id": "ricette/yakimono/shogayaki",
       "title": "Shogayaki",
       "description": "Scaloppine di maiale allo zenzero",
@@ -545,6 +563,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Gyoza",
       "description": "Ravioli alla piastra",
       "permalink": "/ricette/gyoza"
+    },
+    {
+      "id": "ricette/yakimono/nasu_niku_miso",
+      "title": "Nasu no Niku Miso",
+      "description": "Una ricetta velocissima che unisce la cucina giapponese a quella italiana: carne trita, melanzane e miso per un condimento perfetto per il riso bianco.",
+      "permalink": "/ricette/nasu-no-niku-miso"
     },
     {
       "id": "ricette/yakimono/shogayaki",
@@ -1235,6 +1259,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Nasu no Yaki-bitashi",
       "description": "Nasu no Yaki-bitashi, ovvero melanzane grigliate in brodo - Un'alternativa più leggera e salutare alle classiche melanzane fritte (Agebitashi), che richiede solo due cucchiai d'olio per un risultato tenero, succoso e pieno di sapore.",
       "permalink": "/ricette/nasu_no_yaki-bitashi"
+    },
+    {
+      "id": "ricette/yakimono/nasu_niku_miso",
+      "title": "Nasu no Niku Miso",
+      "description": "Una ricetta velocissima che unisce la cucina giapponese a quella italiana: carne trita, melanzane e miso per un condimento perfetto per il riso bianco.",
+      "permalink": "/ricette/nasu-no-niku-miso"
     }
   ],
   "kizami nori": [
@@ -1769,6 +1799,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/ninniku_no_misozuke"
     },
     {
+      "id": "ricette/yakimono/nasu_niku_miso",
+      "title": "Nasu no Niku Miso",
+      "description": "Una ricetta velocissima che unisce la cucina giapponese a quella italiana: carne trita, melanzane e miso per un condimento perfetto per il riso bianco.",
+      "permalink": "/ricette/nasu-no-niku-miso"
+    },
+    {
       "id": "ricette/yakimono/takenoko_niku_miso",
       "title": "Takenoko e Niku Miso",
       "description": "Un secondo piatto ricco e saporito a base di germogli di bambù, carne trita, zenzero e una glassa umami al miso.",
@@ -1821,6 +1857,14 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Isobeyaki",
       "description": "Mochi grigliato avvolto nell'alga nori, uno snack semplice e \"pericolosamente\" buono",
       "permalink": "/ricette/isobeyaki"
+    }
+  ],
+  "nasu": [
+    {
+      "id": "ricette/yakimono/nasu_niku_miso",
+      "title": "Nasu no Niku Miso",
+      "description": "Una ricetta velocissima che unisce la cucina giapponese a quella italiana: carne trita, melanzane e miso per un condimento perfetto per il riso bianco.",
+      "permalink": "/ricette/nasu-no-niku-miso"
     }
   ],
   "konnyaku": [

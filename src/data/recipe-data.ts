@@ -1821,7 +1821,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "recipeIngredient": [],
     "instructionsText": "Versate tutti gli ingredienti direttamente in una padella e mescolate per sciogliere eventuali grumi. Accendete il fuoco e, a fuoco basso, fate addensare lentamente mescolando costantemente. Quando diventa denso e inizia a solidificarsi, spegnete il fuoco e continuate a mescolare per circa 30 secondi. Preparate una ciotola con acqua e ghiaccio e trasferiteci dentro il composto. Aspettate che si raffreddi per poterlo toccare senza scottarvi. Da dentro l'acqua staccate i mochi della dimensione che preferite con le mani e riponeteli in un vassoio o piatto. Fateli raffreddare in frigo per almeno 10 minuti. Spolverateli con del kinako o del matcha, versateci sopra abbondante kuromitsu o sciroppo d'acero e gustateli freddi in una calda giornata estiva. — Aki",
     "videoIds": [],
-    "datePublished": null
+    "datePublished": "2026-07-24T17:48:00+02:00"
   },
   "ricette/yakimono/gyoza": {
     "docId": "ricette/yakimono/gyoza",
@@ -1876,6 +1876,40 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "4XRlLfW_Wf0"
     ],
     "datePublished": "2026-01-25T16:29:55+01:00"
+  },
+  "ricette/yakimono/nasu_niku_miso": {
+    "docId": "ricette/yakimono/nasu_niku_miso",
+    "title": "Nasu no Niku Miso",
+    "description": "Una ricetta velocissima che unisce la cucina giapponese a quella italiana: carne trita, melanzane e miso per un condimento perfetto per il riso bianco.",
+    "image": "/img/ricette/nasu_niku_miso.jpg",
+    "recipeCategory": "Griglia",
+    "recipeKeywords": [
+      "nasu",
+      "miso",
+      "shiso",
+      "sesamo",
+      "shoyu",
+      "mirin",
+      "sake"
+    ],
+    "recipeYield": null,
+    "recipeIngredient": [
+      "1 Melanzana",
+      "Carne macinata (di maiale o mista)",
+      "Mirin",
+      "Sake",
+      "Salsa di soia (Shoyu)",
+      "Aglio tritato",
+      "Zenzero tritato",
+      "1 cucchiaio di Miso",
+      "Foglie di Shiso",
+      "Sesamo tostato"
+    ],
+    "instructionsText": "Per prima cosa, tagliate la melanzana in pezzi irregolari (taglio rangiri) e mettetela a cuocere in una padella con un filo di olio di semi. Quando i pezzi si saranno ammorbiditi e dorati, toglieteli dal fuoco e teneteli da parte. Nella stessa padella, mettete a cuocere la carne macinata. Conditela con con mirin, sake e salsa di soia, ed aggiungiamo un trito di aglio e zenzero. Aggiungiamo un bel cucchiaio di miso, aiutandoci con un po' d'acqua per farlo sciogliere bene. Spadellate vigorosamente fino a quando la carne sarà ben rosolata e saporita. A questo punto, riunite le melanzane cotte in precedenza alla carne e saltate tutto insieme per far amalgamare i sapori. Ed ecco pronto il vostro Nasu no niku miso, una preparazione tipica di carne macinata al miso e melanzane. Guarnite con delle foglie di shiso tagliate finemente e concludete con una bella grattata di sesamo tostato, e gustatela con una bella ciotola di riso bianco!",
+    "videoIds": [
+      "oMWKn_h63x4"
+    ],
+    "datePublished": null
   },
   "ricette/yakimono/shogayaki": {
     "docId": "ricette/yakimono/shogayaki",

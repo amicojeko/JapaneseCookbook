@@ -1133,6 +1133,13 @@
     "width": 1200,
     "height": 995
   },
+  "ricette/nasu_niku_miso.jpg": {
+    "hash": "70956856d91a2c26e97fd2c3707cbc74",
+    "original": "/img/ricette/nasu_niku_miso.jpg",
+    "srcset": "/img/ricette/nasu_niku_miso-320w.webp 320w, /img/ricette/nasu_niku_miso-640w.webp 640w, /img/ricette/nasu_niku_miso-1280w.webp 1280w, /img/ricette/nasu_niku_miso-1600w.webp 1600w",
+    "width": 1672,
+    "height": 941
+  },
   "ricette/nasudengaku.jpg": {
     "hash": "278be9e815ae934a23885ce703391de4",
     "original": "/img/ricette/nasudengaku.jpg",

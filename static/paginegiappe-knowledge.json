@@ -2,7 +2,7 @@
   "meta": {
     "site": "https://paginegiappe.it",
     "description": "Guida italiana alla cucina giapponese: ricette autentiche, ingredienti, negozi orientali in Italia, strumenti, viaggi e cultura gastronomica.",
-    "generated": "2026-07-24T15:45:27.399Z",
+    "generated": "2026-07-30T16:08:16.532Z",
     "version": 1
   },
   "ricette": [
@@ -1675,6 +1675,36 @@
         "Alga Nori (tagliata a strisce)"
       ],
       "instructions": "Potrà sembrare uno scherzo, ma in Giappone i Mochi sono considerati uno dei cibi più \"pericolosi\" in assoluto, causando ogni anno numerosi incidenti per soffocamento, specialmente durante il Capodanno. Eppure, nonostante il rischio (o forse proprio per quel brivido), nessuno rinuncia a questa delizia. L'Isobeyaki è il modo più classico e saporito di gustarli: il mochi viene grigliato finché non diventa croccante fuori e filante dentro, tuffato nella salsa di soia e avvolto nell'alga nori.\n\nPer questa ricetta partiamo dai Kirimochi, i classici blocchetti di mochi duri e rettangolari che si trovano in commercio. Il primo passaggio è la cottura: possiamo usare una griglia a maglia fine (se avete i fornelli a gas) oppure una semplice padella antiaderente.\n\nCuociamo il mochi a fuoco medio. Vedrete che piano piano inizierà a gonfiarsi, dorarsi in superficie e diventare morbido. Una volta grigliato, il Kirimochi cambia nome e diventa Yakimochi (letteralmente \"mochi grigliato\").\n\nIl mochi è estremamente gommoso e colloso. È fondamentale masticarlo molto bene prima di deglutire. Se lo servite a bambini o anziani, è consigliabile tagliarlo in pezzi molto piccoli per evitare il rischio di soffocamento menzionato nell'introduzione.\n\nPreparate una ciotolina con della salsa di soia. Prendete il mochi caldissimo direttamente dalla griglia e tuffatelo rapidamente nella soia, rigirandolo per farlo insaporire bene su entrambi i lati.\n\nInfine, prendete una striscia di alga nori e avvolgetela intorno al mochi ancora caldo: l'alga si attaccherà grazie all'umidità della soia e al calore, permettendovi di afferrarlo con le mani (facendo attenzione a non scottarvi). Ecco a voi l'Isobeyaki, pronto per essere addentato."
+    },
+    {
+      "title": "Nasu no Niku Miso",
+      "description": "Una ricetta velocissima che unisce la cucina giapponese a quella italiana: carne trita, melanzane e miso per un condimento perfetto per il riso bianco.",
+      "url": "https://paginegiappe.it/ricette/nasu-no-niku-miso/",
+      "image": "https://paginegiappe.it/img/ricette/nasu_niku_miso.jpg",
+      "category": "Griglia",
+      "tags": [
+        "nasu",
+        "miso",
+        "shiso",
+        "sesamo",
+        "shoyu",
+        "mirin",
+        "sake"
+      ],
+      "recipeYield": null,
+      "ingredients": [
+        "1 Melanzana",
+        "Carne macinata (di maiale o mista)",
+        "Mirin",
+        "Sake",
+        "Salsa di soia (Shoyu)",
+        "Aglio tritato",
+        "Zenzero tritato",
+        "1 cucchiaio di Miso",
+        "Foglie di Shiso",
+        "Sesamo tostato"
+      ],
+      "instructions": "La cucina giapponese ha moltissimo in comune con la cucina italiana. La stagionalità, il rispetto per gli ingredienti, la semplicità e la velocità delle preparazioni sono tra le cose che ci contraddistinguono e ci accomunano. Questa ricetta ne è un perfetto esempio: un piatto rustico e saporito, una sorta di \"ragù\" alla giapponese, ideale per condire una bella ciotola di riso bianco.\n\nIl suo nome è Nasu no niku miso, una preparazione tipica giapponese a base di carne macinata, miso e melanzane.\n\nPer prima cosa, tagliate la melanzana in pezzi irregolari (taglio rangiri) e mettetela a cuocere in una padella con un filo di olio di semi. Quando i pezzi si saranno ammorbiditi e dorati, toglieteli dal fuoco e teneteli da parte.\n\nNella stessa padella,  mettete a cuocere la carne macinata. Conditela con con mirin, sake e salsa di soia, ed aggiungiamo un trito di aglio e zenzero.\n\nAggiungiamo un bel cucchiaio di miso, aiutandoci con un po' d'acqua per farlo sciogliere bene. Spadellate vigorosamente fino a quando la carne sarà ben rosolata e saporita.\n\nA questo punto, riunite le melanzane cotte in precedenza alla carne e saltate tutto insieme per far amalgamare i sapori. Ed ecco pronto il vostro Nasu no niku miso, una preparazione tipica di carne macinata al miso e melanzane.\n\nGuarnite con delle foglie di shiso tagliate finemente e concludete con una bella grattata di sesamo tostato, e gustatela con una bella ciotola di riso bianco!"
     },
     {
       "title": "Shogayaki",
@@ -3623,6 +3653,16 @@
       "url": null,
       "lat": 43.3173746,
       "lng": 11.3367061,
+      "note": null
+    },
+    {
+      "name": "Micasa",
+      "region": "Toscana",
+      "city": "Colle di Val d'Elsa",
+      "address": "Località Belvedere, 53034 Colle di Val d'Elsa SI",
+      "url": null,
+      "lat": 43.4062306,
+      "lng": 11.1651725,
       "note": null
     },
     {
