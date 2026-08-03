@@ -717,6 +717,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/burokkori-no-okaka-ae"
     },
     {
+      "id": "ricette/sides/mugen_piiman",
+      "title": "Mugen Pīman",
+      "description": "Una ricetta estiva veloce e senza fornelli per preparare i peperoncini verdi in stile giapponese, perfetti da gustare sul riso.",
+      "permalink": "/ricette/mugen-piiman"
+    },
+    {
       "id": "ricette/sides/nasu_no_yaki-bitashi",
       "title": "Nasu no Yaki-bitashi",
       "description": "Nasu no Yaki-bitashi, ovvero melanzane grigliate in brodo - Un'alternativa più leggera e salutare alle classiche melanzane fritte (Agebitashi), che richiede solo due cucchiai d'olio per un risultato tenero, succoso e pieno di sapore.",
@@ -783,6 +789,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Zaru Soba",
       "description": "Spaghetti di grano saraceno freddi",
       "permalink": "/ricette/zaru_soba"
+    },
+    {
+      "id": "ricette/sides/mugen_piiman",
+      "title": "Mugen Pīman",
+      "description": "Una ricetta estiva veloce e senza fornelli per preparare i peperoncini verdi in stile giapponese, perfetti da gustare sul riso.",
+      "permalink": "/ricette/mugen-piiman"
     }
   ],
   "negi": [
@@ -891,6 +903,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Kinpira di Daikon e Carote",
       "description": "Il Kinpira è una ricetta tradizionale giapponese velocissima e vegana, perfetta per recuperare le bucce di daikon e carote saltandole in padella.",
       "permalink": "/ricette/kinpira-di-daikon-e-carote"
+    },
+    {
+      "id": "ricette/sides/mugen_piiman",
+      "title": "Mugen Pīman",
+      "description": "Una ricetta estiva veloce e senza fornelli per preparare i peperoncini verdi in stile giapponese, perfetti da gustare sul riso.",
+      "permalink": "/ricette/mugen-piiman"
     },
     {
       "id": "ricette/tsukemono/daikon_shiokombuzuke",
@@ -1755,6 +1773,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/burokkori-no-okaka-ae"
     },
     {
+      "id": "ricette/sides/mugen_piiman",
+      "title": "Mugen Pīman",
+      "description": "Una ricetta estiva veloce e senza fornelli per preparare i peperoncini verdi in stile giapponese, perfetti da gustare sul riso.",
+      "permalink": "/ricette/mugen-piiman"
+    },
+    {
       "id": "ricette/sides/nasu_dengaku",
       "title": "Nasu Dengaku",
       "description": "Melanzane al miso",
@@ -1765,6 +1789,14 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Potetosarada",
       "description": "Insalata di patate",
       "permalink": "/ricette/potetosarada"
+    }
+  ],
+  "microonde": [
+    {
+      "id": "ricette/sides/mugen_piiman",
+      "title": "Mugen Pīman",
+      "description": "Una ricetta estiva veloce e senza fornelli per preparare i peperoncini verdi in stile giapponese, perfetti da gustare sul riso.",
+      "permalink": "/ricette/mugen-piiman"
     }
   ],
   "semi di sesamo": [

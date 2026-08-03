@@ -1119,6 +1119,13 @@
     "width": 1080,
     "height": 920
   },
+  "ricette/mugen_piiman.jpg": {
+    "hash": "52567a616395db636117d9dbf974734a",
+    "original": "/img/ricette/mugen_piiman.jpg",
+    "srcset": "/img/ricette/mugen_piiman-320w.webp 320w, /img/ricette/mugen_piiman-640w.webp 640w, /img/ricette/mugen_piiman-1280w.webp 1280w, /img/ricette/mugen_piiman-1600w.webp 1600w",
+    "width": 1672,
+    "height": 941
+  },
   "ricette/nama_harumaki.jpg": {
     "hash": "3f6122af0d2cbf631c2171759f8316ed",
     "original": "/img/ricette/nama_harumaki.jpg",

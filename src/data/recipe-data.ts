@@ -1531,6 +1531,38 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [],
     "datePublished": "2025-10-27T22:43:02+01:00"
   },
+  "ricette/sides/mugen_piiman": {
+    "docId": "ricette/sides/mugen_piiman",
+    "title": "Mugen Pīman",
+    "description": "Una ricetta estiva veloce e senza fornelli per preparare i peperoncini verdi in stile giapponese, perfetti da gustare sul riso.",
+    "image": "/img/ricette/mugen_piiman.jpg",
+    "recipeCategory": "Contorni",
+    "recipeKeywords": [
+      "sides",
+      "estivo",
+      "microonde",
+      "katsuobushi",
+      "sesame_oil"
+    ],
+    "recipeYield": "1-2 persone",
+    "recipeIngredient": [
+      "250 g di friggitelli",
+      "1 cucchiaio di salsa di soia",
+      "1 cucchiaio di mirin",
+      "1 cucchiaio di sake",
+      "1 cucchiaio di olio di sesamo tostato",
+      "1 cucchiaino di dashi in polvere",
+      "1 pizzico di peperoncino secco tritato",
+      "q.b. di sakura ebi (gamberetti essiccati)",
+      "q.b. di katsuobushi",
+      "q.b. di semi di sesamo"
+    ],
+    "instructionsText": "Iniziate lavando accuratamente i friggitelli. Rimuovete il picciolo, aprite il peperoncino per estrarre i semi interni e tagliate il tutto a rondelle piuttosto sottili. Trasferite i peperoncini appena tagliati all'interno di una ciotola di vetro. Aggiungete la salsa di soia, il mirin, il sake, l'olio di sesamo tostato, il dashi in polvere e il pizzico di peperoncino secco, mescolando bene per distribuire uniformemente i sapori. Infornate la ciotola nel forno a microonde e cuocete per 4 minuti a 600 watt. Una volta terminata la cottura, rimuovete il coperchio facendo attenzione al vapore caldo. Mescolate bene i friggitelli nel loro condimento e trasferiteli su un piatto da portata, magari adagiandoli su una foglia fresca di shiso per guarnizione. Completate il piatto condendo la superficie con i sakura ebi, una spolverata di semi di sesamo e una manciata generosa di katsuobushi.",
+    "videoIds": [
+      "ulksO-vcJdA"
+    ],
+    "datePublished": null
+  },
   "ricette/sides/nametake": {
     "docId": "ricette/sides/nametake",
     "title": "Nametake",
@@ -1909,7 +1941,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "oMWKn_h63x4"
     ],
-    "datePublished": null
+    "datePublished": "2026-07-30T18:00:47+02:00"
   },
   "ricette/yakimono/shogayaki": {
     "docId": "ricette/yakimono/shogayaki",
