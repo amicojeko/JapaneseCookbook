@@ -11,6 +11,12 @@ I coltelli da cucina giapponesi godono di una fama quasi mitica per il loro tagl
 
 <!-- truncate -->
 
+<ImageComponent
+  src="/img/blog/blog-gyuto-zijno.jpg"
+  alt="Coltello gyuto giapponese forgiato a mano, lama in acciaio con finitura martellata e manico in legno stabilizzato blu e fucsia"
+  caption="Gyuto forgiato da Cristian Zijno, autore dell'articolo."
+/>
+
 ## Costruzione
 
 Tradizionalmente i coltelli da cucina giapponesi sono stati forgiati in *"Tamahagane"*, lo stesso acciaio utilizzato per le *Katane*. Questo acciaio viene fatto partendo dalla sabbia ferrosa trovata nella prefettura di *Shimane*. Questa viene portata ad alta temperatura all'interno di una fornace chiamata *Tatara* per molte ore finché non si riduce in agglomerati che, successivamente verranno forgiati e ripiegati più volte al fine di eliminare le impurità naturalmente presenti in esso. Ad oggi, grazie allo sviluppo tecnologico e ad una produzione più precisa degli acciai con prestabiliti elementi in lega, si tendono ad usare acciai prodotti industrialmente, inoltre il *Tamahagane* è di più difficile reperibilità, in quanto protetto dal governo Giapponese e riservato al (quasi) solo utilizzo per le *Katane*, per i coltelli si utilizzano principalmente due acciai:
