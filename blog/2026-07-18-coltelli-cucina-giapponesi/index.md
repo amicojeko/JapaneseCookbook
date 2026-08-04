@@ -4,7 +4,7 @@ title: "Coltelli da cucina giapponesi"
 authors: [cristian]
 tags: [cultura, cucina]
 description: "Come sono fatti i coltelli da cucina giapponesi e le principali differenze dai coltelli occidentali: acciai, forgiatura, tempra, rinvenimento, manico e affilatura."
-image: /img/blog/coltelli_cucina_giapponesi_esempi.jpg
+image: /img/blog/blog-gyuto-zijno.jpg
 ---
 
 I coltelli da cucina giapponesi godono di una fama quasi mitica per il loro taglio straordinario, ma quanto c'è di reale dietro questo fascino? Molto è il risultato di un'ingegneria precisa. Più che da leggende secolari, quell'affilatura estrema nasce dall'incontro perfetto tra la tradizionale maestria artigianale e le più avanzate tecnologie metallurgiche moderne.
@@ -86,3 +86,9 @@ Finalmente siamo giunti all'ultima parte, l'affilatura! Per poter essere definit
 />
 
 Finita l'affilatura il coltello è finalmente finito, e può essere consegnato al committente. I coltelli artigianali hanno un costo elevato, sopratutto rispetto ai coltelli di produzione industriale, ma la qualità è superiore e con il minimo di cura diventano compagni di vita e in alcuni casi vengono anche ereditati dai figli o dai nipoti dei committenti!
+
+## Conclusioni
+
+Quello che avete letto è solo un piccolo sunto di quello che è il vasto mondo dei coltelli da cucina giapponesi: abbiamo appena scalfito la superficie! Dietro ogni lama si nascondono secoli di tradizione e tecniche che meriterebbero un articolo a parte — come l'*Hamon*, il *Ni-mai* e il *San-mai* che qui ho solo accennato — oltre a un'infinità di variabili tra acciai, geometrie e finiture. Se questo viaggio vi ha incuriositi, sappiate che c'è ancora tantissimo da esplorare.
+
+— [Cristian Zijno](/blog/authors/cristian)

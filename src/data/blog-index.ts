@@ -42,13 +42,14 @@ export const BLOG_INDEX: BlogIndexEntry[] = [
     "permalink": "/blog/coltelli-cucina-giapponesi/",
     "title": "Coltelli da cucina giapponesi",
     "description": "Come sono fatti i coltelli da cucina giapponesi e le principali differenze dai coltelli occidentali: acciai, forgiatura, tempra, rinvenimento, manico e affilatura.",
-    "image": "/img/blog/coltelli_cucina_giapponesi_esempi.jpg",
+    "image": "/img/blog/blog-gyuto-zijno.jpg",
     "date": "2026-07-18",
-    "readingTime": 5,
+    "readingTime": 5.25,
     "authors": [
       {
         "key": "cristian",
         "name": "Cristian Zijno",
+        "imageURL": "/img/authors/cristian_zijno.jpg",
         "title": "Forgiatore di metalli e storie"
       }
     ]
