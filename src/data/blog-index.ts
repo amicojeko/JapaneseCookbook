@@ -21,6 +21,23 @@ export type BlogIndexEntry = {
 
 export const BLOG_INDEX: BlogIndexEntry[] = [
   {
+    "slug": "coltelli-cucina-giapponesi",
+    "permalink": "/blog/coltelli-cucina-giapponesi/",
+    "title": "Coltelli da cucina giapponesi",
+    "description": "Come sono fatti i coltelli da cucina giapponesi e le principali differenze dai coltelli occidentali: acciai, forgiatura, tempra, rinvenimento, manico e affilatura.",
+    "image": "/img/blog/blog-gyuto-zijno.jpg",
+    "date": "2026-08-04",
+    "readingTime": 5.25,
+    "authors": [
+      {
+        "key": "cristian",
+        "name": "Cristian Zijno",
+        "imageURL": "/img/authors/cristian_zijno.jpg",
+        "title": "Forgiatore di metalli e storie"
+      }
+    ]
+  },
+  {
     "slug": "shokunin-kishitsu-materia-riparazione-senso",
     "permalink": "/blog/shokunin-kishitsu-materia-riparazione-senso/",
     "title": "Shokunin Kishitsu | I 20 valori dello spirito artigiano — Parte III: Materia, riparazione e senso",
@@ -34,23 +51,6 @@ export const BLOG_INDEX: BlogIndexEntry[] = [
         "name": "ToolsReborn – Wabi Sabi Story",
         "imageURL": "/img/authors/tools_reborn.jpg",
         "title": "Dietro la ruggine di ogni lama e di ogni attrezzo dimenticato si nasconde una storia unica"
-      }
-    ]
-  },
-  {
-    "slug": "coltelli-cucina-giapponesi",
-    "permalink": "/blog/coltelli-cucina-giapponesi/",
-    "title": "Coltelli da cucina giapponesi",
-    "description": "Come sono fatti i coltelli da cucina giapponesi e le principali differenze dai coltelli occidentali: acciai, forgiatura, tempra, rinvenimento, manico e affilatura.",
-    "image": "/img/blog/blog-gyuto-zijno.jpg",
-    "date": "2026-07-18",
-    "readingTime": 5.25,
-    "authors": [
-      {
-        "key": "cristian",
-        "name": "Cristian Zijno",
-        "imageURL": "/img/authors/cristian_zijno.jpg",
-        "title": "Forgiatore di metalli e storie"
       }
     ]
   },

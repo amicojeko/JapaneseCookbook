@@ -2,7 +2,7 @@
   "meta": {
     "site": "https://paginegiappe.it",
     "description": "Guida italiana alla cucina giapponese: ricette autentiche, ingredienti, negozi orientali in Italia, strumenti, viaggi e cultura gastronomica.",
-    "generated": "2026-08-04T09:21:57.492Z",
+    "generated": "2026-08-04T09:27:46.620Z",
     "version": 1
   },
   "ricette": [
@@ -4066,13 +4066,13 @@
   ],
   "blog": [
     {
-      "title": "Shokunin Kishitsu | I 20 valori dello spirito artigiano — Parte III: Materia, riparazione e senso",
-      "description": "Fukinsei, Kanso, Shizen, Kintsugi, Ikigai e Shokunin: il rapporto con la materia, la filosofia della riparazione e il senso profondo del mestiere artigiano.",
-      "url": "https://paginegiappe.it/blog/shokunin-kishitsu-materia-riparazione-senso/",
-      "image": "https://paginegiappe.it/img/blog/toolsreborn/coltelli-giapponesi-tradizionali-pietre-naturali.jpg",
-      "date": "2026-07-22",
+      "title": "Coltelli da cucina giapponesi",
+      "description": "Come sono fatti i coltelli da cucina giapponesi e le principali differenze dai coltelli occidentali: acciai, forgiatura, tempra, rinvenimento, manico e affilatura.",
+      "url": "https://paginegiappe.it/blog/coltelli-cucina-giapponesi/",
+      "image": "https://paginegiappe.it/img/blog/blog-gyuto-zijno.jpg",
+      "date": "2026-08-04",
       "authors": [
-        "toolsreborn"
+        "cristian"
       ],
       "tags": [
         "cultura",
@@ -4080,13 +4080,13 @@
       ]
     },
     {
-      "title": "Coltelli da cucina giapponesi",
-      "description": "Come sono fatti i coltelli da cucina giapponesi e le principali differenze dai coltelli occidentali: acciai, forgiatura, tempra, rinvenimento, manico e affilatura.",
-      "url": "https://paginegiappe.it/blog/coltelli-cucina-giapponesi/",
-      "image": "https://paginegiappe.it/img/blog/blog-gyuto-zijno.jpg",
-      "date": "2026-07-18",
+      "title": "Shokunin Kishitsu | I 20 valori dello spirito artigiano — Parte III: Materia, riparazione e senso",
+      "description": "Fukinsei, Kanso, Shizen, Kintsugi, Ikigai e Shokunin: il rapporto con la materia, la filosofia della riparazione e il senso profondo del mestiere artigiano.",
+      "url": "https://paginegiappe.it/blog/shokunin-kishitsu-materia-riparazione-senso/",
+      "image": "https://paginegiappe.it/img/blog/toolsreborn/coltelli-giapponesi-tradizionali-pietre-naturali.jpg",
+      "date": "2026-07-22",
       "authors": [
-        "cristian"
+        "toolsreborn"
       ],
       "tags": [
         "cultura",
