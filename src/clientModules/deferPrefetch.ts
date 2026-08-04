@@ -21,8 +21,9 @@
 import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment';
 
 if (ExecutionEnvironment.canUseDOM) {
+  type Prefetch = (routePath: string) => Promise<void> | void;
   const w = window as unknown as {
-    docusaurus?: {prefetch: (routePath: string) => Promise<void> | void};
+    docusaurus?: {prefetch: Prefetch; preload: Prefetch};
     requestIdleCallback?: (cb: () => void, opts?: {timeout: number}) => void;
     addEventListener: Window['addEventListener'];
   };
@@ -35,20 +36,29 @@ if (ExecutionEnvironment.canUseDOM) {
     const conn = (navigator as {connection?: {saveData?: boolean; effectiveType?: string}})
       .connection;
 
+    // `window.docusaurus` is a frozen object (Object.freeze in Docusaurus's
+    // clientEntry), so we can't mutate `.prefetch` in place — a strict-mode
+    // assignment throws. The `window` property itself is writable, though, and
+    // <Link> reads `window.docusaurus.prefetch` fresh on every call, so we swap
+    // in a new frozen object that keeps `preload` and overrides `prefetch`.
+    const install = (prefetch: Prefetch) => {
+      w.docusaurus = Object.freeze({...dsx, prefetch});
+    };
+
     // Data-saver or 2g: skip the eager route prefetch altogether.
     if (conn && (conn.saveData || /(^|-)2g$/.test(conn.effectiveType || ''))) {
-      dsx.prefetch = () => Promise.resolve();
+      install(() => Promise.resolve());
       return true;
     }
 
     let active = false;
     const queued = new Set<string>();
 
-    dsx.prefetch = (routePath: string) => {
+    install((routePath: string) => {
       if (active) return original(routePath);
       queued.add(routePath);
       return Promise.resolve();
-    };
+    });
 
     const activate = () => {
       if (active) return;
