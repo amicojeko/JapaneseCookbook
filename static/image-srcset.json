@@ -20,6 +20,13 @@
     "width": 730,
     "height": 730
   },
+  "authors/cristian_zijno.jpg": {
+    "hash": "4ee41cbcb8e09a2a1202b4efe34811ab",
+    "original": "/img/authors/cristian_zijno.jpg",
+    "srcset": "",
+    "width": 274,
+    "height": 274
+  },
   "authors/curiosity_power.jpg": {
     "hash": "d3e5b71a41865e6f992e32402f60f800",
     "original": "/img/authors/curiosity_power.jpg",
@@ -103,6 +110,55 @@
     "srcset": "/img/blog/bandiere/bandiere-320w.webp 320w, /img/blog/bandiere/bandiere-640w.webp 640w, /img/blog/bandiere/bandiere-1280w.webp 1280w, /img/blog/bandiere/bandiere-1600w.webp 1600w",
     "width": 1672,
     "height": 941
+  },
+  "blog/blog-gyuto-zijno.jpg": {
+    "hash": "b969f4ba87638018577ee892980c759f",
+    "original": "/img/blog/blog-gyuto-zijno.jpg",
+    "srcset": "/img/blog/blog-gyuto-zijno-320w.webp 320w, /img/blog/blog-gyuto-zijno-640w.webp 640w, /img/blog/blog-gyuto-zijno-1280w.webp 1280w, /img/blog/blog-gyuto-zijno-1600w.webp 1600w",
+    "width": 2816,
+    "height": 1472
+  },
+  "blog/coltelli_cucina_giapponesi_biselli.jpg": {
+    "hash": "4c268a1e755f258dc75990149f56985e",
+    "original": "/img/blog/coltelli_cucina_giapponesi_biselli.jpg",
+    "srcset": "/img/blog/coltelli_cucina_giapponesi_biselli-320w.webp 320w, /img/blog/coltelli_cucina_giapponesi_biselli-640w.webp 640w",
+    "width": 1108,
+    "height": 736
+  },
+  "blog/coltelli_cucina_giapponesi_esempi.jpg": {
+    "hash": "9b7c57fabd4e1ec09cc8ff9fe6115b7d",
+    "original": "/img/blog/coltelli_cucina_giapponesi_esempi.jpg",
+    "srcset": "/img/blog/coltelli_cucina_giapponesi_esempi-320w.webp 320w, /img/blog/coltelli_cucina_giapponesi_esempi-640w.webp 640w",
+    "width": 878,
+    "height": 878
+  },
+  "blog/coltelli_cucina_giapponesi_forgiatura.jpg": {
+    "hash": "06f5acf14b12ebb5a14fc574157f2f86",
+    "original": "/img/blog/coltelli_cucina_giapponesi_forgiatura.jpg",
+    "srcset": "/img/blog/coltelli_cucina_giapponesi_forgiatura-320w.webp 320w, /img/blog/coltelli_cucina_giapponesi_forgiatura-640w.webp 640w",
+    "width": 860,
+    "height": 573
+  },
+  "blog/coltelli_cucina_giapponesi_pietre_naturali.jpg": {
+    "hash": "0f180c5d34c1795b89d66d504a682291",
+    "original": "/img/blog/coltelli_cucina_giapponesi_pietre_naturali.jpg",
+    "srcset": "/img/blog/coltelli_cucina_giapponesi_pietre_naturali-320w.webp 320w, /img/blog/coltelli_cucina_giapponesi_pietre_naturali-640w.webp 640w",
+    "width": 860,
+    "height": 645
+  },
+  "blog/coltelli_cucina_giapponesi_pietre_sintetiche.jpg": {
+    "hash": "a61740a80a3fd549131fb649f7f18a40",
+    "original": "/img/blog/coltelli_cucina_giapponesi_pietre_sintetiche.jpg",
+    "srcset": "/img/blog/coltelli_cucina_giapponesi_pietre_sintetiche-320w.webp 320w, /img/blog/coltelli_cucina_giapponesi_pietre_sintetiche-640w.webp 640w",
+    "width": 860,
+    "height": 764
+  },
+  "blog/coltelli_cucina_giapponesi_sezioni.jpg": {
+    "hash": "f6918b4dc2dae3b26b2ed0b2d9081885",
+    "original": "/img/blog/coltelli_cucina_giapponesi_sezioni.jpg",
+    "srcset": "/img/blog/coltelli_cucina_giapponesi_sezioni-320w.webp 320w, /img/blog/coltelli_cucina_giapponesi_sezioni-640w.webp 640w",
+    "width": 1025,
+    "height": 1024
   },
   "blog/enciclopedia_1956.jpg": {
     "hash": "2be2d26eec8a003faed8d5a883214e47",

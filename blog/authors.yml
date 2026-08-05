@@ -56,3 +56,12 @@ carlo:
   title: Sake Sommelier · Aiki
   image_url: /img/authors/carlo.jpg
   page: true
+
+cristian:
+  name: Cristian Zijno
+  title: Forgiatore di metalli e storie
+  url: https://www.instagram.com/c.zijno/
+  image_url: /img/authors/cristian_zijno.jpg
+  page: true
+  socials:
+    instagram: https://www.instagram.com/c.zijno/
