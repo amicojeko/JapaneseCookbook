@@ -655,6 +655,31 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     ],
     "datePublished": "2024-03-10T17:50:10+01:00"
   },
+  "ricette/menrui/zaru_udon": {
+    "docId": "ricette/menrui/zaru_udon",
+    "title": "Zaru Udon",
+    "description": "Un primo piatto estivo e freschissimo, servito sul classico vassoio di bambù con salsa tsuyu e un tocco pungente di wasabi.",
+    "image": "/img/ricette/zaru_udon.jpg",
+    "recipeCategory": "Noodles",
+    "recipeKeywords": [
+      "udon",
+      "estivo",
+      "kizami_nori",
+      "nori"
+    ],
+    "recipeYield": "1 persona",
+    "recipeIngredient": [
+      "1 porzione di udon (freschi o secchi)",
+      "q.b. di tsuyu (o mentsuyu)",
+      "q.b. di kizami nori",
+      "q.b. di wasabi in pasta"
+    ],
+    "instructionsText": "Iniziate sbollentando gli udon in abbondante acqua, seguendo i tempi di cottura indicati sulla confezione. Non appena sono pronti, scolateli, sciacquateli immediatamente sotto l'acqua corrente e buttateli subito in una ciotola ricolma di acqua e ghiaccio. Nel frattempo, prendete dello tsuyu e versatelo all'interno di una piccola ciotola. Se state utilizzando un prodotto commerciale, potete versarlo in purezza. Prendete la vostra ciotolina con la salsa e aggiungete sul bordo interno un generoso baffo di wasabi, che andrete a sciogliere a piacere durante il pasto. Scolate molto bene gli udon dall'acqua ghiacciata e adagiateli sul vostro zaru in bambù, che aiuterà a far drenare l'eventuale umidità residua. Completate il piatto spolverando sulla superficie della pasta una piccola manciata di alga kizami nori.",
+    "videoIds": [
+      "RdXbG3nq7hY"
+    ],
+    "datePublished": null
+  },
   "ricette/nimono/daikon_no_nimono": {
     "docId": "ricette/nimono/daikon_no_nimono",
     "title": "Daikon no Nimono",

@@ -27,7 +27,7 @@ export const BLOG_INDEX: BlogIndexEntry[] = [
     "description": "Come sono fatti i coltelli da cucina giapponesi e le principali differenze dai coltelli occidentali: acciai, forgiatura, tempra, rinvenimento, manico e affilatura.",
     "image": "/img/blog/blog-gyuto-zijno.jpg",
     "date": "2026-08-04",
-    "readingTime": 5.25,
+    "readingTime": 5.35,
     "authors": [
       {
         "key": "cristian",

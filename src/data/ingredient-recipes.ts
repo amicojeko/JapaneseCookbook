@@ -791,6 +791,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/zaru_soba"
     },
     {
+      "id": "ricette/menrui/zaru_udon",
+      "title": "Zaru Udon",
+      "description": "Un primo piatto estivo e freschissimo, servito sul classico vassoio di bambù con salsa tsuyu e un tocco pungente di wasabi.",
+      "permalink": "/ricette/zaru-udon"
+    },
+    {
       "id": "ricette/sides/mugen_piiman",
       "title": "Mugen Pīman",
       "description": "Una ricetta estiva veloce e senza fornelli per preparare i peperoncini verdi in stile giapponese, perfetti da gustare sul riso.",
@@ -1109,6 +1115,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Udon fatti in casa",
       "description": "L'impasto base degli udon — farina, sale e acqua — preparato a mano. Da qui parti per ogni piatto di udon: in brodo, freddi, saltati o immersi in salsa.",
       "permalink": "/ricette/udon_fatti_in_casa"
+    },
+    {
+      "id": "ricette/menrui/zaru_udon",
+      "title": "Zaru Udon",
+      "description": "Un primo piatto estivo e freschissimo, servito sul classico vassoio di bambù con salsa tsuyu e un tocco pungente di wasabi.",
+      "permalink": "/ricette/zaru-udon"
     }
   ],
   "daikon": [
@@ -1303,6 +1315,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Zaru Soba",
       "description": "Spaghetti di grano saraceno freddi",
       "permalink": "/ricette/zaru_soba"
+    },
+    {
+      "id": "ricette/menrui/zaru_udon",
+      "title": "Zaru Udon",
+      "description": "Un primo piatto estivo e freschissimo, servito sul classico vassoio di bambù con salsa tsuyu e un tocco pungente di wasabi.",
+      "permalink": "/ricette/zaru-udon"
     }
   ],
   "nori": [
@@ -1323,6 +1341,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Zaru Soba",
       "description": "Spaghetti di grano saraceno freddi",
       "permalink": "/ricette/zaru_soba"
+    },
+    {
+      "id": "ricette/menrui/zaru_udon",
+      "title": "Zaru Udon",
+      "description": "Un primo piatto estivo e freschissimo, servito sul classico vassoio di bambù con salsa tsuyu e un tocco pungente di wasabi.",
+      "permalink": "/ricette/zaru-udon"
     },
     {
       "id": "ricette/preparazioni_di_base/condimenti/furikake",

@@ -1469,6 +1469,13 @@
     "width": 1000,
     "height": 1268
   },
+  "ricette/zaru_udon.jpg": {
+    "hash": "f5ce86dc375fbfd47e9dbad83c9c230b",
+    "original": "/img/ricette/zaru_udon.jpg",
+    "srcset": "/img/ricette/zaru_udon-320w.webp 320w, /img/ricette/zaru_udon-640w.webp 640w, /img/ricette/zaru_udon-1280w.webp 1280w, /img/ricette/zaru_udon-1600w.webp 1600w",
+    "width": 1672,
+    "height": 941
+  },
   "ricette/zuppa-miso-funghi.jpg": {
     "hash": "ce87a4d4d973b748fb804ee735f3e9fb",
     "original": "/img/ricette/zuppa-miso-funghi.jpg",
