@@ -16,6 +16,10 @@
 
 # Misc
 .DS_Store
+# Alternate data stream "Mark of the Web" che Windows appiccica ai file
+# scaricati. Sono sempre vuoti e su Windows non sono nemmeno checkoutabili
+# (i due punti non sono un carattere valido nei nomi file).
+*:Zone.Identifier
 
 # Credenziali bot Telegram (il .sample va invece committato)
 .paginegiappe-telegram-token
