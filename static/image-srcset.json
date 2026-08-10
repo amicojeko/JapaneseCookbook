@@ -1371,6 +1371,13 @@
     "width": 1672,
     "height": 941
   },
+  "ricette/tofu_remon_kurimu_somen.jpg": {
+    "hash": "49e1f772d58d93af474291db61aad4e0",
+    "original": "/img/ricette/tofu_remon_kurimu_somen.jpg",
+    "srcset": "/img/ricette/tofu_remon_kurimu_somen-320w.webp 320w, /img/ricette/tofu_remon_kurimu_somen-640w.webp 640w, /img/ricette/tofu_remon_kurimu_somen-1280w.webp 1280w, /img/ricette/tofu_remon_kurimu_somen-1600w.webp 1600w",
+    "width": 1672,
+    "height": 941
+  },
   "ricette/tonjiru.jpg": {
     "hash": "88903fd60fe37d6d7fd98bd494ea558b",
     "original": "/img/ricette/tonjiru.jpg",

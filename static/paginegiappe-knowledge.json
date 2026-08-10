@@ -2,7 +2,7 @@
   "meta": {
     "site": "https://paginegiappe.it",
     "description": "Guida italiana alla cucina giapponese: ricette autentiche, ingredienti, negozi orientali in Italia, strumenti, viaggi e cultura gastronomica.",
-    "generated": "2026-08-06T14:59:33.003Z",
+    "generated": "2026-08-10T06:58:03.108Z",
     "version": 1
   },
   "ricette": [
@@ -388,6 +388,33 @@
         "Acqua e ghiaccio"
       ],
       "instructions": "In giapponese esistono più di 4500 parole mimetiche (o onomatopee) e una delle più famose per descrivere il cibo è Neba Neba, che indica qualcosa di filamentoso, appiccicoso e viscoso. Il grande protagonista di questa ricetta è il Nagaimo, un tubero che, una volta grattugiato, crea una \"pappa collosa\" chiamata Tororo. Insieme al tuorlo d'uovo, questo ingrediente trasformerà i vostri somen freddi regalando un incredibile \"effetto carbocrema del 2000\"!\n\nLa ricetta è semplicissima. Iniziate cuocendo i somen in acqua bollente. Una volta cotti, scolateli e sciacquateli immediatamente sotto l'acqua corrente, per poi tuffarli in una ciotola piena di acqua e ghiaccio per farli raffreddare del tutto.\n\nPrendete il vostro Nagaimo e grattugiatelo finemente fino a ottenere il Tororo, una crema viscosa e super rinfrescante.\n\nA questo punto passiamo all'impiattamento: adagiate i somen ghiacciati sul fondo di una ciotola e versateci sopra abbondante Tororo. Posizionate al centro un tuorlo d'uovo freschissimo, aggiungete le cipolline verdi tagliate fini e decorate con qualche fettina di lime.\n\nPer concludere, irrorate tutto con la salsa ponzu e date una freschissima spremutina di succo di lime. Mescolate bene il tutto per ottenere un piatto mega avvolgente e super confortante!"
+    },
+    {
+      "title": "Tōfu remon kurīmu sōmen",
+      "description": "Una ricetta vegana fresca e avvolgente, dove i classici somen giapponesi vengono serviti con una ricca crema fredda a base di tofu e limone.",
+      "url": "https://paginegiappe.it/ricette/tofu-remon-kurimu-somen/",
+      "image": "https://paginegiappe.it/img/ricette/tofu_remon_kurimu_somen.jpg",
+      "category": "Noodles",
+      "tags": [
+        "tofu",
+        "shoyu",
+        "limone",
+        "somen",
+        "vegan"
+      ],
+      "recipeYield": "1 persona",
+      "ingredients": [
+        "1/2 panetto di tofu",
+        "q.b. di latte di soia (meg)",
+        "1 cucchiaio di salsa di soia - meglio la usukuchi",
+        "1 cucchiaino di brodo vegetale in polvere",
+        "1/2 limone (succo) e q.b. di scorza",
+        "1 cucchiaino di zucchero",
+        "1 porzione di somen (o udon)",
+        "1 pezzetto di cetriolo",
+        "q.b. di cipolline (cipollotto verde)"
+      ],
+      "instructions": "Il tofu è il grande protagonista di questa preparazione, trasformandosi in una crema avvolgente e agrumata perfetta per condire i somen. Questa ricetta vegana è incredibilmente rinfrescante e semplice da realizzare, ideale per le giornate più afose. Fresca, cremosa e dal tocco deliziosamente limonoso, vi farà dimenticare il caldo estivo fin dal primo assaggio.\n\nIniziate prendendo il panetto di tofu e asciugatelo con premura utilizzando della carta assorbente per rimuovere l'acqua in eccesso. Con un coltello, rifilate la scorza del panetto (la parte piu' secca che e' stata a contatto con il panno per asciugarlo) e tenetela da parte: vi basterà tagliarla a striscioline per utilizzarla successivamente come gustosa guarnizione.\n\nAll'interno di un frullatore, inserite la parte centrale del tofu, un generoso goccio di latte di soia, la salsa di soia, il brodo vegetale in polvere, il succo di mezzo limone, una grattugiata di scorza e, infine, un cucchiaino di zucchero. Lo zucchero è un elemento fondamentale per bilanciare l'acidità e rendere il tutto più rotondo e saporito. Frullate fino a ottenere una crema liscia, vellutata e dal profumo irresistibile.\n\nIn una pentola con acqua bollente, cuocete i somen seguendo i tempi indicati sulla confezione. Una volta cotti, scolateli e sciacquateli immediatamente sotto l'acqua corrente, per poi tuffarli in una ciotola ricolma di acqua e ghiaccio. Questo passaggio termico è vitale per arrestare la cottura e garantire ai noodles la perfetta consistenza al morso.\n\nNel frattempo, preparate gli ultimi ingredienti per l'impiattamento affettando finemente il cetriolo a julienne e tritando le cipolline.\n\nSe non riuscite a reperire i somen, potete tranquillamente realizzare questo piatto utilizzando dei morbidi udon: la crema al limone si abbinerà alla perfezione in entrambi i casi.\n\nScolate molto bene i somen dall'acqua ghiacciata e adagiateli sul fondo di una bella ciotola capiente. Versatevi sopra un'abbondante dose di crema al limone e completate l'assemblaggio guarnendo con il cetriolo a julienne, le striscioline di tofu tenute da parte, le cipolline tritate e un'ultima, generosa spolverata di scorza di limone."
     },
     {
       "title": "Tomato to Tsuna no Hiyashi Somen",

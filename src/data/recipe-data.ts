@@ -451,6 +451,37 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     ],
     "datePublished": "2026-07-20T14:37:17+02:00"
   },
+  "ricette/menrui/tofu_remon_kurimu_somen": {
+    "docId": "ricette/menrui/tofu_remon_kurimu_somen",
+    "title": "Tōfu remon kurīmu sōmen",
+    "description": "Una ricetta vegana fresca e avvolgente, dove i classici somen giapponesi vengono serviti con una ricca crema fredda a base di tofu e limone.",
+    "image": "/img/ricette/tofu_remon_kurimu_somen.jpg",
+    "recipeCategory": "Noodles",
+    "recipeKeywords": [
+      "tofu",
+      "shoyu",
+      "limone",
+      "somen",
+      "vegan"
+    ],
+    "recipeYield": "1 persona",
+    "recipeIngredient": [
+      "1/2 panetto di tofu",
+      "q.b. di latte di soia (meg)",
+      "1 cucchiaio di salsa di soia - meglio la usukuchi",
+      "1 cucchiaino di brodo vegetale in polvere",
+      "1/2 limone (succo) e q.b. di scorza",
+      "1 cucchiaino di zucchero",
+      "1 porzione di somen (o udon)",
+      "1 pezzetto di cetriolo",
+      "q.b. di cipolline (cipollotto verde)"
+    ],
+    "instructionsText": "Iniziate prendendo il panetto di tofu e asciugatelo con premura utilizzando della carta assorbente per rimuovere l'acqua in eccesso. Con un coltello, rifilate la scorza del panetto (la parte piu' secca che e' stata a contatto con il panno per asciugarlo) e tenetela da parte: vi basterà tagliarla a striscioline per utilizzarla successivamente come gustosa guarnizione. All'interno di un frullatore, inserite la parte centrale del tofu, un generoso goccio di latte di soia, la salsa di soia, il brodo vegetale in polvere, il succo di mezzo limone, una grattugiata di scorza e, infine, un cucchiaino di zucchero. Lo zucchero è un elemento fondamentale per bilanciare l'acidità e rendere il tutto più rotondo e saporito. Frullate fino a ottenere una crema liscia, vellutata e dal profumo irresistibile. In una pentola con acqua bollente, cuocete i somen seguendo i tempi indicati sulla confezione. Una volta cotti, scolateli e sciacquateli immediatamente sotto l'acqua corrente, per poi tuffarli in una ciotola ricolma di acqua e ghiaccio. Questo passaggio termico è vitale per arrestare la cottura e garantire ai noodles la perfetta consistenza al morso. Nel frattempo, preparate gli ultimi ingredienti per l'impiattamento affettando finemente il cetriolo a julienne e tritando le cipolline. Scolate molto bene i somen dall'acqua ghiacciata e adagiateli sul fondo di una bella ciotola capiente. Versatevi sopra un'abbondante dose di crema al limone e completate l'assemblaggio guarnendo con il cetriolo a julienne, le striscioline di tofu tenute da parte, le cipolline tritate e un'ultima, generosa spolverata di scorza di limone.",
+    "videoIds": [
+      "_QqKN-8I6y4"
+    ],
+    "datePublished": null
+  },
   "ricette/menrui/tomato_to_tsuna_no_hiyashi_somen": {
     "docId": "ricette/menrui/tomato_to_tsuna_no_hiyashi_somen",
     "title": "Tomato to Tsuna no Hiyashi Somen",
@@ -678,7 +709,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "RdXbG3nq7hY"
     ],
-    "datePublished": null
+    "datePublished": "2026-08-09T14:15:07+02:00"
   },
   "ricette/nimono/daikon_no_nimono": {
     "docId": "ricette/nimono/daikon_no_nimono",

@@ -39,6 +39,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/niku_udon"
     },
     {
+      "id": "ricette/menrui/tofu_remon_kurimu_somen",
+      "title": "Tōfu remon kurīmu sōmen",
+      "description": "Una ricetta vegana fresca e avvolgente, dove i classici somen giapponesi vengono serviti con una ricca crema fredda a base di tofu e limone.",
+      "permalink": "/ricette/tofu-remon-kurimu-somen"
+    },
+    {
       "id": "ricette/menrui/tororo_natto_shiso_udon",
       "title": "Tororo Natto Shiso Udon",
       "description": "Una ricetta estiva veloce, nutriente e ricca di consistenze uniche grazie al contrasto tra il cremoso tororo e il natto.",
@@ -999,6 +1005,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Hiyayakko con Natto e Kimchi",
       "description": "Tofu freddo caricato con natto, kimchi e salsa ponzu — un accostamento apparentemente caotico che regala un sapore sorprendente.",
       "permalink": "/ricette/tofu-natto-kimchi-ponzu"
+    },
+    {
+      "id": "ricette/menrui/tofu_remon_kurimu_somen",
+      "title": "Tōfu remon kurīmu sōmen",
+      "description": "Una ricetta vegana fresca e avvolgente, dove i classici somen giapponesi vengono serviti con una ricca crema fredda a base di tofu e limone.",
+      "permalink": "/ricette/tofu-remon-kurimu-somen"
     }
   ],
   "kimchi": [
@@ -1023,6 +1035,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Yamitsuki Kyabesu",
       "description": "Il cavolo che te da la rota!",
       "permalink": "/ricette/yamitsuki_kyabesu"
+    },
+    {
+      "id": "ricette/menrui/tofu_remon_kurimu_somen",
+      "title": "Tōfu remon kurīmu sōmen",
+      "description": "Una ricetta vegana fresca e avvolgente, dove i classici somen giapponesi vengono serviti con una ricca crema fredda a base di tofu e limone.",
+      "permalink": "/ricette/tofu-remon-kurimu-somen"
     },
     {
       "id": "ricette/nimono/daikon_no_nimono",
@@ -1409,6 +1427,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/somen-tororo-lime"
     },
     {
+      "id": "ricette/menrui/tofu_remon_kurimu_somen",
+      "title": "Tōfu remon kurīmu sōmen",
+      "description": "Una ricetta vegana fresca e avvolgente, dove i classici somen giapponesi vengono serviti con una ricca crema fredda a base di tofu e limone.",
+      "permalink": "/ricette/tofu-remon-kurimu-somen"
+    },
+    {
       "id": "ricette/menrui/tomato_to_tsuna_no_hiyashi_somen",
       "title": "Tomato to Tsuna no Hiyashi Somen",
       "description": "Una ricetta estiva semplicissima e velocissima, un mix perfetto tra i sapori mediterranei e la dispensa giapponese.",
@@ -1437,6 +1461,14 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Somen Freddi con Tororo e Lime",
       "description": "Una ricetta estiva freschissima e \"neba neba\", a base di somen ghiacciati, nagaimo grattugiato, tuorlo crudo e lime.",
       "permalink": "/ricette/somen-tororo-lime"
+    }
+  ],
+  "limone": [
+    {
+      "id": "ricette/menrui/tofu_remon_kurimu_somen",
+      "title": "Tōfu remon kurīmu sōmen",
+      "description": "Una ricetta vegana fresca e avvolgente, dove i classici somen giapponesi vengono serviti con una ricca crema fredda a base di tofu e limone.",
+      "permalink": "/ricette/tofu-remon-kurimu-somen"
     }
   ],
   "yamaimo": [
