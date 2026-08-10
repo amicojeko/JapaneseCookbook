@@ -1999,6 +1999,37 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     ],
     "datePublished": "2026-07-30T18:00:47+02:00"
   },
+  "ricette/yakimono/negi_shio_remon_chikin": {
+    "docId": "ricette/yakimono/negi_shio_remon_chikin",
+    "title": "Negi Shio Remon Chikin",
+    "description": "Una ricetta estiva semplice e deliziosa per preparare un pollo croccante in padella, guarnito con una fresca salsa di cipollotto e limone.",
+    "image": "/img/ricette/negi_shio_remon_chikin.jpg",
+    "recipeCategory": "Griglia",
+    "recipeKeywords": [
+      "pollo",
+      "estivo",
+      "negi",
+      "limone",
+      "sake"
+    ],
+    "recipeYield": "1-2 persone",
+    "recipeIngredient": [
+      "1 trancio di pollo (preferibilmente sovracoscia disossata)",
+      "1 cucchiaio di sake",
+      "1 bel mucchio di cipolline (o negi)",
+      "1 cucchiaino di salsa d'ostriche",
+      "1 cucchiaino di olio di sesamo",
+      "1 cucchiaino di dashi in polvere",
+      "q.b. di sale e pepe",
+      "1/2 limone (succo e scorza)",
+      "q.b. di fecola di patate"
+    ],
+    "instructionsText": "Iniziate mettendo a marinare il trancio di pollo con un cucchiaio di sake, massaggiandolo leggermente per far assorbire il liquido. Nel frattempo, dedicatevi alla preparazione del condimento. Tagliate le cipolline a rondelle molto sottili e trasferitele in una ciotolina. Conditele con la salsa d'ostriche, l'olio di sesamo, il dashi in polvere, sale, pepe, il succo e la scorza grattugiata del limone. Mescolate bene il tutto e mettete la salsa a riposare affinché i sapori si amalgamino alla perfezione. Recuperate il pollo dalla marinatura e asciugatelo con molta cura utilizzando della carta assorbente. Salate la superficie e procedete a incipriare delicatamente ambo i lati con un velo sottile di fecola di patate. Una volta che il pollo risulterà ben dorato e croccante, trasferitelo su un tagliere e affettatelo a striscioline. Questo taglio è essenziale per poter gustare comodamente il piatto utilizzando le bacchette. Adagiate le fettine di pollo sul piatto da portata, magari decorando il fondo con delle foglie fresche, e andate a scofanare sulla superficie tutto il vostro delizioso condimento a base di cipolline e limone.",
+    "videoIds": [
+      "W7fclMAPLX0"
+    ],
+    "datePublished": null
+  },
   "ricette/yakimono/shogayaki": {
     "docId": "ricette/yakimono/shogayaki",
     "title": "Shogayaki",

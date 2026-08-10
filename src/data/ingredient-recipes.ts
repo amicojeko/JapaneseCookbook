@@ -577,6 +577,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/nasu-no-niku-miso"
     },
     {
+      "id": "ricette/yakimono/negi_shio_remon_chikin",
+      "title": "Negi Shio Remon Chikin",
+      "description": "Una ricetta estiva semplice e deliziosa per preparare un pollo croccante in padella, guarnito con una fresca salsa di cipollotto e limone.",
+      "permalink": "/ricette/negi-shio-remon-chikin"
+    },
+    {
       "id": "ricette/yakimono/shogayaki",
       "title": "Shogayaki",
       "description": "Scaloppine di maiale allo zenzero",
@@ -807,6 +813,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Mugen Pīman",
       "description": "Una ricetta estiva veloce e senza fornelli per preparare i peperoncini verdi in stile giapponese, perfetti da gustare sul riso.",
       "permalink": "/ricette/mugen-piiman"
+    },
+    {
+      "id": "ricette/yakimono/negi_shio_remon_chikin",
+      "title": "Negi Shio Remon Chikin",
+      "description": "Una ricetta estiva semplice e deliziosa per preparare un pollo croccante in padella, guarnito con una fresca salsa di cipollotto e limone.",
+      "permalink": "/ricette/negi-shio-remon-chikin"
     }
   ],
   "negi": [
@@ -863,6 +875,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Gyoza",
       "description": "Ravioli alla piastra",
       "permalink": "/ricette/gyoza"
+    },
+    {
+      "id": "ricette/yakimono/negi_shio_remon_chikin",
+      "title": "Negi Shio Remon Chikin",
+      "description": "Una ricetta estiva semplice e deliziosa per preparare un pollo croccante in padella, guarnito con una fresca salsa di cipollotto e limone.",
+      "permalink": "/ricette/negi-shio-remon-chikin"
     },
     {
       "id": "ricette/yakimono/takenoko_niku_miso",
@@ -1469,6 +1487,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Tōfu remon kurīmu sōmen",
       "description": "Una ricetta vegana fresca e avvolgente, dove i classici somen giapponesi vengono serviti con una ricca crema fredda a base di tofu e limone.",
       "permalink": "/ricette/tofu-remon-kurimu-somen"
+    },
+    {
+      "id": "ricette/yakimono/negi_shio_remon_chikin",
+      "title": "Negi Shio Remon Chikin",
+      "description": "Una ricetta estiva semplice e deliziosa per preparare un pollo croccante in padella, guarnito con una fresca salsa di cipollotto e limone.",
+      "permalink": "/ricette/negi-shio-remon-chikin"
     }
   ],
   "yamaimo": [
@@ -1759,6 +1783,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Soboro Don",
       "description": "La colorata e sfiziosa ciotola di riso giapponese a base di pollo e uova strapazzate, perfetta per un pasto ricco di proteine",
       "permalink": "/ricette/soboro-don"
+    },
+    {
+      "id": "ricette/yakimono/negi_shio_remon_chikin",
+      "title": "Negi Shio Remon Chikin",
+      "description": "Una ricetta estiva semplice e deliziosa per preparare un pollo croccante in padella, guarnito con una fresca salsa di cipollotto e limone.",
+      "permalink": "/ricette/negi-shio-remon-chikin"
     }
   ],
   "uova": [

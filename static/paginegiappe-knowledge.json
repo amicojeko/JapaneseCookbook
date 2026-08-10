@@ -2,7 +2,7 @@
   "meta": {
     "site": "https://paginegiappe.it",
     "description": "Guida italiana alla cucina giapponese: ricette autentiche, ingredienti, negozi orientali in Italia, strumenti, viaggi e cultura gastronomica.",
-    "generated": "2026-08-10T07:00:32.261Z",
+    "generated": "2026-08-10T13:03:08.717Z",
     "version": 1
   },
   "ricette": [
@@ -1781,6 +1781,33 @@
         "Sesamo tostato"
       ],
       "instructions": "La cucina giapponese ha moltissimo in comune con la cucina italiana. La stagionalità, il rispetto per gli ingredienti, la semplicità e la velocità delle preparazioni sono tra le cose che ci contraddistinguono e ci accomunano. Questa ricetta ne è un perfetto esempio: un piatto rustico e saporito, una sorta di \"ragù\" alla giapponese, ideale per condire una bella ciotola di riso bianco.\n\nIl suo nome è Nasu no niku miso, una preparazione tipica giapponese a base di carne macinata, miso e melanzane.\n\nPer prima cosa, tagliate la melanzana in pezzi irregolari (taglio rangiri) e mettetela a cuocere in una padella con un filo di olio di semi. Quando i pezzi si saranno ammorbiditi e dorati, toglieteli dal fuoco e teneteli da parte.\n\nNella stessa padella,  mettete a cuocere la carne macinata. Conditela con con mirin, sake e salsa di soia, ed aggiungiamo un trito di aglio e zenzero.\n\nAggiungiamo un bel cucchiaio di miso, aiutandoci con un po' d'acqua per farlo sciogliere bene. Spadellate vigorosamente fino a quando la carne sarà ben rosolata e saporita.\n\nA questo punto, riunite le melanzane cotte in precedenza alla carne e saltate tutto insieme per far amalgamare i sapori. Ed ecco pronto il vostro Nasu no niku miso, una preparazione tipica di carne macinata al miso e melanzane.\n\nGuarnite con delle foglie di shiso tagliate finemente e concludete con una bella grattata di sesamo tostato, e gustatela con una bella ciotola di riso bianco!"
+    },
+    {
+      "title": "Negi Shio Remon Chikin",
+      "description": "Una ricetta estiva semplice e deliziosa per preparare un pollo croccante in padella, guarnito con una fresca salsa di cipollotto e limone.",
+      "url": "https://paginegiappe.it/ricette/negi-shio-remon-chikin/",
+      "image": "https://paginegiappe.it/img/ricette/negi_shio_remon_chikin.jpg",
+      "category": "Griglia",
+      "tags": [
+        "pollo",
+        "estivo",
+        "negi",
+        "limone",
+        "sake"
+      ],
+      "recipeYield": "1-2 persone",
+      "ingredients": [
+        "1 trancio di pollo (preferibilmente sovracoscia disossata)",
+        "1 cucchiaio di sake",
+        "1 bel mucchio di cipolline (o negi)",
+        "1 cucchiaino di salsa d'ostriche",
+        "1 cucchiaino di olio di sesamo",
+        "1 cucchiaino di dashi in polvere",
+        "q.b. di sale e pepe",
+        "1/2 limone (succo e scorza)",
+        "q.b. di fecola di patate"
+      ],
+      "instructions": "Chi l'ha detto che la cucina giapponese è complicata? Questa ricetta estiva, conosciuta come Negi Shio Remon Chikin, è l'esempio perfetto di come si possa creare un piatto incredibilmente saporito con pochi ingredienti e una semplice cottura in padella. Ideale per le giornate calde, abbina la croccantezza della carne a un condimento fresco e agrumato a base di cipollotto e limone.\n\nIniziate mettendo a marinare il trancio di pollo con un cucchiaio di sake, massaggiandolo leggermente per far assorbire il liquido.\n\nNel frattempo, dedicatevi alla preparazione del condimento. Tagliate le cipolline a rondelle molto sottili e trasferitele in una ciotolina. Conditele con la salsa d'ostriche, l'olio di sesamo, il dashi in polvere, sale, pepe, il succo e la scorza grattugiata del limone. Mescolate bene il tutto e mettete la salsa a riposare affinché i sapori si amalgamino alla perfezione.\n\nRecuperate il pollo dalla marinatura e asciugatelo con molta cura utilizzando della carta assorbente. Salate la superficie e procedete a incipriare delicatamente ambo i lati con un velo sottile di fecola di patate.\n\nCuocete il pollo in padella mantenendo la fiamma bassa. È fondamentale non avere fretta: una cottura dolce e prolungata permetterà alla carne di cuocersi uniformemente e di formare una crosticina esterna davvero irresistibile e croccante.\n\nUna volta che il pollo risulterà ben dorato e croccante, trasferitelo su un tagliere e affettatelo a striscioline. Questo taglio è essenziale per poter gustare comodamente il piatto utilizzando le bacchette.\n\nAdagiate le fettine di pollo sul piatto da portata, magari decorando il fondo con delle foglie fresche, e andate a scofanare sulla superficie tutto il vostro delizioso condimento a base di cipolline e limone.\n\nQuesto pollo è talmente saporito e fresco che si sposa divinamente con una semplice ciotola di riso bianco al vapore o accompagnato da una birra ghiacciata."
     },
     {
       "title": "Shogayaki",
