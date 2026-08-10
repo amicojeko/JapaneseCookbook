@@ -2,7 +2,7 @@
   "meta": {
     "site": "https://paginegiappe.it",
     "description": "Guida italiana alla cucina giapponese: ricette autentiche, ingredienti, negozi orientali in Italia, strumenti, viaggi e cultura gastronomica.",
-    "generated": "2026-08-10T13:03:08.717Z",
+    "generated": "2026-08-10T13:53:04.331Z",
     "version": 1
   },
   "ricette": [
@@ -3056,6 +3056,16 @@
       "url": null,
       "lat": 41.8555998,
       "lng": 12.4787152,
+      "note": null
+    },
+    {
+      "name": "Xin Ye Gruppo Srl",
+      "region": "Lazio",
+      "city": "Roma",
+      "address": "P.za Vittorio Emanuele II, 34, 00185 Roma RM",
+      "url": null,
+      "lat": 41.8953526,
+      "lng": 12.5047878,
       "note": null
     },
     {

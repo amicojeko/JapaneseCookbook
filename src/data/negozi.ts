@@ -425,6 +425,16 @@ export const NEGOZI: Negozio[] = [
         map_url: "https://maps.app.goo.gl/5zJ8jZPt18zsMgm26",
     },
     {
+        id: "lazio-roma-xin-ye-gruppo",
+        name: "Xin Ye Gruppo Srl",
+        region: "Lazio",
+        city: "Roma",
+        address: "P.za Vittorio Emanuele II, 34, 00185 Roma RM",
+        lat: 41.8953526,
+        lng: 12.5047878,
+        map_url: "https://maps.app.goo.gl/yBiNYSwPquXP44Sz5",
+    },
+    {
         id: "liguria-genova-asian-food",
         name: "Asian food",
         region: "Liguria",
