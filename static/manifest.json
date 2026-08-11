@@ -1,0 +1,77 @@
+{
+  "name": "Pagine Giappe — Cucina giapponese in italiano",
+  "short_name": "Pagine Giappe",
+  "description": "Cucina casalinga giapponese autentica in italiano: ricette di casa e da izakaya, ingredienti, negozi orientali in Italia e viaggi in Giappone.",
+  "lang": "it",
+  "dir": "ltr",
+  "id": "/",
+  "start_url": "/ricette/?app=1",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#fbf7ec",
+  "theme_color": "#ffdc06",
+  "categories": ["food", "lifestyle", "education"],
+  "icons": [
+    {
+      "src": "/img/pwa/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/img/pwa/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/img/pwa/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Negozi orientali in Italia",
+      "short_name": "Negozi",
+      "description": "Trova negozi di alimentari giapponesi e orientali vicino a te",
+      "url": "/negozi_orientali/"
+    },
+    {
+      "name": "Viaggi in Giappone",
+      "short_name": "Viaggi",
+      "description": "Guide e consigli per organizzare un viaggio in Giappone",
+      "url": "/viaggi/"
+    },
+    {
+      "name": "Libri consigliati",
+      "short_name": "Libri",
+      "description": "Libri di cucina e cultura giapponese consigliati",
+      "url": "/libri/"
+    },
+    {
+      "name": "Blog",
+      "short_name": "Blog",
+      "description": "Appunti, novità e riflessioni dal taccuino di cucina giapponese",
+      "url": "/blog/"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/img/pwa/screenshot-wide.jpg",
+      "sizes": "1280x720",
+      "type": "image/jpeg",
+      "form_factor": "wide",
+      "label": "Pagine Giappe — ricette di cucina giapponese casalinga"
+    },
+    {
+      "src": "/img/pwa/screenshot-narrow.jpg",
+      "sizes": "720x1280",
+      "type": "image/jpeg",
+      "form_factor": "narrow",
+      "label": "Pagine Giappe — ricette di cucina giapponese casalinga"
+    }
+  ]
+}

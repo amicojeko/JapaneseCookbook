@@ -2106,3 +2106,23 @@ article > .theme-doc-markdown.markdown > p:first-of-type::first-letter,
     display: none !important;
   }
 }
+
+/* ==========================================================================
+   PWA — installed-app (standalone) declutter
+   When the site runs as an installed PWA, strip the non-recipe chrome so the
+   app feels focused on the recipes (the home keeps its recipe grids and turns
+   into a clean recipe launcher). The normal website in a browser tab is
+   unaffected — these rules only apply under display-mode: standalone.
+   ========================================================================== */
+@media (display-mode: standalone) {
+  /* GitHub link in the navbar (className set in docusaurus.config.ts) */
+  .navbar-github-link {
+    display: none !important;
+  }
+
+  /* Home "Offrimi un caffè" support CTA and the social links row */
+  .paypal-container,
+  .social-container {
+    display: none !important;
+  }
+}

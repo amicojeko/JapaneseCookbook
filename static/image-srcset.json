@@ -58,7 +58,7 @@
   "blog/5yen/5yen.jpg": {
     "hash": "3fb4ff4e6a9b154a626bf184a6d4fbea",
     "original": "/img/blog/5yen/5yen.jpg",
-    "srcset": "/img/blog/5yen/5yen-320w.webp 320w, /img/blog/5yen/5yen-640w.webp 640w, /img/blog/5yen/5yen-1280w.webp 1280w, /img/blog/5yen/5yen-1600w.webp 1600w",
+    "srcset": "/img/blog/5yen/5yen-320w.webp 320w, /img/blog/5yen/5yen-640w.webp 640w, /img/blog/5yen/5yen-1280w.webp 1280w",
     "width": 1672,
     "height": 941
   },
@@ -100,14 +100,14 @@
   "blog/aki_nakagoe.jpg": {
     "hash": "24f27252fafcf3db1c50e442149db314",
     "original": "/img/blog/aki_nakagoe.jpg",
-    "srcset": "/img/blog/aki_nakagoe-320w.webp 320w, /img/blog/aki_nakagoe-640w.webp 640w, /img/blog/aki_nakagoe-1280w.webp 1280w, /img/blog/aki_nakagoe-1600w.webp 1600w",
+    "srcset": "/img/blog/aki_nakagoe-320w.webp 320w, /img/blog/aki_nakagoe-640w.webp 640w, /img/blog/aki_nakagoe-1280w.webp 1280w",
     "width": 1638,
     "height": 1464
   },
   "blog/bandiere/bandiere.jpg": {
     "hash": "ab1363d5708f7553cc9de2ccc5c864e9",
     "original": "/img/blog/bandiere/bandiere.jpg",
-    "srcset": "/img/blog/bandiere/bandiere-320w.webp 320w, /img/blog/bandiere/bandiere-640w.webp 640w, /img/blog/bandiere/bandiere-1280w.webp 1280w, /img/blog/bandiere/bandiere-1600w.webp 1600w",
+    "srcset": "/img/blog/bandiere/bandiere-320w.webp 320w, /img/blog/bandiere/bandiere-640w.webp 640w, /img/blog/bandiere/bandiere-1280w.webp 1280w",
     "width": 1672,
     "height": 941
   },
@@ -205,7 +205,7 @@
   "blog/hyorogan/hyorogan_balls.jpg": {
     "hash": "03a03d50e1b361023812d5f5a8a206db",
     "original": "/img/blog/hyorogan/hyorogan_balls.jpg",
-    "srcset": "/img/blog/hyorogan/hyorogan_balls-320w.webp 320w, /img/blog/hyorogan/hyorogan_balls-640w.webp 640w, /img/blog/hyorogan/hyorogan_balls-1280w.webp 1280w, /img/blog/hyorogan/hyorogan_balls-1600w.webp 1600w",
+    "srcset": "/img/blog/hyorogan/hyorogan_balls-320w.webp 320w, /img/blog/hyorogan/hyorogan_balls-640w.webp 640w, /img/blog/hyorogan/hyorogan_balls-1280w.webp 1280w",
     "width": 1672,
     "height": 941
   },
@@ -254,7 +254,7 @@
   "blog/kirin/kirin.jpg": {
     "hash": "aeea7b612aefb81f5605bf3c77adf5ab",
     "original": "/img/blog/kirin/kirin.jpg",
-    "srcset": "/img/blog/kirin/kirin-320w.webp 320w, /img/blog/kirin/kirin-640w.webp 640w, /img/blog/kirin/kirin-1280w.webp 1280w, /img/blog/kirin/kirin-1600w.webp 1600w",
+    "srcset": "/img/blog/kirin/kirin-320w.webp 320w, /img/blog/kirin/kirin-640w.webp 640w, /img/blog/kirin/kirin-1280w.webp 1280w",
     "width": 1672,
     "height": 941
   },
@@ -268,7 +268,7 @@
   "blog/mirin-sake/mirin-da-bere.jpg": {
     "hash": "5b2a99c78a419da4a5d6d575d198260d",
     "original": "/img/blog/mirin-sake/mirin-da-bere.jpg",
-    "srcset": "/img/blog/mirin-sake/mirin-da-bere-320w.webp 320w, /img/blog/mirin-sake/mirin-da-bere-640w.webp 640w, /img/blog/mirin-sake/mirin-da-bere-1280w.webp 1280w, /img/blog/mirin-sake/mirin-da-bere-1600w.webp 1600w",
+    "srcset": "/img/blog/mirin-sake/mirin-da-bere-320w.webp 320w, /img/blog/mirin-sake/mirin-da-bere-640w.webp 640w, /img/blog/mirin-sake/mirin-da-bere-1280w.webp 1280w",
     "width": 1672,
     "height": 941
   },
@@ -345,14 +345,14 @@
   "blog/shokunin_kishitsu/parte1.jpg": {
     "hash": "68deb18a7b04748ce3df62b3678233c6",
     "original": "/img/blog/shokunin_kishitsu/parte1.jpg",
-    "srcset": "/img/blog/shokunin_kishitsu/parte1-320w.webp 320w, /img/blog/shokunin_kishitsu/parte1-640w.webp 640w, /img/blog/shokunin_kishitsu/parte1-1280w.webp 1280w, /img/blog/shokunin_kishitsu/parte1-1600w.webp 1600w",
+    "srcset": "/img/blog/shokunin_kishitsu/parte1-320w.webp 320w, /img/blog/shokunin_kishitsu/parte1-640w.webp 640w, /img/blog/shokunin_kishitsu/parte1-1280w.webp 1280w",
     "width": 1600,
     "height": 900
   },
   "blog/shokunin_kishitsu/parte2.jpg": {
     "hash": "a448517f216640754e9e92b2f2c687e0",
     "original": "/img/blog/shokunin_kishitsu/parte2.jpg",
-    "srcset": "/img/blog/shokunin_kishitsu/parte2-320w.webp 320w, /img/blog/shokunin_kishitsu/parte2-640w.webp 640w, /img/blog/shokunin_kishitsu/parte2-1280w.webp 1280w, /img/blog/shokunin_kishitsu/parte2-1600w.webp 1600w",
+    "srcset": "/img/blog/shokunin_kishitsu/parte2-320w.webp 320w, /img/blog/shokunin_kishitsu/parte2-640w.webp 640w, /img/blog/shokunin_kishitsu/parte2-1280w.webp 1280w",
     "width": 1600,
     "height": 900
   },
@@ -373,7 +373,7 @@
   "blog/shoyu/shoyu.jpg": {
     "hash": "5f7cc544b5ee03c9dd8b8c07547b4178",
     "original": "/img/blog/shoyu/shoyu.jpg",
-    "srcset": "/img/blog/shoyu/shoyu-320w.webp 320w, /img/blog/shoyu/shoyu-640w.webp 640w, /img/blog/shoyu/shoyu-1280w.webp 1280w, /img/blog/shoyu/shoyu-1600w.webp 1600w",
+    "srcset": "/img/blog/shoyu/shoyu-320w.webp 320w, /img/blog/shoyu/shoyu-640w.webp 640w, /img/blog/shoyu/shoyu-1280w.webp 1280w",
     "width": 2752,
     "height": 1536
   },
@@ -520,7 +520,7 @@
   "blog/toolsreborn/coltelli-giapponesi-tradizionali-pietre-naturali.jpg": {
     "hash": "41026c9aa69b5ae648ce32caabd900ce",
     "original": "/img/blog/toolsreborn/coltelli-giapponesi-tradizionali-pietre-naturali.jpg",
-    "srcset": "/img/blog/toolsreborn/coltelli-giapponesi-tradizionali-pietre-naturali-320w.webp 320w, /img/blog/toolsreborn/coltelli-giapponesi-tradizionali-pietre-naturali-640w.webp 640w, /img/blog/toolsreborn/coltelli-giapponesi-tradizionali-pietre-naturali-1280w.webp 1280w, /img/blog/toolsreborn/coltelli-giapponesi-tradizionali-pietre-naturali-1600w.webp 1600w",
+    "srcset": "/img/blog/toolsreborn/coltelli-giapponesi-tradizionali-pietre-naturali-320w.webp 320w, /img/blog/toolsreborn/coltelli-giapponesi-tradizionali-pietre-naturali-640w.webp 640w, /img/blog/toolsreborn/coltelli-giapponesi-tradizionali-pietre-naturali-1280w.webp 1280w",
     "width": 1600,
     "height": 900
   },
@@ -562,28 +562,28 @@
   "blog/yoshoku/curry.jpg": {
     "hash": "adcae141d9eee4eff17c6a6d15021919",
     "original": "/img/blog/yoshoku/curry.jpg",
-    "srcset": "/img/blog/yoshoku/curry-320w.webp 320w, /img/blog/yoshoku/curry-640w.webp 640w, /img/blog/yoshoku/curry-1280w.webp 1280w, /img/blog/yoshoku/curry-1600w.webp 1600w",
+    "srcset": "/img/blog/yoshoku/curry-320w.webp 320w, /img/blog/yoshoku/curry-640w.webp 640w, /img/blog/yoshoku/curry-1280w.webp 1280w",
     "width": 1672,
     "height": 941
   },
   "blog/yoshoku/katsu_sando.jpg": {
     "hash": "754bcf3ba8d351322d6339eb588dc9a4",
     "original": "/img/blog/yoshoku/katsu_sando.jpg",
-    "srcset": "/img/blog/yoshoku/katsu_sando-320w.webp 320w, /img/blog/yoshoku/katsu_sando-640w.webp 640w, /img/blog/yoshoku/katsu_sando-1280w.webp 1280w, /img/blog/yoshoku/katsu_sando-1600w.webp 1600w",
+    "srcset": "/img/blog/yoshoku/katsu_sando-320w.webp 320w, /img/blog/yoshoku/katsu_sando-640w.webp 640w, /img/blog/yoshoku/katsu_sando-1280w.webp 1280w",
     "width": 1672,
     "height": 941
   },
   "blog/yoshoku/omurice.jpg": {
     "hash": "a3fb35835f1a47ce66bc5635ffa9ec8e",
     "original": "/img/blog/yoshoku/omurice.jpg",
-    "srcset": "/img/blog/yoshoku/omurice-320w.webp 320w, /img/blog/yoshoku/omurice-640w.webp 640w, /img/blog/yoshoku/omurice-1280w.webp 1280w, /img/blog/yoshoku/omurice-1600w.webp 1600w",
+    "srcset": "/img/blog/yoshoku/omurice-320w.webp 320w, /img/blog/yoshoku/omurice-640w.webp 640w, /img/blog/yoshoku/omurice-1280w.webp 1280w",
     "width": 1672,
     "height": 941
   },
   "blog/yoshoku/wafu_pasta.jpg": {
     "hash": "9cf144a6fbb7dbe388bb2b400f36efdb",
     "original": "/img/blog/yoshoku/wafu_pasta.jpg",
-    "srcset": "/img/blog/yoshoku/wafu_pasta-320w.webp 320w, /img/blog/yoshoku/wafu_pasta-640w.webp 640w, /img/blog/yoshoku/wafu_pasta-1280w.webp 1280w, /img/blog/yoshoku/wafu_pasta-1600w.webp 1600w",
+    "srcset": "/img/blog/yoshoku/wafu_pasta-320w.webp 320w, /img/blog/yoshoku/wafu_pasta-640w.webp 640w, /img/blog/yoshoku/wafu_pasta-1280w.webp 1280w",
     "width": 1672,
     "height": 941
   },
@@ -751,7 +751,7 @@
   "ingredienti/la-yu.jpg": {
     "hash": "a9a5640aba57be569be4fc2bd5007ca3",
     "original": "/img/ingredienti/la-yu.jpg",
-    "srcset": "/img/ingredienti/la-yu-320w.webp 320w, /img/ingredienti/la-yu-640w.webp 640w, /img/ingredienti/la-yu-1280w.webp 1280w, /img/ingredienti/la-yu-1600w.webp 1600w",
+    "srcset": "/img/ingredienti/la-yu-320w.webp 320w, /img/ingredienti/la-yu-640w.webp 640w, /img/ingredienti/la-yu-1280w.webp 1280w",
     "width": 2752,
     "height": 1536
   },
@@ -786,7 +786,7 @@
   "ingredienti/miso-3.jpg": {
     "hash": "fe4e0251b838e0d37711f553717f3cd9",
     "original": "/img/ingredienti/miso-3.jpg",
-    "srcset": "/img/ingredienti/miso-3-320w.webp 320w, /img/ingredienti/miso-3-640w.webp 640w, /img/ingredienti/miso-3-1280w.webp 1280w, /img/ingredienti/miso-3-1600w.webp 1600w",
+    "srcset": "/img/ingredienti/miso-3-320w.webp 320w, /img/ingredienti/miso-3-640w.webp 640w, /img/ingredienti/miso-3-1280w.webp 1280w",
     "width": 1920,
     "height": 1080
   },
@@ -856,7 +856,7 @@
   "ingredienti/sakura_ebi.jpg": {
     "hash": "c482d01a496b6034c0533961daac24c9",
     "original": "/img/ingredienti/sakura_ebi.jpg",
-    "srcset": "/img/ingredienti/sakura_ebi-320w.webp 320w, /img/ingredienti/sakura_ebi-640w.webp 640w, /img/ingredienti/sakura_ebi-1280w.webp 1280w, /img/ingredienti/sakura_ebi-1600w.webp 1600w",
+    "srcset": "/img/ingredienti/sakura_ebi-320w.webp 320w, /img/ingredienti/sakura_ebi-640w.webp 640w, /img/ingredienti/sakura_ebi-1280w.webp 1280w",
     "width": 1672,
     "height": 941
   },
@@ -912,7 +912,7 @@
   "ingredienti/takenoko.jpg": {
     "hash": "5caad6f1a6bb7994283b75d6fcf81832",
     "original": "/img/ingredienti/takenoko.jpg",
-    "srcset": "/img/ingredienti/takenoko-320w.webp 320w, /img/ingredienti/takenoko-640w.webp 640w, /img/ingredienti/takenoko-1280w.webp 1280w, /img/ingredienti/takenoko-1600w.webp 1600w",
+    "srcset": "/img/ingredienti/takenoko-320w.webp 320w, /img/ingredienti/takenoko-640w.webp 640w, /img/ingredienti/takenoko-1280w.webp 1280w",
     "width": 1672,
     "height": 941
   },
@@ -947,7 +947,7 @@
   "ingredienti/yuzu-1.jpg": {
     "hash": "9ccec3cd25631bad1e16cb219e195536",
     "original": "/img/ingredienti/yuzu-1.jpg",
-    "srcset": "/img/ingredienti/yuzu-1-320w.webp 320w, /img/ingredienti/yuzu-1-640w.webp 640w, /img/ingredienti/yuzu-1-1280w.webp 1280w, /img/ingredienti/yuzu-1-1600w.webp 1600w",
+    "srcset": "/img/ingredienti/yuzu-1-320w.webp 320w, /img/ingredienti/yuzu-1-640w.webp 640w, /img/ingredienti/yuzu-1-1280w.webp 1280w",
     "width": 1870,
     "height": 1106
   },
@@ -979,10 +979,52 @@
     "width": 350,
     "height": 350
   },
+  "pwa/apple-touch-icon.png": {
+    "hash": "bcea5a8b91e43f6ba3a62d5b4d4d94ff",
+    "original": "/img/pwa/apple-touch-icon.png",
+    "srcset": "",
+    "width": 180,
+    "height": 180
+  },
+  "pwa/icon-192.png": {
+    "hash": "77ea605c43c9429fc5a2ce26afaa6b35",
+    "original": "/img/pwa/icon-192.png",
+    "srcset": "",
+    "width": 192,
+    "height": 192
+  },
+  "pwa/icon-512.png": {
+    "hash": "4bf3027a58601b7e3782d8bd114a6ceb",
+    "original": "/img/pwa/icon-512.png",
+    "srcset": "/img/pwa/icon-512-320w.webp 320w",
+    "width": 512,
+    "height": 512
+  },
+  "pwa/icon-maskable-512.png": {
+    "hash": "f892abc114519d1fa813208ed39b272a",
+    "original": "/img/pwa/icon-maskable-512.png",
+    "srcset": "/img/pwa/icon-maskable-512-320w.webp 320w",
+    "width": 512,
+    "height": 512
+  },
+  "pwa/screenshot-narrow.jpg": {
+    "hash": "cb4592a34fb10629ec56fb79963a4bbe",
+    "original": "/img/pwa/screenshot-narrow.jpg",
+    "srcset": "/img/pwa/screenshot-narrow-320w.webp 320w, /img/pwa/screenshot-narrow-640w.webp 640w",
+    "width": 720,
+    "height": 1280
+  },
+  "pwa/screenshot-wide.jpg": {
+    "hash": "731561dfb607efe73099e7a0be1e5ad1",
+    "original": "/img/pwa/screenshot-wide.jpg",
+    "srcset": "/img/pwa/screenshot-wide-320w.webp 320w, /img/pwa/screenshot-wide-640w.webp 640w, /img/pwa/screenshot-wide-1280w.webp 1280w",
+    "width": 1280,
+    "height": 720
+  },
   "ricette/bieta-ohitashi.jpg": {
     "hash": "a339fe6e20dc082844b9c1aa96b20bd4",
     "original": "/img/ricette/bieta-ohitashi.jpg",
-    "srcset": "/img/ricette/bieta-ohitashi-320w.webp 320w, /img/ricette/bieta-ohitashi-640w.webp 640w, /img/ricette/bieta-ohitashi-1280w.webp 1280w, /img/ricette/bieta-ohitashi-1600w.webp 1600w",
+    "srcset": "/img/ricette/bieta-ohitashi-320w.webp 320w, /img/ricette/bieta-ohitashi-640w.webp 640w, /img/ricette/bieta-ohitashi-1280w.webp 1280w",
     "width": 1781,
     "height": 1335
   },
@@ -1010,7 +1052,7 @@
   "ricette/chuka_tataki_kyuri.jpg": {
     "hash": "dea7e2875bc6c1a1bc033a4cdb74cad6",
     "original": "/img/ricette/chuka_tataki_kyuri.jpg",
-    "srcset": "/img/ricette/chuka_tataki_kyuri-320w.webp 320w, /img/ricette/chuka_tataki_kyuri-640w.webp 640w, /img/ricette/chuka_tataki_kyuri-1280w.webp 1280w, /img/ricette/chuka_tataki_kyuri-1600w.webp 1600w",
+    "srcset": "/img/ricette/chuka_tataki_kyuri-320w.webp 320w, /img/ricette/chuka_tataki_kyuri-640w.webp 640w, /img/ricette/chuka_tataki_kyuri-1280w.webp 1280w",
     "width": 1672,
     "height": 941
   },
@@ -1024,7 +1066,7 @@
   "ricette/daikon_kinpira.jpg": {
     "hash": "39fb071976c8b9f147782e7c8ea6bd14",
     "original": "/img/ricette/daikon_kinpira.jpg",
-    "srcset": "/img/ricette/daikon_kinpira-320w.webp 320w, /img/ricette/daikon_kinpira-640w.webp 640w, /img/ricette/daikon_kinpira-1280w.webp 1280w, /img/ricette/daikon_kinpira-1600w.webp 1600w",
+    "srcset": "/img/ricette/daikon_kinpira-320w.webp 320w, /img/ricette/daikon_kinpira-640w.webp 640w, /img/ricette/daikon_kinpira-1280w.webp 1280w",
     "width": 1672,
     "height": 941
   },
@@ -1150,14 +1192,14 @@
   "ricette/kinako.jpg": {
     "hash": "20597a19b7ca56a63523127bb7c545f5",
     "original": "/img/ricette/kinako.jpg",
-    "srcset": "/img/ricette/kinako-320w.webp 320w, /img/ricette/kinako-640w.webp 640w, /img/ricette/kinako-1280w.webp 1280w, /img/ricette/kinako-1600w.webp 1600w",
+    "srcset": "/img/ricette/kinako-320w.webp 320w, /img/ricette/kinako-640w.webp 640w, /img/ricette/kinako-1280w.webp 1280w",
     "width": 1672,
     "height": 941
   },
   "ricette/kyuri_no_tsukemono.jpg": {
     "hash": "51388db405015a1ac5e6af470ab23996",
     "original": "/img/ricette/kyuri_no_tsukemono.jpg",
-    "srcset": "/img/ricette/kyuri_no_tsukemono-320w.webp 320w, /img/ricette/kyuri_no_tsukemono-640w.webp 640w, /img/ricette/kyuri_no_tsukemono-1280w.webp 1280w, /img/ricette/kyuri_no_tsukemono-1600w.webp 1600w",
+    "srcset": "/img/ricette/kyuri_no_tsukemono-320w.webp 320w, /img/ricette/kyuri_no_tsukemono-640w.webp 640w, /img/ricette/kyuri_no_tsukemono-1280w.webp 1280w",
     "width": 1672,
     "height": 941
   },
@@ -1248,14 +1290,14 @@
   "ricette/onigiri_kimchi_asiago.jpg": {
     "hash": "fc7eb5c817506bd2a4cb02db7961cb5b",
     "original": "/img/ricette/onigiri_kimchi_asiago.jpg",
-    "srcset": "/img/ricette/onigiri_kimchi_asiago-320w.webp 320w, /img/ricette/onigiri_kimchi_asiago-640w.webp 640w, /img/ricette/onigiri_kimchi_asiago-1280w.webp 1280w, /img/ricette/onigiri_kimchi_asiago-1600w.webp 1600w",
+    "srcset": "/img/ricette/onigiri_kimchi_asiago-320w.webp 320w, /img/ricette/onigiri_kimchi_asiago-640w.webp 640w, /img/ricette/onigiri_kimchi_asiago-1280w.webp 1280w",
     "width": 1917,
     "height": 1431
   },
   "ricette/onigiri_sakura_ebi.jpg": {
     "hash": "b3fc5a68294ed5d6c29adf6c5393f5a8",
     "original": "/img/ricette/onigiri_sakura_ebi.jpg",
-    "srcset": "/img/ricette/onigiri_sakura_ebi-320w.webp 320w, /img/ricette/onigiri_sakura_ebi-640w.webp 640w, /img/ricette/onigiri_sakura_ebi-1280w.webp 1280w, /img/ricette/onigiri_sakura_ebi-1600w.webp 1600w",
+    "srcset": "/img/ricette/onigiri_sakura_ebi-320w.webp 320w, /img/ricette/onigiri_sakura_ebi-640w.webp 640w, /img/ricette/onigiri_sakura_ebi-1280w.webp 1280w",
     "width": 1672,
     "height": 941
   },
@@ -1311,14 +1353,14 @@
   "ricette/somen_freddi_tonno_pomodoro.jpg": {
     "hash": "535b7ed67b57ea521e96e16f6ec2743b",
     "original": "/img/ricette/somen_freddi_tonno_pomodoro.jpg",
-    "srcset": "/img/ricette/somen_freddi_tonno_pomodoro-320w.webp 320w, /img/ricette/somen_freddi_tonno_pomodoro-640w.webp 640w, /img/ricette/somen_freddi_tonno_pomodoro-1280w.webp 1280w, /img/ricette/somen_freddi_tonno_pomodoro-1600w.webp 1600w",
+    "srcset": "/img/ricette/somen_freddi_tonno_pomodoro-320w.webp 320w, /img/ricette/somen_freddi_tonno_pomodoro-640w.webp 640w, /img/ricette/somen_freddi_tonno_pomodoro-1280w.webp 1280w",
     "width": 1672,
     "height": 941
   },
   "ricette/somen_tororo_lime.jpg": {
     "hash": "fc617e56b26781d9516fefc5f95a7998",
     "original": "/img/ricette/somen_tororo_lime.jpg",
-    "srcset": "/img/ricette/somen_tororo_lime-320w.webp 320w, /img/ricette/somen_tororo_lime-640w.webp 640w, /img/ricette/somen_tororo_lime-1280w.webp 1280w, /img/ricette/somen_tororo_lime-1600w.webp 1600w",
+    "srcset": "/img/ricette/somen_tororo_lime-320w.webp 320w, /img/ricette/somen_tororo_lime-640w.webp 640w, /img/ricette/somen_tororo_lime-1280w.webp 1280w",
     "width": 1672,
     "height": 941
   },
@@ -1339,7 +1381,7 @@
   "ricette/takenoko_niku_miso.jpg": {
     "hash": "92b1c8a288460ddaaee5722187b25a17",
     "original": "/img/ricette/takenoko_niku_miso.jpg",
-    "srcset": "/img/ricette/takenoko_niku_miso-320w.webp 320w, /img/ricette/takenoko_niku_miso-640w.webp 640w, /img/ricette/takenoko_niku_miso-1280w.webp 1280w, /img/ricette/takenoko_niku_miso-1600w.webp 1600w",
+    "srcset": "/img/ricette/takenoko_niku_miso-320w.webp 320w, /img/ricette/takenoko_niku_miso-640w.webp 640w, /img/ricette/takenoko_niku_miso-1280w.webp 1280w",
     "width": 1672,
     "height": 941
   },
@@ -1374,7 +1416,7 @@
   "ricette/tofu_natto_kimchi_ponzu.jpg": {
     "hash": "96035c3c7af801b3b2e7df79f74f7a31",
     "original": "/img/ricette/tofu_natto_kimchi_ponzu.jpg",
-    "srcset": "/img/ricette/tofu_natto_kimchi_ponzu-320w.webp 320w, /img/ricette/tofu_natto_kimchi_ponzu-640w.webp 640w, /img/ricette/tofu_natto_kimchi_ponzu-1280w.webp 1280w, /img/ricette/tofu_natto_kimchi_ponzu-1600w.webp 1600w",
+    "srcset": "/img/ricette/tofu_natto_kimchi_ponzu-320w.webp 320w, /img/ricette/tofu_natto_kimchi_ponzu-640w.webp 640w, /img/ricette/tofu_natto_kimchi_ponzu-1280w.webp 1280w",
     "width": 1672,
     "height": 941
   },
@@ -1437,7 +1479,7 @@
   "ricette/wakatake.jpg": {
     "hash": "aff59e52e9b528b214aed5c4b2f11381",
     "original": "/img/ricette/wakatake.jpg",
-    "srcset": "/img/ricette/wakatake-320w.webp 320w, /img/ricette/wakatake-640w.webp 640w, /img/ricette/wakatake-1280w.webp 1280w, /img/ricette/wakatake-1600w.webp 1600w",
+    "srcset": "/img/ricette/wakatake-320w.webp 320w, /img/ricette/wakatake-640w.webp 640w, /img/ricette/wakatake-1280w.webp 1280w",
     "width": 1672,
     "height": 941
   },
@@ -1458,7 +1500,7 @@
   "ricette/yakisoba.jpg": {
     "hash": "03ae72c307ccbaa83be0937952dbf357",
     "original": "/img/ricette/yakisoba.jpg",
-    "srcset": "/img/ricette/yakisoba-320w.webp 320w, /img/ricette/yakisoba-640w.webp 640w, /img/ricette/yakisoba-1280w.webp 1280w, /img/ricette/yakisoba-1600w.webp 1600w",
+    "srcset": "/img/ricette/yakisoba-320w.webp 320w, /img/ricette/yakisoba-640w.webp 640w, /img/ricette/yakisoba-1280w.webp 1280w",
     "width": 1632,
     "height": 1000
   },
@@ -1556,14 +1598,14 @@
   "video/campfire_cooking_in_another_world_with_my_absurd_skill.jpg": {
     "hash": "8bff97e6feee7f8dd4926769da187841",
     "original": "/img/video/campfire_cooking_in_another_world_with_my_absurd_skill.jpg",
-    "srcset": "/img/video/campfire_cooking_in_another_world_with_my_absurd_skill-320w.webp 320w, /img/video/campfire_cooking_in_another_world_with_my_absurd_skill-640w.webp 640w, /img/video/campfire_cooking_in_another_world_with_my_absurd_skill-1280w.webp 1280w, /img/video/campfire_cooking_in_another_world_with_my_absurd_skill-1600w.webp 1600w",
+    "srcset": "/img/video/campfire_cooking_in_another_world_with_my_absurd_skill-320w.webp 320w, /img/video/campfire_cooking_in_another_world_with_my_absurd_skill-640w.webp 640w, /img/video/campfire_cooking_in_another_world_with_my_absurd_skill-1280w.webp 1280w",
     "width": 1920,
     "height": 1080
   },
   "video/food_warws.jpg": {
     "hash": "50fb8374930e15081792a30b0547a16f",
     "original": "/img/video/food_warws.jpg",
-    "srcset": "/img/video/food_warws-320w.webp 320w, /img/video/food_warws-640w.webp 640w, /img/video/food_warws-1280w.webp 1280w, /img/video/food_warws-1600w.webp 1600w",
+    "srcset": "/img/video/food_warws-320w.webp 320w, /img/video/food_warws-640w.webp 640w, /img/video/food_warws-1280w.webp 1280w",
     "width": 2560,
     "height": 2048
   },
@@ -1577,7 +1619,7 @@
   "video/kantaro.jpg": {
     "hash": "d560098691d1ba34c93c1e1a116823b1",
     "original": "/img/video/kantaro.jpg",
-    "srcset": "/img/video/kantaro-320w.webp 320w, /img/video/kantaro-640w.webp 640w, /img/video/kantaro-1280w.webp 1280w, /img/video/kantaro-1600w.webp 1600w",
+    "srcset": "/img/video/kantaro-320w.webp 320w, /img/video/kantaro-640w.webp 640w, /img/video/kantaro-1280w.webp 1280w",
     "width": 2048,
     "height": 1152
   },
@@ -1591,14 +1633,14 @@
   "video/midnight_diner.webp": {
     "hash": "a50f16f1908e95e5d6cf2036731506ed",
     "original": "/img/video/midnight_diner.webp",
-    "srcset": "/img/video/midnight_diner-320w.webp 320w, /img/video/midnight_diner-640w.webp 640w, /img/video/midnight_diner-1280w.webp 1280w, /img/video/midnight_diner-1600w.webp 1600w",
+    "srcset": "/img/video/midnight_diner-320w.webp 320w, /img/video/midnight_diner-640w.webp 640w, /img/video/midnight_diner-1280w.webp 1280w",
     "width": 2560,
     "height": 1707
   },
   "video/oishinbo.jpg": {
     "hash": "cb5ce70e84952d8a5354a2533507bf82",
     "original": "/img/video/oishinbo.jpg",
-    "srcset": "/img/video/oishinbo-320w.webp 320w, /img/video/oishinbo-640w.webp 640w, /img/video/oishinbo-1280w.webp 1280w, /img/video/oishinbo-1600w.webp 1600w",
+    "srcset": "/img/video/oishinbo-320w.webp 320w, /img/video/oishinbo-640w.webp 640w, /img/video/oishinbo-1280w.webp 1280w",
     "width": 2048,
     "height": 1152
   },
@@ -1626,7 +1668,7 @@
   "video/samurai_gourmet2.jpg": {
     "hash": "4e58863b14db4ced4d2feaa3cb62d9e1",
     "original": "/img/video/samurai_gourmet2.jpg",
-    "srcset": "/img/video/samurai_gourmet2-320w.webp 320w, /img/video/samurai_gourmet2-640w.webp 640w, /img/video/samurai_gourmet2-1280w.webp 1280w, /img/video/samurai_gourmet2-1600w.webp 1600w",
+    "srcset": "/img/video/samurai_gourmet2-320w.webp 320w, /img/video/samurai_gourmet2-640w.webp 640w, /img/video/samurai_gourmet2-1280w.webp 1280w",
     "width": 1692,
     "height": 1142
   },
@@ -1647,7 +1689,7 @@
   "video/the_zen_diary.jpg": {
     "hash": "84cf21b28d2b05dc35e9eb0a85a0a22c",
     "original": "/img/video/the_zen_diary.jpg",
-    "srcset": "/img/video/the_zen_diary-320w.webp 320w, /img/video/the_zen_diary-640w.webp 640w, /img/video/the_zen_diary-1280w.webp 1280w, /img/video/the_zen_diary-1600w.webp 1600w",
+    "srcset": "/img/video/the_zen_diary-320w.webp 320w, /img/video/the_zen_diary-640w.webp 640w, /img/video/the_zen_diary-1280w.webp 1280w",
     "width": 2415,
     "height": 1750
   },
@@ -1682,7 +1724,7 @@
   "video/yakitate.jpg": {
     "hash": "8b3be9124354b54d152de98b659fd4f5",
     "original": "/img/video/yakitate.jpg",
-    "srcset": "/img/video/yakitate-320w.webp 320w, /img/video/yakitate-640w.webp 640w, /img/video/yakitate-1280w.webp 1280w, /img/video/yakitate-1600w.webp 1600w",
+    "srcset": "/img/video/yakitate-320w.webp 320w, /img/video/yakitate-640w.webp 640w, /img/video/yakitate-1280w.webp 1280w",
     "width": 2048,
     "height": 1152
   },
