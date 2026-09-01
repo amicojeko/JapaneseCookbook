@@ -45,6 +45,7 @@ Se il file non esiste, dì all'utente di copiarlo da `.paginegiappe-telegram-tok
 - Emoji con misura ma presenti (😂 😅 ❤️ 🥰). Doppi punti esclamativi ok.
 - Riferimenti a Instagram/TikTok/video quando pertinenti (battutine incluse).
 - Romanesco leggero ok se naturale (`daje`, `rega'`), mai forzato.
+- **Mai il trattino lungo (— em dash) né il trattino medio (– en dash) come punteggiatura.** Usa i due punti, la virgola o il punto. Scrive di getto un amico, non un editoriale.
 - **Niente firma finale.** URL di produzione da sola sull'ultima riga.
 - Varia gli incipit tra un annuncio e l'altro: non ripetere sempre lo stesso schema.
 
