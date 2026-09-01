@@ -16,6 +16,30 @@ export interface RecipeData {
 }
 
 export const RECIPE_DATA: Record<string, RecipeData> = {
+  "ricette/agemono/chicken_nanban": {
+    "docId": "ricette/agemono/chicken_nanban",
+    "title": "Chicken Nanban",
+    "description": "Chicken Nanban, il pollo fritto di Miyazaki immerso nel Nanban-zu e servito con salsa tartara",
+    "image": "/img/ricette/chicken_nanban.jpg",
+    "recipeCategory": "Fritti",
+    "recipeKeywords": [
+      "mirin",
+      "kewpie",
+      "pollo"
+    ],
+    "recipeYield": "2 persone",
+    "recipeIngredient": [
+      "250-300 g di petto di pollo",
+      "20-25 g di farina 00",
+      "1 uovo",
+      "sale",
+      "pepe",
+      "olio per friggere"
+    ],
+    "instructionsText": "Preparare innanzitutto il Nanban-zu. Mettere in un pentolino la salsa di soia Koikuchi, la Usukuchi, il mirin, l'aceto e lo zucchero. Portare brevemente a bollore, mescolando finché lo zucchero non sarà completamente sciolto. Togliere dal fuoco e aggiungere un poco di shichimi togarashi. Versare la salsa in un recipiente abbastanza largo da poterci immergere successivamente il pollo. Preparare quindi una delle due salse tartare e conservarla in frigorifero mentre si frigge il pollo. Eliminare l'eventuale pelle dal petto di pollo. Se il petto è particolarmente spesso, aprirlo oppure tagliarlo in modo da ottenere pezzi di spessore abbastanza uniforme. Non devono essere troppo sottili: il pollo deve rimanere succoso all'interno. Condire leggermente con sale e pepe. Passare il pollo nella farina, ricoprendolo completamente con uno strato sottile, ed eliminare bene quella in eccesso. Sbattere l'uovo in una ciotola. Immergere il pollo infarinato nell'uovo sbattuto, ricoprendolo molto bene. Scaldare l'olio a circa 170 °C. Immergere il pollo ricoperto di uovo e friggerlo fino a completa cottura e a una leggera doratura. La ricetta di Ogura indica indicativamente 5-7 minuti, ma il tempo dipende naturalmente dallo spessore della carne. Appena tolto il pollo dall'olio, immergerlo ancora caldo nel Nanban-zu. Nella ricetta di Ogura viene lasciato nella salsa per circa 30 secondi. Rigirarlo in modo che tutta la superficie assorba uniformemente la salsa, quindi scolarlo. Tagliare il pollo trasversalmente a fette, sistemarlo nel piatto e ricoprirlo generosamente con la salsa tartara scelta. Servire con cavolo cappuccio tagliato finemente, insalata e riso bianco.",
+    "videoIds": [],
+    "datePublished": null
+  },
   "ricette/agemono/enoki_tatsuta-age": {
     "docId": "ricette/agemono/enoki_tatsuta-age",
     "title": "Enoki Tatsuta-age",

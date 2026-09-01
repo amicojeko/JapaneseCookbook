@@ -1007,6 +1007,13 @@
     "width": 1080,
     "height": 1304
   },
+  "ricette/chicken_nanban.jpg": {
+    "hash": "f4a8a29329fa79cd6b8f8e867dad3314",
+    "original": "/img/ricette/chicken_nanban.jpg",
+    "srcset": "/img/ricette/chicken_nanban-320w.webp 320w, /img/ricette/chicken_nanban-640w.webp 640w, /img/ricette/chicken_nanban-1280w.webp 1280w, /img/ricette/chicken_nanban-1600w.webp 1600w",
+    "width": 1672,
+    "height": 941
+  },
   "ricette/chuka_tataki_kyuri.jpg": {
     "hash": "dea7e2875bc6c1a1bc033a4cdb74cad6",
     "original": "/img/ricette/chuka_tataki_kyuri.jpg",

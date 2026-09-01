@@ -1,4 +1,232 @@
 export const INGREDIENT_RECIPE_INDEX = {
+  "mirin": [
+    {
+      "id": "ricette/agemono/chicken_nanban",
+      "title": "Chicken Nanban",
+      "description": "Chicken Nanban, il pollo fritto di Miyazaki immerso nel Nanban-zu e servito con salsa tartara",
+      "permalink": "/ricette/chicken-nanban"
+    },
+    {
+      "id": "ricette/agemono/kara-age",
+      "title": "Kara-Age",
+      "description": "Il pollo fritto piu' buono del mondo",
+      "permalink": "/ricette/kara-age"
+    },
+    {
+      "id": "ricette/antipasti/chawanmushi",
+      "title": "Chawanmushi",
+      "description": "Budino di uova cotto al vapore",
+      "permalink": "/ricette/chawanmushi"
+    },
+    {
+      "id": "ricette/menrui/hiyashi_tori_dashi_somen",
+      "title": "Hiyashi Tori Dashi Somen",
+      "description": "Un piatto di noodles freddi rinfrescante e saporito, con un tocco di aceto che lo rende perfetto per l'estate.",
+      "permalink": "/ricette/hiyashi_tori_dashi_somen"
+    },
+    {
+      "id": "ricette/menrui/yaki_udon",
+      "title": "Yaki Udon",
+      "description": "Un piatto giapponese completo, economico e velocissimo da preparare, nato per caso nel dopoguerra.",
+      "permalink": "/ricette/yaki-udon"
+    },
+    {
+      "id": "ricette/nimono/kabocha_no_nimono",
+      "title": "Kabocha no Nimono",
+      "description": "La zucca giapponese stufata, un classico contorno autunnale vegano",
+      "permalink": "/ricette/kabocha-no-nimono"
+    },
+    {
+      "id": "ricette/nimono/kakuni",
+      "title": "Buta Kaku-ni",
+      "description": "Pancia di maiale cotta lentamente in salsa di soia",
+      "permalink": "/ricette/buta_kakuni"
+    },
+    {
+      "id": "ricette/nimono/nikujaga",
+      "title": "Nikujaga",
+      "description": "Carne e patate, il comfort food per eccellenza della cucina casalinga giapponese",
+      "permalink": "/ricette/nikujaga"
+    },
+    {
+      "id": "ricette/preparazioni_di_base/brodi/mentsuyu",
+      "title": "Mentsuyu",
+      "description": "Il brodo per immergere soba e udon",
+      "permalink": "/ricette/mentsuyu"
+    },
+    {
+      "id": "ricette/preparazioni_di_base/salse/nikiri",
+      "title": "Nikiri Sauce",
+      "description": "Salsa densa da spennellare sui nigiri",
+      "permalink": "/ricette/salsa_nikiri"
+    },
+    {
+      "id": "ricette/preparazioni_di_base/salse/ponzu",
+      "title": "Salsa Ponzu",
+      "description": "Salsa fresca ed agrumata",
+      "permalink": "/ricette/salsa_ponzu"
+    },
+    {
+      "id": "ricette/preparazioni_di_base/salse/tentsuyu",
+      "title": "Salsa Tentsuyu: ricetta per tempura",
+      "description": "Ricetta della salsa tentsuyu, il condimento giapponese per il tempura a base di dashi, mirin e salsa di soia. Ingredienti, dosi e preparazione.",
+      "permalink": "/ricette/tentsuyu"
+    },
+    {
+      "id": "ricette/preparazioni_di_base/salse/teriyaki",
+      "title": "Salsa Teriyaki",
+      "description": "La salsa barbecue giapponese",
+      "permalink": "/ricette/salsa_teriyaki"
+    },
+    {
+      "id": "ricette/preparazioni_di_base/salse/yakitori",
+      "title": "Yakitori Tare",
+      "description": "Salsa per yakitori",
+      "permalink": "/ricette/salsa_yakitori"
+    },
+    {
+      "id": "ricette/riso/gyudon",
+      "title": "Gyudon",
+      "description": "La ciotola di riso con carne di manzo e cipolla",
+      "permalink": "/ricette/gyudon"
+    },
+    {
+      "id": "ricette/riso/oyakodon",
+      "title": "Oyakodon",
+      "description": "L'Oyakodon e' la carbonara giapponese",
+      "permalink": "/ricette/oyakodon"
+    },
+    {
+      "id": "ricette/riso/soborodon",
+      "title": "Soboro Don",
+      "description": "La colorata e sfiziosa ciotola di riso giapponese a base di pollo e uova strapazzate, perfetta per un pasto ricco di proteine",
+      "permalink": "/ricette/soboro-don"
+    },
+    {
+      "id": "ricette/riso/takenoko_gohan",
+      "title": "Takenoko Gohan",
+      "description": "Un classico primaverile: riso condito (Takikomi Gohan) cotto con germogli di bambù, aburaage e brodo dashi.",
+      "permalink": "/ricette/takenoko_gohan"
+    },
+    {
+      "id": "ricette/riso/takenoko_to_aburaage_takikomi_gohan",
+      "title": "Takenoko to Aburaage no Takikomi Gohan",
+      "description": "Un classico piatto casalingo giapponese, il Takikomi Gohan è un riso magico cotto comodamente nel cuociriso insieme ai suoi condimenti.",
+      "permalink": "/ricette/takenoko_to_aburaage_no_takikomi_gohan"
+    },
+    {
+      "id": "ricette/riso/takikomi_gohan",
+      "title": "Takikomi Gohan",
+      "description": "Takikomi Gohan (Riso misto) 炊き込みご飯 - Riso svuotafrigo cotto direttamente nella risiera",
+      "permalink": "/ricette/takikomi_gohan"
+    },
+    {
+      "id": "ricette/sides/horenso_no_ohitashi",
+      "title": "Hōrensō no ohitashi",
+      "description": "Un contorno fondamentale della cucina giapponese: spinaci sbollentati e marinati in un brodo dashi delicato.",
+      "permalink": "/ricette/horenso_no_ohitashi"
+    },
+    {
+      "id": "ricette/sides/kinpira_di_daikon_e_carote",
+      "title": "Kinpira di Daikon e Carote",
+      "description": "Il Kinpira è una ricetta tradizionale giapponese velocissima e vegana, perfetta per recuperare le bucce di daikon e carote saltandole in padella.",
+      "permalink": "/ricette/kinpira-di-daikon-e-carote"
+    },
+    {
+      "id": "ricette/sides/nametake",
+      "title": "Nametake",
+      "description": "Una ricetta giapponese \"casalinga\" facilissima ed economica. Funghi Enoki cotti in salsa di soia e mirin, perfetti sul riso.",
+      "permalink": "/ricette/nametake"
+    },
+    {
+      "id": "ricette/sides/nasu_no_yaki-bitashi",
+      "title": "Nasu no Yaki-bitashi",
+      "description": "Nasu no Yaki-bitashi, ovvero melanzane grigliate in brodo - Un'alternativa più leggera e salutare alle classiche melanzane fritte (Agebitashi), che richiede solo due cucchiai d'olio per un risultato tenero, succoso e pieno di sapore.",
+      "permalink": "/ricette/nasu_no_yaki-bitashi"
+    },
+    {
+      "id": "ricette/sides/potetosarada",
+      "title": "Potetosarada",
+      "description": "Insalata di patate",
+      "permalink": "/ricette/potetosarada"
+    },
+    {
+      "id": "ricette/sides/unagi-di-melanzane",
+      "title": "Unagi di melanzane",
+      "description": "La Melanzana che voleva essere un'Anguilla! Una ricetta vegana così buona che la sceglierebbe anche un onnivoro.",
+      "permalink": "/ricette/unagi_di_melanzane"
+    },
+    {
+      "id": "ricette/tsukemono/ninniku-no-misozuke",
+      "title": "Ninniku no Misozuke",
+      "description": "Aglio conservato sotto miso",
+      "permalink": "/ricette/ninniku_no_misozuke"
+    },
+    {
+      "id": "ricette/yakimono/nasu_niku_miso",
+      "title": "Nasu no Niku Miso",
+      "description": "Una ricetta velocissima che unisce la cucina giapponese a quella italiana: carne trita, melanzane e miso per un condimento perfetto per il riso bianco.",
+      "permalink": "/ricette/nasu-no-niku-miso"
+    },
+    {
+      "id": "ricette/yakimono/shogayaki",
+      "title": "Shogayaki",
+      "description": "Scaloppine di maiale allo zenzero",
+      "permalink": "/ricette/shogayaki"
+    },
+    {
+      "id": "ricette/zuppe/tofu_and_eggs",
+      "title": "Tofu in \"stracciatella\" con verdure",
+      "description": "Una ricetta buona, economica, sana, proteica e facile da fare.",
+      "permalink": "/ricette/zuppa_di_tofu_e_uova"
+    }
+  ],
+  "kewpie": [
+    {
+      "id": "ricette/agemono/chicken_nanban",
+      "title": "Chicken Nanban",
+      "description": "Chicken Nanban, il pollo fritto di Miyazaki immerso nel Nanban-zu e servito con salsa tartara",
+      "permalink": "/ricette/chicken-nanban"
+    },
+    {
+      "id": "ricette/agemono/kara-age",
+      "title": "Kara-Age",
+      "description": "Il pollo fritto piu' buono del mondo",
+      "permalink": "/ricette/kara-age"
+    },
+    {
+      "id": "ricette/antipasti/nama_harumaki",
+      "title": "Nama Harumaki",
+      "description": "Gli involtini primavera giapponesi in carta di riso, freschi e non fritti, ripieni di pollo teriyaki",
+      "permalink": "/ricette/nama-harumaki"
+    },
+    {
+      "id": "ricette/sides/potetosarada",
+      "title": "Potetosarada",
+      "description": "Insalata di patate",
+      "permalink": "/ricette/potetosarada"
+    }
+  ],
+  "pollo": [
+    {
+      "id": "ricette/agemono/chicken_nanban",
+      "title": "Chicken Nanban",
+      "description": "Chicken Nanban, il pollo fritto di Miyazaki immerso nel Nanban-zu e servito con salsa tartara",
+      "permalink": "/ricette/chicken-nanban"
+    },
+    {
+      "id": "ricette/riso/soborodon",
+      "title": "Soboro Don",
+      "description": "La colorata e sfiziosa ciotola di riso giapponese a base di pollo e uova strapazzate, perfetta per un pasto ricco di proteine",
+      "permalink": "/ricette/soboro-don"
+    },
+    {
+      "id": "ricette/yakimono/negi_shio_remon_chikin",
+      "title": "Negi Shio Remon Chikin",
+      "description": "Una ricetta estiva semplice e deliziosa per preparare un pollo croccante in padella, guarnito con una fresca salsa di cipollotto e limone.",
+      "permalink": "/ricette/negi-shio-remon-chikin"
+    }
+  ],
   "enoki": [
     {
       "id": "ricette/agemono/enoki_tatsuta-age",
@@ -251,202 +479,6 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Tofu in \"stracciatella\" con verdure",
       "description": "Una ricetta buona, economica, sana, proteica e facile da fare.",
       "permalink": "/ricette/zuppa_di_tofu_e_uova"
-    }
-  ],
-  "mirin": [
-    {
-      "id": "ricette/agemono/kara-age",
-      "title": "Kara-Age",
-      "description": "Il pollo fritto piu' buono del mondo",
-      "permalink": "/ricette/kara-age"
-    },
-    {
-      "id": "ricette/antipasti/chawanmushi",
-      "title": "Chawanmushi",
-      "description": "Budino di uova cotto al vapore",
-      "permalink": "/ricette/chawanmushi"
-    },
-    {
-      "id": "ricette/menrui/hiyashi_tori_dashi_somen",
-      "title": "Hiyashi Tori Dashi Somen",
-      "description": "Un piatto di noodles freddi rinfrescante e saporito, con un tocco di aceto che lo rende perfetto per l'estate.",
-      "permalink": "/ricette/hiyashi_tori_dashi_somen"
-    },
-    {
-      "id": "ricette/menrui/yaki_udon",
-      "title": "Yaki Udon",
-      "description": "Un piatto giapponese completo, economico e velocissimo da preparare, nato per caso nel dopoguerra.",
-      "permalink": "/ricette/yaki-udon"
-    },
-    {
-      "id": "ricette/nimono/kabocha_no_nimono",
-      "title": "Kabocha no Nimono",
-      "description": "La zucca giapponese stufata, un classico contorno autunnale vegano",
-      "permalink": "/ricette/kabocha-no-nimono"
-    },
-    {
-      "id": "ricette/nimono/kakuni",
-      "title": "Buta Kaku-ni",
-      "description": "Pancia di maiale cotta lentamente in salsa di soia",
-      "permalink": "/ricette/buta_kakuni"
-    },
-    {
-      "id": "ricette/nimono/nikujaga",
-      "title": "Nikujaga",
-      "description": "Carne e patate, il comfort food per eccellenza della cucina casalinga giapponese",
-      "permalink": "/ricette/nikujaga"
-    },
-    {
-      "id": "ricette/preparazioni_di_base/brodi/mentsuyu",
-      "title": "Mentsuyu",
-      "description": "Il brodo per immergere soba e udon",
-      "permalink": "/ricette/mentsuyu"
-    },
-    {
-      "id": "ricette/preparazioni_di_base/salse/nikiri",
-      "title": "Nikiri Sauce",
-      "description": "Salsa densa da spennellare sui nigiri",
-      "permalink": "/ricette/salsa_nikiri"
-    },
-    {
-      "id": "ricette/preparazioni_di_base/salse/ponzu",
-      "title": "Salsa Ponzu",
-      "description": "Salsa fresca ed agrumata",
-      "permalink": "/ricette/salsa_ponzu"
-    },
-    {
-      "id": "ricette/preparazioni_di_base/salse/tentsuyu",
-      "title": "Salsa Tentsuyu: ricetta per tempura",
-      "description": "Ricetta della salsa tentsuyu, il condimento giapponese per il tempura a base di dashi, mirin e salsa di soia. Ingredienti, dosi e preparazione.",
-      "permalink": "/ricette/tentsuyu"
-    },
-    {
-      "id": "ricette/preparazioni_di_base/salse/teriyaki",
-      "title": "Salsa Teriyaki",
-      "description": "La salsa barbecue giapponese",
-      "permalink": "/ricette/salsa_teriyaki"
-    },
-    {
-      "id": "ricette/preparazioni_di_base/salse/yakitori",
-      "title": "Yakitori Tare",
-      "description": "Salsa per yakitori",
-      "permalink": "/ricette/salsa_yakitori"
-    },
-    {
-      "id": "ricette/riso/gyudon",
-      "title": "Gyudon",
-      "description": "La ciotola di riso con carne di manzo e cipolla",
-      "permalink": "/ricette/gyudon"
-    },
-    {
-      "id": "ricette/riso/oyakodon",
-      "title": "Oyakodon",
-      "description": "L'Oyakodon e' la carbonara giapponese",
-      "permalink": "/ricette/oyakodon"
-    },
-    {
-      "id": "ricette/riso/soborodon",
-      "title": "Soboro Don",
-      "description": "La colorata e sfiziosa ciotola di riso giapponese a base di pollo e uova strapazzate, perfetta per un pasto ricco di proteine",
-      "permalink": "/ricette/soboro-don"
-    },
-    {
-      "id": "ricette/riso/takenoko_gohan",
-      "title": "Takenoko Gohan",
-      "description": "Un classico primaverile: riso condito (Takikomi Gohan) cotto con germogli di bambù, aburaage e brodo dashi.",
-      "permalink": "/ricette/takenoko_gohan"
-    },
-    {
-      "id": "ricette/riso/takenoko_to_aburaage_takikomi_gohan",
-      "title": "Takenoko to Aburaage no Takikomi Gohan",
-      "description": "Un classico piatto casalingo giapponese, il Takikomi Gohan è un riso magico cotto comodamente nel cuociriso insieme ai suoi condimenti.",
-      "permalink": "/ricette/takenoko_to_aburaage_no_takikomi_gohan"
-    },
-    {
-      "id": "ricette/riso/takikomi_gohan",
-      "title": "Takikomi Gohan",
-      "description": "Takikomi Gohan (Riso misto) 炊き込みご飯 - Riso svuotafrigo cotto direttamente nella risiera",
-      "permalink": "/ricette/takikomi_gohan"
-    },
-    {
-      "id": "ricette/sides/horenso_no_ohitashi",
-      "title": "Hōrensō no ohitashi",
-      "description": "Un contorno fondamentale della cucina giapponese: spinaci sbollentati e marinati in un brodo dashi delicato.",
-      "permalink": "/ricette/horenso_no_ohitashi"
-    },
-    {
-      "id": "ricette/sides/kinpira_di_daikon_e_carote",
-      "title": "Kinpira di Daikon e Carote",
-      "description": "Il Kinpira è una ricetta tradizionale giapponese velocissima e vegana, perfetta per recuperare le bucce di daikon e carote saltandole in padella.",
-      "permalink": "/ricette/kinpira-di-daikon-e-carote"
-    },
-    {
-      "id": "ricette/sides/nametake",
-      "title": "Nametake",
-      "description": "Una ricetta giapponese \"casalinga\" facilissima ed economica. Funghi Enoki cotti in salsa di soia e mirin, perfetti sul riso.",
-      "permalink": "/ricette/nametake"
-    },
-    {
-      "id": "ricette/sides/nasu_no_yaki-bitashi",
-      "title": "Nasu no Yaki-bitashi",
-      "description": "Nasu no Yaki-bitashi, ovvero melanzane grigliate in brodo - Un'alternativa più leggera e salutare alle classiche melanzane fritte (Agebitashi), che richiede solo due cucchiai d'olio per un risultato tenero, succoso e pieno di sapore.",
-      "permalink": "/ricette/nasu_no_yaki-bitashi"
-    },
-    {
-      "id": "ricette/sides/potetosarada",
-      "title": "Potetosarada",
-      "description": "Insalata di patate",
-      "permalink": "/ricette/potetosarada"
-    },
-    {
-      "id": "ricette/sides/unagi-di-melanzane",
-      "title": "Unagi di melanzane",
-      "description": "La Melanzana che voleva essere un'Anguilla! Una ricetta vegana così buona che la sceglierebbe anche un onnivoro.",
-      "permalink": "/ricette/unagi_di_melanzane"
-    },
-    {
-      "id": "ricette/tsukemono/ninniku-no-misozuke",
-      "title": "Ninniku no Misozuke",
-      "description": "Aglio conservato sotto miso",
-      "permalink": "/ricette/ninniku_no_misozuke"
-    },
-    {
-      "id": "ricette/yakimono/nasu_niku_miso",
-      "title": "Nasu no Niku Miso",
-      "description": "Una ricetta velocissima che unisce la cucina giapponese a quella italiana: carne trita, melanzane e miso per un condimento perfetto per il riso bianco.",
-      "permalink": "/ricette/nasu-no-niku-miso"
-    },
-    {
-      "id": "ricette/yakimono/shogayaki",
-      "title": "Shogayaki",
-      "description": "Scaloppine di maiale allo zenzero",
-      "permalink": "/ricette/shogayaki"
-    },
-    {
-      "id": "ricette/zuppe/tofu_and_eggs",
-      "title": "Tofu in \"stracciatella\" con verdure",
-      "description": "Una ricetta buona, economica, sana, proteica e facile da fare.",
-      "permalink": "/ricette/zuppa_di_tofu_e_uova"
-    }
-  ],
-  "kewpie": [
-    {
-      "id": "ricette/agemono/kara-age",
-      "title": "Kara-Age",
-      "description": "Il pollo fritto piu' buono del mondo",
-      "permalink": "/ricette/kara-age"
-    },
-    {
-      "id": "ricette/antipasti/nama_harumaki",
-      "title": "Nama Harumaki",
-      "description": "Gli involtini primavera giapponesi in carta di riso, freschi e non fritti, ripieni di pollo teriyaki",
-      "permalink": "/ricette/nama-harumaki"
-    },
-    {
-      "id": "ricette/sides/potetosarada",
-      "title": "Potetosarada",
-      "description": "Insalata di patate",
-      "permalink": "/ricette/potetosarada"
     }
   ],
   "sake": [
@@ -1775,20 +1807,6 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Onigiri ai Sakura Ebi",
       "description": "Una ricetta deliziosa per preparare i \"maze onigiri\" con Sakura Ebi (microgamberetti rosa), erba cipollina, sesamo e alga shio kombu.",
       "permalink": "/ricette/onigiri-sakura-ebi"
-    }
-  ],
-  "pollo": [
-    {
-      "id": "ricette/riso/soborodon",
-      "title": "Soboro Don",
-      "description": "La colorata e sfiziosa ciotola di riso giapponese a base di pollo e uova strapazzate, perfetta per un pasto ricco di proteine",
-      "permalink": "/ricette/soboro-don"
-    },
-    {
-      "id": "ricette/yakimono/negi_shio_remon_chikin",
-      "title": "Negi Shio Remon Chikin",
-      "description": "Una ricetta estiva semplice e deliziosa per preparare un pollo croccante in padella, guarnito con una fresca salsa di cipollotto e limone.",
-      "permalink": "/ricette/negi-shio-remon-chikin"
     }
   ],
   "uova": [
