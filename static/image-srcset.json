@@ -1014,6 +1014,13 @@
     "width": 1672,
     "height": 941
   },
+  "ricette/chikuzenni.jpg": {
+    "hash": "b2c3613459b006880a680ff33b46c041",
+    "original": "/img/ricette/chikuzenni.jpg",
+    "srcset": "/img/ricette/chikuzenni-320w.webp 320w, /img/ricette/chikuzenni-640w.webp 640w, /img/ricette/chikuzenni-1280w.webp 1280w, /img/ricette/chikuzenni-1600w.webp 1600w",
+    "width": 1672,
+    "height": 941
+  },
   "ricette/chuka_tataki_kyuri.jpg": {
     "hash": "dea7e2875bc6c1a1bc033a4cdb74cad6",
     "original": "/img/ricette/chuka_tataki_kyuri.jpg",

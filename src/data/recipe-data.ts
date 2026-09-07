@@ -38,7 +38,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     ],
     "instructionsText": "Preparare innanzitutto il Nanban-zu. Mettere in un pentolino la salsa di soia Koikuchi, la Usukuchi, il mirin, l'aceto e lo zucchero. Portare brevemente a bollore, mescolando finché lo zucchero non sarà completamente sciolto. Togliere dal fuoco e aggiungere un poco di shichimi togarashi. Versare la salsa in un recipiente abbastanza largo da poterci immergere successivamente il pollo. Preparare quindi una delle due salse tartare e conservarla in frigorifero mentre si frigge il pollo. Eliminare l'eventuale pelle dal petto di pollo. Se il petto è particolarmente spesso, aprirlo oppure tagliarlo in modo da ottenere pezzi di spessore abbastanza uniforme. Non devono essere troppo sottili: il pollo deve rimanere succoso all'interno. Condire leggermente con sale e pepe. Passare il pollo nella farina, ricoprendolo completamente con uno strato sottile, ed eliminare bene quella in eccesso. Sbattere l'uovo in una ciotola. Immergere il pollo infarinato nell'uovo sbattuto, ricoprendolo molto bene. Scaldare l'olio a circa 170 °C. Immergere il pollo ricoperto di uovo e friggerlo fino a completa cottura e a una leggera doratura. La ricetta di Ogura indica indicativamente 5-7 minuti, ma il tempo dipende naturalmente dallo spessore della carne. Appena tolto il pollo dall'olio, immergerlo ancora caldo nel Nanban-zu. Nella ricetta di Ogura viene lasciato nella salsa per circa 30 secondi. Rigirarlo in modo che tutta la superficie assorba uniformemente la salsa, quindi scolarlo. Tagliare il pollo trasversalmente a fette, sistemarlo nel piatto e ricoprirlo generosamente con la salsa tartara scelta. Servire con cavolo cappuccio tagliato finemente, insalata e riso bianco.",
     "videoIds": [],
-    "datePublished": null
+    "datePublished": "2026-09-01T15:01:48+02:00"
   },
   "ricette/agemono/enoki_tatsuta-age": {
     "docId": "ricette/agemono/enoki_tatsuta-age",
@@ -734,6 +734,40 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "RdXbG3nq7hY"
     ],
     "datePublished": "2026-08-09T14:15:07+02:00"
+  },
+  "ricette/nimono/chikuzenni": {
+    "docId": "ricette/nimono/chikuzenni",
+    "title": "Chikuzenni",
+    "description": "Un ricco e confortante stufato della tradizione giapponese originario di Fukuoka, preparato con pollo, gobo, radice di loto e shiitake.",
+    "image": "/img/ricette/chikuzenni.jpg",
+    "recipeCategory": "Stufati",
+    "recipeKeywords": [
+      "secondi",
+      "pollo",
+      "verdure",
+      "tradizionale",
+      "stufato"
+    ],
+    "recipeYield": "2-3 persone",
+    "recipeIngredient": [
+      "1 sottocoscia di pollo disossata (250g circa), sostituibile con tofu o seitan per una versione vegana",
+      "1 radice di gobo (bardana)",
+      "1 panetto di konnyaku (250g)",
+      "1 carota",
+      "q.b. di radice di loto",
+      "q.b. di funghi shiitake secchi (fatti rinvenire in acqua)",
+      "100 ml di sake",
+      "100 ml di dashi",
+      "50 ml di salsa di soia",
+      "1 cucchiaino di zucchero (opzionale)",
+      "q.b. di taccole giapponesi (kinusaya) per guarnire",
+      "q.b. di olio di semi"
+    ],
+    "instructionsText": "Iniziate occupandovi del konnyaku. Questa gelatina di tubero va stracciata grossolanamente a pezzi con le mani, poi accuratamente lavata e sbollentata in acqua per almeno 5 minuti; questo passaggio è fondamentale per eliminare il suo odore sgradevole. Passate poi alle verdure. Tagliate la carota utilizzando l'antica tecnica del \"rangiri\" (tagliando in diagonale e ruotando la verdura a ogni taglio), in modo da ottenere pezzi irregolari ma uniformi nella dimensione. Tagliate a rangiri anche il gobo. Prendete gli shiitake ormai rinvenuti e privateli del gambo, che risulterebbe troppo duro; tagliate poi i cappelli in quarti, così da ottenere pezzi belli consistenti, in linea con il taglio grossolano di tutte le altre verdure. Affettate la radice di loto a rondelle spesse circa 1 cm e tagliate ogni rondella in quarti. A parte, sbollentate rapidamente in acqua le piccole taccole giapponesi (kinusaya) e tenetele da parte per la guarnizione finale. Raccogliete tutte le verdure pronte all'interno di uno zaru e mettetele da parte. Tagliate ora il pollo a tocchetti di dimensioni regolari. In un pentolino, versate il sake senza farne evaporare l'alcol, aggiungete il dashi e, se lo desiderate, il cucchiaino di zucchero per arrotondare i sapori. Portate sul fuoco e tuffatevi il pollo non appena il brodo sfiora il bollore, poi abbassate subito la fiamma. Durante questa cottura abbiate cura di schiumare la superficie per rimuovere le impurità. Aggiungete la salsa di soia e lasciate cuocere a fiamma molto dolce per 5-6 minuti. Una volta pronto, separate temporaneamente il pollo dal suo liquido di cottura. In un'altra pentola capiente, versate un giro di olio di semi e fate rosolare molto bene tutto il vostro mix di verdure e radici. A questo punto, versate all'interno della pentola il brodo di cottura del pollo, assicurandovi di filtrarlo. Lasciate stufare dolcemente. Quando le verdure saranno diventate tenere, reinserite il pollo nella pentola e lasciate insaporire il tutto per un paio di minuti finali. Spegnete il fuoco, trasferite il vostro delizioso Chikuzenni nei piatti e guarnite con le taccole sbollentate per dare un bel tocco di colore.",
+    "videoIds": [
+      "ag2sijcrXb8"
+    ],
+    "datePublished": "2026-09-07T08:12:26+02:00"
   },
   "ricette/nimono/daikon_no_nimono": {
     "docId": "ricette/nimono/daikon_no_nimono",

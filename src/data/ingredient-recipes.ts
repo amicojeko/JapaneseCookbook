@@ -215,6 +215,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/chicken-nanban"
     },
     {
+      "id": "ricette/nimono/chikuzenni",
+      "title": "Chikuzenni",
+      "description": "Un ricco e confortante stufato della tradizione giapponese originario di Fukuoka, preparato con pollo, gobo, radice di loto e shiitake.",
+      "permalink": "/ricette/chikuzenni"
+    },
+    {
       "id": "ricette/riso/soborodon",
       "title": "Soboro Don",
       "description": "La colorata e sfiziosa ciotola di riso giapponese a base di pollo e uova strapazzate, perfetta per un pasto ricco di proteine",
@@ -1563,15 +1569,21 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/yakisoba"
     }
   ],
-  "nimono": [
+  "secondi": [
     {
-      "id": "ricette/nimono/daikon_no_nimono",
-      "title": "Daikon no Nimono",
-      "description": "Una ricetta gourmet per preparare il daikon stufato, rendendolo tenero, dolce e ricco di umami.",
-      "permalink": "/ricette/daikon-no-nimono"
+      "id": "ricette/nimono/chikuzenni",
+      "title": "Chikuzenni",
+      "description": "Un ricco e confortante stufato della tradizione giapponese originario di Fukuoka, preparato con pollo, gobo, radice di loto e shiitake.",
+      "permalink": "/ricette/chikuzenni"
     }
   ],
   "verdure": [
+    {
+      "id": "ricette/nimono/chikuzenni",
+      "title": "Chikuzenni",
+      "description": "Un ricco e confortante stufato della tradizione giapponese originario di Fukuoka, preparato con pollo, gobo, radice di loto e shiitake.",
+      "permalink": "/ricette/chikuzenni"
+    },
     {
       "id": "ricette/nimono/daikon_no_nimono",
       "title": "Daikon no Nimono",
@@ -1583,6 +1595,30 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Burokkori no okaka-ae",
       "description": "Un contorno giapponese velocissimo, dal colore brillante e ricco di umami, perfetto per esaltare i broccoli.",
       "permalink": "/ricette/burokkori-no-okaka-ae"
+    }
+  ],
+  "tradizionale": [
+    {
+      "id": "ricette/nimono/chikuzenni",
+      "title": "Chikuzenni",
+      "description": "Un ricco e confortante stufato della tradizione giapponese originario di Fukuoka, preparato con pollo, gobo, radice di loto e shiitake.",
+      "permalink": "/ricette/chikuzenni"
+    }
+  ],
+  "stufato": [
+    {
+      "id": "ricette/nimono/chikuzenni",
+      "title": "Chikuzenni",
+      "description": "Un ricco e confortante stufato della tradizione giapponese originario di Fukuoka, preparato con pollo, gobo, radice di loto e shiitake.",
+      "permalink": "/ricette/chikuzenni"
+    }
+  ],
+  "nimono": [
+    {
+      "id": "ricette/nimono/daikon_no_nimono",
+      "title": "Daikon no Nimono",
+      "description": "Una ricetta gourmet per preparare il daikon stufato, rendendolo tenero, dolce e ricco di umami.",
+      "permalink": "/ricette/daikon-no-nimono"
     }
   ],
   "stufati": [
