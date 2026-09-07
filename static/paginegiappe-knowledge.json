@@ -2,7 +2,7 @@
   "meta": {
     "site": "https://paginegiappe.it",
     "description": "Guida italiana alla cucina giapponese: ricette autentiche, ingredienti, negozi orientali in Italia, strumenti, viaggi e cultura gastronomica.",
-    "generated": "2026-09-07T19:56:53.993Z",
+    "generated": "2026-09-07T20:03:53.152Z",
     "version": 1
   },
   "ricette": [
@@ -3118,6 +3118,36 @@
       "url": null,
       "lat": 41.8953526,
       "lng": 12.5047878,
+      "note": null
+    },
+    {
+      "name": "world market",
+      "region": "Lazio",
+      "city": "Roma",
+      "address": "Via del Pigneto, 29, 00176 Roma RM",
+      "url": null,
+      "lat": 41.8899234,
+      "lng": 12.5233499,
+      "note": null
+    },
+    {
+      "name": "CHIC HOME VITERBO",
+      "region": "Lazio",
+      "city": "Viterbo",
+      "address": "Str. S. Lazzaro, 01100 Viterbo VT",
+      "url": null,
+      "lat": 42.4353194,
+      "lng": 12.0909227,
+      "note": null
+    },
+    {
+      "name": "MS Moda Store",
+      "region": "Lazio",
+      "city": "Viterbo",
+      "address": "S.da Cassia Nord, Km. 86.400, 01100 Viterbo VT",
+      "url": null,
+      "lat": 42.4508439,
+      "lng": 12.0825987,
       "note": null
     },
     {
