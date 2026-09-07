@@ -21,6 +21,23 @@ export type BlogIndexEntry = {
 
 export const BLOG_INDEX: BlogIndexEntry[] = [
   {
+    "slug": "pagode-giapponesi-antisismiche",
+    "permalink": "/blog/pagode-giapponesi-antisismiche/",
+    "title": "Perché le pagode giapponesi non crollano durante i terremoti",
+    "description": "Alte, strette e di legno: le pagode a cinque piani sembrano fragilissime, e invece resistono ai terremoti da secoli. Shinbashira, incastri lignei e la danza del serpente.",
+    "image": "/img/blog/pagoda/pagoda-1.jpg",
+    "date": "2026-09-07",
+    "readingTime": 1.96,
+    "authors": [
+      {
+        "key": "fujitivo",
+        "name": "Erick \"il Fujitivo\"",
+        "imageURL": "/img/authors/logo_ilfujitivo.png",
+        "title": "Viaggiatore in Giappone dal 2008 · autore di \"Andiamo in Giappone\""
+      }
+    ]
+  },
+  {
     "slug": "coltelli-cucina-giapponesi",
     "permalink": "/blog/coltelli-cucina-giapponesi/",
     "title": "Coltelli da cucina giapponesi",
@@ -102,23 +119,6 @@ export const BLOG_INDEX: BlogIndexEntry[] = [
         "name": "Erick \"il Fujitivo\"",
         "imageURL": "/img/authors/logo_ilfujitivo.png",
         "title": "Viaggiatore in Giappone dal 2008 · autore di \"Andiamo in Giappone\""
-      }
-    ]
-  },
-  {
-    "slug": "shoyu-salsa-di-soia",
-    "permalink": "/blog/shoyu-salsa-di-soia/",
-    "title": "Shōyu — La salsa di soia: un condimento da tavola o un ingrediente da cucina?",
-    "description": "Molti italiani considerano la salsa di soia un condimento da tavola. In Giappone è prima di tutto un ingrediente da cucina: una guida alle varietà principali e a come sceglierla.",
-    "image": "/img/blog/shoyu/shoyu.jpg",
-    "date": "2026-06-25",
-    "readingTime": 1.84,
-    "authors": [
-      {
-        "key": "aki",
-        "name": "Aki Nakagoe",
-        "imageURL": "/img/authors/aki_nakagoe.jpg",
-        "title": "Cuoco giapponese e divulgatore della cucina washoku casalinga"
       }
     ]
   }
