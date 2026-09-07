@@ -2,7 +2,7 @@
   "meta": {
     "site": "https://paginegiappe.it",
     "description": "Guida italiana alla cucina giapponese: ricette autentiche, ingredienti, negozi orientali in Italia, strumenti, viaggi e cultura gastronomica.",
-    "generated": "2026-09-07T06:31:03.862Z",
+    "generated": "2026-09-07T19:56:53.993Z",
     "version": 1
   },
   "ricette": [
@@ -3581,6 +3581,26 @@
       "note": null
     },
     {
+      "name": "Luca alimentari（Fortuna market）宏都超市",
+      "region": "Sicilia",
+      "city": "Misterbianco",
+      "address": "Strada Comunale Pilata, 7, 95045 Misterbianco CT",
+      "url": null,
+      "lat": 37.5112933,
+      "lng": 15.0128072,
+      "note": null
+    },
+    {
+      "name": "Super Mercato Europe",
+      "region": "Sicilia",
+      "city": "Misterbianco",
+      "address": "95045 Misterbianco CT",
+      "url": null,
+      "lat": 37.513721,
+      "lng": 15.0149415,
+      "note": null
+    },
+    {
       "name": "Cantina Frasca",
       "region": "Sicilia",
       "city": "Modica",
@@ -3601,6 +3621,16 @@
       "note": null
     },
     {
+      "name": "Dhiniti Asian Market",
+      "region": "Sicilia",
+      "city": "Messina",
+      "address": "Via Catania, 192, 98124 Messina ME",
+      "url": null,
+      "lat": 38.1720499,
+      "lng": 15.5429793,
+      "note": null
+    },
+    {
       "name": "NaturaSì",
       "region": "Sicilia",
       "city": "Messina",
@@ -3608,6 +3638,16 @@
       "url": null,
       "lat": 38.1871633,
       "lng": 15.5580385,
+      "note": null
+    },
+    {
+      "name": "Panda market",
+      "region": "Sicilia",
+      "city": "Messina",
+      "address": "Via G. Garibaldi, 246, 98121 Messina ME",
+      "url": null,
+      "lat": 38.204308,
+      "lng": 15.5582146,
       "note": null
     },
     {
@@ -4202,6 +4242,20 @@
     }
   ],
   "blog": [
+    {
+      "title": "Perché le pagode giapponesi non crollano durante i terremoti",
+      "description": "Alte, strette e di legno: le pagode a cinque piani sembrano fragilissime, e invece resistono ai terremoti da secoli. Shinbashira, incastri lignei e la danza del serpente.",
+      "url": "https://paginegiappe.it/blog/pagode-giapponesi-antisismiche/",
+      "image": "https://paginegiappe.it/img/blog/pagoda/pagoda-1.jpg",
+      "date": "2026-09-07",
+      "authors": [
+        "fujitivo"
+      ],
+      "tags": [
+        "cultura",
+        "viaggi"
+      ]
+    },
     {
       "title": "Coltelli da cucina giapponesi",
       "description": "Come sono fatti i coltelli da cucina giapponesi e le principali differenze dai coltelli occidentali: acciai, forgiatura, tempra, rinvenimento, manico e affilatura.",
