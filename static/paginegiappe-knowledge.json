@@ -2,7 +2,7 @@
   "meta": {
     "site": "https://paginegiappe.it",
     "description": "Guida italiana alla cucina giapponese: ricette autentiche, ingredienti, negozi orientali in Italia, strumenti, viaggi e cultura gastronomica.",
-    "generated": "2026-09-12T17:39:02.427Z",
+    "generated": "2026-09-12T17:58:57.260Z",
     "version": 1
   },
   "ricette": [
@@ -3138,6 +3138,16 @@
       "url": null,
       "lat": 41.8788433,
       "lng": 12.5418186,
+      "note": null
+    },
+    {
+      "name": "L'ins 邻家超市 - Snack Food Experience",
+      "region": "Lazio",
+      "city": "Roma",
+      "address": "Via Rocca Priora, 71, 00179 Roma RM",
+      "url": null,
+      "lat": 41.8693985,
+      "lng": 12.5309466,
       "note": null
     },
     {

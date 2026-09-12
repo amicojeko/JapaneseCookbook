@@ -455,6 +455,16 @@ export const NEGOZI: Negozio[] = [
         map_url: "https://maps.app.goo.gl/Bv1Hw3QEkt2LC8Da6",
     },
     {
+        id: "lazio-roma-lins-snack-food-experience",
+        name: "L'ins 邻家超市 - Snack Food Experience",
+        region: "Lazio",
+        city: "Roma",
+        address: "Via Rocca Priora, 71, 00179 Roma RM",
+        lat: 41.8693985,
+        lng: 12.5309466,
+        map_url: "https://maps.app.goo.gl/KJMdnY4WN6c5GnSz7",
+    },
+    {
         id: "lazio-viterbo-chic-home-viterbo",
         name: "CHIC HOME VITERBO",
         region: "Lazio",
