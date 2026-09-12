@@ -445,6 +445,16 @@ export const NEGOZI: Negozio[] = [
         map_url: "https://maps.app.goo.gl/FfPUSdJzTEwuDis46",
     },
     {
+        id: "lazio-roma-sofia-international-food-store",
+        name: "Sofia International food store",
+        region: "Lazio",
+        city: "Roma",
+        address: "Via di Tor Pignattara, 52A/56, 00177 Roma RM",
+        lat: 41.8788433,
+        lng: 12.5418186,
+        map_url: "https://maps.app.goo.gl/Bv1Hw3QEkt2LC8Da6",
+    },
+    {
         id: "lazio-viterbo-chic-home-viterbo",
         name: "CHIC HOME VITERBO",
         region: "Lazio",

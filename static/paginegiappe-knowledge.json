@@ -2,7 +2,7 @@
   "meta": {
     "site": "https://paginegiappe.it",
     "description": "Guida italiana alla cucina giapponese: ricette autentiche, ingredienti, negozi orientali in Italia, strumenti, viaggi e cultura gastronomica.",
-    "generated": "2026-09-07T20:03:53.152Z",
+    "generated": "2026-09-12T17:39:02.427Z",
     "version": 1
   },
   "ricette": [
@@ -3128,6 +3128,16 @@
       "url": null,
       "lat": 41.8899234,
       "lng": 12.5233499,
+      "note": null
+    },
+    {
+      "name": "Sofia International food store",
+      "region": "Lazio",
+      "city": "Roma",
+      "address": "Via di Tor Pignattara, 52A/56, 00177 Roma RM",
+      "url": null,
+      "lat": 41.8788433,
+      "lng": 12.5418186,
       "note": null
     },
     {
