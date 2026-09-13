@@ -1129,6 +1129,16 @@ export const NEGOZI: Negozio[] = [
         map_url: "https://maps.app.goo.gl/HEjdpKjSML7RtUUa6",
     },
     {
+        id: "toscana-firenze-chinito-mu-lan-market",
+        name: "Chinito-Mu Lan Market di Xu Zhongxiong",
+        region: "Toscana",
+        city: "Firenze",
+        address: "Via Pietro Toselli, 81, 50144 Firenze FI",
+        lat: 43.7840024,
+        lng: 11.2335045,
+        map_url: "https://maps.app.goo.gl/af9kcjTzXnZUCKRg9",
+    },
+    {
         id: "toscana-prato-union-city-superstore",
         name: "Union City Superstore",
         region: "Toscana",

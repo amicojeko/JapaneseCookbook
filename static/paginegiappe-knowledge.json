@@ -2,7 +2,7 @@
   "meta": {
     "site": "https://paginegiappe.it",
     "description": "Guida italiana alla cucina giapponese: ricette autentiche, ingredienti, negozi orientali in Italia, strumenti, viaggi e cultura gastronomica.",
-    "generated": "2026-09-12T17:58:57.260Z",
+    "generated": "2026-09-13T08:57:18.455Z",
     "version": 1
   },
   "ricette": [
@@ -3808,6 +3808,16 @@
       "url": null,
       "lat": 43.7740778,
       "lng": 11.2218887,
+      "note": null
+    },
+    {
+      "name": "Chinito-Mu Lan Market di Xu Zhongxiong",
+      "region": "Toscana",
+      "city": "Firenze",
+      "address": "Via Pietro Toselli, 81, 50144 Firenze FI",
+      "url": null,
+      "lat": 43.7840024,
+      "lng": 11.2335045,
       "note": null
     },
     {
