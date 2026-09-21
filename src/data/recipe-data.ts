@@ -1625,6 +1625,39 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     ],
     "datePublished": "2026-06-21T22:45:09+02:00"
   },
+  "ricette/sides/kinpira_gobo": {
+    "docId": "ricette/sides/kinpira_gobo",
+    "title": "Kinpira Gobo",
+    "description": "Un contorno tradizionale giapponese a base di bardana e carote, famoso per la sua consistenza croccante e il sapore agrodolce.",
+    "image": "/img/ricette/kinpira_gobo.jpg",
+    "recipeCategory": "Contorni",
+    "recipeKeywords": [
+      "gobo",
+      "sesame_oil",
+      "shoyu",
+      "mirin",
+      "sesamo",
+      "verdure",
+      "vegan",
+      "sides"
+    ],
+    "recipeYield": "2 persone",
+    "recipeIngredient": [
+      "1/4 di radice di gobo (bardana)",
+      "1 carota",
+      "1 cucchiaio di olio di sesamo",
+      "1 cucchiaio e ½ di salsa di soia",
+      "1 cucchiaino di zucchero",
+      "1 cucchiaio di mirin",
+      "q.b. di peperoncino rosso secco a rondelle (opzionale)",
+      "1 cucchiaio di semi di sesamo"
+    ],
+    "instructionsText": "Iniziate la preparazione pulendo le verdure e tagliandole in modo molto sottile, ricavando una julienne sia dalla carota che dalla radice di gobo. Mettete una padella sul fuoco, versate un bel giro di olio di sesamo e fatevi saltare le verdure tagliate a julienne. Una volta che avranno iniziato ad ammorbidirsi, insaporite il tutto aggiungendo la salsa di soia, lo zucchero e il mirin. Fate saltare bene il tutto in padella per far assorbire i condimenti alle verdure. Se lo desiderate, potete aggiungere alla preparazione del peperoncino rosso, che conferirà una nota piccante al piatto. Una volta pronte e ben caramellate, trasferite le verdure in una piccola ciotola e completate il vostro Kinpira con una bella spolverata di semi di sesamo prima di servire.",
+    "videoIds": [
+      "YX9zj6b2YR0"
+    ],
+    "datePublished": null
+  },
   "ricette/sides/mugen_oba_nasu": {
     "docId": "ricette/sides/mugen_oba_nasu",
     "title": "Mugen Oba Nasu",

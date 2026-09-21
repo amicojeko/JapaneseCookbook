@@ -2,7 +2,7 @@
   "meta": {
     "site": "https://paginegiappe.it",
     "description": "Guida italiana alla cucina giapponese: ricette autentiche, ingredienti, negozi orientali in Italia, strumenti, viaggi e cultura gastronomica.",
-    "generated": "2026-09-13T08:57:18.455Z",
+    "generated": "2026-09-21T12:55:39.595Z",
     "version": 1
   },
   "ricette": [
@@ -1436,6 +1436,35 @@
         "Sesamo tostato"
       ],
       "instructions": "Il Kinpira è una ricetta tradizionalissima giapponese, ideale come tecnica di recupero per non sprecare nulla in cucina. Questa preparazione, totalmente vegana, ci permette di riutilizzare con gusto gli scarti delle verdure, come ad esempio la buccia del daikon e la buccia della carota, trasformandoli in un contorno croccante, saporito e glassato.\n\nPer cominciare, prendete le bucce del daikon e della carota che vi sono avanzate e tagliatele a julienne.\n\nIn una padella, versate un filo di olio di sesamo e fatelo scaldare. Aggiungete le vostre verdure a julienne e spadellate fino a farle appassire per bene.\n\nA questo punto, sfumate con un goccio di sake, dopodiché aggiungete il mirin e la salsa di soia. Se vi piace un contrasto più agrodolce, potete aggiungere anche un bel cucchiaio di zucchero.\n\nContinuate a cuocere dando un paio di spadellate finché i liquidi non si saranno assorbiti quasi completamente.\n\nQuando la salsa si è assorbita, aggiungete una pioggia di sesamo tostato e mescolate. Trasferite il Kinpira in una bella ciotolina, dategli \"un'acchittata\" e completate con un altro po' di sesamo in superficie. Il vostro piatto antispreco è pronto per essere gustato!"
+    },
+    {
+      "title": "Kinpira Gobo",
+      "description": "Un contorno tradizionale giapponese a base di bardana e carote, famoso per la sua consistenza croccante e il sapore agrodolce.",
+      "url": "https://paginegiappe.it/ricette/kinpira_gobo/",
+      "image": "https://paginegiappe.it/img/ricette/kinpira_gobo.jpg",
+      "category": "Contorni",
+      "tags": [
+        "gobo",
+        "sesame_oil",
+        "shoyu",
+        "mirin",
+        "sesamo",
+        "verdure",
+        "vegan",
+        "sides"
+      ],
+      "recipeYield": "2 persone",
+      "ingredients": [
+        "1/4 di radice di gobo (bardana)",
+        "1 carota",
+        "1 cucchiaio di olio di sesamo",
+        "1 cucchiaio e ½ di salsa di soia",
+        "1 cucchiaino di zucchero",
+        "1 cucchiaio di mirin",
+        "q.b. di peperoncino rosso secco a rondelle (opzionale)",
+        "1 cucchiaio di semi di sesamo"
+      ],
+      "instructions": "Il Kinpira è un classico contorno della cucina giapponese che prende il nome da Sakata Kinpira, un personaggio popolarissimo del teatro Joruri all'inizio del periodo Edo. Questo eroe leggendario, figlio di Kintaro, era celebre per la sua forza straordinaria, caratteristica che si riflette nella consistenza soda e croccante del gobo (la radice di bardana) utilizzato nella ricetta. Col tempo, il termine è passato a indicare proprio questo specifico metodo di cottura delle verdure, tagliate sottili e saltate in padella.\n\nIniziate la preparazione pulendo le verdure e tagliandole in modo molto sottile, ricavando una julienne sia dalla carota che dalla radice di gobo.\n\nAppena tagliato, il gobo tende a ossidarsi e ad annerire in fretta. Mettetelo in una ciotola di acqua fredda per 5-10 minuti: perde l'aku (il retrogusto amarognolo e terroso della radice) e resta chiaro. Scolatelo e asciugatelo bene prima di portarlo in padella, altrimenti l'acqua residua vi lesserà le verdure invece di farle saltare.\n\nMettete una padella sul fuoco, versate un bel giro di olio di sesamo e fatevi saltare le verdure tagliate a julienne. Una volta che avranno iniziato ad ammorbidirsi, insaporite il tutto aggiungendo la salsa di soia, lo zucchero e il mirin.\n\nSecondo il , l'associazione di questo piatto al forzuto eroe Kinpira è dovuta proprio alla consistenza particolarmente tenace e croccante del gobo. Lo racconta la  nel database delle cucine regionali del ministero, che lo cataloga come piatto tipico di Tokyo.\n\nFate saltare bene il tutto in padella per far assorbire i condimenti alle verdure. Se lo desiderate, potete aggiungere alla preparazione del peperoncino rosso, che conferirà una nota piccante al piatto.\n\nL'aggiunta del peperoncino non è solo un tocco di sapore, ma ricorda simbolicamente il carattere impetuoso del guerriero Sakata Kinpira.\n\nUna volta pronte e ben caramellate, trasferite le verdure in una piccola ciotola e completate il vostro Kinpira con una bella spolverata di semi di sesamo prima di servire."
     },
     {
       "title": "Mugen Oba Nasu",

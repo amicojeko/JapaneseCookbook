@@ -133,6 +133,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/kinpira-di-daikon-e-carote"
     },
     {
+      "id": "ricette/sides/kinpira_gobo",
+      "title": "Kinpira Gobo",
+      "description": "Un contorno tradizionale giapponese a base di bardana e carote, famoso per la sua consistenza croccante e il sapore agrodolce.",
+      "permalink": "/ricette/kinpira_gobo"
+    },
+    {
       "id": "ricette/sides/nametake",
       "title": "Nametake",
       "description": "Una ricetta giapponese \"casalinga\" facilissima ed economica. Funghi Enoki cotti in salsa di soia e mirin, perfetti sul riso.",
@@ -333,6 +339,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/kinpira-di-daikon-e-carote"
     },
     {
+      "id": "ricette/sides/kinpira_gobo",
+      "title": "Kinpira Gobo",
+      "description": "Un contorno tradizionale giapponese a base di bardana e carote, famoso per la sua consistenza croccante e il sapore agrodolce.",
+      "permalink": "/ricette/kinpira_gobo"
+    },
+    {
       "id": "ricette/tsukemono/daikon_shiokombuzuke",
       "title": "Daikon Shiokombuzuke",
       "description": "Daikon marinato con shio kombu, sesamo e shoyu. Una bomba di umami!",
@@ -399,6 +411,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Kinpira di Daikon e Carote",
       "description": "Il Kinpira è una ricetta tradizionale giapponese velocissima e vegana, perfetta per recuperare le bucce di daikon e carote saltandole in padella.",
       "permalink": "/ricette/kinpira-di-daikon-e-carote"
+    },
+    {
+      "id": "ricette/sides/kinpira_gobo",
+      "title": "Kinpira Gobo",
+      "description": "Un contorno tradizionale giapponese a base di bardana e carote, famoso per la sua consistenza croccante e il sapore agrodolce.",
+      "permalink": "/ricette/kinpira_gobo"
     },
     {
       "id": "ricette/sides/mugen_oba_nasu",
@@ -973,6 +991,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/kinpira-di-daikon-e-carote"
     },
     {
+      "id": "ricette/sides/kinpira_gobo",
+      "title": "Kinpira Gobo",
+      "description": "Un contorno tradizionale giapponese a base di bardana e carote, famoso per la sua consistenza croccante e il sapore agrodolce.",
+      "permalink": "/ricette/kinpira_gobo"
+    },
+    {
       "id": "ricette/sides/mugen_piiman",
       "title": "Mugen Pīman",
       "description": "Una ricetta estiva veloce e senza fornelli per preparare i peperoncini verdi in stile giapponese, perfetti da gustare sul riso.",
@@ -1121,6 +1145,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Hōrensō no ohitashi",
       "description": "Un contorno fondamentale della cucina giapponese: spinaci sbollentati e marinati in un brodo dashi delicato.",
       "permalink": "/ricette/horenso_no_ohitashi"
+    },
+    {
+      "id": "ricette/sides/kinpira_gobo",
+      "title": "Kinpira Gobo",
+      "description": "Un contorno tradizionale giapponese a base di bardana e carote, famoso per la sua consistenza croccante e il sapore agrodolce.",
+      "permalink": "/ricette/kinpira_gobo"
     },
     {
       "id": "ricette/sides/nasu_dengaku",
@@ -1595,6 +1625,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Burokkori no okaka-ae",
       "description": "Un contorno giapponese velocissimo, dal colore brillante e ricco di umami, perfetto per esaltare i broccoli.",
       "permalink": "/ricette/burokkori-no-okaka-ae"
+    },
+    {
+      "id": "ricette/sides/kinpira_gobo",
+      "title": "Kinpira Gobo",
+      "description": "Un contorno tradizionale giapponese a base di bardana e carote, famoso per la sua consistenza croccante e il sapore agrodolce.",
+      "permalink": "/ricette/kinpira_gobo"
     }
   ],
   "tradizionale": [
@@ -1913,6 +1949,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/burokkori-no-okaka-ae"
     },
     {
+      "id": "ricette/sides/kinpira_gobo",
+      "title": "Kinpira Gobo",
+      "description": "Un contorno tradizionale giapponese a base di bardana e carote, famoso per la sua consistenza croccante e il sapore agrodolce.",
+      "permalink": "/ricette/kinpira_gobo"
+    },
+    {
       "id": "ricette/sides/mugen_piiman",
       "title": "Mugen Pīman",
       "description": "Una ricetta estiva veloce e senza fornelli per preparare i peperoncini verdi in stile giapponese, perfetti da gustare sul riso.",
@@ -1929,6 +1971,14 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Potetosarada",
       "description": "Insalata di patate",
       "permalink": "/ricette/potetosarada"
+    }
+  ],
+  "gobo": [
+    {
+      "id": "ricette/sides/kinpira_gobo",
+      "title": "Kinpira Gobo",
+      "description": "Un contorno tradizionale giapponese a base di bardana e carote, famoso per la sua consistenza croccante e il sapore agrodolce.",
+      "permalink": "/ricette/kinpira_gobo"
     }
   ],
   "microonde": [
