@@ -1,5 +1,6 @@
 import React, { useMemo } from 'react';
 import { getAllOnlineShops } from '@site/src/data/negozi-online';
+import { withUtm } from '@site/src/lib/utm';
 
 const OnlineShopList: React.FC = () => {
   const allOnline = useMemo(() => getAllOnlineShops(), []);
@@ -50,7 +51,10 @@ const OnlineShopList: React.FC = () => {
             <div className="actions">
               <a
                 className="ext-link"
-                href={shop.url}
+                href={withUtm(shop.url, {
+                  campaign: 'negozi-online',
+                  content: shop.id,
+                })}
                 target="_blank"
                 rel="noopener noreferrer"
               >

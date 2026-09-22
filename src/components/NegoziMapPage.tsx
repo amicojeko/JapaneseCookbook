@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 import { NEGOZI } from '@site/src/data/negozi';
+import { withUtm } from '@site/src/lib/utm';
 import 'leaflet.markercluster/dist/MarkerCluster.css';
 import 'leaflet.markercluster/dist/MarkerCluster.Default.css';
 
@@ -156,7 +157,12 @@ const NegoziMapPage: React.FC = () => {
                     }
                     ${
                       shop.url
-                        ? `<a class="gh" href="${shop.url}" target="_blank" rel="noopener noreferrer">🌐 Sito web</a>`
+                        ? `<a class="gh" href="${escapeHtml(
+                            withUtm(shop.url, {
+                              campaign: 'negozi-mappa',
+                              content: shop.id,
+                            }) as string,
+                          )}" target="_blank" rel="noopener noreferrer">🌐 Sito web</a>`
                         : ''
                     }
                   </div>
