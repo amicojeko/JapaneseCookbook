@@ -3,6 +3,7 @@ import type {ReactNode} from 'react';
 import Head from '@docusaurus/Head';
 import {useLocation} from '@docusaurus/router';
 import {gtagEvent} from '@site/src/lib/analytics';
+import {UTM_SOURCE} from '@site/src/lib/utm';
 
 interface Props {
   children: ReactNode;
@@ -69,6 +70,19 @@ function handleOutboundClick(ev: MouseEvent): void {
   // Affiliati Amazon (link nei /libri) — misura la monetizzazione.
   if (url.includes('amzn.to') || url.includes('amazon.')) {
     gtagEvent('amazon_click', {link_url: url, page_path: path});
+    return;
+  }
+
+  // Sito di un negozio — riconosciuto dagli UTM che withUtm() appende solo a
+  // questi link (vedi src/lib/utm.ts). Prima del check social: il "sito" di un
+  // negozio potrebbe un giorno essere una pagina Instagram.
+  if (url.includes(`utm_source=${UTM_SOURCE}`)) {
+    const surface = path.includes('/negozi_orientali/online')
+      ? 'online'
+      : path.includes('/negozi_orientali/mappa')
+        ? 'mappa'
+        : 'regione';
+    gtagEvent('store_site_click', {link_url: url, surface, page_path: path});
     return;
   }
 
