@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useRef } from 'react';
 import type { Negozio } from '@site/src/data/negozi';
 import { NEGOZI } from '@site/src/data/negozi';
+import { withUtm } from '@site/src/lib/utm';
 
 const NAVBAR_HEIGHT = 60;
 const TOC_BOTTOM_BUFFER = 20;
@@ -174,7 +175,7 @@ const RegionShopList: React.FC<Props> = ({ region, shops }) => {
                       {shop.url && (
                         <a
                           className="ext-link"
-                          href={shop.url}
+                          href={withUtm(shop.url)}
                           target="_blank"
                           rel="noopener noreferrer"
                         >
