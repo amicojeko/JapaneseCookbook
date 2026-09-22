@@ -157,12 +157,7 @@ const NegoziMapPage: React.FC = () => {
                     }
                     ${
                       shop.url
-                        ? `<a class="gh" href="${escapeHtml(
-                            withUtm(shop.url, {
-                              campaign: 'negozi-mappa',
-                              content: shop.id,
-                            }) as string,
-                          )}" target="_blank" rel="noopener noreferrer">🌐 Sito web</a>`
+                        ? `<a class="gh" href="${escapeHtml(withUtm(shop.url) as string)}" target="_blank" rel="noopener noreferrer">🌐 Sito web</a>`
                         : ''
                     }
                   </div>

@@ -175,10 +175,7 @@ const RegionShopList: React.FC<Props> = ({ region, shops }) => {
                       {shop.url && (
                         <a
                           className="ext-link"
-                          href={withUtm(shop.url, {
-                            campaign: 'negozi-regione',
-                            content: shop.id,
-                          })}
+                          href={withUtm(shop.url)}
                           target="_blank"
                           rel="noopener noreferrer"
                         >

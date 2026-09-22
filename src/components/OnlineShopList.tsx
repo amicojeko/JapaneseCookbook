@@ -51,10 +51,7 @@ const OnlineShopList: React.FC = () => {
             <div className="actions">
               <a
                 className="ext-link"
-                href={withUtm(shop.url, {
-                  campaign: 'negozi-online',
-                  content: shop.id,
-                })}
+                href={withUtm(shop.url)}
                 target="_blank"
                 rel="noopener noreferrer"
               >
