@@ -703,6 +703,11 @@ article img:not(.navbar__logo):not(.footer__logo):not(.social-icon):not(.no-bord
   border: 0 !important;
   background: transparent !important;
 }
+/* OSM standard tiles are keyless but very colourful: desaturate + lighten
+   them to a soft grey basemap so the red pins stay the focal point. */
+.leaflet-container .leaflet-tile-pane {
+  filter: grayscale(1) brightness(1.08) contrast(0.85);
+}
 
 /* Drop-cap on the first paragraph of an article body.
    Recipes/docs use `.theme-doc-markdown.markdown`; blog posts (single page,
