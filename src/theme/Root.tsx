@@ -4,6 +4,7 @@ import Head from '@docusaurus/Head';
 import {useLocation} from '@docusaurus/router';
 import {gtagEvent} from '@site/src/lib/analytics';
 import {UTM_SOURCE} from '@site/src/lib/utm';
+import OfflineSplash from '@site/src/components/OfflineSplash';
 
 interface Props {
   children: ReactNode;
@@ -199,6 +200,7 @@ export default function Root({children}: Props): ReactNode {
         <script type="application/ld+json">{JSON.stringify(WEBSITE_SCHEMA)}</script>
       </Head>
       {children}
+      <OfflineSplash />
     </>
   );
 }

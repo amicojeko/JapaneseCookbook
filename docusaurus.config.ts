@@ -287,32 +287,27 @@ const config: Config = {
     // disabled in dev (SW only builds in `docusaurus build`), so it doesn't
     // interfere with `npm start` or the gtag dev-race noted above.
     //
-    // OFFLINE STRATEGY = "leggera": precache only the app shell
-    // (JS/CSS/HTML/fonts + the small image-manifest JSON). Because Docusaurus
-    // bakes page content into JS chunks, precaching JS already gives installed
-    // users offline access to all TEXT content. We deliberately exclude the
-    // ~68MB of recipe photos (jpg/jpeg/webp) and the 400KB AI knowledge export
-    // from precache — photos are runtime-cached (CacheFirst) as visited, see
-    // src/sw-custom.js. This avoids a multi-megabyte download at install time.
-    //
-    // offlineModeActivationStrategies (plugin default): caching only kicks in
-    // for installed / standalone users (or ?offlineMode=true), so regular
-    // browser-tab visitors get no unexpected storage usage.
+    // OFFLINE STRATEGY: installed app only. The precache holds every page
+    // (HTML + JS chunks, where Docusaurus bakes the page content) plus one
+    // small hero photo per recipe; the ~68MB of full image variants and the
+    // 400KB AI export are carved out (globIgnores below). Other photos are
+    // runtime-cached as visited (src/sw-custom.js).
     [
       '@docusaurus/plugin-pwa',
       {
         debug: false,
-        // 'always' = offline for EVERY visitor, not just installed/standalone.
-        // The goal is recipes available offline by default: since Docusaurus
-        // bakes page content into JS chunks (all precached), the text of every
-        // recipe is offline-ready right after the first visit — no install and
-        // no need to open each recipe first. Photos are still runtime-cached
-        // (CacheFirst) as visited, see src/sw-custom.js, since precaching all
-        // ~68MB of them would be a huge background download.
+        // 'standalone' = offline ONLY in the installed app (display-mode:
+        // standalone). A regular browser visit, mobile or desktop, registers
+        // the SW with offlineMode=false: empty precache, no image cache, zero
+        // background downloads. On the app's first launch the SW precaches
+        // every page (HTML + JS chunks) plus one hero photo per recipe, and
+        // src/components/OfflineSplash shows the progress on a splash screen.
         // Freshness ("sempre aggiornate") is preserved by: sw.js served
         // no-cache (netlify.toml) + Workbox precache revisioning + the custom
         // "Nuova versione disponibile" reload popup (src/theme/PwaReloadPopup).
-        offlineModeActivationStrategies: ['always'],
+        // 'queryString' (?offlineMode=true) is a test hook to try the offline
+        // flow in a normal tab — nobody lands on it by accident.
+        offlineModeActivationStrategies: ['standalone', 'queryString'],
         swCustom: require.resolve('./src/sw-custom.js'),
         injectManifestConfig: {
           // NOTE: the plugin hardcodes `globPatterns` and overrides anything we
