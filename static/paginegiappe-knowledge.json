@@ -2,7 +2,7 @@
   "meta": {
     "site": "https://paginegiappe.it",
     "description": "Guida italiana alla cucina giapponese: ricette autentiche, ingredienti, negozi orientali in Italia, strumenti, viaggi e cultura gastronomica.",
-    "generated": "2026-09-21T12:55:39.595Z",
+    "generated": "2026-09-24T14:09:47.869Z",
     "version": 1
   },
   "ricette": [
@@ -3177,6 +3177,16 @@
       "url": null,
       "lat": 41.8693985,
       "lng": 12.5309466,
+      "note": null
+    },
+    {
+      "name": "Alimentari Cinese",
+      "region": "Lazio",
+      "city": "Roma",
+      "address": "Via della Vaccheria Gianni, 75, 00155 Roma RM",
+      "url": null,
+      "lat": 41.8895158,
+      "lng": 12.6073253,
       "note": null
     },
     {

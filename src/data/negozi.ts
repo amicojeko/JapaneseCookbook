@@ -465,6 +465,16 @@ export const NEGOZI: Negozio[] = [
         map_url: "https://maps.app.goo.gl/KJMdnY4WN6c5GnSz7",
     },
     {
+        id: "lazio-roma-alimentari-cinese-vaccheria",
+        name: "Alimentari Cinese",
+        region: "Lazio",
+        city: "Roma",
+        address: "Via della Vaccheria Gianni, 75, 00155 Roma RM",
+        lat: 41.8895158,
+        lng: 12.6073253,
+        map_url: "https://maps.app.goo.gl/Em1jUiiENjB1iPKu5",
+    },
+    {
         id: "lazio-viterbo-chic-home-viterbo",
         name: "CHIC HOME VITERBO",
         region: "Lazio",
