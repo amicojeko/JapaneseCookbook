@@ -2,7 +2,7 @@
   "meta": {
     "site": "https://paginegiappe.it",
     "description": "Guida italiana alla cucina giapponese: ricette autentiche, ingredienti, negozi orientali in Italia, strumenti, viaggi e cultura gastronomica.",
-    "generated": "2026-09-24T14:09:47.869Z",
+    "generated": "2026-09-24T14:15:43.386Z",
     "version": 1
   },
   "ricette": [
@@ -3210,6 +3210,26 @@
       "note": null
     },
     {
+      "name": "Max Factory",
+      "region": "Lazio",
+      "city": "Roma",
+      "address": "Via Mary Pandolfi de Rinaldis, 28, 00173 Roma RM",
+      "url": null,
+      "lat": 41.8427232,
+      "lng": 12.6209119,
+      "note": null
+    },
+    {
+      "name": "Max Factory",
+      "region": "Lazio",
+      "city": "Roma",
+      "address": "Via Torre di Mezzavia, 35, 00173 Roma RM",
+      "url": null,
+      "lat": 41.837962,
+      "lng": 12.59454,
+      "note": null
+    },
+    {
       "name": "Asian food",
       "region": "Liguria",
       "city": "Genova",
@@ -3590,6 +3610,126 @@
       "note": null
     },
     {
+      "name": "Max Factory",
+      "region": "Piemonte",
+      "city": "Alessandria",
+      "address": "Via Piave, 92, 15121 Alessandria AL",
+      "url": null,
+      "lat": 44.908618,
+      "lng": 8.631065,
+      "note": null
+    },
+    {
+      "name": "Max Factory",
+      "region": "Piemonte",
+      "city": "Asti",
+      "address": "Via Pierina Campanella, 5, 14100 Asti AT",
+      "url": null,
+      "lat": 44.907593,
+      "lng": 8.2345,
+      "note": null
+    },
+    {
+      "name": "Max Factory",
+      "region": "Piemonte",
+      "city": "Borgomanero",
+      "address": "Viale Kennedy, 51, 28021 Borgomanero NO",
+      "url": null,
+      "lat": 45.7082,
+      "lng": 8.45367,
+      "note": null
+    },
+    {
+      "name": "Max Factory",
+      "region": "Piemonte",
+      "city": "Castelletto sopra Ticino",
+      "address": "Via Sempione, 33, 28053 Castelletto sopra Ticino NO",
+      "url": null,
+      "lat": 45.719706,
+      "lng": 8.622032,
+      "note": null
+    },
+    {
+      "name": "Max Factory",
+      "region": "Piemonte",
+      "city": "Gravellona Toce",
+      "address": "Corso Roma, 156, 28883 Gravellona Toce VB",
+      "url": null,
+      "lat": 45.922902,
+      "lng": 8.429426,
+      "note": null
+    },
+    {
+      "name": "Max Factory",
+      "region": "Piemonte",
+      "city": "Nichelino",
+      "address": "Via Dei Martiri, 24, 10042 Nichelino TO",
+      "url": null,
+      "lat": 45.002663,
+      "lng": 7.658466,
+      "note": null
+    },
+    {
+      "name": "Max Factory",
+      "region": "Piemonte",
+      "city": "Nichelino",
+      "address": "Via XXV Aprile, 161, 10042 Nichelino TO",
+      "url": null,
+      "lat": 45.001906,
+      "lng": 7.628026,
+      "note": null
+    },
+    {
+      "name": "Max Factory",
+      "region": "Piemonte",
+      "city": "Torino",
+      "address": "Corso Peschiera, 274, 10139 Torino TO",
+      "url": null,
+      "lat": 45.070475,
+      "lng": 7.635883,
+      "note": null
+    },
+    {
+      "name": "Max Factory",
+      "region": "Piemonte",
+      "city": "Torino",
+      "address": "Corso Siracusa, 40, 10136 Torino TO",
+      "url": null,
+      "lat": 45.051916,
+      "lng": 7.633825,
+      "note": null
+    },
+    {
+      "name": "Max Factory",
+      "region": "Piemonte",
+      "city": "Torino",
+      "address": "Piazza Derna, 250, 10154 Torino TO",
+      "url": null,
+      "lat": 45.102789,
+      "lng": 7.701473,
+      "note": null
+    },
+    {
+      "name": "Max Factory",
+      "region": "Piemonte",
+      "city": "Trecate",
+      "address": "Corso Roma, 181, 28069 Trecate NO",
+      "url": null,
+      "lat": 45.438108,
+      "lng": 8.753549,
+      "note": null
+    },
+    {
+      "name": "Max Factory",
+      "region": "Piemonte",
+      "city": "Venaria Reale",
+      "address": "Corso Garibaldi, 235, 10078 Venaria Reale TO",
+      "url": null,
+      "lat": 45.114737,
+      "lng": 7.647586,
+      "note": null
+    },
+    {
       "name": "Il Suq International Food Shop",
       "region": "Sardegna",
       "city": "Cagliari",
@@ -3647,6 +3787,16 @@
       "url": null,
       "lat": 40.730132,
       "lng": 8.5382855,
+      "note": null
+    },
+    {
+      "name": "Max Factory",
+      "region": "Sardegna",
+      "city": "Elmas",
+      "address": "Via S. Giorgio, 7, 09030 Elmas CA",
+      "url": null,
+      "lat": 39.2740159,
+      "lng": 9.0541719,
       "note": null
     },
     {
@@ -4020,6 +4170,36 @@
       "note": null
     },
     {
+      "name": "Max Factory",
+      "region": "Trentino-Alto Adige",
+      "city": "Riva del Garda",
+      "address": "Località S. Nazzaro, 2H, 38066 Riva del Garda TN",
+      "url": null,
+      "lat": 45.8965497,
+      "lng": 10.8520674,
+      "note": null
+    },
+    {
+      "name": "Max Factory",
+      "region": "Trentino-Alto Adige",
+      "city": "San Michele all'Adige",
+      "address": "Via Brennero, 4, 38098 San Michele all'Adige TN",
+      "url": null,
+      "lat": 46.186039,
+      "lng": 11.125659,
+      "note": null
+    },
+    {
+      "name": "Max Factory",
+      "region": "Trentino-Alto Adige",
+      "city": "Trento",
+      "address": "Via del Commercio, 2L, 38121 Trento TN",
+      "url": null,
+      "lat": 46.091018,
+      "lng": 11.10567,
+      "note": null
+    },
+    {
       "name": "ASIA MARKET Oriente market 东方亚洲超市",
       "region": "Umbria",
       "city": "Perugia",
@@ -4200,6 +4380,36 @@
       "note": null
     },
     {
+      "name": "Max Factory",
+      "region": "Veneto",
+      "city": "Castelfranco Veneto",
+      "address": "Viale Europa, 30, 31033 Castelfranco Veneto TV",
+      "url": null,
+      "lat": 45.679042,
+      "lng": 11.941122,
+      "note": null
+    },
+    {
+      "name": "Max Factory",
+      "region": "Veneto",
+      "city": "Legnago",
+      "address": "Viale Europa, 39, 37045 Legnago VR",
+      "url": null,
+      "lat": 45.184907,
+      "lng": 11.252894,
+      "note": null
+    },
+    {
+      "name": "Max Factory",
+      "region": "Veneto",
+      "city": "Torri di Quartesolo",
+      "address": "Via Brescia, 41, 36040 Torri di Quartesolo VI",
+      "url": null,
+      "lat": 45.510461,
+      "lng": 11.623952,
+      "note": null
+    },
+    {
       "name": "Gastronomia Ye",
       "region": "Lombardia",
       "city": "Vigevano",
@@ -4227,6 +4437,36 @@
       "url": null,
       "lat": 44.5142631,
       "lng": 11.3531171,
+      "note": null
+    },
+    {
+      "name": "Max Factory",
+      "region": "Emilia-Romagna",
+      "city": "Piacenza",
+      "address": "Via Caorsana, 30, 29122 Piacenza PC",
+      "url": null,
+      "lat": 45.046182,
+      "lng": 9.728668,
+      "note": null
+    },
+    {
+      "name": "Max Factory",
+      "region": "Emilia-Romagna",
+      "city": "Rottofreno",
+      "address": "Via Emilia Est, 75, 29010 Rottofreno PC",
+      "url": null,
+      "lat": 45.058144,
+      "lng": 9.556892,
+      "note": null
+    },
+    {
+      "name": "Max Factory",
+      "region": "Emilia-Romagna",
+      "city": "Sassuolo",
+      "address": "Via Adda, 73, 41049 Sassuolo MO",
+      "url": null,
+      "lat": 44.540464,
+      "lng": 10.797404,
       "note": null
     },
     {
@@ -4280,6 +4520,16 @@
       "note": null
     },
     {
+      "name": "Max Factory",
+      "region": "Toscana",
+      "city": "San Giuliano Terme",
+      "address": "Via Pietrasantina, 33, 56017 San Giuliano Terme PI",
+      "url": null,
+      "lat": 43.742096,
+      "lng": 10.374553,
+      "note": null
+    },
+    {
       "name": "米兰士多 MILAN STORE",
       "region": "Lombardia",
       "city": "Milano",
@@ -4287,6 +4537,136 @@
       "url": null,
       "lat": 45.4935824,
       "lng": 9.2267134,
+      "note": null
+    },
+    {
+      "name": "Max Factory",
+      "region": "Lombardia",
+      "city": "Albizzate",
+      "address": "Via Alberto da Giussano, 21041 Albizzate VA",
+      "url": null,
+      "lat": 45.720126,
+      "lng": 8.807633,
+      "note": null
+    },
+    {
+      "name": "Max Factory",
+      "region": "Lombardia",
+      "city": "Brembate",
+      "address": "Via Vittorio Veneto, 45/47, 24041 Brembate BG",
+      "url": null,
+      "lat": 45.606031,
+      "lng": 9.544959,
+      "note": null
+    },
+    {
+      "name": "Max Factory",
+      "region": "Lombardia",
+      "city": "Calco",
+      "address": "Via Nazionale, 16, 23885 Calco LC",
+      "url": null,
+      "lat": 45.72152,
+      "lng": 9.413371,
+      "note": null
+    },
+    {
+      "name": "Max Factory",
+      "region": "Lombardia",
+      "city": "Cesano Maderno",
+      "address": "Via Don Luigi Viganò, 93, 20811 Cesano Maderno MB",
+      "url": null,
+      "lat": 45.641126,
+      "lng": 9.189686,
+      "note": null
+    },
+    {
+      "name": "Max Factory",
+      "region": "Lombardia",
+      "city": "Lecco",
+      "address": "Via della Pergola, 46, 23900 Lecco LC",
+      "url": null,
+      "lat": 45.843319,
+      "lng": 9.40627,
+      "note": null
+    },
+    {
+      "name": "Max Factory",
+      "region": "Lombardia",
+      "city": "Madignano",
+      "address": "Via Oriolo, 37, 26020 Madignano CR",
+      "url": null,
+      "lat": 45.331793,
+      "lng": 9.737487,
+      "note": null
+    },
+    {
+      "name": "Max Factory",
+      "region": "Lombardia",
+      "city": "Montano Lucino",
+      "address": "Via Valtellina, 22070 Montano Lucino CO",
+      "url": null,
+      "lat": 45.7801513,
+      "lng": 9.0461715,
+      "note": null
+    },
+    {
+      "name": "Max Factory",
+      "region": "Lombardia",
+      "city": "Olgiate Comasco",
+      "address": "Via delle Fontane, 1, 22077 Olgiate Comasco CO",
+      "url": null,
+      "lat": 45.787897,
+      "lng": 8.954278,
+      "note": null
+    },
+    {
+      "name": "Max Factory",
+      "region": "Lombardia",
+      "city": "Osio Sotto",
+      "address": "Corso Europa, 24046 Osio Sotto BG",
+      "url": null,
+      "lat": 45.604601,
+      "lng": 9.588097,
+      "note": null
+    },
+    {
+      "name": "Max Factory",
+      "region": "Lombardia",
+      "city": "Pavia",
+      "address": "Via Vigentina, 132, 27100 Pavia PV",
+      "url": null,
+      "lat": 45.22444,
+      "lng": 9.178561,
+      "note": null
+    },
+    {
+      "name": "Max Factory",
+      "region": "Lombardia",
+      "city": "Sesto San Giovanni",
+      "address": "Viale Italia, 544, 20099 Sesto San Giovanni MI",
+      "url": null,
+      "lat": 45.537325,
+      "lng": 9.246193,
+      "note": null
+    },
+    {
+      "name": "Max Factory",
+      "region": "Lombardia",
+      "city": "Vertemate con Minoprio",
+      "address": "Via Provinciale per Bregnano, 5, 22070 Vertemate con Minoprio CO",
+      "url": null,
+      "lat": 45.723463,
+      "lng": 9.068371,
+      "note": null
+    },
+    {
+      "name": "Max Factory",
+      "region": "Lombardia",
+      "city": "Vignate",
+      "address": "Via Galileo Galilei, 20052 Vignate MI",
+      "url": null,
+      "lat": 45.498558,
+      "lng": 9.373985,
       "note": null
     }
   ],
