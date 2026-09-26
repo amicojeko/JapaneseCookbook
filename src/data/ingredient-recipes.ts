@@ -345,6 +345,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/kinpira_gobo"
     },
     {
+      "id": "ricette/sides/okura_no_shoga-joyu_ae",
+      "title": "Okura no shōga-jōyu ae",
+      "description": "Un contorno giapponese velocissimo e salutare a base di okra, condita con una semplice e gustosa salsa di soia e zenzero fresco.",
+      "permalink": "/ricette/okura-no-shoga-joyu-ae"
+    },
+    {
       "id": "ricette/tsukemono/daikon_shiokombuzuke",
       "title": "Daikon Shiokombuzuke",
       "description": "Daikon marinato con shio kombu, sesamo e shoyu. Una bomba di umami!",
@@ -871,6 +877,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/mugen-piiman"
     },
     {
+      "id": "ricette/sides/okura_no_shoga-joyu_ae",
+      "title": "Okura no shōga-jōyu ae",
+      "description": "Un contorno giapponese velocissimo e salutare a base di okra, condita con una semplice e gustosa salsa di soia e zenzero fresco.",
+      "permalink": "/ricette/okura-no-shoga-joyu-ae"
+    },
+    {
       "id": "ricette/yakimono/negi_shio_remon_chikin",
       "title": "Negi Shio Remon Chikin",
       "description": "Una ricetta estiva semplice e deliziosa per preparare un pollo croccante in padella, guarnito con una fresca salsa di cipollotto e limone.",
@@ -1157,6 +1169,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Nasu Dengaku",
       "description": "Melanzane al miso",
       "permalink": "/ricette/nasu_dengaku"
+    },
+    {
+      "id": "ricette/sides/okura_no_shoga-joyu_ae",
+      "title": "Okura no shōga-jōyu ae",
+      "description": "Un contorno giapponese velocissimo e salutare a base di okra, condita con una semplice e gustosa salsa di soia e zenzero fresco.",
+      "permalink": "/ricette/okura-no-shoga-joyu-ae"
     },
     {
       "id": "ricette/sides/unagi-di-melanzane",
@@ -1631,6 +1649,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Kinpira Gobo",
       "description": "Un contorno tradizionale giapponese a base di bardana e carote, famoso per la sua consistenza croccante e il sapore agrodolce.",
       "permalink": "/ricette/kinpira_gobo"
+    },
+    {
+      "id": "ricette/sides/okura_no_shoga-joyu_ae",
+      "title": "Okura no shōga-jōyu ae",
+      "description": "Un contorno giapponese velocissimo e salutare a base di okra, condita con una semplice e gustosa salsa di soia e zenzero fresco.",
+      "permalink": "/ricette/okura-no-shoga-joyu-ae"
     }
   ],
   "tradizionale": [
@@ -1965,6 +1989,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Nasu Dengaku",
       "description": "Melanzane al miso",
       "permalink": "/ricette/nasu_dengaku"
+    },
+    {
+      "id": "ricette/sides/okura_no_shoga-joyu_ae",
+      "title": "Okura no shōga-jōyu ae",
+      "description": "Un contorno giapponese velocissimo e salutare a base di okra, condita con una semplice e gustosa salsa di soia e zenzero fresco.",
+      "permalink": "/ricette/okura-no-shoga-joyu-ae"
     },
     {
       "id": "ricette/sides/potetosarada",

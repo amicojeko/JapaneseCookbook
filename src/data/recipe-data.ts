@@ -1656,7 +1656,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "YX9zj6b2YR0"
     ],
-    "datePublished": null
+    "datePublished": "2026-09-21T14:56:29+02:00"
   },
   "ricette/sides/mugen_oba_nasu": {
     "docId": "ricette/sides/mugen_oba_nasu",
@@ -1769,6 +1769,33 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "instructionsText": "Preparare il brodo di marinatura mescolando in una caraffa l'acqua, la salsa di soia, il mirin, lo zucchero, il dashi in polvere e lo zenzero grattugiato. Lavare e asciugare molto bene le melanzane. Rimuovere il picciolo e tagliarle a metà per il lungo. Con un coltello, incidere la superficie della buccia con tagli diagonali poco profondi, per favorire la cottura e l'assorbimento del sapore. Disporre le melanzane in una padella capiente. Spennellarle uniformemente su tutta la superficie (prima la buccia, poi la polpa) con i due cucchiai di olio. Cuocere a fuoco medio con la buccia rivolta verso il basso per circa 2-3 minuti. Girare le melanzane, abbassare la fiamma al minimo, coprire con un coperchio e cuocere lentamente finché la polpa non sarà tenera e ben dorata. Versare il brodo preparato direttamente nella padella sopra le melanzane. Alzare la fiamma a fuoco medio e portare a ebollizione. Appena il liquido bolle, spegnere immediatamente il fuoco. Trasferire con delicatezza le melanzane e tutto il loro brodo in un contenitore per alimenti. Lasciare raffreddare completamente a temperatura ambiente, dopodiché coprire e riporre in frigorifero a insaporire per almeno 3 ore. Servire le melanzane fredde, irrorandole con il loro brodo di marinatura e guarnendo a piacere con foglie di shiso tritate o katsuobushi.",
     "videoIds": [],
     "datePublished": "2025-10-27T22:43:02+01:00"
+  },
+  "ricette/sides/okura_no_shoga-joyu_ae": {
+    "docId": "ricette/sides/okura_no_shoga-joyu_ae",
+    "title": "Okura no shōga-jōyu ae",
+    "description": "Un contorno giapponese velocissimo e salutare a base di okra, condita con una semplice e gustosa salsa di soia e zenzero fresco.",
+    "image": "/img/ricette/okura-no-shoga-joyu-ae.jpg",
+    "recipeCategory": "Contorni",
+    "recipeKeywords": [
+      "shoyu",
+      "verdure",
+      "estivo",
+      "vegan",
+      "sides"
+    ],
+    "recipeYield": "1-2 persone",
+    "recipeIngredient": [
+      "1 mazzetto di okra (okura)",
+      "q.b. di sale grosso",
+      "1 pezzetto di zenzero fresco",
+      "q.b. di salsa di soia",
+      "acqua e ghiaccio (per raffreddare)"
+    ],
+    "instructionsText": "Iniziate la preparazione pulendo l'okra: con un coltellino smussate la parte superiore (la capocchia) e rimuovete il picciolo. Cospargete gli ortaggi con abbondante sale e massaggiateli delicatamente con le mani per pulirli e levigarli, prestando molta attenzione a non ammaccarli. Tuffate l'okra in una pentola con acqua bollente e lasciatela cuocere per circa 2-3 minuti. Una volta pronta, scolatela e trasferitela immediatamente in una ciotola ricolma di acqua e ghiaccio per arrestare la cottura e preservarne il colore verde brillante. Nel frattempo, preparate la salsina di condimento grattugiando lo zenzero fresco con una grattugia giapponese e mescolandolo in una ciotolina insieme a un generoso cucchiaio di salsa di soia. Recuperate l'okra ormai fredda e tagliatela applicando il tradizionale taglio obliquo giapponese, chiamato naname-giri. Trasferite i pezzetti di okra nella ciotola con la salsa di zenzero e soia, mescolate bene per ricoprire ogni fetta e servite questo delizioso e velocissimo contorno in tavola.",
+    "videoIds": [
+      "7STd-nEVRLg"
+    ],
+    "datePublished": null
   },
   "ricette/sides/potetosarada": {
     "docId": "ricette/sides/potetosarada",

@@ -1280,6 +1280,13 @@
     "width": 1200,
     "height": 675
   },
+  "ricette/okura-no-shoga-joyu-ae.jpg": {
+    "hash": "b1749532a0bef4be13d66b9d7e80f675",
+    "original": "/img/ricette/okura-no-shoga-joyu-ae.jpg",
+    "srcset": "/img/ricette/okura-no-shoga-joyu-ae-320w.webp 320w, /img/ricette/okura-no-shoga-joyu-ae-640w.webp 640w, /img/ricette/okura-no-shoga-joyu-ae-1280w.webp 1280w, /img/ricette/okura-no-shoga-joyu-ae-1600w.webp 1600w",
+    "width": 1672,
+    "height": 941
+  },
   "ricette/onigiri_kimchi_asiago.jpg": {
     "hash": "fc7eb5c817506bd2a4cb02db7961cb5b",
     "original": "/img/ricette/onigiri_kimchi_asiago.jpg",
