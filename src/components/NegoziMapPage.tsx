@@ -49,7 +49,13 @@ function formatSuggestion(s: Suggestion): string {
 
 const NegoziMapPage: React.FC = () => {
   return (
-    <BrowserOnly fallback={<div>Carico la mappa dei negozi...</div>}>
+    <BrowserOnly
+      fallback={
+        <div style={{minHeight: '700px', width: '100%'}}>
+          Carico la mappa dei negozi...
+        </div>
+      }
+    >
       {() => {
         const { MapContainer, TileLayer, useMap } = require('react-leaflet');
         const L = require('leaflet');

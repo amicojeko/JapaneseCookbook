@@ -106,40 +106,89 @@ function handleOutboundClick(ev: MouseEvent): void {
 }
 
 /**
- * Algolia DocSearch non emette un evento nativo. Osserviamo il DOM per quando
- * la modal appare, agganciamo un input listener con debounce 1s e mandiamo la
- * query (cappata a 100 char, niente PII).
+ * Algolia DocSearch non emette un evento nativo. Quando l'utente apre la
+ * ricerca cerchiamo l'input per pochi frame e agganciamo un listener con
+ * debounce 1s. Evitiamo un MutationObserver permanente sull'intero body:
+ * durante navigazioni e rendering React verrebbe richiamato per ogni gruppo di
+ * mutazioni, aggiungendo lavoro al main thread proprio vicino alle interazioni.
  */
 function setupAlgoliaTracking(): () => void {
-  const attach = () => {
-    const input = document.querySelector(
-      '.DocSearch-Input, .DocSearch-SearchBar-input',
-    ) as (HTMLInputElement & {__pgTracked?: boolean}) | null;
-    if (!input || input.__pgTracked) return;
-    input.__pgTracked = true;
+  let currentInput: HTMLInputElement | null = null;
+  let debounce: ReturnType<typeof setTimeout> | undefined;
+  let frame: number | undefined;
+  let attempts = 0;
 
-    let debounce: ReturnType<typeof setTimeout>;
-    input.addEventListener('input', () => {
-      clearTimeout(debounce);
-      debounce = setTimeout(() => {
-        const q = input.value.trim();
-        if (q.length >= 3) {
-          gtagEvent('algolia_search', {query: q.slice(0, 100)});
-          // Content-gap: la query non ha prodotto risultati. DocSearch monta
-          // .DocSearch-NoResults quando l'indice non ha match — a 1s di
-          // debounce la fetch e' gia' risolta.
-          if (document.querySelector('.DocSearch-NoResults')) {
-            gtagEvent('search_no_results', {query: q.slice(0, 100)});
-          }
+  const onInput = (event: Event) => {
+    const input = event.currentTarget as HTMLInputElement;
+    clearTimeout(debounce);
+    debounce = setTimeout(() => {
+      const q = input.value.trim();
+      if (q.length >= 3) {
+        gtagEvent('algolia_search', {query: q.slice(0, 100)});
+        // Content-gap: la query non ha prodotto risultati. DocSearch monta
+        // .DocSearch-NoResults quando l'indice non ha match — a 1s di
+        // debounce la fetch e' gia' risolta.
+        if (document.querySelector('.DocSearch-NoResults')) {
+          gtagEvent('search_no_results', {query: q.slice(0, 100)});
         }
-      }, 1000);
-    });
+      }
+    }, 1000);
   };
 
-  const observer = new MutationObserver(attach);
-  observer.observe(document.body, {childList: true, subtree: true});
+  const attach = (): boolean => {
+    const input = document.querySelector(
+      '.DocSearch-Input, .DocSearch-SearchBar-input',
+    ) as HTMLInputElement | null;
+    if (!input) return false;
+    if (input === currentInput) return true;
+    currentInput?.removeEventListener('input', onInput);
+    currentInput = input;
+    currentInput.addEventListener('input', onInput);
+    return true;
+  };
+
+  const seekInput = () => {
+    frame = undefined;
+    if (attach() || attempts++ >= 30) return;
+    frame = requestAnimationFrame(seekInput);
+  };
+
+  const scheduleAttach = () => {
+    if (frame != null) cancelAnimationFrame(frame);
+    attempts = 0;
+    frame = requestAnimationFrame(seekInput);
+  };
+
+  const onClick = (event: MouseEvent) => {
+    const target = event.target as HTMLElement | null;
+    if (target?.closest('.DocSearch-Button')) scheduleAttach();
+  };
+  const onKeyDown = (event: KeyboardEvent) => {
+    const target = event.target as HTMLElement | null;
+    const isTyping =
+      target?.isContentEditable ||
+      target?.tagName === 'INPUT' ||
+      target?.tagName === 'SELECT' ||
+      target?.tagName === 'TEXTAREA';
+    const opensWithShortcut =
+      ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === 'k') ||
+      (event.key === '/' && !isTyping);
+    if (opensWithShortcut) {
+      scheduleAttach();
+    }
+  };
+
+  document.addEventListener('click', onClick, true);
+  document.addEventListener('keydown', onKeyDown, true);
   attach(); // caso in cui la modal sia gia' montata
-  return () => observer.disconnect();
+
+  return () => {
+    document.removeEventListener('click', onClick, true);
+    document.removeEventListener('keydown', onKeyDown, true);
+    currentInput?.removeEventListener('input', onInput);
+    if (frame != null) cancelAnimationFrame(frame);
+    clearTimeout(debounce);
+  };
 }
 
 /**
