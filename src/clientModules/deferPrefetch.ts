@@ -8,11 +8,14 @@
  * the initial load and, on slow mobile 4G, competes with the LCP resources for
  * bandwidth — it regressed home LCP from 7.0s to 9.1s in PSI (3 Jul 2026).
  *
- * Fix: queue the initial prefetch burst and release it only after `load` +
- * requestIdleCallback, in small batches, so the critical (LCP) resources win
- * the bandwidth first. Once activated, prefetch behaves normally, so instant
- * SPA navigation is preserved for anyone who scrolls before clicking. On
- * Save-Data / 2g we drop the eager prefetch entirely.
+ * Fix: disable viewport-driven route prefetch. Replaying the initial queue — or
+ * re-enabling it before a hidden mobile menu becomes visible — downloads and
+ * parses many route chunks just as the user starts interacting. Docusaurus
+ * still loads the requested route normally on navigation; we only remove the
+ * speculative work that was producing avoidable mobile long tasks. We also
+ * pause hover/touch preload briefly while the mobile navbar opens: otherwise
+ * the panel can appear under the pointer and preload many newly visible links
+ * during the menu interaction itself.
  *
  * Registered via `clientModules` in docusaurus.config.ts. This runs during app
  * bootstrap — before the first <Link> mounts and its observer can fire — so the
@@ -32,70 +35,34 @@ if (ExecutionEnvironment.canUseDOM) {
     const dsx = w.docusaurus;
     if (!dsx || typeof dsx.prefetch !== 'function') return false;
 
-    const original = dsx.prefetch.bind(dsx);
-    const conn = (navigator as {connection?: {saveData?: boolean; effectiveType?: string}})
-      .connection;
-
     // `window.docusaurus` is a frozen object (Object.freeze in Docusaurus's
     // clientEntry), so we can't mutate `.prefetch` in place — a strict-mode
     // assignment throws. The `window` property itself is writable, though, and
     // <Link> reads `window.docusaurus.prefetch` fresh on every call, so we swap
     // in a new frozen object that keeps `preload` and overrides `prefetch`.
-    const install = (prefetch: Prefetch) => {
-      w.docusaurus = Object.freeze({...dsx, prefetch});
+    let suspendPreloadUntil = 0;
+    const originalPreload = dsx.preload.bind(dsx);
+    const guardedPreload: Prefetch = (routePath) => {
+      if (performance.now() < suspendPreloadUntil) return Promise.resolve();
+      return originalPreload(routePath);
     };
 
-    // Data-saver or 2g: skip the eager route prefetch altogether.
-    if (conn && (conn.saveData || /(^|-)2g$/.test(conn.effectiveType || ''))) {
-      install(() => Promise.resolve());
-      return true;
-    }
-
-    let active = false;
-    const queued = new Set<string>();
-
-    install((routePath: string) => {
-      if (active) return original(routePath);
-      queued.add(routePath);
-      return Promise.resolve();
-    });
-
-    const activate = () => {
-      if (active) return;
-      active = true;
-      // Release queued routes in small idle-scheduled batches so they don't all
-      // hit the network at once, then let subsequent on-viewport calls flow
-      // straight through to the original prefetch.
-      const routes = [...queued];
-      queued.clear();
-      let i = 0;
-      const step = () => {
-        const end = Math.min(i + 4, routes.length);
-        for (; i < end; i++) original(routes[i]);
-        if (i < routes.length) {
-          if (typeof w.requestIdleCallback === 'function') {
-            w.requestIdleCallback(step, {timeout: 500});
-          } else {
-            setTimeout(step, 200);
-          }
+    document.addEventListener(
+      'click',
+      (event) => {
+        const target = event.target as HTMLElement | null;
+        if (target?.closest('.navbar__toggle')) {
+          suspendPreloadUntil = performance.now() + 600;
         }
-      };
-      step();
-    };
+      },
+      true,
+    );
 
-    const scheduleActivate = () => {
-      if (typeof w.requestIdleCallback === 'function') {
-        w.requestIdleCallback(activate, {timeout: 4000});
-      } else {
-        setTimeout(activate, 2000);
-      }
-    };
-
-    if (document.readyState === 'complete') {
-      scheduleActivate();
-    } else {
-      w.addEventListener('load', scheduleActivate, {once: true});
-    }
+    w.docusaurus = Object.freeze({
+      ...dsx,
+      prefetch: () => Promise.resolve(),
+      preload: guardedPreload,
+    });
     return true;
   };
 
