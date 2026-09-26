@@ -25,7 +25,7 @@ L'okra, chiamata *okura* in giapponese, è un ortaggio dalla caratteristica form
 
 ## Ingredienti
 
-- 12 baccelli di okra (okura)
+- 7-8 baccelli di okra (okura)
 - 1 cucchiaio di sale fino
 - 1 pezzetto di zenzero fresco
 - 1 cucchiaio di [salsa di soia](/ingredienti/shoyu)
