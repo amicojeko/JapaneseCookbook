@@ -33,7 +33,7 @@ L'okra, chiamata *okura* in giapponese, è un ortaggio dalla caratteristica form
 
 ## Preparazione
 
-Iniziate la preparazione pulendo l'okra: con un [coltellino](/strumenti/hocho) smussate la parte superiore e rimuovete il picciolo. Cospargete gli ortaggi con abbondante sale e massaggiateli delicatamente con le mani per pulirli e levigarli, prestando molta attenzione a non ammaccarli.
+Iniziate la preparazione pulendo l'okra: con un [coltellino](/strumenti/hocho) smussate la parte superiore e rimuovete il picciolo. Cospargete gli ortaggi con il sale e massaggiateli delicatamente con le mani per pulirli e levigarli, prestando molta attenzione a non ammaccarli.
 
 Tuffate l'okra in una pentola con acqua bollente e lasciatela cuocere per circa 2-3 minuti. Una volta pronta, scolatela e trasferitela immediatamente in una ciotola ricolma di acqua e ghiaccio per arrestare la cottura e preservarne il colore verde brillante.
 
