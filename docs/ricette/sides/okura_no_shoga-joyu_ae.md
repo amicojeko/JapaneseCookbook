@@ -19,21 +19,21 @@ tags:
 recipeYield: 1-2 persone
 ---
 
-L'okra, chiamata *okura* in giapponese, è un ortaggio dalla caratteristica forma pentagonale molto diffuso e apprezzato nella cucina del Sol Levante. Questo ingrediente, facilmente reperibile nei [negozi etnici](/negozi_orientali/), si presta alla perfezione per creare contorni sani e pronti in pochissimi minuti. L'Okura no shōga-jōyu ae unisce la consistenza leggermente mucillaginosa dell'okra sbollentata alla freschezza dello zenzero e alla sapidità della [salsa di soia](/ingredienti/shoyu), rendendolo un contorno ideale per accompagnare i vostri pasti quotidiani.
+L'okra, chiamata *okura* in giapponese, è un ortaggio dalla caratteristica forma pentagonale molto diffuso e apprezzato nella cucina del Sol Levante. Questo ingrediente, facilmente reperibile nei [negozi etnici](/negozi_orientali/), si presta alla perfezione per creare contorni sani e pronti in pochissimi minuti. L'Okura no shōga-jōyu ae unisce la consistenza leggermente mucillaginosa dell'okra sbollentata alla freschezza dello zenzero e alla sapidità della [salsa di soia](/ingredienti/shoyu), rendendolo un contorno semplice e veloce.
 
 <ImageComponent />
 
 ## Ingredienti
 
-- 1 mazzetto di okra (okura)
-- q.b. di sale grosso
+- 12 baccelli di okra (okura)
+- 1 cucchiaio di sale fino
 - 1 pezzetto di zenzero fresco
-- q.b. di [salsa di soia](/ingredienti/shoyu)
+- 1 cucchiaio di [salsa di soia](/ingredienti/shoyu)
 - acqua e ghiaccio (per raffreddare)
 
 ## Preparazione
 
-Iniziate la preparazione pulendo l'okra: con un [coltellino](/strumenti/hocho) smussate la parte superiore (la capocchia) e rimuovete il picciolo. Cospargete gli ortaggi con abbondante sale e massaggiateli delicatamente con le mani per pulirli e levigarli, prestando molta attenzione a non ammaccarli.
+Iniziate la preparazione pulendo l'okra: con un [coltellino](/strumenti/hocho) smussate la parte superiore e rimuovete il picciolo. Cospargete gli ortaggi con abbondante sale e massaggiateli delicatamente con le mani per pulirli e levigarli, prestando molta attenzione a non ammaccarli.
 
 Tuffate l'okra in una pentola con acqua bollente e lasciatela cuocere per circa 2-3 minuti. Una volta pronta, scolatela e trasferitela immediatamente in una ciotola ricolma di acqua e ghiaccio per arrestare la cottura e preservarne il colore verde brillante.
 
