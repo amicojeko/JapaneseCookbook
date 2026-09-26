@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * Generate responsive image variants (-320w / -640w / -1280w / -1600w as
+ * Generate responsive image variants (-320w / -640w / -1280w as
  * .webp only) for every master image in static/img/, and a manifest
  * static/image-srcset.json that maps master → variants + the master's MD5.
  *
@@ -31,7 +31,10 @@ const staticDir = path.join(process.cwd(), 'static');
 const imgDir = path.join(staticDir, 'img');
 const manifestPath = path.join(staticDir, 'image-srcset.json');
 
-const SIZES = [320, 640, 1280, 1600];
+// 1600w dropped on purpose: it's only ever selected on desktop/4K screens
+// (mobile tops out at 1280w), so it added ~5.8MB of variants for negligible
+// real-world use. Max content width is now 1280w.
+const SIZES = [320, 640, 1280];
 const MASTER_EXT = ['.jpg', '.jpeg', '.png', '.webp'];
 
 function md5OfFile(filePath) {

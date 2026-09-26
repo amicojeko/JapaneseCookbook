@@ -26,7 +26,7 @@ The `prebuild` step runs automatically before `build` and generates:
 - `src/data/recipe-data.ts` / `faq-data.ts` / `blog-index.ts` — structured data for components
 - `static/paginegiappe-knowledge.json` — unified content export for AI (see **AI integration**)
 
-**Responsive image variants** (`-320w` / `-640w` / `-1280w` / `-1600w` `.jpg` and `.webp`) are NOT built by `npm run build`. They're generated incrementally by `scripts/optimize-images.js` and committed to the repo. A husky pre-commit hook (`.husky/pre-commit`) runs the script automatically when you stage a master image — only the masters whose MD5 changed get re-encoded (the manifest at `static/image-srcset.json` tracks the per-master hash). To force a full rebuild, delete the manifest and run `npm run optimize-images`. CI just consumes the pre-generated variants — keeps Netlify builds fast.
+**Responsive image variants** (`-320w` / `-640w` / `-1280w` `.webp`) are NOT built by `npm run build`. They're generated incrementally by `scripts/optimize-images.js` and committed to the repo. A husky pre-commit hook (`.husky/pre-commit`) runs the script automatically when you stage a master image — only the masters whose MD5 changed get re-encoded (the manifest at `static/image-srcset.json` tracks the per-master hash). To force a full rebuild, delete the manifest and run `npm run optimize-images`. CI just consumes the pre-generated variants — keeps Netlify builds fast.
 
 ## Architecture
 

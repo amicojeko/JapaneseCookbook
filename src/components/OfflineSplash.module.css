@@ -1,0 +1,133 @@
+/* Splash screen del primo avvio dell'app installata (download offline).
+   Sfondo carta = background_color del manifest (#fbf7ec), così il passaggio
+   dallo splash nativo del sistema a questo è continuo. */
+
+.splash {
+  position: fixed;
+  inset: 0;
+  z-index: calc(var(--ifm-z-index-fixed) + 10);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: max(1.5rem, env(safe-area-inset-top)) 1.5rem
+    max(1.5rem, env(safe-area-inset-bottom));
+  background: var(--pg-paper);
+  color: var(--pg-ink);
+  transition: opacity 0.35s ease;
+}
+
+.leaving {
+  opacity: 0;
+  transition-delay: 0.85s;
+}
+
+.inner {
+  width: 100%;
+  max-width: 22rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.logo {
+  width: 96px;
+  height: 96px;
+  border: 2px solid var(--pg-ink);
+  border-radius: 22px;
+  box-shadow: 6px 6px 0 rgba(27, 26, 23, 0.15);
+}
+
+.title {
+  margin: 1.25rem 0 0.5rem;
+  font-family: var(--ifm-heading-font-family);
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--pg-ink);
+}
+
+.lead {
+  margin: 0 0 1.75rem;
+  font-size: 0.95rem;
+  line-height: 1.45;
+  color: var(--pg-ink-soft);
+}
+
+.track {
+  position: relative;
+  width: 100%;
+  height: 14px;
+  background: var(--pg-paper-2);
+  border: 2px solid var(--pg-ink);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.bar {
+  height: 100%;
+  background: var(--pg-red);
+  transition: width 0.2s ease-out;
+}
+
+.barIndeterminate {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 35%;
+  background: var(--pg-red);
+  animation: pg-splash-indeterminate 1.1s ease-in-out infinite;
+}
+
+@keyframes pg-splash-indeterminate {
+  from {
+    left: -35%;
+  }
+  to {
+    left: 100%;
+  }
+}
+
+.status {
+  margin: 0.75rem 0 0;
+  min-height: 2.6em;
+  font-family: var(--pg-font-mono, ui-monospace, monospace);
+  font-size: 0.8rem;
+  line-height: 1.3;
+  font-variant-numeric: tabular-nums;
+  color: var(--pg-ink);
+}
+
+.skip {
+  margin-top: 1.25rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--pg-ink);
+  background: transparent;
+  border: 2px solid var(--pg-ink);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.skip:hover {
+  background: var(--pg-paper-2);
+}
+
+.skip:focus-visible {
+  outline: 2px solid var(--pg-ink);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .splash,
+  .bar {
+    transition: none;
+  }
+  .barIndeterminate {
+    animation: none;
+    left: 0;
+    width: 100%;
+    opacity: 0.4;
+  }
+}
