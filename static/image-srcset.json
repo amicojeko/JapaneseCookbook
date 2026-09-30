@@ -965,6 +965,13 @@
     "width": 1870,
     "height": 1106
   },
+  "libri/tofu-hyakuchin-1782.jpg": {
+    "hash": "89f9187cda4249ad2df17f5192af70c2",
+    "original": "/img/libri/tofu-hyakuchin-1782.jpg",
+    "srcset": "/img/libri/tofu-hyakuchin-1782-320w.webp 320w, /img/libri/tofu-hyakuchin-1782-640w.webp 640w",
+    "width": 934,
+    "height": 758
+  },
   "logo.jpeg": {
     "hash": "6acaf6e7c444fa8eb149f844eafa2d61",
     "original": "/img/logo.jpeg",
