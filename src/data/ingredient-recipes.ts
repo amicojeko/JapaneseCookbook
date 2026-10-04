@@ -25,6 +25,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/hiyashi_tori_dashi_somen"
     },
     {
+      "id": "ricette/menrui/tamago_ankake_udon",
+      "title": "Tamago Ankake Udon",
+      "description": "Tamago Ankake Udon con uovo e zenzero: una ciotola calda, corroborante e confortante, ideale quando hai il raffreddore e cerchi un pasto sostanzioso.",
+      "permalink": "/ricette/tamago_ankake_udon"
+    },
+    {
       "id": "ricette/menrui/yaki_udon",
       "title": "Yaki Udon",
       "description": "Un piatto giapponese completo, economico e velocissimo da preparare, nato per caso nel dopoguerra.",
@@ -279,6 +285,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/niku_udon"
     },
     {
+      "id": "ricette/menrui/tamago_ankake_udon",
+      "title": "Tamago Ankake Udon",
+      "description": "Tamago Ankake Udon con uovo e zenzero: una ciotola calda, corroborante e confortante, ideale quando hai il raffreddore e cerchi un pasto sostanzioso.",
+      "permalink": "/ricette/tamago_ankake_udon"
+    },
+    {
       "id": "ricette/menrui/tofu_remon_kurimu_somen",
       "title": "Tōfu remon kurīmu sōmen",
       "description": "Una ricetta vegana fresca e avvolgente, dove i classici somen giapponesi vengono serviti con una ricca crema fredda a base di tofu e limone.",
@@ -479,6 +491,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Kara-Age",
       "description": "Il pollo fritto piu' buono del mondo",
       "permalink": "/ricette/kara-age"
+    },
+    {
+      "id": "ricette/menrui/tamago_ankake_udon",
+      "title": "Tamago Ankake Udon",
+      "description": "Tamago Ankake Udon con uovo e zenzero: una ciotola calda, corroborante e confortante, ideale quando hai il raffreddore e cerchi un pasto sostanzioso.",
+      "permalink": "/ricette/tamago_ankake_udon"
     },
     {
       "id": "ricette/preparazioni_di_base/salse/teriyaki",
@@ -915,6 +933,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/niku_udon"
     },
     {
+      "id": "ricette/menrui/tamago_ankake_udon",
+      "title": "Tamago Ankake Udon",
+      "description": "Tamago Ankake Udon con uovo e zenzero: una ciotola calda, corroborante e confortante, ideale quando hai il raffreddore e cerchi un pasto sostanzioso.",
+      "permalink": "/ricette/tamago_ankake_udon"
+    },
+    {
       "id": "ricette/menrui/tororo_natto_shiso_udon",
       "title": "Tororo Natto Shiso Udon",
       "description": "Una ricetta estiva veloce, nutriente e ricca di consistenze uniche grazie al contrasto tra il cremoso tororo e il natto.",
@@ -1219,6 +1243,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Niku Udon",
       "description": "Una ricetta velocissima e gustosa per preparare i Niku Udon, un piatto a base di noodles, carne e cipolla pronto in soli 10 minuti.",
       "permalink": "/ricette/niku_udon"
+    },
+    {
+      "id": "ricette/menrui/tamago_ankake_udon",
+      "title": "Tamago Ankake Udon",
+      "description": "Tamago Ankake Udon con uovo e zenzero: una ciotola calda, corroborante e confortante, ideale quando hai il raffreddore e cerchi un pasto sostanzioso.",
+      "permalink": "/ricette/tamago_ankake_udon"
     },
     {
       "id": "ricette/menrui/tororo_natto_shiso_udon",
@@ -1567,6 +1597,32 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/somen-tororo-lime"
     }
   ],
+  "dashi": [
+    {
+      "id": "ricette/menrui/tamago_ankake_udon",
+      "title": "Tamago Ankake Udon",
+      "description": "Tamago Ankake Udon con uovo e zenzero: una ciotola calda, corroborante e confortante, ideale quando hai il raffreddore e cerchi un pasto sostanzioso.",
+      "permalink": "/ricette/tamago_ankake_udon"
+    },
+    {
+      "id": "ricette/preparazioni_di_base/brodi/vegan_dashi",
+      "title": "Dashi Vegano",
+      "description": "La base fondamentale della cucina giapponese in versione vegana. Un brodo ricco di umami preparato con alga kombu e funghi shiitake.",
+      "permalink": "/ricette/dashi_vegan"
+    },
+    {
+      "id": "ricette/preparazioni_di_base/salse/ponzu",
+      "title": "Salsa Ponzu",
+      "description": "Salsa fresca ed agrumata",
+      "permalink": "/ricette/salsa_ponzu"
+    },
+    {
+      "id": "ricette/zuppe/wakatake",
+      "title": "Wakatake",
+      "description": "Una zuppa giapponese facilissima, velocissima e buonissima a base di germogli di bambù e alga wakame.",
+      "permalink": "/ricette/wakatake"
+    }
+  ],
   "limone": [
     {
       "id": "ricette/menrui/tofu_remon_kurimu_somen",
@@ -1735,26 +1791,6 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Tonjiru",
       "description": "La zuppa giapponese più confortante, un \"reset dell'anima\" ricco di maiale e verdure di radice.",
       "permalink": "/ricette/tonjiru"
-    }
-  ],
-  "dashi": [
-    {
-      "id": "ricette/preparazioni_di_base/brodi/vegan_dashi",
-      "title": "Dashi Vegano",
-      "description": "La base fondamentale della cucina giapponese in versione vegana. Un brodo ricco di umami preparato con alga kombu e funghi shiitake.",
-      "permalink": "/ricette/dashi_vegan"
-    },
-    {
-      "id": "ricette/preparazioni_di_base/salse/ponzu",
-      "title": "Salsa Ponzu",
-      "description": "Salsa fresca ed agrumata",
-      "permalink": "/ricette/salsa_ponzu"
-    },
-    {
-      "id": "ricette/zuppe/wakatake",
-      "title": "Wakatake",
-      "description": "Una zuppa giapponese facilissima, velocissima e buonissima a base di germogli di bambù e alga wakame.",
-      "permalink": "/ricette/wakatake"
     }
   ],
   "soia": [

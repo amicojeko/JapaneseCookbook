@@ -1406,6 +1406,13 @@
     "width": 1000,
     "height": 750
   },
+  "ricette/tamago_ankake_udon.jpg": {
+    "hash": "a4417e34d3f70441e166fa645f624e16",
+    "original": "/img/ricette/tamago_ankake_udon.jpg",
+    "srcset": "/img/ricette/tamago_ankake_udon-320w.webp 320w, /img/ricette/tamago_ankake_udon-640w.webp 640w, /img/ricette/tamago_ankake_udon-1280w.webp 1280w, /img/ricette/tamago_ankake_udon-1600w.webp 1600w",
+    "width": 1672,
+    "height": 940
+  },
   "ricette/teriyaki_salmon.webp": {
     "hash": "c1e9283bb6d0a049e826a20afdd46c83",
     "original": "/img/ricette/teriyaki_salmon.webp",

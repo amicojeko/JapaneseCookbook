@@ -2,7 +2,7 @@
   "meta": {
     "site": "https://paginegiappe.it",
     "description": "Guida italiana alla cucina giapponese: ricette autentiche, ingredienti, negozi orientali in Italia, strumenti, viaggi e cultura gastronomica.",
-    "generated": "2026-09-30T13:22:20.981Z",
+    "generated": "2026-10-04T19:52:45.910Z",
     "version": 1
   },
   "ricette": [
@@ -410,6 +410,34 @@
         "Acqua e ghiaccio"
       ],
       "instructions": "In giapponese esistono più di 4500 parole mimetiche (o onomatopee) e una delle più famose per descrivere il cibo è Neba Neba, che indica qualcosa di filamentoso, appiccicoso e viscoso. Il grande protagonista di questa ricetta è il Nagaimo, un tubero che, una volta grattugiato, crea una \"pappa collosa\" chiamata Tororo. Insieme al tuorlo d'uovo, questo ingrediente trasformerà i vostri somen freddi regalando un incredibile \"effetto carbocrema del 2000\"!\n\nLa ricetta è semplicissima. Iniziate cuocendo i somen in acqua bollente. Una volta cotti, scolateli e sciacquateli immediatamente sotto l'acqua corrente, per poi tuffarli in una ciotola piena di acqua e ghiaccio per farli raffreddare del tutto.\n\nPrendete il vostro Nagaimo e grattugiatelo finemente fino a ottenere il Tororo, una crema viscosa e super rinfrescante.\n\nA questo punto passiamo all'impiattamento: adagiate i somen ghiacciati sul fondo di una ciotola e versateci sopra abbondante Tororo. Posizionate al centro un tuorlo d'uovo freschissimo, aggiungete le cipolline verdi tagliate fini e decorate con qualche fettina di lime.\n\nPer concludere, irrorate tutto con la salsa ponzu e date una freschissima spremutina di succo di lime. Mescolate bene il tutto per ottenere un piatto mega avvolgente e super confortante!"
+    },
+    {
+      "title": "Tamago Ankake Udon",
+      "description": "Tamago Ankake Udon con uovo e zenzero: una ciotola calda, corroborante e confortante, ideale quando hai il raffreddore e cerchi un pasto sostanzioso.",
+      "url": "https://paginegiappe.it/ricette/tamago_ankake_udon/",
+      "image": "https://paginegiappe.it/img/ricette/tamago_ankake_udon.jpg",
+      "category": "Noodles",
+      "tags": [
+        "udon",
+        "shoyu",
+        "mirin",
+        "dashi",
+        "potato_starch",
+        "negi"
+      ],
+      "recipeYield": "1 persona",
+      "ingredients": [
+        "udon",
+        "uovo",
+        "zenzero",
+        "cipolline verdi",
+        "acqua",
+        "salsa di soia",
+        "mirin",
+        "dashi in polvere",
+        "fecola di patate"
+      ],
+      "instructions": "Quando hai il raffreddore e desideri qualcosa di caldo e sostanzioso, i Tamago Ankake Udon sono una ciotola di conforto. Gli udon e l'uovo rendono il piatto nutriente, mentre il brodo denso avvolge ogni boccone: una ricetta corroborante, perfetta per quei giorni in cui ti senti senza energie e hai voglia di un pasto che ti scaldi.\n\nL'uovo forma una stracciatella soffice nel brodo addensato con fecola di patate. Lo zenzero grattugiato e le cipolline verdi completano questa preparazione calda e cremosa, da gustare fino all'ultima goccia.\n\nIngredienti per una persona\n\n- 1 confezione di  congelati o freschi\n- 1 uovo\n- 15-20 g di zenzero grattugiato\n- 2  intere, sia la parte bianca sia quella verde\n\nPer il brodo\n\n- 300 ml d'acqua\n- 1 cucchiaio di\n- 1 cucchiaio di\n- 1 cucchiaino di  in polvere\n\nPer addensare\n\n- 1 cucchiaio di\n- 2 cucchiai d'acqua fredda per sciogliere la fecola\n\nAttrezzature necessarie\n\n- Due pentolini, uno per il brodo e uno per gli udon\n- Una  per lo zenzero\n- Una ciotolina e bacchette per sbattere l'uovo\n\nGrattugia lo zenzero. Rompi l'uovo in una ciotolina e sbattilo bene con le bacchette. Sciogli la fecola di patate nei 2 cucchiai d'acqua fredda e taglia finemente le , tenendo separate la parte bianca e quella verde.\n\nIn un pentolino versa i 300 ml d'acqua, la , il  e il  in polvere. Aggiungi lo zenzero grattugiato e la parte bianca delle cipolline, poi scalda il brodo.\n\nNel frattempo, cuoci gli udon in un altro pentolino.\n\nQuando il brodo sobbolle, abbassa il fuoco. Mescola di nuovo la miscela di acqua e fecola, poi incorporala al brodo continuando a mescolare. Rialza la fiamma e porta a bollore fino a ottenere una consistenza densa.\n\nUsa acqua fredda per sciogliere la fecola, così da ottenere una miscela uniforme prima di aggiungerla al brodo caldo. La fecola tende a depositarsi sul fondo e a separarsi dall'acqua: mescola bene la miscela subito prima di versarla nel pentolino.\n\nVersa l'uovo sbattuto molto lentamente. A fuoco bassissimo, lascialo cuocere fino a formare una stracciatella soffice nel brodo addensato.\n\nVersa l'uovo poco alla volta, senza rovesciarlo tutto insieme. Mantieni il fuoco bassissimo per farlo stracciare lentamente.\n\nMetti gli udon nella ciotola, ricoprili con il brodo e la stracciatella, poi guarnisci con la parte verde delle cipolline. Servi il piatto caldo."
     },
     {
       "title": "Tōfu remon kurīmu sōmen",

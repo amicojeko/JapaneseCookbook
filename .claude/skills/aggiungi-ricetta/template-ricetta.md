@@ -28,7 +28,7 @@ semplice, come si conserva. 2-5 frasi. Cita qui, con link interni, le ricette co
 
 <!-- Verifica ogni slug su build/sitemap.xml: gli slug NON coincidono col path cartelle. -->
 
-## Attrezzature per la cottura
+## Attrezzature necessarie
 
 <!-- Sezione opzionale: includila solo se serve un attrezzo particolare. -->
 

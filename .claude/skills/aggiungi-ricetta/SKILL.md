@@ -9,6 +9,20 @@ Trasforma il contenuto di una ricetta fornito dall'utente in una pagina Markdown
 
 **Regola d'oro:** posiziona il contenuto dell'utente il più fedelmente possibile. Aggiungi struttura (heading, admonition, link interni, ImageComponent) ma non stravolgere il testo. Se pensi serva un'edit di sostanza, proponila in chat e aspetta l'OK.
 
+
+## Preferenze editoriali dell'utente
+
+Per il sito rivedi sempre l'italiano del materiale parlato: correggi grammatica,
+sintassi e colloquialismi poco adatti a una pagina scritta, preservando significato,
+dosi e voce dell'autore. Usa formulazioni come "gustare fino all'ultima goccia"
+al posto di "slurpare fino all'ultima goccia". Questo adattamento editoriale è
+autorizzato; le modifiche di sostanza restano da proporre all'utente.
+La sezione degli strumenti si chiama **Attrezzature necessarie**. Collega gli
+strumenti alle pagine pertinenti del sito quando esistono, verificando gli URL
+tramite sitemap o frontmatter, come per gli ingredienti. Le dosi e le correzioni
+fornite successivamente dall'utente prevalgono sull'estrazione dal video. Se sono
+note le porzioni, dichiarale nell'intestazione Ingredienti e in `recipeYield`.
+
 ## Cosa raccogliere prima di scrivere
 
 Prima di generare il file, assicurati di avere queste cose. Se manca qualcosa di **bloccante**, chiedila e fermati.
@@ -74,7 +88,7 @@ Regole sul frontmatter:
 1. **Paragrafo introduttivo** — 2-5 frasi che raccontano cos'è il piatto, da dove viene, perché farlo. Come nel dashi. Niente heading prima di questo.
 2. **`<ImageComponent />`** — subito dopo l'intro, senza props (legge `image` dal frontmatter e renderizza l'hero). Registrato globalmente, nessun import.
 3. **`## Ingredienti`** — lista con le quantità in **sistema metrico**. Metti i **link interni** sugli ingredienti che hanno una pagina (vedi sotto).
-4. **`## Attrezzature per la cottura`** — solo se rilevante (es. padellina monoporzione per l'oyakodon).
+4. **`## Attrezzature necessarie`** — solo se rilevante (es. padellina monoporzione per l'oyakodon).
 5. **`## Preparazione`** — il procedimento, fedele al testo dell'utente.
 6. **Varianti / sotto-preparazioni** — se la ricetta ne ha (come Ichiban/Niban dashi), usa `##`/`###`. Solo se presenti nel contenuto.
 7. **`## Video`** — **solo se** l'utente ha fornito almeno un ID. Un `<YouTubeVideo videoId="..." />` per video; se ce ne sono più con ruoli diversi, mettili sotto `###` con etichetta (come nel dashi).
@@ -94,6 +108,7 @@ Sia nel testo che nella lista ingredienti, collega **sempre** ingredienti e altr
 Usa i callout di Docusaurus per i consigli e gli avvertimenti, come nel dashi:
 - `:::note` — informazioni di contesto / dettagli importanti (es. qualità dell'acqua).
 - `:::tip` — trucchi, riutilizzi, alternative (es. fare il niban dashi, il furikake, la versione vegana).
+- Inserisci ogni suggerimento subito dopo il passaggio a cui si riferisce. Se riguarda operazioni diverse, usa riquadri separati invece di raccoglierli tutti in fondo.
 - `:::warning` — errori da evitare (es. "non deve bollire", "non strizzare il katsuobushi").
 
 Non forzarle: mettile solo dove il contenuto lo giustifica, ma quando c'è un rischio o un consiglio chiave, usale.

@@ -475,6 +475,28 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     ],
     "datePublished": "2026-07-20T14:37:17+02:00"
   },
+  "ricette/menrui/tamago_ankake_udon": {
+    "docId": "ricette/menrui/tamago_ankake_udon",
+    "title": "Tamago Ankake Udon",
+    "description": "Tamago Ankake Udon con uovo e zenzero: una ciotola calda, corroborante e confortante, ideale quando hai il raffreddore e cerchi un pasto sostanzioso.",
+    "image": "/img/ricette/tamago_ankake_udon.jpg",
+    "recipeCategory": "Noodles",
+    "recipeKeywords": [
+      "udon",
+      "shoyu",
+      "mirin",
+      "dashi",
+      "potato_starch",
+      "negi"
+    ],
+    "recipeYield": "1 persona",
+    "recipeIngredient": [],
+    "instructionsText": "Grattugia lo zenzero. Rompi l'uovo in una ciotolina e sbattilo bene con le bacchette. Sciogli la fecola di patate nei 2 cucchiai d'acqua fredda e taglia finemente le , tenendo separate la parte bianca e quella verde. In un pentolino versa i 300 ml d'acqua, la , il e il in polvere. Aggiungi lo zenzero grattugiato e la parte bianca delle cipolline, poi scalda il brodo. Nel frattempo, cuoci gli udon in un altro pentolino. Quando il brodo sobbolle, abbassa il fuoco. Mescola di nuovo la miscela di acqua e fecola, poi incorporala al brodo continuando a mescolare. Rialza la fiamma e porta a bollore fino a ottenere una consistenza densa. Versa l'uovo sbattuto molto lentamente. A fuoco bassissimo, lascialo cuocere fino a formare una stracciatella soffice nel brodo addensato. Metti gli udon nella ciotola, ricoprili con il brodo e la stracciatella, poi guarnisci con la parte verde delle cipolline. Servi il piatto caldo.",
+    "videoIds": [
+      "2EIm1NEfSYo"
+    ],
+    "datePublished": null
+  },
   "ricette/menrui/tofu_remon_kurimu_somen": {
     "docId": "ricette/menrui/tofu_remon_kurimu_somen",
     "title": "Tōfu remon kurīmu sōmen",
