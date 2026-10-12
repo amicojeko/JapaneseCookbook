@@ -71,4 +71,4 @@ Se non trovi l'hatchomiso puoi usare un altro miso, per esempio l'akamiso (miso 
 
 ## Video
 
-<YouTubeVideo videoId="YOUTUBE_ID_DA_INSERIRE" />
+<YouTubeVideo videoId="0cFg1HvIVDE" />
