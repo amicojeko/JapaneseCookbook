@@ -1083,6 +1083,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/zuppa_di_miso"
     },
     {
+      "id": "ricette/zuppe/renkon_no_misoshiru",
+      "title": "Renkon no Misoshiru",
+      "description": "Zuppa di miso vegana con fette di radice di loto intagliate a teschio: la ricetta di Halloween spaventosamente facile, bella e buona.",
+      "permalink": "/ricette/renkon_no_misoshiru"
+    },
+    {
       "id": "ricette/zuppe/vegan-misoshiru",
       "title": "Zuppa di Miso Vegana",
       "description": "La versione vegana della zuppa di miso.",
@@ -1217,6 +1223,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Osuimono Vegano",
       "description": "Zuppa trasparente e delicatissima, una versione vegana facile facile.",
       "permalink": "/ricette/osuimono"
+    },
+    {
+      "id": "ricette/zuppe/renkon_no_misoshiru",
+      "title": "Renkon no Misoshiru",
+      "description": "Zuppa di miso vegana con fette di radice di loto intagliate a teschio: la ricetta di Halloween spaventosamente facile, bella e buona.",
+      "permalink": "/ricette/renkon_no_misoshiru"
     },
     {
       "id": "ricette/zuppe/vegan-misoshiru",
@@ -2105,6 +2117,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/zuppa_di_miso"
     },
     {
+      "id": "ricette/zuppe/renkon_no_misoshiru",
+      "title": "Renkon no Misoshiru",
+      "description": "Zuppa di miso vegana con fette di radice di loto intagliate a teschio: la ricetta di Halloween spaventosamente facile, bella e buona.",
+      "permalink": "/ricette/renkon_no_misoshiru"
+    },
+    {
       "id": "ricette/zuppe/tonjiru",
       "title": "Tonjiru",
       "description": "La zuppa giapponese più confortante, un \"reset dell'anima\" ricco di maiale e verdure di radice.",
@@ -2153,6 +2171,14 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Nasu no Niku Miso",
       "description": "Una ricetta velocissima che unisce la cucina giapponese a quella italiana: carne trita, melanzane e miso per un condimento perfetto per il riso bianco.",
       "permalink": "/ricette/nasu-no-niku-miso"
+    }
+  ],
+  "halloween": [
+    {
+      "id": "ricette/zuppe/renkon_no_misoshiru",
+      "title": "Renkon no Misoshiru",
+      "description": "Zuppa di miso vegana con fette di radice di loto intagliate a teschio: la ricetta di Halloween spaventosamente facile, bella e buona.",
+      "permalink": "/ricette/renkon_no_misoshiru"
     }
   ],
   "konnyaku": [

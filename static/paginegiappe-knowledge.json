@@ -2,7 +2,7 @@
   "meta": {
     "site": "https://paginegiappe.it",
     "description": "Guida italiana alla cucina giapponese: ricette autentiche, ingredienti, negozi orientali in Italia, strumenti, viaggi e cultura gastronomica.",
-    "generated": "2026-10-04T19:52:45.910Z",
+    "generated": "2026-10-12T07:28:23.186Z",
     "version": 1
   },
   "ricette": [
@@ -2057,6 +2057,27 @@
         "Sale q.b."
       ],
       "instructions": "In Giappone c'è un'intera famiglia di zuppe, le Osuimono, che sono zuppe trasparenti, delicatissime, e si possono fare con un sacco di cose. Oggi ne facciamo una vegana, facile facile.\n\nTagliare il daikon a spicchietti e la carotina a mezze lune.\nAffettare la cipollina, separando la parte bianca (che andrà in cottura) da quella verde (che terremo da parte per guarnire).\nMettere a scaldare il dashi vegano in una pentola. Mi raccomando, aggiungere subito il sale, non ve lo dimenticate!\n\nAppena il dashi bolle, buttare dentro tutte le verdurine tagliate: daikon, carota e la parte bianca della cipollina.\nChiudere con il coperchio e cuocere per circa 10 minuti. La zuppa sarà pronta quando il daikon diventerà traslucido e stupendo.\nServire la zuppa ben calda in una ciotola, guarnire con la parte verde della cipollina e completare con un filo d'olio di sesamo."
+    },
+    {
+      "title": "Renkon no Misoshiru",
+      "description": "Zuppa di miso vegana con fette di radice di loto intagliate a teschio: la ricetta di Halloween spaventosamente facile, bella e buona.",
+      "url": "https://paginegiappe.it/ricette/renkon_no_misoshiru/",
+      "image": "https://paginegiappe.it/img/ricette/renkon_no_misoshiru.jpg",
+      "category": "Zuppe",
+      "tags": [
+        "vegan",
+        "miso",
+        "wakame",
+        "halloween"
+      ],
+      "recipeYield": "2 persone",
+      "ingredients": [
+        "radice di loto",
+        "dashi vegano",
+        "miso",
+        "wakame"
+      ],
+      "instructions": "Halloween si avvicina e questa è una delle ricette più da paura dell'anno, per due motivi: è completamente vegana ed è piena di teschietti. La zuppa di teschi di zio Jeko è una  in cui le fette di radice di loto (renkon) diventano piccoli teschi, sfruttando i buchi naturali della radice per fare gli occhi.\n\nIl brodo è il  di kombu e shiitake, e il miso è l'hatchomiso, scuro e intenso. Il risultato è spaventosamente facile, spaventosamente bello e spaventosamente buono.\n\nIngredienti per 2 persone\n\n- 4 fette di radice di loto (renkon) surgelata, circa 2 a persona\n- 2 tazze (circa 500 ml) di\n- 2 cucchiai di  scuro (hatchomiso), 1 a persona\n-  q.b.\n\nAttrezzature necessarie\n\n- Un coltellino affilato per intagliare la radice di loto\n- Un\n- Le coppette per la zuppa di miso, meglio se con il coperchio\n\nLa radice di loto si trova comodamente surgelata, già a fette, nei negozi asiatici. Scongelala, per esempio con la funzione di scongelamento del microonde.\n\nCon un coltellino intaglia ogni fetta a forma di teschio, usando i buchi della radice come occhi e ritagliando il contorno della mandibola.\n\nScegli le fette con gli occhi più strampalati: i teschietti vengono più buffi e più paurosi.\n\nPorta a bollore il dashi vegano in un pentolino, aggiungi i teschietti di loto e lasciali cuocere per almeno 15-20 minuti.\n\nQuando la radice di loto è pronta, aggiungi un po' di alghe wakame.\n\nSciogli il miso nel brodo con il colino e una frusta, così da non lasciare grumi.\n\nUna volta aggiunto il miso, la zuppa non deve più bollire: il miso perde aroma e fermenti.\n\nServi la zuppa nelle coppette per la zuppa di miso, con un paio di teschietti per ciotola.\n\nSe non trovi l'hatchomiso puoi usare un altro miso, per esempio l'akamiso (miso rosso): il colore sarà un po' meno scuro."
     },
     {
       "title": "Tofu in \"stracciatella\" con verdure",
