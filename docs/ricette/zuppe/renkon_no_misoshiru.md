@@ -51,6 +51,10 @@ Scegli le fette con gli occhi più strampalati: i teschietti vengono più buffi 
 
 Porta a bollore il dashi vegano in un pentolino, aggiungi i teschietti di loto e lasciali cuocere per almeno 15-20 minuti.
 
+:::tip
+Se non sei vegano, va benissimo anche il <Link to="/ricette/dashi/">dashi classico</Link> di kombu e katsuobushi.
+:::
+
 Quando la radice di loto è pronta, aggiungi un po' di alghe wakame.
 
 Sciogli il miso nel brodo con il colino e una frusta, così da non lasciare grumi.
