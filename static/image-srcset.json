@@ -1343,6 +1343,13 @@
     "width": 1000,
     "height": 1000
   },
+  "ricette/renkon_no_misoshiru.jpg": {
+    "hash": "d9eb6f13cceda1503b44b09410a6a025",
+    "original": "/img/ricette/renkon_no_misoshiru.jpg",
+    "srcset": "/img/ricette/renkon_no_misoshiru-320w.webp 320w, /img/ricette/renkon_no_misoshiru-640w.webp 640w, /img/ricette/renkon_no_misoshiru-1280w.webp 1280w, /img/ricette/renkon_no_misoshiru-1600w.webp 1600w",
+    "width": 1672,
+    "height": 941
+  },
   "ricette/shogayaki.jpg": {
     "hash": "0ff0f4e077e97f75a710a1953d68c9be",
     "original": "/img/ricette/shogayaki.jpg",
