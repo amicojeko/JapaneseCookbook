@@ -34,6 +34,13 @@
     "width": 500,
     "height": 499
   },
+  "authors/daniele_calabro.jpg": {
+    "hash": "90a957f6bf0305d066e1e14ab1d22c52",
+    "original": "/img/authors/daniele_calabro.jpg",
+    "srcset": "/img/authors/daniele_calabro-320w.webp 320w, /img/authors/daniele_calabro-640w.webp 640w",
+    "width": 822,
+    "height": 1095
+  },
   "authors/donatella_peterlin.jpg": {
     "hash": "dcec648034777f8d1af6d843799109ce",
     "original": "/img/authors/donatella_peterlin.jpg",
@@ -250,6 +257,13 @@
     "srcset": "/img/blog/jidohanbaiki/jidohanbaiki4-320w.webp 320w, /img/blog/jidohanbaiki/jidohanbaiki4-640w.webp 640w",
     "width": 1000,
     "height": 667
+  },
+  "blog/jojo_diamond_is_unbreakable.jpg": {
+    "hash": "1f13c927a91d6e0f8d903d2daab158c5",
+    "original": "/img/blog/jojo_diamond_is_unbreakable.jpg",
+    "srcset": "/img/blog/jojo_diamond_is_unbreakable-320w.webp 320w, /img/blog/jojo_diamond_is_unbreakable-640w.webp 640w, /img/blog/jojo_diamond_is_unbreakable-1280w.webp 1280w, /img/blog/jojo_diamond_is_unbreakable-1600w.webp 1600w",
+    "width": 1600,
+    "height": 900
   },
   "blog/kirin/kirin.jpg": {
     "hash": "aeea7b612aefb81f5605bf3c77adf5ab",

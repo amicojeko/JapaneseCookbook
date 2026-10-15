@@ -42,3 +42,8 @@ musica:
   label: Musica
   permalink: /musica
   description: City pop, sigle, colonne sonore e storie dietro le canzoni giapponesi.
+
+anime:
+  label: Anime
+  permalink: /anime
+  description: Anime, manga e dietro le quinte di adattamento e doppiaggio.
