@@ -1770,6 +1770,9 @@ article > .theme-doc-markdown.markdown > p:first-of-type::first-letter,
 :is(.blog-authors-posts-page, .blog-authors-list-page, .blog-post-page) .avatar__photo {
   border: 2px solid var(--pg-ink);
   background: var(--pg-paper-2);
+  /* Non-square photos: crop instead of stretching */
+  object-fit: cover;
+  object-position: center 35%;
 }
 
 /* Tags index page — chip cloud */

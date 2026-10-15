@@ -21,6 +21,23 @@ export type BlogIndexEntry = {
 
 export const BLOG_INDEX: BlogIndexEntry[] = [
   {
+    "slug": "jojo-adattamento-dialoghi-anime",
+    "permalink": "/blog/jojo-adattamento-dialoghi-anime/",
+    "title": "Adattare JoJo: come si porta in italiano Diamond is Unbreakable",
+    "description": "Daniele Calabrò, dialoghista, racconta com'è adattare i dialoghi italiani di Le Bizzarre Avventure di JoJo – Diamond is Unbreakable: sync, caratterizzazione dei personaggi, parolacce e copioni in americano.",
+    "image": "/img/blog/jojo_diamond_is_unbreakable.jpg",
+    "date": "2026-10-15",
+    "readingTime": 3.35,
+    "authors": [
+      {
+        "key": "daniele",
+        "name": "Daniele Calabrò",
+        "imageURL": "/img/authors/daniele_calabro.jpg",
+        "title": "Dialoghista e adattatore di serie animate · vecchio punk rocker, amante di montagna, musica e cultura nerd"
+      }
+    ]
+  },
+  {
     "slug": "pagode-giapponesi-antisismiche",
     "permalink": "/blog/pagode-giapponesi-antisismiche/",
     "title": "Perché le pagode giapponesi non crollano durante i terremoti",
@@ -102,23 +119,6 @@ export const BLOG_INDEX: BlogIndexEntry[] = [
         "name": "ToolsReborn – Wabi Sabi Story",
         "imageURL": "/img/authors/tools_reborn.jpg",
         "title": "Dietro la ruggine di ogni lama e di ogni attrezzo dimenticato si nasconde una storia unica"
-      }
-    ]
-  },
-  {
-    "slug": "kirin-logo-drago",
-    "permalink": "/blog/kirin-logo-drago/",
-    "title": "Perché il logo della birra Kirin è uno strano drago?",
-    "description": "Il logo della birra Kirin raffigura una creatura leggendaria a metà tra drago, cervo e cavallo. Origini cinesi, restyle giapponese e il giorno in cui il Kirin diventò... una giraffa.",
-    "image": "/img/blog/kirin/kirin.jpg",
-    "date": "2026-06-26",
-    "readingTime": 1.62,
-    "authors": [
-      {
-        "key": "fujitivo",
-        "name": "Erick \"il Fujitivo\"",
-        "imageURL": "/img/authors/logo_ilfujitivo.png",
-        "title": "Viaggiatore in Giappone dal 2008 · autore di \"Andiamo in Giappone\""
       }
     ]
   }

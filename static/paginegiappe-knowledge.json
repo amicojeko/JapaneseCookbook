@@ -2,7 +2,7 @@
   "meta": {
     "site": "https://paginegiappe.it",
     "description": "Guida italiana alla cucina giapponese: ricette autentiche, ingredienti, negozi orientali in Italia, strumenti, viaggi e cultura gastronomica.",
-    "generated": "2026-10-12T07:28:23.186Z",
+    "generated": "2026-10-15T07:08:16.792Z",
     "version": 1
   },
   "ricette": [
@@ -2077,7 +2077,7 @@
         "miso",
         "wakame"
       ],
-      "instructions": "Halloween si avvicina e questa è una delle ricette più da paura dell'anno, per due motivi: è completamente vegana ed è piena di teschietti. La zuppa di teschi di zio Jeko è una  in cui le fette di radice di loto (renkon) diventano piccoli teschi, sfruttando i buchi naturali della radice per fare gli occhi.\n\nIl brodo è il  di kombu e shiitake, e il miso è l'hatchomiso, scuro e intenso. Il risultato è spaventosamente facile, spaventosamente bello e spaventosamente buono.\n\nIngredienti per 2 persone\n\n- 4 fette di radice di loto (renkon) surgelata, circa 2 a persona\n- 2 tazze (circa 500 ml) di\n- 2 cucchiai di  scuro (hatchomiso), 1 a persona\n-  q.b.\n\nAttrezzature necessarie\n\n- Un coltellino affilato per intagliare la radice di loto\n- Un\n- Le coppette per la zuppa di miso, meglio se con il coperchio\n\nLa radice di loto si trova comodamente surgelata, già a fette, nei negozi asiatici. Scongelala, per esempio con la funzione di scongelamento del microonde.\n\nCon un coltellino intaglia ogni fetta a forma di teschio, usando i buchi della radice come occhi e ritagliando il contorno della mandibola.\n\nScegli le fette con gli occhi più strampalati: i teschietti vengono più buffi e più paurosi.\n\nPorta a bollore il dashi vegano in un pentolino, aggiungi i teschietti di loto e lasciali cuocere per almeno 15-20 minuti.\n\nQuando la radice di loto è pronta, aggiungi un po' di alghe wakame.\n\nSciogli il miso nel brodo con il colino e una frusta, così da non lasciare grumi.\n\nUna volta aggiunto il miso, la zuppa non deve più bollire: il miso perde aroma e fermenti.\n\nServi la zuppa nelle coppette per la zuppa di miso, con un paio di teschietti per ciotola.\n\nSe non trovi l'hatchomiso puoi usare un altro miso, per esempio l'akamiso (miso rosso): il colore sarà un po' meno scuro."
+      "instructions": "Halloween si avvicina e questa è una delle ricette più da paura dell'anno, per due motivi: è completamente vegana ed è piena di teschietti. La zuppa di teschi di zio Jeko è una  in cui le fette di radice di loto (renkon) diventano piccoli teschi, sfruttando i buchi naturali della radice per fare gli occhi.\n\nIl brodo è il  di kombu e shiitake, e il miso è l'hatchomiso, scuro e intenso. Il risultato è spaventosamente facile, spaventosamente bello e spaventosamente buono.\n\nIngredienti per 2 persone\n\n- 4 fette di radice di loto (renkon) surgelata, circa 2 a persona\n- 2 tazze (circa 500 ml) di\n- 2 cucchiai di  scuro (hatchomiso), 1 a persona\n-  q.b.\n\nAttrezzature necessarie\n\n- Un coltellino affilato per intagliare la radice di loto\n- Un\n- Le coppette per la zuppa di miso, meglio se con il coperchio\n\nLa radice di loto si trova comodamente surgelata, già a fette, nei negozi asiatici. Scongelala, per esempio con la funzione di scongelamento del microonde.\n\nCon un coltellino intaglia ogni fetta a forma di teschio, usando i buchi della radice come occhi e ritagliando il contorno della mandibola.\n\nScegli le fette con gli occhi più strampalati: i teschietti vengono più buffi e più paurosi.\n\nPorta a bollore il dashi vegano in un pentolino, aggiungi i teschietti di loto e lasciali cuocere per almeno 15-20 minuti.\n\nSe non sei vegano, va benissimo anche il  di kombu e katsuobushi.\n\nQuando la radice di loto è pronta, aggiungi un po' di alghe wakame.\n\nSciogli il miso nel brodo con il colino e una frusta, così da non lasciare grumi.\n\nUna volta aggiunto il miso, la zuppa non deve più bollire: il miso perde aroma e fermenti.\n\nServi la zuppa nelle coppette per la zuppa di miso, con un paio di teschietti per ciotola.\n\nSe non trovi l'hatchomiso puoi usare un altro miso, per esempio l'akamiso (miso rosso): il colore sarà un po' meno scuro."
     },
     {
       "title": "Tofu in \"stracciatella\" con verdure",
@@ -4793,6 +4793,20 @@
     }
   ],
   "blog": [
+    {
+      "title": "Adattare JoJo: come si porta in italiano Diamond is Unbreakable",
+      "description": "Daniele Calabrò, dialoghista, racconta com'è adattare i dialoghi italiani di Le Bizzarre Avventure di JoJo – Diamond is Unbreakable: sync, caratterizzazione dei personaggi, parolacce e copioni in americano.",
+      "url": "https://paginegiappe.it/blog/jojo-adattamento-dialoghi-anime/",
+      "image": "https://paginegiappe.it/img/blog/jojo_diamond_is_unbreakable.jpg",
+      "date": "2026-10-15",
+      "authors": [
+        "daniele"
+      ],
+      "tags": [
+        "anime",
+        "cultura"
+      ]
+    },
     {
       "title": "Perché le pagode giapponesi non crollano durante i terremoti",
       "description": "Alte, strette e di legno: le pagode a cinque piani sembrano fragilissime, e invece resistono ai terremoti da secoli. Shinbashira, incastri lignei e la danza del serpente.",
