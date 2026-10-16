@@ -105,3 +105,7 @@ https://ricette.jeko.net/* https://paginegiappe.it/:splat 301!
 /recipes/yakimono/yakisoba/ /ricette/yakisoba 301!
 /recipes/yakimono/yakitori/ /ricette/yakitori 301!
 /tags/alga-seaweed/ /tags/alga 301!
+
+# Vecchi slug che ricevono ancora impressioni (seo B6)
+/blog/le-scimmie-di-nikko/ /blog/le-tre-scimmie-di-nikko/ 301!
+/negozi_orientali/emilia-romagna/ /negozi_orientali/emilia_romagna/ 301!
