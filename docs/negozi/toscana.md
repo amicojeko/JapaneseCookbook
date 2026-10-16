@@ -1,11 +1,12 @@
 ---
-title: "Negozi asiatici e giapponesi in Toscana"
-description: "19 negozi di alimentari asiatici e giapponesi in Toscana: Firenze, Pisa, Siena, Grosseto. Indirizzi, mappa e shop online per ingredienti orientali."
+title: "Negozi asiatici a Firenze, Pisa e in Toscana"
+description: "19 negozi e supermercati asiatici in Toscana: Firenze, Prato, Pisa, Grosseto, Siena. Alimentari cinesi e giapponesi, indirizzi e mappa."
 slug: "/negozi_orientali/toscana"
 ---
 import { NEGOZI } from '@site/src/data/negozi';
 import RegionShopList from '@site/src/components/RegionShopList';
 
+In Toscana trovi **19 negozi di alimentari asiatici e giapponesi**, con la maggiore scelta a <a href="#city-firenze">Firenze</a> (7). <a href="#city-prato">Prato</a>, <a href="#city-grosseto">Grosseto</a> e <a href="#city-pisa">Pisa</a> ne hanno 2 ciascuna. Li chiami supermercati cinesi, asian market o alimentari etnici: qui trovi indirizzo e città di ogni negozio, per cercare quello più vicino a te.
 
 <RegionShopList region="Toscana" shops={NEGOZI} />
 
