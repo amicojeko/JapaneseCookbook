@@ -1,8 +1,9 @@
 ---
-title: Mirin
+title: "Mirin: cos'è e come si usa in cucina"
+sidebar_label: "Mirin"
 sidebar_custom_props:
   subtitle: Alcolico dolce a base di riso
-description: Condimento alcolico dolce a base di riso fondamentale nella cucina giapponese
+description: "Cos'è il mirin, il condimento dolce a base di riso della cucina giapponese: come si produce, a cosa serve, ricette e dove comprarlo in Italia."
 image: /img/ingredienti/mirin.jpg
 ---
 import IngredientRecipeList from '@site/src/components/IngredientRecipeList';

@@ -1,8 +1,9 @@
 ---
-title: Gyoza
+title: "Gyoza: ricetta dei ravioli giapponesi alla piastra"
+sidebar_label: "Gyoza"
 sidebar_custom_props:
   subtitle: Ravioli giapponesi croccanti
-description: Ravioli alla piastra
+description: "Ricetta dei gyoza, i ravioli giapponesi alla piastra: ripieno, piegatura e cottura, anche con la pasta per gyoza già pronta dei negozi etnici."
 slug: /ricette/gyoza
 image: /img/ricette/gyoza1.jpg
 ingredients:

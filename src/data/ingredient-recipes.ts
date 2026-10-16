@@ -8,8 +8,8 @@ export const INGREDIENT_RECIPE_INDEX = {
     },
     {
       "id": "ricette/agemono/kara-age",
-      "title": "Kara-Age",
-      "description": "Il pollo fritto piu' buono del mondo",
+      "title": "Kara-age: ricetta del pollo fritto giapponese",
+      "description": "Ricetta del kara-age, il pollo fritto giapponese con coscia e sottocoscia disossata: marinatura, panatura e frittura per un risultato croccante.",
       "permalink": "/ricette/kara-age"
     },
     {
@@ -62,14 +62,14 @@ export const INGREDIENT_RECIPE_INDEX = {
     },
     {
       "id": "ricette/preparazioni_di_base/salse/nikiri",
-      "title": "Nikiri Sauce",
-      "description": "Salsa densa da spennellare sui nigiri",
+      "title": "Salsa nikiri: ricetta per sushi e nigiri",
+      "description": "Ricetta della salsa nikiri, la glassa densa di sake, mirin e salsa di soia da spennellare su nigiri e sushi. Ingredienti, dosi e preparazione.",
       "permalink": "/ricette/salsa_nikiri"
     },
     {
       "id": "ricette/preparazioni_di_base/salse/ponzu",
-      "title": "Salsa Ponzu",
-      "description": "Salsa fresca ed agrumata",
+      "title": "Salsa ponzu: ricetta fatta in casa",
+      "description": "Ricetta della salsa ponzu fatta in casa: fresca, sapida e agrumata, con yuzu o limone. Ingredienti, dosi e usi in cucina giapponese.",
       "permalink": "/ricette/salsa_ponzu"
     },
     {
@@ -80,14 +80,14 @@ export const INGREDIENT_RECIPE_INDEX = {
     },
     {
       "id": "ricette/preparazioni_di_base/salse/teriyaki",
-      "title": "Salsa Teriyaki",
-      "description": "La salsa barbecue giapponese",
+      "title": "Salsa teriyaki: ricetta giapponese fatta in casa",
+      "description": "Ricetta della salsa teriyaki fatta in casa con sake, mirin e salsa di soia: la glassa lucida giapponese per pollo, salmone e carne. Dosi e preparazione.",
       "permalink": "/ricette/salsa_teriyaki"
     },
     {
       "id": "ricette/preparazioni_di_base/salse/yakitori",
-      "title": "Yakitori Tare",
-      "description": "Salsa per yakitori",
+      "title": "Salsa tare per yakitori: ricetta fatta in casa",
+      "description": "Ricetta della salsa tare per yakitori a base di salsa di soia e mirin: la glassa dolce e sapida per spiedini di pollo, da preparare in casa.",
       "permalink": "/ricette/salsa_yakitori"
     },
     {
@@ -182,8 +182,8 @@ export const INGREDIENT_RECIPE_INDEX = {
     },
     {
       "id": "ricette/yakimono/shogayaki",
-      "title": "Shogayaki",
-      "description": "Scaloppine di maiale allo zenzero",
+      "title": "Shogayaki: ricetta del maiale allo zenzero",
+      "description": "Ricetta dello shogayaki, le scaloppine di maiale allo zenzero giapponesi: veloci da preparare in padella, da servire con riso bianco e cavolo a julienne.",
       "permalink": "/ricette/shogayaki"
     },
     {
@@ -202,8 +202,8 @@ export const INGREDIENT_RECIPE_INDEX = {
     },
     {
       "id": "ricette/agemono/kara-age",
-      "title": "Kara-Age",
-      "description": "Il pollo fritto piu' buono del mondo",
+      "title": "Kara-age: ricetta del pollo fritto giapponese",
+      "description": "Ricetta del kara-age, il pollo fritto giapponese con coscia e sottocoscia disossata: marinatura, panatura e frittura per un risultato croccante.",
       "permalink": "/ricette/kara-age"
     },
     {
@@ -310,8 +310,8 @@ export const INGREDIENT_RECIPE_INDEX = {
     },
     {
       "id": "ricette/preparazioni_di_base/salse/ponzu",
-      "title": "Salsa Ponzu",
-      "description": "Salsa fresca ed agrumata",
+      "title": "Salsa ponzu: ricetta fatta in casa",
+      "description": "Ricetta della salsa ponzu fatta in casa: fresca, sapida e agrumata, con yuzu o limone. Ingredienti, dosi e usi in cucina giapponese.",
       "permalink": "/ricette/salsa_ponzu"
     },
     {
@@ -456,8 +456,8 @@ export const INGREDIENT_RECIPE_INDEX = {
     },
     {
       "id": "ricette/yakimono/gyoza",
-      "title": "Gyoza",
-      "description": "Ravioli alla piastra",
+      "title": "Gyoza: ricetta dei ravioli giapponesi alla piastra",
+      "description": "Ricetta dei gyoza, i ravioli giapponesi alla piastra: ripieno, piegatura e cottura, anche con la pasta per gyoza già pronta dei negozi etnici.",
       "permalink": "/ricette/gyoza"
     },
     {
@@ -488,8 +488,8 @@ export const INGREDIENT_RECIPE_INDEX = {
     },
     {
       "id": "ricette/agemono/kara-age",
-      "title": "Kara-Age",
-      "description": "Il pollo fritto piu' buono del mondo",
+      "title": "Kara-age: ricetta del pollo fritto giapponese",
+      "description": "Ricetta del kara-age, il pollo fritto giapponese con coscia e sottocoscia disossata: marinatura, panatura e frittura per un risultato croccante.",
       "permalink": "/ricette/kara-age"
     },
     {
@@ -500,8 +500,8 @@ export const INGREDIENT_RECIPE_INDEX = {
     },
     {
       "id": "ricette/preparazioni_di_base/salse/teriyaki",
-      "title": "Salsa Teriyaki",
-      "description": "La salsa barbecue giapponese",
+      "title": "Salsa teriyaki: ricetta giapponese fatta in casa",
+      "description": "Ricetta della salsa teriyaki fatta in casa con sake, mirin e salsa di soia: la glassa lucida giapponese per pollo, salmone e carne. Dosi e preparazione.",
       "permalink": "/ricette/salsa_teriyaki"
     },
     {
@@ -518,8 +518,8 @@ export const INGREDIENT_RECIPE_INDEX = {
     },
     {
       "id": "ricette/yakimono/shogayaki",
-      "title": "Shogayaki",
-      "description": "Scaloppine di maiale allo zenzero",
+      "title": "Shogayaki: ricetta del maiale allo zenzero",
+      "description": "Ricetta dello shogayaki, le scaloppine di maiale allo zenzero giapponesi: veloci da preparare in padella, da servire con riso bianco e cavolo a julienne.",
       "permalink": "/ricette/shogayaki"
     },
     {
@@ -532,8 +532,8 @@ export const INGREDIENT_RECIPE_INDEX = {
   "sake": [
     {
       "id": "ricette/agemono/kara-age",
-      "title": "Kara-Age",
-      "description": "Il pollo fritto piu' buono del mondo",
+      "title": "Kara-age: ricetta del pollo fritto giapponese",
+      "description": "Ricetta del kara-age, il pollo fritto giapponese con coscia e sottocoscia disossata: marinatura, panatura e frittura per un risultato croccante.",
       "permalink": "/ricette/kara-age"
     },
     {
@@ -544,8 +544,8 @@ export const INGREDIENT_RECIPE_INDEX = {
     },
     {
       "id": "ricette/fish/teriyaki_salmon",
-      "title": "Salmone Teriyaki",
-      "description": "Salmone in padella con salsa Teriyaki",
+      "title": "Salmone teriyaki: ricetta in padella",
+      "description": "Ricetta del salmone teriyaki in padella: filetti glassati con salsa teriyaki fatta in casa, pronti in pochi minuti. Ingredienti, dosi e preparazione.",
       "permalink": "/ricette/salmone_teriyaki"
     },
     {
@@ -574,20 +574,20 @@ export const INGREDIENT_RECIPE_INDEX = {
     },
     {
       "id": "ricette/preparazioni_di_base/salse/nikiri",
-      "title": "Nikiri Sauce",
-      "description": "Salsa densa da spennellare sui nigiri",
+      "title": "Salsa nikiri: ricetta per sushi e nigiri",
+      "description": "Ricetta della salsa nikiri, la glassa densa di sake, mirin e salsa di soia da spennellare su nigiri e sushi. Ingredienti, dosi e preparazione.",
       "permalink": "/ricette/salsa_nikiri"
     },
     {
       "id": "ricette/preparazioni_di_base/salse/teriyaki",
-      "title": "Salsa Teriyaki",
-      "description": "La salsa barbecue giapponese",
+      "title": "Salsa teriyaki: ricetta giapponese fatta in casa",
+      "description": "Ricetta della salsa teriyaki fatta in casa con sake, mirin e salsa di soia: la glassa lucida giapponese per pollo, salmone e carne. Dosi e preparazione.",
       "permalink": "/ricette/salsa_teriyaki"
     },
     {
       "id": "ricette/preparazioni_di_base/salse/yakitori",
-      "title": "Yakitori Tare",
-      "description": "Salsa per yakitori",
+      "title": "Salsa tare per yakitori: ricetta fatta in casa",
+      "description": "Ricetta della salsa tare per yakitori a base di salsa di soia e mirin: la glassa dolce e sapida per spiedini di pollo, da preparare in casa.",
       "permalink": "/ricette/salsa_yakitori"
     },
     {
@@ -646,8 +646,8 @@ export const INGREDIENT_RECIPE_INDEX = {
     },
     {
       "id": "ricette/yakimono/gyoza",
-      "title": "Gyoza",
-      "description": "Ravioli alla piastra",
+      "title": "Gyoza: ricetta dei ravioli giapponesi alla piastra",
+      "description": "Ricetta dei gyoza, i ravioli giapponesi alla piastra: ripieno, piegatura e cottura, anche con la pasta per gyoza già pronta dei negozi etnici.",
       "permalink": "/ricette/gyoza"
     },
     {
@@ -664,8 +664,8 @@ export const INGREDIENT_RECIPE_INDEX = {
     },
     {
       "id": "ricette/yakimono/shogayaki",
-      "title": "Shogayaki",
-      "description": "Scaloppine di maiale allo zenzero",
+      "title": "Shogayaki: ricetta del maiale allo zenzero",
+      "description": "Ricetta dello shogayaki, le scaloppine di maiale allo zenzero giapponesi: veloci da preparare in padella, da servire con riso bianco e cavolo a julienne.",
       "permalink": "/ricette/shogayaki"
     }
   ],
@@ -686,8 +686,8 @@ export const INGREDIENT_RECIPE_INDEX = {
     },
     {
       "id": "ricette/menrui/yakisoba",
-      "title": "Yakisoba",
-      "description": "La pasta saltata alla giapponese",
+      "title": "Yakisoba: ricetta dei noodles saltati giapponesi",
+      "description": "Ricetta degli yakisoba, i noodles saltati alla giapponese con la loro salsa agrodolce e umami: ingredienti, dosi e preparazione passo passo.",
       "permalink": "/ricette/yakisoba"
     },
     {
@@ -710,8 +710,8 @@ export const INGREDIENT_RECIPE_INDEX = {
     },
     {
       "id": "ricette/yakimono/gyoza",
-      "title": "Gyoza",
-      "description": "Ravioli alla piastra",
+      "title": "Gyoza: ricetta dei ravioli giapponesi alla piastra",
+      "description": "Ricetta dei gyoza, i ravioli giapponesi alla piastra: ripieno, piegatura e cottura, anche con la pasta per gyoza già pronta dei negozi etnici.",
       "permalink": "/ricette/gyoza"
     },
     {
@@ -774,14 +774,14 @@ export const INGREDIENT_RECIPE_INDEX = {
     },
     {
       "id": "ricette/menrui/yakisoba",
-      "title": "Yakisoba",
-      "description": "La pasta saltata alla giapponese",
+      "title": "Yakisoba: ricetta dei noodles saltati giapponesi",
+      "description": "Ricetta degli yakisoba, i noodles saltati alla giapponese con la loro salsa agrodolce e umami: ingredienti, dosi e preparazione passo passo.",
       "permalink": "/ricette/yakisoba"
     },
     {
       "id": "ricette/preparazioni_di_base/brodi/dashi",
-      "title": "Dashi",
-      "description": "il brodo base per moltissime ricette",
+      "title": "Dashi: ricetta del brodo base giapponese",
+      "description": "Ricetta del dashi, il brodo base giapponese con acqua, kombu e katsuobushi: come prepararlo, conservarlo e usarlo per zuppa di miso, udon e oden.",
       "permalink": "/ricette/dashi"
     },
     {
@@ -964,8 +964,8 @@ export const INGREDIENT_RECIPE_INDEX = {
     },
     {
       "id": "ricette/yakimono/gyoza",
-      "title": "Gyoza",
-      "description": "Ravioli alla piastra",
+      "title": "Gyoza: ricetta dei ravioli giapponesi alla piastra",
+      "description": "Ricetta dei gyoza, i ravioli giapponesi alla piastra: ripieno, piegatura e cottura, anche con la pasta per gyoza già pronta dei negozi etnici.",
       "permalink": "/ricette/gyoza"
     },
     {
@@ -982,8 +982,8 @@ export const INGREDIENT_RECIPE_INDEX = {
     },
     {
       "id": "ricette/zuppe/misoshiru",
-      "title": "Misoshiru",
-      "description": "Zuppa di miso",
+      "title": "Zuppa di miso (misoshiru): ricetta classica",
+      "description": "Ricetta della zuppa di miso (misoshiru) con dashi e miso: la versione base e tante varianti con verdure, funghi, tofu e alghe, passo passo.",
       "permalink": "/ricette/zuppa_di_miso"
     }
   ],
@@ -1046,8 +1046,8 @@ export const INGREDIENT_RECIPE_INDEX = {
     },
     {
       "id": "ricette/yakimono/gyoza",
-      "title": "Gyoza",
-      "description": "Ravioli alla piastra",
+      "title": "Gyoza: ricetta dei ravioli giapponesi alla piastra",
+      "description": "Ricetta dei gyoza, i ravioli giapponesi alla piastra: ripieno, piegatura e cottura, anche con la pasta per gyoza già pronta dei negozi etnici.",
       "permalink": "/ricette/gyoza"
     },
     {
@@ -1078,8 +1078,8 @@ export const INGREDIENT_RECIPE_INDEX = {
     },
     {
       "id": "ricette/zuppe/misoshiru",
-      "title": "Misoshiru",
-      "description": "Zuppa di miso",
+      "title": "Zuppa di miso (misoshiru): ricetta classica",
+      "description": "Ricetta della zuppa di miso (misoshiru) con dashi e miso: la versione base e tante varianti con verdure, funghi, tofu e alghe, passo passo.",
       "permalink": "/ricette/zuppa_di_miso"
     },
     {
@@ -1376,8 +1376,8 @@ export const INGREDIENT_RECIPE_INDEX = {
     },
     {
       "id": "ricette/preparazioni_di_base/brodi/dashi",
-      "title": "Dashi",
-      "description": "il brodo base per moltissime ricette",
+      "title": "Dashi: ricetta del brodo base giapponese",
+      "description": "Ricetta del dashi, il brodo base giapponese con acqua, kombu e katsuobushi: come prepararlo, conservarlo e usarlo per zuppa di miso, udon e oden.",
       "permalink": "/ricette/dashi"
     },
     {
@@ -1526,8 +1526,8 @@ export const INGREDIENT_RECIPE_INDEX = {
     },
     {
       "id": "ricette/riso/onigiri",
-      "title": "Onigiri al Tonno e Maionese",
-      "description": "Il classico snack giapponese per una merenda veloce o un pranzo al sacco.",
+      "title": "Onigiri: ricetta con tonno e maionese",
+      "description": "Ricetta degli onigiri, le polpette di riso giapponesi: come modellarli, avvolgerli nel nori e farcirli con tonno e maionese (tsunamayo).",
       "permalink": "/ricette/onigiri"
     },
     {
@@ -1624,8 +1624,8 @@ export const INGREDIENT_RECIPE_INDEX = {
     },
     {
       "id": "ricette/preparazioni_di_base/salse/ponzu",
-      "title": "Salsa Ponzu",
-      "description": "Salsa fresca ed agrumata",
+      "title": "Salsa ponzu: ricetta fatta in casa",
+      "description": "Ricetta della salsa ponzu fatta in casa: fresca, sapida e agrumata, con yuzu o limone. Ingredienti, dosi e usi in cucina giapponese.",
       "permalink": "/ricette/salsa_ponzu"
     },
     {
@@ -1680,8 +1680,8 @@ export const INGREDIENT_RECIPE_INDEX = {
   "aonori": [
     {
       "id": "ricette/menrui/yakisoba",
-      "title": "Yakisoba",
-      "description": "La pasta saltata alla giapponese",
+      "title": "Yakisoba: ricetta dei noodles saltati giapponesi",
+      "description": "Ricetta degli yakisoba, i noodles saltati alla giapponese con la loro salsa agrodolce e umami: ingredienti, dosi e preparazione passo passo.",
       "permalink": "/ricette/yakisoba"
     }
   ],
@@ -1830,8 +1830,8 @@ export const INGREDIENT_RECIPE_INDEX = {
   "rice": [
     {
       "id": "ricette/preparazioni_di_base/salse/okonomiyaki",
-      "title": "Salsa Okonomiyaki",
-      "description": "Salsa per gli okonomiyaki",
+      "title": "Salsa okonomiyaki: ricetta fatta in casa",
+      "description": "Ricetta della salsa okonomiyaki fatta in casa con ketchup, Worcestershire e salsa di ostriche: si prepara in pochi minuti, ingredienti e dosi precise.",
       "permalink": "/ricette/salsa_okonomiyaki"
     },
     {
@@ -1860,8 +1860,8 @@ export const INGREDIENT_RECIPE_INDEX = {
     },
     {
       "id": "ricette/riso/onigiri",
-      "title": "Onigiri al Tonno e Maionese",
-      "description": "Il classico snack giapponese per una merenda veloce o un pranzo al sacco.",
+      "title": "Onigiri: ricetta con tonno e maionese",
+      "description": "Ricetta degli onigiri, le polpette di riso giapponesi: come modellarli, avvolgerli nel nori e farcirli con tonno e maionese (tsunamayo).",
       "permalink": "/ricette/onigiri"
     },
     {
@@ -1940,8 +1940,8 @@ export const INGREDIENT_RECIPE_INDEX = {
   "yuzu": [
     {
       "id": "ricette/preparazioni_di_base/salse/ponzu",
-      "title": "Salsa Ponzu",
-      "description": "Salsa fresca ed agrumata",
+      "title": "Salsa ponzu: ricetta fatta in casa",
+      "description": "Ricetta della salsa ponzu fatta in casa: fresca, sapida e agrumata, con yuzu o limone. Ingredienti, dosi e usi in cucina giapponese.",
       "permalink": "/ricette/salsa_ponzu"
     }
   ],
@@ -2112,8 +2112,8 @@ export const INGREDIENT_RECIPE_INDEX = {
     },
     {
       "id": "ricette/zuppe/misoshiru",
-      "title": "Misoshiru",
-      "description": "Zuppa di miso",
+      "title": "Zuppa di miso (misoshiru): ricetta classica",
+      "description": "Ricetta della zuppa di miso (misoshiru) con dashi e miso: la versione base e tante varianti con verdure, funghi, tofu e alghe, passo passo.",
       "permalink": "/ricette/zuppa_di_miso"
     },
     {

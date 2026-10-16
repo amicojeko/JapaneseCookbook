@@ -1,8 +1,9 @@
 ---
-title: Misoshiru
+title: "Zuppa di miso (misoshiru): ricetta classica"
+sidebar_label: "Misoshiru"
 sidebar_custom_props:
   subtitle: La zuppa di miso
-description: Zuppa di miso
+description: "Ricetta della zuppa di miso (misoshiru) con dashi e miso: la versione base e tante varianti con verdure, funghi, tofu e alghe, passo passo."
 slug: /ricette/zuppa_di_miso
 image: /img/ricette/misoshiru.jpg
 ingredients:

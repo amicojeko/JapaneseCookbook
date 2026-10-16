@@ -1,8 +1,9 @@
 ---
-title: Kara-Age
+title: "Kara-age: ricetta del pollo fritto giapponese"
+sidebar_label: "Kara-Age"
 sidebar_custom_props:
   subtitle: Il pollo fritto giapponese
-description: Il pollo fritto piu' buono del mondo
+description: "Ricetta del kara-age, il pollo fritto giapponese con coscia e sottocoscia disossata: marinatura, panatura e frittura per un risultato croccante."
 slug: /ricette/kara-age
 image: /img/ricette/karaage.jpg
 ingredients:

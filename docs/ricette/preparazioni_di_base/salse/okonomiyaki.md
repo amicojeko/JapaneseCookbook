@@ -1,8 +1,9 @@
 ---
-title: Salsa Okonomiyaki
+title: "Salsa okonomiyaki: ricetta fatta in casa"
+sidebar_label: "Salsa Okonomiyaki"
 sidebar_custom_props:
   subtitle: Salsa densa e agrodolce
-description: Salsa per gli okonomiyaki
+description: "Ricetta della salsa okonomiyaki fatta in casa con ketchup, Worcestershire e salsa di ostriche: si prepara in pochi minuti, ingredienti e dosi precise."
 slug: /ricette/salsa_okonomiyaki
 ingredients:
 - aceto di mele o aceto di riso

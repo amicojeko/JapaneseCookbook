@@ -1,8 +1,9 @@
 ---
-title: Dashi
+title: "Dashi: ricetta del brodo base giapponese"
+sidebar_label: "Dashi"
 sidebar_custom_props:
   subtitle: Il brodo base giapponese
-description: il brodo base per moltissime ricette
+description: "Ricetta del dashi, il brodo base giapponese con acqua, kombu e katsuobushi: come prepararlo, conservarlo e usarlo per zuppa di miso, udon e oden."
 slug: /ricette/dashi
 image: /img/ricette/dashi.jpg
 ingredients:

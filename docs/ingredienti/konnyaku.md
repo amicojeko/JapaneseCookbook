@@ -1,8 +1,9 @@
 ---
-title: Konnyaku
+title: "Konnyaku: cos'è, come si usa e ricette"
+sidebar_label: "Konnyaku"
 sidebar_custom_props:
   subtitle: Gelatina di konjac
-description: Gelatina tradizionale giapponese fatta con la pianta di konjac
+description: "Cos'è il konnyaku, la gelatina giapponese di konjac: texture, come si usa in oden e stufati, la versione shirataki e dove comprarlo in Italia."
 image: /img/ingredienti/konnyaku-1.jpg
 ---
 import IngredientRecipeList from '@site/src/components/IngredientRecipeList';

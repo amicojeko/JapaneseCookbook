@@ -1,8 +1,9 @@
 ---
-title: Yakisoba
+title: "Yakisoba: ricetta dei noodles saltati giapponesi"
+sidebar_label: "Yakisoba"
 sidebar_custom_props:
   subtitle: Noodles saltati in padella
-description: La pasta saltata alla giapponese
+description: "Ricetta degli yakisoba, i noodles saltati alla giapponese con la loro salsa agrodolce e umami: ingredienti, dosi e preparazione passo passo."
 slug: /ricette/yakisoba
 image: /img/ricette/yakisoba.jpg
 ingredients:

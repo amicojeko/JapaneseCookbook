@@ -1,8 +1,9 @@
 ---
-title: Funghi Enoki
+title: "Funghi enoki: cos'è, come si cucinano e ricette"
+sidebar_label: "Funghi Enoki"
 sidebar_custom_props:
   subtitle: Funghi bianchi e sottili
-description: I funghi bianchi lunghi e sottoli
+description: "Cosa sono i funghi enoki, lunghi e sottili con il cappello bianco: come si usano nella cucina giapponese, ricette e dove comprarli in Italia."
 image: /img/ingredienti/enoki-1.jpg
 category: ingredienti
 ---

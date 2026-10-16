@@ -1,8 +1,9 @@
 ---
-title: Nikiri Sauce
+title: "Salsa nikiri: ricetta per sushi e nigiri"
+sidebar_label: "Nikiri Sauce"
 sidebar_custom_props:
   subtitle: Salsa glassante per sushi
-description: Salsa densa da spennellare sui nigiri
+description: "Ricetta della salsa nikiri, la glassa densa di sake, mirin e salsa di soia da spennellare su nigiri e sushi. Ingredienti, dosi e preparazione."
 slug: /ricette/salsa_nikiri
 ingredients:
 - / di salsa di soia

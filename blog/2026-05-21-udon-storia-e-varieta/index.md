@@ -67,7 +67,7 @@ Le guarnizioni possono essere infinite: uovo crudo (*tsukimi*), alga [wakame](/i
   caption="Zaru udon: i noodle si intingono boccone per boccone in una ciotola di tsuyu (mentsuyu)."
 />
 
-**[Yaki udon](/ricette/yaki-udon)**: preparati saltando i noodle su una piastra o in padella insieme a carne, verdure e talvolta uova. Il tutto viene condito con salsa yakisoba — simile alla salsa okonomiyaki — e completato con [beni-shoga](/ingredienti/beni_shoga) (zenzero sottaceto allo shiso), alga [nori](/ingredienti/nori) tritata e katsuobushi.
+**[Yaki udon](/ricette/yaki-udon/)**: preparati saltando i noodle su una piastra o in padella insieme a carne, verdure e talvolta uova. Il tutto viene condito con salsa yakisoba — simile alla salsa okonomiyaki — e completato con [beni-shoga](/ingredienti/beni_shoga) (zenzero sottaceto allo shiso), alga [nori](/ingredienti/nori) tritata e katsuobushi.
 
 <ImageComponent
   src="/img/blog/udon/udon2.jpg"

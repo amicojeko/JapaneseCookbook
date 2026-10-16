@@ -1,8 +1,9 @@
 ---
-title: Yakitori Tare
+title: "Salsa tare per yakitori: ricetta fatta in casa"
+sidebar_label: "Yakitori Tare"
 sidebar_custom_props:
   subtitle: Salsa glassante per yakitori
-description: Salsa per yakitori
+description: "Ricetta della salsa tare per yakitori a base di salsa di soia e mirin: la glassa dolce e sapida per spiedini di pollo, da preparare in casa."
 slug: /ricette/salsa_yakitori
 ingredients:
 - Opzionale - zenzero e aglio grattugiati
