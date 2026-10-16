@@ -1,8 +1,9 @@
 ---
-title: Shogayaki
+title: "Shogayaki: ricetta del maiale allo zenzero"
+sidebar_label: "Shogayaki"
 sidebar_custom_props:
   subtitle: Scaloppine di maiale allo zenzero
-description: Scaloppine di maiale allo zenzero
+description: "Ricetta dello shogayaki, le scaloppine di maiale allo zenzero giapponesi: veloci da preparare in padella, da servire con riso bianco e cavolo a julienne."
 slug: /ricette/shogayaki
 image: /img/ricette/shogayaki.jpg
 ingredients:

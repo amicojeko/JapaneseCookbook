@@ -1,5 +1,7 @@
 ---
-title: Salsa Tonkatsu
+title: "Salsa tonkatsu: ricetta fatta in casa"
+sidebar_label: "Salsa Tonkatsu"
+description: "Ricetta della salsa tonkatsu fatta in casa con ketchup e salsa Worcestershire: la salsa agrodolce giapponese per accompagnare la cotoletta. Dosi e consigli."
 sidebar_custom_props:
   subtitle: Salsa per il tonkatsu
 slug: /ricette/salsa_tonkatsu

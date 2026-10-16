@@ -1,8 +1,9 @@
 ---
-title: Salsa Yakisoba
+title: "Salsa yakisoba: ricetta fatta in casa"
+sidebar_label: "Salsa Yakisoba"
 sidebar_custom_props:
   subtitle: Salsa per yakisoba fatta in casa
-description: La salsa agrodolce e umami indispensabile per preparare gli yakisoba fatti in casa.
+description: "Ricetta della salsa yakisoba fatta in casa: agrodolce e umami, si prepara a freddo in pochi minuti. Ingredienti, dosi e consigli per i noodles saltati."
 slug: /ricette/salsa_yakisoba
 ingredients:
 - Zucchero

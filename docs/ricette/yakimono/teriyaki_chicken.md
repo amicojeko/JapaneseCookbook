@@ -1,6 +1,7 @@
 ---
-title: Pollo Teriyaki
-description: Il segreto per un pollo succoso e perfettamente caramellato
+title: "Pollo teriyaki: ricetta giapponese originale"
+sidebar_label: "Pollo Teriyaki"
+description: "Ricetta del pollo teriyaki giapponese: pelle dorata, carne tenera e glassa lucida con il metodo tradizionale. Ingredienti, dosi e preparazione."
 slug: /ricette/pollo_teriyaki
 ingredients:
   - sovracosce di pollo

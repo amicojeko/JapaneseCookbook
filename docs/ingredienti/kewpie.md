@@ -1,8 +1,9 @@
 ---
-title: Japanese Mayo (Kewpie)
+title: "Maionese giapponese Kewpie: cos'è e come si usa"
+sidebar_label: "Japanese Mayo (Kewpie)"
 sidebar_custom_props:
   subtitle: La maionese giapponese
-description: La piu' famosa maionese giapponese
+description: "Cos'è la maionese giapponese Kewpie, fatta con soli tuorli: cosa la rende diversa da quella classica, come si usa e dove comprarla in Italia."
 image: /img/ingredienti/kewpie-1.jpg
 ---
 import IngredientRecipeList from '@site/src/components/IngredientRecipeList';

@@ -1,8 +1,9 @@
 ---
-title: Onigiri al Tonno e Maionese
+title: "Onigiri: ricetta con tonno e maionese"
+sidebar_label: "Onigiri al Tonno e Maionese"
 sidebar_custom_props:
   subtitle: Polpette di riso ripiene
-description: Il classico snack giapponese per una merenda veloce o un pranzo al sacco.
+description: "Ricetta degli onigiri, le polpette di riso giapponesi: come modellarli, avvolgerli nel nori e farcirli con tonno e maionese (tsunamayo)."
 slug: /ricette/onigiri
 ingredients:
   - riso cotto

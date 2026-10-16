@@ -1,8 +1,9 @@
 ---
-title: Salsa Teriyaki
+title: "Salsa teriyaki: ricetta giapponese fatta in casa"
+sidebar_label: "Salsa Teriyaki"
 sidebar_custom_props:
   subtitle: Salsa dolce e glassante
-description: La salsa barbecue giapponese
+description: "Ricetta della salsa teriyaki fatta in casa con sake, mirin e salsa di soia: la glassa lucida giapponese per pollo, salmone e carne. Dosi e preparazione."
 slug: /ricette/salsa_teriyaki
 ingredients:
 - fecola di patate o amido di mais

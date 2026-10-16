@@ -1,8 +1,9 @@
 ---
-title: Salsa Ponzu
+title: "Salsa ponzu: ricetta fatta in casa"
+sidebar_label: "Salsa Ponzu"
 sidebar_custom_props:
   subtitle: Salsa agrumata fresca
-description: Salsa fresca ed agrumata
+description: "Ricetta della salsa ponzu fatta in casa: fresca, sapida e agrumata, con yuzu o limone. Ingredienti, dosi e usi in cucina giapponese."
 slug: /ricette/salsa_ponzu
 image: /img/ricette/ponzu.jpg
 ingredients:

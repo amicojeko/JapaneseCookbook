@@ -1,8 +1,9 @@
 ---
-title: Shoyu (Salsa di Soia)
+title: "Shoyu: cos'è la salsa di soia giapponese"
+sidebar_label: "Shoyu (Salsa di Soia)"
 sidebar_custom_props:
   subtitle: Salsa di soia fermentata
-description: Tutto quello che c'è da sapere sulla salsa di soia giapponese, dalle differenze regionali al metodo di produzione tradizionale Honjozo
+description: "Cos'è lo shoyu, la salsa di soia giapponese: i tipi, le differenze regionali, il metodo di produzione Honjozo e come si usa in cucina."
 slug: /ingredienti/shoyu
 ---
 import IngredientRecipeList from '@site/src/components/IngredientRecipeList';

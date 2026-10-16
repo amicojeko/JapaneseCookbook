@@ -1,8 +1,9 @@
 ---
-title: Alga Kombu
+title: "Alga kombu: cos'è, come si usa e dove comprarla"
+sidebar_label: "Alga Kombu"
 sidebar_custom_props:
   subtitle: Alga per brodo dashi
-description: L'alga base per il dashi
+description: "Cos'è l'alga kombu, l'alga ricca di umami alla base del dashi: come si usa in cucina, ricette giapponesi e dove comprarla in Italia."
 image: /img/ingredienti/kombu-1.jpg
 tags:
   - alga

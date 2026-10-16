@@ -2,7 +2,7 @@
   "meta": {
     "site": "https://paginegiappe.it",
     "description": "Guida italiana alla cucina giapponese: ricette autentiche, ingredienti, negozi orientali in Italia, strumenti, viaggi e cultura gastronomica.",
-    "generated": "2026-10-15T07:08:16.792Z",
+    "generated": "2026-10-16T09:42:44.432Z",
     "version": 1
   },
   "ricette": [
@@ -54,8 +54,8 @@
       "instructions": "Se cercate un modo per rendere i funghi irresistibili, l'Enoki Tatsuta-age è la risposta definitiva. In Giappone viene definito un piatto \"ladro di riso\" (gohan dorobo), perché è così saporito che vi farà finire la vostra ciotola di riso in un batter d'occhio. Nonostante siano fritti, rimangono leggeri e croccanti, rappresentando un'alternativa sana ma estremamente soddisfacente ai classici snack. Sono perfetti come antipasto, per arricchire il vostro bento o come stuzzichino accompagnato da una birra ghiacciata.\n\nIniziamo preparando i funghi enoki. È importante rimuovere la base (la parte terrosa), ma fate attenzione a non tagliare troppo in alto: i funghi devono rimanere uniti alla base per facilitare la frittura e mantenere la forma a ventaglio. Una volta puliti, dividete il mazzo in circa 8 piccoli mazzetti.\n\nPrendete un sacchetto per alimenti in plastica (tipo quelli per il gelo) e inserite i mazzetti di enoki insieme alla salsa di soia (o yakiniku), alla maionese, allo zenzero e all'aglio. Chiudete il sacchetto e massaggiate delicatamente affinché la marinatura penetri bene tra le fibre dei funghi. Lasciate riposare per circa 10 minuti in modo che i sapori vengano assorbiti.\n\nPassato il tempo di marinatura, scolate i funghi dal liquido in eccesso e trasferiteli in un nuovo sacchetto pulito. Aggiungete i semi di sesamo e la fecola di patate. Il segreto per una panatura perfetta è aggiungere la fecola un cucchiaio alla volta, scuotendo bene il sacchetto per distribuirla uniformemente su ogni mazzetto.\n\nLa marinatura con la salsa yakiniku tende a bruciare facilmente a causa degli zuccheri contenuti. Durante la frittura, controllate costantemente la temperatura dell'olio e regolate la fiamma se necessario per evitare che i funghi diventino troppo scuri prima di essere pronti.\n\nIn una padella antiaderente, scaldate una piccola quantità di olio di semi a fuoco medio. Quando l'olio è ben caldo, adagiate i mazzetti di enoki ben distanziati tra loro. Friggete finché non raggiungono un bel colore dorato e una consistenza croccante su entrambi i lati.\n\nSe preparate questo piatto come stuzzichino per un aperitivo, provate a spolverare i funghi ancora caldi con del pepe nero macinato fresco: esalterà incredibilmente il contrasto tra la dolcezza della marinatura e il sapido della frittura."
     },
     {
-      "title": "Kara-Age",
-      "description": "Il pollo fritto piu' buono del mondo",
+      "title": "Kara-age: ricetta del pollo fritto giapponese",
+      "description": "Ricetta del kara-age, il pollo fritto giapponese con coscia e sottocoscia disossata: marinatura, panatura e frittura per un risultato croccante.",
       "url": "https://paginegiappe.it/ricette/kara-age/",
       "image": "https://paginegiappe.it/img/ricette/karaage.jpg",
       "category": "Fritti",
@@ -273,8 +273,8 @@
       "instructions": "Per la salsa Amazu (agrodolce)\n- 1 cucchiaio di Zucchero\n- 2 cucchiai di Aceto (il doppio della quantità di zucchero)\n- Una goccia di Shoyu (salsa di soia)\n\nMetti i moscardini in una ciotola di terracotta (o una ciotola capiente). Aggiungi abbondante sale e massaggiali con cura ed energia. Fallo finché non ti sembra di star esagerando: quella è la quantità giusta di frizione.\nSciacquali molto bene sotto l'acqua corrente per rimuovere tutto il sale e le impurità.\n\nPorta a bollore una pentola d'acqua e aggiungi sale. Immergi i moscardini tenendoli per la testa e bagnando prima solo le punte dei tentacoli ripetutamente (\"choi choi\"). Facendo così, i tentacoli si arricceranno verso l'esterno e prenderanno una bella forma una volta cotti.\nQuando la testa diventa dura e compatta al tatto, sono pronti. Scolali.\n\nPrendi il negi e taglialo diagonalmente a pezzi grossolani.\nMettili in un cestello per la cottura al vapore e cuocili finché non diventano teneri e dolci.\n\nNel frattempo prepara la salsa: in un pentolino metti un cucchiaio di zucchero e il doppio della quantità di aceto. Scalda leggermente solo per far sciogliere lo zucchero. Lascia raffreddare e aggiungi una piccolissima quantità di shoyu.\n\nTaglia i moscardini bolliti a pezzi facili da mangiare (la tecnica di taglio dipende dai gusti).\n\nImpiattamento: disponi il negi cotto al vapore sul fondo del piatto, spargi sopra i pezzi di moscardino. Condisci versando la salsa agrodolce (amazu) e completa con una spolverata di pepe nero.\n\nItadakimasu!"
     },
     {
-      "title": "Salmone Teriyaki",
-      "description": "Salmone in padella con salsa Teriyaki",
+      "title": "Salmone teriyaki: ricetta in padella",
+      "description": "Ricetta del salmone teriyaki in padella: filetti glassati con salsa teriyaki fatta in casa, pronti in pochi minuti. Ingredienti, dosi e preparazione.",
       "url": "https://paginegiappe.it/ricette/salmone_teriyaki/",
       "image": "https://paginegiappe.it/img/ricette/teriyaki_salmon.webp",
       "category": "Pesce",
@@ -607,8 +607,8 @@
       "instructions": "Tutti conoscono gli udon, ma quasi nessuno li ha mai mangiati come si fa comunemente in Giappone. Gli Yaki Udon (letteralmente \"udon alla piastra\" o in padella) sono un pasto completo, incredibilmente economico e ben bilanciato.\n\nLa loro origine è affascinante: sono nati nella città di Kokura alla fine della Seconda Guerra Mondiale. In un periodo di forte scarsità di cibo, un ristoratore che preparava yakisoba si trovò sprovvisto dei noodles specifici e decise di usare gli udon come sostituto d'emergenza. Fatto sta che oggi sono popolarissimi nelle case, nelle izakaya e soprattutto nei matsuri (le sagre estive giapponesi), dove enormi piastre fumanti profumano l'aria di Giappone. Fonte: Wikipedia\n\nIniziamo la preparazione tagliando le verdure che formeranno la base del piatto. Tagliamo la carota a listarelle sottili e il cavolo cappuccio a pezzi grossolani. Un trucco importante riguarda la cipolla: va tagliata rigorosamente per il lungo; in questo modo manterrà la sua struttura e non si sfalderà durante la cottura. Tagliamo anche la fettina di carne di maiale a piccoli quadrotti.\n\nA parte, prepariamo una salsa mescolando in una ciotolina la salsa di soia, il mirin e il dashi in polvere. Questa e' una versione super semplificata della classica salsa per yakisoba, ma è perfetta per esaltare il sapore degli udon senza sovrastarli. Se volete fare la salda per yakisoba, trovate la ricetta completa qui.\n\nScaldiamo bene una padella capiente (o un wok) con un cucchiaino di olio di semi e iniziamo rosolando i pezzetti di maiale. Una volta che la carne si e' dorata, inseriamo la cipolla, seguita dal cavolo cappuccio e dalle carote, saltando il tutto a fiamma vivace per farle ammorbidire ma preservandone la croccantezza.\n\nA questo punto, tuffiamo in padella i nostri udon e versiamo la salsa preparata precedentemente. Diamo una bella mescolata vigorosa saltando la pasta per distribuire i sapori in modo uniforme.\n\nTrasferiamo i nostri Yaki Udon ancora fumanti su un piatto da portata e arricchiamo il tutto con l'immancabile katsuobushi, che danzerà con il calore, e un tocco di beni shoga, lo zenzero rosso che aggiunge il perfetto contrasto acido. In soli 10 minuti e con pochissimi ingredienti, avrete portato in tavola l'autentico sapore del Giappone."
     },
     {
-      "title": "Yakisoba",
-      "description": "La pasta saltata alla giapponese",
+      "title": "Yakisoba: ricetta dei noodles saltati giapponesi",
+      "description": "Ricetta degli yakisoba, i noodles saltati alla giapponese con la loro salsa agrodolce e umami: ingredienti, dosi e preparazione passo passo.",
       "url": "https://paginegiappe.it/ricette/yakisoba/",
       "image": "https://paginegiappe.it/img/ricette/yakisoba.jpg",
       "category": "Noodles",
@@ -801,8 +801,8 @@
       "instructions": "Spesso abbiamo un'idea limitata della cucina giapponese, associandola quasi esclusivamente a sushi o ramen. Il Nikujaga (letteralmente \"carne e patate\") è invece la quintessenza della cucina casalinga nipponica: un piatto estremamente comune, semplice ed economico. Si tratta di uno stufato dolce e salato che scalda il cuore, perfetto per una cena in famiglia, che piace a tutti, grandi e piccini.\n\nLa preparazione inizia con il taglio delle verdure, che in questo piatto deve essere piuttosto rustico ma curato. Tagliamo la carota e la cipolla a pezzettoni grossolani. La carne di manzo deve essere tagliata a straccetti o fettine sottili, ideali per una cottura in umido veloce che la mantenga morbida.\n\nPassiamo alle patate: dopo averle tagliate a pezzi grandi, è fondamentale eseguire il mentori. Con un pelapatate, rifiliamo tutti gli spigoli vivi di ogni pezzo di patata, smussandoli. Questa tecnica serve a evitare che la patata si sfaldi e si rompa durante la cottura nel liquido, mantenendo il brodo limpido e i pezzi integri.\n\nPer la cottura, l'ordine di inserimento degli ingredienti è importante. Scaldiamo un filo di olio di semi in una pentola capiente (o un tegame di ghisa) e inseriamo prima le patate, poi le cipolle. Rosoliamo le verdure insieme per qualche minuto per insaporirle. Solo a questo punto aggiungiamo la carne. Non cerchiamo una rosolatura aggressiva della carne, ma vogliamo cuocerla dolcemente affinché si sfaldi e diventi tenerissima in cottura.\n\nUna volta che la carne ha cambiato colore, uniamo le carote e copriamo tutto a filo con il dashi. Alziamo la fiamma al massimo e portiamo a bollore. Appena il liquido bolle, utilizziamo un colino a maglia fine per \"schiumare\" il brodo, rimuovendo tutte le impurità che affiorano in superficie.\n\nA questo punto condiamo aggiungendo un giro di mirin e di salsa di soia. Abbassiamo la fiamma al minimo e copriamo con un otoshibuta.\n\nL'otoshibuta è un coperchio più piccolo del diametro della pentola che poggia direttamente sugli ingredienti. Serve a tenere il cibo immerso nel liquido, a distribuire il calore uniformemente e a evitare che gli ingredienti si muovano troppo rompendosi. Se non possedete un otoshibuta in legno, potete realizzarne uno \"usa e getta\" con un foglio di carta forno ritagliato a misura e bucato al centro.\n\nLasciamo cuocere dolcemente per circa 15 minuti. Trascorso questo tempo, spegniamo il fuoco e lasciamo riposare: è in questa fase che i sapori si amalgamano e le verdure assorbono il condimento. Mentre il Nikujaga riposa, possiamo sbollentare brevemente delle taccole in acqua salata: useremo il loro verde brillante come guarnizione decorativa per dare un tocco di colore al piatto finito."
     },
     {
-      "title": "Dashi",
-      "description": "il brodo base per moltissime ricette",
+      "title": "Dashi: ricetta del brodo base giapponese",
+      "description": "Ricetta del dashi, il brodo base giapponese con acqua, kombu e katsuobushi: come prepararlo, conservarlo e usarlo per zuppa di miso, udon e oden.",
       "url": "https://paginegiappe.it/ricette/dashi/",
       "image": "https://paginegiappe.it/img/ricette/dashi.jpg",
       "category": "Brodi",
@@ -900,8 +900,8 @@
       "instructions": "Avete presente quella polvere giallo dorata che viene spesso spolverata sui dolci giapponesi? Si chiama kinako (きな粉) ed è una farina ottenuta da soia tostata e macinata. A volte viene mescolata con zucchero, soprattutto per accompagnare dolci non molto zuccherati.\n\nIn Giappone il kinako è un ingrediente molto comune nei dolci tradizionali, ma si usa anche su gelati, yogurt, torte e persino nelle bevande. Ha un sapore delicato, tostato e leggermente dolce, che può ricordare quello delle arachidi tostate. Non è un caso: anche le arachidi sono legumi come la soia.\n\nIn Italia non è sempre facile trovarlo già pronto, ma prepararlo in casa è semplice: servono solo soia secca, una padella e un tritatutto.\n\nVersate i semi di soia secchi in una padella e tostateli a fuoco basso, senza aggiungere olio, per circa 10 minuti. Mescolate spesso, in modo che tostino in maniera uniforme e non brucino.\n\nQuando il rumore di scoppiettio diminuisce e sentite un profumo tostato e fragrante, spegnete il fuoco.\n\nLasciate intiepidire la soia, poi avvolgetela in un canovaccio pulito o in un panno resistente. Picchiettate delicatamente con un mattarello o un pestello per rompere i semi in pezzi più piccoli.\n\nQuesto passaggio è fondamentale perché aiuta il tritatutto a lavorare meglio: con i semi interi, infatti, le lame possono girare senza riuscire a macinarli in modo uniforme.\n\nTrasferite la soia spezzata in un tritatutto o in un robot da cucina. Frullate a intervalli, fino a ottenere una farina il più possibile fine.\n\nPassate la farina attraverso un setaccio. La polvere più fine è il kinako.\n\nNon buttate i pezzetti rimasti nel setaccio: potete tritarli di nuovo oppure usarli come topping croccante per yogurt, insalate o zuppa di miso.\n\nIdea semplice per l'uso quotidiano\n\nA me piace mangiarlo a colazione o come merenda sciogliendo 3–4 cucchiaini di kinako e 2 cucchiaini di zucchero in una tazza di latte di soia caldo o freddo.\n\n— Aki"
     },
     {
-      "title": "Nikiri Sauce",
-      "description": "Salsa densa da spennellare sui nigiri",
+      "title": "Salsa nikiri: ricetta per sushi e nigiri",
+      "description": "Ricetta della salsa nikiri, la glassa densa di sake, mirin e salsa di soia da spennellare su nigiri e sushi. Ingredienti, dosi e preparazione.",
       "url": "https://paginegiappe.it/ricette/salsa_nikiri/",
       "image": null,
       "category": "Salse",
@@ -919,8 +919,8 @@
       "instructions": "La nikiri è una salsa che si usa per condire il pesce crudo, in particolare il sushi. È una salsa densa, che si prepara con sake, mirin, salsa di soia e, opzionalmente dashi. La sua consistenza è simile a quella del miele, e il suo sapore è dolce e salato allo stesso tempo.\n\nMetti il mirin e il sake in un pentolino a scaldare, e fai evaporare tutto l'alcol. Aggiungi la salsa di soia e il dashi, e fai sobbollire a fuoco basso fino a ridurre della metà il volume. Fai raffreddare e metti in frigo.\n\nQuesta e'solo una variante base della nikiri, che puoi personalizzare a tuo piacimento."
     },
     {
-      "title": "Salsa Okonomiyaki",
-      "description": "Salsa per gli okonomiyaki",
+      "title": "Salsa okonomiyaki: ricetta fatta in casa",
+      "description": "Ricetta della salsa okonomiyaki fatta in casa con ketchup, Worcestershire e salsa di ostriche: si prepara in pochi minuti, ingredienti e dosi precise.",
       "url": "https://paginegiappe.it/ricette/salsa_okonomiyaki/",
       "image": null,
       "category": "Salse",
@@ -939,8 +939,8 @@
       "instructions": "In una ciotolina, unisci ketchup, salsa Worcestershire e salsa di ostriche. Aiutati con una piccola frusta per amalgamare bene il composto.\nAggiungi lo zucchero (o il miele) e gira finché si scioglie del tutto, dando alla salsa la dolcezza tipica per l’okonomiyaki.\nVersa la salsa di soia e, se desideri una punta di acidità in più, un cucchiaino di aceto (di mele o di riso). Continua a mescolare finché il tutto non risulta ben omogeneo.\nProva la salsa e, se occorre, aggiungi un pizzico di zucchero o qualche goccia di soia in più, per bilanciare dolce, salato e acidulo secondo il tuo gusto."
     },
     {
-      "title": "Salsa Ponzu",
-      "description": "Salsa fresca ed agrumata",
+      "title": "Salsa ponzu: ricetta fatta in casa",
+      "description": "Ricetta della salsa ponzu fatta in casa: fresca, sapida e agrumata, con yuzu o limone. Ingredienti, dosi e usi in cucina giapponese.",
       "url": "https://paginegiappe.it/ricette/salsa_ponzu/",
       "image": "https://paginegiappe.it/img/ricette/ponzu.jpg",
       "category": "Salse",
@@ -996,8 +996,8 @@
       "instructions": "Il tentsuyu è una variante del mentsuyu, specificamente usata per accompagnare il tempura. È preparato con gli stessi ingredienti di base del mentsuyu, ma viene raffreddato prima di essere servito. Il tentsuyu è spesso accompagnato da daikon grattugiato, che aggiunge una nota di freschezza e leggera pungenza, bilanciando il sapore ricco del brodo e il croccante del tempura appena fritto.\n\nE' a base di dashi, mirin e salsa di soia, anche se gli ingredienti possono variare a seconda della stagione o a seconda di cosa ci vogliamo accompagnare. Ad esempio, per cose con un sapore forte, il mirin puo' essere sostituito, o \"corretto\" con sake e zucchero\n\nVersione alternativa\n- ¾ tazza di dashi\n- 3 Cucchiai di salsa di soia\n- 2 Cucchiai di mirin\n- 2 Cucchiai di zucchero\n\nVersare tutti gli ingredienti in un pentolino, e scaldare fino a sobbollire (se c'e' lo zucchero, controllare che sia completamente dissolto), far freddare e conservare in un barattolo in frigorifero (2-3 settimane max)\n\nQuando si serve, mischiare con daikon grattugiato\n\nDomande frequenti sulla salsa tentsuyu\n\nCos'è la salsa tentsuyu?\nIl tentsuyu è la salsa tradizionale giapponese in cui si intinge il tempura appena fritto. È un brodo leggero a base di dashi, mirin e salsa di soia, spesso servito con daikon grattugiato che aggiunge freschezza e bilancia la grassezza del fritto.\n\nDifferenza tra tentsuyu e mentsuyu?\nSono parenti stretti, ma diversi nella destinazione. Il mentsuyu è più concentrato e si usa per condire i noodle (soba e udon), allungato con acqua o servito a parte. Il tentsuyu è più diluito ed è pensato esclusivamente come salsa di intinto per il tempura.\n\nPer quanto si conserva il tentsuyu?\nDopo averlo preparato e raffreddato, si conserva in frigorifero per 2-3 settimane in un barattolo chiuso. Il daikon grattugiato va sempre aggiunto al momento di servire, mai conservato dentro la salsa, per non comprometterne il sapore e la durata."
     },
     {
-      "title": "Salsa Teriyaki",
-      "description": "La salsa barbecue giapponese",
+      "title": "Salsa teriyaki: ricetta giapponese fatta in casa",
+      "description": "Ricetta della salsa teriyaki fatta in casa con sake, mirin e salsa di soia: la glassa lucida giapponese per pollo, salmone e carne. Dosi e preparazione.",
       "url": "https://paginegiappe.it/ricette/salsa_teriyaki/",
       "image": null,
       "category": "Salse",
@@ -1017,8 +1017,8 @@
       "instructions": "In un piccolo tegame, riscaldare il sake e il mirin fino al lieve bollore. Utilizzando un accendino con punta lunga, incendiare l'alcool in eccesso. Successivamente, incorporare la salsa di soia e lo zucchero, mescolando a fuoco bassissimo fino a ottenere un leggero sobbollimento. Questo processo conferisce alla salsa di soia una nota più profonda e favorisce una leggera caramellizzazione. È possibile arricchire il sapore aggiungendo la parte verde dei porri, fettine di zenzero o aglio tritato, a seconda delle preferenze o del piatto a cui è destinata. Io continuo la cottura fino a che non si riduce di circa la metà del suo volume, ma potete proseguire fino a raggiungere l'intensità di sapore desiderata. A parte, diluire la fecola di patate in un po' d'acqua fredda, poi versarla nel tegame, mescolando accuratamente, e lasciar sobbollire per altri 5 minuti. La salsa si addensa e diventa liscia e lucida.\n\n- Si puo’ arricchire con Parte verde della cipollina o porro, zenzero o aglio macinato\n- Si possono anche aggiungere semi di sesamo (tanti!)\n- Si conserva in frigo per 2-3 settimane"
     },
     {
-      "title": "Salsa Tonkatsu",
-      "description": "",
+      "title": "Salsa tonkatsu: ricetta fatta in casa",
+      "description": "Ricetta della salsa tonkatsu fatta in casa con ketchup e salsa Worcestershire: la salsa agrodolce giapponese per accompagnare la cotoletta. Dosi e consigli.",
       "url": "https://paginegiappe.it/ricette/salsa_tonkatsu/",
       "image": null,
       "category": "Salse",
@@ -1035,8 +1035,8 @@
       "instructions": "In una ciotolina, unisci ketchup, salsa Worcestershire e salsa di soia.\nAggiungi lo zucchero (o il mirin) e mescola con una piccola frusta o un cucchiaio fino a farlo sciogliere completamente. Se preferisci un tocco più delicato, usa il mirin al posto dello zucchero.\nIncorpora il cucchiaino di senape (karashi o dijon) e, se gradisci una punta di acidità in più, un cucchiaio di aceto di mele. Continua a mescolare finché il composto non risulta omogeneo.\nProva la salsa e, se necessario, modifica il bilanciamento dolce-salato-agro, regolando con un pizzico di zucchero o qualche goccia in più di salsa di soia.\n\nSe possibile, lascia riposare la salsa qualche minuto per far amalgamare bene i sapori prima di servirla con il tuo tonkatsu, croccante e appena fritto."
     },
     {
-      "title": "Salsa Yakisoba",
-      "description": "La salsa agrodolce e umami indispensabile per preparare gli yakisoba fatti in casa.",
+      "title": "Salsa yakisoba: ricetta fatta in casa",
+      "description": "Ricetta della salsa yakisoba fatta in casa: agrodolce e umami, si prepara a freddo in pochi minuti. Ingredienti, dosi e consigli per i noodles saltati.",
       "url": "https://paginegiappe.it/ricette/salsa_yakisoba/",
       "image": null,
       "category": "Salse",
@@ -1052,8 +1052,8 @@
       "instructions": "La salsa Yakisoba è il cuore dell'omonimo piatto di noodles saltati. Il suo sapore è un mix complesso e delizioso di agrodolce, salato e umami che avvolge perfettamente la pasta e gli altri ingredienti. Questa è una versione semplice da preparare, completamente a freddo, che richiede solo un piccolo accorgimento nell'ordine degli ingredienti.\n\nIn una ciotola, versare per primo lo zucchero. Questo è il passaggio più importante per assicurarsi che si sciolga bene.\n\nAggiungere le salse procedendo dalla più densa alla più liquida per facilitare la miscelazione. Iniziare quindi con il ketchup, seguito dalla salsa di ostriche.\n\nVersare infine la salsa di soia e la salsa worcestershire.\n\nMescolare energicamente con un cucchiaio o una piccola frusta finché lo zucchero non sarà completamente disciolto e la salsa non risulterà omogenea. La salsa è pronta per essere usata, ma il giorno dopo sarà ancora meglio, quando i sapori si saranno amalgamati. Si conserva in frigorifero per una settimana circa."
     },
     {
-      "title": "Yakitori Tare",
-      "description": "Salsa per yakitori",
+      "title": "Salsa tare per yakitori: ricetta fatta in casa",
+      "description": "Ricetta della salsa tare per yakitori a base di salsa di soia e mirin: la glassa dolce e sapida per spiedini di pollo, da preparare in casa.",
       "url": "https://paginegiappe.it/ricette/salsa_yakitori/",
       "image": null,
       "category": "Salse",
@@ -1185,8 +1185,8 @@
       "instructions": "Avete mai sognato di addentare uno di quegli onigiri perfetti che si vedono negli anime? Con questa ricetta, vi sembrerà di essere catapultati subito in un film di Miyazaki. Prepareremo dei \"maze onigiri\", ovvero degli onigiri in cui gli ingredienti vengono mescolati direttamente insieme al riso. Il protagonista vegetale di questa preparazione in giapponese si chiama nira, che in italiano è conosciuto come erba aglina o aglio tuberoso.\n\nIniziamo tritando finemente l'erba aglina (nira) al coltello. In una ciotola capiente, disponiamo il riso cotto, che per questa preparazione deve essere rigorosamente ben caldo. Aggiungiamo in grande abbondanza la nira, il sesamo, un bel giro di olio di sesamo, lo shio kombu e il katsuobushi. Con l'aiuto di una spatola, mischiamo bene tutto il composto.\n\nPassiamo ora alla formatura delle nostre magiche polpette di riso giapponesi. È fondamentale avere le mani bagnate e ben salate per evitare che il riso si attacchi e per dare sapidità all'esterno. L'arte dell'onigiri sta nell'appallottolare e \"striangolare\" il composto con delicatezza: non dobbiamo fare una palla appiccicosa, ma dobbiamo assicurarci di mantenerlo arioso e \"fluffoso\" all'interno.\n\nPer aiutare gli onigiri a mantenere perfettamente la forma, è consentito e suggerito avvilupparli strettamente nella pellicola da cucina. Li lasciamo riposare così finché non si potranno raffreddare e solidificare a dovere.\n\nIl tocco finale è l'alga. Prendiamo un foglio di alga nori e, prestando attenzione, lo passiamo direttamente sopra la fiamma viva del fornello per averla bella croccante. Liberiamo gli onigiri dalla pellicola, li avvolgiamo nella nori appena tostata e la magia è servita.\n\nAggiungiamo l'alga nori solo alla fine, poco prima di servire: se resta troppo a contatto con il riso caldo e umido, tende ad ammorbidirsi e a perdere croccantezza."
     },
     {
-      "title": "Onigiri al Tonno e Maionese",
-      "description": "Il classico snack giapponese per una merenda veloce o un pranzo al sacco.",
+      "title": "Onigiri: ricetta con tonno e maionese",
+      "description": "Ricetta degli onigiri, le polpette di riso giapponesi: come modellarli, avvolgerli nel nori e farcirli con tonno e maionese (tsunamayo).",
       "url": "https://paginegiappe.it/ricette/onigiri/",
       "image": null,
       "category": "Riso",
@@ -1837,8 +1837,8 @@
       "instructions": "Il termine \"mochi\" deriva dall'aggettivo onomatopeico mochi-mochi, che significa morbido e gommoso. In senso stretto indica il riso glutinoso pestato, ma nella cultura gastronomica giapponese e nel mondo dei dolci tradizionali viene usato per indicare alimenti in cui farina (di riso o cereali) o amido (di radici o vegetali) vengono impastati o compattati per ottenere una consistenza gommosa.\n\nI warabi mochi, tra i dolci estivi più amati in Giappone, appartengono a questa seconda categoria: tradizionalmente sono fatti con l'amido di warabi, un tipo di felce selvatica. Questo amido è molto costoso anche in Giappone, quindi oggi sono sempre più comuni mochi \"warabi mochi-fu\" (alla warabi mochi) preparati usando altri amidi come la fecola di patate o la farina di tapioca.\n\nSono mochi dall'aspetto quasi trasparente e gelatinoso, solitamente serviti freddi e ricoperti di kinako, farina di soia tostata, e kuromitsu, uno sciroppo di zucchero sostituibile con sciroppo d'acero o miele. Ottimi anche con una spolverata di matcha e zucchero al posto del kinako.\n\nIngredienti per circa 15 mochi\n\n- 50 g di fecola di patate o farina di tapioca\n- 40 g di zucchero\n- 350 g di acqua\n\nVersate tutti gli ingredienti direttamente in una padella e mescolate per sciogliere eventuali grumi.\n\nAccendete il fuoco e, a fuoco basso, fate addensare lentamente mescolando costantemente.\n\nQuando diventa denso e inizia a solidificarsi, spegnete il fuoco e continuate a mescolare per circa 30 secondi.\n\nPreparate una ciotola con acqua e ghiaccio e trasferiteci dentro il composto. Aspettate che si raffreddi per poterlo toccare senza scottarvi.\n\nAttenzione a non scottarvi le mani!\n\nDa dentro l'acqua staccate i mochi della dimensione che preferite con le mani e riponeteli in un vassoio o piatto.\n\nFateli raffreddare in frigo per almeno 10 minuti.\n\nSpolverateli con del kinako o del matcha, versateci sopra abbondante kuromitsu o sciroppo d'acero e gustateli freddi in una calda giornata estiva.\n\n— Aki"
     },
     {
-      "title": "Gyoza",
-      "description": "Ravioli alla piastra",
+      "title": "Gyoza: ricetta dei ravioli giapponesi alla piastra",
+      "description": "Ricetta dei gyoza, i ravioli giapponesi alla piastra: ripieno, piegatura e cottura, anche con la pasta per gyoza già pronta dei negozi etnici.",
       "url": "https://paginegiappe.it/ricette/gyoza/",
       "image": "https://paginegiappe.it/img/ricette/gyoza1.jpg",
       "category": "Griglia",
@@ -1942,8 +1942,8 @@
       "instructions": "Chi l'ha detto che la cucina giapponese è complicata? Questa ricetta estiva, conosciuta come Negi Shio Remon Chikin, è l'esempio perfetto di come si possa creare un piatto incredibilmente saporito con pochi ingredienti e una semplice cottura in padella. Ideale per le giornate calde, abbina la croccantezza della carne a un condimento fresco e agrumato a base di cipollotto e limone.\n\nIniziate mettendo a marinare il trancio di pollo con un cucchiaio di sake, massaggiandolo leggermente per far assorbire il liquido.\n\nNel frattempo, dedicatevi alla preparazione del condimento. Tagliate le cipolline a rondelle molto sottili e trasferitele in una ciotolina. Conditele con la salsa d'ostriche, l'olio di sesamo, il dashi in polvere, sale, pepe, il succo e la scorza grattugiata del limone. Mescolate bene il tutto e mettete la salsa a riposare affinché i sapori si amalgamino alla perfezione.\n\nRecuperate il pollo dalla marinatura e asciugatelo con molta cura utilizzando della carta assorbente. Salate la superficie e procedete a incipriare delicatamente ambo i lati con un velo sottile di fecola di patate.\n\nCuocete il pollo in padella mantenendo la fiamma bassa. È fondamentale non avere fretta: una cottura dolce e prolungata permetterà alla carne di cuocersi uniformemente e di formare una crosticina esterna davvero irresistibile e croccante.\n\nUna volta che il pollo risulterà ben dorato e croccante, trasferitelo su un tagliere e affettatelo a striscioline. Questo taglio è essenziale per poter gustare comodamente il piatto utilizzando le bacchette.\n\nAdagiate le fettine di pollo sul piatto da portata, magari decorando il fondo con delle foglie fresche, e andate a scofanare sulla superficie tutto il vostro delizioso condimento a base di cipolline e limone.\n\nQuesto pollo è talmente saporito e fresco che si sposa divinamente con una semplice ciotola di riso bianco al vapore o accompagnato da una birra ghiacciata."
     },
     {
-      "title": "Shogayaki",
-      "description": "Scaloppine di maiale allo zenzero",
+      "title": "Shogayaki: ricetta del maiale allo zenzero",
+      "description": "Ricetta dello shogayaki, le scaloppine di maiale allo zenzero giapponesi: veloci da preparare in padella, da servire con riso bianco e cavolo a julienne.",
       "url": "https://paginegiappe.it/ricette/shogayaki/",
       "image": "https://paginegiappe.it/img/ricette/shogayaki.jpg",
       "category": "Griglia",
@@ -1987,8 +1987,8 @@
       "instructions": "Se per il vostro germoglio di bambù (takenoko) cercate un sapore più deciso e non volete accontentarvi di una semplice zuppa, questa seconda ricetta è perfetta. Prepareremo una spadellata ricca e succulenta accompagnando il bambù con della carne trita e una cremosissima salsa a base di miso. Un piatto gustoso e sbrigativo che dimostra quanto la cucina giapponese possa essere facile.\n\nPer iniziare, sgrattugiamo finemente uno spicchio d'aglio e un pezzetto di zenzero fresco per creare la nostra base aromatica.\n\nIn un padellino, scaldiamo dolcemente un po' di olio di sesamo e uniamo la nostra base di aglio e zenzero. Aggiungiamo la carne trita (che può essere di pollo o di maiale, a vostra scelta) e le fettine di takenoko.\n\nL'olio di sesamo e il miso soffrono molto le alte temperature: la carne trita va scaldata con calma, a fiamma dolce o medio-bassa. Non saltatela a fiamma alta, altrimenti rischiate di bruciare gli aromi e rendere il miso più amaro.\n\nA questo punto inseriamo i condimenti principali: un cucchiaio di miso e un cucchiaio di salsa tonkatsu. Procediamo con delle spadellate vigorose nel movimento ma sempre a fiamma dolce, lasciando che i liquidi si restringano piano e vengano assorbiti dalla carne e dal bambù.\n\nUna volta che il piatto è ben caramellato e ristretto, lo trasferiamo in una ciotola per servirlo. Per completare l'opera, guarniamo con le immancabili cipolline fresche tritate e aggiungiamo qualche goccia di raiu, l'olio al sesamo piccante che farà impazzire le vostre papille gustative. Buon appetito, o per meglio dire, Itadakimasu!"
     },
     {
-      "title": "Pollo Teriyaki",
-      "description": "Il segreto per un pollo succoso e perfettamente caramellato",
+      "title": "Pollo teriyaki: ricetta giapponese originale",
+      "description": "Ricetta del pollo teriyaki giapponese: pelle dorata, carne tenera e glassa lucida con il metodo tradizionale. Ingredienti, dosi e preparazione.",
       "url": "https://paginegiappe.it/ricette/pollo_teriyaki/",
       "image": null,
       "category": "Griglia",
@@ -2015,8 +2015,8 @@
       "instructions": "Lo yakitori (焼き鳥) è uno dei piatti simbolo dello stret food giapponese. Sono fondamentalmente di pollo grigliati sul carbone. Con “yaki” (焼き, grigliare) e “tori” (鳥, pollo), il termine indica sia la tecnica di cottura sia la materia prima più tradizionale. Oltre ai tagli classici (coscia, petto, ali), gli spiedini possono includere altre parti del pollo come fegato, pelle o cartilagine, così da offrire una varietà di sapori e consistenze. La prima volta che sono stato in Giappone, sono rimasto sconvolto dagli involtini di pelle di pollo, non avrei mai pensato che fossero buoni e non mi sono azzardato a provarli... poi con il tempo mi sono ricreduto e ora li adoro! (insieme alla coda di pollo, da noi \"il boccone del prete\").\n\nSpesso conditi con yakitori tare (a base di salsa di soia, mirin e zucchero) o semplicemente con sale, gli yakitori sono perfetti per un aperitivo informale, ma anche come piatto principale accompagnato da riso, verdure, e fiumi di birra.\n\nEcco una lista di ingredienti tipici per lo yakitori:\n\n- Coscia di pollo (momo, もも)\n- Petto di pollo (mune, むね)\n- Coscia di pollo e cipollotto (negima, ねぎま)\n- Filetto di pollo (sasami, ささみ)\n- Pelle di pollo (kawa, 皮)\n- Ali di pollo (tebasaki, 手羽先)\n- Coda di pollo (bonjiri, ぼんじり)\n- Cartilagine di pollo (nankotsu, 軟骨)\n- Cuore di pollo (hatsu, ハツ)\n- Fegato di pollo (rebā, レバー)\n- Ventriglio di pollo (sunagimo, 砂肝)\n- Polpettine di pollo (tsukune, つくね)\n- Peperoncini verdi (shishitō, 獅子唐)\n- Uova di quaglia (uzura no tamago, うずらの卵)\n- Cipollo (negi, ネギ)\n- Funghi shiitake (しいたけ)"
     },
     {
-      "title": "Misoshiru",
-      "description": "Zuppa di miso",
+      "title": "Zuppa di miso (misoshiru): ricetta classica",
+      "description": "Ricetta della zuppa di miso (misoshiru) con dashi e miso: la versione base e tante varianti con verdure, funghi, tofu e alghe, passo passo.",
       "url": "https://paginegiappe.it/ricette/zuppa_di_miso/",
       "image": "https://paginegiappe.it/img/ricette/misoshiru.jpg",
       "category": "Zuppe",
@@ -2248,8 +2248,8 @@
       "content": "Il daikon, o ravanello giapponese, è un grande tubero bianco appartenente alla famiglia delle Brassicaceae, simile al ravanello comune ma di dimensioni notevolmente maggiori e con un sapore più dolce e meno piccante. Questa radice è molto popolare nella cucina asiatica, soprattutto in Giappone, dove viene utilizzato in una varietà di modi, sia crudo che cotto.\n\nCrudo, il daikon è spesso grattugiato e usato come contorno per piatti di pesce, in insalate o come condimento per aggiungere freschezza e croccantezza. Cotto, il daikon è comunemente aggiunto a stufati e zuppe, come l'oden, dove assorbe i sapori del brodo arricchendoli con la sua dolcezza sottile. Inoltre, è frequente il suo utilizzo sotto forma di sottaceti, come nel tsukemono, dove il suo gusto si sposa con l'acidità della fermentazione.\n\nOltre al suo uso culinario, il daikon è apprezzato per le sue proprietà digestive e depurative, rendendolo un ingrediente benefico tanto quanto saporito. La sua versatilità e il profilo di sapore delicato lo rendono un componente essenziale in molte ricette tradizionali giapponesi."
     },
     {
-      "title": "Funghi Enoki",
-      "description": "I funghi bianchi lunghi e sottoli",
+      "title": "Funghi enoki: cos'è, come si cucinano e ricette",
+      "description": "Cosa sono i funghi enoki, lunghi e sottili con il cappello bianco: come si usano nella cucina giapponese, ricette e dove comprarli in Italia.",
       "url": "https://paginegiappe.it/ingredienti/enoki/",
       "image": "https://paginegiappe.it/img/ingredienti/enoki-1.jpg",
       "tags": [],
@@ -2288,8 +2288,8 @@
       "content": "Il Katsuobushi è uno degli ingredienti più iconici della cucina giapponese, noto per il suo ruolo fondamentale nella preparazione del dashi, il brodo di base che costituisce l'essenza di molte ricette tradizionali giapponesi. È fatto di tonnetto striato essiccato, fermentato e affumicato, che viene poi rasato in sottili scaglie. Queste scaglie hanno un sapore intenso di umami, il gusto profondo e saporito che è fondamentale nella cucina giapponese, e aggiungono una complessità di sapori ineguagliabile a brodi, zuppe, salse e piatti conditi.\n\nLa produzione di Katsuobushi è un'arte in sé, con un processo che può durare diversi mesi per ottenere il prodotto finito. Questo processo contribuisce non solo alla sua caratteristica consistenza, simile al legno stagionato (tant'e' che viene tagliato letteralmente con una pialla), e al profondo sapore di umami, ma anche a una lunghissima conservabilità. Nel suo utilizzo culinario, il Katsuobushi è spesso combinato con alghe come il kombu per creare un dashi ricco e saporito, ma può anche essere usato come guarnizione, aggiungendo un tocco di sapore e una consistenza unica a piatti come l'okonomiyaki, il takoyaki e insalate. Le scaglie di Katsuobushi, leggere e ariose, si muovono quasi come se fossero vive quando esposte al calore, creando un effetto visivo affascinante che arricchisce l'esperienza culinaria.\n\nLink utili\n\n- Come piallare il katsuobushi"
     },
     {
-      "title": "Japanese Mayo (Kewpie)",
-      "description": "La piu' famosa maionese giapponese",
+      "title": "Maionese giapponese Kewpie: cos'è e come si usa",
+      "description": "Cos'è la maionese giapponese Kewpie, fatta con soli tuorli: cosa la rende diversa da quella classica, come si usa e dove comprarla in Italia.",
       "url": "https://paginegiappe.it/ingredienti/kewpie/",
       "image": "https://paginegiappe.it/img/ingredienti/kewpie-1.jpg",
       "tags": [],
@@ -2304,8 +2304,8 @@
       "content": "Le kizami nori (刻み海苔) sono sottili striscioline di alga nori tagliate a julienne, una delle guarnizioni più riconoscibili della cucina giapponese. Si trovano sopra il ramen, la soba, gli onigiri, il riso e molti piatti di sushi, dove aggiungono in pochi secondi un colpo di sapore salato-marino, una nota umami delicata e una texture croccante che contrasta con cibi morbidi e brodosi.\n\nIl nome dice tutto: kizami (刻み) significa \"tagliato\" o \"sminuzzato\", nori (海苔) è l'alga marina essiccata in fogli usata in cucina giapponese. In pratica, le kizami nori sono i fogli di nori tagliati industrialmente in striscioline regolari, pronte all'uso.\n\nDomande frequenti sulle kizami nori\n\nCosa sono le kizami nori?\nSono fogli di alga nori essiccata tagliati in strisce sottili, lunghe pochi centimetri. Si vendono già tagliate, in bustina, e si usano come guarnizione finale per ramen, soba, riso, onigiri, sushi e molti altri piatti.\n\nDifferenza tra kizami nori e nori in fogli?\nÈ solo questione di formato: l'alga è la stessa. I fogli interi (yaki nori) si usano per avvolgere maki e onigiri o per fare wraps. Le kizami nori sono già tagliate e si spargono direttamente sul piatto come finitura.\n\nDove comprare le kizami nori?\nSi trovano facilmente nei negozi di alimentari asiatici e online. In emergenza, basta tagliare a strisce sottili un foglio di nori da sushi con le forbici da cucina: il risultato è praticamente identico."
     },
     {
-      "title": "Alga Kombu",
-      "description": "L'alga base per il dashi",
+      "title": "Alga kombu: cos'è, come si usa e dove comprarla",
+      "description": "Cos'è l'alga kombu, l'alga ricca di umami alla base del dashi: come si usa in cucina, ricette giapponesi e dove comprarla in Italia.",
       "url": "https://paginegiappe.it/ingredienti/kombu/",
       "image": "https://paginegiappe.it/img/ingredienti/kombu-1.jpg",
       "tags": [
@@ -2314,8 +2314,8 @@
       "content": "L'alga Kombu è un tipo di alga marina essicata, appartenente alla famiglia delle Laminariacee, ampiamente utilizzata nella cucina giapponese e in altre cucine asiatiche per il suo ricco contenuto di umami. Questa alga bruna, lunga e spessa, è nota per essere una delle principali fonti di glutammato, un aminoacido che contribuisce alla percezione del sapore umami nei cibi. Il Kombu è spesso usato per preparare il dashi, il brodo di base che costituisce la colonna vertebrale di molti piatti giapponesi, da zuppe come la zuppa di miso, a salse e marinature. Oltre al suo impiego culinario, l'alga Kombu è apprezzata per i suoi benefici nutrizionali, essendo ricca di iodio, minerali e vitamine. La sua superficie può presentare una leggera patina bianca, che è un accumulo naturale di sali di glutammato e non deve essere rimossa prima dell'uso, poiché contribuisce al sapore distintivo dell'alga.\n\nVideo"
     },
     {
-      "title": "Konnyaku",
-      "description": "Gelatina tradizionale giapponese fatta con la pianta di konjac",
+      "title": "Konnyaku: cos'è, come si usa e ricette",
+      "description": "Cos'è il konnyaku, la gelatina giapponese di konjac: texture, come si usa in oden e stufati, la versione shirataki e dove comprarlo in Italia.",
       "url": "https://paginegiappe.it/ingredienti/konnyaku/",
       "image": "https://paginegiappe.it/img/ingredienti/konnyaku-1.jpg",
       "tags": [],
@@ -2330,8 +2330,8 @@
       "content": "La-yu di S&B è un olio al peperoncino giapponese che unisce l'intensità dei peperoncini rossi selezionati con il sapore ricco dell'olio di sesamo. Questo condimento si distingue per il suo colore rosso brillante, un forte pizzico di piccantezza e il sapore saporito dell'olio di sesamo. È estremamente versatile e ideale per arricchire una vasta gamma di piatti, dal dim-sum ai noodles in brodo, dalla carne e verdure fritte fino a essere un eccellente topping per sushi rolls o mescolato con maionese come salsa per intingere, apportando un tocco di calore e profondità senza sovrastare i sapori originali."
     },
     {
-      "title": "Mirin",
-      "description": "Condimento alcolico dolce a base di riso fondamentale nella cucina giapponese",
+      "title": "Mirin: cos'è e come si usa in cucina",
+      "description": "Cos'è il mirin, il condimento dolce a base di riso della cucina giapponese: come si produce, a cosa serve, ricette e dove comprarlo in Italia.",
       "url": "https://paginegiappe.it/ingredienti/mirin/",
       "image": "https://paginegiappe.it/img/ingredienti/mirin.jpg",
       "tags": [],
@@ -2410,8 +2410,8 @@
       "content": "I Sakura Ebi (Lucensosergia lucens, un tempo classificati come Sergia lucens) sono minuscoli gamberetti giapponesi lunghi appena 4-5 cm, dal corpo semitrasparente attraversato da pigmenti rossi concentrati sul carapace, intorno alla bocca e sulla coda. È proprio questa colorazione rosata, che ricorda i petali di ciliegio, a dare loro il nome: sakura in giapponese significa infatti \"fiore di ciliegio\".\n\nVengono pescati quasi esclusivamente nella baia di Suruga, nella prefettura di Shizuoka, dove la pesca è attiva ininterrottamente dal 1894, e in quantità minori nelle acque costiere di Taiwan. La pesca avviene di notte con reti a strascico, in due finestre stagionali: da marzo a giugno e da ottobre a dicembre. I mesi estivi, da maggio ad agosto, coincidono con la riproduzione della specie e sono chiusi alla pesca per tutelarne le popolazioni.\n\nIn cucina si trovano soprattutto essiccati, usati come guarnizione croccante e saporita per il riso, le insalate e i piatti di riso mantecato come i maze onigiri (per esempio l'Onigiri ai Sakura Ebi). Non mancano però anche le preparazioni con il prodotto fresco: tempura (kakiage), sashimi, sushi e donburi. Il loro sapore è intensamente umami e leggermente dolce, con la croccantezza tipica del guscio sottile, che li rende un condimento pronto all'uso, senza bisogno di cottura.\n\nDal punto di vista nutrizionale sono sorprendentemente ricchi: 100 g di prodotto essiccato apportano oltre 300 kcal e quasi 65 g di proteine, oltre a essere un'ottima fonte di calcio, fosforo e vitamina B12, grazie al guscio che nei gamberetti essiccati viene consumato integralmente."
     },
     {
-      "title": "Satoimo (里芋) o Taro",
-      "description": "Taro giapponese",
+      "title": "Taro giapponese (satoimo): cos'è e come si cucina",
+      "description": "Cos'è il taro giapponese, il satoimo: un tubero dalla polpa cremosa che va sempre cotto. Come si cucina, ricette e dove trovarlo in Italia.",
       "url": "https://paginegiappe.it/ingredienti/satoimo/",
       "image": null,
       "tags": [
@@ -2470,8 +2470,8 @@
       "content": "Lo shiso, noto anche come perilla, è un'erba aromatica fondamentale nella cucina giapponese, apprezzata per il suo aroma unico e il sapore che varia dal pungente al citrico, con note di menta, basilico e anice. Esistono principalmente due varietà di shiso utilizzate in cucina: il shiso verde, che ha un gusto più fresco e leggero, e il shiso rosso o viola, che è leggermente più amaro e spesso utilizzato per colorare e insaporire i piatti a base di riso e per la fermentazione dei sottaceti.\n\nLo shiso è versatile: le sue foglie vengono usate fresche come condimento o guarnizione per sushi, sashimi, insalate e noodle; macerate per creare bevande o salse; o mescolate in impasti per fritti, aggiungendo un tocco distintivo ai piatti sia nel gusto che nel colore. Puoo' anche essere conservato estremamente a lungo sotto sale. Oltre al suo utilizzo culinario, lo shiso è noto anche per le sue proprietà antinfiammatorie e antiossidanti, rendendolo un ingrediente non solo delizioso ma anche salutare. La sua presenza nei piatti non solo arricchisce il sapore ma aggiunge anche un elemento visivo accattivante, con le sue vivaci tonalità di verde e viola.\n\nVideo\n\nDomande frequenti sullo shiso\n\nCos'è lo shiso?\nLo shiso (Perilla frutescens) è un'erba aromatica giapponese della famiglia della menta. Ne esistono due varietà principali: lo shiso verde (aoshiso), più fresco e citrico, e lo shiso rosso (akashiso), più pungente e usato per colorare gli umeboshi e i sottaceti.\n\nShiso e basilico: che differenza c'è?\nPur appartenendo entrambi alla famiglia delle Lamiaceae, hanno profili aromatici molto diversi. Lo shiso ha note di menta, anice e agrumi, ed è più pungente. Il basilico è più dolce e morbido. In emergenza, in alcune ricette, le foglie di basilico possono sostituire lo shiso, ma cambia il carattere finale del piatto.\n\nDove comprare lo shiso in Italia?\nLe foglie fresche di shiso si trovano stagionalmente in alcuni negozi di alimentari asiatici e online. Lo shiso essiccato (yukari) e i semi di perilla sono più facili da reperire e si conservano molto a lungo. Coltivarlo in vaso è semplicissimo: cresce come la menta."
     },
     {
-      "title": "Shoyu (Salsa di Soia)",
-      "description": "Tutto quello che c'è da sapere sulla salsa di soia giapponese, dalle differenze regionali al metodo di produzione tradizionale Honjozo",
+      "title": "Shoyu: cos'è la salsa di soia giapponese",
+      "description": "Cos'è lo shoyu, la salsa di soia giapponese: i tipi, le differenze regionali, il metodo di produzione Honjozo e come si usa in cucina.",
       "url": "https://paginegiappe.it/ingredienti/shoyu/",
       "image": null,
       "tags": [],

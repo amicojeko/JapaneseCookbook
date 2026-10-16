@@ -1,9 +1,10 @@
 ---
 
-title: Satoimo (里芋) o Taro
+title: "Taro giapponese (satoimo): cos'è e come si cucina"
+sidebar_label: "Satoimo (里芋) o Taro"
 sidebar_custom_props:
   subtitle: Tubero taro giapponese
-description: Taro giapponese
+description: "Cos'è il taro giapponese, il satoimo: un tubero dalla polpa cremosa che va sempre cotto. Come si cucina, ricette e dove trovarlo in Italia."
 tags:
   - tubero
   - taro
