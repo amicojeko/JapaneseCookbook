@@ -1524,6 +1524,15 @@ article > .theme-doc-markdown.markdown > p:first-of-type::first-letter,
   padding: 0;
   border: 0;
 }
+.city-section .city-name .city-prefix {
+  display: block;
+  font-family: var(--pg-font-mono);
+  font-weight: 500;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
 .city-section .city-cnt {
   font-family: var(--pg-font-mono);
   font-size: 11px;

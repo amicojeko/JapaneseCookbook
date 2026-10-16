@@ -138,7 +138,10 @@ const RegionShopList: React.FC<Props> = ({ region, shops }) => {
             className="city-section"
           >
             <header className="city-h">
-              <h2 className="city-name" id={citySlug}>{city}</h2>
+              <h2 className="city-name" id={citySlug}>
+                <span className="city-prefix">Negozi asiatici a</span>
+                {city}
+              </h2>
               <div className="city-cnt">
                 <strong>{cityShops.length}</strong> negoz
                 {cityShops.length === 1 ? 'io' : 'i'}

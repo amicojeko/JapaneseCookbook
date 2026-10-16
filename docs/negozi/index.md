@@ -1,6 +1,7 @@
 ---
-title: 🏪 Negozi orientali
-description: Elenco completo di negozi fisici e online in Italia per acquistare ingredienti e prodotti giapponesi
+title: "Negozi orientali e asiatici in Italia: elenco per regione"
+sidebar_label: "🏪 Negozi orientali"
+description: "Elenco dei negozi asiatici e giapponesi in Italia, regione per regione: supermercati orientali, alimentari cinesi e shop online per ingredienti giapponesi."
 draft: false
 slug: "/negozi_orientali"
 sidebar_position: 4
