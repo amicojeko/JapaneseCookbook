@@ -8,4 +8,6 @@ sidebar_custom_props:
 ---
 import CategoryIndexPage from '@site/src/components/CategoryIndexPage';
 
+I **contorni** giapponesi sono piccoli piatti di verdure, insalate e sottaceti che accompagnano riso e zuppa: dall'[ohitashi](/ricette/horenso_no_ohitashi/) di spinaci al [sunomono](/ricette/sunomono/) all'aceto, fino alla [potetosarada](/ricette/potetosarada/). Sono veloci da preparare e si abbinano a qualsiasi secondo.
+
 <CategoryIndexPage />

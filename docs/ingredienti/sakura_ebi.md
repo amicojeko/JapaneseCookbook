@@ -18,4 +18,8 @@ In cucina si trovano soprattutto essiccati, usati come guarnizione croccante e s
 
 Dal punto di vista nutrizionale sono sorprendentemente ricchi: 100 g di prodotto essiccato apportano oltre 300 kcal e quasi 65 g di proteine, oltre a essere un'ottima fonte di calcio, fosforo e vitamina B12, grazie al guscio che nei gamberetti essiccati viene consumato integralmente.
 
+## Dove comprarlo
+
+Puoi cercarlo nei [negozi di alimentari asiatici](/negozi_orientali/) vicino a te (li trovi sulla [mappa dei negozi](/negozi_orientali/mappa/)) oppure ordinarlo da uno dei [negozi online](/negozi_orientali/online/).
+
 <IngredientRecipeList ingredientTag="sakura ebi" />

@@ -15,4 +15,8 @@ Il negi è spesso impiegato come guarnizione per zuppe, come il ramen e il miso,
 Io non lo trovo mai, e lo sosituisco sempre con le cipolline verdi o il porro, a seconda di quanto voglio che sia deciso il sapore.
 
 <ImageComponent />
+## Dove comprarlo
+
+Puoi cercarlo nei [negozi di alimentari asiatici](/negozi_orientali/) vicino a te (li trovi sulla [mappa dei negozi](/negozi_orientali/mappa/)) oppure ordinarlo da uno dei [negozi online](/negozi_orientali/online/).
+
 <IngredientRecipeList ingredientTag="negi" />

@@ -26,6 +26,10 @@ La complessità aromatica dello Shoyu non è casuale, ma è il frutto di un proc
 Dopo tre giorni di riposo nasce il *Koji*, una base ricca di enzimi che viene successivamente unita ad acqua e sale creando un composto denso chiamato *Moromi*. È qui che avviene la magia: il Moromi viene lasciato fermentare pazientemente per mesi. Se per le salse industriali questo periodo dura circa 6-8 mesi, per le produzioni artigianali si può attendere anche diversi anni. Solo alla fine di questo lungo riposo il composto viene strizzato, filtrato e pastorizzato, diventando il liquido scuro e profumato che portiamo sulle nostre tavole.
 
 Se faticate a trovare le varianti più specifiche come la Usukuchi o una buona Tamari nei supermercati tradizionali, il consiglio è di esplorare i negozi di alimentari asiatici specializzati o gli store online, dove la scelta è decisamente più ampia e fedele alla tradizione giapponese.
+## Dove comprarlo
+
+Puoi cercarlo nei [negozi di alimentari asiatici](/negozi_orientali/) vicino a te (li trovi sulla [mappa dei negozi](/negozi_orientali/mappa/)) oppure ordinarlo da uno dei [negozi online](/negozi_orientali/online/).
+
 <IngredientRecipeList ingredientTag="shoyu" />
 
 ## Video

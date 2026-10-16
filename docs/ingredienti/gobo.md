@@ -13,7 +13,11 @@ Il gobo, noto anche come radice di bardana, è un ingrediente tradizionale nella
 
 <ImageComponent />
 
-In Giappone, il gobo viene impiegato in una varietà di modi: tagliato a bastoncini sottili e saltato in padella nel piatto classico kinpira gobo, affettato finemente e utilizzato in insalate, o come ingrediente in zuppe e stufati come il chikuzenni. Il suo sapore unico si abbina bene con altri ingredienti robusti come la carota e il sesamo, e la sua consistenza rimane piacevolmente croccante anche dopo la cottura.
+In Giappone, il gobo viene impiegato in una varietà di modi: tagliato a bastoncini sottili e saltato in padella nel piatto classico [kinpira gobo](/ricette/kinpira_gobo/), affettato finemente e utilizzato in insalate, o come ingrediente in zuppe e stufati come il [chikuzenni](/ricette/chikuzenni/). Il suo sapore unico si abbina bene con altri ingredienti robusti come la carota e il sesamo, e la sua consistenza rimane piacevolmente croccante anche dopo la cottura.
 
 Oltre al suo impiego culinario, il gobo è considerato benefico per la salute, con proprietà che includono la promozione della digestione e la purificazione del sangue. La sua versatilità e il profilo nutrizionale lo rendono un ingrediente prezioso nella cucina giapponese, capace di aggiungere profondità e consistenza ai piatti.
+## Dove comprarlo
+
+Puoi cercarlo nei [negozi di alimentari asiatici](/negozi_orientali/) vicino a te (li trovi sulla [mappa dei negozi](/negozi_orientali/mappa/)) oppure ordinarlo da uno dei [negozi online](/negozi_orientali/online/).
+
 <IngredientRecipeList ingredientTag="gobo" />

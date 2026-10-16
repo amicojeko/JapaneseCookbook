@@ -11,6 +11,10 @@ import ImageComponent from '@site/src/components/ImageComponent';
 Lo **yuzu** (*Citrus junos*) è un agrume originario dell'Asia orientale, una delle stelle indiscusse della cucina giapponese. Il sapore dello yuzu è inconfondibile: aspro e aromatico, sta a metà strada tra limone, mandarino verde e pompelmo, con una nota floreale che non si trova in nessun altro agrume occidentale. Si usa praticamente in tutto: la **buccia grattugiata** profuma piatti, [salse ponzu](/ricette/salsa_ponzu), brodi e dolci, mentre il **succo** dà vita a condimenti, marinature, cocktail e dessert.
 
 <ImageComponent />
+## Dove comprarlo
+
+Puoi cercarlo nei [negozi di alimentari asiatici](/negozi_orientali/) vicino a te (li trovi sulla [mappa dei negozi](/negozi_orientali/mappa/)) oppure ordinarlo da uno dei [negozi online](/negozi_orientali/online/).
+
 <IngredientRecipeList ingredientTag="yuzu" />
 
 ## Domande frequenti sullo yuzu

@@ -11,4 +11,8 @@ import ImageComponent from '@site/src/components/ImageComponent';
 L'alga Wakame è un tipo di alga marina edibile, caratterizzata da una consistenza croccantina e tenera, e un gusto delicato, leggermente dolce. Tipicamente verde scuro, l'alga wakame è spesso utilizzata in insalate, nella [zuppa di miso](/ricette/zuppa_di_miso), e in altri piatti della cucina giapponese e asiatica. Prima dell'uso, l'alga essiccata viene di reidratata in acqua, momento in cui si espande notevolmente rispetto alla sua forma secca, quindi non esagerate senno' vi trovate la casa piena di wakame, io vi ho avvertiti.
 
 <ImageComponent />
+## Dove comprarlo
+
+Puoi cercarlo nei [negozi di alimentari asiatici](/negozi_orientali/) vicino a te (li trovi sulla [mappa dei negozi](/negozi_orientali/mappa/)) oppure ordinarlo da uno dei [negozi online](/negozi_orientali/online/).
+
 <IngredientRecipeList ingredientTag="wakame" />

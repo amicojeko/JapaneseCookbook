@@ -339,6 +339,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/takenoko_to_aburaage_no_takikomi_gohan"
     },
     {
+      "id": "ricette/sides/burokkori_no_okaka-ae",
+      "title": "Burokkori no okaka-ae",
+      "description": "Un contorno giapponese velocissimo, dal colore brillante e ricco di umami, perfetto per esaltare i broccoli.",
+      "permalink": "/ricette/burokkori-no-okaka-ae"
+    },
+    {
       "id": "ricette/sides/horenso_no_ohitashi",
       "title": "Hōrensō no ohitashi",
       "description": "Un contorno fondamentale della cucina giapponese: spinaci sbollentati e marinati in un brodo dashi delicato.",
@@ -367,6 +373,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Daikon Shiokombuzuke",
       "description": "Daikon marinato con shio kombu, sesamo e shoyu. Una bomba di umami!",
       "permalink": "/ricette/daikon_shiokombuzuke"
+    },
+    {
+      "id": "ricette/yakimono/isobeyaki",
+      "title": "Isobeyaki",
+      "description": "Mochi grigliato avvolto nell'alga nori, uno snack semplice e \"pericolosamente\" buono",
+      "permalink": "/ricette/isobeyaki"
     },
     {
       "id": "ricette/yakimono/nasu_niku_miso",
@@ -423,6 +435,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Onigiri ai Sakura Ebi",
       "description": "Una ricetta deliziosa per preparare i \"maze onigiri\" con Sakura Ebi (microgamberetti rosa), erba cipollina, sesamo e alga shio kombu.",
       "permalink": "/ricette/onigiri-sakura-ebi"
+    },
+    {
+      "id": "ricette/sides/burokkori_no_okaka-ae",
+      "title": "Burokkori no okaka-ae",
+      "description": "Un contorno giapponese velocissimo, dal colore brillante e ricco di umami, perfetto per esaltare i broccoli.",
+      "permalink": "/ricette/burokkori-no-okaka-ae"
     },
     {
       "id": "ricette/sides/kinpira_di_daikon_e_carote",
@@ -553,6 +571,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Hiyashi Tori Dashi Somen",
       "description": "Un piatto di noodles freddi rinfrescante e saporito, con un tocco di aceto che lo rende perfetto per l'estate.",
       "permalink": "/ricette/hiyashi_tori_dashi_somen"
+    },
+    {
+      "id": "ricette/nimono/chikuzenni",
+      "title": "Chikuzenni",
+      "description": "Un ricco e confortante stufato della tradizione giapponese originario di Fukuoka, preparato con pollo, gobo, radice di loto e shiitake.",
+      "permalink": "/ricette/chikuzenni"
     },
     {
       "id": "ricette/nimono/kabocha_no_nimono",
@@ -689,6 +713,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Yakisoba: ricetta dei noodles saltati giapponesi",
       "description": "Ricetta degli yakisoba, i noodles saltati alla giapponese con la loro salsa agrodolce e umami: ingredienti, dosi e preparazione passo passo.",
       "permalink": "/ricette/yakisoba"
+    },
+    {
+      "id": "ricette/nimono/chikuzenni",
+      "title": "Chikuzenni",
+      "description": "Un ricco e confortante stufato della tradizione giapponese originario di Fukuoka, preparato con pollo, gobo, radice di loto e shiitake.",
+      "permalink": "/ricette/chikuzenni"
     },
     {
       "id": "ricette/preparazioni_di_base/brodi/mentsuyu",
@@ -1741,6 +1771,34 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/chikuzenni"
     }
   ],
+  "gobo": [
+    {
+      "id": "ricette/nimono/chikuzenni",
+      "title": "Chikuzenni",
+      "description": "Un ricco e confortante stufato della tradizione giapponese originario di Fukuoka, preparato con pollo, gobo, radice di loto e shiitake.",
+      "permalink": "/ricette/chikuzenni"
+    },
+    {
+      "id": "ricette/sides/kinpira_gobo",
+      "title": "Kinpira Gobo",
+      "description": "Un contorno tradizionale giapponese a base di bardana e carote, famoso per la sua consistenza croccante e il sapore agrodolce.",
+      "permalink": "/ricette/kinpira_gobo"
+    }
+  ],
+  "konnyaku": [
+    {
+      "id": "ricette/nimono/chikuzenni",
+      "title": "Chikuzenni",
+      "description": "Un ricco e confortante stufato della tradizione giapponese originario di Fukuoka, preparato con pollo, gobo, radice di loto e shiitake.",
+      "permalink": "/ricette/chikuzenni"
+    },
+    {
+      "id": "ricette/zuppe/tonjiru",
+      "title": "Tonjiru",
+      "description": "La zuppa giapponese più confortante, un \"reset dell'anima\" ricco di maiale e verdure di radice.",
+      "permalink": "/ricette/tonjiru"
+    }
+  ],
   "nimono": [
     {
       "id": "ricette/nimono/daikon_no_nimono",
@@ -2051,14 +2109,6 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/potetosarada"
     }
   ],
-  "gobo": [
-    {
-      "id": "ricette/sides/kinpira_gobo",
-      "title": "Kinpira Gobo",
-      "description": "Un contorno tradizionale giapponese a base di bardana e carote, famoso per la sua consistenza croccante e il sapore agrodolce.",
-      "permalink": "/ricette/kinpira_gobo"
-    }
-  ],
   "microonde": [
     {
       "id": "ricette/sides/mugen_piiman",
@@ -2179,14 +2229,6 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Renkon no Misoshiru",
       "description": "Zuppa di miso vegana con fette di radice di loto intagliate a teschio: la ricetta di Halloween spaventosamente facile, bella e buona.",
       "permalink": "/ricette/renkon_no_misoshiru"
-    }
-  ],
-  "konnyaku": [
-    {
-      "id": "ricette/zuppe/tonjiru",
-      "title": "Tonjiru",
-      "description": "La zuppa giapponese più confortante, un \"reset dell'anima\" ricco di maiale e verdure di radice.",
-      "permalink": "/ricette/tonjiru"
     }
   ]
 };

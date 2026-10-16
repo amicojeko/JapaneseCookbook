@@ -61,3 +61,5 @@ Cuocere i somen seguendo le istruzioni sulla confezione. Scolarli e passarli imm
 Prendere il brodo freddo dal frigorifero, aggiungere l'aceto e mescolare.
 
 Mettere i somen in una ciotola, versarvi sopra il brodo freddo e guarnire con il trito di myoga e shiso, le fettine di pollo e i germogli di ravanello.
+
+Per un altro piatto freddo con i somen, prova i [somen con tororo e lime](/ricette/somen-tororo-lime/).

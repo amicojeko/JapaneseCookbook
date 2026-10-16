@@ -21,4 +21,8 @@ Se invece trovate il germoglio **fresco**, prima di poterlo usare va trattato pe
 Terminata questa prima bollitura, sciacquate bene il takenoko e procedete con una seconda bollitura per eliminare ogni residuo della prima: in questo caso basta partire da acqua fredda e portarla a ebollizione. A questo punto il germoglio è pronto per essere usato nelle vostre ricette.
 
 <ImageComponent />
+## Dove comprarlo
+
+Puoi cercarlo nei [negozi di alimentari asiatici](/negozi_orientali/) vicino a te (li trovi sulla [mappa dei negozi](/negozi_orientali/mappa/)) oppure ordinarlo da uno dei [negozi online](/negozi_orientali/online/).
+
 <IngredientRecipeList ingredientTag="takenoko" />

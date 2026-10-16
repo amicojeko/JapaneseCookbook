@@ -8,4 +8,6 @@ sidebar_custom_props:
 ---
 import CategoryIndexPage from '@site/src/components/CategoryIndexPage';
 
+In questa sezione trovi le ricette di **pesce** della cucina giapponese, come il [salmone teriyaki](/ricette/salmone_teriyaki/), cotto in padella e glassato con la salsa. Per il pesce crudo, leggi come si prepara il pesce per [sushi e sashimi](/ricette/preparazione_pesce_sushi_sashimi/).
+
 <CategoryIndexPage />

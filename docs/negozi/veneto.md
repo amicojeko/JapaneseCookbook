@@ -11,3 +11,7 @@ In Veneto trovi **20 negozi di alimentari asiatici e giapponesi**, ben distribui
 Per chi vive a Belluno, Rovigo o nelle zone alpine, la sezione [negozi online](/negozi_orientali/online/) raccoglie gli e-commerce italiani che spediscono in tutto il Veneto in 1-2 giorni.
 
 <RegionShopList region="Veneto" shops={NEGOZI} />
+
+## Regioni vicine
+
+Se nella tua zona non trovi quello che cerchi, guarda anche i negozi in: [Friuli-Venezia Giulia](/negozi_orientali/friuli-venezia_giulia/), [Trentino-Alto Adige](/negozi_orientali/trentino-alto_adige/), [Lombardia](/negozi_orientali/lombardia/), [Emilia-Romagna](/negozi_orientali/emilia_romagna/). Trovi tutti i punti vendita sulla [mappa dei negozi](/negozi_orientali/mappa/), oppure scegli un [negozio online](/negozi_orientali/online/).
