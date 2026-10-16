@@ -13,6 +13,10 @@ Il **karashi** è la **senape giapponese**: una pasta dal sapore forte e piccant
 Nella cucina giapponese, il karashi è il condimento per eccellenza di piatti come il [natto](/ingredienti/natto), il tonkatsu (cotoletta di maiale impanata e fritta) e i vari tipi di oden, lo stufato invernale. Si usa anche per marinare i cetrioli negli [tsukemono](/ricette/kyuri_no_tsukemono) e in moltissime altre preparazioni dove serve un colpo di pungente.
 
 <ImageComponent />
+## Dove comprarlo
+
+Puoi cercarlo nei [negozi di alimentari asiatici](/negozi_orientali/) vicino a te (li trovi sulla [mappa dei negozi](/negozi_orientali/mappa/)) oppure ordinarlo da uno dei [negozi online](/negozi_orientali/online/).
+
 <IngredientRecipeList ingredientTag="senape_karashi" />
 
 ## Domande frequenti sul karashi

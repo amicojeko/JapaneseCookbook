@@ -15,6 +15,8 @@ tags:
 - verdure
 - sides
 - katsuobushi
+- sesamo
+- shoyu
 ---
 
 import ImageComponent from '@site/src/components/ImageComponent';

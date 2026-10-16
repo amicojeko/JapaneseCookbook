@@ -11,3 +11,7 @@ In Piemonte trovi **22 negozi di alimentari asiatici e giapponesi**, distribuiti
 Il Piemonte è una regione dove conviene combinare l'acquisto in negozio fisico con i [negozi online](/negozi_orientali/online/), specialmente se vivi nelle aree meno coperte come Cuneo, Biella o le valli alpine.
 
 <RegionShopList region="Piemonte" shops={NEGOZI} />
+
+## Regioni vicine
+
+Se nella tua zona non trovi quello che cerchi, guarda anche i negozi in: [Valle d'Aosta](/negozi_orientali/valle_d_aosta/), [Lombardia](/negozi_orientali/lombardia/), [Liguria](/negozi_orientali/liguria/), [Emilia-Romagna](/negozi_orientali/emilia_romagna/). Trovi tutti i punti vendita sulla [mappa dei negozi](/negozi_orientali/mappa/), oppure scegli un [negozio online](/negozi_orientali/online/).

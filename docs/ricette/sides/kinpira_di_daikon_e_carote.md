@@ -50,6 +50,8 @@ Continuate a cuocere dando un paio di spadellate finché i liquidi non si sarann
 
 Quando la salsa si è assorbita, aggiungete una pioggia di [sesamo](/ingredienti/sesamo) tostato e mescolate. Trasferite il Kinpira in una bella ciotolina, dategli "un'acchittata" e completate con un altro po' di sesamo in superficie. Il vostro piatto antispreco è pronto per essere gustato!
 
+Se ti piace il kinpira, prova anche la versione classica, il [kinpira di gobo](/ricette/kinpira_gobo/).
+
 ## Video
 
 <YouTubeVideo videoId="yO20Egoclpw" />

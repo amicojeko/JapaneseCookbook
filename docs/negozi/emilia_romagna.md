@@ -11,3 +11,7 @@ In Emilia-Romagna trovi **14 negozi di alimentari asiatici e giapponesi**, distr
 Per chi vive a Parma, Ravenna o nelle zone meno coperte della regione, la sezione [negozi online](/negozi_orientali/online/) raccoglie gli e-commerce italiani che spediscono in 1-2 giorni in tutta l'Emilia-Romagna.
 
 <RegionShopList region="Emilia-Romagna" shops={NEGOZI} />
+
+## Regioni vicine
+
+Se nella tua zona non trovi quello che cerchi, guarda anche i negozi in: [Lombardia](/negozi_orientali/lombardia/), [Veneto](/negozi_orientali/veneto/), [Piemonte](/negozi_orientali/piemonte/), [Liguria](/negozi_orientali/liguria/), [Toscana](/negozi_orientali/toscana/), [Marche](/negozi_orientali/marche/). Trovi tutti i punti vendita sulla [mappa dei negozi](/negozi_orientali/mappa/), oppure scegli un [negozio online](/negozi_orientali/online/).

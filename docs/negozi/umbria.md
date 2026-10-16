@@ -8,3 +8,7 @@ import RegionShopList from '@site/src/components/RegionShopList';
 
 
 <RegionShopList region="Umbria" shops={NEGOZI} />
+
+## Regioni vicine
+
+Se nella tua zona non trovi quello che cerchi, guarda anche i negozi in: [Toscana](/negozi_orientali/toscana/), [Marche](/negozi_orientali/marche/), [Lazio](/negozi_orientali/lazio/). Trovi tutti i punti vendita sulla [mappa dei negozi](/negozi_orientali/mappa/), oppure scegli un [negozio online](/negozi_orientali/online/).

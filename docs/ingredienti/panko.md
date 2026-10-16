@@ -17,4 +17,8 @@ Il panko è un tipo di pangrattato giapponese, famoso per la sua struttura legge
 A differenza dei metodi tradizionali che prevedono la tostatura del pane, il panko viene di solito realizzato cuocendo il pane con uno specifico procedimento elettrico. Il risultato è un pane senza crosta, tritato in fiocchi di varie dimensioni, perfetti per fritture e gratinati super crispy. Come direbbero i food blogger che sarebbe meglio andassero a giocare sui tombini aperti: "ti da il crunch che non sapevi di volere".
 
 <ImageComponent />
+## Dove comprarlo
+
+Puoi cercarlo nei [negozi di alimentari asiatici](/negozi_orientali/) vicino a te (li trovi sulla [mappa dei negozi](/negozi_orientali/mappa/)) oppure ordinarlo da uno dei [negozi online](/negozi_orientali/online/).
+
 <IngredientRecipeList ingredientTag="panko" />

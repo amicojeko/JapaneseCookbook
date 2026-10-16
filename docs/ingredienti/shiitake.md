@@ -16,4 +16,8 @@ Gli Shiitake freschi presentano un cappello largo e liscio che varia dal marrone
 Nella cucina giapponese, i funghi Shiitake sono frequentemente utilizzati in piatti come il riso misto (takikomi gohan), vari tipi di noodle e stufati come il sukiyaki e l'oden. Possono essere saltati, stufati, grigliati o serviti come condimento in insalate. Oltre al loro impiego culinario, gli Shiitake sono anche apprezzati per i loro benefici per la salute, inclusi effetti positivi sul sistema immunitario e proprietà antiossidanti.
 
 <ImageComponent />
+## Dove comprarlo
+
+Puoi cercarlo nei [negozi di alimentari asiatici](/negozi_orientali/) vicino a te (li trovi sulla [mappa dei negozi](/negozi_orientali/mappa/)) oppure ordinarlo da uno dei [negozi online](/negozi_orientali/online/).
+
 <IngredientRecipeList ingredientTag="shiitake" />

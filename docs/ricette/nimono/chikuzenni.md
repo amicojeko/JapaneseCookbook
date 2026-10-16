@@ -24,6 +24,10 @@ tags:
   - verdure
   - tradizionale
   - stufato
+  - gobo
+  - konnyaku
+  - shiitake
+  - sake
 recipeYield: 2-3 persone
 ---
 

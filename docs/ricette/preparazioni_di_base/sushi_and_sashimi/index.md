@@ -7,4 +7,6 @@ sidebar_custom_props:
 ---
 import CategoryIndexPage from '@site/src/components/CategoryIndexPage';
 
+Questa sezione raccoglie le basi per fare il sushi a casa: come condire il riso con il [sushi-zu](/ricette/sushisu/), come preparare il pesce per [sushi e sashimi](/ricette/preparazione_pesce_sushi_sashimi/) e la [salsa nikiri](/ricette/salsa_nikiri/) per i nigiri.
+
 <CategoryIndexPage />

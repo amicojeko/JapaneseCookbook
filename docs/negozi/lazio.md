@@ -11,3 +11,7 @@ Nel Lazio trovi **28 negozi di alimentari asiatici e giapponesi**, quasi tutti c
 Roma ha alcuni dei pochi alimentari giapponesi puri d'Italia — utili se cerchi prodotti specifici come kombu di qualità, varietà di shoyu o snack difficili da trovare. Per chi vive fuori Roma, la sezione [negozi online](/negozi_orientali/online/) raccoglie gli e-commerce italiani che spediscono in tutto il Lazio.
 
 <RegionShopList region="Lazio" shops={NEGOZI} />
+
+## Regioni vicine
+
+Se nella tua zona non trovi quello che cerchi, guarda anche i negozi in: [Toscana](/negozi_orientali/toscana/), [Umbria](/negozi_orientali/umbria/), [Marche](/negozi_orientali/marche/), [Abruzzo](/negozi_orientali/abruzzo/), [Campania](/negozi_orientali/campania/). Trovi tutti i punti vendita sulla [mappa dei negozi](/negozi_orientali/mappa/), oppure scegli un [negozio online](/negozi_orientali/online/).

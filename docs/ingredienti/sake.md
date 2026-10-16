@@ -36,4 +36,8 @@ Il sake può essere servito sia caldo che freddo, a seconda delle tue preferenze
 ## Ricette con sake
 
 Il sake non è solo una bevanda, ma può anche essere utilizzato in cucina per aggiungere un tocco di autenticità ai tuoi piatti giapponesi, esattamente come il vino nella cucina italiana.
+## Dove comprarlo
+
+Puoi cercarlo nei [negozi di alimentari asiatici](/negozi_orientali/) vicino a te (li trovi sulla [mappa dei negozi](/negozi_orientali/mappa/)) oppure ordinarlo da uno dei [negozi online](/negozi_orientali/online/).
+
 <IngredientRecipeList ingredientTag="sake" />

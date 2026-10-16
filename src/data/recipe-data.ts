@@ -384,7 +384,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     ],
     "recipeYield": null,
     "recipeIngredient": [],
-    "instructionsText": "Sbollentare la sovraccoscia di pollo in acqua bollente per un minuto, quindi scolarla e gettare l'acqua. Questo passaggio serve a pulire il pollo e a garantire un brodo più limpido. In una pentola, unire l'alga kombu, il pollo sbollentato, l'acqua, il sakè, la salsa di soia, il mirin e lo zucchero. Portare a leggero bollore. Cuocere a fuoco basso per 25 minuti, schiumando di tanto in tanto le impurità che affiorano in superficie. A metà cottura, dopo circa 12 minuti, girare il pollo. Al termine della cottura, togliere il pollo e l'alga kombu dalla pentola. Lasciare raffreddare il pollo e il brodo separatamente, poi trasferire il brodo in frigorifero per farlo diventare ben freddo. Preparare i condimenti: tagliare il pollo cotto a fettine sottili e condirlo con un pizzico di sale. Tritare finemente il myoga e le foglie di shiso. Cuocere i somen seguendo le istruzioni sulla confezione. Scolarli e passarli immediatamente in una ciotola con acqua fredda e ghiaccio per bloccare la cottura e renderli più sodi. Scolarli di nuovo molto bene. Prendere il brodo freddo dal frigorifero, aggiungere l'aceto e mescolare. Mettere i somen in una ciotola, versarvi sopra il brodo freddo e guarnire con il trito di myoga e shiso, le fettine di pollo e i germogli di ravanello.",
+    "instructionsText": "Sbollentare la sovraccoscia di pollo in acqua bollente per un minuto, quindi scolarla e gettare l'acqua. Questo passaggio serve a pulire il pollo e a garantire un brodo più limpido. In una pentola, unire l'alga kombu, il pollo sbollentato, l'acqua, il sakè, la salsa di soia, il mirin e lo zucchero. Portare a leggero bollore. Cuocere a fuoco basso per 25 minuti, schiumando di tanto in tanto le impurità che affiorano in superficie. A metà cottura, dopo circa 12 minuti, girare il pollo. Al termine della cottura, togliere il pollo e l'alga kombu dalla pentola. Lasciare raffreddare il pollo e il brodo separatamente, poi trasferire il brodo in frigorifero per farlo diventare ben freddo. Preparare i condimenti: tagliare il pollo cotto a fettine sottili e condirlo con un pizzico di sale. Tritare finemente il myoga e le foglie di shiso. Cuocere i somen seguendo le istruzioni sulla confezione. Scolarli e passarli immediatamente in una ciotola con acqua fredda e ghiaccio per bloccare la cottura e renderli più sodi. Scolarli di nuovo molto bene. Prendere il brodo freddo dal frigorifero, aggiungere l'aceto e mescolare. Mettere i somen in una ciotola, versarvi sopra il brodo freddo e guarnire con il trito di myoga e shiso, le fettine di pollo e i germogli di ravanello. Per un altro piatto freddo con i somen, prova i somen con tororo e lime.",
     "videoIds": [],
     "datePublished": "2025-10-27T22:43:02+01:00"
   },
@@ -768,7 +768,11 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "pollo",
       "verdure",
       "tradizionale",
-      "stufato"
+      "stufato",
+      "gobo",
+      "konnyaku",
+      "shiitake",
+      "sake"
     ],
     "recipeYield": "2-3 persone",
     "recipeIngredient": [
@@ -1580,7 +1584,9 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "recipeKeywords": [
       "verdure",
       "sides",
-      "katsuobushi"
+      "katsuobushi",
+      "sesamo",
+      "shoyu"
     ],
     "recipeYield": null,
     "recipeIngredient": [
@@ -1641,7 +1647,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "1 cucchiaio di zucchero (opzionale)",
       "Sesamo tostato"
     ],
-    "instructionsText": "Per cominciare, prendete le bucce del daikon e della carota che vi sono avanzate e tagliatele a julienne. In una padella, versate un filo di olio di sesamo e fatelo scaldare. Aggiungete le vostre verdure a julienne e spadellate fino a farle appassire per bene. A questo punto, sfumate con un goccio di sake, dopodiché aggiungete il mirin e la salsa di soia. Se vi piace un contrasto più agrodolce, potete aggiungere anche un bel cucchiaio di zucchero. Continuate a cuocere dando un paio di spadellate finché i liquidi non si saranno assorbiti quasi completamente. Quando la salsa si è assorbita, aggiungete una pioggia di sesamo tostato e mescolate. Trasferite il Kinpira in una bella ciotolina, dategli \"un'acchittata\" e completate con un altro po' di sesamo in superficie. Il vostro piatto antispreco è pronto per essere gustato!",
+    "instructionsText": "Per cominciare, prendete le bucce del daikon e della carota che vi sono avanzate e tagliatele a julienne. In una padella, versate un filo di olio di sesamo e fatelo scaldare. Aggiungete le vostre verdure a julienne e spadellate fino a farle appassire per bene. A questo punto, sfumate con un goccio di sake, dopodiché aggiungete il mirin e la salsa di soia. Se vi piace un contrasto più agrodolce, potete aggiungere anche un bel cucchiaio di zucchero. Continuate a cuocere dando un paio di spadellate finché i liquidi non si saranno assorbiti quasi completamente. Quando la salsa si è assorbita, aggiungete una pioggia di sesamo tostato e mescolate. Trasferite il Kinpira in una bella ciotolina, dategli \"un'acchittata\" e completate con un altro po' di sesamo in superficie. Il vostro piatto antispreco è pronto per essere gustato! Se ti piace il kinpira, prova anche la versione classica, il kinpira di gobo.",
     "videoIds": [
       "yO20Egoclpw"
     ],
@@ -2091,7 +2097,8 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "recipeKeywords": [
       "snack",
       "vegan",
-      "nori"
+      "nori",
+      "shoyu"
     ],
     "recipeYield": null,
     "recipeIngredient": [

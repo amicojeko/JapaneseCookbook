@@ -11,4 +11,8 @@ import ImageComponent from '@site/src/components/ImageComponent';
 L'alga Nori è un tipo di alga marina essiccata, sottile e di colore verde scuro, largamente utilizzata nella cucina giapponese, soprattutto nella preparazione del sushi e degli onigiri (polpette di riso), ma anche come guarnizione per zuppe, insalate e per aggiungere sapore e nutrimento a vari piatti, l'alga Nori è un ingrediente versatile e salutare, capace di arricchire qualsiasi piatto con il suo caratteristico e delicatissimo gusto di mare.
 
 <ImageComponent />
+## Dove comprarlo
+
+Puoi cercarlo nei [negozi di alimentari asiatici](/negozi_orientali/) vicino a te (li trovi sulla [mappa dei negozi](/negozi_orientali/mappa/)) oppure ordinarlo da uno dei [negozi online](/negozi_orientali/online/).
+
 <IngredientRecipeList ingredientTag="nori" />

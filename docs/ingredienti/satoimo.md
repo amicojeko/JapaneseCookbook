@@ -22,4 +22,8 @@ Il Satoimo (taro) è un tubero tropicale commestibile, molto utilizzato nella cu
 :::warning
 Va sempre cotto prima del consumo, perché crudo è tossico a causa dei cristalli di ossalato di calcio, che possono irritare la bocca e la gola.
 :::
+## Dove comprarlo
+
+Puoi cercarlo nei [negozi di alimentari asiatici](/negozi_orientali/) vicino a te (li trovi sulla [mappa dei negozi](/negozi_orientali/mappa/)) oppure ordinarlo da uno dei [negozi online](/negozi_orientali/online/).
+
 <IngredientRecipeList ingredientTag="satoimo" />
