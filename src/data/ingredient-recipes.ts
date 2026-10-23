@@ -291,6 +291,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/tamago_ankake_udon"
     },
     {
+      "id": "ricette/menrui/tantanmen",
+      "title": "Tantanmen",
+      "description": "Tantanmen: il ramen giapponese nato dal dandanmian del Sichuan, con brodo cremoso al sesamo e latte di soia, carne di maiale piccante, bok choy e cipollotto.",
+      "permalink": "/ricette/tantanmen"
+    },
+    {
       "id": "ricette/menrui/tofu_remon_kurimu_somen",
       "title": "Tōfu remon kurīmu sōmen",
       "description": "Una ricetta vegana fresca e avvolgente, dove i classici somen giapponesi vengono serviti con una ricca crema fredda a base di tofu e limone.",
@@ -417,6 +423,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Yamitsuki Kyabesu",
       "description": "Il cavolo che te da la rota!",
       "permalink": "/ricette/yamitsuki_kyabesu"
+    },
+    {
+      "id": "ricette/menrui/tantanmen",
+      "title": "Tantanmen",
+      "description": "Tantanmen: il ramen giapponese nato dal dandanmian del Sichuan, con brodo cremoso al sesamo e latte di soia, carne di maiale piccante, bok choy e cipollotto.",
+      "permalink": "/ricette/tantanmen"
     },
     {
       "id": "ricette/preparazioni_di_base/condimenti/furikake",
@@ -571,6 +583,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Hiyashi Tori Dashi Somen",
       "description": "Un piatto di noodles freddi rinfrescante e saporito, con un tocco di aceto che lo rende perfetto per l'estate.",
       "permalink": "/ricette/hiyashi_tori_dashi_somen"
+    },
+    {
+      "id": "ricette/menrui/tantanmen",
+      "title": "Tantanmen",
+      "description": "Tantanmen: il ramen giapponese nato dal dandanmian del Sichuan, con brodo cremoso al sesamo e latte di soia, carne di maiale piccante, bok choy e cipollotto.",
+      "permalink": "/ricette/tantanmen"
     },
     {
       "id": "ricette/nimono/chikuzenni",
@@ -967,6 +985,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Tamago Ankake Udon",
       "description": "Tamago Ankake Udon con uovo e zenzero: una ciotola calda, corroborante e confortante, ideale quando hai il raffreddore e cerchi un pasto sostanzioso.",
       "permalink": "/ricette/tamago_ankake_udon"
+    },
+    {
+      "id": "ricette/menrui/tantanmen",
+      "title": "Tantanmen",
+      "description": "Tantanmen: il ramen giapponese nato dal dandanmian del Sichuan, con brodo cremoso al sesamo e latte di soia, carne di maiale piccante, bok choy e cipollotto.",
+      "permalink": "/ricette/tantanmen"
     },
     {
       "id": "ricette/menrui/tororo_natto_shiso_udon",
@@ -1665,6 +1689,78 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/wakatake"
     }
   ],
+  "ramen": [
+    {
+      "id": "ricette/menrui/tantanmen",
+      "title": "Tantanmen",
+      "description": "Tantanmen: il ramen giapponese nato dal dandanmian del Sichuan, con brodo cremoso al sesamo e latte di soia, carne di maiale piccante, bok choy e cipollotto.",
+      "permalink": "/ricette/tantanmen"
+    }
+  ],
+  "miso": [
+    {
+      "id": "ricette/menrui/tantanmen",
+      "title": "Tantanmen",
+      "description": "Tantanmen: il ramen giapponese nato dal dandanmian del Sichuan, con brodo cremoso al sesamo e latte di soia, carne di maiale piccante, bok choy e cipollotto.",
+      "permalink": "/ricette/tantanmen"
+    },
+    {
+      "id": "ricette/tsukemono/ninniku-no-misozuke",
+      "title": "Ninniku no Misozuke",
+      "description": "Aglio conservato sotto miso",
+      "permalink": "/ricette/ninniku_no_misozuke"
+    },
+    {
+      "id": "ricette/yakimono/nasu_niku_miso",
+      "title": "Nasu no Niku Miso",
+      "description": "Una ricetta velocissima che unisce la cucina giapponese a quella italiana: carne trita, melanzane e miso per un condimento perfetto per il riso bianco.",
+      "permalink": "/ricette/nasu-no-niku-miso"
+    },
+    {
+      "id": "ricette/yakimono/takenoko_niku_miso",
+      "title": "Takenoko e Niku Miso",
+      "description": "Un secondo piatto ricco e saporito a base di germogli di bambù, carne trita, zenzero e una glassa umami al miso.",
+      "permalink": "/ricette/takenoko-niku-miso"
+    },
+    {
+      "id": "ricette/zuppe/misoshiru",
+      "title": "Zuppa di miso (misoshiru): ricetta classica",
+      "description": "Ricetta della zuppa di miso (misoshiru) con dashi e miso: la versione base e tante varianti con verdure, funghi, tofu e alghe, passo passo.",
+      "permalink": "/ricette/zuppa_di_miso"
+    },
+    {
+      "id": "ricette/zuppe/renkon_no_misoshiru",
+      "title": "Renkon no Misoshiru",
+      "description": "Zuppa di miso vegana con fette di radice di loto intagliate a teschio: la ricetta di Halloween spaventosamente facile, bella e buona.",
+      "permalink": "/ricette/renkon_no_misoshiru"
+    },
+    {
+      "id": "ricette/zuppe/tonjiru",
+      "title": "Tonjiru",
+      "description": "La zuppa giapponese più confortante, un \"reset dell'anima\" ricco di maiale e verdure di radice.",
+      "permalink": "/ricette/tonjiru"
+    },
+    {
+      "id": "ricette/zuppe/vegan-misoshiru",
+      "title": "Zuppa di Miso Vegana",
+      "description": "La versione vegana della zuppa di miso.",
+      "permalink": "/ricette/zuppa_di_miso_vegana"
+    },
+    {
+      "id": "ricette/zuppe/zuppa_di_miso_e_funghi",
+      "title": "Zuppa di Miso e Funghi Vegana",
+      "description": "Una zuppa di miso vegana, perfetta per l'autunno, con shiitake, enoki e miso rosso.",
+      "permalink": "/ricette/zuppa-miso-funghi-vegana"
+    }
+  ],
+  "layu": [
+    {
+      "id": "ricette/menrui/tantanmen",
+      "title": "Tantanmen",
+      "description": "Tantanmen: il ramen giapponese nato dal dandanmian del Sichuan, con brodo cremoso al sesamo e latte di soia, carne di maiale piccante, bok choy e cipollotto.",
+      "permalink": "/ricette/tantanmen"
+    }
+  ],
   "limone": [
     {
       "id": "ricette/menrui/tofu_remon_kurimu_somen",
@@ -2139,56 +2235,6 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Kyuri no Tsukemono",
       "description": "Cetrioli sottaceto veloci",
       "permalink": "/ricette/kyuri_no_tsukemono"
-    }
-  ],
-  "miso": [
-    {
-      "id": "ricette/tsukemono/ninniku-no-misozuke",
-      "title": "Ninniku no Misozuke",
-      "description": "Aglio conservato sotto miso",
-      "permalink": "/ricette/ninniku_no_misozuke"
-    },
-    {
-      "id": "ricette/yakimono/nasu_niku_miso",
-      "title": "Nasu no Niku Miso",
-      "description": "Una ricetta velocissima che unisce la cucina giapponese a quella italiana: carne trita, melanzane e miso per un condimento perfetto per il riso bianco.",
-      "permalink": "/ricette/nasu-no-niku-miso"
-    },
-    {
-      "id": "ricette/yakimono/takenoko_niku_miso",
-      "title": "Takenoko e Niku Miso",
-      "description": "Un secondo piatto ricco e saporito a base di germogli di bambù, carne trita, zenzero e una glassa umami al miso.",
-      "permalink": "/ricette/takenoko-niku-miso"
-    },
-    {
-      "id": "ricette/zuppe/misoshiru",
-      "title": "Zuppa di miso (misoshiru): ricetta classica",
-      "description": "Ricetta della zuppa di miso (misoshiru) con dashi e miso: la versione base e tante varianti con verdure, funghi, tofu e alghe, passo passo.",
-      "permalink": "/ricette/zuppa_di_miso"
-    },
-    {
-      "id": "ricette/zuppe/renkon_no_misoshiru",
-      "title": "Renkon no Misoshiru",
-      "description": "Zuppa di miso vegana con fette di radice di loto intagliate a teschio: la ricetta di Halloween spaventosamente facile, bella e buona.",
-      "permalink": "/ricette/renkon_no_misoshiru"
-    },
-    {
-      "id": "ricette/zuppe/tonjiru",
-      "title": "Tonjiru",
-      "description": "La zuppa giapponese più confortante, un \"reset dell'anima\" ricco di maiale e verdure di radice.",
-      "permalink": "/ricette/tonjiru"
-    },
-    {
-      "id": "ricette/zuppe/vegan-misoshiru",
-      "title": "Zuppa di Miso Vegana",
-      "description": "La versione vegana della zuppa di miso.",
-      "permalink": "/ricette/zuppa_di_miso_vegana"
-    },
-    {
-      "id": "ricette/zuppe/zuppa_di_miso_e_funghi",
-      "title": "Zuppa di Miso e Funghi Vegana",
-      "description": "Una zuppa di miso vegana, perfetta per l'autunno, con shiitake, enoki e miso rosso.",
-      "permalink": "/ricette/zuppa-miso-funghi-vegana"
     }
   ],
   "azuki": [

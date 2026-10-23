@@ -1434,6 +1434,13 @@
     "width": 1672,
     "height": 940
   },
+  "ricette/tantanmen.jpg": {
+    "hash": "86b4a960a5e2f8aefdbad8202c63b670",
+    "original": "/img/ricette/tantanmen.jpg",
+    "srcset": "/img/ricette/tantanmen-320w.webp 320w, /img/ricette/tantanmen-640w.webp 640w, /img/ricette/tantanmen-1280w.webp 1280w, /img/ricette/tantanmen-1600w.webp 1600w",
+    "width": 1672,
+    "height": 941
+  },
   "ricette/teriyaki_salmon.webp": {
     "hash": "c1e9283bb6d0a049e826a20afdd46c83",
     "original": "/img/ricette/teriyaki_salmon.webp",
