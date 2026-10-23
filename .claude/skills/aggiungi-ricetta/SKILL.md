@@ -118,8 +118,10 @@ Non forzarle: mettile solo dove il contenuto lo giustifica, ma quando c'è un ri
 1. **Verifica gli slug dei link** contro `build/sitemap.xml` (o i frontmatter di destinazione).
 2. **`npm run build`** — obbligatorio (via WSL: `wsl.exe -d ubuntu-20.04 -- bash -c "cd … && npm run build"`). Il prebuild rigenera `src/data/recipe-data.ts`, `ingredient-recipes.ts` e `paginegiappe-knowledge.json`, altrimenti la ricetta non compare in home, nelle card ingrediente né nell'export AI. I file `src/data/*.ts` rigenerati vanno **nello stesso commit** della ricetta.
    - Se ottieni `npm: command not found`, node è gestito da nvm e non è sul PATH della shell non interattiva. Anteponi il bin di node 20: `bash -c 'export PATH="/home/jeko/.nvm/versions/node/v20.19.5/bin:$PATH"; cd /home/jeko/Workspace/JapaneseCookbook && npm run build'`.
-3. Ricorda all'utente che l'immagine master, al commit, farà scattare l'hook husky che genera le varianti responsive.
-4. Non committare a meno che l'utente non lo chieda.
+3. **Avvia sempre il dev server per l'anteprima.** Dopo la build, avvia il server con `preview_start` usando la configurazione `docusaurus` di `.claude/launch.json` (porta 3000; non lanciare `npm start` da Bash). Apri la pagina della ricetta e dai all'utente il link cliccabile, ad esempio `http://localhost:3000/ricette/<slug>/`.
+4. **Spegni il server quando l'utente ha finito.** Lascialo acceso mentre l'utente rivede la pagina e chiede correzioni (l'hot-reload le mostra subito). Quando ti dice che ha finito ("ho fatto", "ok, va bene", "committa"…), fermalo con `preview_stop`.
+5. Ricorda all'utente che l'immagine master, al commit, farà scattare l'hook husky che genera le varianti responsive.
+6. Non committare a meno che l'utente non lo chieda.
 
 ## Checklist finale
 
@@ -134,3 +136,4 @@ Non forzarle: mettile solo dove il contenuto lo giustifica, ma quando c'è un ri
 - [ ] Sezione `## Video` **solo** se l'utente ha dato l'ID
 - [ ] Firma `— [Nome](/blog/authors/<chiave>)` in ultima riga **solo** se l'utente l'ha chiesta
 - [ ] `npm run build` eseguito
+- [ ] Dev server avviato e link di anteprima dato all'utente; server spento quando l'utente ha finito
