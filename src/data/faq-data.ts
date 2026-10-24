@@ -77,6 +77,20 @@ export const FAQ_DATA: Record<string, FaqItem[]> = {
       "a": "Il natto si trova surgelato o refrigerato nei negozi di alimentari giapponesi e asiatici più forniti, soprattutto a Milano, Roma, Torino e nelle altre grandi città. Si conserva benissimo in congelatore: si scongela in pochi minuti a temperatura ambiente."
     }
   ],
+  "ingredienti/nira": [
+    {
+      "q": "Cos'è il nira?",
+      "a": "Il nira è il nome giapponese dell'erba aglina (Allium tuberosum), detta anche erba cipollina cinese o cipolline cinesi. È un ortaggio a foglia piatta dal sapore di aglio, molto usato nella cucina giapponese, cinese e coreana."
+    },
+    {
+      "q": "Che differenza c'è tra nira ed erba cipollina?",
+      "a": "L'erba cipollina (Allium schoenoprasum) ha foglie tubolari, cave e a sezione circolare, con un sapore delicato di cipolla. Il nira ha foglie piatte e piene, con un sapore deciso di aglio, e si usa soprattutto cotto."
+    },
+    {
+      "q": "Cosa usare al posto del nira?",
+      "a": "Il sostituto più vicino è un mix di cipollotto (o erba cipollina) con un pizzico di aglio tritato, per recuperare la nota agliata. Il risultato è buono, ma meno profumato."
+    }
+  ],
   "ingredienti/senape_karashi": [
     {
       "q": "Cos'è il karashi?",

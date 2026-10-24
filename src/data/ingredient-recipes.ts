@@ -2099,6 +2099,14 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/salsa_ponzu"
     }
   ],
+  "nira": [
+    {
+      "id": "ricette/riso/nira_shio_kombu_onigiri",
+      "title": "Nira shio kombu no maze onigiri",
+      "description": "Un onigiri ricco di umami, preparato mescolando il riso caldo con erba aglina, shio kombu, katsuobushi e olio di sesamo.",
+      "permalink": "/ricette/nira-shio-kombu-maze-onigiri"
+    }
+  ],
   "sakura ebi": [
     {
       "id": "ricette/riso/onigiri_sakura_ebi",

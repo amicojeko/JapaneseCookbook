@@ -1311,7 +1311,8 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "sesame_oil",
       "kombu",
       "katsuobushi",
-      "nori"
+      "nori",
+      "nira"
     ],
     "recipeYield": null,
     "recipeIngredient": [

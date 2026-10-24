@@ -21,16 +21,17 @@ tags:
 - kombu
 - katsuobushi
 - nori
+- nira
 ---
 
 <ImageComponent />
 
-Avete mai sognato di addentare uno di quegli onigiri perfetti che si vedono negli anime? Con questa ricetta, vi sembrerà di essere catapultati subito in un film di Miyazaki. Prepareremo dei "maze onigiri", ovvero degli onigiri in cui gli ingredienti vengono mescolati direttamente insieme al [riso](/ingredienti/rice). Il protagonista vegetale di questa preparazione in giapponese si chiama *nira*, che in italiano è conosciuto come erba aglina o aglio tuberoso.
+Avete mai sognato di addentare uno di quegli onigiri perfetti che si vedono negli anime? Con questa ricetta, vi sembrerà di essere catapultati subito in un film di Miyazaki. Prepareremo dei "maze onigiri", ovvero degli onigiri in cui gli ingredienti vengono mescolati direttamente insieme al [riso](/ingredienti/rice). Il protagonista vegetale di questa preparazione in giapponese si chiama [*nira*](/ingredienti/nira), che in italiano è conosciuto come erba aglina o aglio tuberoso.
 
 ## Ingredienti
 
 - [Riso bianco](/ingredienti/rice) (ben caldo)
-- Nira (erba aglina)
+- [Nira](/ingredienti/nira) (erba aglina)
 - [Sesamo](/ingredienti/sesamo)
 - [Olio di sesamo](/ingredienti/sesame_oil)
 - Shio kombu (striscioline di alga kombu salata)
