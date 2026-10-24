@@ -1017,12 +1017,6 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/takenoko_to_aburaage_no_takikomi_gohan"
     },
     {
-      "id": "ricette/yakimono/gyoza",
-      "title": "Gyoza: ricetta dei ravioli giapponesi alla piastra",
-      "description": "Ricetta dei gyoza, i ravioli giapponesi alla piastra: ripieno, piegatura e cottura, anche con la pasta per gyoza già pronta dei negozi etnici.",
-      "permalink": "/ricette/gyoza"
-    },
-    {
       "id": "ricette/yakimono/negi_shio_remon_chikin",
       "title": "Negi Shio Remon Chikin",
       "description": "Una ricetta estiva semplice e deliziosa per preparare un pollo croccante in padella, guarnito con una fresca salsa di cipollotto e limone.",
@@ -2105,6 +2099,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Nira shio kombu no maze onigiri",
       "description": "Un onigiri ricco di umami, preparato mescolando il riso caldo con erba aglina, shio kombu, katsuobushi e olio di sesamo.",
       "permalink": "/ricette/nira-shio-kombu-maze-onigiri"
+    },
+    {
+      "id": "ricette/yakimono/gyoza",
+      "title": "Gyoza: ricetta dei ravioli giapponesi alla piastra",
+      "description": "Ricetta dei gyoza, i ravioli giapponesi alla piastra: ripieno, piegatura e cottura, anche con la pasta per gyoza già pronta dei negozi etnici.",
+      "permalink": "/ricette/gyoza"
     }
   ],
   "sakura ebi": [

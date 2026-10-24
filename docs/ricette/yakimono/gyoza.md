@@ -9,8 +9,8 @@ image: /img/ricette/gyoza1.jpg
 ingredients:
 - aglio
 - carne di maiale
-- cavolo cinese
-- cipolline verdi/negi
+- cavolo cappuccio
+- nira
 - funghi shiitake
 - olio di sesamo
 - pepe nero
@@ -19,7 +19,7 @@ ingredients:
 - salsa di soia
 - zenzero
 tags:
-- negi
+- nira
 - sake
 - sesame_oil
 - sesamo
@@ -33,17 +33,27 @@ Potete fare la pasta in casa, ma è molto più semplice usare la pasta per gyoza
 
 ## Ingredienti
 
+Con queste dosi vengono circa 40 gyoza. La resa è indicativa: dipende dalla grandezza delle sfoglie e da quanto ripieno mettete in ognuno.
+
 - 250g di carne di maiale macinata, preferite un taglio grasso come il collo.
-- 500g di cavolo cinese
+- 300g di cavolo cappuccio
 - 2 spicchi d'aglio
 - 1 cucchiaio di zenzero fresco grattugiato
 - 1 pizzico di sale
 - pepe nero macinato a piacere
-- 2 cipolline verdi/negi
+- 60g di [nira](/ingredienti/nira) (erba aglina, circa mezzo mazzo abbondante)
 - 2 funghi shiitake (opzionali)
 - 2 cucchiai di olio di sesamo
 - 2 cucchiai di [salsa di soia](/ingredienti/shoyu)
 - 2 cucchiai di [sake](/ingredienti/sake)
+
+:::tip
+Al posto del cavolo cappuccio si può usare il cavolo cinese (hakusai), ma il cappuccio è più facile da trovare. Attenzione però: il cavolo cinese contiene molta più acqua, quindi va salato e strizzato con ancora più cura, altrimenti il ripieno rischia di venire più morbido e con una consistenza un po' diversa.
+:::
+
+:::tip
+Il [nira](/ingredienti/nira) si può sostituire con le cipolline verdi, ma tradizionalmente i gyoza giapponesi si fanno con il nira: è lui a dare al ripieno quel profumo leggermente agliato che li rende inconfondibili.
+:::
 
 ### Per la Salsa
 - 1 parte di [salsa di soia](/ingredienti/shoyu)
@@ -53,7 +63,7 @@ Potete fare la pasta in casa, ma è molto più semplice usare la pasta per gyoza
 ## Preparazione
 
 Tritare finemente il cavolo e metterlo in una ciotola con un cucchiaio di sale. Lasciar riposare per 10 minuti, poi sciacquate e strizzare bene il cavolo per eliminare l'acqua in eccesso.
-Mentre il cavolo sta li per conto suo a perdere acqua, tritare finemente l'aglio, lo zenzero e le cipolline verdi. Mettere tutto in una ciotola con la carne di maiale e gli altri ingredienti e mescolare
+Mentre il cavolo sta li per conto suo a perdere acqua, tritare finemente l'aglio, lo zenzero e il nira (il nira non va salato: ha poca acqua e si aggiunge direttamente al ripieno). Mettere tutto in una ciotola con la carne di maiale e gli altri ingredienti e mescolare
 finché non si rompono le proteine della carne e il composto diventa omogeneo e quasi colloso.
 
 Con un cucchiaino, prendere un po' di ripieno e metterlo al centro di una sfoglia di pasta per gyoza. Bagnare i bordi con un po' d'acqua e chiudere a mezzaluna, facendo delle pieghe a ventaglio.
