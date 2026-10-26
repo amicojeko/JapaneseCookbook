@@ -393,6 +393,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/nasu-no-niku-miso"
     },
     {
+      "id": "ricette/yakimono/yurin_butakoma",
+      "title": "Yurin Butakoma",
+      "description": "Yurin Butakoma: fettine sottilissime di maiale infecolate, saltate in padella e glassate con ponzu, salsa di soia, zucchero, aglio e sake fino a diventare croccanti e caramellate. Pronto in 5 minuti, perfetto con il riso.",
+      "permalink": "/ricette/yurin_butakoma"
+    },
+    {
       "id": "ricette/zuppe/wakatake",
       "title": "Wakatake",
       "description": "Una zuppa giapponese facilissima, velocissima e buonissima a base di germogli di bambù e alga wakame.",
@@ -553,6 +559,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/shogayaki"
     },
     {
+      "id": "ricette/yakimono/yurin_butakoma",
+      "title": "Yurin Butakoma",
+      "description": "Yurin Butakoma: fettine sottilissime di maiale infecolate, saltate in padella e glassate con ponzu, salsa di soia, zucchero, aglio e sake fino a diventare croccanti e caramellate. Pronto in 5 minuti, perfetto con il riso.",
+      "permalink": "/ricette/yurin_butakoma"
+    },
+    {
       "id": "ricette/zuppe/tofu_and_eggs",
       "title": "Tofu in \"stracciatella\" con verdure",
       "description": "Una ricetta buona, economica, sana, proteica e facile da fare.",
@@ -709,6 +721,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Shogayaki: ricetta del maiale allo zenzero",
       "description": "Ricetta dello shogayaki, le scaloppine di maiale allo zenzero giapponesi: veloci da preparare in padella, da servire con riso bianco e cavolo a julienne.",
       "permalink": "/ricette/shogayaki"
+    },
+    {
+      "id": "ricette/yakimono/yurin_butakoma",
+      "title": "Yurin Butakoma",
+      "description": "Yurin Butakoma: fettine sottilissime di maiale infecolate, saltate in padella e glassate con ponzu, salsa di soia, zucchero, aglio e sake fino a diventare croccanti e caramellate. Pronto in 5 minuti, perfetto con il riso.",
+      "permalink": "/ricette/yurin_butakoma"
     }
   ],
   "ginnan": [
@@ -1027,6 +1045,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Takenoko e Niku Miso",
       "description": "Un secondo piatto ricco e saporito a base di germogli di bambù, carne trita, zenzero e una glassa umami al miso.",
       "permalink": "/ricette/takenoko-niku-miso"
+    },
+    {
+      "id": "ricette/yakimono/yurin_butakoma",
+      "title": "Yurin Butakoma",
+      "description": "Yurin Butakoma: fettine sottilissime di maiale infecolate, saltate in padella e glassate con ponzu, salsa di soia, zucchero, aglio e sake fino a diventare croccanti e caramellate. Pronto in 5 minuti, perfetto con il riso.",
+      "permalink": "/ricette/yurin_butakoma"
     },
     {
       "id": "ricette/zuppe/misoshiru",
