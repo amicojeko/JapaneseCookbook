@@ -75,4 +75,4 @@ Con una ricetta così il riso è d'obbligo: la glassa di ponzu e soia è fatta a
 
 ## Video
 
-<YouTubeVideo videoId="__YOUTUBE_ID__" />
+<YouTubeVideo videoId="5TMcRlMi1V0" />

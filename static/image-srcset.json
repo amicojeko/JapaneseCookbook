@@ -1567,6 +1567,13 @@
     "width": 1080,
     "height": 1254
   },
+  "ricette/yurin_butakoma.jpg": {
+    "hash": "7df0ed21fe209954d506f37fed4ca22c",
+    "original": "/img/ricette/yurin_butakoma.jpg",
+    "srcset": "/img/ricette/yurin_butakoma-320w.webp 320w, /img/ricette/yurin_butakoma-640w.webp 640w, /img/ricette/yurin_butakoma-1280w.webp 1280w, /img/ricette/yurin_butakoma-1600w.webp 1600w",
+    "width": 1672,
+    "height": 941
+  },
   "ricette/zaru_soba.jpg": {
     "hash": "c7f2bc6dd023b5a79f82d2422372e830",
     "original": "/img/ricette/zaru_soba.jpg",
