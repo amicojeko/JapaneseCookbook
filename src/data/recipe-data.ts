@@ -2264,7 +2264,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "potato_starch",
       "negi"
     ],
-    "recipeYield": "__PORZIONI__",
+    "recipeYield": "1 persona",
     "recipeIngredient": [],
     "instructionsText": "Taglia i cipollotti a rondelle sottili e tienili da parte: serviranno per la guarnizione finale. Prendi la carne di maiale tagliata sottilissima: pancetta, collo o spalla vanno benissimo. Infarina la carne, anzi \"infecolala\", con la , massaggiandola con le mani in modo che ogni fettina sia ricoperta da un velo sottile. Prepara la salsina di cottura: in una ciotolina mescola la salsa ponzu, la salsa di soia, lo zucchero, l'aglio schiacciato con lo spremiaglio e il sake. Scalda un filo di olio di semi in una padella, aggiungi la carne e cuocila a fuoco medio, girandola spesso per farla cuocere in modo uniforme. Non appena la carne perde il colore rosa, versa la salsina e lasciala asciugare finché il maiale diventa croccante e quasi caramellato. Servi il maiale in una ciotola, guarnito con i cipollotti tagliati all'inizio, e accompagnalo con una ciotola di riso bianco.",
     "videoIds": [

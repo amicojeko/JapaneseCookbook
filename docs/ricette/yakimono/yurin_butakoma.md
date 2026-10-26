@@ -19,20 +19,20 @@ tags:
   - sake
   - potato_starch
   - negi
-recipeYield: __PORZIONI__
+recipeYield: 1 persona
 ---
 
 import Link from '@docusaurus/Link';
 
-Lo Yurin Butakoma è uno di quei piatti che si preparano in cinque minuti e spariscono ancora più in fretta. Fettine sottilissime di maiale (butakoma), bello grasso, vengono infecolate, saltate in padella e poi glassate con una salsina di <Link to="/ricette/salsa_ponzu/">ponzu</Link>, <Link to="/ingredienti/shoyu/">salsa di soia</Link>, zucchero, aglio a profusione e <Link to="/ingredienti/sake/">sake</Link>, fino a diventare croccantine e quasi caramellate.
+Lo Yurin Butakoma è uno di quei piatti che si preparano in cinque minuti e spariscono ancora più in fretta. Fettine sottilissime di maiale (butakoma), bello grasso, vengono infecolate, saltate in padella e poi glassate con una salsina di <Link to="/ricette/salsa_ponzu/">ponzu</Link>, <Link to="/ingredienti/shoyu/">salsa di soia</Link>, zucchero, aglio e <Link to="/ingredienti/sake/">sake</Link>, fino a diventare croccantine e quasi caramellate.
 
-Velocissimo e "bona fracica", come si dice a Okinawa. Da mangiare rigorosamente con una bella ciotola di <Link to="/ricette/riso-giapponese-in-pentola/">riso giapponese</Link>.
+È una ricetta velocissima e bona fracica, come si dice a Okinawa. Da mangiare rigorosamente con una bella ciotola di <Link to="/ricette/riso-giapponese-in-pentola/">riso giapponese</Link>.
 
 <ImageComponent />
 
-## Ingredienti per __PORZIONI__
+## Ingredienti per 1 persona
 
-- __GRAMMI__ g di carne di maiale tagliata sottilissima (pancetta, collo o spalla)
+- 150 g di carne di maiale tagliata sottilissima (pancetta, collo o spalla)
 - <Link to="/ingredienti/potato_starch/">Fecola di patate</Link> q.b.
 - Cipollotti (o <Link to="/ingredienti/negi/">negi</Link>) q.b., per guarnire
 - Olio di semi q.b.
@@ -41,8 +41,8 @@ Velocissimo e "bona fracica", come si dice a Okinawa. Da mangiare rigorosamente 
 
 - 2 cucchiai di <Link to="/ricette/salsa_ponzu/">salsa ponzu</Link>
 - 1 cucchiaio di <Link to="/ingredienti/shoyu/">salsa di soia</Link>
-- 1 cucchiaio di zucchero
-- 2 spicchi d'aglio schiacciati
+- 1 cucchiaino di zucchero
+- 1 spicchio d'aglio schiacciato
 - 1 cucchiaio di <Link to="/ingredienti/sake/">sake</Link>
 
 ## Preparazione
