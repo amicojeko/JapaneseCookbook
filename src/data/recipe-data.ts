@@ -2270,7 +2270,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "5TMcRlMi1V0"
     ],
-    "datePublished": "2026-10-26T13:41:49+01:00"
+    "datePublished": "2026-10-26T14:08:38+01:00"
   },
   "ricette/zuppe/misoshiru": {
     "docId": "ricette/zuppe/misoshiru",
