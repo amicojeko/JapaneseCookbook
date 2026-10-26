@@ -38,7 +38,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     ],
     "instructionsText": "Preparare innanzitutto il Nanban-zu. Mettere in un pentolino la salsa di soia Koikuchi, la Usukuchi, il mirin, l'aceto e lo zucchero. Portare brevemente a bollore, mescolando finché lo zucchero non sarà completamente sciolto. Togliere dal fuoco e aggiungere un poco di shichimi togarashi. Versare la salsa in un recipiente abbastanza largo da poterci immergere successivamente il pollo. Preparare quindi una delle due salse tartare e conservarla in frigorifero mentre si frigge il pollo. Eliminare l'eventuale pelle dal petto di pollo. Se il petto è particolarmente spesso, aprirlo oppure tagliarlo in modo da ottenere pezzi di spessore abbastanza uniforme. Non devono essere troppo sottili: il pollo deve rimanere succoso all'interno. Condire leggermente con sale e pepe. Passare il pollo nella farina, ricoprendolo completamente con uno strato sottile, ed eliminare bene quella in eccesso. Sbattere l'uovo in una ciotola. Immergere il pollo infarinato nell'uovo sbattuto, ricoprendolo molto bene. Scaldare l'olio a circa 170 °C. Immergere il pollo ricoperto di uovo e friggerlo fino a completa cottura e a una leggera doratura. La ricetta di Ogura indica indicativamente 5-7 minuti, ma il tempo dipende naturalmente dallo spessore della carne. Appena tolto il pollo dall'olio, immergerlo ancora caldo nel Nanban-zu. Nella ricetta di Ogura viene lasciato nella salsa per circa 30 secondi. Rigirarlo in modo che tutta la superficie assorba uniformemente la salsa, quindi scolarlo. Tagliare il pollo trasversalmente a fette, sistemarlo nel piatto e ricoprirlo generosamente con la salsa tartara scelta. Servire con cavolo cappuccio tagliato finemente, insalata e riso bianco.",
     "videoIds": [],
-    "datePublished": "2026-09-01T15:01:48+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/agemono/enoki_tatsuta-age": {
     "docId": "ricette/agemono/enoki_tatsuta-age",
@@ -67,7 +67,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "uK4SKPruJSI"
     ],
-    "datePublished": "2026-02-07T20:14:52+01:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/agemono/kara-age": {
     "docId": "ricette/agemono/kara-age",
@@ -96,7 +96,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "7VbEkKBAs-g"
     ],
-    "datePublished": "2021-08-12T12:23:31+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/antipasti/chawanmushi": {
     "docId": "ricette/antipasti/chawanmushi",
@@ -123,7 +123,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "koIokEwbbMQ"
     ],
-    "datePublished": "2025-10-27T22:43:02+01:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/antipasti/chuka_tataki_kyuri": {
     "docId": "ricette/antipasti/chuka_tataki_kyuri",
@@ -149,7 +149,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "R5SFTwKcVTU"
     ],
-    "datePublished": "2026-07-10T15:49:56+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/antipasti/hiyashi_nasu": {
     "docId": "ricette/antipasti/hiyashi_nasu",
@@ -170,7 +170,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     ],
     "instructionsText": "Sbucciare completamente la melanzana con un pelapatate. Avvolgerla poi molto stretta in un foglio di carta da cucina. Passare la melanzana avvolta sotto l'acqua corrente, bagnando uniformemente la carta. Strizzarla bene per eliminare l'acqua in eccesso. Avvolgere nuovamente il tutto, ben stretto, con della pellicola per alimenti adatta al microonde. Cuocere la melanzana nel microonde per 3 minuti alla massima potenza. Questo metodo è una scorciatoia per la classica cottura al vapore. Appena finita la cottura, scartare immediatamente la melanzana dalla pellicola e dalla carta. Lasciarla raffreddare prima a temperatura ambiente, poi metterla in un contenitore e trasferirla in frigorifero finché non sarà completamente fredda. Prendere la melanzana fredda dal frigo e tagliarla a fette o a tocchetti. Disporla su un piattino. Guarnire con le cipolline affettate finemente, condire con un po' di salsa di soia e completare con una generosa manciata di katsuobushi. Provate assolutamente a rifarlo perché è veramente buono, buono, buono. Itadakimasu!",
     "videoIds": [],
-    "datePublished": "2025-08-04T10:18:26+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/antipasti/hiyayakko": {
     "docId": "ricette/antipasti/hiyayakko",
@@ -195,7 +195,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "LkaGIe4oocQ"
     ],
-    "datePublished": "2025-02-15T15:15:08+01:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/antipasti/nama_harumaki": {
     "docId": "ricette/antipasti/nama_harumaki",
@@ -221,7 +221,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "Ls_tcuHzqkQ"
     ],
-    "datePublished": "2026-03-26T20:17:13+01:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/antipasti/sunomono": {
     "docId": "ricette/antipasti/sunomono",
@@ -248,7 +248,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     ],
     "instructionsText": "",
     "videoIds": [],
-    "datePublished": "2025-09-03T20:09:44+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/antipasti/tofu_natto_kimchi_ponzu": {
     "docId": "ricette/antipasti/tofu_natto_kimchi_ponzu",
@@ -274,7 +274,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "Z123fdzaRXU"
     ],
-    "datePublished": "2026-07-13T12:48:06+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/antipasti/yamitsuki_kyabesu": {
     "docId": "ricette/antipasti/yamitsuki_kyabesu",
@@ -297,7 +297,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     ],
     "instructionsText": "Prendere un contenitore di plastica con coperchio. Tagliare il cavolo cappuccio a quadratoni grossolani, senza essere troppo precisi, e separare le foglie con le mani. Mettere il cavolo tagliato nel contenitore. Aggiungere direttamente sul cavolo un cucchiaio di olio di sesamo, il brodo granulare, il sale e una generosa manciata di semi di sesamo. Chiudere il contenitore con il suo coperchio. Adesso arriva la parte divertente: shakerare fortissimo per qualche secondo, in modo da distribuire uniformemente il condimento e ammorbidire leggermente il cavolo. Aprire, trasferire in una ciotola e servire subito. È già pronta.",
     "videoIds": [],
-    "datePublished": "2025-10-01T15:36:23+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/fish/sudako_negi_vapore": {
     "docId": "ricette/fish/sudako_negi_vapore",
@@ -318,7 +318,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     ],
     "instructionsText": "Metti i moscardini in una ciotola di terracotta (o una ciotola capiente). Aggiungi abbondante sale e massaggiali con cura ed energia. Fallo finché non ti sembra di star esagerando: quella è la quantità giusta di frizione. Sciacquali molto bene sotto l'acqua corrente per rimuovere tutto il sale e le impurità. Porta a bollore una pentola d'acqua e aggiungi sale. Immergi i moscardini tenendoli per la testa e bagnando prima solo le punte dei tentacoli ripetutamente (\"choi choi\"). Facendo così, i tentacoli si arricceranno verso l'esterno e prenderanno una bella forma una volta cotti. Quando la testa diventa dura e compatta al tatto, sono pronti. Scolali. Prendi il negi e taglialo diagonalmente a pezzi grossolani. Mettili in un cestello per la cottura al vapore e cuocili finché non diventano teneri e dolci. Nel frattempo prepara la salsa: in un pentolino metti un cucchiaio di zucchero e il doppio della quantità di aceto. Scalda leggermente solo per far sciogliere lo zucchero. Lascia raffreddare e aggiungi una piccolissima quantità di shoyu. Taglia i moscardini bolliti a pezzi facili da mangiare (la tecnica di taglio dipende dai gusti). Impiattamento: disponi il negi cotto al vapore sul fondo del piatto, spargi sopra i pezzi di moscardino. Condisci versando la salsa agrodolce (amazu) e completa con una spolverata di pepe nero. Itadakimasu!",
     "videoIds": [],
-    "datePublished": "2025-12-14T11:29:36+01:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/fish/teriyaki_salmon": {
     "docId": "ricette/fish/teriyaki_salmon",
@@ -341,7 +341,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     ],
     "instructionsText": "Condire il salmone con sale e pepe nero appena macinato, poi passarlo leggermente nella farina bianca. Scaldare l'olio da cucina o il burro in una padella e cuocere il salmone per 3 minuti da un lato fino a doratura. Girare il salmone, aggiungere 1 cucchiaio di sake e coprire la padella per cuocere per altri 3 minuti. Rimuovere il coperchio, versare la salsa Teriyaki e cospargere il salmone con la salsa per ricoprirlo uniformemente.",
     "videoIds": [],
-    "datePublished": "2021-08-13T18:10:22+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/menrui/bukkake_udon": {
     "docId": "ricette/menrui/bukkake_udon",
@@ -367,7 +367,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     ],
     "instructionsText": "I Condimenti: Per prima cosa prepariamo i topping. Prendiamo il nostro Daikon, lo spelliamo e lo grattugiamo. Strizziamolo leggermente per fargli perdere l'acqua in eccesso e teniamolo da parte. Già che ci siamo, andiamo ad affettare finemente anche qualche cipollina. Lo Zenzero: Dopodiché, peliamo un po' di zenzero con il metodo del cucchiaio (che è infallibile), lo grattugiamo e lo mettiamo da parte. Il Brodo (la parte \"Bukkake\"): \"Sì, ma in tutto questo bukkake che c'entra?\" direte voi. Tranquilli, ci arriveremo. In una ciotola mescoliamo il Dashi, un cucchiaio di Mentsuyu e un paio di cucchiaini di salsa di soia. Cottura degli Udon: Nel frattempo, mettiamo a bollire un pentolino d'acqua e, quando bolle, plop, ci mettiamo dentro i nostri udon preconfezionati. Basterà un paio di minuti di cottura. Raffreddamento: Appena cotti, li scoliamo e li facciamo raffreddare direttamente in una ciotola con acqua e ghiaccio. Poi, mi raccomando, scolateli molto bene.",
     "videoIds": [],
-    "datePublished": "2025-09-03T20:09:44+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/menrui/hiyashi_tori_dashi_somen": {
     "docId": "ricette/menrui/hiyashi_tori_dashi_somen",
@@ -386,7 +386,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "recipeIngredient": [],
     "instructionsText": "Sbollentare la sovraccoscia di pollo in acqua bollente per un minuto, quindi scolarla e gettare l'acqua. Questo passaggio serve a pulire il pollo e a garantire un brodo più limpido. In una pentola, unire l'alga kombu, il pollo sbollentato, l'acqua, il sakè, la salsa di soia, il mirin e lo zucchero. Portare a leggero bollore. Cuocere a fuoco basso per 25 minuti, schiumando di tanto in tanto le impurità che affiorano in superficie. A metà cottura, dopo circa 12 minuti, girare il pollo. Al termine della cottura, togliere il pollo e l'alga kombu dalla pentola. Lasciare raffreddare il pollo e il brodo separatamente, poi trasferire il brodo in frigorifero per farlo diventare ben freddo. Preparare i condimenti: tagliare il pollo cotto a fettine sottili e condirlo con un pizzico di sale. Tritare finemente il myoga e le foglie di shiso. Cuocere i somen seguendo le istruzioni sulla confezione. Scolarli e passarli immediatamente in una ciotola con acqua fredda e ghiaccio per bloccare la cottura e renderli più sodi. Scolarli di nuovo molto bene. Prendere il brodo freddo dal frigorifero, aggiungere l'aceto e mescolare. Mettere i somen in una ciotola, versarvi sopra il brodo freddo e guarnire con il trito di myoga e shiso, le fettine di pollo e i germogli di ravanello. Per un altro piatto freddo con i somen, prova i somen con tororo e lime.",
     "videoIds": [],
-    "datePublished": "2025-10-27T22:43:02+01:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/menrui/natto_soba": {
     "docId": "ricette/menrui/natto_soba",
@@ -414,7 +414,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     ],
     "instructionsText": "Bolli i soba in abbondante acqua (io non metto sale), sciacquali sotto l'acqua fredda, trasferiscili in una ciotola con acqua e ghiaccio per raffreddarli, scolali e asciugali bene, e mettili in una ciotola facendo una fossetta al centro, dove metterai il rosso dell'uovo. Aggiungi ai lati il natto, le cipolline tagliate sottili, il katsuobushi, il kizami nori, e il rosso dell'uovo al centro. Opzionale, come in foto, puoi aggiungere un paio di foglie di shiso fresco per guarnire. Mischia il mentsuyu e il dashi, per ottenere lo tsuyu, che verserai al lato della ciotola, per fare un fondo di circa 1 cm di altezza. E ora non ti resta che mangiare! Itadakimasu!",
     "videoIds": [],
-    "datePublished": "2024-07-19T10:04:20+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/menrui/niku_udon": {
     "docId": "ricette/menrui/niku_udon",
@@ -445,7 +445,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "85Qst4TolyM"
     ],
-    "datePublished": "2026-07-23T23:44:01+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/menrui/somen_tororo_lime": {
     "docId": "ricette/menrui/somen_tororo_lime",
@@ -473,7 +473,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "PjykDwvUW6g"
     ],
-    "datePublished": "2026-07-20T14:37:17+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/menrui/tamago_ankake_udon": {
     "docId": "ricette/menrui/tamago_ankake_udon",
@@ -495,7 +495,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "2EIm1NEfSYo"
     ],
-    "datePublished": "2026-10-04T21:55:58+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/menrui/tofu_remon_kurimu_somen": {
     "docId": "ricette/menrui/tofu_remon_kurimu_somen",
@@ -526,7 +526,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "_QqKN-8I6y4"
     ],
-    "datePublished": "2026-08-10T09:00:19+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/menrui/tomato_to_tsuna_no_hiyashi_somen": {
     "docId": "ricette/menrui/tomato_to_tsuna_no_hiyashi_somen",
@@ -555,7 +555,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "jkbb8aukEuk"
     ],
-    "datePublished": "2026-06-02T16:16:13+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/menrui/tori_dashi_no_nyumen": {
     "docId": "ricette/menrui/tori_dashi_no_nyumen",
@@ -580,7 +580,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "aQ8tXgcNsLM"
     ],
-    "datePublished": "2026-02-28T17:25:02+01:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/menrui/tororo_natto_shiso_udon": {
     "docId": "ricette/menrui/tororo_natto_shiso_udon",
@@ -610,7 +610,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "fI0etHpnak8"
     ],
-    "datePublished": "2026-05-05T14:02:10+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/menrui/udon_burro_e_shoyu": {
     "docId": "ricette/menrui/udon_burro_e_shoyu",
@@ -634,7 +634,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     ],
     "instructionsText": "Cuocere gli udon in abbondante acqua bollente per circa due minuti, o seguendo le istruzioni riportate sulla confezione. Scolare gli udon e trasferirli direttamente in una padella calda. Aggiungere subito la noce di burro e il cucchiaio di salsa di soia. Mantecare a fuoco vivo per circa un minuto, saltando gli udon come si farebbe con la pasta, finché il condimento non si sarà amalgamato creando una salsa cremosa. Impiattare immediatamente. Cospargere con abbondante katsuobushi (usandolo proprio come se fosse parmigiano) e guarnire con una manciata di kizami nori. È una soddisfazione unica, con un rapporto bontà-fatica imbattibile. Itadakimasu!",
     "videoIds": [],
-    "datePublished": "2025-10-01T14:54:45+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/menrui/udon_fatti_in_casa": {
     "docId": "ricette/menrui/udon_fatti_in_casa",
@@ -649,7 +649,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "recipeIngredient": [],
     "instructionsText": "Iniziate unendo le farine in una ciotola e mescolate accuratamente per rimuovere eventuali grumi. In un recipiente piccolo mescolate l'acqua e il sale, sciogliendolo bene perché non rimangano parti dell'impasto più salate. Aggiungete 2/3 dell'acqua e sale alla farina e mescolate con movimenti ampi e rapidi per 1 minuto. Poi aggiungete il resto poco alla volta e mescolate per circa 5 minuti senza fermarvi, fino a ottenere un composto unico e leggermente umido. Unito l'impasto in un unico blocco, premete 20-30 volte sul piano di lavoro esercitando pressione con il peso del corpo, poi impastate ripiegandolo in 3 parti portando i bordi verso l'interno. Ripetete più volte.",
     "videoIds": [],
-    "datePublished": "2026-05-26T15:55:53+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/menrui/yaki_udon": {
     "docId": "ricette/menrui/yaki_udon",
@@ -681,7 +681,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "7CIiq2RuUtc"
     ],
-    "datePublished": "2026-04-19T19:34:56+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/menrui/yakisoba": {
     "docId": "ricette/menrui/yakisoba",
@@ -708,7 +708,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     ],
     "instructionsText": "Preparare la pasta qualche ora prima, facendola super al dente (gli date giusto una sbollentata), scolate e sciaquatela bene sotto l'acqua fredda, scolatela di nuovo e conditela con un filo d'olio per evitare che si attacchi. Lasciatela a temperatura ambiente fino al momento di usarla. Potete metterla in un sacchetto di plastica ben chiuso, in modo che non si secchi, o in un contenitore ermetico. Taglia la cipolla a fette sottili, il cavolo cappuccio a quadratini, i funghi shiitake a fettine e la pancetta a striscioline. In una padella capiente o wok, scalda un po' d'olio e metti la panctta a rosolare. Quando inizia a rilasciare il grasso, aggiungi la cipolla, cuocendo fino a quando diventa trasparente. Aggiungi il cavolo cappuccio e i funghi shiitake, cuocendo fino a quando il cavolo inizia ad appassire. Aggiungi la pasta e mescola bene per amalgamare gli ingredienti. Versa la salsa yakisoba, dai una bella mescolata e cuoci per qualche minuto senza mescolare, in modo che la pasta faccia tutta una crosticina croccante. All'ultimo aggiungi il benishoga, mescola e servi con una spolverata di aonori e katsuobushi.",
     "videoIds": [],
-    "datePublished": "2025-10-27T22:43:02+01:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/menrui/zaru_soba": {
     "docId": "ricette/menrui/zaru_soba",
@@ -730,7 +730,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "P1P7Ff26jQ0"
     ],
-    "datePublished": "2024-03-10T17:50:10+01:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/menrui/zaru_udon": {
     "docId": "ricette/menrui/zaru_udon",
@@ -755,7 +755,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "RdXbG3nq7hY"
     ],
-    "datePublished": "2026-08-09T14:15:07+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/nimono/chikuzenni": {
     "docId": "ricette/nimono/chikuzenni",
@@ -793,7 +793,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "ag2sijcrXb8"
     ],
-    "datePublished": "2026-09-07T08:12:26+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/nimono/daikon_no_nimono": {
     "docId": "ricette/nimono/daikon_no_nimono",
@@ -815,7 +815,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "W1llNvmnKHY"
     ],
-    "datePublished": "2026-05-01T12:12:00+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/nimono/kabocha_no_nimono": {
     "docId": "ricette/nimono/kabocha_no_nimono",
@@ -842,7 +842,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "usKM2qSpBQs"
     ],
-    "datePublished": "2026-01-21T15:13:46+01:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/nimono/kakuni": {
     "docId": "ricette/nimono/kakuni",
@@ -872,7 +872,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     ],
     "instructionsText": "Prima di tutto una premessa: questo è il metodo \"veloce\" per la preparazione del buta kaku-ni. Secondo il metodo tradizionale, spiegato ottimamente da Shizuo Tsuji nel suo libro \"Japanese Cooking: A Simple Art\" (praticamente la bibbia della cucina giapponese), ci vogliono due giorni per preparare il kakuni. Giuro che un giorno ci proverò, ma per ora mi accontento di questa versione. Tagliare la pancetta in pezzi di 5 cm di lato, e rosolare i cubi in una padella antiederente, 2 minuti per lato (12 minuti in totale). Asciugarli con un panno o dei fazzoletti di carta per eliminare il grasso in eccesso. Mettere i cubi di pancetta rosolata in una pentola a pressione, con il lato della pelle rivolto verso il basso. Aggiungere acqua tiepida ed un bicchiere di sake, fino a coprire la pancetta. Aggiungere la parte verde della cipolla e lo zenzero tagliato a fette. Chiudere la pentola a pressione e cuocere per mezz'ora. Scolare la pancetta e metterla da parte. Filtrare il brodo di cottura, facendolo freddare per poi togliere il grasso. Cuocere le uova in acqua bollente per 6 minuti e 30 secondi (prendendole dal frigo così partono sempre dalla stessa temperatura), in modo che restino liquide al centro, raffreddarle in acqua ghiacciata e sbucciarle. Sbollentare il bok choi in acqua bollente per 1 minuto, o saltarlo in padella con aglio e zenzero, e metterlo da parte. In una casseruola, mettere il brodo, la salsa di soia, il mirin, lo zucchero e il sake. Aggiungere la pancetta e il daikon tagliato a fette, e cuocere a fuoco basso facendo sobbollire per per 30 minuti. Negli ultimi 10 minuti aggiungere le uova e togliere il coperchio in modo che si ritiri un po' la salsa. Servire il kakuni con il bok choy e il daikon, e un po' di salsa. Guarnire a piacere con senape karashi, shichimi togarashi, e la parte bianca della cipolla verde tagliata a julienne e immersa in acqua fredda per arricciarla.",
     "videoIds": [],
-    "datePublished": "2024-06-27T13:47:56+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/nimono/nikujaga": {
     "docId": "ricette/nimono/nikujaga",
@@ -900,7 +900,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "yNDVtIMAxtY"
     ],
-    "datePublished": "2026-01-21T15:12:45+01:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/preparazioni_di_base/brodi/dashi": {
     "docId": "ricette/preparazioni_di_base/brodi/dashi",
@@ -923,7 +923,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "SQjoBpeNOhg",
       "JzrHdn_lr-I"
     ],
-    "datePublished": "2025-10-27T22:43:02+01:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/preparazioni_di_base/brodi/mentsuyu": {
     "docId": "ricette/preparazioni_di_base/brodi/mentsuyu",
@@ -951,7 +951,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "gXeX1rC_YTs"
     ],
-    "datePublished": "2021-07-07T13:43:12+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/preparazioni_di_base/brodi/vegan_dashi": {
     "docId": "ricette/preparazioni_di_base/brodi/vegan_dashi",
@@ -973,7 +973,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     ],
     "instructionsText": "La preparazione richiede tempo e pazienza per estrarre al meglio i sapori in modo delicato (infusione a freddo).",
     "videoIds": [],
-    "datePublished": "2025-09-05T10:46:48+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/preparazioni_di_base/condimenti/furikake": {
     "docId": "ricette/preparazioni_di_base/condimenti/furikake",
@@ -996,7 +996,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     ],
     "instructionsText": "Se il Katsuobushi e' nuovo, prendetene una bella manciata e tostatelo in padella, come si fa col sesamo (ovvero a fuoco medio, senza coperchio, muovendolo spesso e togliendolo quando inizia a imbrunire) Se invece e' usato, strizzatelo benissimo, e cercate di sfilacciarlo il piu' possibile prima di metterlo in padella. Poi mettetelo in una padella bella ampia, in modo che non tenda ad appallottolarsi, e fare come sopra, ma con molto piu' tempo ed attenzione. Quando il Katsuobushi e' bello tostato, sbriciolatelo senza pieta' (si ma fate pezzetti, non sabbia...) L'alga kombu, se e' nuova ed essiccata, mettetela a bagno un po' per ammorbidirla, senno' finisce che ci rompete il coltello. E poi, nuova o usata che sia, fatela a quadratini di mezzo centimetro di lato. Tostate i semi di sesamo (come se fosse Katsuobushi), senza distrarvi e a fuoco medio-basso, perche' come vi distraete si carbonizzano immediatamente. Sbriciolate l'alga nori con le mani, da molta soddisfazione. Anche qui attenti a non fare l'Aonori per sbaglio. Comunque, siccome la kombu, cosi come e', e' dura da morire, mettetela in una padella, e metteteci tutto il condimento. Fate andare a fuoco basso, finche' il liquido non si sara' ritirato, e l'alga kombu ammorbidita. Se l'alga kombu e' ancora dura, aggiungete un po' di acqua e fate andare ancora. Quando il liquido avra' raggiunto la densita' della salsa Teriyaki quando e' pronta (ho imparato da mia madre a dare sempre istruzioni utilissime), spegnete il fuoco e aggiungete il katsuobushi, i semi di sesamo e l'alga nori, e mescolate bene. Alla fine vengono tutte palline ammappazzate ma non vi preccupate. Mettete tutto in forno su un bel foglio di carta da forno, a bassa temperatura (70-75 gradi), e ogni tanto aprite il forno, mescolate, sfragnate, e richiudete, finche' non sara' tutto bello secco e croccante. A questo punto dategli un'ultima sfragnata e mettete in un barattolo, e ciaone dal Giappone.",
     "videoIds": [],
-    "datePublished": "2022-01-05T17:58:24+01:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/preparazioni_di_base/condimenti/kinako": {
     "docId": "ricette/preparazioni_di_base/condimenti/kinako",
@@ -1014,7 +1014,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     ],
     "instructionsText": "Versate i semi di soia secchi in una padella e tostateli a fuoco basso, senza aggiungere olio, per circa 10 minuti. Mescolate spesso, in modo che tostino in maniera uniforme e non brucino. Quando il rumore di scoppiettio diminuisce e sentite un profumo tostato e fragrante, spegnete il fuoco. Lasciate intiepidire la soia, poi avvolgetela in un canovaccio pulito o in un panno resistente. Picchiettate delicatamente con un mattarello o un pestello per rompere i semi in pezzi più piccoli. Trasferite la soia spezzata in un tritatutto o in un robot da cucina. Frullate a intervalli, fino a ottenere una farina il più possibile fine. Passate la farina attraverso un setaccio. La polvere più fine è il kinako.",
     "videoIds": [],
-    "datePublished": "2026-07-08T19:12:41+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/preparazioni_di_base/salse/nikiri": {
     "docId": "ricette/preparazioni_di_base/salse/nikiri",
@@ -1035,7 +1035,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     ],
     "instructionsText": "Metti il mirin e il sake in un pentolino a scaldare, e fai evaporare tutto l'alcol. Aggiungi la salsa di soia e il dashi, e fai sobbollire a fuoco basso fino a ridurre della metà il volume. Fai raffreddare e metti in frigo.",
     "videoIds": [],
-    "datePublished": "2024-07-22T14:49:54+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/preparazioni_di_base/salse/okonomiyaki": {
     "docId": "ricette/preparazioni_di_base/salse/okonomiyaki",
@@ -1057,7 +1057,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     ],
     "instructionsText": "In una ciotolina, unisci ketchup, salsa Worcestershire e salsa di ostriche. Aiutati con una piccola frusta per amalgamare bene il composto. Aggiungi lo zucchero (o il miele) e gira finché si scioglie del tutto, dando alla salsa la dolcezza tipica per l’okonomiyaki. Versa la salsa di soia e, se desideri una punta di acidità in più, un cucchiaino di aceto (di mele o di riso). Continua a mescolare finché il tutto non risulta ben omogeneo. Prova la salsa e, se occorre, aggiungi un pizzico di zucchero o qualche goccia di soia in più, per bilanciare dolce, salato e acidulo secondo il tuo gusto.",
     "videoIds": [],
-    "datePublished": "2021-08-13T18:10:22+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/preparazioni_di_base/salse/ponzu": {
     "docId": "ricette/preparazioni_di_base/salse/ponzu",
@@ -1083,7 +1083,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "nfS6pnLkvMU"
     ],
-    "datePublished": "2021-08-13T18:10:22+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/preparazioni_di_base/salse/takoyaki": {
     "docId": "ricette/preparazioni_di_base/salse/takoyaki",
@@ -1101,7 +1101,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     ],
     "instructionsText": "Mescolare a freddo - e regolare lo zucchero in base alla dolcezza del ketchup",
     "videoIds": [],
-    "datePublished": "2021-08-13T18:10:22+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/preparazioni_di_base/salse/tentsuyu": {
     "docId": "ricette/preparazioni_di_base/salse/tentsuyu",
@@ -1122,7 +1122,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     ],
     "instructionsText": "Versare tutti gli ingredienti in un pentolino, e scaldare fino a sobbollire (se c'e' lo zucchero, controllare che sia completamente dissolto), far freddare e conservare in un barattolo in frigorifero (2-3 settimane max) Quando si serve, mischiare con daikon grattugiato",
     "videoIds": [],
-    "datePublished": "2025-02-15T15:15:08+01:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/preparazioni_di_base/salse/teriyaki": {
     "docId": "ricette/preparazioni_di_base/salse/teriyaki",
@@ -1147,7 +1147,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "zQowDw_-cOo"
     ],
-    "datePublished": "2021-05-23T18:10:27+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/preparazioni_di_base/salse/tonkatsu": {
     "docId": "ricette/preparazioni_di_base/salse/tonkatsu",
@@ -1167,7 +1167,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     ],
     "instructionsText": "In una ciotolina, unisci ketchup, salsa Worcestershire e salsa di soia. Aggiungi lo zucchero (o il mirin) e mescola con una piccola frusta o un cucchiaio fino a farlo sciogliere completamente. Se preferisci un tocco più delicato, usa il mirin al posto dello zucchero. Incorpora il cucchiaino di senape (karashi o dijon) e, se gradisci una punta di acidità in più, un cucchiaio di aceto di mele. Continua a mescolare finché il composto non risulta omogeneo. Prova la salsa e, se necessario, modifica il bilanciamento dolce-salato-agro, regolando con un pizzico di zucchero o qualche goccia in più di salsa di soia.",
     "videoIds": [],
-    "datePublished": "2021-08-13T18:10:22+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/preparazioni_di_base/salse/yakisoba_sauce": {
     "docId": "ricette/preparazioni_di_base/salse/yakisoba_sauce",
@@ -1186,7 +1186,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     ],
     "instructionsText": "In una ciotola, versare per primo lo zucchero. Questo è il passaggio più importante per assicurarsi che si sciolga bene. Aggiungere le salse procedendo dalla più densa alla più liquida per facilitare la miscelazione. Iniziare quindi con il ketchup, seguito dalla salsa di ostriche. Versare infine la salsa di soia e la salsa worcestershire. Mescolare energicamente con un cucchiaio o una piccola frusta finché lo zucchero non sarà completamente disciolto e la salsa non risulterà omogenea. La salsa è pronta per essere usata, ma il giorno dopo sarà ancora meglio, quando i sapori si saranno amalgamati. Si conserva in frigorifero per una settimana circa.",
     "videoIds": [],
-    "datePublished": "2025-10-01T14:55:19+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/preparazioni_di_base/salse/yakitori": {
     "docId": "ricette/preparazioni_di_base/salse/yakitori",
@@ -1210,7 +1210,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     ],
     "instructionsText": "Bollire al minimo fino a ridurre della metà il volume.",
     "videoIds": [],
-    "datePublished": "2021-08-13T18:10:22+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/preparazioni_di_base/sushi_and_sashimi/sushi_vinegar": {
     "docId": "ricette/preparazioni_di_base/sushi_and_sashimi/sushi_vinegar",
@@ -1223,7 +1223,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "recipeIngredient": [],
     "instructionsText": "Sciogliere completamente lo zucchero e il sale nell'aceto, aggiungere l'alga e lasciare riposare per 24 ore in frigorifero. Dopo 24 ore, filtrare e imbottigliare, ed e' pronto per l'uso.",
     "videoIds": [],
-    "datePublished": "2022-07-21T18:30:06+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/riso/gohan": {
     "docId": "ricette/riso/gohan",
@@ -1243,7 +1243,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "Dwru1wxbBek"
     ],
-    "datePublished": "2026-05-18T12:11:41+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/riso/gyudon": {
     "docId": "ricette/riso/gyudon",
@@ -1273,7 +1273,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "KYZHouOLnr4"
     ],
-    "datePublished": "2024-05-01T10:21:45+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/riso/hamburger_don": {
     "docId": "ricette/riso/hamburger_don",
@@ -1297,7 +1297,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "SJweMEALMks"
     ],
-    "datePublished": "2025-10-30T12:42:13+01:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/riso/nira_shio_kombu_onigiri": {
     "docId": "ricette/riso/nira_shio_kombu_onigiri",
@@ -1329,7 +1329,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "wEFtXLWRuTQ"
     ],
-    "datePublished": "2026-04-27T08:56:46+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/riso/onigiri": {
     "docId": "ricette/riso/onigiri",
@@ -1354,7 +1354,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "okzY1FVMwDg"
     ],
-    "datePublished": "2021-05-23T18:10:27+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/riso/onigiri_kimchi_asiago": {
     "docId": "ricette/riso/onigiri_kimchi_asiago",
@@ -1378,7 +1378,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "KNOLKWzaFMs"
     ],
-    "datePublished": "2026-04-01T19:49:18+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/riso/onigiri_sakura_ebi": {
     "docId": "ricette/riso/onigiri_sakura_ebi",
@@ -1407,7 +1407,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "3kV_q6itqko"
     ],
-    "datePublished": "2026-07-02T19:26:45+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/riso/oyakodon": {
     "docId": "ricette/riso/oyakodon",
@@ -1436,7 +1436,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     ],
     "instructionsText": "L'Oyakodon va fatto su una padellina monoporzione, perche' poi lo fai scivolare tutto direttamente sulla ciotola di riso (caldo) Taglia la cipolla a fettine secondo la lunghezza della cipolla, il pollo a cubetti, e le cipolline a rondelle o losanghe. Rompi le uova in una ciotolina, e mescolale delicatamente (senza sbatterle) con le bacchette. Marina il pollo nel sake per 20 minuti. Asciuga bene il pollo e fallo rosolare a fuoco basso girandolo una sola volta quando si e' dorato. Quando e' dorato da entrambi i lati, toglierlo dalla padellina e metterlo da parte. Versa il dashi, il mirin e la salsa di soia nel pentolino, accendi il fuoco, aggiungi le cipolle e fai sobollire a fuoco medio-basso per 4 minuti. A questo punto abbassa la fiamma, e aggiungi il pollo. Fai sobollire per altri 2 minuti, fin quando il pollo non e' completamente cotto e il brodo non si e' ristretto un po'. Alza il fuoco a medio, versa delicatamente 2/3 dell'uovo cercando di coprire tutto. Mischia il resto dell'uovo alle cipolline e mettilo da parte. Fai andare 30-40 secondi a fuoco medio, poi abbassa la fiamma e cuoci un altro minuto, il brodo non si deve essere asciugato. Mischia molto delicatamente, e versa il restante uovo con le cipolline. A questo punto, spegni pure la fiamma e fai cuocere con il calore residuo per un altro minuto. La ricetta originale (come piace a me) prevede che l'uovo resti mezzo crudo e bello bavoso. Trasferisci il contenuto del pentolino direttamente sul riso facendocelo scivolare sopra. Servire caldo.",
     "videoIds": [],
-    "datePublished": "2021-10-12T12:10:43+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/riso/soborodon": {
     "docId": "ricette/riso/soborodon",
@@ -1470,7 +1470,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "K7zTH4QJgds"
     ],
-    "datePublished": "2026-03-20T08:32:38+01:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/riso/takenoko_gohan": {
     "docId": "ricette/riso/takenoko_gohan",
@@ -1494,7 +1494,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     ],
     "instructionsText": "",
     "videoIds": [],
-    "datePublished": "2026-01-01T16:54:52+01:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/riso/takenoko_to_aburaage_takikomi_gohan": {
     "docId": "ricette/riso/takenoko_to_aburaage_takikomi_gohan",
@@ -1527,7 +1527,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "2_bqX5GQij0"
     ],
-    "datePublished": "2026-04-14T15:33:39+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/riso/takikomi_gohan": {
     "docId": "ricette/riso/takikomi_gohan",
@@ -1553,7 +1553,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     ],
     "instructionsText": "Quando lavi il riso poi lascialo a bagno una mezz’ora e poi un quarto d’ora ad asciugare: assorbira’ meglio il condimento Metti gli shiitake a mollo nel dashi tiepido, dopo mezz’ora filtra il tutto, otterrai lo shiitake dashi. Nella risiera metti il riso, il sale (non te lo scordare, molto poco ma ci vuole) la soia e il mirin, lo shiitake dashi (deve essere della stessa quantita’ in volume del riso) e mischia bene, fai depositare il riso e poi sopra metti, a strati, gli ingredienti, dal più duro al piu’ morbido. Accendi la risiera e non toccare, gira solo quando ha finito, e vedrai che ti mangi.",
     "videoIds": [],
-    "datePublished": "2021-12-09T14:08:28+01:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/sides/bieta_gialla_ohitashi": {
     "docId": "ricette/sides/bieta_gialla_ohitashi",
@@ -1574,7 +1574,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "GSGDzrBpbUQ"
     ],
-    "datePublished": "2026-03-15T20:04:18+01:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/sides/burokkori_no_okaka-ae": {
     "docId": "ricette/sides/burokkori_no_okaka-ae",
@@ -1601,7 +1601,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "gCil7EuAVMU"
     ],
-    "datePublished": "2026-03-03T08:21:17+01:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/sides/horenso_no_ohitashi": {
     "docId": "ricette/sides/horenso_no_ohitashi",
@@ -1621,7 +1621,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     ],
     "instructionsText": "",
     "videoIds": [],
-    "datePublished": "2026-01-01T20:10:53+01:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/sides/kinpira_di_daikon_e_carote": {
     "docId": "ricette/sides/kinpira_di_daikon_e_carote",
@@ -1652,7 +1652,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "yO20Egoclpw"
     ],
-    "datePublished": "2026-06-21T22:45:09+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/sides/kinpira_gobo": {
     "docId": "ricette/sides/kinpira_gobo",
@@ -1685,7 +1685,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "YX9zj6b2YR0"
     ],
-    "datePublished": "2026-09-21T14:56:29+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/sides/mugen_oba_nasu": {
     "docId": "ricette/sides/mugen_oba_nasu",
@@ -1705,7 +1705,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     ],
     "instructionsText": "In una ciotola capiente, unire tutti gli ingredienti per la salsa: salsa di soia, aceto, zucchero, brodo granulare, aglio, zenzero e semi di sesamo. Mescolare bene e mettere da parte. Rimuovere il gambo dalle foglie di shiso e tagliarle a julienne. Tagliare le melanzane: rimuovere il picciolo, dividerle a metà per il lungo e poi tagliare ogni metà in 3 o 4 spicchi a forma di ventaglio. Immergere gli spicchi in acqua per 5-10 minuti per eliminare l'amaro, quindi scolarli e asciugarli molto bene. Mettere le melanzane asciutte in una padella, aggiungere l'olio e mescolare per ungerle uniformemente. Cuocere a fuoco medio, prima dal lato della buccia e poi su tutti i lati, finché non saranno tenere e ben dorate. Trasferire le melanzane ancora calde direttamente nella ciotola con la salsa. Aggiungere la maggior parte dello shiso (tenendone un po' da parte per la guarnizione) e mescolare bene il tutto. Impiattare subito e guarnire con lo shiso rimasto.",
     "videoIds": [],
-    "datePublished": "2025-10-27T22:43:02+01:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/sides/mugen_piiman": {
     "docId": "ricette/sides/mugen_piiman",
@@ -1737,7 +1737,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "ulksO-vcJdA"
     ],
-    "datePublished": "2026-08-03T16:57:46+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/sides/nametake": {
     "docId": "ricette/sides/nametake",
@@ -1762,7 +1762,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     ],
     "instructionsText": "Per iniziare, prendi il mazzetto di funghi Enoki e rimuovi con un coltello la base del cespo (la parte con le radici), quindi taglia i funghi restanti in tre parti uguali. Trasferisci tutto in un pentolino e aggiungi direttamente a freddo i condimenti: la salsa di soia, il mirin, il sake e il cucchiaino di zucchero. Accendi il fornello e fai cuocere a fuoco medio per circa 5 minuti, mescolando di tanto in tanto; noterai che i funghi rilasceranno la loro acqua e si ammorbidiranno rapidamente. Quando la salsa di cottura si sarà leggermente ritirata e addensata, versa un cucchiaio di aceto di riso e lascia andare sul fuoco ancora per un paio di minuti per far amalgamare bene i sapori. A questo punto il Nametake è pronto: puoi servirlo immediatamente sopra una ciotola di riso fumante o trasferirlo in un barattolo per conservarlo in frigorifero.",
     "videoIds": [],
-    "datePublished": "2025-12-28T19:43:10+01:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/sides/nasu_dengaku": {
     "docId": "ricette/sides/nasu_dengaku",
@@ -1779,7 +1779,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "recipeIngredient": [],
     "instructionsText": "Metti subito a scaldare il grill del forno Tagliare la melanzana in 2, e inciderla a losanga (profondità’ 4-5 mm) per farla cuocere più’ uniformemente Mettere le melanzane in una padella con poco olio (arachide o girasole) caldo, dal lato della pelle, e farle cuocere senza coperchio per 2-3 minuti, girarle e farle cuocere dall’altro lato per altri 2-3 minuti. Se sono molto spesse mettere il coperchio. Mettere le melanzane in una teglia e spennellarle con la glassatura di miso, finire la cottura in forno con il grill al massimo, per 5 minuti o finche non sono dorate Vacci piano col miso che senno’ ti vengono salate Guarnire con negi (o cipolline)",
     "videoIds": [],
-    "datePublished": "2021-06-07T17:54:44+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/sides/nasu_no_yaki-bitashi": {
     "docId": "ricette/sides/nasu_no_yaki-bitashi",
@@ -1797,7 +1797,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "recipeIngredient": [],
     "instructionsText": "Preparare il brodo di marinatura mescolando in una caraffa l'acqua, la salsa di soia, il mirin, lo zucchero, il dashi in polvere e lo zenzero grattugiato. Lavare e asciugare molto bene le melanzane. Rimuovere il picciolo e tagliarle a metà per il lungo. Con un coltello, incidere la superficie della buccia con tagli diagonali poco profondi, per favorire la cottura e l'assorbimento del sapore. Disporre le melanzane in una padella capiente. Spennellarle uniformemente su tutta la superficie (prima la buccia, poi la polpa) con i due cucchiai di olio. Cuocere a fuoco medio con la buccia rivolta verso il basso per circa 2-3 minuti. Girare le melanzane, abbassare la fiamma al minimo, coprire con un coperchio e cuocere lentamente finché la polpa non sarà tenera e ben dorata. Versare il brodo preparato direttamente nella padella sopra le melanzane. Alzare la fiamma a fuoco medio e portare a ebollizione. Appena il liquido bolle, spegnere immediatamente il fuoco. Trasferire con delicatezza le melanzane e tutto il loro brodo in un contenitore per alimenti. Lasciare raffreddare completamente a temperatura ambiente, dopodiché coprire e riporre in frigorifero a insaporire per almeno 3 ore. Servire le melanzane fredde, irrorandole con il loro brodo di marinatura e guarnendo a piacere con foglie di shiso tritate o katsuobushi.",
     "videoIds": [],
-    "datePublished": "2025-10-27T22:43:02+01:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/sides/okura_no_shoga-joyu_ae": {
     "docId": "ricette/sides/okura_no_shoga-joyu_ae",
@@ -1824,7 +1824,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "7STd-nEVRLg"
     ],
-    "datePublished": "2026-09-26T18:54:25+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/sides/potetosarada": {
     "docId": "ricette/sides/potetosarada",
@@ -1854,7 +1854,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     ],
     "instructionsText": "Mettere a bollire le patate. Tagliare il cetriolo e la cipolla sottilissimi, metterli in uno scolapasta con un po' di sale e metterci sopra un canovaccio con un peso. Far drenare per 15-20 minuti. Dopo, eliminare il sale in eccesso (anche con una sciaquata veloce) e strizzare bene con un canovaccio (mi raccomando bene) Sbollentare le carota sbucciate per qualche minuto, poi tagliarle a fettine o cubetti (come prederite) Una volta che le patate sono pronte, sbucciarle senza scottarsi, metterle in una terrina e schiacciarle con una forchetta come per fare il pure', lasciando dei pezzetti per avere una consistenza piu' varia (aho poi a me piacciono cosi poi voi fate come vi pare) Aggiungere cetriolo, cipolla, carota, la maionese, il mirin e l'aceto di riso, lo zucchero, il sale e il pepe e mescolare. I condimenti finali vanno un po' a piacere, soprattutto per quanto riguarda lo zucchero.",
     "videoIds": [],
-    "datePublished": "2021-08-04T12:25:47+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/sides/unagi-di-melanzane": {
     "docId": "ricette/sides/unagi-di-melanzane",
@@ -1887,7 +1887,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     ],
     "instructionsText": "Sbucciare una striscia sì e una striscia no (come la divisa della Juve). Poi incartarla in un foglio di carta da cucina bagnato e strizzato, e poi nella pellicola per alimenti. Così avvolta, metterla in un microonde per 2-3 minuti alla massima potenza per accelerare la cottura. Scartarla e, con una forchetta, incidere dei solchi sulla polpa nel senso della lunghezza per imitare la consistenza di un'anguilla. Dopodiché, spennellarla con della fecola di patate, spennellando via l'eccesso. La salsa di cottura: In una ciotolina prepariamo la salsa mescolando sakè, mirin, salsa di soia e lo zucchero. In padella!: Metterla in una padella con un filo d'olio di semi e ripassarla a fuoco medio da ambo i lati, per farla diventare fuori croccantissima e dentro morbidissima. La glassatura: A questo punto, le concediamo un bel bagnetto versando la salsa di cottura direttamente in padella. A fuoco lentissimo, lasciamo che la salsa si riduca e glassi la melanzana. Ecco la trasformazione. Il gran finale: \"Sono un'anguilla, sono un'anguilla!\" gridava la nostra melanzana. E le fu preparato un letto di riso trionfale su cui fu dolcemente adagiata. Per guarnirla, come farle mancare dei semi di sesamo appena tostati e delle gloriose cipolline verdi? E la nostra melanzana è diventata un'anguilla.",
     "videoIds": [],
-    "datePublished": "2025-09-03T20:09:44+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/tsukemono/daikon": {
     "docId": "ricette/tsukemono/daikon",
@@ -1911,7 +1911,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     ],
     "instructionsText": "Taglia il daikon a meta', e poi a fettine di 5mm circa di spessore, ottenendo delle mezze lune. Mischia tutto molto bene e metti in un sacchetto di plastica a chiusura ermetica, cercando di far uscire tutta l'aria. All'inizio il liquido di marinatura sembrera' un po' poco, ma con il tempo il daikon, grazie al sale, espellera' un sacco di acqua. Metti in frigorifero, e' buono dopo 2-3 ore, ma suggerisco di aspettare almeno una settimana. Non ho idea di quanto si conservi, ma ne ho trovato uno dimenticato in frigo da mesi, ed era il migliore che avessi provato (e sono ancora vivo mesi dopo). Suppongo che se vada a male, sia anche facile accorgersene.",
     "videoIds": [],
-    "datePublished": "2021-08-13T18:10:22+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/tsukemono/daikon_shiokombuzuke": {
     "docId": "ricette/tsukemono/daikon_shiokombuzuke",
@@ -1940,7 +1940,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "OoqRYJGzWmA"
     ],
-    "datePublished": "2025-12-17T17:44:02+01:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/tsukemono/gari": {
     "docId": "ricette/tsukemono/gari",
@@ -1958,7 +1958,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "eRxAtgrW2CE"
     ],
-    "datePublished": "2023-10-21T11:35:53+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/tsukemono/kyuri-no-tsukemono": {
     "docId": "ricette/tsukemono/kyuri-no-tsukemono",
@@ -1980,7 +1980,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "WcxIkdZa2XI"
     ],
-    "datePublished": "2025-09-03T20:09:44+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/tsukemono/ninniku-no-misozuke": {
     "docId": "ricette/tsukemono/ninniku-no-misozuke",
@@ -2002,7 +2002,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     ],
     "instructionsText": "Pulire gli spicchi d'aglio e privarli del picciolo. Sterilizzare un barattolo di vetro. Tagliare gli spicchi per il lungo e togliere l'anima. Mettere gli spicchi d'aglio su una griglia, e lasciare asciugare tutta la notte. Questo aiuta a concentrare il sapore dell'aglio e a ridurre la quantita' di umidita' al suo interno. Mescolare il miso, il sake e il mirin in un piccolo pentolino, e scaldare mischiando per 2-3 minuti, fiche' non avra' assunto una consistenza liscia, cremosa e uniforme. Mettere il composto alternandolo a strati con l'aglio in un un barattolo. Far fermentare almeno 3 mesi in frigorifero.",
     "videoIds": [],
-    "datePublished": "2024-04-09T20:09:34+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/tsukemono/ninniku-shoyuzuke": {
     "docId": "ricette/tsukemono/ninniku-shoyuzuke",
@@ -2022,7 +2022,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     ],
     "instructionsText": "Mettere la salsa di soia, lo zucchero e l'aceto di riso in un pentolino, portare a bollore e spegnere il fuoco. Versare il preparato in un barattolo di vetro sterilizzato insieme all'aglio. Chiudere il barattolo e mettere in frigo. Il composto e' pronto dopo 3-4 settimane (meglio 4-5) e si conserva in frigo almeno 12 settimane.",
     "videoIds": [],
-    "datePublished": "2022-01-17T19:27:34+01:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/wagashi/oshiruko": {
     "docId": "ricette/wagashi/oshiruko",
@@ -2040,7 +2040,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "0Mcg9AhAKbQ"
     ],
-    "datePublished": "2026-05-21T14:55:29+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/wagashi/warabi_mochi": {
     "docId": "ricette/wagashi/warabi_mochi",
@@ -2056,7 +2056,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "recipeIngredient": [],
     "instructionsText": "Versate tutti gli ingredienti direttamente in una padella e mescolate per sciogliere eventuali grumi. Accendete il fuoco e, a fuoco basso, fate addensare lentamente mescolando costantemente. Quando diventa denso e inizia a solidificarsi, spegnete il fuoco e continuate a mescolare per circa 30 secondi. Preparate una ciotola con acqua e ghiaccio e trasferiteci dentro il composto. Aspettate che si raffreddi per poterlo toccare senza scottarvi. Da dentro l'acqua staccate i mochi della dimensione che preferite con le mani e riponeteli in un vassoio o piatto. Fateli raffreddare in frigo per almeno 10 minuti. Spolverateli con del kinako o del matcha, versateci sopra abbondante kuromitsu o sciroppo d'acero e gustateli freddi in una calda giornata estiva. — Aki",
     "videoIds": [],
-    "datePublished": "2026-07-24T17:48:00+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/yakimono/gyoza": {
     "docId": "ricette/yakimono/gyoza",
@@ -2087,7 +2087,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     ],
     "instructionsText": "Tritare finemente il cavolo e metterlo in una ciotola con un cucchiaio di sale. Lasciar riposare per 10 minuti, poi sciacquate e strizzare bene il cavolo per eliminare l'acqua in eccesso. Mentre il cavolo sta li per conto suo a perdere acqua, tritare finemente l'aglio, lo zenzero e il nira (il nira non va salato: ha poca acqua e si aggiunge direttamente al ripieno). Mettere tutto in una ciotola con la carne di maiale e gli altri ingredienti e mescolare finché non si rompono le proteine della carne e il composto diventa omogeneo e quasi colloso. Con un cucchiaino, prendere un po' di ripieno e metterlo al centro di una sfoglia di pasta per gyoza. Bagnare i bordi con un po' d'acqua e chiudere a mezzaluna, facendo delle pieghe a ventaglio. Siccome faccio pena a chiudere i gyoza, vi linko un video di come si chiudono i gyoza: link Mettete i gyoza chiusi su un foglio di carta da forno, cosparso leggermente con della fecola di patate, o amido di mais. Questo non solo evita che i gyoza si attacchino al foglio, ma l'amido, sciogliendosi nell'acqua in cottura, fara' una splendida crosticina dorata. Piu' o meno il risultato e' questo (notare quello in basso a sinistra, detto anche Gyozimodo): !Gyoza",
     "videoIds": [],
-    "datePublished": "2024-05-07T17:16:28+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/yakimono/isobeyaki": {
     "docId": "ricette/yakimono/isobeyaki",
@@ -2111,7 +2111,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "4XRlLfW_Wf0"
     ],
-    "datePublished": "2026-01-25T16:29:55+01:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/yakimono/nasu_niku_miso": {
     "docId": "ricette/yakimono/nasu_niku_miso",
@@ -2145,7 +2145,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "oMWKn_h63x4"
     ],
-    "datePublished": "2026-07-30T18:00:47+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/yakimono/negi_shio_remon_chikin": {
     "docId": "ricette/yakimono/negi_shio_remon_chikin",
@@ -2176,7 +2176,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "W7fclMAPLX0"
     ],
-    "datePublished": "2026-08-10T15:06:00+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/yakimono/shogayaki": {
     "docId": "ricette/yakimono/shogayaki",
@@ -2198,7 +2198,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "kq9OBEQw4E4"
     ],
-    "datePublished": "2021-06-07T17:46:15+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/yakimono/takenoko_niku_miso": {
     "docId": "ricette/yakimono/takenoko_niku_miso",
@@ -2229,7 +2229,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "0CdyqA8cCfQ"
     ],
-    "datePublished": "2026-06-08T12:56:37+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/yakimono/teriyaki_chicken": {
     "docId": "ricette/yakimono/teriyaki_chicken",
@@ -2250,7 +2250,27 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "4urhrkpiV5o"
     ],
-    "datePublished": "2021-06-07T17:54:53+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
+  },
+  "ricette/yakimono/yurin_butakoma": {
+    "docId": "ricette/yakimono/yurin_butakoma",
+    "title": "Yurin Butakoma",
+    "description": "Yurin Butakoma: fettine sottilissime di maiale infecolate, saltate in padella e glassate con ponzu, salsa di soia, zucchero, aglio e sake fino a diventare croccanti e caramellate. Pronto in 5 minuti, perfetto con il riso.",
+    "image": "/img/ricette/yurin_butakoma.jpg",
+    "recipeCategory": "Griglia",
+    "recipeKeywords": [
+      "shoyu",
+      "sake",
+      "potato_starch",
+      "negi"
+    ],
+    "recipeYield": "__PORZIONI__",
+    "recipeIngredient": [],
+    "instructionsText": "Taglia i cipollotti a rondelle sottili e tienili da parte: serviranno per la guarnizione finale. Prendi la carne di maiale tagliata sottilissima: pancetta, collo o spalla vanno benissimo. Infarina la carne, anzi \"infecolala\", con la , massaggiandola con le mani in modo che ogni fettina sia ricoperta da un velo sottile. Prepara la salsina di cottura: in una ciotolina mescola la salsa ponzu, la salsa di soia, lo zucchero, l'aglio schiacciato con lo spremiaglio e il sake. Scalda un filo di olio di semi in una padella, aggiungi la carne e cuocila a fuoco medio, girandola spesso per farla cuocere in modo uniforme. Non appena la carne perde il colore rosa, versa la salsina e lasciala asciugare finché il maiale diventa croccante e quasi caramellato. Servi il maiale in una ciotola, guarnito con i cipollotti tagliati all'inizio, e accompagnalo con una ciotola di riso bianco.",
+    "videoIds": [
+      "__YOUTUBE_ID__"
+    ],
+    "datePublished": "2026-10-26T13:41:49+01:00"
   },
   "ricette/zuppe/misoshiru": {
     "docId": "ricette/zuppe/misoshiru",
@@ -2276,7 +2296,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "ESa_qRjoKsI"
     ],
-    "datePublished": "2025-10-27T22:43:02+01:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/zuppe/osuimono": {
     "docId": "ricette/zuppe/osuimono",
@@ -2300,7 +2320,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     ],
     "instructionsText": "Tagliare il daikon a spicchietti e la carotina a mezze lune. Affettare la cipollina, separando la parte bianca (che andrà in cottura) da quella verde (che terremo da parte per guarnire). Mettere a scaldare il dashi vegano in una pentola. Mi raccomando, aggiungere subito il sale, non ve lo dimenticate! Appena il dashi bolle, buttare dentro tutte le verdurine tagliate: daikon, carota e la parte bianca della cipollina. Chiudere con il coperchio e cuocere per circa 10 minuti. La zuppa sarà pronta quando il daikon diventerà traslucido e stupendo. Servire la zuppa ben calda in una ciotola, guarnire con la parte verde della cipollina e completare con un filo d'olio di sesamo.",
     "videoIds": [],
-    "datePublished": "2025-09-03T20:16:10+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/zuppe/renkon_no_misoshiru": {
     "docId": "ricette/zuppe/renkon_no_misoshiru",
@@ -2320,7 +2340,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "0cFg1HvIVDE"
     ],
-    "datePublished": "2026-10-12T09:31:33+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/zuppe/tofu_and_eggs": {
     "docId": "ricette/zuppe/tofu_and_eggs",
@@ -2348,7 +2368,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     ],
     "instructionsText": "Preparare il brodo di cottura mescolando in una ciotola il dashi, la salsa di soia, il mirin e lo zucchero. Tagliare le verdure: affettare le carote a julienne, tagliare le cipolline a tocchetti grossolani e affettare i funghi shiitake dopo aver rimosso il gambo. Tagliare il tofu a cubetti non troppo piccoli. Versare il brodo preparato in un pentolino e aggiungere subito i cubetti di tofu, facendo attenzione a non romperli. Coprire e scaldare a fuoco medio per circa 10 minuti, finché non inizia a bollire. Togliere delicatamente il tofu cotto dal pentolino e metterlo da parte in un piatto fondo. Versare tutte le verdure tagliate (carote, funghi e cipolline) nello stesso brodo di cottura, coprire e cuocere per circa 5 minuti. Nel frattempo, sbattere leggermente un uovo in una ciotolina. In un'altra piccola ciotola, sciogliere la fecola di patate con un paio di cucchiai d'acqua fredda. Trascorsi i 5 minuti, versare la fecola sciolta nel pentolino con le verdure e mescolare per addensare leggermente il brodo. Creare un vortice nel brodo e versare a filo l'uovo sbattuto per creare l'effetto \"stracciatella\". Versare le verdure e il brodo sopra il tofu messo da parte nel piatto. La ricetta è pronta, e daje!",
     "videoIds": [],
-    "datePublished": "2025-10-01T15:17:03+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/zuppe/tonjiru": {
     "docId": "ricette/zuppe/tonjiru",
@@ -2386,7 +2406,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "StmMRRErSLQ"
     ],
-    "datePublished": "2025-02-15T15:15:08+01:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/zuppe/vegan-misoshiru": {
     "docId": "ricette/zuppe/vegan-misoshiru",
@@ -2409,7 +2429,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     ],
     "instructionsText": "Mettere in ammollo una manciata di alghe wakame in acqua fredda per farle rinvenire. Tagliare il tofu a cubetti. Portare a bollore il dashi vegano in una pentola. Appena bolle, aggiungere il tofu a cubetti e le alghe wakame reidratate. Cuocere per un paio di minuti. In una ciotolina a parte (o in un mestolo), stemperare il miso con un po' di brodo caldo per scioglierlo bene. È importante farlo a fuoco spento per non rovinare i fermenti. Spegnere il fuoco sotto la pentola e versare il miso sciolto nella zuppa. Mescolare bene. Servire subito in una ciotola e guarnire con delle cipolline fresche tagliate sottili.",
     "videoIds": [],
-    "datePublished": "2025-09-05T10:46:48+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/zuppe/wakatake": {
     "docId": "ricette/zuppe/wakatake",
@@ -2436,7 +2456,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "0CdyqA8cCfQ"
     ],
-    "datePublished": "2026-06-08T12:56:57+02:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   },
   "ricette/zuppe/zuppa_di_miso_e_funghi": {
     "docId": "ricette/zuppe/zuppa_di_miso_e_funghi",
@@ -2462,6 +2482,6 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     ],
     "instructionsText": "Questa ricetta si prepara in due fasi: la preparazione del dashi (giorno 1) e la cottura della zuppa (giorno 2).",
     "videoIds": [],
-    "datePublished": "2025-11-16T17:49:50+01:00"
+    "datePublished": "2026-10-24T10:25:20+02:00"
   }
 };
