@@ -1406,6 +1406,13 @@
     "width": 971,
     "height": 1205
   },
+  "ricette/supu_gyoza.jpg": {
+    "hash": "3ad1d16ca9acdb031f1878e664744473",
+    "original": "/img/ricette/supu_gyoza.jpg",
+    "srcset": "/img/ricette/supu_gyoza-320w.webp 320w, /img/ricette/supu_gyoza-640w.webp 640w, /img/ricette/supu_gyoza-1280w.webp 1280w, /img/ricette/supu_gyoza-1600w.webp 1600w",
+    "width": 1672,
+    "height": 941
+  },
   "ricette/takenoko_gohan.jpg": {
     "hash": "530ad02660b42460662e81acd3c7a93e",
     "original": "/img/ricette/takenoko_gohan.jpg",

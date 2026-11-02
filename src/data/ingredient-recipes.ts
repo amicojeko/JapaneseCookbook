@@ -187,6 +187,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/shogayaki"
     },
     {
+      "id": "ricette/zuppe/supu_gyoza",
+      "title": "Sūpu Gyōza",
+      "description": "Sūpu Gyōza: una variante calda e confortante dei classici gyoza, cotti direttamente in un saporito brodo di dashi, soia e mirin con cavolo cinese e carote.",
+      "permalink": "/ricette/supu_gyoza"
+    },
+    {
       "id": "ricette/zuppe/tofu_and_eggs",
       "title": "Tofu in \"stracciatella\" con verdure",
       "description": "Una ricetta buona, economica, sana, proteica e facile da fare.",
@@ -397,6 +403,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Yurin Butakoma",
       "description": "Yurin Butakoma: fettine sottilissime di maiale infecolate, saltate in padella e glassate con ponzu, salsa di soia, zucchero, aglio e sake fino a diventare croccanti e caramellate. Pronto in 5 minuti, perfetto con il riso.",
       "permalink": "/ricette/yurin_butakoma"
+    },
+    {
+      "id": "ricette/zuppe/supu_gyoza",
+      "title": "Sūpu Gyōza",
+      "description": "Sūpu Gyōza: una variante calda e confortante dei classici gyoza, cotti direttamente in un saporito brodo di dashi, soia e mirin con cavolo cinese e carote.",
+      "permalink": "/ricette/supu_gyoza"
     },
     {
       "id": "ricette/zuppe/wakatake",
@@ -1701,6 +1713,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/salsa_ponzu"
     },
     {
+      "id": "ricette/zuppe/supu_gyoza",
+      "title": "Sūpu Gyōza",
+      "description": "Sūpu Gyōza: una variante calda e confortante dei classici gyoza, cotti direttamente in un saporito brodo di dashi, soia e mirin con cavolo cinese e carote.",
+      "permalink": "/ricette/supu_gyoza"
+    },
+    {
       "id": "ricette/zuppe/wakatake",
       "title": "Wakatake",
       "description": "Una zuppa giapponese facilissima, velocissima e buonissima a base di germogli di bambù e alga wakame.",
@@ -1969,6 +1987,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Nikujaga",
       "description": "Carne e patate, il comfort food per eccellenza della cucina casalinga giapponese",
       "permalink": "/ricette/nikujaga"
+    },
+    {
+      "id": "ricette/zuppe/supu_gyoza",
+      "title": "Sūpu Gyōza",
+      "description": "Sūpu Gyōza: una variante calda e confortante dei classici gyoza, cotti direttamente in un saporito brodo di dashi, soia e mirin con cavolo cinese e carote.",
+      "permalink": "/ricette/supu_gyoza"
     },
     {
       "id": "ricette/zuppe/tonjiru",
