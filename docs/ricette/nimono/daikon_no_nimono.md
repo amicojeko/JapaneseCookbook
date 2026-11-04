@@ -25,6 +25,15 @@ Il Daikon no Nimono (daikon stufato) è un classico della cucina casalinga giapp
 
 <ImageComponent />
 
+## Ingredienti
+
+- 1 grosso [daikon](/ingredienti/daikon)
+- Acqua di lavaggio del [riso](/ingredienti/rice) q.b.
+- [Dashi](/ricette/dashi) (o [Dashi Vegano](/ricette/dashi_vegan)) q.b.
+- 1 cucchiaio di [mirin](/ingredienti/mirin)
+- 2 cucchiai di [salsa di soia (shoyu)](/ingredienti/shoyu)
+- Scorza di limone (solo la parte gialla)
+
 ## Preparazione
 
 Per iniziare, prendete un grosso [daikon](/ingredienti/daikon) e privatelo delle estremità. Anche se la buccia può sembrare sottile, lo strato esterno è in realtà piuttosto coriaceo, quindi è fondamentale rimuoverlo interamente utilizzando la tecnica del *katsuramuki*, effettuando un taglio rotatorio con il coltello. Una volta pelato, tagliate il tubero in fette spesse circa 3-4 cm. Per evitare che le fette si sfaldino durante la lunga cottura, rifilate accuratamente gli spigoli di ogni disco seguendo la tecnica del *mentori*.

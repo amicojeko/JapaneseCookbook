@@ -810,7 +810,14 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "vegetarian"
     ],
     "recipeYield": null,
-    "recipeIngredient": [],
+    "recipeIngredient": [
+      "1 grosso daikon",
+      "Acqua di lavaggio del riso q.b.",
+      "Dashi (o Dashi Vegano) q.b.",
+      "1 cucchiaio di mirin",
+      "2 cucchiai di salsa di soia (shoyu)",
+      "Scorza di limone (solo la parte gialla)"
+    ],
     "instructionsText": "Per iniziare, prendete un grosso daikon e privatelo delle estremità. Anche se la buccia può sembrare sottile, lo strato esterno è in realtà piuttosto coriaceo, quindi è fondamentale rimuoverlo interamente utilizzando la tecnica del katsuramuki, effettuando un taglio rotatorio con il coltello. Una volta pelato, tagliate il tubero in fette spesse circa 3-4 cm. Per evitare che le fette si sfaldino durante la lunga cottura, rifilate accuratamente gli spigoli di ogni disco seguendo la tecnica del mentori. Per favorire la penetrazione del calore e degli aromi, incidete una croce profonda un paio di centimetri su una delle basi di ogni fetta di daikon. Passate quindi alla fase di pre-cottura: mettete il daikon in una pentola e copritelo con l'acqua recuperata dal lavaggio del riso. Coprite con un otoshibuta e fate bollire per circa un'ora; l'amido contenuto nell'acqua del riso aiuterà a rimuovere l'amaro naturale della radice, rendendola dolcissima. Verificate la cottura con uno stuzzicandente: quando penetra la polpa senza resistenza, scolate il daikon e lavatelo delicatamente sotto acqua corrente. Rimettetelo sul fuoco coprendolo con acqua fresca, portate a bollore e sciacquatelo nuovamente. Questa doppia pulizia assicura un sapore pulito e delicato. Per la cottura finale, disponete le fette in una pentola e ricopritele interamente con del dashi. Aggiungete un cucchiaio di mirin e un paio di cucchiai di salsa di soia (shoyu). Posizionate nuovamente l'otoshibuta e lasciate sobbollire a fuoco dolce per circa mezz'ora. Al termine, spegnete la fiamma e lasciate riposare il daikon nel suo brodo fino a quando non si sarà raffreddato; questo passaggio è fondamentale affinché la radice assorba tutto l'umami del liquido. Mentre il daikon riposa, preparate il guarnimento affettando molto finemente della scorza di limone, avendo cura di prelevare solo la parte gialla. Potete servire il piatto sia freddo che caldo, accompagnandolo con il suo brodo di cottura e completando con le striscioline di limone. Se eseguito correttamente, il daikon risulterà così tenero da poter essere tagliato facilmente con le bacchette.",
     "videoIds": [
       "W1llNvmnKHY"
@@ -2360,7 +2367,7 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [
       "X80q1xm1eqU"
     ],
-    "datePublished": null
+    "datePublished": "2026-11-02T15:09:56+01:00"
   },
   "ricette/zuppe/tofu_and_eggs": {
     "docId": "ricette/zuppe/tofu_and_eggs",
