@@ -1541,6 +1541,16 @@ export const NEGOZI: Negozio[] = [
         map_url: "https://maps.app.goo.gl/wWZHTYcRiUa3h9hF7",
     },
     {
+        id: "veneto-padova-snack-dojo",
+        name: "Snack Dojo",
+        region: "Veneto",
+        city: "Padova",
+        address: "Via Umberto I, 84, 35122 Padova PD",
+        lat: 45.4012666,
+        lng: 11.8757011,
+        map_url: "https://maps.app.goo.gl/VkmfwrzCLUnGZtAy7",
+    },
+    {
         id: "veneto-vigonza-max-factory",
         name: "Max Factory",
         region: "Veneto",
