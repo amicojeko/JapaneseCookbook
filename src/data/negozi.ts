@@ -345,16 +345,6 @@ export const NEGOZI: Negozio[] = [
         map_url: "https://maps.app.goo.gl/hZAcCyrXU3iuov2F6",
     },
     {
-        id: "lazio-roma-panda-market",
-        name: "Panda Market",
-        region: "Lazio",
-        city: "Roma",
-        address: "Via della Meloria, 9/13, 00136 Roma RM",
-        lat: 41.9073862,
-        lng: 12.4455648,
-        map_url: "https://maps.app.goo.gl/hG7nEMR5qVNmy8w4A",
-    },
-    {
         id: "lazio-roma-wei-market",
         name: "味旺超市 （Wei Market）",
         region: "Lazio",
@@ -442,7 +432,7 @@ export const NEGOZI: Negozio[] = [
         address: "Via del Pigneto, 29, 00176 Roma RM",
         lat: 41.8899234,
         lng: 12.5233499,
-        map_url: "https://maps.app.goo.gl/FfPUSdJzTEwuDis46",
+        map_url: "https://maps.app.goo.gl/TTdfy3M7udHvwb5Z6",
     },
     {
         id: "lazio-roma-sofia-international-food-store",
@@ -502,7 +492,7 @@ export const NEGOZI: Negozio[] = [
         address: "Via Mary Pandolfi de Rinaldis, 28, 00173 Roma RM",
         lat: 41.8427232,
         lng: 12.6209119,
-        map_url: "https://www.google.com/maps/search/?api=1&query=41.8427232,12.6209119",
+        map_url: "https://maps.app.goo.gl/aGkpMjfWNdqGXiip7",
     },
     {
         id: "lazio-roma-max-factory-torre-di-mezzavia",
@@ -523,16 +513,6 @@ export const NEGOZI: Negozio[] = [
         lat: 44.4126495,
         lng: 8.9262661,
         map_url: "https://maps.app.goo.gl/hXFNaaBARhbr1PF2A",
-    },
-    {
-        id: "liguria-genova-tian-tian-shi-pin-dian-di-hu-hongyan",
-        name: "Tian Tian Shi Pin Dian Di Hu Hongyan",
-        region: "Liguria",
-        city: "Genova",
-        address: "Via Antonio Gramsci, 85, 16126 Genova GE",
-        lat: 44.4131998,
-        lng: 8.9266879,
-        map_url: "https://maps.app.goo.gl/LEEhujVRx6r35rJS6",
     },
     {
         id: "liguria-genova-shanghai-super-market",
@@ -622,7 +602,7 @@ export const NEGOZI: Negozio[] = [
         address: "Via Piacenza, 24, 20135 Milano MI",
         lat: 45.4492503,
         lng: 9.2057481,
-        map_url: "https://maps.app.goo.gl/vJW7wWYPJNnbWWmY8A",
+        map_url: "https://maps.app.goo.gl/nWyDjDUY7Jt7cjCz5",
     },
     {
         id: "lombardia-milano-alimentari-hua-qiao",
@@ -1219,16 +1199,6 @@ export const NEGOZI: Negozio[] = [
         map_url: "https://maps.app.goo.gl/ooj6cf58hao4z85A8",
     },
     {
-        id: "sicilia-trapani-sicina-market-supermercato-asiatico",
-        name: "Sicina Market - Supermercato Asiatico",
-        region: "Sicilia",
-        city: "Trapani",
-        address: "Via Porta Galli, 7, 91100 Trapani TP",
-        lat: 38.01431,
-        lng: 12.5151833,
-        map_url: "https://maps.app.goo.gl/JATH2NFqqrCmCMaR9",
-    },
-    {
         id: "sicilia-trapani-primarket-iperstore-trapani",
         name: "Primarket IperStore Trapani",
         region: "Sicilia",
@@ -1519,16 +1489,6 @@ export const NEGOZI: Negozio[] = [
         lat: 45.419564,
         lng: 11.876524,
         map_url: "https://maps.app.goo.gl/1a8CdwVcQec926zF9",
-    },
-    {
-        id: "veneto-padova-k-shop-padova",
-        name: "K-Shop Padova",
-        region: "Veneto",
-        city: "Padova",
-        address: "Piazzetta Amleto Sartori, 14, 35137, Padova PD",
-        lat: 45.4119549,
-        lng: 11.8760308,
-        map_url: "https://maps.app.goo.gl/xTATMWZWtTfw38NTA",
     },
     {
         id: "veneto-padova-asia-e-africa-market-di-chen-qiao-wei",
@@ -1908,7 +1868,7 @@ export const NEGOZI: Negozio[] = [
         address: "Via Valtellina, 22070 Montano Lucino CO",
         lat: 45.7801513,
         lng: 9.0461715,
-        map_url: "https://www.google.com/maps/search/?api=1&query=45.7801513,9.0461715",
+        map_url: "https://maps.app.goo.gl/gSMBkL5JTxzdEUwZ6",
     },
     {
         id: "lombardia-olgiate-comasco-max-factory",

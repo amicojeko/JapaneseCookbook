@@ -1,12 +1,12 @@
 ---
 title: "Negozi asiatici e giapponesi in Liguria"
-description: "6 negozi di alimentari asiatici e giapponesi in Liguria: Genova, Sanremo, Sarzana. Indirizzi, mappa e shop online per ingredienti orientali."
+description: "5 negozi di alimentari asiatici e giapponesi in Liguria: Genova, Sanremo, Sarzana. Indirizzi, mappa e shop online per ingredienti orientali."
 slug: "/negozi_orientali/liguria"
 ---
 import { NEGOZI } from '@site/src/data/negozi';
 import RegionShopList from '@site/src/components/RegionShopList';
 
-In Liguria trovi **6 negozi di alimentari asiatici e giapponesi**, quasi tutti a <a href="#city-genova">Genova</a> (4), più uno a <a href="#city-sanremo">Sanremo</a> e uno a <a href="#city-sarzana">Sarzana</a>. Se vivi nel resto della regione, la sezione [negozi online](/negozi_orientali/online/) raccoglie gli e-commerce italiani che spediscono in tutta la Liguria.
+In Liguria trovi **5 negozi di alimentari asiatici e giapponesi**, quasi tutti a <a href="#city-genova">Genova</a> (3), più uno a <a href="#city-sanremo">Sanremo</a> e uno a <a href="#city-sarzana">Sarzana</a>. Se vivi nel resto della regione, la sezione [negozi online](/negozi_orientali/online/) raccoglie gli e-commerce italiani che spediscono in tutta la Liguria.
 
 <RegionShopList region="Liguria" shops={NEGOZI} />
 
