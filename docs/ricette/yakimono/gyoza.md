@@ -41,11 +41,11 @@ Con queste dosi vengono circa 40 gyoza. La resa è indicativa: dipende dalla gra
 - 1 cucchiaio di zenzero fresco grattugiato
 - 1 pizzico di sale
 - pepe nero macinato a piacere
-- 60g di [nira](/ingredienti/nira) (erba aglina, circa mezzo mazzo abbondante)
+- 50g di [nira](/ingredienti/nira) (erba aglina, circa mezzo mazzo)
 - 2 funghi shiitake (opzionali)
-- 2 cucchiai di olio di sesamo
-- 2 cucchiai di [salsa di soia](/ingredienti/shoyu)
-- 2 cucchiai di [sake](/ingredienti/sake)
+- 1 cucchiaio di olio di sesamo
+- 1 cucchiaio di [salsa di soia](/ingredienti/shoyu)
+- 1 cucchiaio di [sake](/ingredienti/sake)
 
 :::tip
 Al posto del cavolo cappuccio si può usare il cavolo cinese (hakusai), ma il cappuccio è più facile da trovare. Attenzione però: il cavolo cinese contiene molta più acqua, quindi va salato e strizzato con ancora più cura, altrimenti il ripieno rischia di venire più morbido e con una consistenza un po' diversa.

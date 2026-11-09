@@ -2086,11 +2086,11 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
       "1 cucchiaio di zenzero fresco grattugiato",
       "1 pizzico di sale",
       "pepe nero macinato a piacere",
-      "60g di nira (erba aglina, circa mezzo mazzo abbondante)",
+      "50g di nira (erba aglina, circa mezzo mazzo)",
       "2 funghi shiitake (opzionali)",
-      "2 cucchiai di olio di sesamo",
-      "2 cucchiai di salsa di soia",
-      "2 cucchiai di sake"
+      "1 cucchiaio di olio di sesamo",
+      "1 cucchiaio di salsa di soia",
+      "1 cucchiaio di sake"
     ],
     "instructionsText": "Tritare finemente il cavolo e metterlo in una ciotola con un cucchiaio di sale. Lasciar riposare per 10 minuti, poi sciacquate e strizzare bene il cavolo per eliminare l'acqua in eccesso. Mentre il cavolo sta li per conto suo a perdere acqua, tritare finemente l'aglio, lo zenzero e il nira (il nira non va salato: ha poca acqua e si aggiunge direttamente al ripieno). Mettere tutto in una ciotola con la carne di maiale e gli altri ingredienti e mescolare finché non si rompono le proteine della carne e il composto diventa omogeneo e quasi colloso. Con un cucchiaino, prendere un po' di ripieno e metterlo al centro di una sfoglia di pasta per gyoza. Bagnare i bordi con un po' d'acqua e chiudere a mezzaluna, facendo delle pieghe a ventaglio. Siccome faccio pena a chiudere i gyoza, vi linko un video di come si chiudono i gyoza: link Mettete i gyoza chiusi su un foglio di carta da forno, cosparso leggermente con della fecola di patate, o amido di mais. Questo non solo evita che i gyoza si attacchino al foglio, ma l'amido, sciogliendosi nell'acqua in cottura, fara' una splendida crosticina dorata. Piu' o meno il risultato e' questo (notare quello in basso a sinistra, detto anche Gyozimodo): !Gyoza",
     "videoIds": [],
