@@ -123,6 +123,16 @@ export const NEGOZI: Negozio[] = [
         map_url: "https://maps.app.goo.gl/S3aW1Uv5KvHP7byy8",
     },
     {
+        id: "emilia-romagna-cesena-mercato-chen",
+        name: "Mercato Chen",
+        region: "Emilia-Romagna",
+        city: "Cesena",
+        address: "Corso Roma, 73, 47521 Cesena FC",
+        lat: 44.1445592,
+        lng: 12.2510575,
+        map_url: "https://maps.app.goo.gl/9CETC5FezQJHBm2b6",
+    },
+    {
         id: "emilia-romagna-ferrara-passione-d-oriente",
         name: "Passione d'oriente",
         region: "Emilia-Romagna",
