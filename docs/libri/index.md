@@ -12,9 +12,29 @@ In questa sezione raccolgo i libri che mi hanno aiutato davvero: ricettari affid
 
 ## Libri in italiano
 
-- [Giappone. Il ricettario](https://amzn.to/4kAxLG2) Questo è il mio primo libro di cucina giapponese, non solo è un ottimo punto di partenza per chi vuole avvicinarsi alla cucina giapponese, ma è una costante fonte di ispirazione anche per chi ha già esperienza. Le ricette sono ben spiegate, e coprono una vasta gamma di piatti tradizionali e moderni. Consigliatissimo per chi vuole imparare a cucinare giapponese e per chi vuole perfezionarsi. Inoltre con la sua copertina di bambù è davvero bello da tenere in cucina, e anche se non lo usate diventa un bellissimo pezzo di arredo :)
-- [Cucina giapponese di casa. Ediz. illustrata](https://amzn.to/46968Om) Un altro classico, con un sacco di piatti tradizionali tipici della cucina giapponese casalinga. Le ricette sono semplici e ben spiegate, anche se vengono utilizzati molti ingredienti che non sono sempre facili da trovare, ma grazie alla nostra sezione [negozi](/negozi_orientali) sono sicuro che riuscirete a reperirli senza problemi.
-- [Pranzo a Konoha. L'autentica cucina giapponese, tra anime, manga e tradizione](https://amzn.to/4rsu7ko) Libro di cucina giapponese più originale che abbia mai letto, con ricette ispirate a manga e anime famosi. È un libro per appassionati di cultura pop giapponese, ma le ricette sono davvero buone, autentiche e ben spiegate, bravo [Sam](https://www.instagram.com/pranzoakonoha/)!.
+#### Giappone. Il ricettario
+
+<ArticleCard subtitle="di Nancy Singleton Hachisu · Phaidon / L'ippocampo" imageSrc="/img/libri/giappone-il-ricettario.png" imageAlt="Copertina di Giappone. Il ricettario: copertina in bambù chiaro con il titolo in verticale al centro">
+
+Questo è il mio primo libro di cucina giapponese, non solo è un ottimo punto di partenza per chi vuole avvicinarsi alla cucina giapponese, ma è una costante fonte di ispirazione anche per chi ha già esperienza. Le ricette sono ben spiegate, e coprono una vasta gamma di piatti tradizionali e moderni. Consigliatissimo per chi vuole imparare a cucinare giapponese e per chi vuole perfezionarsi. Inoltre con la sua copertina di bambù è davvero bello da tenere in cucina, e anche se non lo usate diventa un bellissimo pezzo di arredo :) [Acquistalo su Amazon](https://amzn.to/4kAxLG2).
+
+</ArticleCard>
+
+#### Cucina giapponese di casa. Ediz. illustrata
+
+<ArticleCard subtitle="di Harumi Kurihara · Guido Tommasi Editore" imageSrc="/img/libri/cucina-giapponese-di-casa.webp" imageAlt="Copertina di Cucina giapponese di casa: l'autrice sorride mentre condisce una ciotola di fagiolini con le bacchette">
+
+Un altro classico, con un sacco di piatti tradizionali tipici della cucina giapponese casalinga. Le ricette sono semplici e ben spiegate, anche se vengono utilizzati molti ingredienti che non sono sempre facili da trovare, ma grazie alla nostra sezione [negozi](/negozi_orientali) sono sicuro che riuscirete a reperirli senza problemi. [Acquistalo su Amazon](https://amzn.to/46968Om).
+
+</ArticleCard>
+
+#### Pranzo a Konoha. L'autentica cucina giapponese, tra anime, manga e tradizione
+
+<ArticleCard subtitle="di Sam Nazionale · DeAgostini" imageSrc="/img/libri/pranzo-a-konoha.webp" imageAlt="Copertina di Pranzo a Konoha: l'autore sorride facendo il segno della V e tenendo un cesto di onigiri, in una cucina giapponese">
+
+Libro di cucina giapponese più originale che abbia mai letto, con ricette ispirate a manga e anime famosi. È un libro per appassionati di cultura pop giapponese, ma le ricette sono davvero buone, autentiche e ben spiegate, bravo [Sam](https://www.instagram.com/pranzoakonoha/)! [Acquistalo su Amazon](https://amzn.to/4rsu7ko).
+
+</ArticleCard>
 
 ### Da scaricare gratis: la trilogia del Tōfu Hyakuchin
 
@@ -36,14 +56,20 @@ Le traduzioni sono distribuite con licenza [CC BY-SA 4.0](https://creativecommon
 
 ## Libri in inglese
 
-- [Japanese Cooking: A Simple Art](https://amzn.to/4aGuNLL) (di Shizuo Tsuji) Un classico intramontabile, un testo fondamentale per chi vuole approfondire la cucina giapponese. È un libro molto completo, che copre sia le basi che tecniche avanzate, con ricette dettagliate e fotografie esplicative. È un libro che consiglio a chi vuole diventare un esperto di cucina giapponese, o a chi vuole semplicemente approfondire la sua conoscenza della cucina giapponese.
+#### Japanese Cooking: A Simple Art
+
+<ArticleCard subtitle="di Shizuo Tsuji · 25th Anniversary Edition" imageSrc="/img/libri/japanese-cooking-a-simple-art.webp" imageAlt="Copertina di Japanese Cooking: A Simple Art: acquerello di un pesce su sfondo chiaro">
+
+Un classico intramontabile, un testo fondamentale per chi vuole approfondire la cucina giapponese. È un libro molto completo, che copre sia le basi che tecniche avanzate, con ricette dettagliate e fotografie esplicative. È un libro che consiglio a chi vuole diventare un esperto di cucina giapponese, o a chi vuole semplicemente approfondire la sua conoscenza della cucina giapponese. [Acquistalo su Amazon](https://amzn.to/4aGuNLL).
+
+</ArticleCard>
 
 ### Japanese Culinary Academy series
 
 Questa collana è edita dalla Japanese Culinary Academy, un'istituzione di riferimento per la formazione professionale in cucina giapponese. I volumi sono scritti da chef esperti e coprono sia le basi che tecniche avanzate, con ricette dettagliate e fotografie esplicative. Sono in assoluto i libri migliori che possiate trovare, anche se sono rivolti principalmente ad un pubblico di professionisti o appassionati molto motivati. Tutti i volumi della collana si possono anche leggere gratuitamente online sul [sito ufficiale](https://nihonryori-a-kentei.or.jp/en/about/book.php).
 
 - [Introduction to Japanese Cuisine: Nature, History and Culture](https://amzn.to/4az3we5) · [leggi gratis](https://www2.kpu.ac.jp/kanrika/kikaku/JapaneseCuisine.en/prologue/)
-- Mukoita - Cutting Techniques I (fish) Japanese Edition · [leggi gratis](https://www2.kpu.ac.jp/kanrika/kikaku/JapaneseCuisine.en/mukoita1/)
+- [Mukoita - Cutting Techniques I (fish) Japanese Edition](https://link.amazon/B027pDHc3) · [leggi gratis](https://www2.kpu.ac.jp/kanrika/kikaku/JapaneseCuisine.en/mukoita1/)
 - [Mukoita II, Cutting Techniques: Seafood, Poultry, and Vegetables](https://amzn.to/4rYnqX8) · [leggi gratis](https://www2.kpu.ac.jp/kanrika/kikaku/JapaneseCuisine.en/mukoita2/)
 - [Flavoring and Seasoning: Dashi, Umami, and Fermented Foods](https://amzn.to/4qDlPVu) · [leggi gratis](https://www2.kpu.ac.jp/kanrika/kikaku/JapaneseCuisine.en/seasoning/)
 - [Yakiba Grilling Techniques: Shio-Yaki, Furishio-Yaki, Yuan-Yaki, Tare-Yaki, and Yakitori](https://amzn.to/4kH5bTu) · [leggi gratis](https://www.kpu.ac.jp/books/JapaneseCuisine.en/yakiba/)

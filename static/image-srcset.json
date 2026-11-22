@@ -986,6 +986,13 @@
     "width": 1870,
     "height": 1106
   },
+  "libri/cucina-giapponese-di-casa.webp": {
+    "hash": "7a5131e3d6906b44b08adf4fde042f50",
+    "original": "/img/libri/cucina-giapponese-di-casa.webp",
+    "srcset": "/img/libri/cucina-giapponese-di-casa-320w.webp 320w",
+    "width": 600,
+    "height": 759
+  },
   "libri/drops-of-god.png": {
     "hash": "30a5ab708a312d7aed64902de56d73a4",
     "original": "/img/libri/drops-of-god.png",
@@ -1000,12 +1007,33 @@
     "width": 251,
     "height": 395
   },
+  "libri/giappone-il-ricettario.png": {
+    "hash": "2d570d57f3200d848008a2ea2315a06f",
+    "original": "/img/libri/giappone-il-ricettario.png",
+    "srcset": "/img/libri/giappone-il-ricettario-320w.webp 320w",
+    "width": 481,
+    "height": 720
+  },
+  "libri/japanese-cooking-a-simple-art.webp": {
+    "hash": "b2d0690aba761d537db5efbb8fc96f89",
+    "original": "/img/libri/japanese-cooking-a-simple-art.webp",
+    "srcset": "/img/libri/japanese-cooking-a-simple-art-320w.webp 320w, /img/libri/japanese-cooking-a-simple-art-640w.webp 640w",
+    "width": 1044,
+    "height": 1500
+  },
   "libri/little-forest.webp": {
     "hash": "43977b6d748c6720a582081627cb6f7d",
     "original": "/img/libri/little-forest.webp",
     "srcset": "/img/libri/little-forest-320w.webp 320w",
     "width": 600,
     "height": 834
+  },
+  "libri/pranzo-a-konoha.webp": {
+    "hash": "eafcd8c3a4bc805b42a2daebf4d05a9f",
+    "original": "/img/libri/pranzo-a-konoha.webp",
+    "srcset": "/img/libri/pranzo-a-konoha-320w.webp 320w, /img/libri/pranzo-a-konoha-640w.webp 640w, /img/libri/pranzo-a-konoha-1280w.webp 1280w",
+    "width": 1512,
+    "height": 2000
   },
   "libri/taverna-di-mezzanotte.webp": {
     "hash": "ef92fd8b24f8c09b878280dafa533aff",
