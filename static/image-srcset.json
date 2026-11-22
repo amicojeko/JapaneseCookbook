@@ -986,6 +986,34 @@
     "width": 1870,
     "height": 1106
   },
+  "libri/drops-of-god.png": {
+    "hash": "30a5ab708a312d7aed64902de56d73a4",
+    "original": "/img/libri/drops-of-god.png",
+    "srcset": "",
+    "width": 263,
+    "height": 380
+  },
+  "libri/food-wars.png": {
+    "hash": "041cc4c159c0dc61f9eaf766fb2ecd06",
+    "original": "/img/libri/food-wars.png",
+    "srcset": "",
+    "width": 251,
+    "height": 395
+  },
+  "libri/little-forest.webp": {
+    "hash": "43977b6d748c6720a582081627cb6f7d",
+    "original": "/img/libri/little-forest.webp",
+    "srcset": "/img/libri/little-forest-320w.webp 320w",
+    "width": 600,
+    "height": 834
+  },
+  "libri/taverna-di-mezzanotte.webp": {
+    "hash": "ef92fd8b24f8c09b878280dafa533aff",
+    "original": "/img/libri/taverna-di-mezzanotte.webp",
+    "srcset": "/img/libri/taverna-di-mezzanotte-320w.webp 320w, /img/libri/taverna-di-mezzanotte-640w.webp 640w, /img/libri/taverna-di-mezzanotte-1280w.webp 1280w",
+    "width": 1440,
+    "height": 2000
+  },
   "libri/tofu-hyakuchin-1782.jpg": {
     "hash": "89f9187cda4249ad2df17f5192af70c2",
     "original": "/img/libri/tofu-hyakuchin-1782.jpg",

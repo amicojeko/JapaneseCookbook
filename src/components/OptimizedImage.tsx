@@ -86,7 +86,7 @@ export default function OptimizedImage({
     );
   }
 
-  return (
+  const img = (
     <img
       src={src}
       alt={alt}
@@ -99,4 +99,9 @@ export default function OptimizedImage({
       style={style}
     />
   );
+
+  // Keep the framing wrapper when the master is too small for any srcset
+  // breakpoint (or isn't in the manifest), so callers that style the
+  // <picture> (es. ArticleCard) look the same as with optimized images.
+  return pictureClassName ? <picture className={pictureClassName}>{img}</picture> : img;
 }

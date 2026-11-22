@@ -4,6 +4,8 @@ description: "Una selezione di libri utili per cucina e cultura gastronomica gia
 slug: "/libri"
 sidebar_position: 5
 ---
+import { ArticleCard } from '@site/src/components/ArticleCard';
+
 # Libri consigliati
 
 In questa sezione raccolgo i libri che mi hanno aiutato davvero: ricettari affidabili, manuali tecnici e testi sulla cultura del cibo giapponese. L'obiettivo è avere una lista corta ma solida, con note chiare su a chi è utile ciascun volume. I link ai libri contengono link di affiliazione Amazon, che non comportano costi aggiuntivi per chi acquista, ma aiutano a sostenere il progetto.
@@ -56,11 +58,37 @@ Questi non sono libri di cucina, ma sono romanzi, fumetti o altri testi giappone
 
 ###  Manga
 
-- [La taverna di mezzanotte](https://amzn.to/4rmrrog) Da questa serie è stata tratta la serie TV di Netflix "Midnight Diner", che racconta le storie di una piccola taverna aperta solo di notte, e dei suoi clienti. È un manga molto bello, con storie semplici ma profonde, e con ricette giapponesi tradizionali che vengono spiegate in modo chiaro e dettagliato. Consigliatissimo per chi vuole scoprire la cucina giapponese attraverso la cucina e le storie dei suoi protagonisti.
+#### La taverna di mezzanotte
 
-- [Food Wars (Shokugeki no Soma)](https://amzn.to/46gPJrl) Un manga molto popolare, da cui è stato tratto un anime, che racconta le avventure di un giovane chef che frequenta una scuola di cucina molto prestigiosa, la versione estrema dei reality show di cucina, e quando un piatto piace particolarmente, esplodono i vestiti dei giudici... letteralmente!!😆
+<ArticleCard subtitle="di Yarō Abe · titolo originale: 深夜食堂" imageSrc="/img/libri/taverna-di-mezzanotte.webp" imageAlt="Copertina del primo volume de La taverna di mezzanotte: un piatto di polpetti rossi e un bicchiere di birra su un tavolo, accanto al proprietario della taverna con la sigaretta in mano">
 
-- [Drops of God](https://amzn.to/46YtoyQ) Un manga dedicato al mondo del vino, con una trama avvincente e personaggi ben sviluppati. È un manga assolutamente imperdibile per gli appassionati di vino, ma anche per chi vuole scoprire il mondo del vino attraverso una storia coinvolgente e ben scritta.
+Da questa serie è stata tratta la serie TV di Netflix "Midnight Diner", che racconta le storie di una piccola taverna aperta solo di notte, e dei suoi clienti. È un manga molto bello, con storie semplici ma profonde, e con ricette giapponesi tradizionali che vengono spiegate in modo chiaro e dettagliato. Consigliatissimo per chi vuole scoprire la cucina giapponese attraverso la cucina e le storie dei suoi protagonisti. [Acquistalo su Amazon](https://amzn.to/4rmrrog).
+
+</ArticleCard>
+
+#### Food Wars (Shokugeki no Soma)
+
+<ArticleCard subtitle="di Yūto Tsukuda e Shun Saeki · titolo originale: 食戟のソーマ" imageSrc="/img/libri/food-wars.png" imageAlt="Copertina del primo volume di Food Wars: il protagonista Sōma sorride con la fascia da cuoco davanti a un grande arrosto con verdure">
+
+Un manga molto popolare, da cui è stato tratto un anime, che racconta le avventure di un giovane chef che frequenta una scuola di cucina molto prestigiosa, la versione estrema dei reality show di cucina, e quando un piatto piace particolarmente, esplodono i vestiti dei giudici... letteralmente!!😆 [Acquistalo su Amazon](https://amzn.to/46gPJrl).
+
+</ArticleCard>
+
+#### Drops of God
+
+<ArticleCard subtitle="di Tadashi Agi e Shu Okimoto · titolo originale: 神の雫" imageSrc="/img/libri/drops-of-god.png" imageAlt="Copertina del primo volume di Drops of God: un giovane dai capelli rossicci davanti a una vetrata colorata con un crocifisso">
+
+Un manga dedicato al mondo del vino, con una trama avvincente e personaggi ben sviluppati. È un manga assolutamente imperdibile per gli appassionati di vino, ma anche per chi vuole scoprire il mondo del vino attraverso una storia coinvolgente e ben scritta. [Acquistalo su Amazon](https://amzn.to/46YtoyQ).
+
+</ArticleCard>
+
+#### Little Forest
+
+<ArticleCard subtitle="di Igarashi Daisuke · edizione Omnibus" imageSrc="/img/libri/little-forest.webp" imageAlt="Copertina di Little Forest, edizione Omnibus: una ragazza seduta con gli stivali di gomma mangia una mela">
+
+Ichiko torna nella sua terra natale, nel Tōhoku, dopo un periodo difficile in città, e vive coltivando la terra e cucinando con quello che le stagioni offrono. Un manga lento, quieto e bellissimo, dove il cibo è parte del ritmo della vita rurale più che spettacolo. Da qui sono stati tratti anche due film live-action, *Little Forest: Summer/Autumn* e *Winter/Spring* (2014-2015), con Ai Hashimoto. Consigliato a chi ama i fumetti contemplativi e la cucina fatta con ingredienti semplici. [Scheda su AnimeClick](https://www.animeclick.it/manga/12783/little-forest).
+
+</ArticleCard>
 
 ## Hai un titolo da consigliare?
 
