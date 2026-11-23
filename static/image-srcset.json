@@ -1210,6 +1210,13 @@
     "width": 1000,
     "height": 788
   },
+  "ricette/harami_kushi.jpg": {
+    "hash": "d4ab1e7d8b84e52e0ebf950b395bbc25",
+    "original": "/img/ricette/harami_kushi.jpg",
+    "srcset": "/img/ricette/harami_kushi-320w.webp 320w, /img/ricette/harami_kushi-640w.webp 640w, /img/ricette/harami_kushi-1280w.webp 1280w, /img/ricette/harami_kushi-1600w.webp 1600w",
+    "width": 1672,
+    "height": 941
+  },
   "ricette/hiyashi_nasu.jpg": {
     "hash": "fbce71411b0dbe40db51d97b17621761",
     "original": "/img/ricette/hiyashi_nasu.jpg",

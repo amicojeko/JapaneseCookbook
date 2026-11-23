@@ -175,6 +175,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "permalink": "/ricette/ninniku_no_misozuke"
     },
     {
+      "id": "ricette/yakimono/harami_kushi",
+      "title": "Harami Kushi",
+      "description": "Harami Kushi: spiedini di diaframma di manzo cotti in padella di ferro e proposti in tre sfiziose varianti (sale e pepe, marinati, teriyaki e aceto). Un secondo saporito e tenace ideale con la birra.",
+      "permalink": "/ricette/harami_kushi"
+    },
+    {
       "id": "ricette/yakimono/nasu_niku_miso",
       "title": "Nasu no Niku Miso",
       "description": "Una ricetta velocissima che unisce la cucina giapponese a quella italiana: carne trita, melanzane e miso per un condimento perfetto per il riso bianco.",
@@ -385,6 +391,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Daikon Shiokombuzuke",
       "description": "Daikon marinato con shio kombu, sesamo e shoyu. Una bomba di umami!",
       "permalink": "/ricette/daikon_shiokombuzuke"
+    },
+    {
+      "id": "ricette/yakimono/harami_kushi",
+      "title": "Harami Kushi",
+      "description": "Harami Kushi: spiedini di diaframma di manzo cotti in padella di ferro e proposti in tre sfiziose varianti (sale e pepe, marinati, teriyaki e aceto). Un secondo saporito e tenace ideale con la birra.",
+      "permalink": "/ricette/harami_kushi"
     },
     {
       "id": "ricette/yakimono/isobeyaki",
@@ -1077,6 +1089,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Nama Harumaki",
       "description": "Gli involtini primavera giapponesi in carta di riso, freschi e non fritti, ripieni di pollo teriyaki",
       "permalink": "/ricette/nama-harumaki"
+    },
+    {
+      "id": "ricette/yakimono/harami_kushi",
+      "title": "Harami Kushi",
+      "description": "Harami Kushi: spiedini di diaframma di manzo cotti in padella di ferro e proposti in tre sfiziose varianti (sale e pepe, marinati, teriyaki e aceto). Un secondo saporito e tenace ideale con la birra.",
+      "permalink": "/ricette/harami_kushi"
     }
   ],
   "sesame oil": [
@@ -1853,6 +1871,12 @@ export const INGREDIENT_RECIPE_INDEX = {
       "title": "Chikuzenni",
       "description": "Un ricco e confortante stufato della tradizione giapponese originario di Fukuoka, preparato con pollo, gobo, radice di loto e shiitake.",
       "permalink": "/ricette/chikuzenni"
+    },
+    {
+      "id": "ricette/yakimono/harami_kushi",
+      "title": "Harami Kushi",
+      "description": "Harami Kushi: spiedini di diaframma di manzo cotti in padella di ferro e proposti in tre sfiziose varianti (sale e pepe, marinati, teriyaki e aceto). Un secondo saporito e tenace ideale con la birra.",
+      "permalink": "/ricette/harami_kushi"
     }
   ],
   "verdure": [

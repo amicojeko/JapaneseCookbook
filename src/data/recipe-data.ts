@@ -2096,6 +2096,35 @@ export const RECIPE_DATA: Record<string, RecipeData> = {
     "videoIds": [],
     "datePublished": "2024-05-07T17:16:28+02:00"
   },
+  "ricette/yakimono/harami_kushi": {
+    "docId": "ricette/yakimono/harami_kushi",
+    "title": "Harami Kushi",
+    "description": "Harami Kushi: spiedini di diaframma di manzo cotti in padella di ferro e proposti in tre sfiziose varianti (sale e pepe, marinati, teriyaki e aceto). Un secondo saporito e tenace ideale con la birra.",
+    "image": "/img/ricette/harami_kushi.jpg",
+    "recipeCategory": "Griglia",
+    "recipeKeywords": [
+      "shoyu",
+      "mirin",
+      "teriyaki",
+      "secondi"
+    ],
+    "recipeYield": null,
+    "recipeIngredient": [
+      "diaframma di manzo q.b.",
+      "sale q.b.",
+      "pepe q.b.",
+      "1 parte di salsa di soia",
+      "1 parte di mirin",
+      "1 parte di zucchero",
+      "2 parti di salsa teriyaki",
+      "1 parte di aceto di riso"
+    ],
+    "instructionsText": "Taglia il diaframma di manzo a striscioline, prestando attenzione a fare il taglio controvena. Infilza le striscioline di carne sugli spiedini nel senso della lunghezza. Per la variante A, condisci gli spiedini in maniera semplice utilizzando solo sale e pepe. Per la variante B, prepara una marinata mescolando la salsa di soia, il mirin e lo zucchero, e lascia marinare gli spiedini per circa un'ora. Per la variante C, unisci in una ciotolina la salsa teriyaki e l'aceto di riso per ottenere una salsa dal gusto deciso. Scalda molto bene una padella in ferro e cuoci gli spiedini fino a rosolarli a dovere, in modo da favorire la reazione di Maillard.",
+    "videoIds": [
+      "9fqNjvAB6qg"
+    ],
+    "datePublished": null
+  },
   "ricette/yakimono/isobeyaki": {
     "docId": "ricette/yakimono/isobeyaki",
     "title": "Isobeyaki",
